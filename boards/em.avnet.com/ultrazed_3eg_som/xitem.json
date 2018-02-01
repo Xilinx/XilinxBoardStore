@@ -1,0 +1,40 @@
+{
+    "config": {
+        "items": [
+            {
+                "infra": {
+                    "name": "ultrazed_3eg_som",
+                    "display": "Ultrazed-EG SOM",
+                    "revision": 1.0,
+                    "description": "UltraZed-EG� SOM is a highly flexible, rugged, System-On-Module (SOM) based on the Xilinx Zynq� UltraScale+� MPSoC.",
+                    "company": "em.avnet.com",
+                    "company_display": "AVNET",
+                    "author": "Xilinx",
+                    "contributors": [
+                        {
+                            "group": "Avnet",
+                            "url": "www.avnet.com"
+                        },
+                        {
+                            "group": "Xilinx",
+                            "url": "http://www.xilinx.com"
+                        }
+                    ],
+                    "category": "Single Part",
+                    "logo": "http://zedboard.org/sites/default/files/styles/product_slider/public/product/TN2_9513.png?itok=83JnQmxL",
+                    "website": "http://http://zedboard.org/product/ultrazed-EG",
+                    "search-keywords": [
+                        "ultrazed",
+                        "ultrazed_eg",
+                        "avnet",
+                        "board",
+                        "Zynq Ultrascale",
+                        "all programmable SoC"
+                    ]
+                }
+            }
+        ],
+        "_major": 1,
+        "_minor": 0
+    }
+}

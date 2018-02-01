@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<part_info part_name="xczu3eg-sfva625-1-i">
+<pins>
+  <pin index="0" name ="CPU_RESET" iostandard="LVCMOS18" loc="D8"/>	
+
+  <pin index="1" name ="GPIO_DIP_SW0" iostandard="LVCMOS18" loc="H1"/>
+  <pin index="2" name ="GPIO_DIP_SW1" iostandard="LVCMOS18" loc="G1"/>
+  <pin index="3" name ="GPIO_DIP_SW2" iostandard="LVCMOS18" loc="G7"/>
+  <pin index="4" name ="GPIO_DIP_SW3" iostandard="LVCMOS18" loc="F7"/>
+  <pin index="5" name ="GPIO_DIP_SW4" iostandard="LVCMOS18" loc="G8"/>
+  <pin index="6" name ="GPIO_DIP_SW5" iostandard="LVCMOS18" loc="F8"/>
+  <pin index="7" name ="GPIO_DIP_SW6" iostandard="LVCMOS18" loc="B3"/>
+  <pin index="8" name ="GPIO_DIP_SW7" iostandard="LVCMOS18" loc="B2"/>
+
+  <pin index="9" name ="GPIO_LED_0_LS" iostandard="LVCMOS18" loc="C8"/>
+  <pin index="10" name ="GPIO_LED_1_LS" iostandard="LVCMOS18" loc="B8"/>
+  <pin index="11" name ="GPIO_LED_2_LS" iostandard="LVCMOS18" loc="A6"/>
+  <pin index="12" name ="GPIO_LED_3_LS" iostandard="LVCMOS18" loc="A5"/>
+  <pin index="13" name ="GPIO_LED_4_LS" iostandard="LVCMOS18" loc="H6"/>
+  <pin index="14" name ="GPIO_LED_5_LS" iostandard="LVCMOS18" loc="G6"/>
+  <pin index="15" name ="GPIO_LED_6_LS" iostandard="LVCMOS18" loc="G5"/>
+  <pin index="16" name ="GPIO_LED_7_LS" iostandard="LVCMOS18" loc="F5"/>
+
+  <pin index="17" name ="GPIO_PUSH_SW0" iostandard="LVCMOS18" loc="E7"/>
+  <pin index="18" name ="GPIO_PUSH_SW1" iostandard="LVCMOS18" loc="A4"/>		
+  <pin index="19" name ="GPIO_PUSH_SW2" iostandard="LVCMOS18" loc="H5"/>		
+	
+</pins>
+</part_info>
