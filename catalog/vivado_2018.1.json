@@ -5,17 +5,17 @@
                 "name": "minized",
                 "display": "Minized",
                 "latest_revision": "1.2",
-                "commit_id": "5f6a2449e2f645b3d5e27b4188cf7095859857e8",
+                "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e",
                 "revisions": [
                     {
                         "revision": "1.2",
-                        "commit_id": "5f6a2449e2f645b3d5e27b4188cf7095859857e8",
-                        "date": "DEC2017",
+                        "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e",
+                        "date": "02:02:2018:21:49:27",
                         "history": "Minized 1.2 board files release."
                     }
                 ],
                 "config": {
-                    "root": "boards/em.avnet.com/minized",
+                    "root": "boards/avnet/minized",
                     "metadata_file": "xitem.json"
                 },
                 "company": "em.avnet.com"
@@ -24,17 +24,17 @@
                 "name": "ultrazed_3eg_som",
                 "display": "Ultrazed-EG SOM",
                 "latest_revision": "1.0",
-                "commit_id": "5f6a2449e2f645b3d5e27b4188cf7095859857e8",
+                "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e",
                 "revisions": [
                     {
                         "revision": "1.0",
-                        "commit_id": "5f6a2449e2f645b3d5e27b4188cf7095859857e8",
-                        "date": "DEC2017",
+                        "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e",
+                        "date": "02:02:2018:21:49:27",
                         "history": "Ultrazed-EG SOM 1.0 board files release."
                     }
                 ],
                 "config": {
-                    "root": "boards/em.avnet.com/ultrazed_3eg_som",
+                    "root": "boards/avnet/ultrazed_3eg_som",
                     "metadata_file": "xitem.json"
                 },
                 "company": "em.avnet.com"                
@@ -43,17 +43,17 @@
                 "name": "ultrazed_3eg_iocc",
                 "display": "UltraZed IO Carrier Card",
                 "latest_revision": "1.0",
-                "commit_id": "5f6a2449e2f645b3d5e27b4188cf7095859857e8",
+                "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e",
                 "revisions": [
                     {
                         "revision": "1.0",
-                        "commit_id": "5f6a2449e2f645b3d5e27b4188cf7095859857e8",
-                        "date": "DEC2017",
+                        "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e",
+                        "date": "02:02:2018:21:49:27",
                         "history": "UltraZed IO Carrier Card 1.0 board files release."
                     }
                 ],
                 "config": {
-                    "root": "boards/em.avnet.com/ultrazed_3eg_iocc",
+                    "root": "boards/avnet/ultrazed_3eg_iocc",
                     "metadata_file": "xitem.json"
                 },
                 "company": "em.avnet.com"                
@@ -62,17 +62,17 @@
                 "name": "ultrazed_eg_pciecc",
                 "display": "UltraZed PCIe Carrier Card",
                 "latest_revision": "1.0",
-                "commit_id": "5f6a2449e2f645b3d5e27b4188cf7095859857e8",
+                "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e",
                 "revisions": [
                     {
                         "revision": "1.0",
-                        "commit_id": "5f6a2449e2f645b3d5e27b4188cf7095859857e8",
-                        "date": "DEC2017",
+                        "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e",
+                        "date": "02:02:2018:21:49:27",
                         "history": "UltraZed PCIe Carrier Card 1.0 board files release."
                     }
                 ],
                 "config": {
-                    "root": "boards/em.avnet.com/ultrazed_3eg_pciecc",
+                    "root": "boards/avnet/ultrazed_3eg_pciecc",
                     "metadata_file": "xitem.json"
                 },
                 "company": "em.avnet.com"                
