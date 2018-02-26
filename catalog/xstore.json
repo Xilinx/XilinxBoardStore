@@ -12,6 +12,13 @@
              "remote_repo_branch_to_sync": "2018.1-dev",
              "catalog_revision": "1.0",
              "commit_id" : ""
+           },
+           {
+             "version": "2018.2",
+             "xitem_catalogue_file": "catalog/vivado_2018.1.json",
+             "remote_repo_branch_to_sync": "2018.1-dev",
+             "catalog_revision": "1.0",
+             "commit_id" : ""
            }
          ]
         }
