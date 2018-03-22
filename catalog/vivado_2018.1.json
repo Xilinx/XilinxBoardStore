@@ -83,26 +83,26 @@
                 "name": "single_part",
                 "display_name": "Single Part",
                 "description": "This category represents all the boards which have single part",
-                "parent": []
+                "parent": ""
             },
             {
                 "name": "multi_part",
                 "display_name": "Multi Part",
                 "description": "This category represents all the boards which have multi part",
-                "parent": []
+                "parent": ""
             },
             {
                 "name": "daughter_card",
                 "display_name": "Daughter Card",
                 "description": "This category represents all the boards which are daughter cards",
-                "parent": []
+                "parent": ""
             },
             {
                 "name": "misc",
                 "display_name": "Misc",
                 "description": "This category represents miscellaneous variety of boards",
                 "default": true,
-                "parent": []
+                "parent": ""
             }
         ],
         "_major": 1,
