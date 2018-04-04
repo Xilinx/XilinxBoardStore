@@ -1,2 +1,14 @@
 # XilinxBoardStore
-XilinxBoardStore - A repository for Xilinx boards.
+Welcome to the Xilinx Board Store GitHub Repository.
+
+The Board Store is an open source repository of Board data files designed primarily for use with the Xilinx Vivado Design Suite. An xitem corresponds to a group or collection of one or more Board data files that is published and maintained by an owner. The xitem owner acts as a gatekeeper for that code and we only accept contributions for an app from the owner. In addition, the entire repository is managed by a Xilinx gatekeeper that controls pushes to the private and public repos.
+
+# Documentation
+The wiki contains documentation on how to use and contribute to the Board Store:
+
+[Click Here to go to the Wiki](https://github.com/Xilinx/XilinxBoardStore/wiki)
+
+# Table of Contents
+Click on the hyperlinks to go to the sample and respective partners board data location, where you will see a list of board data files from respective vendor.  
+
+[Sample Example Board Files](https://github.com/Xilinx/XilinxBoardStore/tree/2018.1-dev/boards/example_vendor)
