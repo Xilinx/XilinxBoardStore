@@ -1,111 +1,130 @@
 {
-    "catalog": {
-        "items": [
-            {
-                "name": "minized",
-                "display": "Minized",
-                "latest_revision": "1.2",
-                "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e",
-                "revisions": [
-                    {
-                        "revision": "1.2",
-                        "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e",
-                        "date": "02:02:2018:21:49:27",
-                        "history": "Minized 1.2 board files release."
-                    }
-                ],
-                "config": {
-                    "root": "boards/avnet/minized",
-                    "metadata_file": "xitem.json"
-                },
-                "company": "em.avnet.com"
-            },
-            {
-                "name": "ultrazed_3eg_som",
-                "display": "Ultrazed-EG SOM",
-                "latest_revision": "1.0",
-                "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e",
-                "revisions": [
-                    {
-                        "revision": "1.0",
-                        "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e",
-                        "date": "02:02:2018:21:49:27",
-                        "history": "Ultrazed-EG SOM 1.0 board files release."
-                    }
-                ],
-                "config": {
-                    "root": "boards/avnet/ultrazed_3eg_som",
-                    "metadata_file": "xitem.json"
-                },
-                "company": "em.avnet.com"                
-            },
-            {
-                "name": "ultrazed_3eg_iocc",
-                "display": "UltraZed IO Carrier Card",
-                "latest_revision": "1.0",
-                "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e",
-                "revisions": [
-                    {
-                        "revision": "1.0",
-                        "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e",
-                        "date": "02:02:2018:21:49:27",
-                        "history": "UltraZed IO Carrier Card 1.0 board files release."
-                    }
-                ],
-                "config": {
-                    "root": "boards/avnet/ultrazed_3eg_iocc",
-                    "metadata_file": "xitem.json"
-                },
-                "company": "em.avnet.com"                
-            },
-            {
-                "name": "ultrazed_eg_pciecc",
-                "display": "UltraZed PCIe Carrier Card",
-                "latest_revision": "1.0",
-                "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e",
-                "revisions": [
-                    {
-                        "revision": "1.0",
-                        "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e",
-                        "date": "02:02:2018:21:49:27",
-                        "history": "UltraZed PCIe Carrier Card 1.0 board files release."
-                    }
-                ],
-                "config": {
-                    "root": "boards/avnet/ultrazed_3eg_pciecc",
-                    "metadata_file": "xitem.json"
-                },
-                "company": "em.avnet.com"                
-            }
-        ],
-        "categories": [
-            {
-                "name": "single_part",
-                "display_name": "Single Part",
-                "description": "This category represents all the boards which have single part",
-                "parent": ""
-            },
-            {
-                "name": "multi_part",
-                "display_name": "Multi Part",
-                "description": "This category represents all the boards which have multi part",
-                "parent": ""
-            },
-            {
-                "name": "daughter_card",
-                "display_name": "Daughter Card",
-                "description": "This category represents all the boards which are daughter cards",
-                "parent": ""
-            },
-            {
-                "name": "misc",
-                "display_name": "Misc",
-                "description": "This category represents miscellaneous variety of boards",
-                "default": true,
-                "parent": ""
-            }
-        ],
-        "_major": 1,
-        "_minor": 0
-    }
+  "catalog": {
+    "items": [
+      {
+        "name": "minized", 
+        "display": "Minized", 
+        "latest_revision": "1.2", 
+        "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e", 
+        "revisions": [
+          {
+            "revision": "1.2", 
+            "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e", 
+            "date": "02:02:2018:21:49:27", 
+            "history": "Minized 1.2 board files release."
+          }
+        ], 
+        "config": {
+          "root": "boards/avnet/minized", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "em.avnet.com"
+      }, 
+      {
+        "name": "ultrazed_3eg_som", 
+        "display": "Ultrazed-EG SOM", 
+        "latest_revision": "1.0", 
+        "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e", 
+        "revisions": [
+          {
+            "revision": "1.0", 
+            "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e", 
+            "date": "02:02:2018:21:49:27", 
+            "history": "Ultrazed-EG SOM 1.0 board files release."
+          }
+        ], 
+        "config": {
+          "root": "boards/avnet/ultrazed_3eg_som", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "em.avnet.com"
+      }, 
+      {
+        "name": "ultrazed_3eg_iocc", 
+        "display": "UltraZed IO Carrier Card", 
+        "latest_revision": "1.0", 
+        "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e", 
+        "revisions": [
+          {
+            "revision": "1.0", 
+            "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e", 
+            "date": "02:02:2018:21:49:27", 
+            "history": "UltraZed IO Carrier Card 1.0 board files release."
+          }
+        ], 
+        "config": {
+          "root": "boards/avnet/ultrazed_3eg_iocc", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "em.avnet.com"
+      }, 
+      {
+        "name": "ultrazed_eg_pciecc", 
+        "display": "UltraZed PCIe Carrier Card", 
+        "latest_revision": "1.0", 
+        "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e", 
+        "revisions": [
+          {
+            "revision": "1.0", 
+            "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e", 
+            "date": "02:02:2018:21:49:27", 
+            "history": "UltraZed PCIe Carrier Card 1.0 board files release."
+          }
+        ], 
+        "config": {
+          "root": "boards/avnet/ultrazed_3eg_pciecc", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "em.avnet.com"
+      }, 
+      {
+        "name": "kc705", 
+        "display": "Kintex-7 KC705 Evaluation Platform", 
+        "latest_revision": "1.5", 
+        "commit_id": "", 
+        "revisions": [
+          {
+            "revision": "1.5", 
+            "commit_id": "", 
+            "date": "06-04-2018:10:14:29", 
+            "history": "Adding kc705 1.5 xilinx board"
+          }
+        ], 
+        "config": {
+          "root": "boards/xilinx/kc705", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
+      }
+    ], 
+    "categories": [
+      {
+        "name": "single_part", 
+        "display_name": "Single Part", 
+        "description": "This category represents all the boards which have single part", 
+        "parent": ""
+      }, 
+      {
+        "name": "multi_part", 
+        "display_name": "Multi Part", 
+        "description": "This category represents all the boards which have multi part", 
+        "parent": ""
+      }, 
+      {
+        "name": "daughter_card", 
+        "display_name": "Daughter Card", 
+        "description": "This category represents all the boards which are daughter cards", 
+        "parent": ""
+      }, 
+      {
+        "name": "misc", 
+        "display_name": "Misc", 
+        "description": "This category represents miscellaneous variety of boards", 
+        "default": true, 
+        "parent": ""
+      }
+    ], 
+    "_major": 1, 
+    "_minor": 0
+  }
 }
