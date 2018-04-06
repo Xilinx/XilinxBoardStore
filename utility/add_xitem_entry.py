@@ -13,13 +13,11 @@ def loadStoreJson(args):
 	current_product = args.product
 	current_product = args.product.lower()
 	current_version = args.version
-	store_dir = store_dir + "/" + args.product + "/" + args.version
-	if not os.path.exists(store_dir):
-                print "Store Dir location is not valid"
-                exit()
+	store_dir_path1 = store_dir + "/" + args.product + "/" + args.version
+	if not os.path.exists(store_dir_path1):
+		store_dir_path1 = store_dir
 
-	catalog_file = store_dir + "/" + "catalog/xstore.json"
-  
+	catalog_file = store_dir_path1 + "/" + "catalog/xstore.json"
 	try :
                 infile= open(catalog_file,"r")
         except IOError:
@@ -29,6 +27,7 @@ def loadStoreJson(args):
 		infile.close()
 
 	is_product_supported = False
+
 	with open(catalog_file, 'r') as json_file:
         	data = json.load(json_file,object_pairs_hook=OrderedDict)
 		catalog = data['catalog']
@@ -54,12 +53,32 @@ def loadStoreJson(args):
 			print "The store is not supported"
 			exit()
 		json_file.close()
-		catalog_file = store_dir + "/" + item_catalog_file
-		print catalog_file
+		catalog_file = store_dir_path1 + "/" + item_catalog_file
 		addXitemEntry(args,catalog_file)
+
+def extractItemRoot(args,item_revision):
+	store_dir = args.store_dir
+	item_json = args.xitem_file
+	abs_store_dir = os.path.abspath(store_dir)
+	abs_item_json_path = os.path.abspath(item_json)
+	item_root = abs_item_json_path
+	
+	item_root = abs_item_json_path.replace(abs_store_dir,'')
+	prefix_dir = "/" + args.product + "/" + args.version + "/"
+	item_root = item_root.replace(prefix_dir,'')
+	suffix_dir = item_revision + "/xitem.json" 
+	item_root = item_root.replace(suffix_dir,'')
+	return item_root
 
 def addXitemEntry(args,item_catalog_file):
 	store_dir = args.store_dir	
+	try :
+                infile= open(item_catalog_file,"r")
+        except IOError:
+                print 'cannot open', item_catalog_file
+                exit()
+        else:
+                infile.close()	
 		
 	with open(item_catalog_file, 'r') as json_file:
         	data = json.load(json_file,object_pairs_hook=OrderedDict)
@@ -75,6 +94,14 @@ def addXitemEntry(args,item_catalog_file):
 			json_file.close()
 		
 def loadXitemJson(xitem_json_file,xitems,args):
+	try :
+                infile= open(xitem_json_file,"r")
+        except IOError:
+                print 'cannot open', xitem_json_file
+                exit()
+        else:
+                infile.close()
+	
 	with open(xitem_json_file, 'r') as xitem_json_file:
         	xitem_data = json.load(xitem_json_file,object_pairs_hook=OrderedDict)
                 xitem_config = xitem_data['config']
@@ -98,8 +125,10 @@ def loadXitemJson(xitem_json_file,xitems,args):
 		current_revision['history'] = args.description
 		revisions = [current_revision]
 
+		item_root = ""		
+		item_root = extractItemRoot(args,xitem_infra['revision'])
 		item_config = OrderedDict()
-		item_config['root'] = args.config_root
+		item_config['root'] = item_root
 		item_config['metadata_file'] = "xitem.json"
 		new_item['revisions'] = revisions
 		new_item['config'] = item_config
@@ -132,24 +161,26 @@ def loadXitemJson(xitem_json_file,xitems,args):
 
 		else:
 			xitems.append(new_item) 
+			message = "Added the item" + new_item['name'] + ":" + xitem_infra['revision'] + " in to item catalog file."
+			print message 
 		
 
 def parse_cmdline():
 
     parser = argparse.ArgumentParser(description='Utility python script',
             epilog="Utility script to add xitem entry in store catalog file .")
-    parser.add_argument('--catalog_file', help="Path of the store catalog file", required = False)
+#    parser.add_argument('--catalog_file', help="Path of the store catalog file", required = False)
     parser.add_argument('--store_dir', help="Store Root Directory which has all the boards, catalog files", required = True)
     parser.add_argument('--output_file', help="Path of the board.xml file", required = False)
     parser.add_argument('--xitem_file', help="Path of the xitem json file", required = True)
-    parser.add_argument('--config_root', help="Path of the xitem relative to store root", required = True)
+ #   parser.add_argument('--item_root', help="Path of the xitem relative to store root", required = True)
     parser.add_argument('--commit_id', help="Path of the xitem json file", required = False,default = "")
     parser.add_argument('--description', help="Decsription of the xitem ", required = True)
     parser.add_argument('--product', help="Decsription of the xitem ", required = False,default = "Vivado")
-    parser.add_argument('--version', help="Decsription of the xitem ", required = False,default = "2018.2")
+    parser.add_argument('--version', help="Decsription of the xitem ", required = False,default = "2018.1")
     parser.add_argument('--major_version', type = int,help="xstore json major version ", required = False,default = "2")
     parser.add_argument('--minor_version', type = int,help="xstore minor version ", required = False,default = "0")
-    parser.add_argument('--mark_latest', type=bool, help="To mark this xitem revision as latest revision (in case of multiple revisions of items are present)", required = False, default = False)
+    parser.add_argument('--mark_latest', type=bool, help="To mark this xitem revision as latest revision (in case of multiple revisions of items are present)", required = False, default = True)
     return parser
 
 def main():
