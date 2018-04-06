@@ -1,0 +1,160 @@
+import sys
+import argparse
+import json
+import os
+from collections import OrderedDict
+from time import gmtime, strftime
+
+def loadStoreJson(args):
+	store_dir = args.store_dir
+	if store_dir.endswith('/'):
+		store_dir = store_dir[:-1]
+
+	current_product = args.product
+	current_product = args.product.lower()
+	current_version = args.version
+	store_dir = store_dir + "/" + args.product + "/" + args.version
+	if not os.path.exists(store_dir):
+                print "Store Dir location is not valid"
+                exit()
+
+	catalog_file = store_dir + "/" + "catalog/xstore.json"
+  
+	try :
+                infile= open(catalog_file,"r")
+        except IOError:
+                print 'cannot open', catalog_file
+		exit()
+	else:
+		infile.close()
+
+	is_product_supported = False
+	with open(catalog_file, 'r') as json_file:
+        	data = json.load(json_file,object_pairs_hook=OrderedDict)
+		catalog = data['catalog']
+
+		if catalog['_major'] != args.major_version: 
+			print "store Major version is not supported"
+			exit()
+
+		if catalog['_minor'] != args.minor_version:
+			print "store Minor version is not supported"
+			exit()
+
+		supported_products = catalog['supported_products']
+		for supported_product in supported_products:
+			if (current_product == supported_product['product_name']):
+				supported_versions = supported_product['supported_releases']
+				for supported_version in supported_versions:
+					if supported_version['version'] == current_version:
+						is_product_supported = True
+						item_catalog_file = supported_version['xitem_catalogue_file']				
+
+		if is_product_supported == False:
+			print "The store is not supported"
+			exit()
+		json_file.close()
+		catalog_file = store_dir + "/" + item_catalog_file
+		print catalog_file
+		addXitemEntry(args,catalog_file)
+
+def addXitemEntry(args,item_catalog_file):
+	store_dir = args.store_dir	
+		
+	with open(item_catalog_file, 'r') as json_file:
+        	data = json.load(json_file,object_pairs_hook=OrderedDict)
+
+		catalog = data['catalog']	
+		items = catalog['items']
+
+		loadXitemJson(args.xitem_file,items,args)
+		json_file.close()
+		
+		with open(item_catalog_file, 'w') as json_file:
+			json.dump(data,json_file,indent =2)
+			json_file.close()
+		
+def loadXitemJson(xitem_json_file,xitems,args):
+	with open(xitem_json_file, 'r') as xitem_json_file:
+        	xitem_data = json.load(xitem_json_file,object_pairs_hook=OrderedDict)
+                xitem_config = xitem_data['config']
+                xitem_items = xitem_config['items']
+                if len(xitem_items) < 1:
+			print "Not get xitems , xitem file is not valid"
+			exit()
+
+               	xitem_infra = xitem_items[0]['infra']
+                new_item = OrderedDict()
+                new_item['name'] = xitem_infra['name']
+                new_item['display'] = xitem_infra['display']
+                new_item['latest_revision'] = xitem_infra['revision']	
+		new_item['commit_id'] = args.commit_id
+
+		current_revision = OrderedDict()
+		current_revision['revision'] = xitem_infra['revision']
+		current_revision['commit_id'] = args.commit_id
+		showtime = strftime("%d-%m-%Y:%H:%M:%S", gmtime())
+		current_revision['date'] = showtime 		
+		current_revision['history'] = args.description
+		revisions = [current_revision]
+
+		item_config = OrderedDict()
+		item_config['root'] = args.config_root
+		item_config['metadata_file'] = "xitem.json"
+		new_item['revisions'] = revisions
+		new_item['config'] = item_config
+		new_item['company'] = xitem_infra['company']
+
+		item_already_found = False
+		item_revision_found = False
+ 		
+		for xitem in xitems:
+			if xitem['name']== new_item['name']:
+				existed_xitem = xitem
+				item_already_found = True
+				break
+
+		if item_already_found:
+			existed_revisions = existed_xitem['revisions'] 
+			for existed_revision in existed_revisions:
+				if existed_revision['revision'] == xitem_infra['revision']:
+					item_revision_found = True
+					break
+		if item_already_found:
+			if item_revision_found:
+				print "not adding xitem as it is already present"
+				return
+			else: 
+				existed_revisions = existed_xitem['revisions']
+				existed_revisions.append(current_revision)		
+				if args.mark_latest: 
+					existed_xitem['latest_revision'] = xitem_infra['revision']
+
+		else:
+			xitems.append(new_item) 
+		
+
+def parse_cmdline():
+
+    parser = argparse.ArgumentParser(description='Utility python script',
+            epilog="Utility script to add xitem entry in store catalog file .")
+    parser.add_argument('--catalog_file', help="Path of the store catalog file", required = False)
+    parser.add_argument('--store_dir', help="Store Root Directory which has all the boards, catalog files", required = True)
+    parser.add_argument('--output_file', help="Path of the board.xml file", required = False)
+    parser.add_argument('--xitem_file', help="Path of the xitem json file", required = True)
+    parser.add_argument('--config_root', help="Path of the xitem relative to store root", required = True)
+    parser.add_argument('--commit_id', help="Path of the xitem json file", required = False,default = "")
+    parser.add_argument('--description', help="Decsription of the xitem ", required = True)
+    parser.add_argument('--product', help="Decsription of the xitem ", required = False,default = "Vivado")
+    parser.add_argument('--version', help="Decsription of the xitem ", required = False,default = "2018.2")
+    parser.add_argument('--major_version', type = int,help="xstore json major version ", required = False,default = "2")
+    parser.add_argument('--minor_version', type = int,help="xstore minor version ", required = False,default = "0")
+    parser.add_argument('--mark_latest', type=bool, help="To mark this xitem revision as latest revision (in case of multiple revisions of items are present)", required = False, default = False)
+    return parser
+
+def main():
+        parser = parse_cmdline()
+        args = parser.parse_args()
+	loadStoreJson(args)	
+			
+if __name__ == '__main__': main()
