@@ -6,9 +6,10 @@ The Board Store is an open source repository of Board data files designed primar
 # Documentation
 The wiki contains documentation on how to use and contribute to the Board Store:
 
-[Click Here to go to the Wiki](https://github.com/Xilinx/XilinxBoardStore/wiki)
+[Click Here to go to the Wiki](https://github.com/Xilinx/XilinxBoardStore/wiki/Xilinx-Board-Store-Home)
 
 # Table of Contents
-Click on the hyperlinks to go to the sample and respective partners board data location, where you will see a list of board data files from respective vendor.  
+Click on the corresponding hyperlinks to go to the sample and partners board data location, where you will see a list of board data files.  
 
-[Sample Example Board Files](https://github.com/Xilinx/XilinxBoardStore/tree/master/boards/example_vendor)
+[Sample Example Board Files](https://github.com/Xilinx/XilinxBoardStore/tree/2018.1-dev/boards/example_vendor)
+
