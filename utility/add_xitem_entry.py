@@ -32,11 +32,11 @@ def loadStoreJson(args):
         	data = json.load(json_file,object_pairs_hook=OrderedDict)
 		catalog = data['catalog']
 
-		if catalog['_major'] != args.major_version: 
+		if catalog['_major'] != 2: 
 			print "store Major version is not supported"
 			exit()
 
-		if catalog['_minor'] != args.minor_version:
+		if catalog['_minor'] != 0:
 			print "store Minor version is not supported"
 			exit()
 
@@ -178,8 +178,6 @@ def parse_cmdline():
     parser.add_argument('--description', help="Decsription of the xitem ", required = True)
     parser.add_argument('--product', help="Decsription of the xitem ", required = False,default = "Vivado")
     parser.add_argument('--version', help="Decsription of the xitem ", required = False,default = "2018.1")
-    parser.add_argument('--major_version', type = int,help="xstore json major version ", required = False,default = "2")
-    parser.add_argument('--minor_version', type = int,help="xstore minor version ", required = False,default = "0")
     parser.add_argument('--mark_latest', type=bool, help="To mark this xitem revision as latest revision (in case of multiple revisions of items are present)", required = False, default = True)
     return parser
 
