@@ -19,9 +19,9 @@ def loadStoreJson(args):
 
 	catalog_file = store_dir_path1 + "/" + "catalog/xstore.json"
 	try :
-                infile= open(catalog_file,"r")
-        except IOError:
-                print ('cannot open', catalog_file)
+		infile= open(catalog_file,"r")
+	except IOError:
+		print ('cannot open', catalog_file)
 		exit()
 	else:
 		infile.close()
@@ -81,8 +81,7 @@ def addXitemEntry(args,item_catalog_file):
                 infile.close()	
 		
 	with open(item_catalog_file, 'r') as json_file:
-        	data = json.load(json_file,object_pairs_hook=OrderedDict)
-
+		data = json.load(json_file,object_pairs_hook=OrderedDict)
 		catalog = data['catalog']	
 		items = catalog['items']
 
@@ -95,26 +94,25 @@ def addXitemEntry(args,item_catalog_file):
 		
 def loadXitemJson(xitem_json_file,xitems,args):
 	try :
-                infile= open(xitem_json_file,"r")
-        except IOError:
-                print ('cannot open', xitem_json_file)
-                exit()
-        else:
-                infile.close()
+		infile= open(xitem_json_file,"r")
+	except IOError:
+		print ('cannot open', xitem_json_file)
+		exit()
+	else:
+		infile.close()
 	
 	with open(xitem_json_file, 'r') as xitem_json_file:
-        	xitem_data = json.load(xitem_json_file,object_pairs_hook=OrderedDict)
-                xitem_config = xitem_data['config']
-                xitem_items = xitem_config['items']
-                if len(xitem_items) < 1:
+		xitem_data = json.load(xitem_json_file,object_pairs_hook=OrderedDict)
+		xitem_config = xitem_data['config']
+		xitem_items = xitem_config['items']
+		if len(xitem_items) < 1:
 			print ("Not get xitems , xitem file is not valid")
 			exit()
-
-               	xitem_infra = xitem_items[0]['infra']
-                new_item = OrderedDict()
-                new_item['name'] = xitem_infra['name']
-                new_item['display'] = xitem_infra['display']
-                new_item['latest_revision'] = xitem_infra['revision']	
+		xitem_infra = xitem_items[0]['infra']
+		new_item = OrderedDict()
+		new_item['name'] = xitem_infra['name']
+		new_item['display'] = xitem_infra['display']
+		new_item['latest_revision'] = xitem_infra['revision']	
 		new_item['commit_id'] = args.commit_id
 
 		current_revision = OrderedDict()
@@ -182,8 +180,8 @@ def parse_cmdline():
     return parser
 
 def main():
-        parser = parse_cmdline()
-        args = parser.parse_args()
+	parser = parse_cmdline()
+	args = parser.parse_args()
 	loadStoreJson(args)	
 			
 if __name__ == '__main__': main()
