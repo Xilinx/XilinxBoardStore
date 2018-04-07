@@ -21,7 +21,7 @@ def loadStoreJson(args):
 	try :
                 infile= open(catalog_file,"r")
         except IOError:
-                print 'cannot open', catalog_file
+                print ('cannot open', catalog_file)
 		exit()
 	else:
 		infile.close()
@@ -33,11 +33,11 @@ def loadStoreJson(args):
 		catalog = data['catalog']
 
 		if catalog['_major'] != 2: 
-			print "store Major version is not supported"
+			print ("store Major version is not supported")
 			exit()
 
 		if catalog['_minor'] != 0:
-			print "store Minor version is not supported"
+			print ("store Minor version is not supported")
 			exit()
 
 		supported_products = catalog['supported_products']
@@ -50,7 +50,7 @@ def loadStoreJson(args):
 						item_catalog_file = supported_version['xitem_catalogue_file']				
 
 		if is_product_supported == False:
-			print "The store is not supported"
+			print ("The store is not supported")
 			exit()
 		json_file.close()
 		catalog_file = store_dir_path1 + "/" + item_catalog_file
@@ -75,7 +75,7 @@ def addXitemEntry(args,item_catalog_file):
 	try :
                 infile= open(item_catalog_file,"r")
         except IOError:
-                print 'cannot open', item_catalog_file
+                print ('cannot open', item_catalog_file)
                 exit()
         else:
                 infile.close()	
@@ -97,7 +97,7 @@ def loadXitemJson(xitem_json_file,xitems,args):
 	try :
                 infile= open(xitem_json_file,"r")
         except IOError:
-                print 'cannot open', xitem_json_file
+                print ('cannot open', xitem_json_file)
                 exit()
         else:
                 infile.close()
@@ -107,7 +107,7 @@ def loadXitemJson(xitem_json_file,xitems,args):
                 xitem_config = xitem_data['config']
                 xitem_items = xitem_config['items']
                 if len(xitem_items) < 1:
-			print "Not get xitems , xitem file is not valid"
+			print ("Not get xitems , xitem file is not valid")
 			exit()
 
                	xitem_infra = xitem_items[0]['infra']
@@ -151,7 +151,7 @@ def loadXitemJson(xitem_json_file,xitems,args):
 					break
 		if item_already_found:
 			if item_revision_found:
-				print "not adding xitem as it is already present"
+				print ("not adding xitem as it is already present")
 				return
 			else: 
 				existed_revisions = existed_xitem['revisions']
@@ -162,7 +162,7 @@ def loadXitemJson(xitem_json_file,xitems,args):
 		else:
 			xitems.append(new_item) 
 			message = "Added the item" + new_item['name'] + ":" + xitem_infra['revision'] + " in to item catalog file."
-			print message 
+			print (message) 
 		
 
 def parse_cmdline():
