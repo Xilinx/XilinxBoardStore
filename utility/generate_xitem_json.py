@@ -26,7 +26,7 @@ def createXitemJson(xmldoc,args) :
 
 	imlength = len(imagelist)
 	deslist = xmldoc.getElementsByTagName("description")	
-        deslen = len(deslist)
+	deslen = len(deslist)
 	if deslen > 0 :
 		des = deslist[imlength].firstChild
 		if des:
@@ -113,7 +113,7 @@ def parse_cmdline():
 
 def main():
 	parser = parse_cmdline()
-        args = parser.parse_args() 
+	args = parser.parse_args() 
 	try : 
 		infile= open(args.board_file,"r")
 	except IOError:
