@@ -29,7 +29,7 @@ def loadStoreJson(args):
 	is_product_supported = False
 
 	with open(catalog_file, 'r') as json_file:
-        	data = json.load(json_file,object_pairs_hook=OrderedDict)
+		data = json.load(json_file,object_pairs_hook=OrderedDict)
 		catalog = data['catalog']
 
 		if catalog['_major'] != 2: 
