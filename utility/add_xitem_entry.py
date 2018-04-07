@@ -74,11 +74,11 @@ def addXitemEntry(args,item_catalog_file):
 	store_dir = args.store_dir	
 	try :
                 infile= open(item_catalog_file,"r")
-        except IOError:
-                print ('cannot open', item_catalog_file)
-                exit()
-        else:
-                infile.close()	
+	except IOError:
+		print ('cannot open', item_catalog_file)
+		exit()
+	else:
+		infile.close()	
 		
 	with open(item_catalog_file, 'r') as json_file:
 		data = json.load(json_file,object_pairs_hook=OrderedDict)
