@@ -73,7 +73,7 @@ def extractItemRoot(args,item_revision):
 def addXitemEntry(args,item_catalog_file):
 	store_dir = args.store_dir	
 	try :
-                infile= open(item_catalog_file,"r")
+		infile= open(item_catalog_file,"r")
 	except IOError:
 		print ('cannot open', item_catalog_file)
 		exit()
