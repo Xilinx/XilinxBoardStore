@@ -2,80 +2,23 @@
     "catalog": {
         "items": [
             {
-                "name": "minized",
-                "display": "Minized",
-                "latest_revision": "1.2",
-                "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e",
+                "name": "Sample_kc705",
+                "display": "Sample Kintex-7 KC705 Evaluation Platform",
+                "latest_revision": "1.5",
+                "commit_id": "",
                 "revisions": [
                     {
-                        "revision": "1.2",
-                        "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e",
-                        "date": "02:02:2018:21:49:27",
-                        "history": "Minized 1.2 board files release."
+                        "revision": "1.5",
+                        "commit_id": "",
+                        "date": "APR2018",
+                        "history": "Sample Kintex-7 KC705 Evaluation Platform."
                     }
                 ],
                 "config": {
-                    "root": "boards/avnet/minized",
+                    "root": "boards/example_vendor/example_board",
                     "metadata_file": "xitem.json"
                 },
-                "company": "em.avnet.com"
-            },
-            {
-                "name": "ultrazed_3eg_som",
-                "display": "Ultrazed-EG SOM",
-                "latest_revision": "1.0",
-                "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e",
-                "revisions": [
-                    {
-                        "revision": "1.0",
-                        "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e",
-                        "date": "02:02:2018:21:49:27",
-                        "history": "Ultrazed-EG SOM 1.0 board files release."
-                    }
-                ],
-                "config": {
-                    "root": "boards/avnet/ultrazed_3eg_som",
-                    "metadata_file": "xitem.json"
-                },
-                "company": "em.avnet.com"                
-            },
-            {
-                "name": "ultrazed_3eg_iocc",
-                "display": "UltraZed IO Carrier Card",
-                "latest_revision": "1.0",
-                "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e",
-                "revisions": [
-                    {
-                        "revision": "1.0",
-                        "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e",
-                        "date": "02:02:2018:21:49:27",
-                        "history": "UltraZed IO Carrier Card 1.0 board files release."
-                    }
-                ],
-                "config": {
-                    "root": "boards/avnet/ultrazed_3eg_iocc",
-                    "metadata_file": "xitem.json"
-                },
-                "company": "em.avnet.com"                
-            },
-            {
-                "name": "ultrazed_eg_pciecc",
-                "display": "UltraZed PCIe Carrier Card",
-                "latest_revision": "1.0",
-                "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e",
-                "revisions": [
-                    {
-                        "revision": "1.0",
-                        "commit_id": "fe08980cfdf699adb1fc5c4a6ae3ee095fbad10e",
-                        "date": "02:02:2018:21:49:27",
-                        "history": "UltraZed PCIe Carrier Card 1.0 board files release."
-                    }
-                ],
-                "config": {
-                    "root": "boards/avnet/ultrazed_3eg_pciecc",
-                    "metadata_file": "xitem.json"
-                },
-                "company": "em.avnet.com"                
+                "company": "xilinx.com"
             }
         ],
         "categories": [
