@@ -5,11 +5,11 @@
                 "name": "Sample_kc705",
                 "display": "Sample Kintex-7 KC705 Evaluation Platform",
                 "latest_revision": "1.5",
-                "commit_id": "",
+                "commit_id": "eceedd610ffe61b4fb48575dbdae2f7f5e7d18ac",
                 "revisions": [
                     {
                         "revision": "1.5",
-                        "commit_id": "",
+                        "commit_id": "eceedd610ffe61b4fb48575dbdae2f7f5e7d18ac",
                         "date": "APR2018",
                         "history": "Sample Kintex-7 KC705 Evaluation Platform."
                     }
