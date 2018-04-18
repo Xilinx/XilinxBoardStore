@@ -65,9 +65,13 @@ def extractItemRoot(args,item_revision):
 	
 	item_root = abs_item_json_path.replace(abs_store_dir,'')
 	prefix_dir = "/" + args.product + "/" + args.version + "/"
-	item_root = item_root.replace(prefix_dir,'')
+	if item_root.startswith(prefix_dir) : 
+		item_root = item_root.replace(prefix_dir,'')
 	suffix_dir = item_revision + "/xitem.json" 
-	item_root = item_root.replace(suffix_dir,'')
+	if item_root.endswith(suffix_dir):
+		item_root = item_root.replace(suffix_dir,'')
+	elif item_root.endswith('/xitem.json'):
+		item_root= item_root.replace('/xitem.json','')
 	return item_root
 
 def addXitemEntry(args,item_catalog_file):
