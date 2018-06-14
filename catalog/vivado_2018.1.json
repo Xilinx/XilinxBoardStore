@@ -1,54 +1,73 @@
 {
-    "catalog": {
-        "items": [
-            {
-                "name": "Sample_kc705",
-                "display": "Sample Kintex-7 KC705 Evaluation Platform",
-                "latest_revision": "1.5",
-                "commit_id": "eceedd610ffe61b4fb48575dbdae2f7f5e7d18ac",
-                "revisions": [
-                    {
-                        "revision": "1.5",
-                        "commit_id": "eceedd610ffe61b4fb48575dbdae2f7f5e7d18ac",
-                        "date": "APR2018",
-                        "history": "Sample Kintex-7 KC705 Evaluation Platform."
-                    }
-                ],
-                "config": {
-                    "root": "boards/example_vendor/example_board",
-                    "metadata_file": "xitem.json"
-                },
-                "company": "xilinx.com"
-            }
-        ],
-        "categories": [
-            {
-                "name": "single_part",
-                "display_name": "Single Part",
-                "description": "This category represents all the boards which have single part",
-                "parent": ""
-            },
-            {
-                "name": "multi_part",
-                "display_name": "Multi Part",
-                "description": "This category represents all the boards which have multi part",
-                "parent": ""
-            },
-            {
-                "name": "daughter_card",
-                "display_name": "Daughter Card",
-                "description": "This category represents all the boards which are daughter cards",
-                "parent": ""
-            },
-            {
-                "name": "misc",
-                "display_name": "Misc",
-                "description": "This category represents miscellaneous variety of boards",
-                "default": true,
-                "parent": ""
-            }
-        ],
-        "_major": 1,
-        "_minor": 0
-    }
+  "catalog": {
+    "items": [
+      {
+        "name": "Sample_kc705", 
+        "display": "Sample Kintex-7 KC705 Evaluation Platform", 
+        "latest_revision": "1.5", 
+        "commit_id": "eceedd610ffe61b4fb48575dbdae2f7f5e7d18ac", 
+        "revisions": [
+          {
+            "revision": "1.5", 
+            "commit_id": "eceedd610ffe61b4fb48575dbdae2f7f5e7d18ac", 
+            "date": "APR2018", 
+            "history": "Sample Kintex-7 KC705 Evaluation Platform."
+          }
+        ], 
+        "config": {
+          "root": "boards/example_vendor/example_board", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
+      }, 
+      {
+        "name": "pcie_example", 
+        "display": "Zynq UltraScale+ pcie_example Development Board", 
+        "latest_revision": "1.0", 
+        "commit_id": "", 
+        "revisions": [
+          {
+            "revision": "1.0", 
+            "commit_id": "", 
+            "date": "14-06-2018:17:39:06", 
+            "history": "Adding PCIe_Example 1.0 to the XilinxBoardStore"
+          }
+        ], 
+        "config": {
+          "root": "\\boards\\XilinxHLx\\PCIe_Example\\xitem.json", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
+      }
+    ], 
+    "categories": [
+      {
+        "name": "single_part", 
+        "display_name": "Single Part", 
+        "description": "This category represents all the boards which have single part", 
+        "parent": ""
+      }, 
+      {
+        "name": "multi_part", 
+        "display_name": "Multi Part", 
+        "description": "This category represents all the boards which have multi part", 
+        "parent": ""
+      }, 
+      {
+        "name": "daughter_card", 
+        "display_name": "Daughter Card", 
+        "description": "This category represents all the boards which are daughter cards", 
+        "parent": ""
+      }, 
+      {
+        "name": "misc", 
+        "display_name": "Misc", 
+        "description": "This category represents miscellaneous variety of boards", 
+        "default": true, 
+        "parent": ""
+      }
+    ], 
+    "_major": 1, 
+    "_minor": 0
+  }
 }
