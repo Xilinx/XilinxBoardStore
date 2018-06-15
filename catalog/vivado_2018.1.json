@@ -34,7 +34,7 @@
           }
         ], 
         "config": {
-          "root": "\\boards\\XilinxHLx\\PCIe_Example\\xitem.json", 
+          "root": "boards/XilinxHLx/PCIe_Example", 
           "metadata_file": "xitem.json"
         }, 
         "company": "xilinx.com"
