@@ -24,11 +24,11 @@
         "name": "pcie_example", 
         "display": "Zynq UltraScale+ pcie_example Development Board", 
         "latest_revision": "1.0", 
-        "commit_id": "", 
+        "commit_id": "98a1dad6cb57a0d8ae42808a1169bca7fe151dc1", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "", 
+            "commit_id": "98a1dad6cb57a0d8ae42808a1169bca7fe151dc1", 
             "date": "14-06-2018:17:39:06", 
             "history": "Adding PCIe_Example 1.0 to the XilinxBoardStore"
           }
