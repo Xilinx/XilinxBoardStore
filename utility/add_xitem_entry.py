@@ -73,6 +73,10 @@ def extractItemRoot(args,item_revision):
 	elif item_root.endswith('xitem.json'):
 		item_root= item_root.replace('xitem.json','')
 		item_root = item_root.replace('\\','/')
+	if item_root.startswith('/'):
+		item_root = item_root[1:]
+	if item_root.endswith('/'):
+		item_root = item_root[:-1]
 	return item_root
 
 def addXitemEntry(args,item_catalog_file):
