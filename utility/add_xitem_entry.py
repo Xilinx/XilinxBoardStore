@@ -70,8 +70,8 @@ def extractItemRoot(args,item_revision):
 	suffix_dir = item_revision + "/xitem.json" 
 	if item_root.endswith(suffix_dir):
 		item_root = item_root.replace(suffix_dir,'')
-	elif item_root.endswith('/xitem.json'):
-		item_root= item_root.replace('/xitem.json','')
+	elif item_root.endswith('xitem.json'):
+		item_root= item_root.replace('xitem.json','')
 	return item_root
 
 def addXitemEntry(args,item_catalog_file):
