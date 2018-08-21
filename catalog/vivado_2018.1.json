@@ -56,7 +56,27 @@
           "root": "boards/Avnet/ultra96/1.2", 
           "metadata_file": "xitem.json"
         }, 
-        "company": "em.avnet.com"      }
+        "company": "em.avnet.com"
+      }, 
+      {
+        "name": "design_1", 
+        "display": "My New Board", 
+        "latest_revision": "0.90", 
+        "commit_id": "59fdb693e3e66ee9959bb37c305838dc7b7a0542", 
+        "revisions": [
+          {
+            "revision": "0.90", 
+            "commit_id": "59fdb693e3e66ee9959bb37c305838dc7b7a0542", 
+            "date": "21-08-2018:22:58:11", 
+            "history": "Adding System Monitor 0.9 to the Xilinx_board_store --product Vivado --version 2018.1"
+          }
+        ], 
+        "config": {
+          "root": "boards/Xilinx_Interface_Examples/System_Monitor/0.90", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx"
+      }
     ], 
     "categories": [
       {
