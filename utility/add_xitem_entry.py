@@ -19,9 +19,9 @@ def loadStoreJson(args):
 
 	catalog_file = store_dir_path1 + "/" + "catalog/xstore.json"
 	try :
-                infile= open(catalog_file,"r")
-        except IOError:
-                print 'cannot open', catalog_file
+		infile= open(catalog_file,"r")
+	except IOError:
+		print ('cannot open', catalog_file)
 		exit()
 	else:
 		infile.close()
@@ -29,15 +29,15 @@ def loadStoreJson(args):
 	is_product_supported = False
 
 	with open(catalog_file, 'r') as json_file:
-        	data = json.load(json_file,object_pairs_hook=OrderedDict)
+		data = json.load(json_file,object_pairs_hook=OrderedDict)
 		catalog = data['catalog']
 
 		if catalog['_major'] != 2: 
-			print "store Major version is not supported"
+			print ("store Major version is not supported")
 			exit()
 
 		if catalog['_minor'] != 0:
-			print "store Minor version is not supported"
+			print ("store Minor version is not supported")
 			exit()
 
 		supported_products = catalog['supported_products']
@@ -50,7 +50,7 @@ def loadStoreJson(args):
 						item_catalog_file = supported_version['xitem_catalogue_file']				
 
 		if is_product_supported == False:
-			print "The store is not supported"
+			print ("The store is not supported")
 			exit()
 		json_file.close()
 		catalog_file = store_dir_path1 + "/" + item_catalog_file
@@ -70,23 +70,27 @@ def extractItemRoot(args,item_revision):
 	suffix_dir = item_revision + "/xitem.json" 
 	if item_root.endswith(suffix_dir):
 		item_root = item_root.replace(suffix_dir,'')
-	elif item_root.endswith('/xitem.json'):
-		item_root= item_root.replace('/xitem.json','')
+	elif item_root.endswith('xitem.json'):
+		item_root= item_root.replace('xitem.json','')
+		item_root = item_root.replace('\\','/')
+	if item_root.startswith('/'):
+		item_root = item_root[1:]
+	if item_root.endswith('/'):
+		item_root = item_root[:-1]
 	return item_root
 
 def addXitemEntry(args,item_catalog_file):
 	store_dir = args.store_dir	
 	try :
-                infile= open(item_catalog_file,"r")
-        except IOError:
-                print 'cannot open', item_catalog_file
-                exit()
-        else:
-                infile.close()	
+		infile= open(item_catalog_file,"r")
+	except IOError:
+		print ('cannot open', item_catalog_file)
+		exit()
+	else:
+		infile.close()	
 		
 	with open(item_catalog_file, 'r') as json_file:
-        	data = json.load(json_file,object_pairs_hook=OrderedDict)
-
+		data = json.load(json_file,object_pairs_hook=OrderedDict)
 		catalog = data['catalog']	
 		items = catalog['items']
 
@@ -99,26 +103,25 @@ def addXitemEntry(args,item_catalog_file):
 		
 def loadXitemJson(xitem_json_file,xitems,args):
 	try :
-                infile= open(xitem_json_file,"r")
-        except IOError:
-                print 'cannot open', xitem_json_file
-                exit()
-        else:
-                infile.close()
+		infile= open(xitem_json_file,"r")
+	except IOError:
+		print ('cannot open', xitem_json_file)
+		exit()
+	else:
+		infile.close()
 	
 	with open(xitem_json_file, 'r') as xitem_json_file:
-        	xitem_data = json.load(xitem_json_file,object_pairs_hook=OrderedDict)
-                xitem_config = xitem_data['config']
-                xitem_items = xitem_config['items']
-                if len(xitem_items) < 1:
-			print "Not get xitems , xitem file is not valid"
+		xitem_data = json.load(xitem_json_file,object_pairs_hook=OrderedDict)
+		xitem_config = xitem_data['config']
+		xitem_items = xitem_config['items']
+		if len(xitem_items) < 1:
+			print ("Not get xitems , xitem file is not valid")
 			exit()
-
-               	xitem_infra = xitem_items[0]['infra']
-                new_item = OrderedDict()
-                new_item['name'] = xitem_infra['name']
-                new_item['display'] = xitem_infra['display']
-                new_item['latest_revision'] = xitem_infra['revision']	
+		xitem_infra = xitem_items[0]['infra']
+		new_item = OrderedDict()
+		new_item['name'] = xitem_infra['name']
+		new_item['display'] = xitem_infra['display']
+		new_item['latest_revision'] = xitem_infra['revision']	
 		new_item['commit_id'] = args.commit_id
 
 		current_revision = OrderedDict()
@@ -155,7 +158,7 @@ def loadXitemJson(xitem_json_file,xitems,args):
 					break
 		if item_already_found:
 			if item_revision_found:
-				print "not adding xitem as it is already present"
+				print ("not adding xitem as it is already present")
 				return
 			else: 
 				existed_revisions = existed_xitem['revisions']
@@ -166,7 +169,7 @@ def loadXitemJson(xitem_json_file,xitems,args):
 		else:
 			xitems.append(new_item) 
 			message = "Added the item" + new_item['name'] + ":" + xitem_infra['revision'] + " in to item catalog file."
-			print message 
+			print (message) 
 		
 
 def parse_cmdline():
@@ -186,8 +189,8 @@ def parse_cmdline():
     return parser
 
 def main():
-        parser = parse_cmdline()
-        args = parser.parse_args()
+	parser = parse_cmdline()
+	args = parser.parse_args()
 	loadStoreJson(args)	
 			
 if __name__ == '__main__': main()
