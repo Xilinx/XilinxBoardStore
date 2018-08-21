@@ -38,6 +38,25 @@
           "metadata_file": "xitem.json"
         }, 
         "company": "xilinx.com"
+      }, 
+      {
+        "name": "Ultra96", 
+        "display": "Ultra96 Evaluation Platform", 
+        "latest_revision": "1.2", 
+        "commit_id": "", 
+        "revisions": [
+          {
+            "revision": "1.2", 
+            "commit_id": "263205122b7d3c381a84adf875f4cf594a389a77", 
+            "date": "21-08-2018:19:15:03", 
+            "history": "Adding Ultra96 1.2 to the XilinxBoardStore"
+          }
+        ], 
+        "config": {
+          "root": "boards/Avnet/ultra96/1.2", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "em.avnet.com"
       }
     ], 
     "categories": [
