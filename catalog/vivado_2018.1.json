@@ -76,6 +76,25 @@
           "metadata_file": "xitem.json"
         }, 
         "company": "xilinx"
+      }, 
+      {
+        "name": "picozed_7010_fmc2", 
+        "display": "PicoZed 7010 SOM + FMC Carrier V2", 
+        "latest_revision": "1.2", 
+        "commit_id": "c73b9b429c9318be2eaa1470795d31ff183ebb1b", 
+        "revisions": [
+          {
+            "revision": "1.2", 
+            "commit_id": "c73b9b429c9318be2eaa1470795d31ff183ebb1b", 
+            "date": "23-08-2018:16:40:57", 
+            "history": "Adding picozed_7010_fmc2 e to the XilinxBoardStore"
+          }
+        ], 
+        "config": {
+          "root": "boards/Avnet/picozed_7010_fmc2/1.2", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "em.avnet.com"
       }
     ], 
     "categories": [
