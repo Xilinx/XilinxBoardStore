@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<board schema_version="2.0" vendor="xilinx" name="design_1" display_name="My New Board" url="www.xilinx.com" preset_file="preset.xml">
+	<compatible_board_revisions>
+		<revision id="0">1.0</revision>
+	</compatible_board_revisions>
+	<file_version>0.90</file_version>
+	<description>My New Board</description>
+	<components>
+		<component name="chipvpvn0" major_group="Miscellaneous" display_name="VP_VN_0" type="chip" sub_type="chip"/>
+		<component name="part0" display_name="My New Board" type="fpga" part_name="xcku040-ffva1156-2-e" vendor="xilinx" pin_map_file="part0_pins.xml">
+	<interfaces>
+		<interface name="vp_vn_0" mode="slave" type="xilinx.com:interface:diff_analog_io_rtl:1.0" of_component="chipvpvn0" preset_proc="Vp_Vn_0_preset">
+			<preferred_ips>
+				<preferred_ip vendor="xilinx.com" library="ip" name="system_management_wiz" order="0"/>
+			</preferred_ips>
+			<port_maps>
+				<port_map logical_port="V_N" physical_port="vp_vn_0_vn" dir="in" >
+					<pin_maps>
+						<pin_map port_index="0" component_pin="VP_VN_0_V_N"/>
+					</pin_maps>
+				</port_map>
+				<port_map logical_port="V_P" physical_port="vp_vn_0_vp" dir="in" >
+					<pin_maps>
+						<pin_map port_index="0" component_pin="VP_VN_0_V_P"/>
+					</pin_maps>
+				</port_map>
+			</port_maps>
+		</interface>
+	</interfaces>
+		</component>
+	</components>
+	<connections>
+		<connection name="part0_chipvpvn0" component1="part0" component2="chipvpvn0">
+			<connection_map name="part0_chipvpvn0_1" c1_st_index="500" c1_end_index="501" c2_st_index="0" c2_end_index="1"/>
+		</connection>
+	</connections>
+</board>
+	<!-- part0pins style (copy to part0_pins.xml, replace a1 to match FPGA pin location)
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<part_info part_name="xcku040-ffva1156-2-e">
+	<pins>
+		<pin index="500" name="VP_VN_0_V_N" loc="a1"/>
+		<pin index="501" name="VP_VN_0_V_P" loc="a1"/>
+	</pins>
+</part_info>
+	-->
