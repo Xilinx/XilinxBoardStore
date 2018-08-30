@@ -1,0 +1,33 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "picozed_7030_som", 
+          "display": "PicoZed 7030 SOM", 
+          "revision": "1.2", 
+          "description": "PicoZed 7030 SOM", 
+          "company": "em.avnet.com", 
+          "company_display": "Avnet", 
+          "author": "test", 
+          "contributors": [
+            {
+              "group": "Avnet", 
+              "url": "www.avnet.com"
+            }
+          ], 
+          "category": "Single Part", 
+          "website": "http://www.picozed.org", 
+          "search-keywords": [
+            "picozed_7030_som", 
+            "em.avnet.com", 
+            "board", 
+            "Single Part"
+          ]
+        }
+      }
+    ], 
+    "major": "1", 
+    "minor": "1"
+  }
+}

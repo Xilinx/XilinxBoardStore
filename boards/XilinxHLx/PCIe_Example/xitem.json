@@ -1,0 +1,33 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "pcie_example", 
+          "display": "Zynq UltraScale+ pcie_example Development Board", 
+          "revision": "1.0", 
+          "description": "Zynq UltraScale+ pcie_example Development Board", 
+          "company": "xilinx.com", 
+          "company_display": "XilinxHLx", 
+          "author": "DanielMichek", 
+          "contributors": [
+            {
+              "group": "XilinxHLx", 
+              "url": "http://www.xilinx.com"
+            }
+          ], 
+          "category": "Single Part", 
+          "website": "https://www.xilinx.com/products/boards-and-kits/pcie_example-a.html", 
+          "search-keywords": [
+            "pcie_example", 
+            "xilinx.com", 
+            "board", 
+            "Single Part"
+          ]
+        }
+      }
+    ], 
+    "major": "1", 
+    "minor": "1"
+  }
+}
