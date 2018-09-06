@@ -18,6 +18,7 @@
             ],
             "category": "Single Part",
             "website": "www.xilinx.com/kc705",
+            "is_active" : true, 
             "search-keywords": [
               "Sample_kc705",
               "xilinx.com",
