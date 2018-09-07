@@ -87,8 +87,8 @@ def createXitemJson(xmldoc,args) :
 	config['items'] = orderItems
 		
 	data['config'] = config
-	config["_major"] = "1"
-	config["_minor"] = "0"
+	data["_major"] = 1
+	data["_minor"] = 0
 
 	try:	
 		outfile = open(args.output_file,'w')
