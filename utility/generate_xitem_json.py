@@ -52,7 +52,7 @@ def createXitemJson(xmldoc,args) :
 	if fpgacount > 1 :
 		category = "Multi part"
 
-	data = {}
+	data = OrderedDict()
 	config = OrderedDict()
 	search_keywords = [name,vendor,subtype,category]
 	
@@ -85,11 +85,10 @@ def createXitemJson(xmldoc,args) :
 	
 	orderItems = [item]
 	config['items'] = orderItems
-	
-	config["major"] = "1"
-	config["minor"] = "1"
-	
+		
 	data['config'] = config
+	config["_major"] = "1"
+	config["_minor"] = "0"
 
 	try:	
 		outfile = open(args.output_file,'w')
