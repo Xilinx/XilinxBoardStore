@@ -100,11 +100,11 @@
         "name": "arty", 
         "display": "Arty", 
         "latest_revision": "1.1", 
-        commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+        "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
         "revisions": [
           {
             "revision": "1.1", 
-            commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+            "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
             "date": "11-09-2018:16:24:03", 
             "history": "Added arty to the XilinxBoardStore"
           }
@@ -119,11 +119,11 @@
         "name": "arty-a7-100", 
         "display": "Arty A7-100", 
         "latest_revision": "1.0", 
-        commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+        "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
         "revisions": [
           {
             "revision": "1.0", 
-            commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+            "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
             "date": "11-09-2018:16:24:04", 
             "history": "Added arty-a7-100 to the XilinxBoardStore"
           }
@@ -138,11 +138,11 @@
         "name": "arty-a7-35", 
         "display": "Arty A7-35", 
         "latest_revision": "1.0", 
-        commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+        "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
         "revisions": [
           {
             "revision": "1.0", 
-            commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+            "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
             "date": "11-09-2018:16:24:04", 
             "history": "Added arty-a7-35 to the XilinxBoardStore"
           }
@@ -157,11 +157,11 @@
         "name": "arty-s7-25", 
         "display": "Arty S7-25", 
         "latest_revision": "1.0", 
-        commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+        "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
         "revisions": [
           {
             "revision": "1.0", 
-            commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+            "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
             "date": "11-09-2018:16:24:04", 
             "history": "Added arty-s7-25 to the XilinxBoardStore"
           }
@@ -176,11 +176,11 @@
         "name": "arty-s7-50", 
         "display": "Arty S7-50", 
         "latest_revision": "1.0", 
-        commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+        "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
         "revisions": [
           {
             "revision": "1.0", 
-            commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+            "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
             "date": "11-09-2018:16:24:04", 
             "history": "Added arty-s7-50 to the XilinxBoardStore"
           }
@@ -195,11 +195,11 @@
         "name": "arty-z7-10", 
         "display": "Arty Z7-10", 
         "latest_revision": "1.0", 
-        commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+        "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
         "revisions": [
           {
             "revision": "1.0", 
-            commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+            "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
             "date": "11-09-2018:16:24:04", 
             "history": "Added arty-z7-10 to the XilinxBoardStore"
           }
@@ -214,11 +214,11 @@
         "name": "arty-z7-20", 
         "display": "Arty Z7-20", 
         "latest_revision": "1.0", 
-        commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+        "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
         "revisions": [
           {
             "revision": "1.0", 
-            commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+            "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
             "date": "11-09-2018:16:24:04", 
             "history": "Added arty-z7-20 to the XilinxBoardStore"
           }
@@ -233,11 +233,11 @@
         "name": "basys3", 
         "display": "Basys3", 
         "latest_revision": "1.1", 
-        commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+        "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
         "revisions": [
           {
             "revision": "1.1", 
-            commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+            "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
             "date": "11-09-2018:16:24:04", 
             "history": "Added basys3 to the XilinxBoardStore"
           }
@@ -252,11 +252,11 @@
         "name": "cmod-s7-25", 
         "display": "Cmod S7-25", 
         "latest_revision": "1.0", 
-        commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+        "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
         "revisions": [
           {
             "revision": "1.0", 
-            commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+            "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
             "date": "11-09-2018:16:24:05", 
             "history": "Added cmod-s7-25 to the XilinxBoardStore"
           }
@@ -271,11 +271,11 @@
         "name": "cmod_a7-15t", 
         "display": "Cmod A7-15t", 
         "latest_revision": "1.1", 
-        commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+        "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
         "revisions": [
           {
             "revision": "1.1", 
-            commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+            "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
             "date": "11-09-2018:16:24:05", 
             "history": "Added cmod_a7-15t to the XilinxBoardStore"
           }
@@ -290,11 +290,11 @@
         "name": "cmod_a7-35t", 
         "display": "Cmod A7-35t", 
         "latest_revision": "1.1", 
-        commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+        "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
         "revisions": [
           {
             "revision": "1.1", 
-            commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+            "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
             "date": "11-09-2018:16:24:05", 
             "history": "Added cmod_a7-35t to the XilinxBoardStore"
           }
@@ -309,11 +309,11 @@
         "name": "cora-z7-07s", 
         "display": "Cora Z7-07S", 
         "latest_revision": "1.0", 
-        commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+        "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
         "revisions": [
           {
             "revision": "1.0", 
-            commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+            "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
             "date": "11-09-2018:16:24:05", 
             "history": "Added cora-z7-07s to the XilinxBoardStore"
           }
@@ -328,11 +328,11 @@
         "name": "cora-z7-10", 
         "display": "Cora Z7-10", 
         "latest_revision": "1.0", 
-        commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+        "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
         "revisions": [
           {
             "revision": "1.0", 
-            commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+            "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
             "date": "11-09-2018:16:24:05", 
             "history": "Added cora-z7-10 to the XilinxBoardStore"
           }
@@ -347,11 +347,11 @@
         "name": "genesys2", 
         "display": "Genesys2", 
         "latest_revision": "1.1", 
-        commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+        "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
         "revisions": [
           {
             "revision": "1.1", 
-            commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+            "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
             "date": "11-09-2018:16:24:05", 
             "history": "Added genesys2 to the XilinxBoardStore"
           }
@@ -366,11 +366,11 @@
         "name": "nexys4", 
         "display": "Nexys4", 
         "latest_revision": "1.1", 
-        commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+        "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
         "revisions": [
           {
             "revision": "1.1", 
-            commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+            "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
             "date": "11-09-2018:16:24:06", 
             "history": "Added nexys4 to the XilinxBoardStore"
           }
@@ -385,11 +385,11 @@
         "name": "nexys4_ddr", 
         "display": "Nexys4 DDR", 
         "latest_revision": "1.1", 
-        commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+        "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
         "revisions": [
           {
             "revision": "1.1", 
-            commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+            "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
             "date": "11-09-2018:16:24:06", 
             "history": "Added nexys4_ddr to the XilinxBoardStore"
           }
@@ -404,11 +404,11 @@
         "name": "nexys_video", 
         "display": "Nexys Video", 
         "latest_revision": "1.1", 
-        commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+        "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
         "revisions": [
           {
             "revision": "1.1", 
-            commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+            "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
             "date": "11-09-2018:16:24:06", 
             "history": "Added nexys_video to the XilinxBoardStore"
           }
@@ -423,11 +423,11 @@
         "name": "sword", 
         "display": "Sword", 
         "latest_revision": "1.0", 
-        commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+        "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
         "revisions": [
           {
             "revision": "1.0", 
-            commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+            "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
             "date": "11-09-2018:16:24:06", 
             "history": "Added sword to the XilinxBoardStore"
           }
@@ -442,11 +442,11 @@
         "name": "zedboard", 
         "display": "Zedboard", 
         "latest_revision": "1.0", 
-        commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+        "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
         "revisions": [
           {
             "revision": "1.0", 
-            commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+            "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
             "date": "11-09-2018:16:24:06", 
             "history": "Added zedboard to the XilinxBoardStore"
           }
@@ -461,11 +461,11 @@
         "name": "zybo", 
         "display": "Zybo", 
         "latest_revision": "1.0", 
-        commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+        "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
         "revisions": [
           {
             "revision": "1.0", 
-            commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+            "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
             "date": "11-09-2018:16:24:07", 
             "history": "Added zybo to the XilinxBoardStore"
           }
@@ -480,11 +480,11 @@
         "name": "zybo-z7-10", 
         "display": "Zybo Z7-10", 
         "latest_revision": "1.0", 
-        commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+        "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
         "revisions": [
           {
             "revision": "1.0", 
-            commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+            "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
             "date": "11-09-2018:16:24:07", 
             "history": "Added zybo-z7-10 to the XilinxBoardStore"
           }
@@ -499,11 +499,11 @@
         "name": "zybo-z7-20", 
         "display": "Zybo Z7-20", 
         "latest_revision": "1.0", 
-        commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+        "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
         "revisions": [
           {
             "revision": "1.0", 
-            commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
+            "commit_id": "a4a87de2628bac634c2d518091bf92ac8e9f9fda", 
             "date": "11-09-2018:16:24:07", 
             "history": "Added zybo-z7-20 to the XilinxBoardStore"
           }
