@@ -1,0 +1,33 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "my_board", 
+          "display": "Tori's super cool board", 
+          "revision": "1.2", 
+          "description": "Tori's super cool board", 
+          "company": "xilinx.com", 
+          "company_display": "TeamT", 
+          "author": "toriwest", 
+          "contributors": [
+            {
+              "group": "TeamT", 
+              "url": "google.com"
+            }
+          ], 
+          "category": "Single Part", 
+          "website": "www.xilinx.com/kc705", 
+          "search-keywords": [
+            "my_board", 
+            "xilinx.com", 
+            "board", 
+            "Single Part"
+          ]
+        }
+      }
+    ], 
+    "major": "1", 
+    "minor": "1"
+  }
+}
