@@ -513,6 +513,25 @@
           "metadata_file": "xitem.json"
         }, 
         "company": "digilentinc.com"
+      }, 
+      {
+        "name": "minized", 
+        "display": "MiniZed", 
+        "latest_revision": "1.2", 
+        "commit_id": "5a4eef8b8abd15dc626cc186e0dcb71e1c9ad353", 
+        "revisions": [
+          {
+            "revision": "1.2", 
+            "commit_id": "5a4eef8b8abd15dc626cc186e0dcb71e1c9ad353", 
+            "date": "28-09-2018:09:09:38", 
+            "history": "Added MiniZed"
+          }
+        ], 
+        "config": {
+          "root": "boards/Avnet/minized", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "em.avnet.com"
       }
     ], 
     "categories": [
