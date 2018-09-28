@@ -542,7 +542,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:51", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -555,24 +555,37 @@
       {
         "name": "te0712_100_2c", 
         "display": "Artix-7 TE0712_100_2C. SPRT PCB: REV02, REV01", 
-        "latest_revision": "2.0", 
+        "latest_revision": "1.0", 
         "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
         "revisions": [
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:51", 
-            "history": "Add Trenz Electronic Board Files"
-          }, 
-          {
-            "revision": "2.0", 
-            "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:51", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
         "config": {
           "root": "boards/Trenz_Electronic/TE0712_100_2C/1.0", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "trenz.biz"
+      }, 
+      {
+        "name": "te0712_100_2c", 
+        "display": "Artix-7 TE0712_100_2CA. SPRT PCB: REV02", 
+        "latest_revision": "2.0", 
+        "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
+        "revisions": [
+          {
+            "revision": "2.0", 
+            "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
+            "date": "28-09-2018:16:20:14", 
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ], 
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0712_100_2C/2.0", 
           "metadata_file": "xitem.json"
         }, 
         "company": "trenz.biz"
@@ -586,7 +599,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:51", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -605,7 +618,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:51", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -624,7 +637,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -643,7 +656,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -662,7 +675,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -675,24 +688,37 @@
       {
         "name": "te0720_1c", 
         "display": "ZYNQ-7 TE0720_1CF(_, A). SPRT PCB: REV02, REV03", 
-        "latest_revision": "2.0", 
+        "latest_revision": "1.0", 
         "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
         "revisions": [
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
-            "history": "Add Trenz Electronic Board Files"
-          }, 
-          {
-            "revision": "2.0", 
-            "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
         "config": {
           "root": "boards/Trenz_Electronic/TE0720_1C/1.0", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "trenz.biz"
+      }, 
+      {
+        "name": "te0720_1c", 
+        "display": "ZYNQ-7 TE0720_1CR. SPRT PCB: REV02, REV03", 
+        "latest_revision": "2.0", 
+        "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
+        "revisions": [
+          {
+            "revision": "2.0", 
+            "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
+            "date": "28-09-2018:16:20:14", 
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ], 
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0720_1C/2.0", 
           "metadata_file": "xitem.json"
         }, 
         "company": "trenz.biz"
@@ -706,7 +732,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -725,7 +751,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -744,7 +770,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -763,7 +789,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -782,7 +808,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -801,7 +827,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -820,7 +846,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -839,7 +865,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -858,7 +884,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -877,7 +903,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -896,7 +922,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -915,7 +941,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -934,7 +960,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -953,7 +979,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -972,7 +998,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -991,7 +1017,7 @@
           {
             "revision": "2.1", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1010,7 +1036,7 @@
           {
             "revision": "3.1", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1029,7 +1055,7 @@
           {
             "revision": "3.1", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1042,24 +1068,37 @@
       {
         "name": "te0729_20_2i", 
         "display": "ZYNQ-7 TE0729_20_2I(F). SPRT PCB: REV02, REV01", 
-        "latest_revision": "2.0", 
+        "latest_revision": "1.0", 
         "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
         "revisions": [
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
-            "history": "Add Trenz Electronic Board Files"
-          }, 
-          {
-            "revision": "2.0", 
-            "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
         "config": {
           "root": "boards/Trenz_Electronic/TE0729_20_2I/1.0", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "trenz.biz"
+      }, 
+      {
+        "name": "te0729_20_2i", 
+        "display": "ZYNQ-7 TE0729_20_2I(R,RA). SPRT PCB: REV02, REV01", 
+        "latest_revision": "2.0", 
+        "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
+        "revisions": [
+          {
+            "revision": "2.0", 
+            "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
+            "date": "28-09-2018:16:20:14", 
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ], 
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0729_20_2I/2.0", 
           "metadata_file": "xitem.json"
         }, 
         "company": "trenz.biz"
@@ -1073,7 +1112,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1092,7 +1131,7 @@
           {
             "revision": "2.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1111,7 +1150,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1130,7 +1169,7 @@
           {
             "revision": "2.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1149,7 +1188,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1168,7 +1207,7 @@
           {
             "revision": "2.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1181,19 +1220,13 @@
       {
         "name": "te0803_3eg_1e", 
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-3EG-1E(_, A: 2GB DDR). SPRT PCB: REV01", 
-        "latest_revision": "3.0", 
+        "latest_revision": "1.0", 
         "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
         "revisions": [
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
-            "history": "Add Trenz Electronic Board Files"
-          }, 
-          {
-            "revision": "3.0", 
-            "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1206,24 +1239,56 @@
       {
         "name": "te0803_3eg_1e_tebf0808", 
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-3EG-1E(_, A: 2GB DDR) with TEBF0808. SPRT PCB: REV01", 
-        "latest_revision": "4.0", 
+        "latest_revision": "2.0", 
         "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
         "revisions": [
           {
             "revision": "2.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
-            "history": "Add Trenz Electronic Board Files"
-          }, 
-          {
-            "revision": "4.0", 
-            "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:14", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
         "config": {
           "root": "boards/Trenz_Electronic/TE0803_3EG_1E/2.0", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "trenz.biz"
+      }, 
+      {
+        "name": "te0803_3eg_1e", 
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-3EG-1E(B: 4GB DDR). SPRT PCB: REV01", 
+        "latest_revision": "3.0", 
+        "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
+        "revisions": [
+          {
+            "revision": "3.0", 
+            "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
+            "date": "28-09-2018:16:20:14", 
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ], 
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_3EG_1E/3.0", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "trenz.biz"
+      }, 
+      {
+        "name": "te0803_3eg_1e_tebf0808", 
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-3EG-1E(B: 4GB DDR) with TEBF0808. SPRT PCB: REV01", 
+        "latest_revision": "4.0", 
+        "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
+        "revisions": [
+          {
+            "revision": "4.0", 
+            "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
+            "date": "28-09-2018:16:20:14", 
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ], 
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_3EG_1E/4.0", 
           "metadata_file": "xitem.json"
         }, 
         "company": "trenz.biz"
@@ -1237,7 +1302,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1256,7 +1321,7 @@
           {
             "revision": "2.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1275,7 +1340,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1294,7 +1359,7 @@
           {
             "revision": "2.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1313,7 +1378,7 @@
           {
             "revision": "5.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1332,7 +1397,7 @@
           {
             "revision": "6.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1351,7 +1416,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1370,7 +1435,7 @@
           {
             "revision": "2.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1389,7 +1454,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1408,7 +1473,7 @@
           {
             "revision": "2.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1427,7 +1492,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1446,7 +1511,7 @@
           {
             "revision": "2.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1465,7 +1530,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1484,7 +1549,7 @@
           {
             "revision": "2.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1503,7 +1568,7 @@
           {
             "revision": "3.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1522,7 +1587,7 @@
           {
             "revision": "4.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1541,7 +1606,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1560,7 +1625,7 @@
           {
             "revision": "2.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1579,7 +1644,7 @@
           {
             "revision": "3.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1598,7 +1663,7 @@
           {
             "revision": "4.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1611,19 +1676,13 @@
       {
         "name": "te0808_9eg_1e", 
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-9EG-1E(A: 2GB DDR). SPRT PCB: REV04.", 
-        "latest_revision": "3.0", 
+        "latest_revision": "1.0", 
         "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
         "revisions": [
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
-            "history": "Add Trenz Electronic Board Files"
-          }, 
-          {
-            "revision": "3.0", 
-            "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1636,24 +1695,56 @@
       {
         "name": "te0808_9eg_1e_tebf0808", 
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-9EG-1E(A: 2GB DDR) with TEBF0808. SPRT Module PCB: REV04.", 
-        "latest_revision": "4.0", 
+        "latest_revision": "2.0", 
         "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
         "revisions": [
           {
             "revision": "2.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
-            "history": "Add Trenz Electronic Board Files"
-          }, 
-          {
-            "revision": "4.0", 
-            "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
         "config": {
           "root": "boards/Trenz_Electronic/TE0808_9EG_1E/2.0", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "trenz.biz"
+      }, 
+      {
+        "name": "te0808_9eg_1e", 
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-9EG-1E(B,D,E,L: 4GB DDR). SPRT PCB: REV04.", 
+        "latest_revision": "3.0", 
+        "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
+        "revisions": [
+          {
+            "revision": "3.0", 
+            "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
+            "date": "28-09-2018:16:20:15", 
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ], 
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0808_9EG_1E/3.0", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "trenz.biz"
+      }, 
+      {
+        "name": "te0808_9eg_1e_tebf0808", 
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-9EG-1E(B,D,E,L: 4GB DDR) with TEBF0808. SPRT Module PCB: REV04.", 
+        "latest_revision": "4.0", 
+        "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
+        "revisions": [
+          {
+            "revision": "4.0", 
+            "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
+            "date": "28-09-2018:16:20:15", 
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ], 
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0808_9EG_1E/4.0", 
           "metadata_file": "xitem.json"
         }, 
         "company": "trenz.biz"
@@ -1667,7 +1758,7 @@
           {
             "revision": "3.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1686,7 +1777,7 @@
           {
             "revision": "4.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1705,7 +1796,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1724,7 +1815,7 @@
           {
             "revision": "2.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1743,7 +1834,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1756,24 +1847,37 @@
       {
         "name": "te0820_2eg_1e", 
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0820-2EG-1E(_, 3, A, L  : 1 GB DDR). SPRT PCB: REV02", 
-        "latest_revision": "2.0", 
+        "latest_revision": "1.0", 
         "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
         "revisions": [
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
-            "history": "Add Trenz Electronic Board Files"
-          }, 
-          {
-            "revision": "2.0", 
-            "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
         "config": {
           "root": "boards/Trenz_Electronic/TE0820_2EG_1E/1.0", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "trenz.biz"
+      }, 
+      {
+        "name": "te0820_2eg_1e", 
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0820-2EG-1E(E : 2 GB DDR). SPRT PCB: REV02", 
+        "latest_revision": "2.0", 
+        "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
+        "revisions": [
+          {
+            "revision": "2.0", 
+            "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
+            "date": "28-09-2018:16:20:15", 
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ], 
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0820_2EG_1E/2.0", 
           "metadata_file": "xitem.json"
         }, 
         "company": "trenz.biz"
@@ -1787,7 +1891,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1806,7 +1910,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1825,7 +1929,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:52", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1844,7 +1948,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:53", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1863,7 +1967,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:53", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
@@ -1882,7 +1986,7 @@
           {
             "revision": "1.0", 
             "commit_id": "cfc9dcdfa139b0b16026913458112ce7d738779e", 
-            "date": "28-09-2018:11:34:53", 
+            "date": "28-09-2018:16:20:15", 
             "history": "Add Trenz Electronic Board Files"
           }
         ], 
