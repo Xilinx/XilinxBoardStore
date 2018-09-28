@@ -528,7 +528,7 @@
           }
         ], 
         "config": {
-          "root": "boards/Avnet/minized", 
+          "root": "boards/Avnet/minized/1.2", 
           "metadata_file": "xitem.json"
         }, 
         "company": "em.avnet.com"
