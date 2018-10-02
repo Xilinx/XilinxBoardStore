@@ -13,13 +13,13 @@
            },
            {
              "version": "2018.2",
-             "xitem_catalogue_file": "catalog/vivado_2018.1.json",
-             "remote_repo_branch_to_sync": "master"
+             "xitem_catalogue_file": "catalog/vivado_2018.2.json",
+             "remote_repo_branch_to_sync": "2018.2"
            },
            {
              "version": "2018.3",
-             "xitem_catalogue_file": "catalog/vivado_2018.1.json",
-             "remote_repo_branch_to_sync": "master"
+             "xitem_catalogue_file": "catalog/vivado_2018.3.json",
+             "remote_repo_branch_to_sync": "2018.3"
            }             
          ]
         }
