@@ -2023,8 +2023,8 @@
         "default": true, 
         "parent": ""
       }
-    ], 
-    "_major": 1, 
-    "_minor": 0
-  }
+    ]
+  }, 
+  "_major": 1, 
+  "_minor": 0
 }
