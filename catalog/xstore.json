@@ -8,7 +8,8 @@
            {
              "version": "2018.3",
              "xitem_catalogue_file": "catalog/vivado_2018.3.json",
-             "remote_repo_branch_to_sync": "2018.3"
+             "remote_repo_branch_to_sync": "2018.3",
+             "catalog_revision": "1.0"
            }            
          ]
         }
