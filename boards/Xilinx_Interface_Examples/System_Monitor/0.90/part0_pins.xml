@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<part_info part_name="xcku040-ffva1156-2-e">
-	<pins>
-		<pin index="500" name="VP_VN_0_V_N" loc="a1"/>
-		<pin index="501" name="VP_VN_0_V_P" loc="a1"/>
-	</pins>
-</part_info>
