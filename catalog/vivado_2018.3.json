@@ -2,44 +2,6 @@
   "catalog": {
     "items": [
       {
-        "name": "Sample_kc705", 
-        "display": "Sample Kintex-7 KC705 Evaluation Platform", 
-        "latest_revision": "1.5", 
-        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797", 
-        "revisions": [
-          {
-            "revision": "1.5", 
-            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797", 
-            "date": "APR2018", 
-            "history": "Sample Kintex-7 KC705 Evaluation Platform."
-          }
-        ], 
-        "config": {
-          "root": "boards/example_vendor/example_board", 
-          "metadata_file": "xitem.json"
-        }, 
-        "company": "xilinx.com"
-      }, 
-      {
-        "name": "pcie_example", 
-        "display": "Zynq UltraScale+ pcie_example Development Board", 
-        "latest_revision": "1.0", 
-        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797", 
-        "revisions": [
-          {
-            "revision": "1.0", 
-            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797", 
-            "date": "14-06-2018:17:39:06", 
-            "history": "Adding PCIe_Example 1.0 to the XilinxBoardStore"
-          }
-        ], 
-        "config": {
-          "root": "boards/XilinxHLx/PCIe_Example", 
-          "metadata_file": "xitem.json"
-        }, 
-        "company": "xilinx.com"
-      }, 
-      {
         "name": "Ultra96", 
         "display": "Ultra96 Evaluation Platform", 
         "latest_revision": "1.2", 
@@ -57,25 +19,6 @@
           "metadata_file": "xitem.json"
         }, 
         "company": "em.avnet.com"
-      }, 
-      {
-        "name": "design_1", 
-        "display": "My New Board", 
-        "latest_revision": "0.90", 
-        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797", 
-        "revisions": [
-          {
-            "revision": "0.90", 
-            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797", 
-            "date": "21-08-2018:22:58:11", 
-            "history": "Adding System Monitor 0.9 to the Xilinx_board_store --product Vivado --version 2018.1"
-          }
-        ], 
-        "config": {
-          "root": "boards/Xilinx_Interface_Examples/System_Monitor/0.90", 
-          "metadata_file": "xitem.json"
-        }, 
-        "company": "xilinx"
       }, 
       {
         "name": "picozed_7010_fmc2", 
