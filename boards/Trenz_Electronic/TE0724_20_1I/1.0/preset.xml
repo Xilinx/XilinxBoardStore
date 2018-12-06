@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!-- ##################################################################### -->
 <!-- ##TE File Version:1.0-->
-<!-- ##TE Last Modification:2018.08.28 -->
+<!-- ##TE Last Modification:2018.10.09 -->
 <!-- ##################################################################### -->
 <ip_presets schema="1.0">
   <!--insert ip presets here, see ug895 or other board part files-->
@@ -15,7 +15,7 @@
         <user_parameter  name="CONFIG.PCW_QSPI_GRP_SINGLE_SS_ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PCW_SINGLE_QSPI_DATA_MODE" value="x4"/>
         <user_parameter  name="CONFIG.PCW_QSPI_QSPI_IO" value="MIO 1 .. 6"/>
-        <user_parameter  name="CONFIG.PCW_QSPI_GRP_FBCLK_ENABLE" value="0"/>
+        <user_parameter  name="CONFIG.PCW_QSPI_GRP_FBCLK_ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PCW_UART1_PERIPHERAL_ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PCW_UART1_UART1_IO" value="MIO 48 .. 49"/>
         <user_parameter  name="CONFIG.PCW_SD0_PERIPHERAL_ENABLE" value="1"/>
