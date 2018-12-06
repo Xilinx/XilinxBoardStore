@@ -3,10 +3,10 @@
     "items": [
       {
         "infra": {
-          "name": "teb0911_9eg_1e",
-          "display": "ZYNQ-UltraScale+ TEB0911-09EG-1E. SPRT PCB: REV04,REV03,REV02.",
+          "name": "tef1001_160_2i",
+          "display": "Kintex-7 TEF1001-160-2I. SPRT PCB: REV01",
           "revision": "1.0",
-          "description": "ZYNQ-UltraScale+ TEB0911-09EG-1E Board (form factor 40.6 x 23.1 cm) with six FMC-Connectors,  DDR SODIMM (for 8GB DDR4-2400 CT8G4SFS824A), speed grade -1 and extended temperature range. Supported PCB Revisions:REV04,REV03, REV02.",
+          "description": "Kintex-7 TEF1001-160-2I PCIe Card FMC Board with 4 Lanes PCIe GEN2, DDR3 ECC SODIMM(4GB), Speed Grade -2 and industrial temperature range. Supported PCB Revisions: REV01.",
           "company": "trenz.biz",
           "company_display": "Trenz Electronic GmbH",
           "author": "trenz.biz",
@@ -17,9 +17,9 @@
             }
           ],
           "category": "Single Part",
-          "website": "trenz.org/teb0911-info",
+          "website": "trenz.org/tef1001-info",
           "search-keywords": [
-            "teb0911_9eg_1e",
+            "tef1001_160_2i",
             "trenz.biz",
             "board",
             "Single Part"
