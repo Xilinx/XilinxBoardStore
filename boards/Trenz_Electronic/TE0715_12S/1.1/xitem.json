@@ -1,0 +1,33 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "te0715_12s",
+          "display": "ZYNQ-7 TE0715_12S ( _ : 1GB DDR). SPRT PCB: REV04",
+          "revision": "1.1",
+          "description": "ZYNQ-7S TE0715_12S Board (form factor 4x5cm) with single ARM Cortex-A9, 1GB Low Power DDR3, 1GBit Ethernet, speed grade -1 and commercial temperature grade. Supported PCB Revisions: REV04.",
+          "company": "trenz.biz",
+          "company_display": "Trenz Electronic GmbH",
+          "author": "trenz.biz",
+          "contributors": [
+            {
+              "group": "Trenz Electronic GmbH",
+              "url": "https://www.trenz-electronic.de/"
+            }
+          ],
+          "category": "Single Part",
+          "website": "trenz.org/te0715-info",
+          "search-keywords": [
+            "te0715_12s",
+            "trenz.biz",
+            "board",
+            "Single Part"
+          ]
+        }
+      }
+    ],
+    "major": "1",
+    "minor": "1"
+  }
+}

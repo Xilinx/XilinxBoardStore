@@ -1,0 +1,33 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "tef0007",
+          "display": "Kintex-7 TEF0007_01_160_2C. SPRT PCB: REV01",
+          "revision": "1.0",
+          "description": "Kintex-7 TEF0007_01_160_2C FMC Board (form factor 6.9x8.5cm) with speed grade -2 and commercial temperature grade and DisplayPort Receiver and Transmitter. Supported PCB Revisions: REV01.",
+          "company": "trenz.biz",
+          "company_display": "Trenz Electronic GmbH",
+          "author": "trenz.biz",
+          "contributors": [
+            {
+              "group": "Trenz Electronic GmbH",
+              "url": "https://www.trenz-electronic.de/"
+            }
+          ],
+          "category": "Single Part",
+          "website": "trenz.org/",
+          "search-keywords": [
+            "tef0007",
+            "trenz.biz",
+            "board",
+            "Single Part"
+          ]
+        }
+      }
+    ],
+    "major": "1",
+    "minor": "1"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "te0782_100_2i",
+          "display": "Zynq-7000 TE0782_100_2I. SPRT PCB: REV02",
+          "revision": "1.0",
+          "description": "Zynq-7000 TE0782_100_2I Board (form factor 8.5x8.5 cm) with 1GByte DDR3, 2xGBit Ethernet, speed grade -2 and industrial temperature grade. Supported PCB Revisions: REV02.",
+          "company": "trenz.biz",
+          "company_display": "Trenz Electronic GmbH",
+          "author": "trenz.biz",
+          "contributors": [
+            {
+              "group": "Trenz Electronic GmbH",
+              "url": "https://www.trenz-electronic.de/"
+            }
+          ],
+          "category": "Single Part",
+          "website": "trenz.org/te0782-info",
+          "search-keywords": [
+            "te0782_100_2i",
+            "trenz.biz",
+            "board",
+            "Single Part"
+          ]
+        }
+      }
+    ],
+    "major": "1",
+    "minor": "1"
+  }
+}

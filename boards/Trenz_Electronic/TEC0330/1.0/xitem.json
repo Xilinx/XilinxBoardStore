@@ -1,0 +1,33 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "tec0330",
+          "display": "Virtex-7 TEC0330. SPRT PCB: REV04",
+          "revision": "1.0",
+          "description": "Virtex-7 TEC0330 PCIe Card FMC Board with 8 Lanes PCIe GEN2, Speed Grade -2 and commercial temperature range. Supported PCB Revisions: REV04.",
+          "company": "trenz.biz",
+          "company_display": "Trenz Electronic GmbH",
+          "author": "trenz.biz",
+          "contributors": [
+            {
+              "group": "Trenz Electronic GmbH",
+              "url": "https://www.trenz-electronic.de/"
+            }
+          ],
+          "category": "Single Part",
+          "website": "trenz.org/tec0330-info",
+          "search-keywords": [
+            "tec0330",
+            "trenz.biz",
+            "board",
+            "Single Part"
+          ]
+        }
+      }
+    ],
+    "major": "1",
+    "minor": "1"
+  }
+}
