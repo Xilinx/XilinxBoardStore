@@ -1,0 +1,7 @@
+######### AU200 change log ##############
+1.1
+Enabled QSFP Support with Ethernet IPs(xxv_ethernet and l_ethernet) for 2018.3_web
+
+1.0
+AU200 Initial board support(Vivado 2018.2 XDF)
+
