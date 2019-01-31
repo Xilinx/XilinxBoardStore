@@ -1938,25 +1938,6 @@
           "metadata_file": "xitem.json"
         }, 
         "company": "trenz.biz"
-      },
-      {
-        "name": "vcu128_es",
-        "display": "Virtex Ultrascale+ HBM VCU128-ES Evaluation Platform",
-        "latest_revision": "1.0",
-        "commit_id": "bd62b9483fff9ec4f24aa5e3c858ed275113b840",
-        "revisions": [
-          {
-            "revision": "1.0",
-            "commit_id": "bd62b9483fff9ec4f24aa5e3c858ed275113b840",
-            "date": "31-01-2019",
-            "history": "Add vcu128 evaluation platform Board Files"
-          }
-        ],
-        "config": {
-          "root": "boards/Xilinx/vcu128/1.0/",
-          "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
       }
     ], 
     "categories": [
