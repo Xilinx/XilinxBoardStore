@@ -1957,7 +1957,64 @@
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
-      }
+      },
+      {
+        "name": "au200",
+        "display": "Alveo U200 Data Center Accelerator Card",
+        "latest_revision": "1.1",
+        "commit_id": "5c16b9fdfe17a3a177ad4968659a9df3d7f6ede6",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "5c16b9fdfe17a3a177ad4968659a9df3d7f6ede6",
+            "date": "31-01-2019",
+            "history": "Add au200 Data Acceleration card Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/au200/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "au250",
+        "display": "Alveo U250 Data Center Accelerator Card",
+        "latest_revision": "1.1",
+        "commit_id": "5c16b9fdfe17a3a177ad4968659a9df3d7f6ede6",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "5c16b9fdfe17a3a177ad4968659a9df3d7f6ede6",
+            "date": "31-01-2019",
+            "history": "Add au250 Data Acceleration card Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/au250/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "au280",
+        "display": "Alveo U280 Data Center Accelerator Card",
+        "latest_revision": "1.1",
+        "commit_id": "5c16b9fdfe17a3a177ad4968659a9df3d7f6ede6",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "5c16b9fdfe17a3a177ad4968659a9df3d7f6ede6",
+            "date": "31-01-2019",
+            "history": "Add au280 eU200 Acceleration card Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/au280/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      } 
     ], 
     "categories": [
       {
