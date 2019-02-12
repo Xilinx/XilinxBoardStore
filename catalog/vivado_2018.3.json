@@ -2019,11 +2019,11 @@
         "name": "sp701",
         "display": "Spartan-7 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "f9020253afa4e28990665043a14047f5f90638cd",
+        "commit_id": "54492e470f71661e04f86bb1f627efeaf2e482cc",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "f9020253afa4e28990665043a14047f5f90638cd",
+            "commit_id": "54492e470f71661e04f86bb1f627efeaf2e482cc",
             "date": "07-02-2019",
             "history": "Add SP701 card Board Files"
           }
