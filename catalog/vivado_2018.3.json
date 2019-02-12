@@ -2016,6 +2016,25 @@
         "company": "xilinx.com"
       }, 
       {
+        "name": "sp701",
+        "display": "Spartan-7 Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "f9020253afa4e28990665043a14047f5f90638cd",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "f9020253afa4e28990665043a14047f5f90638cd",
+            "date": "07-02-2019",
+            "history": "Add SP701 card Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/sp701/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      }, 	  
+      {
         "name": "au280",
         "display": "Alveo U280 Data Center Accelerator Card",
         "latest_revision": "1.1",

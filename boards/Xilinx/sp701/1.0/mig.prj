@@ -39,7 +39,7 @@
     <MemoryDevice>DDR3_SDRAM/Components/MT41K256M16XX-107</MemoryDevice>
     <TimePeriod>2500</TimePeriod>
     <VccAuxIO>1.8V</VccAuxIO>
-    <PHYRatio>2:1</PHYRatio>
+    <PHYRatio>4:1</PHYRatio>
     <InputClkFreq>200</InputClkFreq>
     <UIExtraClocks>0</UIExtraClocks>
     <MMCM_VCO>800</MMCM_VCO>
