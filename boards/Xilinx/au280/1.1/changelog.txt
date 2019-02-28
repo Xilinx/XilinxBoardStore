@@ -2,6 +2,7 @@
 1.1
 Updated PCIE Quad from X1Y1 to X1Y0 to have tandem support 
 Fixed pcie ref clock locations 
+supported only though github
 
 1.0
 AU280 ES Initial board support for 2018.3_web
