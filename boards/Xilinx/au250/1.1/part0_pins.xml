@@ -779,7 +779,18 @@
     <pin index="867" name ="qsfp1_si570_clock_p" loc="T11"/>    
 	<pin index="868" name ="qsfp1_clock_n" loc="P10"/>
     <pin index="869" name ="qsfp1_clock_p" loc="P11"/>	
-  
+
+    <pin index="900" name ="qsfp0_lowspeed_0" iostandard="LVCMOS12" drive="8"  loc="BD18"/>
+    <pin index="901" name ="qsfp0_lowspeed_1" iostandard="LVCMOS12" drive="8"  loc="BE17"/>    
+	<pin index="902" name ="qsfp0_lowspeed_2" iostandard="LVCMOS12" drive="8"  loc="BE16"/>
+    <pin index="903" name ="qsfp0_lowspeed_3" iostandard="LVCMOS12" drive="8"  loc="BE20"/>		
+	<pin index="904" name ="qsfp0_lowspeed_4" iostandard="LVCMOS12" drive="8"  loc="BE21"/>		
+	
+    <pin index="910" name ="qsfp1_lowspeed_0" iostandard="LVCMOS12" drive="8"  loc="AV22"/>
+    <pin index="911" name ="qsfp1_lowspeed_1" iostandard="LVCMOS12" drive="8"  loc="BC18"/>    
+	<pin index="912" name ="qsfp1_lowspeed_2" iostandard="LVCMOS12" drive="8"  loc="AY20"/>
+    <pin index="913" name ="qsfp1_lowspeed_3" iostandard="LVCMOS12" drive="8"  loc="BC19"/>		
+	<pin index="914" name ="qsfp1_lowspeed_4" iostandard="LVCMOS12" drive="8"  loc="AV21"/>		
   
   </pins>
   

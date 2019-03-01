@@ -1132,6 +1132,91 @@
             </port_map>
           </port_maps>
         </interface>
+
+		<interface mode="master" name="qsfp0_lowspeed" type="xilinx.com:interface:gpio_rtl:1.0" of_component="qsfp0_lowspeed" preset_proc="qsfp0_lowspeed_preset">
+          <description>qsfp0_lowspeed GPIOs</description>
+          
+		  <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+		  
+          <port_maps>
+
+				<port_map logical_port="TRI_I" physical_port="qsfp0_lowspeed_0_i" dir="inout" left='4' right='0'>
+				  <pin_maps>
+					<pin_map port_index="0" component_pin="qsfp0_lowspeed_0"/>
+					<pin_map port_index="1" component_pin="qsfp0_lowspeed_1"/>
+					<pin_map port_index="2" component_pin="qsfp0_lowspeed_2"/>
+					<pin_map port_index="3" component_pin="qsfp0_lowspeed_3"/>
+					<pin_map port_index="4" component_pin="qsfp0_lowspeed_4"/>
+				  </pin_maps>
+				</port_map>		
+
+				<port_map logical_port="TRI_O" physical_port="qsfp0_lowspeed_0_o" dir="inout" left='4' right='0'>
+				  <pin_maps>
+					<pin_map port_index="0" component_pin="qsfp0_lowspeed_0"/>
+					<pin_map port_index="1" component_pin="qsfp0_lowspeed_1"/>
+					<pin_map port_index="2" component_pin="qsfp0_lowspeed_2"/>
+					<pin_map port_index="3" component_pin="qsfp0_lowspeed_3"/>
+					<pin_map port_index="4" component_pin="qsfp0_lowspeed_4"/>
+				  </pin_maps>
+				</port_map>	
+				
+				<port_map logical_port="TRI_T" physical_port="qsfp0_lowspeed_0_t" dir="inout" left='4' right='0'>
+				  <pin_maps>
+					<pin_map port_index="0" component_pin="qsfp0_lowspeed_0"/>
+					<pin_map port_index="1" component_pin="qsfp0_lowspeed_1"/>
+					<pin_map port_index="2" component_pin="qsfp0_lowspeed_2"/>
+					<pin_map port_index="3" component_pin="qsfp0_lowspeed_3"/>
+					<pin_map port_index="4" component_pin="qsfp0_lowspeed_4"/>
+				  </pin_maps>
+				</port_map>					
+
+          </port_maps>
+        </interface>		
+		
+		
+		<interface mode="master" name="qsfp1_lowspeed" type="xilinx.com:interface:gpio_rtl:1.0" of_component="qsfp1_lowspeed" preset_proc="qsfp1_lowspeed_preset">
+          <description>qsfp1_lowspeed GPIOs</description>
+          
+		  <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+		  
+          <port_maps>
+
+				<port_map logical_port="TRI_I" physical_port="qsfp1_lowspeed_0_i" dir="inout" left='4' right='0'>
+				  <pin_maps>
+					<pin_map port_index="0" component_pin="qsfp1_lowspeed_0"/>
+					<pin_map port_index="1" component_pin="qsfp1_lowspeed_1"/>
+					<pin_map port_index="2" component_pin="qsfp1_lowspeed_2"/>
+					<pin_map port_index="3" component_pin="qsfp1_lowspeed_3"/>
+					<pin_map port_index="4" component_pin="qsfp1_lowspeed_4"/>
+				  </pin_maps>
+				</port_map>		
+
+				<port_map logical_port="TRI_O" physical_port="qsfp1_lowspeed_0_o" dir="inout" left='4' right='0'>
+				  <pin_maps>
+					<pin_map port_index="0" component_pin="qsfp1_lowspeed_0"/>
+					<pin_map port_index="1" component_pin="qsfp1_lowspeed_1"/>
+					<pin_map port_index="2" component_pin="qsfp1_lowspeed_2"/>
+					<pin_map port_index="3" component_pin="qsfp1_lowspeed_3"/>
+					<pin_map port_index="4" component_pin="qsfp1_lowspeed_4"/>
+				  </pin_maps>
+				</port_map>	
+				
+				<port_map logical_port="TRI_T" physical_port="qsfp1_lowspeed_0_t" dir="inout" left='4' right='0'>
+				  <pin_maps>
+					<pin_map port_index="0" component_pin="qsfp1_lowspeed_0"/>
+					<pin_map port_index="1" component_pin="qsfp1_lowspeed_1"/>
+					<pin_map port_index="2" component_pin="qsfp1_lowspeed_2"/>
+					<pin_map port_index="3" component_pin="qsfp1_lowspeed_3"/>
+					<pin_map port_index="4" component_pin="qsfp1_lowspeed_4"/>
+				  </pin_maps>
+				</port_map>					
+
+          </port_maps>
+        </interface>					
 		
 		<interface mode="master" name="pci_express_x1" type="xilinx.com:interface:pcie_7x_mgt_rtl:1.0" of_component="pci_express" preset_proc="pciex1_preset">
           <preferred_ips>
@@ -1967,6 +2052,13 @@
       <description>Dip Switches 3 to 0</description>
     </component>	
 
+	<component name="qsfp0_lowspeed" display_name="QSFP0 LowSpeed GPIO" type="chip" sub_type="switch" major_group="General Purpose Input or Output" part_name="" vendor="" spec_url="">
+      <description>QSFP0 LowSpeed GPIO</description>
+    </component>	
+	
+	<component name="qsfp1_lowspeed" display_name="QSFP1 LowSpeed GPIO" type="chip" sub_type="switch" major_group="General Purpose Input or Output" part_name="" vendor="" spec_url="">
+      <description>QSFP1 LowSpeed GPIO</description>
+    </component>	
 	
 	 <component name="pci_express" display_name="PCI Express" type="chip" sub_type="chip" major_group="Miscellaneous">
       <description>PCI Express</description>
@@ -2290,6 +2382,14 @@
 	<connection name="part0_qsfp1_gt" component1="part0" component2="qsfp1">
       <connection_map name="part0_qsfp1" typical_delay="5" c1_st_index="850" c1_end_index="869" c2_st_index="0" c2_end_index="19"/>
     </connection>		
+
+	<connection name="part0_qsfp0_lowspeed" component1="part0" component2="qsfp0_lowspeed">
+      <connection_map name="part0_qsfp0_lowspeed_1" typical_delay="5" c1_st_index="900" c1_end_index="904" c2_st_index="0" c2_end_index="4"/>
+    </connection>	
+
+	<connection name="part0_qsfp1_lowspeed" component1="part0" component2="qsfp1_lowspeed">
+      <connection_map name="part0_qsfp1_lowspeed_1" typical_delay="5" c1_st_index="910" c1_end_index="914" c2_st_index="0" c2_end_index="4"/>
+    </connection>	
 	
   </connections>
     
