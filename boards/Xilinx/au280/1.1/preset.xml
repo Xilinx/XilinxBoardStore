@@ -260,6 +260,38 @@
     </ip>
   </ip_preset>
   
+	<ip_preset preset_proc_name="qsfp0_lowspeed_preset">
+		<ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+		  <user_parameters>
+			<user_parameter name="CONFIG.C_DOUT_DEFAULT" value="0x00000002"/> 
+			<user_parameter name="CONFIG.C_TRI_DEFAULT" value="0xFFFFFFF8"/> 
+		  </user_parameters>
+		</ip>
+		<ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+		  <user_parameters>
+			<user_parameter name="CONFIG.C_DOUT_DEFAULT_2" value="0x00000002"/> 
+			<user_parameter name="CONFIG.C_TRI_DEFAULT_2" value="0xFFFFFFF8"/> 
+		  </user_parameters>
+		</ip>
+   </ip_preset>
+  
+  <!-- qsfp1_lowspeed_preset  -->   
+   
+	<ip_preset preset_proc_name="qsfp1_lowspeed_preset">
+		<ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+		  <user_parameters>
+			<user_parameter name="CONFIG.C_DOUT_DEFAULT" value="0x00000002"/> 
+			<user_parameter name="CONFIG.C_TRI_DEFAULT" value="0xFFFFFFF8"/> 
+		  </user_parameters>
+		</ip>
+		<ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+		  <user_parameters>
+			<user_parameter name="CONFIG.C_DOUT_DEFAULT_2" value="0x00000002"/> 
+			<user_parameter name="CONFIG.C_TRI_DEFAULT_2" value="0xFFFFFFF8"/> 
+		  </user_parameters>
+		</ip>
+   </ip_preset>   
+   
    <ip_preset preset_proc_name="led_8bits_preset">
     <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
       <user_parameters>
@@ -406,16 +438,16 @@
 		  </user_parameters>
 		</ip>
 		
-		<ip vendor="xilinx.com" library="ip" name="interlaken">
-		  <user_parameters>
-			<user_parameter name="CONFIG.GT_TYPE" value="GTY" />
-			<user_parameter name="CONFIG.NUM_LANES" value="1" />
-			<user_parameter name="CONFIG.LINE_RATE" value= "25.78125" />			
-			<user_parameter name="CONFIG.GT_REF_CLK_FREQ" value= "161.1328125" />			
-			<user_parameter name="CONFIG.GT_SELECT" value="X0Y40" />
-			<user_parameter name="CONFIG.ILKN_CORE_LOC" value= "ILKNE4_X0Y2" />
-		  </user_parameters>
-		</ip>
+		<!-- <ip vendor="xilinx.com" library="ip" name="interlaken"> -->
+		  <!-- <user_parameters> -->
+			<!-- <user_parameter name="CONFIG.GT_TYPE" value="GTY" /> -->
+			<!-- <user_parameter name="CONFIG.NUM_LANES" value="1" /> -->
+			<!-- <user_parameter name="CONFIG.LINE_RATE" value= "25.78125" />			 -->
+			<!-- <user_parameter name="CONFIG.GT_REF_CLK_FREQ" value= "161.1328125" />			 -->
+			<!-- <user_parameter name="CONFIG.GT_SELECT" value="X0Y40" /> -->
+			<!-- <user_parameter name="CONFIG.ILKN_CORE_LOC" value= "ILKNE4_X0Y2" /> -->
+		  <!-- </user_parameters> -->
+		<!-- </ip> -->
 		
 	
    </ip_preset>
@@ -440,16 +472,16 @@
 		  </user_parameters>
 		</ip>
 	
-		<ip vendor="xilinx.com" library="ip" name="interlaken">
-		  <user_parameters>
-			<user_parameter name="CONFIG.GT_TYPE" value="GTY" />
-			<user_parameter name="CONFIG.NUM_LANES" value="2" />
-			<user_parameter name="CONFIG.LINE_RATE" value= "25.78125" />			
-			<user_parameter name="CONFIG.GT_REF_CLK_FREQ" value= "161.1328125" />						
-			<user_parameter name="CONFIG.GT_SELECT" value="X0Y40~X0Y41" />
-			<user_parameter name="CONFIG.ILKN_CORE_LOC" value= "ILKNE4_X0Y2" />
-		  </user_parameters>
-		</ip>
+		<!-- <ip vendor="xilinx.com" library="ip" name="interlaken"> -->
+		  <!-- <user_parameters> -->
+			<!-- <user_parameter name="CONFIG.GT_TYPE" value="GTY" /> -->
+			<!-- <user_parameter name="CONFIG.NUM_LANES" value="2" /> -->
+			<!-- <user_parameter name="CONFIG.LINE_RATE" value= "25.78125" />			 -->
+			<!-- <user_parameter name="CONFIG.GT_REF_CLK_FREQ" value= "161.1328125" />						 -->
+			<!-- <user_parameter name="CONFIG.GT_SELECT" value="X0Y40~X0Y41" /> -->
+			<!-- <user_parameter name="CONFIG.ILKN_CORE_LOC" value= "ILKNE4_X0Y2" /> -->
+		  <!-- </user_parameters> -->
+		<!-- </ip> -->
 		
 
   </ip_preset>
@@ -466,16 +498,16 @@
 		</ip>
 	
 	
-		<ip vendor="xilinx.com" library="ip" name="interlaken">
-		  <user_parameters>
-			<user_parameter name="CONFIG.GT_TYPE" value="GTY" />
-			<user_parameter name="CONFIG.NUM_LANES" value="3" />
-			<user_parameter name="CONFIG.LINE_RATE" value= "25.78125" />			
-			<user_parameter name="CONFIG.GT_REF_CLK_FREQ" value= "161.1328125" />									
-			<user_parameter name="CONFIG.GT_SELECT" value="X0Y40~X0Y42" />
-			<user_parameter name="CONFIG.ILKN_CORE_LOC" value= "ILKNE4_X0Y2" />
-		  </user_parameters>
-		</ip>	
+		<!-- <ip vendor="xilinx.com" library="ip" name="interlaken"> -->
+		  <!-- <user_parameters> -->
+			<!-- <user_parameter name="CONFIG.GT_TYPE" value="GTY" /> -->
+			<!-- <user_parameter name="CONFIG.NUM_LANES" value="3" /> -->
+			<!-- <user_parameter name="CONFIG.LINE_RATE" value= "25.78125" />			 -->
+			<!-- <user_parameter name="CONFIG.GT_REF_CLK_FREQ" value= "161.1328125" />									 -->
+			<!-- <user_parameter name="CONFIG.GT_SELECT" value="X0Y40~X0Y42" /> -->
+			<!-- <user_parameter name="CONFIG.ILKN_CORE_LOC" value= "ILKNE4_X0Y2" /> -->
+		  <!-- </user_parameters> -->
+		<!-- </ip>	 -->
 		
 
   </ip_preset>
@@ -502,16 +534,16 @@
     </ip>
 	
 	
-	<ip vendor="xilinx.com" library="ip" name="interlaken">
-	  <user_parameters>
-		<user_parameter name="CONFIG.GT_TYPE" value="GTY" />			
-		<user_parameter name="CONFIG.NUM_LANES" value="4" />
-			<user_parameter name="CONFIG.LINE_RATE" value= "25.78125" />			
-			<user_parameter name="CONFIG.GT_REF_CLK_FREQ" value= "161.1328125" />								
-			<user_parameter name="CONFIG.GT_SELECT" value="X0Y40~X0Y43" />
-			<user_parameter name="CONFIG.ILKN_CORE_LOC" value= "ILKNE4_X0Y2" />
-	  </user_parameters>
-	</ip>		
+	<!-- <ip vendor="xilinx.com" library="ip" name="interlaken"> -->
+	  <!-- <user_parameters> -->
+		<!-- <user_parameter name="CONFIG.GT_TYPE" value="GTY" />			 -->
+		<!-- <user_parameter name="CONFIG.NUM_LANES" value="4" /> -->
+			<!-- <user_parameter name="CONFIG.LINE_RATE" value= "25.78125" />			 -->
+			<!-- <user_parameter name="CONFIG.GT_REF_CLK_FREQ" value= "161.1328125" />								 -->
+			<!-- <user_parameter name="CONFIG.GT_SELECT" value="X0Y40~X0Y43" /> -->
+			<!-- <user_parameter name="CONFIG.ILKN_CORE_LOC" value= "ILKNE4_X0Y2" /> -->
+	  <!-- </user_parameters> -->
+	<!-- </ip>		 -->
 	
 	
 	<ip vendor="xilinx.com" library="ip" name="cmac_usplus">
@@ -541,16 +573,16 @@
 		  </user_parameters>
 		</ip>
 		
-		<ip vendor="xilinx.com" library="ip" name="interlaken">
-		  <user_parameters>
-			<user_parameter name="CONFIG.GT_TYPE" value="GTY" />
-			<user_parameter name="CONFIG.NUM_LANES" value="1" />
-			<user_parameter name="CONFIG.LINE_RATE" value= "25.78125" />			
-			<user_parameter name="CONFIG.GT_REF_CLK_FREQ" value= "161.1328125" />									
-			<user_parameter name="CONFIG.GT_SELECT" value="X1Y44" />
-			<user_parameter name="CONFIG.ILKN_CORE_LOC" value= "ILKNE4_X1Y7" />
-		  </user_parameters>
-		</ip>		
+		<!-- <ip vendor="xilinx.com" library="ip" name="interlaken"> -->
+		  <!-- <user_parameters> -->
+			<!-- <user_parameter name="CONFIG.GT_TYPE" value="GTY" /> -->
+			<!-- <user_parameter name="CONFIG.NUM_LANES" value="1" /> -->
+			<!-- <user_parameter name="CONFIG.LINE_RATE" value= "25.78125" />			 -->
+			<!-- <user_parameter name="CONFIG.GT_REF_CLK_FREQ" value= "161.1328125" />									 -->
+			<!-- <user_parameter name="CONFIG.GT_SELECT" value="X1Y44" /> -->
+			<!-- <user_parameter name="CONFIG.ILKN_CORE_LOC" value= "ILKNE4_X1Y7" /> -->
+		  <!-- </user_parameters> -->
+		<!-- </ip>		 -->
 		
   </ip_preset>
   
@@ -574,16 +606,16 @@
       </user_parameters>
     </ip>
 	
-	<ip vendor="xilinx.com" library="ip" name="interlaken">
-	  <user_parameters>
-		<user_parameter name="CONFIG.GT_TYPE" value="GTY" />
-		<user_parameter name="CONFIG.NUM_LANES" value="2" />
-		<user_parameter name="CONFIG.LINE_RATE" value= "25.78125" />			
-		<user_parameter name="CONFIG.GT_REF_CLK_FREQ" value= "161.1328125" />								
-		<user_parameter name="CONFIG.GT_SELECT" value="X1Y44~X1Y45" />
-		<user_parameter name="CONFIG.ILKN_CORE_LOC" value= "ILKNE4_X1Y7" />
-	  </user_parameters>
-	</ip>	
+	<!-- <ip vendor="xilinx.com" library="ip" name="interlaken"> -->
+	  <!-- <user_parameters> -->
+		<!-- <user_parameter name="CONFIG.GT_TYPE" value="GTY" /> -->
+		<!-- <user_parameter name="CONFIG.NUM_LANES" value="2" /> -->
+		<!-- <user_parameter name="CONFIG.LINE_RATE" value= "25.78125" />			 -->
+		<!-- <user_parameter name="CONFIG.GT_REF_CLK_FREQ" value= "161.1328125" />								 -->
+		<!-- <user_parameter name="CONFIG.GT_SELECT" value="X1Y44~X1Y45" /> -->
+		<!-- <user_parameter name="CONFIG.ILKN_CORE_LOC" value= "ILKNE4_X1Y7" /> -->
+	  <!-- </user_parameters> -->
+	<!-- </ip>	 -->
 	
   </ip_preset>
    
@@ -597,16 +629,16 @@
       </user_parameters>
     </ip>
 	
-	<ip vendor="xilinx.com" library="ip" name="interlaken">
-	  <user_parameters>
-		<user_parameter name="CONFIG.GT_TYPE" value="GTY" />
-		<user_parameter name="CONFIG.NUM_LANES" value="3" />
-		<user_parameter name="CONFIG.LINE_RATE" value="25.78125" />
-		<user_parameter name="CONFIG.GT_REF_CLK_FREQ" value="161.1328125" />
-		<user_parameter name="CONFIG.GT_SELECT" value="X1Y44~X1Y46" />
-		<user_parameter name="CONFIG.ILKN_CORE_LOC" value= "ILKNE4_X1Y7" />
-	  </user_parameters>
-	</ip>	
+	<!-- <ip vendor="xilinx.com" library="ip" name="interlaken"> -->
+	  <!-- <user_parameters> -->
+		<!-- <user_parameter name="CONFIG.GT_TYPE" value="GTY" /> -->
+		<!-- <user_parameter name="CONFIG.NUM_LANES" value="3" /> -->
+		<!-- <user_parameter name="CONFIG.LINE_RATE" value="25.78125" /> -->
+		<!-- <user_parameter name="CONFIG.GT_REF_CLK_FREQ" value="161.1328125" /> -->
+		<!-- <user_parameter name="CONFIG.GT_SELECT" value="X1Y44~X1Y46" /> -->
+		<!-- <user_parameter name="CONFIG.ILKN_CORE_LOC" value= "ILKNE4_X1Y7" /> -->
+	  <!-- </user_parameters> -->
+	<!-- </ip>	 -->
 	
   </ip_preset>
   
@@ -632,16 +664,16 @@
     </ip>
 	
 	
-	<ip vendor="xilinx.com" library="ip" name="interlaken">
-	  <user_parameters>
-		<user_parameter name="CONFIG.GT_TYPE" value="GTY" />
-		<user_parameter name="CONFIG.NUM_LANES" value="4" />
-		<user_parameter name="CONFIG.LINE_RATE" value= "25.78125" />			
-		<user_parameter name="CONFIG.GT_REF_CLK_FREQ" value= "161.1328125" />								
-		<user_parameter name="CONFIG.GT_SELECT" value="X0Y44~X0Y47" />
-		<user_parameter name="CONFIG.ILKN_CORE_LOC" value= "ILKNE4_X0Y2" />
-	  </user_parameters>
-	</ip>	
+	<!-- <ip vendor="xilinx.com" library="ip" name="interlaken"> -->
+	  <!-- <user_parameters> -->
+		<!-- <user_parameter name="CONFIG.GT_TYPE" value="GTY" /> -->
+		<!-- <user_parameter name="CONFIG.NUM_LANES" value="4" /> -->
+		<!-- <user_parameter name="CONFIG.LINE_RATE" value= "25.78125" />			 -->
+		<!-- <user_parameter name="CONFIG.GT_REF_CLK_FREQ" value= "161.1328125" />								 -->
+		<!-- <user_parameter name="CONFIG.GT_SELECT" value="X0Y44~X0Y47" /> -->
+		<!-- <user_parameter name="CONFIG.ILKN_CORE_LOC" value= "ILKNE4_X0Y2" /> -->
+	  <!-- </user_parameters> -->
+	<!-- </ip>	 -->
 	
 	
 	<ip vendor="xilinx.com" library="ip" name="cmac_usplus">

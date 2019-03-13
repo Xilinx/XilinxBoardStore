@@ -255,7 +255,41 @@
         </user_parameters>
     </ip>
   </ip_preset>
+ 
+  <!-- qsfp0_lowspeed_preset  -->
   
+	<ip_preset preset_proc_name="qsfp0_lowspeed_preset">
+		<ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+		  <user_parameters>
+			<user_parameter name="CONFIG.C_DOUT_DEFAULT" value="0x00000002"/> 
+			<user_parameter name="CONFIG.C_TRI_DEFAULT" value="0xFFFFFFF8"/> 
+		  </user_parameters>
+		</ip>
+		<ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+		  <user_parameters>
+			<user_parameter name="CONFIG.C_DOUT_DEFAULT_2" value="0x00000002"/> 
+			<user_parameter name="CONFIG.C_TRI_DEFAULT_2" value="0xFFFFFFF8"/> 
+		  </user_parameters>
+		</ip>
+   </ip_preset>
+
+  <!-- qsfp1_lowspeed_preset  -->   
+   
+	<ip_preset preset_proc_name="qsfp1_lowspeed_preset">
+		<ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+		  <user_parameters>
+			<user_parameter name="CONFIG.C_DOUT_DEFAULT" value="0x00000002"/> 
+			<user_parameter name="CONFIG.C_TRI_DEFAULT" value="0xFFFFFFF8"/> 
+		  </user_parameters>
+		</ip>
+		<ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+		  <user_parameters>
+			<user_parameter name="CONFIG.C_DOUT_DEFAULT_2" value="0x00000002"/> 
+			<user_parameter name="CONFIG.C_TRI_DEFAULT_2" value="0xFFFFFFF8"/> 
+		  </user_parameters>
+		</ip>
+   </ip_preset>  
+ 
    <ip_preset preset_proc_name="led_8bits_preset">
     <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
       <user_parameters>
@@ -398,6 +432,7 @@
 			<user_parameter name="CONFIG.NUM_OF_CORES" value="1" />
 			<user_parameter name="CONFIG.GT_TYPE" value="GTY" />
 			<user_parameter name="CONFIG.GT_GROUP_SELECT" value="Quad_X1Y12" />
+			<user_parameter name="CONFIG.BASE_R_KR" value="BASE-R" />
 		  </user_parameters>
 		</ip>
 
@@ -411,6 +446,7 @@
 			<user_parameter name="CONFIG.NUM_OF_CORES" value="2" />
 			<user_parameter name="CONFIG.GT_TYPE" value="GTY" />
 			<user_parameter name="CONFIG.GT_GROUP_SELECT" value="Quad_X1Y12" />
+			<user_parameter name="CONFIG.BASE_R_KR" value="BASE-R" />	
 		  </user_parameters>
 		</ip>
 	
@@ -420,6 +456,7 @@
 			<user_parameter name="CONFIG.LINE_RATE" value="50" />
 			<user_parameter name="CONFIG.GT_TYPE" value="GTY" />
 			<user_parameter name="CONFIG.GT_GROUP_SELECT" value="Quad_X1Y12" />
+			<user_parameter name="CONFIG.BASE_R_KR" value="BASE-R" />	
 		  </user_parameters>
 		</ip>
      </ip_preset>
@@ -432,6 +469,7 @@
 			<user_parameter name="CONFIG.NUM_OF_CORES" value="3" />
 			<user_parameter name="CONFIG.GT_TYPE" value="GTY" />
 			<user_parameter name="CONFIG.GT_GROUP_SELECT" value="Quad_X1Y12" />
+			<user_parameter name="CONFIG.BASE_R_KR" value="BASE-R" />
 		  </user_parameters>
 		</ip>
     </ip_preset>
@@ -444,6 +482,7 @@
         <user_parameter name="CONFIG.NUM_OF_CORES" value="4" />
         <user_parameter name="CONFIG.GT_TYPE" value="GTY" />
         <user_parameter name="CONFIG.GT_GROUP_SELECT" value="Quad_X1Y12" />
+		<user_parameter name="CONFIG.BASE_R_KR" value="BASE-R" />
       </user_parameters>
     </ip>
 	
@@ -454,6 +493,7 @@
 		<user_parameter name="CONFIG.LINE_RATE" value="40" />
         <user_parameter name="CONFIG.GT_TYPE" value="GTY" />
         <user_parameter name="CONFIG.GT_GROUP_SELECT" value="Quad_X1Y12" />
+		<user_parameter name="CONFIG.BASE_R_KR" value="BASE-R" />
       </user_parameters>
     </ip>
 	
@@ -482,6 +522,7 @@
 			<user_parameter name="CONFIG.NUM_OF_CORES" value="1" />
 			<user_parameter name="CONFIG.GT_TYPE" value="GTY" />
 			<user_parameter name="CONFIG.GT_GROUP_SELECT" value="Quad_X1Y11" />
+			<user_parameter name="CONFIG.BASE_R_KR" value="BASE-R" />
 		  </user_parameters>
 		</ip>
     </ip_preset>
@@ -494,6 +535,7 @@
         <user_parameter name="CONFIG.NUM_OF_CORES" value="2" />
         <user_parameter name="CONFIG.GT_TYPE" value="GTY" />
         <user_parameter name="CONFIG.GT_GROUP_SELECT" value="Quad_X1Y11" />
+		<user_parameter name="CONFIG.BASE_R_KR" value="BASE-R" />
       </user_parameters>
     </ip>
 	
@@ -503,6 +545,7 @@
 		<user_parameter name="CONFIG.LINE_RATE" value="50" />
         <user_parameter name="CONFIG.GT_TYPE" value="GTY" />
         <user_parameter name="CONFIG.GT_GROUP_SELECT" value="Quad_X1Y11" />
+		<user_parameter name="CONFIG.BASE_R_KR" value="BASE-R" />
       </user_parameters>
     </ip>
 
@@ -515,6 +558,7 @@
         <user_parameter name="CONFIG.NUM_OF_CORES" value="3" />
         <user_parameter name="CONFIG.GT_TYPE" value="GTY" />
         <user_parameter name="CONFIG.GT_GROUP_SELECT" value="Quad_X1Y11" />
+		<user_parameter name="CONFIG.BASE_R_KR" value="BASE-R" />
       </user_parameters>
     </ip>
 
@@ -528,6 +572,7 @@
         <user_parameter name="CONFIG.NUM_OF_CORES" value="4" />
         <user_parameter name="CONFIG.GT_TYPE" value="GTY" />
         <user_parameter name="CONFIG.GT_GROUP_SELECT" value="Quad_X1Y11" />
+		<user_parameter name="CONFIG.BASE_R_KR" value="BASE-R" />
       </user_parameters>
     </ip>
 	
@@ -538,6 +583,7 @@
 		<user_parameter name="CONFIG.LINE_RATE" value="40" />
         <user_parameter name="CONFIG.GT_TYPE" value="GTY" />
         <user_parameter name="CONFIG.GT_GROUP_SELECT" value="Quad_X1Y11" />
+		<user_parameter name="CONFIG.BASE_R_KR" value="BASE-R" />
       </user_parameters>
     </ip>
 

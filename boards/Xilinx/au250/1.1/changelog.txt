@@ -1,6 +1,7 @@
 ######### AU2500 change log ##############
 1.1
 Enabled QSFP Support with Ethernet IPs(xxv_ethernet and l_ethernet) for 2018.3_web
+Added QSFP LowSpeed interface and BASE_R_KR config mode for Ethernet IPs(xxv_ethernet and l_ethernet)
 
 1.0
 AU250 Initial board support(Vivado 2018.2 XDF)
