@@ -466,10 +466,10 @@
     <pin index="813" name ="qsfp0_TX_P3" loc="J48"/>
     <pin index="814" name ="qsfp0_RX_N3" loc="H52"/>
     <pin index="815" name ="qsfp0_RX_P3" loc="H51"/>
-    <pin index="816" name ="qsfp0_si570_clock_n" loc="T43"/>
-    <pin index="817" name ="qsfp0_si570_clock_p" loc="T42"/>   
-	<pin index="818" name ="qsfp0_clock_n" loc="R41"/>
-    <pin index="819" name ="qsfp0_clock_p" loc="R40"/>
+    <pin index="816" name ="qsfp0_156mhz_n" loc="T43"/>
+    <pin index="817" name ="qsfp0_156mhz_p" loc="T42"/>   
+	<pin index="818" name ="qsfp0_161mhz_n" loc="R41"/>
+    <pin index="819" name ="qsfp0_161mhz_p" loc="R40"/>
 	
 	<pin index="850" name ="qsfp1_TX_N0" loc="G49"/>
     <pin index="851" name ="qsfp1_TX_P0" loc="G48"/>
@@ -488,11 +488,22 @@
     <pin index="864" name ="qsfp1_RX_N3" loc="D52"/>
     <pin index="865" name ="qsfp1_RX_P3" loc="D51"/>
 	
-    <pin index="866" name ="qsfp1_si570_clock_n" loc="P43"/>
-    <pin index="867" name ="qsfp1_si570_clock_p" loc="P42"/>    
-	<pin index="868" name ="qsfp1_clock_n" loc="M43"/>
-    <pin index="869" name ="qsfp1_clock_p" loc="M42"/>		
-  
+    <pin index="866" name ="qsfp1_156mhz_n" loc="P43"/>
+    <pin index="867" name ="qsfp1_156mhz_p" loc="P42"/>    
+	<pin index="868" name ="qsfp1_161mhz_n" loc="M43"/>
+    <pin index="869" name ="qsfp1_161mhz_p" loc="M42"/>		
+
+    <pin index="900" name ="qsfp0_lowspeed_0" iostandard="LVCMOS18" drive="8"  loc="C29"/>
+    <pin index="901" name ="qsfp0_lowspeed_1" iostandard="LVCMOS18" drive="8"  loc="B30"/>    
+	<pin index="902" name ="qsfp0_lowspeed_2" iostandard="LVCMOS18" drive="8"  loc="A31"/>
+    <pin index="903" name ="qsfp0_lowspeed_3" iostandard="LVCMOS18" drive="8"  loc="A33"/>		
+	<pin index="904" name ="qsfp0_lowspeed_4" iostandard="LVCMOS18" drive="8"  loc="B32"/>		
+	
+    <pin index="910" name ="qsfp1_lowspeed_0" iostandard="LVCMOS18" drive="8"  loc="F29"/>
+    <pin index="911" name ="qsfp1_lowspeed_1" iostandard="LVCMOS18" drive="8"  loc="E33"/>    
+	<pin index="912" name ="qsfp1_lowspeed_2" iostandard="LVCMOS18" drive="8"  loc="D30"/>
+    <pin index="913" name ="qsfp1_lowspeed_3" iostandard="LVCMOS18" drive="8"  loc="F33"/>		
+	<pin index="914" name ="qsfp1_lowspeed_4" iostandard="LVCMOS18" drive="8"  loc="E29"/>		
   
   </pins>
   
