@@ -1981,11 +1981,11 @@
         "name": "au250",
         "display": "Alveo U250 Data Center Accelerator Card",
         "latest_revision": "1.1",
-        "commit_id": "5c16b9fdfe17a3a177ad4968659a9df3d7f6ede6",
+        "commit_id": "6ce9531aef5a38e2cbbfe2285cca2572e8c814f1",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "5c16b9fdfe17a3a177ad4968659a9df3d7f6ede6",
+            "commit_id": "6ce9531aef5a38e2cbbfe2285cca2572e8c814f1",
             "date": "31-01-2019",
             "history": "Add au250 Data Acceleration card Board Files"
           }
@@ -2000,11 +2000,11 @@
         "name": "au280",
         "display": "Alveo U280 Data Center Accelerator Card",
         "latest_revision": "1.0",
-        "commit_id": "f0ae2e30c7bef382ec275bb50e898449080bad61",
+        "commit_id": "6ce9531aef5a38e2cbbfe2285cca2572e8c814f1",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "f0ae2e30c7bef382ec275bb50e898449080bad61",
+            "commit_id": "6ce9531aef5a38e2cbbfe2285cca2572e8c814f1",
             "date": "31-01-2019",
             "history": "Add au280 eU200 Acceleration card Board Files"
           }
