@@ -1943,11 +1943,11 @@
         "name": "vcu128_es",
         "display": "Virtex Ultrascale+ HBM VCU128-ES Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "0fc9afef175606b7138b56ab9bbbf9734693aeee",
+        "commit_id": "8d88dd97d1cee1343f4f9e404c8d59339cddbe01",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "0fc9afef175606b7138b56ab9bbbf9734693aeee",
+            "commit_id": "8d88dd97d1cee1343f4f9e404c8d59339cddbe01",
             "date": "07-02-2019",
             "history": "Add vcu128 evaluation platform Board Files"
           }
@@ -1958,6 +1958,25 @@
         },
         "company": "xilinx.com"
       },
+      {
+        "name": "vcu128_es",
+        "display": "Virtex Ultrascale+ HBM VCU128-ES Evaluation Platform",
+        "latest_revision": "1.1",
+        "commit_id": "0fc9afef175606b7138b56ab9bbbf9734693aeee",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "0fc9afef175606b7138b56ab9bbbf9734693aeee",
+            "date": "15-03-2019",
+            "history": "Add vcu128 evaluation platform Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vcu128/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },  
       {
         "name": "au280",
         "display": "Alveo U280 Data Center Accelerator Card",
