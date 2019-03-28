@@ -1959,6 +1959,26 @@
         "company": "xilinx.com"
       },
 	  {
+        "name": "zcu1275",
+        "display": "Xilinx Zynq UltraScale+ RFSoC ZCU1275 Characterization Kit",
+        "latest_revision": "1.0",
+        "commit_id": "e415522337325c020efe33232a2ff37293293ec1",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "e415522337325c020efe33232a2ff37293293ec1",
+            "date": "28-03-2019",
+            "history": "Add zcu1275 characterization kit Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu1275/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+	  
+	  {
         "name": "zcu1285",
         "display": "Xilinx Zynq UltraScale+ RFSoC ZCU1285 Characterization Kit",
         "latest_revision": "1.0",
@@ -1976,8 +1996,7 @@
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
-      },
-	  
+      },	  
 	  
       {
         "name": "au200",
