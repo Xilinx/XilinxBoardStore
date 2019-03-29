@@ -32,11 +32,11 @@ def loadStoreJson(args):
 		data = json.load(json_file,object_pairs_hook=OrderedDict)
 		catalog = data['catalog']
 
-		if data['_major'] != 1: 
+		if catalog['_major'] != 2: 
 			print ("store Major version is not supported")
 			exit()
 
-		if data['_minor'] != 0:
+		if catalog['_minor'] != 0:
 			print ("store Minor version is not supported")
 			exit()
 

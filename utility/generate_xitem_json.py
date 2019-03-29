@@ -15,10 +15,10 @@ def createXitemJson(xmldoc,args) :
 		url = itemlist[0].attributes['url'].value
 		schema_version = itemlist[0].attributes['schema_version'].value
 		#if (schema_version < "2.0"):
-	#		print ("The utility script does work for schema 2.0 only")
+	#		print "The utility script does work for schema 2.0 only"
 	#		exit()
 	else: 
-		print ("Did not find board Specific data in file , cannot Create xitem json file")
+		print "Did not find board Specific data in file , cannot Create xitem json file"
 		exit()
 
 	subtype = "board"	
@@ -26,7 +26,7 @@ def createXitemJson(xmldoc,args) :
 
 	imlength = len(imagelist)
 	deslist = xmldoc.getElementsByTagName("description")	
-	deslen = len(deslist)
+        deslen = len(deslist)
 	if deslen > 0 :
 		des = deslist[imlength].firstChild
 		if des:
@@ -38,7 +38,7 @@ def createXitemJson(xmldoc,args) :
 		if child:
 			ver = child.nodeValue.strip()
 		else :
-			print ("Did not finf file_version in the board file")
+			print "Did not finf file_version in the board file"
 			exit()
 	
 	complist = xmldoc.getElementsByTagName("component")
@@ -52,7 +52,7 @@ def createXitemJson(xmldoc,args) :
 	if fpgacount > 1 :
 		category = "Multi part"
 
-	data = OrderedDict()
+	data = {}
 	config = OrderedDict()
 	search_keywords = [name,vendor,subtype,category]
 	
@@ -85,15 +85,16 @@ def createXitemJson(xmldoc,args) :
 	
 	orderItems = [item]
 	config['items'] = orderItems
-		
+	
+	config["major"] = "1"
+	config["minor"] = "1"
+	
 	data['config'] = config
-	data["_major"] = 1
-	data["_minor"] = 0
 
 	try:	
 		outfile = open(args.output_file,'w')
 	except IOError:
-		print ('cannot open', args.output_file)
+		print 'cannot open', args.output_file
 	else:
 		json.dump(data, outfile,indent = 2)
 		outfile.close()
@@ -112,11 +113,11 @@ def parse_cmdline():
 
 def main():
 	parser = parse_cmdline()
-	args = parser.parse_args() 
+        args = parser.parse_args() 
 	try : 
 		infile= open(args.board_file,"r")
 	except IOError:
-		print ('cannot open', args.board_file)
+		print 'cannot open', args.board_file
 	else:
 		infile.close()
 		xmldoc = minidom.parse(args.board_file)	
