@@ -27,7 +27,7 @@
             },
             {
               "version": "2019.2",
-              "xitem_catalogue_file": "catalog/vivado_2019.1.json",
+              "xitem_catalogue_file": "catalog/vivado_2019.2.json",
               "remote_repo_branch_to_sync": "master"
             }            
          ]
