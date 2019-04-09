@@ -1,0 +1,4 @@
+######### AU50 change log ##############
+1.0
+AU50 ES Initial board support
+This is a convertion of the u280 1.1 board files
