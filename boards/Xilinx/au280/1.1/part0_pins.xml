@@ -3,11 +3,11 @@
 
   <pins>
   
-    <pin index="0"  name ="sysclk0_p" iostandard="LVDS" loc="BJ43" />
-    <pin index="1"  name ="sysclk0_n" iostandard="LVDS" loc="BJ44" />	
+    <pin index="0"  name ="sysclk0_p" iostandard="LVDS" loc="BJ43" dqs_bias="TRUE"/>
+    <pin index="1"  name ="sysclk0_n" iostandard="LVDS" loc="BJ44" dqs_bias="TRUE"/>	
 	
-    <pin index="2"  name ="sysclk1_p" iostandard="LVDS" loc="BH6" />
-    <pin index="3"  name ="sysclk1_n" iostandard="LVDS" loc="BJ6" />
+    <pin index="2"  name ="sysclk1_p" iostandard="LVDS" loc="BH6"  dqs_bias="TRUE"/>
+    <pin index="3"  name ="sysclk1_n" iostandard="LVDS" loc="BJ6"  dqs_bias="TRUE"/>
 
     <pin index="8"   name ="IIC_MUX_RESET_B" iostandard="LVCMOS18" loc="B31"/>
     <pin index="9"   name ="IIC_SCL_MAIN" iostandard="LVCMOS18" loc="C30" drive="8" slew="SLOW"/>
