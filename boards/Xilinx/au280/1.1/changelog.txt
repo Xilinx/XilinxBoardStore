@@ -5,6 +5,7 @@ Fixed pcie ref clock locations
 Changed QSFP clock names to reflect frequency.  Modified preset for xxv_ethernet and l_ethernet IP
 Added low speed QSFP interface 
 Enabled VBS for usxgmii
+Enabled DIMM support 
 
 1.0
 AU280 ES Initial board support for 2018.3_web
