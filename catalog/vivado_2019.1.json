@@ -2000,11 +2000,11 @@
         "name": "au280",
         "display": "Alveo U280 Data Center Accelerator Card",
         "latest_revision": "1.1",
-        "commit_id": "1b7669712e862f013065611cb9987460692ff011",
+        "commit_id": "081ba7296e7b7c110eb4236d6f061ad0225b9775",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "1b7669712e862f013065611cb9987460692ff011",
+            "commit_id": "081ba7296e7b7c110eb4236d6f061ad0225b9775",
             "date": "07-02-2019",
             "history": "Add au280 eU200 Acceleration card Board Files"
           }
