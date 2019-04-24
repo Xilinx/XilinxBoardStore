@@ -1,4 +1,0 @@
-######### ZCU111 change log ############
-1.0
-ZCU111 initial board support
-

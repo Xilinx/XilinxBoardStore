@@ -1,4 +1,0 @@
-######### ZC702 Change log ##############
-
-1.3
-Added FMC support

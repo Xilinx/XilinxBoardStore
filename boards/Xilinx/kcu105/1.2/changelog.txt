@@ -1,5 +1,0 @@
-######### KCU105 Change log ##############
-(2018.1)Updating DDR4 CLK IO-Standards, reatining same version for backward compatibility 
-
-1.2
-Added FMC support

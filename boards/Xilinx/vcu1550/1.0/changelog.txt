@@ -1,4 +1,0 @@
-######### VCU1550 change log ##############
-1.0
-VCU1550 Initial board support(Vivado 2018.1)
-

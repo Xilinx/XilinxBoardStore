@@ -1,4 +1,0 @@
-######### AU200 change log ##############
-1.0
-AU200 Initial board support(Vivado 2018.2 XDF)
-

@@ -1,7 +1,0 @@
-######### VCU1525 change log ##############
-1.1
-Added SLR parameter to DDR4 components 
-
-1.0
-VCU1525 Initial board support(Vivado 2017.4)
-

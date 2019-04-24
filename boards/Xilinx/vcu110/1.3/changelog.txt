@@ -1,9 +1,0 @@
-######### VCU110 change log ##############
-1.3
-FMC Support 
-
-1.2
-Avoiding upper case attributes 
-
-
-
