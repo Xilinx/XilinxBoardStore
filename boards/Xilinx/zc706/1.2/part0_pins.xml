@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<part_info part_name="xc7z045ffg900-2">
+<pins>
+  <pin index="0" name ="clk_n" iostandard="LVDS" loc="G9"/>
+  <pin index="1" name ="clk_p" iostandard="LVDS" loc="H9"/>
+  <pin index="2" name ="dip_switches_4bits_tri_i_0" iostandard="LVCMOS25" loc="AB17"/>
+  <pin index="3" name ="dip_switches_4bits_tri_i_1" iostandard="LVCMOS25" loc="AC16"/>
+  <pin index="4" name ="dip_switches_4bits_tri_i_2" iostandard="LVCMOS25" loc="AC17"/>
+  <pin index="5" name ="dip_switches_4bits_tri_i_3" iostandard="LVCMOS25" loc="AJ13"/>
+  <pin index="6" name ="gpio_sws_3bits_tri_i_0" iostandard="LVCMOS25" loc="AK25"/>
+  <pin index="7" name ="gpio_sws_3bits_tri_i_1" iostandard="LVCMOS15" loc="K15"/>
+  <pin index="8" name ="gpio_sws_3bits_tri_i_2" iostandard="LVCMOS25" loc="R27"/>
+  <pin index="9" name ="jit_att_mgt_clkn" loc="AC7"/>
+  <pin index="10" name ="jit_att_mgt_clkp" loc="AC8"/>
+  <pin index="11" name ="led_4bits_tri_o_0" iostandard="LVCMOS25" loc="Y21"/>
+  <pin index="12" name ="led_4bits_tri_o_1" iostandard="LVCMOS15" loc="G2"/>
+  <pin index="13" name ="led_4bits_tri_o_2" iostandard="LVCMOS25" loc="W21"/>
+  <pin index="14" name ="led_4bits_tri_o_3" iostandard="LVCMOS15" loc="A17"/>
+  <pin index="15" name ="reset" iostandard="LVCMOS15" loc="A8"/>
+  <pin index="16" name ="sfp_rxn" loc="Y5"/>
+  <pin index="17" name ="sfp_rxp" loc="Y6"/>
+  <pin index="18" name ="sfp_sgmii_txn" loc="W3"/>
+  <pin index="19" name ="sfp_sgmii_txp" loc="W4"/>
+  <pin index="20" name ="sma_mgt_clkn" loc="W7"/>
+  <pin index="21" name ="sma_mgt_clkp" loc="W8"/>
+  <pin index="22" name ="sma_sfp_rxn" loc="AB5"/>
+  <pin index="23" name ="sma_sfp_rxp" loc="AB6"/>
+  <pin index="24" name ="sma_sfp_txn" loc="Y1"/>
+  <pin index="25" name ="sma_sfp_txp" loc="Y2"/>
+</pins>
+</part_info>

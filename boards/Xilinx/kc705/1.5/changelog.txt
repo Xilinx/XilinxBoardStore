@@ -1,0 +1,5 @@
+######### KC705 Change log ##############
+
+1.5
+Added FMC support
+

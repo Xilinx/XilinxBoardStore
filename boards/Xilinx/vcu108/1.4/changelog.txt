@@ -1,0 +1,9 @@
+######### VCU108 change log ##############
+1.4
+Enabled FMC support 
+
+1.3
+No upper case attributes 
+
+
+

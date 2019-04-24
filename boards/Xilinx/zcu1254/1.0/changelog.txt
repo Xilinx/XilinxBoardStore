@@ -1,0 +1,4 @@
+######### ZCU1254 change log ############
+1.0
+ZCU1254 board support
+

@@ -1,0 +1,4 @@
+######### AU250 change log ############
+1.0
+AU250 Initial board support(Vivado 2018.2 XDF)
+

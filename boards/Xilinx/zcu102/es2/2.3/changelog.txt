@@ -1,0 +1,17 @@
+2.3
+2018.1 chnages: Updated DDR4 IO-Standards and MPSoC ref clock frequency.
+Note:  Retaining same version for backward compatibility 
+
+
+2.3
+Added es2 in board name tag 
+Updated I/O attributes with lower case
+
+
+Version 2.2
+Updated DP and other clocking parameters to match with production silicon
+
+ZCU102 Board file Version 2.1
+
+GT configuration revised from DP-DP-USB-SATA to PCIe-DP-USB-SATA
+PMU GPI is disbaled

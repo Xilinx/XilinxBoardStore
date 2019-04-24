@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<part_info part_name="xc7z020clg484-1">
+<pins>
+  <pin index="0" name ="gpio_sw_tri_i_0" iostandard="LVCMOS25" loc="G19"/>
+  <pin index="1" name ="gpio_sw_tri_i_1" iostandard="LVCMOS25" loc="F19"/>
+  <pin index="2" name ="iic_main_scl_i" iostandard="LVCMOS25" loc="W11"/>
+  <pin index="3" name ="iic_main_sda_i" iostandard="LVCMOS25" loc="W8"/>
+  <pin index="4" name ="leds_4bits_tri_o_0" iostandard="LVCMOS25" loc="P17"/>
+  <pin index="5" name ="leds_4bits_tri_o_1" iostandard="LVCMOS25" loc="P18"/>
+  <pin index="6" name ="leds_4bits_tri_o_2" iostandard="LVCMOS25" loc="W10"/>
+  <pin index="7" name ="leds_4bits_tri_o_3" iostandard="LVCMOS25" loc="V7"/>
+  <pin index="8" name ="sys_clk_n" iostandard="LVDS_25" loc="C19"/>
+  <pin index="9" name ="sys_clk_p" iostandard="LVDS_25" loc="D18"/>
+</pins>
+</part_info>

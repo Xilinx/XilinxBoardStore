@@ -1,0 +1,6 @@
+######### VCU110 change log ##############
+1.2
+Avoiding upper case attributes 
+
+
+

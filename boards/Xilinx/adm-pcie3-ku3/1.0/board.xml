@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<board schema_version="2.1" vendor="alpha-data.com" name="adm-pcie3-ku3" display_name="Kintex-Ultrascale Alphadata board" url="http://www.alpha-data.com/dcp/products.php?product=adm-pcie-ku3" preset_file="preset.xml" supports_ced="false">
+<images>
+    <image name="adm-pcie3-ku3_high.jpeg" display_name="Alpha-Data ADM-PCIE-7V3 Board" sub_type="board" resolution="high">
+      <description>Kintex Ultrascale Alphadata Board Image (High Resolution)</description>
+    </image>
+    <image name="adm-pcie3-ku3_med.jpeg" display_name="Alpha-Data ADM-PCIE-7V3 Board" sub_type="board" resolution="medium">
+      <description>Kintex Ultrascale Alphadata Board Image (Medium Resolution)</description>
+    </image>
+    <image name="adm-pcie3-ku3_low.jpeg" display_name="Alpha-Data ADM-PCIE-7V3 Board" sub_type="board" resolution="low">
+      <description>Kintex Ultrascale Alphadata Board Image (Low Resolution)</description>
+    </image>
+  </images>
+  <compatible_board_revisions>
+    <revision id="0">1.0</revision>
+  </compatible_board_revisions>
+  <file_version>1.0</file_version>
+  <description>Kintex-Ultrascale Alphadata board</description>
+  <parameters>
+  </parameters>
+  <jumpers>
+  </jumpers>
+  <components>
+    <component name="part0" display_name="Kintex-Ultrascale FPGA" type="fpga" part_name="XCKU060-FFVA1156-2-E" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="http://www.xilinx.com/products/silicon-devices/fpga/kintex-ultrascale.html">
+      <description>Kintex-Ultrascale FPGA part on the board</description>
+	  <interfaces>
+		<interface mode="master" name="ddr3_sdram_c0" type="xilinx.com:interface:ddrx_rtl:1.0" of_component="ddr3_sdram_c0" preset_proc="ddr3_sdram_c0_preset">
+          <description>ddr3 board interface, it can use MIG IP for connection. </description>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="ddr3" order="0"/>
+          </preferred_ips>
+          <port_maps>
+	  <port_map logical_port="ADDR" physical_port="c0_ddr3_adr" dir="out" left="15" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr3_adr0"/>
+                <pin_map port_index="1" component_pin="c0_ddr3_adr1"/>
+                <pin_map port_index="2" component_pin="c0_ddr3_adr2"/>
+                <pin_map port_index="3" component_pin="c0_ddr3_adr3"/>
+                <pin_map port_index="4" component_pin="c0_ddr3_adr4"/>
+                <pin_map port_index="5" component_pin="c0_ddr3_adr5"/>
+                <pin_map port_index="6" component_pin="c0_ddr3_adr6"/>
+                <pin_map port_index="7" component_pin="c0_ddr3_adr7"/>
+                <pin_map port_index="8" component_pin="c0_ddr3_adr8"/>
+                <pin_map port_index="9" component_pin="c0_ddr3_adr9"/>
+                <pin_map port_index="10" component_pin="c0_ddr3_adr10"/>
+                <pin_map port_index="11" component_pin="c0_ddr3_adr11"/>
+                <pin_map port_index="12" component_pin="c0_ddr3_adr12"/>
+                <pin_map port_index="13" component_pin="c0_ddr3_adr13"/>
+                <pin_map port_index="14" component_pin="c0_ddr3_adr14"/>
+                <pin_map port_index="15" component_pin="c0_ddr3_adr15"/>
+                <!-- <pin_map port_index="16" component_pin="c0_ddr3_adr16"/> -->
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="BA" physical_port="c0_ddr3_ba" dir="out" left="2" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr3_ba0"/>
+                <pin_map port_index="1" component_pin="c0_ddr3_ba1"/>
+				<pin_map port_index="2" component_pin="c0_ddr3_ba2"/>
+              </pin_maps>
+            </port_map>
+	    <port_map logical_port="CK_N" physical_port="c0_ddr3_ck_n" dir="out" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr3_ck0_n"/>
+				<pin_map port_index="1" component_pin="c0_ddr3_ck1_n"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CK_P" physical_port="c0_ddr3_ck_p" dir="out" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr3_ck1_p"/>
+				<pin_map port_index="1" component_pin="c0_ddr3_ck1_p"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CKE" physical_port="c0_ddr3_cke" dir="out" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr3_cke0"/>
+				<pin_map port_index="1" component_pin="c0_ddr3_cke1"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CS_N" physical_port="c0_ddr3_cs_n" dir="out" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr3_cs0_n"/>
+				<pin_map port_index="1" component_pin="c0_ddr3_cs1_n"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="DM_N" physical_port="c0_ddr3_dm_dbi_n" dir="inout" left="8" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr3_dm_dbi_n0"/>
+                <pin_map port_index="1" component_pin="c0_ddr3_dm_dbi_n1"/>
+                <pin_map port_index="2" component_pin="c0_ddr3_dm_dbi_n2"/>
+                <pin_map port_index="3" component_pin="c0_ddr3_dm_dbi_n3"/>
+                <pin_map port_index="4" component_pin="c0_ddr3_dm_dbi_n4"/>
+                <pin_map port_index="5" component_pin="c0_ddr3_dm_dbi_n5"/>
+                <pin_map port_index="6" component_pin="c0_ddr3_dm_dbi_n6"/>
+                <pin_map port_index="7" component_pin="c0_ddr3_dm_dbi_n7"/>
+				<pin_map port_index="8" component_pin="c0_ddr3_dm_dbi_n8"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="DQ" physical_port="c0_ddr3_dq" dir="inout" left="71" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr3_dq0"/>
+                <pin_map port_index="1" component_pin="c0_ddr3_dq1"/>
+                <pin_map port_index="2" component_pin="c0_ddr3_dq2"/>
+                <pin_map port_index="3" component_pin="c0_ddr3_dq3"/>
+                <pin_map port_index="4" component_pin="c0_ddr3_dq4"/>
+                <pin_map port_index="5" component_pin="c0_ddr3_dq5"/>
+                <pin_map port_index="6" component_pin="c0_ddr3_dq6"/>
+                <pin_map port_index="7" component_pin="c0_ddr3_dq7"/>
+                <pin_map port_index="8" component_pin="c0_ddr3_dq8"/>
+                <pin_map port_index="9" component_pin="c0_ddr3_dq9"/>
+                <pin_map port_index="10" component_pin="c0_ddr3_dq10"/>
+                <pin_map port_index="11" component_pin="c0_ddr3_dq11"/>
+                <pin_map port_index="12" component_pin="c0_ddr3_dq12"/>
+                <pin_map port_index="13" component_pin="c0_ddr3_dq13"/>
+                <pin_map port_index="14" component_pin="c0_ddr3_dq14"/>
+                <pin_map port_index="15" component_pin="c0_ddr3_dq15"/>
+                <pin_map port_index="16" component_pin="c0_ddr3_dq16"/>
+                <pin_map port_index="17" component_pin="c0_ddr3_dq17"/>
+                <pin_map port_index="18" component_pin="c0_ddr3_dq18"/>
+                <pin_map port_index="19" component_pin="c0_ddr3_dq19"/>
+                <pin_map port_index="20" component_pin="c0_ddr3_dq20"/>
+                <pin_map port_index="21" component_pin="c0_ddr3_dq21"/>
+                <pin_map port_index="22" component_pin="c0_ddr3_dq22"/>
+                <pin_map port_index="23" component_pin="c0_ddr3_dq23"/>
+                <pin_map port_index="24" component_pin="c0_ddr3_dq24"/>
+                <pin_map port_index="25" component_pin="c0_ddr3_dq25"/>
+                <pin_map port_index="26" component_pin="c0_ddr3_dq26"/>
+                <pin_map port_index="27" component_pin="c0_ddr3_dq27"/>
+                <pin_map port_index="28" component_pin="c0_ddr3_dq28"/>
+                <pin_map port_index="29" component_pin="c0_ddr3_dq29"/>
+                <pin_map port_index="30" component_pin="c0_ddr3_dq30"/>
+                <pin_map port_index="31" component_pin="c0_ddr3_dq31"/>
+                <pin_map port_index="32" component_pin="c0_ddr3_dq32"/>
+                <pin_map port_index="33" component_pin="c0_ddr3_dq33"/>
+                <pin_map port_index="34" component_pin="c0_ddr3_dq34"/>
+                <pin_map port_index="35" component_pin="c0_ddr3_dq35"/>
+                <pin_map port_index="36" component_pin="c0_ddr3_dq36"/>
+                <pin_map port_index="37" component_pin="c0_ddr3_dq37"/>
+                <pin_map port_index="38" component_pin="c0_ddr3_dq38"/>
+                <pin_map port_index="39" component_pin="c0_ddr3_dq39"/>
+                <pin_map port_index="40" component_pin="c0_ddr3_dq40"/>
+                <pin_map port_index="41" component_pin="c0_ddr3_dq41"/>
+                <pin_map port_index="42" component_pin="c0_ddr3_dq42"/>
+                <pin_map port_index="43" component_pin="c0_ddr3_dq43"/>
+                <pin_map port_index="44" component_pin="c0_ddr3_dq44"/>
+                <pin_map port_index="45" component_pin="c0_ddr3_dq45"/>
+                <pin_map port_index="46" component_pin="c0_ddr3_dq46"/>
+                <pin_map port_index="47" component_pin="c0_ddr3_dq47"/>
+                <pin_map port_index="48" component_pin="c0_ddr3_dq48"/>
+                <pin_map port_index="49" component_pin="c0_ddr3_dq49"/>
+                <pin_map port_index="50" component_pin="c0_ddr3_dq50"/>
+                <pin_map port_index="51" component_pin="c0_ddr3_dq51"/>
+                <pin_map port_index="52" component_pin="c0_ddr3_dq52"/>
+                <pin_map port_index="53" component_pin="c0_ddr3_dq53"/>
+                <pin_map port_index="54" component_pin="c0_ddr3_dq54"/>
+                <pin_map port_index="55" component_pin="c0_ddr3_dq55"/>
+                <pin_map port_index="56" component_pin="c0_ddr3_dq56"/>
+                <pin_map port_index="57" component_pin="c0_ddr3_dq57"/>
+                <pin_map port_index="58" component_pin="c0_ddr3_dq58"/>
+                <pin_map port_index="59" component_pin="c0_ddr3_dq59"/>
+                <pin_map port_index="60" component_pin="c0_ddr3_dq60"/>
+                <pin_map port_index="61" component_pin="c0_ddr3_dq61"/>
+                <pin_map port_index="62" component_pin="c0_ddr3_dq62"/>
+                <pin_map port_index="63" component_pin="c0_ddr3_dq63"/>
+		<pin_map port_index="64" component_pin="c0_ddr3_dq64"/>
+                <pin_map port_index="65" component_pin="c0_ddr3_dq65"/>
+                <pin_map port_index="66" component_pin="c0_ddr3_dq66"/>
+                <pin_map port_index="67" component_pin="c0_ddr3_dq67"/>
+                <pin_map port_index="68" component_pin="c0_ddr3_dq68"/>
+                <pin_map port_index="69" component_pin="c0_ddr3_dq69"/>
+                <pin_map port_index="70" component_pin="c0_ddr3_dq70"/>
+                <pin_map port_index="71" component_pin="c0_ddr3_dq71"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="DQS_N" physical_port="c0_ddr3_dqs_n" dir="inout" left="8" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr3_dqs_n0"/>
+                <pin_map port_index="1" component_pin="c0_ddr3_dqs_n1"/>
+                <pin_map port_index="2" component_pin="c0_ddr3_dqs_n2"/>
+                <pin_map port_index="3" component_pin="c0_ddr3_dqs_n3"/>
+                <pin_map port_index="4" component_pin="c0_ddr3_dqs_n4"/>
+                <pin_map port_index="5" component_pin="c0_ddr3_dqs_n5"/>
+                <pin_map port_index="6" component_pin="c0_ddr3_dqs_n6"/>
+                <pin_map port_index="7" component_pin="c0_ddr3_dqs_n7"/>
+		<pin_map port_index="8" component_pin="c0_ddr3_dqs_n8"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="DQS_P" physical_port="c0_ddr3_dqs_p" dir="out" left="8" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr3_dqs_p0"/>
+                <pin_map port_index="1" component_pin="c0_ddr3_dqs_p1"/>
+                <pin_map port_index="2" component_pin="c0_ddr3_dqs_p2"/>
+                <pin_map port_index="3" component_pin="c0_ddr3_dqs_p3"/>
+                <pin_map port_index="4" component_pin="c0_ddr3_dqs_p4"/>
+                <pin_map port_index="5" component_pin="c0_ddr3_dqs_p5"/>
+                <pin_map port_index="6" component_pin="c0_ddr3_dqs_p6"/>
+                <pin_map port_index="7" component_pin="c0_ddr3_dqs_p7"/>
+		<pin_map port_index="8" component_pin="c0_ddr3_dqs_p8"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="ODT" physical_port="c0_ddr3_odt" dir="out" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr3_odt0"/>
+		<pin_map port_index="1" component_pin="c0_ddr3_odt1"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="RESET_N" physical_port="c0_ddr3_reset_n" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr3_reset_n"/>
+              </pin_maps>
+            </port_map>
+	    <port_map logical_port="CAS_N" physical_port="c0_ddr3_cas_n" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr3_cas_n"/>
+              </pin_maps>
+            </port_map>
+	    <port_map logical_port="RAS_N" physical_port="c0_ddr3_ras_n" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr3_ras_n"/>
+              </pin_maps>
+            </port_map>
+	    <port_map logical_port="WE_N" physical_port="c0_ddr3_we_n" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr3_we_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+	    <interface mode="master" name="ddr3_sdram_c1" type="xilinx.com:interface:ddrx_rtl:1.0" of_component="ddr3_sdram_c1" preset_proc="ddr3_sdram_c1_preset">
+          <description>ddr3 board interface, it can use MIG IP for connection. </description>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="ddr3" order="0"/>
+          </preferred_ips>
+          <port_maps>
+	  <port_map logical_port="ADDR" physical_port="c1_ddr3_adr" dir="out" left="15" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr3_adr0"/>
+                <pin_map port_index="1" component_pin="c1_ddr3_adr1"/>
+                <pin_map port_index="2" component_pin="c1_ddr3_adr2"/>
+                <pin_map port_index="3" component_pin="c1_ddr3_adr3"/>
+                <pin_map port_index="4" component_pin="c1_ddr3_adr4"/>
+                <pin_map port_index="5" component_pin="c1_ddr3_adr5"/>
+                <pin_map port_index="6" component_pin="c1_ddr3_adr6"/>
+                <pin_map port_index="7" component_pin="c1_ddr3_adr7"/>
+                <pin_map port_index="8" component_pin="c1_ddr3_adr8"/>
+                <pin_map port_index="9" component_pin="c1_ddr3_adr9"/>
+                <pin_map port_index="10" component_pin="c1_ddr3_adr10"/>
+                <pin_map port_index="11" component_pin="c1_ddr3_adr11"/>
+                <pin_map port_index="12" component_pin="c1_ddr3_adr12"/>
+                <pin_map port_index="13" component_pin="c1_ddr3_adr13"/>
+                <pin_map port_index="14" component_pin="c1_ddr3_adr14"/>
+                <pin_map port_index="15" component_pin="c1_ddr3_adr15"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="BA" physical_port="c1_ddr3_ba" dir="out" left="2" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr3_ba0"/>
+                <pin_map port_index="1" component_pin="c1_ddr3_ba1"/>
+		<pin_map port_index="2" component_pin="c1_ddr3_ba2"/>
+              </pin_maps>
+            </port_map>
+	    <port_map logical_port="CK_N" physical_port="c1_ddr3_ck_n" dir="out" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr3_ck0_n"/>
+		<pin_map port_index="1" component_pin="c1_ddr3_ck1_n"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CK_P" physical_port="c1_ddr3_ck_p" dir="out" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr3_ck0_p"/>
+		<pin_map port_index="1" component_pin="c1_ddr3_ck1_p"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CKE" physical_port="c1_ddr3_cke" dir="out" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr3_cke0"/>
+		<pin_map port_index="1" component_pin="c1_ddr3_cke1"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CS_N" physical_port="c1_ddr3_cs_n" dir="out" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr3_cs0_n"/>
+				<pin_map port_index="1" component_pin="c1_ddr3_cs1_n"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="DM_N" physical_port="c1_ddr3_dm_dbi_n" dir="inout" left="8" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr3_dm_dbi_n0"/>
+                <pin_map port_index="1" component_pin="c1_ddr3_dm_dbi_n1"/>
+                <pin_map port_index="2" component_pin="c1_ddr3_dm_dbi_n2"/>
+                <pin_map port_index="3" component_pin="c1_ddr3_dm_dbi_n3"/>
+                <pin_map port_index="4" component_pin="c1_ddr3_dm_dbi_n4"/>
+                <pin_map port_index="5" component_pin="c1_ddr3_dm_dbi_n5"/>
+                <pin_map port_index="6" component_pin="c1_ddr3_dm_dbi_n6"/>
+                <pin_map port_index="7" component_pin="c1_ddr3_dm_dbi_n7"/>
+		<pin_map port_index="8" component_pin="c1_ddr3_dm_dbi_n8"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="DQ" physical_port="c1_ddr3_dq" dir="inout" left="71" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr3_dq0"/>
+                <pin_map port_index="1" component_pin="c1_ddr3_dq1"/>
+                <pin_map port_index="2" component_pin="c1_ddr3_dq2"/>
+                <pin_map port_index="3" component_pin="c1_ddr3_dq3"/>
+                <pin_map port_index="4" component_pin="c1_ddr3_dq4"/>
+                <pin_map port_index="5" component_pin="c1_ddr3_dq5"/>
+                <pin_map port_index="6" component_pin="c1_ddr3_dq6"/>
+                <pin_map port_index="7" component_pin="c1_ddr3_dq7"/>
+                <pin_map port_index="8" component_pin="c1_ddr3_dq8"/>
+                <pin_map port_index="9" component_pin="c1_ddr3_dq9"/>
+                <pin_map port_index="10" component_pin="c1_ddr3_dq10"/>
+                <pin_map port_index="11" component_pin="c1_ddr3_dq11"/>
+                <pin_map port_index="12" component_pin="c1_ddr3_dq12"/>
+                <pin_map port_index="13" component_pin="c1_ddr3_dq13"/>
+                <pin_map port_index="14" component_pin="c1_ddr3_dq14"/>
+                <pin_map port_index="15" component_pin="c1_ddr3_dq15"/>
+                <pin_map port_index="16" component_pin="c1_ddr3_dq16"/>
+                <pin_map port_index="17" component_pin="c1_ddr3_dq17"/>
+                <pin_map port_index="18" component_pin="c1_ddr3_dq18"/>
+                <pin_map port_index="19" component_pin="c1_ddr3_dq19"/>
+                <pin_map port_index="20" component_pin="c1_ddr3_dq20"/>
+                <pin_map port_index="21" component_pin="c1_ddr3_dq21"/>
+                <pin_map port_index="22" component_pin="c1_ddr3_dq22"/>
+                <pin_map port_index="23" component_pin="c1_ddr3_dq23"/>
+                <pin_map port_index="24" component_pin="c1_ddr3_dq24"/>
+                <pin_map port_index="25" component_pin="c1_ddr3_dq25"/>
+                <pin_map port_index="26" component_pin="c1_ddr3_dq26"/>
+                <pin_map port_index="27" component_pin="c1_ddr3_dq27"/>
+                <pin_map port_index="28" component_pin="c1_ddr3_dq28"/>
+                <pin_map port_index="29" component_pin="c1_ddr3_dq29"/>
+                <pin_map port_index="30" component_pin="c1_ddr3_dq30"/>
+                <pin_map port_index="31" component_pin="c1_ddr3_dq31"/>
+                <pin_map port_index="32" component_pin="c1_ddr3_dq32"/>
+                <pin_map port_index="33" component_pin="c1_ddr3_dq33"/>
+                <pin_map port_index="34" component_pin="c1_ddr3_dq34"/>
+                <pin_map port_index="35" component_pin="c1_ddr3_dq35"/>
+                <pin_map port_index="36" component_pin="c1_ddr3_dq36"/>
+                <pin_map port_index="37" component_pin="c1_ddr3_dq37"/>
+                <pin_map port_index="38" component_pin="c1_ddr3_dq38"/>
+                <pin_map port_index="39" component_pin="c1_ddr3_dq39"/>
+                <pin_map port_index="40" component_pin="c1_ddr3_dq40"/>
+                <pin_map port_index="41" component_pin="c1_ddr3_dq41"/>
+                <pin_map port_index="42" component_pin="c1_ddr3_dq42"/>
+                <pin_map port_index="43" component_pin="c1_ddr3_dq43"/>
+                <pin_map port_index="44" component_pin="c1_ddr3_dq44"/>
+                <pin_map port_index="45" component_pin="c1_ddr3_dq45"/>
+                <pin_map port_index="46" component_pin="c1_ddr3_dq46"/>
+                <pin_map port_index="47" component_pin="c1_ddr3_dq47"/>
+                <pin_map port_index="48" component_pin="c1_ddr3_dq48"/>
+                <pin_map port_index="49" component_pin="c1_ddr3_dq49"/>
+                <pin_map port_index="50" component_pin="c1_ddr3_dq50"/>
+                <pin_map port_index="51" component_pin="c1_ddr3_dq51"/>
+                <pin_map port_index="52" component_pin="c1_ddr3_dq52"/>
+                <pin_map port_index="53" component_pin="c1_ddr3_dq53"/>
+                <pin_map port_index="54" component_pin="c1_ddr3_dq54"/>
+                <pin_map port_index="55" component_pin="c1_ddr3_dq55"/>
+                <pin_map port_index="56" component_pin="c1_ddr3_dq56"/>
+                <pin_map port_index="57" component_pin="c1_ddr3_dq57"/>
+                <pin_map port_index="58" component_pin="c1_ddr3_dq58"/>
+                <pin_map port_index="59" component_pin="c1_ddr3_dq59"/>
+                <pin_map port_index="60" component_pin="c1_ddr3_dq60"/>
+                <pin_map port_index="61" component_pin="c1_ddr3_dq61"/>
+                <pin_map port_index="62" component_pin="c1_ddr3_dq62"/>
+                <pin_map port_index="63" component_pin="c1_ddr3_dq63"/>
+		<pin_map port_index="64" component_pin="c1_ddr3_dq64"/>
+                <pin_map port_index="65" component_pin="c1_ddr3_dq65"/>
+                <pin_map port_index="66" component_pin="c1_ddr3_dq66"/>
+                <pin_map port_index="67" component_pin="c1_ddr3_dq67"/>
+                <pin_map port_index="68" component_pin="c1_ddr3_dq68"/>
+                <pin_map port_index="69" component_pin="c1_ddr3_dq69"/>
+                <pin_map port_index="70" component_pin="c1_ddr3_dq70"/>
+                <pin_map port_index="71" component_pin="c1_ddr3_dq71"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="DQS_N" physical_port="c1_ddr3_dqs_n" dir="inout" left="8" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr3_dqs_n0"/>
+                <pin_map port_index="1" component_pin="c1_ddr3_dqs_n1"/>
+                <pin_map port_index="2" component_pin="c1_ddr3_dqs_n2"/>
+                <pin_map port_index="3" component_pin="c1_ddr3_dqs_n3"/>
+                <pin_map port_index="4" component_pin="c1_ddr3_dqs_n4"/>
+                <pin_map port_index="5" component_pin="c1_ddr3_dqs_n5"/>
+                <pin_map port_index="6" component_pin="c1_ddr3_dqs_n6"/>
+                <pin_map port_index="7" component_pin="c1_ddr3_dqs_n7"/>
+		<pin_map port_index="8" component_pin="c1_ddr3_dqs_n8"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="DQS_P" physical_port="c1_ddr3_dqs_p" dir="out" left="8" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr3_dqs_p0"/>
+                <pin_map port_index="1" component_pin="c1_ddr3_dqs_p1"/>
+                <pin_map port_index="2" component_pin="c1_ddr3_dqs_p2"/>
+                <pin_map port_index="3" component_pin="c1_ddr3_dqs_p3"/>
+                <pin_map port_index="4" component_pin="c1_ddr3_dqs_p4"/>
+                <pin_map port_index="5" component_pin="c1_ddr3_dqs_p5"/>
+                <pin_map port_index="6" component_pin="c1_ddr3_dqs_p6"/>
+                <pin_map port_index="7" component_pin="c1_ddr3_dqs_p7"/>
+		<pin_map port_index="8" component_pin="c1_ddr3_dqs_p8"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="ODT" physical_port="c1_ddr3_odt" dir="out" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr3_odt0"/>
+				<pin_map port_index="1" component_pin="c1_ddr3_odt1"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="RESET_N" physical_port="c1_ddr3_reset_n" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr3_reset_n"/>
+              </pin_maps>
+            </port_map>
+	    <port_map logical_port="CAS_N" physical_port="c1_ddr3_cas_n" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr3_cas_n"/>
+              </pin_maps>
+            </port_map>
+			<port_map logical_port="RAS_N" physical_port="c1_ddr3_ras_n" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr3_ras_n"/>
+              </pin_maps>
+            </port_map>
+			<port_map logical_port="WE_N" physical_port="c1_ddr3_we_n" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr3_we_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+		<interface mode="slave" name="refclk_200" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="refclk_200" preset_proc="refclk_200_preset">
+          <parameters>
+            <parameter name="frequency" value="200000000"/>
+          </parameters>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="clk_wiz" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="refclk_200_p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="refclk_200_p"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CLK_N" physical_port="refclk_200_n" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="refclk_200_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+	    <interface mode="slave" name="pcierefclk0_100" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="pcierefclk0_100" preset_proc="pcierefclk0_100_preset">
+          <parameters>
+            <parameter name="frequency" value="100000000"/>
+          </parameters>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="util_ds_buf" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="pcierefclk0_100_p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pcierefclk0_100_p"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CLK_N" physical_port="pcierefclk0_100_n" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pcierefclk0_100_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+		<interface mode="slave" name="pcierefclk1_100" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="pcierefclk1_100" preset_proc="pcierefclk1_100_preset">
+          <parameters>
+            <parameter name="frequency" value="100000000"/>
+          </parameters>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="util_ds_buf" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="pcierefclk1_100_p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pcierefclk1_100_p"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CLK_N" physical_port="pcierefclk1_100_n" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pcierefclk1_100_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+		<interface mode="slave" name="refclk_250" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="refclk_250" preset_proc="refclk_250_preset">
+          <parameters>
+            <parameter name="frequency" value="250000000"/>
+          </parameters>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="clk_wiz" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="refclk_250_p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="refclk_250_p"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CLK_N" physical_port="refclk_250_n" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="refclk_250_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+		<interface mode="slave" name="refclk0_400" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="refclk0_400" preset_proc="refclk0_400_preset">
+          <parameters>
+            <parameter name="frequency" value="400000000"/>
+          </parameters>
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="refclk0_400_p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="refclk0_400_p"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CLK_N" physical_port="refclk0_400_n" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="refclk0_400_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+		<interface mode="slave" name="refclk1_400" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="refclk1_400" preset_proc="refclk1_400_preset">
+          <parameters>
+            <parameter name="frequency" value="400000000"/>
+          </parameters>
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="refclk1_400_p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="refclk1_400_p"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CLK_N" physical_port="refclk1_400_n" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="refclk1_400_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+		<interface mode="slave" name="refclk0_100" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="refclk0_100" preset_proc="refclk0_100_preset">
+          <parameters>
+            <parameter name="frequency" value="100000000"/>
+          </parameters>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="clk_wiz" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="refclk0_100_p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="refclk0_100_p"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CLK_N" physical_port="refclk0_100_n" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="refclk0_100_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+		<interface mode="slave" name="refclk1_100" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="refclk1_100" preset_proc="refclk1_100_preset">
+          <parameters>
+            <parameter name="frequency" value="100000000"/>
+          </parameters>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="clk_wiz" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="refclk1_100_p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="refclk1_100_p"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CLK_N" physical_port="refclk1_100_n" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="refclk1_100_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+		<interface mode="slave" name="refclk_150" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="refclk_150" preset_proc="refclk_150_preset">
+          <parameters>
+            <parameter name="frequency" value="150000000"/>
+          </parameters>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="clk_wiz" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="refclk_150_p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="refclk_150_p"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CLK_N" physical_port="refclk_150_n" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="refclk_150_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+		<interface mode="slave" name="refclk_100" type="xilinx.com:signal:clock_rtl:1.0" of_component="refclk_100">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="clk_wiz" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="CLK" physical_port="refclk_100" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="refclk_100"/> 
+              </pin_maps>
+            </port_map>
+          </port_maps>
+          <parameters>
+            <parameter name="frequency" value="1000000000" />
+          </parameters>
+        </interface>
+	<interface mode="master" name="pci_express_x1" type="xilinx.com:interface:pcie_7x_mgt_rtl:1.0" of_component="pci_express" preset_proc="pciex1_preset">
+          <preferred_ips>
+	    <preferred_ip vendor="xilinx.com" library="ip" name="xdma" order="0"/>
+            <preferred_ip vendor="xilinx.com" library="user" name="dma_pcie" order="1"/>
+	    <preferred_ip vendor="xilinx.com" library="ip" name="axi_pcie3" order="2"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="txn" physical_port="pcie_tx0_n" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pcie_tx0_n"/> 
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="rxn" physical_port="pcie_rx0_n" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pcie_rx0_n"/> 
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="txp" physical_port="pcie_tx0_p" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pcie_tx0_p"/> 
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="rxp" physical_port="pcie_rx0_p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pcie_rx0_p"/> 
+              </pin_maps>
+            </port_map>
+          </port_maps>
+          <parameters>
+            <parameter name="block_location" value="X0Y0" />
+          </parameters>
+        </interface>
+	<interface mode="master" name="pci_express_x2" type="xilinx.com:interface:pcie_7x_mgt_rtl:1.0" of_component="pci_express" preset_proc="pciex2_preset">
+          <preferred_ips>
+	    <preferred_ip vendor="xilinx.com" library="ip" name="xdma" order="0"/>
+            <preferred_ip vendor="xilinx.com" library="user" name="dma_pcie" order="1"/>
+	    <preferred_ip vendor="xilinx.com" library="ip" name="axi_pcie3" order="2"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="txn" physical_port="pcie_tx0_nx2" dir="out" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pcie_tx0_n"/> 
+				<pin_map port_index="1" component_pin="pcie_tx1_n"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="rxn" physical_port="pcie_rx0_nx2" dir="in" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pcie_rx0_n"/>
+				<pin_map port_index="1" component_pin="pcie_rx1_n"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="txp" physical_port="pcie_tx0_px2" dir="out" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pcie_tx0_p"/> 
+				<pin_map port_index="1" component_pin="pcie_tx1_p"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="rxp" physical_port="pcie_rx0_px2" dir="in" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pcie_rx0_p"/> 
+				<pin_map port_index="1" component_pin="pcie_rx1_p"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+          <parameters>
+            <parameter name="block_location" value="X0Y0" />
+          </parameters>
+        </interface>
+	<interface mode="master" name="pci_express_x4" type="xilinx.com:interface:pcie_7x_mgt_rtl:1.0" of_component="pci_express" preset_proc="pciex4_preset">
+          <preferred_ips>
+	    <preferred_ip vendor="xilinx.com" library="ip" name="xdma" order="0"/>
+            <preferred_ip vendor="xilinx.com" library="user" name="dma_pcie" order="1"/>
+	    <preferred_ip vendor="xilinx.com" library="ip" name="axi_pcie3" order="2"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="txn" physical_port="pcie_tx0_nx4" dir="out" left="3" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pcie_tx0_n"/> 
+		<pin_map port_index="1" component_pin="pcie_tx1_n"/>
+		<pin_map port_index="2" component_pin="pcie_tx2_n"/>
+		<pin_map port_index="3" component_pin="pcie_tx3_n"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="rxn" physical_port="pcie_rx0_nx4" dir="in" left="3" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pcie_rx0_n"/> 
+		<pin_map port_index="1" component_pin="pcie_rx1_n"/>
+		<pin_map port_index="2" component_pin="pcie_rx2_n"/>
+		<pin_map port_index="3" component_pin="pcie_rx3_n"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="txp" physical_port="pcie_tx0_px4" dir="out" left="3" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pcie_tx0_p"/> 
+		<pin_map port_index="1" component_pin="pcie_tx1_p"/>
+		<pin_map port_index="2" component_pin="pcie_tx2_p"/>
+		<pin_map port_index="3" component_pin="pcie_tx3_p"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="rxp" physical_port="pcie_rx0_px4" dir="in" left="3" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pcie_rx0_p"/>
+		<pin_map port_index="1" component_pin="pcie_rx1_p"/>
+		<pin_map port_index="2" component_pin="pcie_rx2_p"/>
+		<pin_map port_index="3" component_pin="pcie_rx3_p"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+          <parameters>
+            <parameter name="block_location" value="X0Y0" />
+          </parameters>
+        </interface>
+		<interface mode="master" name="pci_express_x8" type="xilinx.com:interface:pcie_7x_mgt_rtl:1.0" of_component="pci_express" preset_proc="pciex8_preset">
+          <preferred_ips>
+	    <preferred_ip vendor="xilinx.com" library="ip" name="xdma" order="0"/>
+            <preferred_ip vendor="xilinx.com" library="user" name="dma_pcie" order="1"/>
+	    <preferred_ip vendor="xilinx.com" library="ip" name="axi_pcie3" order="2"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="txn" physical_port="pcie_tx0_nx8" dir="out" left="7" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pcie_tx0_n"/> 
+		<pin_map port_index="1" component_pin="pcie_tx1_n"/>
+		<pin_map port_index="2" component_pin="pcie_tx2_n"/>
+		<pin_map port_index="3" component_pin="pcie_tx3_n"/>
+		<pin_map port_index="4" component_pin="pcie_tx4_n"/>
+		<pin_map port_index="5" component_pin="pcie_tx5_n"/>
+		<pin_map port_index="6" component_pin="pcie_tx6_n"/>
+		<pin_map port_index="7" component_pin="pcie_tx7_n"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="rxn" physical_port="pcie_rx0_nx8" dir="in" left="7" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pcie_rx0_n"/> 
+		<pin_map port_index="1" component_pin="pcie_rx1_n"/>
+		<pin_map port_index="2" component_pin="pcie_rx2_n"/>
+		<pin_map port_index="3" component_pin="pcie_rx3_n"/>
+		<pin_map port_index="4" component_pin="pcie_rx4_n"/>
+		<pin_map port_index="5" component_pin="pcie_rx5_n"/>
+		<pin_map port_index="6" component_pin="pcie_rx6_n"/>
+		<pin_map port_index="7" component_pin="pcie_rx7_n"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="txp" physical_port="pcie_tx0_px8" dir="out" left="7" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pcie_tx0_p"/> 
+		<pin_map port_index="1" component_pin="pcie_tx1_p"/>
+		<pin_map port_index="2" component_pin="pcie_tx2_p"/>
+		<pin_map port_index="3" component_pin="pcie_tx3_p"/>
+		<pin_map port_index="4" component_pin="pcie_tx4_p"/>
+		<pin_map port_index="5" component_pin="pcie_tx5_p"/>
+		<pin_map port_index="6" component_pin="pcie_tx6_p"/>
+		<pin_map port_index="7" component_pin="pcie_tx7_p"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="rxp" physical_port="pcie_rx0_px8" dir="in" left="7" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pcie_rx0_p"/>
+		<pin_map port_index="1" component_pin="pcie_rx1_p"/>
+		<pin_map port_index="2" component_pin="pcie_rx2_p"/>
+		<pin_map port_index="3" component_pin="pcie_rx3_p"/>
+		<pin_map port_index="4" component_pin="pcie_rx4_p"/>
+		<pin_map port_index="5" component_pin="pcie_rx5_p"/>
+		<pin_map port_index="6" component_pin="pcie_rx6_p"/>
+		<pin_map port_index="7" component_pin="pcie_rx7_p"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+          <parameters>
+            <parameter name="block_location" value="X0Y0" />
+          </parameters>
+        </interface>
+        <interface mode="slave" name="pcie_perst" type="xilinx.com:signal:reset_rtl:1.0" of_component="pci_express">
+	<port_maps>
+            <port_map logical_port="RST" physical_port="pcie_perst_rst" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pcie_perst_rst"/> 
+              </pin_maps>
+            </port_map>
+          </port_maps>
+          <parameters>
+            <parameter name="rst_polarity" value="0" />
+            <parameter name="type" value="PCIE_PERST" />
+          </parameters>
+        </interface>
+	<interface mode="master" name="led_3bits" type="xilinx.com:interface:gpio_rtl:1.0" of_component="led_3bits" preset_proc="led_3bits_preset">
+          <description>LEDs, 2 to 0, Active High</description>
+	  <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_O" physical_port="leds_3bits_tri_o" dir="out" left="2" right="0"> 
+              <pin_maps>
+                <pin_map port_index="0" component_pin="leds_3bits_tri_o_0"/> 
+                <pin_map port_index="1" component_pin="leds_3bits_tri_o_1"/> 
+                <pin_map port_index="2" component_pin="leds_3bits_tri_o_2"/> 
+               </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>  
+	<interface mode="master" name="dip_switch_1bit" type="xilinx.com:interface:gpio_rtl:1.0" of_component="dip_switch_1bit" preset_proc="dip_switch_1bit_preset">
+          <description>1-bit DIP Switch</description>
+	  <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_I" physical_port="dip_switch_1bit_tri_i" dir="in"> 
+              <pin_maps>
+                <pin_map port_index="0" component_pin="dip_switch_tri_i_0"/> 
+               </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+	</interfaces>
+	</component>
+	<component name="ddr3_sdram_c0" display_name="DDR3 SDRAM C0" type="chip" sub_type="ddr" major_group="External Memory" part_name="MT8JTF12864HZ-1G6G1" vendor="Micron" spec_url="www.micron.com/memory">
+      <description>8 GB DDR3 memory SODIMM0 </description>
+      <parameters>
+        <parameter name="ddr_type" value="ddr3"/>
+        <parameter name="size" value="8GB"/>
+      </parameters>
+    </component>
+	<component name="ddr3_sdram_c1" display_name="DDR3 SDRAM C1" type="chip" sub_type="ddr" major_group="External Memory" part_name="MT8JTF12864HZ-1G6G1" vendor="Micron" spec_url="www.micron.com/memory">
+      <description>8 GB DDR3 memory SODIMM0 </description>
+      <parameters>
+        <parameter name="ddr_type" value="ddr3"/>
+        <parameter name="size" value="8GB"/>
+      </parameters>
+    </component>
+	<component name="led_3bits" display_name="LED" type="chip" sub_type="led" major_group="General Purpose Input or Output">
+      <description>LEDs, 2 to 0, Active High</description>
+    </component>
+    <component name="refclk_200" display_name="200MHz Fabric Clock" type="chip" sub_type="system_clock" major_group="Clock Sources">
+      <description>LVDS differential 200 MHz Fabric clock</description>
+    </component>
+    <component name="refclk_250" display_name="250MHz Fabric clock" type="chip" sub_type="system_clock" major_group="Clock Sources">
+      <description>LVDS differential 250 MHz Fabric clock</description>
+    </component>
+	<component name="pcierefclk0_100" display_name="100MHz PCIe reference clock0" type="chip" sub_type="system_clock" major_group="Clock Sources">
+      <description>Internally generated 100MHz reference clock for PCI express</description>
+    </component>
+	<component name="pcierefclk1_100" display_name="100MHz PCIe reference clock1" type="chip" sub_type="system_clock" major_group="Clock Sources">
+      <description>Internally generated 100MHz reference clock for PCI express</description>
+    </component>
+	<component name="refclk0_100" display_name="100MHz reference clock0" type="chip" sub_type="system_clock" major_group="Clock Sources">
+      <description>System 100MHz reference clock for PCI express</description>
+    </component>
+	<component name="refclk1_100" display_name="100MHz reference clock1" type="chip" sub_type="system_clock" major_group="Clock Sources">
+      <description>System 100MHz reference clock for PCI express</description>
+    </component>
+	<component name="refclk_150" display_name="150MHz reference clock" type="chip" sub_type="system_clock" major_group="Clock Sources">
+      <description>150MHz reference clock for SATA</description>
+    </component>
+	<component name="refclk0_156" display_name="156.25MHz reference clock0" type="chip" sub_type="system_clock" major_group="Clock Sources">
+      <description>156.25MHz reference clock for SATA and SFP+</description>
+    </component>
+	<component name="refclk1_156" display_name="156.25MHz reference clock1" type="chip" sub_type="system_clock" major_group="Clock Sources">
+      <description>156.25MHz reference clock for SATA and SFP+</description>
+    </component>
+	<component name="refclk_100" display_name="133MHz reference clock" type="chip" sub_type="system_clock" major_group="Clock Sources">
+      <description>100MHz reference clock for EMCCLK</description>
+    </component>
+  <component name="pci_express" display_name="PCI Express" type="chip" sub_type="pcie" major_group="Miscellaneous">
+      <description>PCI Express</description>
+      <parameters>
+        <parameter name="pcie_type" value="gen3x8"/>
+        <parameter name="vendor" value="0x10ee"/>
+        <parameter name="device" value="0x8038"/>
+        <parameter name="subsystem" value="0x0011"/>
+      </parameters>
+      <component_modes>
+        <component_mode name="pci_express_x1" display_name="pci_express x1 ">
+          <interfaces>
+            <interface name="pci_express_x1"/>
+            <interface name="pcie_perst" optional="true"/>
+          </interfaces>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="xdma" order="0"/>
+            <preferred_ip vendor="xilinx.com" library="user" name="dma_pcie" order="1"/>
+	    <preferred_ip vendor="xilinx.com" library="ip" name="axi_pcie3" order="2"/>
+          </preferred_ips>
+        </component_mode>
+		<component_mode name="pci_express_x2" display_name="pci_express x2 ">
+          <interfaces>
+            <interface name="pci_express_x2"/>
+            <interface name="pcie_perst" optional="true"/>
+          </interfaces>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="xdma" order="0"/>
+            <preferred_ip vendor="xilinx.com" library="user" name="dma_pcie" order="1"/>
+	    <preferred_ip vendor="xilinx.com" library="ip" name="axi_pcie3" order="2"/>
+          </preferred_ips>
+        </component_mode>
+		<component_mode name="pci_express_x4" display_name="pci_express x4 ">
+          <interfaces>
+            <interface name="pci_express_x4"/>
+            <interface name="pcie_perst" optional="true"/>
+          </interfaces>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="xdma" order="0"/>
+            <preferred_ip vendor="xilinx.com" library="user" name="dma_pcie" order="1"/>
+	    <preferred_ip vendor="xilinx.com" library="ip" name="axi_pcie3" order="2"/>
+          </preferred_ips>
+        </component_mode>
+		<component_mode name="pci_express_x8" display_name="pci_express x8 ">
+          <interfaces>
+            <interface name="pci_express_x8"/>
+            <interface name="pcie_perst" optional="true"/>
+          </interfaces>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="xdma" order="0"/>
+            <preferred_ip vendor="xilinx.com" library="user" name="dma_pcie" order="1"/>
+	    <preferred_ip vendor="xilinx.com" library="ip" name="axi_pcie3" order="2"/>
+          </preferred_ips>
+        </component_mode>
+      </component_modes>
+    </component>
+	<component name="refclk0_400" display_name="400MHz reference clock0" type="chip" sub_type="system_clock" major_group="Clock Sources">
+      <description>System 400MHz reference clock for DDR3</description>
+    </component>
+	<component name="refclk1_400" display_name="400MHz reference clock1" type="chip" sub_type="system_clock" major_group="Clock Sources">
+      <description>System 100MHz reference clock for DDR3</description>
+    </component>
+	<component name="dip_switch_1bit" display_name="1-bit DIP switch" type="chip" sub_type="switch" major_group="General Purpose Input or Output" part_name="SDA08H1SBD" vendor="CandK" spec_url="www.ck-components.com">
+      <description>User DIP Switch</description>
+    </component>
+  </components>
+  <jtag_chains>
+    <jtag_chain name="chain1">
+      <position name="0" component="part0"/>
+    </jtag_chain>
+  </jtag_chains>
+  <connections>
+    <connection name="part0_dip_switch_1bit" component1="part0" component2="dip_switch_1bit">
+      <connection_map name="part0_dip_switch_1bit_1" c1_st_index="0" c1_end_index="0" c2_st_index="0" c2_end_index="0"/>
+    </connection>
+    <connection name="part0_led_3bits" component1="part0" component2="led_3bits">
+      <connection_map name="part0_led_3bits_1" c1_st_index="1" c1_end_index="3" c2_st_index="0" c2_end_index="2"/>
+    </connection>
+    <connection name="part0_refclk_200" component1="part0" component2="refclk_200">
+      <connection_map name="part0_refclk_200_1" c1_st_index="4" c1_end_index="5" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+    <connection name="part0_refclk_250" component1="part0" component2="refclk_250">
+      <connection_map name="part0_refclk_250_1" c1_st_index="6" c1_end_index="7" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+    <connection name="part0_pcierefclk0_100" component1="part0" component2="pcierefclk0_100">
+      <connection_map name="part0_pcierefclk0_100_1" c1_st_index="8" c1_end_index="9" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+    <connection name="part0_pcierefclk1_100" component1="part0" component2="pcierefclk1_100">
+      <connection_map name="part0_pcierefclk`_100_1" c1_st_index="10" c1_end_index="11" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+    <connection name="part0_refclk0_400" component1="part0" component2="refclk0_400">
+      <connection_map name="part0_refclk0_400_1" c1_st_index="12" c1_end_index="13" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+    <connection name="part0_refclk1_400" component1="part0" component2="refclk1_400">
+      <connection_map name="part0_refclk1_400_1" c1_st_index="14" c1_end_index="15" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+    <connection name="part0_refclk0_100" component1="part0" component2="refclk0_100">
+      <connection_map name="part0_refclk0_100_1" c1_st_index="16" c1_end_index="17" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+    <connection name="part0_refclk1_100" component1="part0" component2="refclk1_100">
+      <connection_map name="part0_refclk1_100_1" c1_st_index="18" c1_end_index="19" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+    <connection name="part0_refclk_150" component1="part0" component2="refclk_150">
+      <connection_map name="part0_refclk_150_1" c1_st_index="20" c1_end_index="21" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+    <connection name="part0_refclk_100" component1="part0" component2="refclk_100">
+      <connection_map name="part0_refclk_100_1" c1_st_index="22" c1_end_index="22" c2_st_index="0" c2_end_index="0"/>
+    </connection>  
+    <connection name="part0_ddr3_sdram_c0" component1="part0" component2="ddr3_sdram_c0">
+      <connection_map name="part0_ddr3_sdram_c0" typical_delay="5" c1_st_index="24" c1_end_index="155" c2_st_index="0" c2_end_index="131"/>
+    </connection>
+    <connection name="part0_ddr3_sdram_c1" component1="part0" component2="ddr3_sdram_c1">
+      <connection_map name="part0_ddr3_sdram_c1" typical_delay="5" c1_st_index="201" c1_end_index="332" c2_st_index="0" c2_end_index="131"/>
+    </connection>
+    <connection name="part0_pcie_perst" component1="part0" component2="pcie_perst">
+      <connection_map name="part0_pcie_perst_1" c1_st_index="335" c1_end_index="335" c2_st_index="0" c2_end_index="0"/>
+    </connection>
+    <connection name="part0_pci_express" component1="part0" component2="pci_express">
+      <connection_map name="part0_pcie_express_1" c1_st_index="336" c1_end_index="367" c2_st_index="0" c2_end_index="31"/>
+    </connection>
+  </connections>
+  <ip_associated_rules>
+    <ip_associated_rule name="default">
+       <ip vendor="xilinx.com" library="ip" name="ddr3" version="*" ip_interface="C0_SYS_CLK">
+          <associated_board_interfaces>
+             <associated_board_interface name="refclk0_400" order="0"/> 
+             <associated_board_interface name="refclk1_400" order="1"/> 
+          </associated_board_interfaces>
+       </ip>
+    </ip_associated_rule>
+ </ip_associated_rules>
+ </board>

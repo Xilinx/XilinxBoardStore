@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<part_info part_name="xc7k325tffg900-2">
+  <pins>
+    <pin index="0" name="SYSCLK_200MHZ_0_P" iostandard="LVDS_25" loc="AF22"/>
+    <pin index="1" name="SYSCLK_200MHZ_0_N" iostandard="LVDS_25" loc="AG23"/>
+    <pin index="2" name="DDR3SYS0_P" iostandard="DIFF_SSTL15" loc="AE10"/>
+    <pin index="3" name="DDR3SYS0_N" iostandard="DIFF_SSTL15" loc="AF10"/>
+    <pin index="4" name="GPIOCLK_P" iostandard="SSTL15_T_DCI" loc="D17"/>
+    <pin index="5" name="GPIOCLK_N" iostandard="SSTL15_T_DCI" loc="D18"/>
+    <pin index="6" name="REFCLK_1_P" iostandard="" loc="L8"/>
+    <pin index="7" name="REFCLK_1_N" iostandard="" loc="L7"/>
+
+    <pin index="8" name ="FLASH_A0" iostandard="LVCMOS25" loc="W22"/>
+    <pin index="9" name ="FLASH_A1" iostandard="LVCMOS25" loc="W21"/>
+    <pin index="10" name ="FLASH_A2" iostandard="LVCMOS25" loc="V24"/>
+    <pin index="11" name ="FLASH_A3" iostandard="LVCMOS25" loc="U24"/>
+    <pin index="12" name ="FLASH_A4" iostandard="LVCMOS25" loc="V22"/>
+    <pin index="13" name ="FLASH_A5" iostandard="LVCMOS25" loc="V21"/>
+    <pin index="14" name ="FLASH_A6" iostandard="LVCMOS25" loc="U23"/>
+    <pin index="15" name ="FLASH_A7" iostandard="LVCMOS25" loc="W24"/> 
+    <pin index="16" name ="FLASH_A8" iostandard="LVCMOS25" loc="W23"/> 
+    <pin index="17" name ="FLASH_A9" iostandard="LVCMOS25" loc="V20"/> 
+    <pin index="18" name ="FLASH_A10" iostandard="LVCMOS25" loc="V19"/> 
+    <pin index="19" name ="FLASH_A11" iostandard="LVCMOS25" loc="W26"/> 
+    <pin index="20" name ="FLASH_A12" iostandard="LVCMOS25" loc="V25"/> 
+    <pin index="21" name ="FLASH_A13" iostandard="LVCMOS25" loc="V30"/> 
+    <pin index="22" name ="FLASH_A14" iostandard="LVCMOS25" loc="V29"/> 
+    <pin index="23" name ="FLASH_A15" iostandard="LVCMOS25" loc="V27"/> 
+    <pin index="24" name ="FLASH_A16" iostandard="LVCMOS25" loc="P22"/> 
+    <pin index="25" name ="FLASH_A17" iostandard="LVCMOS25" loc="P21"/>
+    <pin index="26" name ="FLASH_A18" iostandard="LVCMOS25" loc="N24"/> 
+    <pin index="27" name ="FLASH_A19" iostandard="LVCMOS25" loc="N22"/> 
+    <pin index="28" name ="FLASH_A20" iostandard="LVCMOS25" loc="N21"/> 
+    <pin index="29" name ="FLASH_A21" iostandard="LVCMOS25" loc="N20"/> 
+    <pin index="30" name ="FLASH_A22" iostandard="LVCMOS25" loc="N19"/> 
+    <pin index="31" name ="FLASH_A23" iostandard="LVCMOS25" loc="N26"/> 
+    <pin index="32" name ="FLASH_A24" iostandard="LVCMOS25" loc="N25"/>
+    <pin index="33" name ="FLASH_A25" iostandard="LVCMOS25" loc="N30"/>
+
+    <pin index="34" name ="FLASH_D15" iostandard="LVCMOS25" loc="R26"/> 
+    <pin index="35" name ="FLASH_D14" iostandard="LVCMOS25" loc="P26"/> 
+    <pin index="36" name ="FLASH_D13" iostandard="LVCMOS25" loc="T30"/> 
+    <pin index="37" name ="FLASH_D12" iostandard="LVCMOS25" loc="P28"/> 
+    <pin index="38" name ="FLASH_D11" iostandard="LVCMOS25" loc="P27"/> 
+    <pin index="39" name ="FLASH_D10" iostandard="LVCMOS25" loc="R29"/> 
+    <pin index="40" name ="FLASH_D9" iostandard="LVCMOS25" loc="P29"/> 
+    <pin index="41" name ="FLASH_D8" iostandard="LVCMOS25" loc="U20"/> 
+    <pin index="42" name ="FLASH_D7" iostandard="LVCMOS25" loc="T23"/> 
+    <pin index="43" name ="FLASH_D6" iostandard="LVCMOS25" loc="T22"/> 
+    <pin index="44" name ="FLASH_D5" iostandard="LVCMOS25" loc="T21"/> 
+    <pin index="45" name ="FLASH_D4" iostandard="LVCMOS25" loc="T20"/>
+    <pin index="46" name ="FLASH_D3" iostandard="LVCMOS25" loc="R21"/> 
+    <pin index="47" name ="FLASH_D2" iostandard="LVCMOS25" loc="R20"/> 
+    <pin index="48" name ="FLASH_D1" iostandard="LVCMOS25" loc="R25"/> 
+    <pin index="49" name ="FLASH_D0" iostandard="LVCMOS25" loc="P24"/> 
+
+    <pin index="50" name ="FLASH_RESET" iostandard="LVCMOS25" loc="U30"/>
+    <pin index="51" name ="FLASH_OE" iostandard="LVCMOS25" loc="M24"/>
+    <pin index="52" name ="FLASH_WE" iostandard="LVCMOS25" loc="M25"/> 
+    <pin index="53" name ="FLASH_CE" iostandard="LVCMOS25" loc="U19"/> 
+
+    <pin index="54" name ="PEX_PET0_N" iostandard="" loc="L3"/>
+    <pin index="55" name ="PEX_PER0_N" iostandard="" loc="M5"/>
+    <pin index="56" name ="PEX_PET0_P" iostandard="" loc="L4"/> 
+    <pin index="57" name ="PEX_PER0_P" iostandard="" loc="M6"/> 
+    <pin index="58" name ="PERST_DIV" iostandard="" loc="V26"/> 
+
+  </pins>
+</part_info>

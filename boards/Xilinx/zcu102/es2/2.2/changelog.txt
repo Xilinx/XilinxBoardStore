@@ -1,0 +1,8 @@
+Version 2.2
+Updated DDR4 CLK IO-Standards, retaining same version for backward compatibility 
+Updated DP and other clocking parameters to match with production silicon
+
+ZCU102 Board file Version 2.1
+
+GT configuration revised from DP-DP-USB-SATA to PCIe-DP-USB-SATA
+PMU GPI is disbaled

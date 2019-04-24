@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<part_info part_name="xczu28dr-ffve1156-2-i-es1">
+<pins>
+  
+  <pin index="0" name ="uart2_PL_TX" iostandard="LVCMOS18" loc="G13"/>
+  <pin index="1" name ="uart2_PL_RX" iostandard="LVCMOS18" loc="H13"/>
+  
+  <!-- <pin index="121" name ="CPU_RESET" iostandard="LVCMOS12" loc="G13"/>
+  <pin index="122" name ="user_si570_sysclk_p" iostandard="DIFF_SSTL12" loc="AH12"/>
+  <pin index="123" name ="user_si570_sysclk_n" iostandard="DIFF_SSTL12" loc="AJ12"/>  -->
+  
+  <pin index="124" name ="USER_SW0" iostandard="LVCMOS18" loc="A12"/>
+  <pin index="125" name ="USER_SW1" iostandard="LVCMOS18" loc="B12"/>
+  <pin index="126" name ="USER_SW2" iostandard="LVCMOS18" loc="A13"/>
+  <pin index="127" name ="USER_SW3" iostandard="LVCMOS18" loc="A14"/>
+  <pin index="128" name ="USER_SW4" iostandard="LVCMOS18" loc="B13"/>
+  <pin index="129" name ="USER_SW5" iostandard="LVCMOS18" loc="C14"/>
+  <pin index="130" name ="USER_SW6" iostandard="LVCMOS18" loc="C13"/>
+  <pin index="131" name ="USER_SW7" iostandard="LVCMOS18" loc="D13"/>
+  
+  <pin index="132" name ="APP_0_LS" iostandard="LVCMOS18" loc="D12"/>
+  <pin index="133" name ="APP_1_LS" iostandard="LVCMOS18" loc="E12"/>
+  <pin index="134" name ="APP_2_LS" iostandard="LVCMOS18" loc="D14"/>
+  <pin index="135" name ="APP_3_LS" iostandard="LVCMOS18" loc="E14"/> 
+  <pin index="136" name ="APP_4_LS" iostandard="LVCMOS18" loc="F12"/>
+
+<!--   <pin index="140" name ="GPIO_SW_C" iostandard="LVCMOS12" loc="AL10"/>		
+  <pin index="141" name ="GPIO_SW_W" iostandard="LVCMOS12" loc="AK12"/>
+  <pin index="142" name ="GPIO_SW_S" iostandard="LVCMOS12" loc="AP20"/>
+  <pin index="143" name ="GPIO_SW_E" iostandard="LVCMOS12" loc="AC14"/>
+  <pin index="144" name ="GPIO_SW_N" iostandard="LVCMOS12" loc="AG13"/> -->
+ 
+</pins>
+
+</part_info>
