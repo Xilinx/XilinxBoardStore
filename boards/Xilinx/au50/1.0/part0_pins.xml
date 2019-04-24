@@ -9,42 +9,42 @@
     <pin index="2"  name ="sysclk1_p" iostandard="DIFF_SSTL12" loc="AE11" />
     <pin index="3"  name ="sysclk1_n" iostandard="DIFF_SSTL12" loc="AE10" />
 
-    <pin index="2"  name ="sysclk2_p" iostandard="DIFF_SSTL12" loc="G17" />
-    <pin index="3"  name ="sysclk2_n" iostandard="DIFF_SSTL12" loc="G16" />
+    <pin index="4"  name ="sysclk2_p" iostandard="DIFF_SSTL12" loc="G17" />
+    <pin index="5"  name ="sysclk2_n" iostandard="DIFF_SSTL12" loc="G16" />
 
-    <pin index="4"  name ="sysclk3_p" iostandard="DIFF_SSTL12" loc="BB18" />
-    <pin index="5"  name ="sysclk3_n" iostandard="DIFF_SSTL12" loc="BC18" />
+    <pin index="6"  name ="sysclk3_p" iostandard="DIFF_SSTL12" loc="BB18" />
+    <pin index="7"  name ="sysclk3_n" iostandard="DIFF_SSTL12" loc="BC18" />
 
-    <pin index="6"  name ="GPIO_MSP0" iostandard="LVCMOS18" loc="C16" />
-    <pin index="7"  name ="GPIO_MSP1" iostandard="LVCMOS18" loc="C17" />
+    <pin index="8"  name ="GPIO_MSP0" iostandard="LVCMOS18" loc="C16" />
+    <pin index="9"  name ="GPIO_MSP1" iostandard="LVCMOS18" loc="C17" />
 
-    <pin index="8"   name ="IIC_MUX_RESET_B" iostandard="LVCMOS18" loc="B20"/>
-    <pin index="9"   name ="IIC_SCL_MAIN"    iostandard="LVCMOS18" loc="B19" drive="8" slew="SLOW"/>
-    <pin index="10"  name ="IIC_SDA_MAIN"    iostandard="LVCMOS18" loc="B17" drive="8" slew="SLOW"/>
-	<pin index="11"  name ="CPU_RESET"       iostandard="LVCMOS18" loc="L15"/>
+    <pin index="10"  name ="IIC_MUX_RESET_B" iostandard="LVCMOS18" loc="BF22"/>
+    <pin index="11"  name ="IIC_SCL_MAIN"    iostandard="LVCMOS18" loc="AY26" drive="8" slew="SLOW"/>
+    <pin index="12"  name ="IIC_SDA_MAIN"    iostandard="LVCMOS18" loc="AY27" drive="8" slew="SLOW"/>
+	<pin index="13"  name ="CPU_RESET"       iostandard="LVCMOS18" loc="L15"/>
 
-    <pin index="12"  name ="SFPDD_1_ACTIVITY_LED" iostandard="LVCMOS18" loc="E15" drive="8"/>
-    <pin index="13"  name ="SFPDD_1_STATUS_LEDG"  iostandard="LVCMOS18" loc="F15" drive="8"/>
-    <pin index="14"  name ="SFPDD_1_STATUS_LEDY"  iostandard="LVCMOS18" loc="E17" drive="8"/>
-    <pin index="15"  name ="SFPDD_0_ACTIVITY_LED" iostandard="LVCMOS18" loc="E18" drive="8"/>
-    <pin index="16"  name ="SFPDD_0_STATUS_LEDG"  iostandard="LVCMOS18" loc="E16" drive="8"/>
-    <pin index="17"  name ="SFPDD_0_STATUS_LEDY"  iostandard="LVCMOS18" loc="F17" drive="8"/>
+    <pin index="14"  name ="SFPDD_0_ACTIVITY_LED" iostandard="LVCMOS18" loc="E18" drive="8"/>
+    <pin index="15"  name ="SFPDD_0_STATUS_LEDG"  iostandard="LVCMOS18" loc="E16" drive="8"/>
+    <pin index="16"  name ="SFPDD_0_STATUS_LEDY"  iostandard="LVCMOS18" loc="F17" drive="8"/>
+    <pin index="17"  name ="SFPDD_1_ACTIVITY_LED" iostandard="LVCMOS18" loc="E15" drive="8"/>
+    <pin index="18"  name ="SFPDD_1_STATUS_LEDG"  iostandard="LVCMOS18" loc="F15" drive="8"/>
+    <pin index="19"  name ="SFPDD_1_STATUS_LEDY"  iostandard="LVCMOS18" loc="E17" drive="8"/>
 
-    <pin index="18" name ="FPGA_UART_TXD"  iostandard="LVCMOS18" loc="BE26"/>
-    <pin index="19" name ="FPGA_UART_RXD"  iostandard="LVCMOS18" loc="BF26"/>
-    <pin index="20" name ="FPGA_UART1_TXD"  iostandard="LVCMOS18" loc="A17"/>
-    <pin index="21" name ="FPGA_UART1_RXD"  iostandard="LVCMOS18" loc="B15"/>
-    <pin index="22" name ="FPGA_UART2_TXD"  iostandard="LVCMOS18" loc="A19"/>
-    <pin index="23" name ="FPGA_UART2_RXD"  iostandard="LVCMOS18" loc="A18"/>
+    <pin index="20" name ="FPGA_UART_TXD"  iostandard="LVCMOS18" loc="BE26"/>
+    <pin index="21" name ="FPGA_UART_RXD"  iostandard="LVCMOS18" loc="BF26"/>
+    <pin index="22" name ="FPGA_UART1_TXD"  iostandard="LVCMOS18" loc="A17"/>
+    <pin index="23" name ="FPGA_UART1_RXD"  iostandard="LVCMOS18" loc="B15"/>
+    <pin index="24" name ="FPGA_UART2_TXD"  iostandard="LVCMOS18" loc="A19"/>
+    <pin index="25" name ="FPGA_UART2_RXD"  iostandard="LVCMOS18" loc="A18"/>
 
-    <pin index="24" name ="FPGA_TXD_MSP"  iostandard="LVCMOS18" loc="BB25"/>
-    <pin index="25" name ="FPGA_RXD_MSP"  iostandard="LVCMOS18" loc="BF22"/>
+    <pin index="26" name ="FPGA_TXD_MSP"  iostandard="LVCMOS18" loc="BB22"/>
+    <pin index="27" name ="FPGA_RXD_MSP"  iostandard="LVCMOS18" loc="BF25"/>
 
-    <pin index="26"  name ="pcie_ref0_clk_p" iostandard="DIFF_SSTL12" loc="AB9"/>
-    <pin index="27"  name ="pcie_ref0_clk_n" iostandard="DIFF_SSTL12" loc="AB8"/>
+    <pin index="28"  name ="pcie_ref0_clk_n" iostandard="DIFF_SSTL12" loc="AB8" />
+    <pin index="29"  name ="pcie_ref0_clk_p" iostandard="DIFF_SSTL12" loc="AB9" />
 
-    <pin index="701" name ="pcie_mgt_clk_p" "loc="AF9"/>
-  	<pin index="700" name ="pcie_mgt_clk_n" "loc="AF8"/>
+  	<pin index="700" name ="pcie_mgt_clk_n" loc="AF8"/>
+    <pin index="701" name ="pcie_mgt_clk_p" loc="AF9"/>
 
     <pin index="702" name ="pcie_rx0_n"     loc="AL1"/>
     <pin index="703" name ="pcie_rx0_p"     loc="AL2"/>
@@ -131,11 +131,14 @@
     <pin index="814" name ="SFPDD2_RX2_P" loc="E45"/>
     <pin index="815" name ="SFPDD2_RX2_N" loc="E46"/>
 
-    <pin index="816" name ="SFPDD_CLOCK_P" iostandard="DIFF_SSTL12" loc="N36"/>
-    <pin index="817" name ="SFPDD_CLOCK_N" iostandard="DIFF_SSTL12" loc="N37"/>
+    <pin index="816" name ="SYNCE_CLK_P" iostandard="DIFF_SSTL12" loc="N36"/>
+    <pin index="817" name ="SYNCE_CLK_N" iostandard="DIFF_SSTL12" loc="N37"/>
 
-    <pin index="818" name ="SFPDD_CLK_NS_1V8" iostandard="LVCMOS18" loc="D20"/>
-    <pin index="819" name ="SFPDD_CLK_OE_1V8" iostandard="LVCMOS18" loc="E20"/>
+    <pin index="818" name ="CLK_1588_P" iostandard="LVCMOS18" loc="M38"/>
+    <pin index="819" name ="CLK_1588_N" iostandard="LVCMOS18" loc="M39"/>
+
+    <pin index="820" name ="I2C_SI5394_SCLK"  iostandard="LVCMOS18" loc="L19" drive="8" slew="SLOW"/>
+    <pin index="821" name ="I2C_SI5394_SDA"   iostandard="LVCMOS18" loc="J16" drive="8" slew="SLOW"/>
 
   </pins>
 

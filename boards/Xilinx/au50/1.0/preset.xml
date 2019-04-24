@@ -238,6 +238,7 @@
 			<user_parameter name="CONFIG.GT_TYPE" value="GTY" />
 			<user_parameter name="CONFIG.LINE_RATE" value="10" />
 			<user_parameter name="CONFIG.GT_GROUP_SELECT" value="Quad_X0Y7" />
+			<user_parameter name="CONFIG.LANE1_GT_LOC" value="X0Y30" />
 			<user_parameter name="CONFIG.BASE_R_KR" value="BASE-R" />
 		  </user_parameters>
 		</ip>
@@ -246,6 +247,7 @@
 		  <user_parameters>
 			<user_parameter name="CONFIG.NUM_OF_CORES" value="1" />
 			<user_parameter name="CONFIG.GT_TYPE" value="GTY" />
+			<user_parameter name="CONFIG.LANE1_GT_LOC" value="X0Y30" />
 			<user_parameter name="CONFIG.GT_GROUP_SELECT" value="Quad_X0Y7" />
 		  </user_parameters>
 		</ip>
@@ -273,7 +275,7 @@
 		</ip>
      </ip_preset>
 
-     <ip_preset preset_proc_name="sfpdd1_1x_sfpdd2_1x_preset">
+     <ip_preset preset_proc_name="sfpdd2_2x_preset">
 
 		<ip vendor="xilinx.com" library="ip" name="xxv_ethernet">
 		  <user_parameters>
@@ -282,6 +284,8 @@
 			<user_parameter name="CONFIG.GT_TYPE" value="GTY" />
 			<user_parameter name="CONFIG.LINE_RATE" value="10" />
 			<user_parameter name="CONFIG.GT_GROUP_SELECT" value="Quad_X0Y7" />
+			<user_parameter name="CONFIG.LANE1_GT_LOC" value="X0Y30" />
+			<user_parameter name="CONFIG.LANE2_GT_LOC" value="X0Y31" />
 			<user_parameter name="CONFIG.BASE_R_KR" value="BASE-R" />
 		  </user_parameters>
 		</ip>
@@ -291,6 +295,34 @@
 			<user_parameter name="CONFIG.NUM_OF_CORES" value="2" />
 			<user_parameter name="CONFIG.GT_TYPE" value="GTY" />
 			<user_parameter name="CONFIG.GT_GROUP_SELECT" value="Quad_X0Y7" />
+			<user_parameter name="CONFIG.LANE1_GT_LOC" value="X0Y30" />
+			<user_parameter name="CONFIG.LANE2_GT_LOC" value="X0Y31" />
+		  </user_parameters>
+		</ip>
+     </ip_preset>
+
+     <ip_preset preset_proc_name="sfpdd1_1x_sfpdd2_1x_preset">
+
+		<ip vendor="xilinx.com" library="ip" name="xxv_ethernet">
+		  <user_parameters>
+			<!--<user_parameter name="CONFIG.GT_REF_CLK_FREQ" value="161.1328125" /> -->
+			<user_parameter name="CONFIG.NUM_OF_CORES" value="2" />
+			<user_parameter name="CONFIG.GT_TYPE" value="GTY" />
+			<user_parameter name="CONFIG.LINE_RATE" value="10" />
+			<user_parameter name="CONFIG.GT_GROUP_SELECT" value="Quad_X0Y7" />
+			<user_parameter name="CONFIG.LANE1_GT_LOC" value="X0Y28" />
+			<user_parameter name="CONFIG.LANE2_GT_LOC" value="X0Y30" />
+			<user_parameter name="CONFIG.BASE_R_KR" value="BASE-R" />
+		  </user_parameters>
+		</ip>
+
+		<ip vendor="xilinx.com" library="ip" name="usxgmii">
+		  <user_parameters>
+			<user_parameter name="CONFIG.NUM_OF_CORES" value="2" />
+			<user_parameter name="CONFIG.GT_TYPE" value="GTY" />
+			<user_parameter name="CONFIG.GT_GROUP_SELECT" value="Quad_X0Y7" />
+			<user_parameter name="CONFIG.LANE1_GT_LOC" value="X0Y28" />
+			<user_parameter name="CONFIG.LANE2_GT_LOC" value="X0Y30" />
 		  </user_parameters>
 		</ip>
      </ip_preset>
