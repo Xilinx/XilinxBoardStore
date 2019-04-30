@@ -178,7 +178,7 @@ def parse_cmdline():
             epilog="Utility script to add xitem entry in store catalog file .")
 #    parser.add_argument('--catalog_file', help="Path of the store catalog file", required = False)
     parser.add_argument('--store_dir', help="Store Root Directory which has all the boards, catalog files", required = True)
-    parser.add_argument('--output_file', help="Path of the board.xml file", required = False)
+   # parser.add_argument('--output_file', help="Path of the board.xml file", required = False)
     parser.add_argument('--xitem_file', help="Path of the xitem json file", required = True)
  #   parser.add_argument('--item_root', help="Path of the xitem relative to store root", required = True)
     parser.add_argument('--commit_id', help="Path of the xitem json file", required = False,default = "")
