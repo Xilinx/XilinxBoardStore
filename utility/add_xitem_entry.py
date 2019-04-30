@@ -32,11 +32,11 @@ def loadStoreJson(args):
 		data = json.load(json_file,object_pairs_hook=OrderedDict)
 		catalog = data['catalog']
 
-		if catalog['_major'] != 2: 
+		if data['_major'] != 1: 
 			print ("store Major version is not supported")
 			exit()
 
-		if catalog['_minor'] != 0:
+		if data['_minor'] != 0:
 			print ("store Minor version is not supported")
 			exit()
 
@@ -76,7 +76,7 @@ def extractItemRoot(args,item_revision):
 	if item_root.startswith('/'):
 		item_root = item_root[1:]
 	if item_root.endswith('/'):
-		item_root = item_root[:-1]
+		item_root = item_root[:-1]		
 	return item_root
 
 def addXitemEntry(args,item_catalog_file):
