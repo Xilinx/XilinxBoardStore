@@ -1978,39 +1978,39 @@
         "company": "xilinx.com"
       },  
       {
-        "name": "au280",
+        "name": "au280_es1",
         "display": "Alveo U280 Data Center Accelerator Card",
         "latest_revision": "1.0",
-        "commit_id": "8d88dd97d1cee1343f4f9e404c8d59339cddbe01",
+        "commit_id": "b7f3cd37dd527bf3581950c05c7d83f6ce1ebe9f",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8d88dd97d1cee1343f4f9e404c8d59339cddbe01",
-            "date": "07-02-2019",
-            "history": "Add au280 eU200 Acceleration card Board Files"
+            "commit_id": "b7f3cd37dd527bf3581950c05c7d83f6ce1ebe9f",
+            "date": "03-05-2019",
+            "history": "Add au280 au200 Acceleration card Board Files"
           }
         ],
         "config": {
-          "root": "boards/Xilinx/au280/1.0",
+          "root": "boards/Xilinx/au280/es1/1.0",
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
       }, 
       {
-        "name": "au280",
+        "name": "au280_es1",
         "display": "Alveo U280 Data Center Accelerator Card",
         "latest_revision": "1.1",
-        "commit_id": "081ba7296e7b7c110eb4236d6f061ad0225b9775",
+        "commit_id": "b7f3cd37dd527bf3581950c05c7d83f6ce1ebe9f",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "081ba7296e7b7c110eb4236d6f061ad0225b9775",
-            "date": "07-02-2019",
-            "history": "Add au280 eU200 Acceleration card Board Files"
+            "commit_id": "b7f3cd37dd527bf3581950c05c7d83f6ce1ebe9f",
+            "date": "03-05-2019",
+            "history": "Add au280 au200 Acceleration card Board Files"
           }
         ],
         "config": {
-          "root": "boards/Xilinx/au280/1.1",
+          "root": "boards/Xilinx/au280/es1/1.1",
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
