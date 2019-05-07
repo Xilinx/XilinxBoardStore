@@ -3,9 +3,9 @@
     "items": [
       {
         "infra": {
-          "name": "au280", 
+          "name": "au280_es1", 
           "display": "Alveo U280-ES1 Data Center Accelerator Card", 
-          "revision": "1.0", 
+          "revision": "1.1", 
           "description": "Alveo U280-ES1 Data Center Accelerator Card", 
           "company": "xilinx.com", 
           "company_display": "Xilinx", 
@@ -19,15 +19,15 @@
           "category": "Single Part", 
           "website": "http://www.xilinx.com/u280", 
           "search-keywords": [
-            "au280", 
+            "au280_es1", 
             "xilinx.com", 
             "board", 
             "Single Part"
           ]
         }
       }
-    ] 
+    ]
   },
   "_major": 1,
-  "_minor": 0 
+  "_minor": 0
 }
