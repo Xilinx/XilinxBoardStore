@@ -1977,9 +1977,50 @@
         },
         "company": "xilinx.com"
       },  
+ 
+      {
+        "name": "au200",
+        "display": "Alveo U200 Data Center Accelerator Card",
+        "latest_revision": "1.2",
+        "commit_id": "ccc1f2d433f619e5877302b27cf9e09a59bcf126",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "ccc1f2d433f619e5877302b27cf9e09a59bcf126",
+            "date": "07-05-2019",
+            "history": "Add au200 acceleration card board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/au200/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+
+      {
+        "name": "au250",
+        "display": "Alveo U250 Data Center Accelerator Card",
+        "latest_revision": "1.2",
+        "commit_id": "ccc1f2d433f619e5877302b27cf9e09a59bcf126",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "ccc1f2d433f619e5877302b27cf9e09a59bcf126",
+            "date": "07-05-2019",
+            "history": "Add au250 acceleration card board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/au250/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },	  
+	  
       {
         "name": "au280_es1",
-        "display": "Alveo U280 Data Center Accelerator Card",
+        "display": "Alveo U280-ES1 Data Center Accelerator Card",
         "latest_revision": "1.0",
         "commit_id": "b7f3cd37dd527bf3581950c05c7d83f6ce1ebe9f",
         "revisions": [
@@ -1987,7 +2028,7 @@
             "revision": "1.0",
             "commit_id": "b7f3cd37dd527bf3581950c05c7d83f6ce1ebe9f",
             "date": "03-05-2019",
-            "history": "Add au280 au200 Acceleration card Board Files"
+            "history": "Add au280 acceleration card board Files"
           }
         ],
         "config": {
@@ -1998,7 +2039,7 @@
       }, 
       {
         "name": "au280_es1",
-        "display": "Alveo U280 Data Center Accelerator Card",
+        "display": "Alveo U280-ES1 Data Center Accelerator Card",
         "latest_revision": "1.1",
         "commit_id": "b7f3cd37dd527bf3581950c05c7d83f6ce1ebe9f",
         "revisions": [
@@ -2006,7 +2047,7 @@
             "revision": "1.1",
             "commit_id": "b7f3cd37dd527bf3581950c05c7d83f6ce1ebe9f",
             "date": "03-05-2019",
-            "history": "Add au280 au200 Acceleration card Board Files"
+            "history": "Add au280 acceleration card board Files"
           }
         ],
         "config": {
