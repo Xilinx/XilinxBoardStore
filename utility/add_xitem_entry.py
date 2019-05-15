@@ -155,10 +155,15 @@ def loadXitemJson(xitem_json_file,xitems,args):
 			for existed_revision in existed_revisions:
 				if existed_revision['revision'] == xitem_infra['revision']:
 					item_revision_found = True
+					if existed_xitem["commit_id"] != args.commit_id:
+						if args.commit_id!="": 
+							existed_xitem['commit_id'] = args.commit_id
+							existed_revision['commit_id'] = args.commit_id
+							print ("Updated commit-id of the xitem.")
 					break
 		if item_already_found:
 			if item_revision_found:
-				print ("not adding xitem as it is already present")
+				print ("Not added xitem as it is already present")
 				return
 			else: 
 				existed_revisions = existed_xitem['revisions']
