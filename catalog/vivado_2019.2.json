@@ -4558,7 +4558,7 @@
           }
         ], 
         "config": {
-          "root": "boards/Xilinx/sp701", 
+          "root": "boards/Xilinx/sp701/1.0", 
           "metadata_file": "xitem.json"
         }, 
         "company": "xilinx.com"
