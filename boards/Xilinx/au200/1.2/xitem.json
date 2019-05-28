@@ -3,7 +3,7 @@
     "items": [
       {
         "infra": {
-          "name": "au250", 
+          "name": "au200", 
           "display": "Alveo U200 Data Center Accelerator Card", 
           "revision": "1.2", 
           "description": "Alveo U200 Data Center Accelerator Card", 
