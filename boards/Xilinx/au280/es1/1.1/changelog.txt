@@ -8,7 +8,6 @@ Enabled VBS for usxgmii
 Enabled DIMM support 
 Unified the board part, its now au280_es1
 Added more component modes with clock selection for QSFP Connectors
-Enhanced DDR4 preset to optimize for AXI/Acceleration workloads
 
 1.0
 AU280 ES Initial board support for 2018.3_web
