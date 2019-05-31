@@ -67,7 +67,7 @@ def extractItemRoot(args,item_revision):
 	prefix_dir = "/" + args.product + "/" + args.version + "/"
 	if item_root.startswith(prefix_dir) : 
 		item_root = item_root.replace(prefix_dir,'')
-	suffix_dir = item_revision + "/xitem.json" 
+	suffix_dir = "/xitem.json" 
 	if item_root.endswith(suffix_dir):
 		item_root = item_root.replace(suffix_dir,'')
 	elif item_root.endswith('xitem.json'):
