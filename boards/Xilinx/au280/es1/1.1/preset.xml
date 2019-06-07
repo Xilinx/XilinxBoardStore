@@ -23,8 +23,6 @@
 		<user_parameter name="CONFIG.C0.DDR4_MemoryPart" value="MTA18ASF2G72PZ-2G3" />
 		<user_parameter name="CONFIG.C0.DDR4_MemoryType" value="RDIMMs" />
 		<user_parameter name="CONFIG.C0.DDR4_TimePeriod" value="833" />
-		<user_parameter name="CONFIG.C0.DDR4_AUTO_AP_COL_A3" value="true" />
-		<user_parameter name="CONFIG.C0.DDR4_Mem_Add_Map" value="ROW_COLUMN_BANK_INTLV" />		
       </user_parameters>
     </ip>
   </ip_preset>
@@ -53,8 +51,6 @@
 		<user_parameter name="CONFIG.C0.DDR4_MemoryPart" value="MTA18ASF2G72PZ-2G3" />
 		<user_parameter name="CONFIG.C0.DDR4_MemoryType" value="RDIMMs" />
 		<user_parameter name="CONFIG.C0.DDR4_TimePeriod" value="833" />
-		<user_parameter name="CONFIG.C0.DDR4_AUTO_AP_COL_A3" value="true" />
-		<user_parameter name="CONFIG.C0.DDR4_Mem_Add_Map" value="ROW_COLUMN_BANK_INTLV" />		
       </user_parameters>
     </ip>
   </ip_preset>
