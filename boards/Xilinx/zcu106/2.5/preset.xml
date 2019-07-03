@@ -180,7 +180,7 @@
 			<user_parameter name="CONFIG.NUM_OF_CORES" value="2" />
 			<user_parameter name="CONFIG.GT_TYPE" value="GTH" />
 			<user_parameter name="CONFIG.GT_GROUP_SELECT" value="Quad_X0Y2" />
-			<user_parameter name="CONFIG.LANE1_GT_LOC" value="Quad_X0Y10" />
+			<user_parameter name="CONFIG.LANE1_GT_LOC" value="X0Y10" />
 			<user_parameter name="CONFIG.LANE2_GT_LOC" value="X0Y11" />
 		  </user_parameters>
 		</ip>
