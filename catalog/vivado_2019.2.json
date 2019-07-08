@@ -2406,7 +2406,7 @@
             "commit_id": "ff158172d435d82c4beefc0289e6831353144573", 
             "date": "28-05-2019:11:08:19", 
             "history": "Migrating Alveo latest board files from perforce/2019.1 to git"
-          }, 
+          } 
         ], 
         "config": {
           "root": "boards/Xilinx/au280/es1/1.0", 
@@ -2425,7 +2425,7 @@
             "commit_id": "ff158172d435d82c4beefc0289e6831353144573", 
             "date": "28-05-2019:11:08:19", 
             "history": "Migrating Alveo latest board files from perforce/2019.1 to git"
-          }, 
+          } 
         ], 
         "config": {
           "root": "boards/Xilinx/au280/es1/1.1", 
