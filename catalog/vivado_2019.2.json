@@ -1986,31 +1986,12 @@
           {
             "revision": "1.0", 
             "commit_id": "ff158172d435d82c4beefc0289e6831353144573", 
-            "date": "07-05-2019", 
+            "date": "26-06-2019", 
             "history": "Add au280 Acceleration card Board Files"
           }
         ], 
         "config": {
-          "root": "boards/Xilinx/au280/es1/1.0", 
-          "metadata_file": "xitem.json"
-        }, 
-        "company": "xilinx.com"
-      }, 
-      {
-        "name": "au280", 
-        "display": "Alveo U280 Data Center Accelerator Card", 
-        "latest_revision": "1.1", 
-        "commit_id": "44eb19d060715fce165a59221cfe6fb7d94621f1", 
-        "revisions": [
-          {
-            "revision": "1.1", 
-            "commit_id": "44eb19d060715fce165a59221cfe6fb7d94621f1", 
-            "date": "07-05-2019", 
-            "history": "Add au280 Acceleration card Board Files"
-          }
-        ], 
-        "config": {
-          "root": "boards/Xilinx/au280/es1/1.1", 
+          "root": "boards/Xilinx/au280/production/1.0", 
           "metadata_file": "xitem.json"
         }, 
         "company": "xilinx.com"
@@ -2318,7 +2299,7 @@
           "metadata_file": "xitem.json"
         }, 
         "company": "xilinx.com"
-      }, 
+      },   
       {
         "name": "zcu106", 
         "display": "Zynq UltraScale+ ZCU106 Evaluation Platform", 
@@ -2338,6 +2319,25 @@
         }, 
         "company": "xilinx.com"
       }, 
+      {
+        "name": "zcu106", 
+        "display": "Zynq UltraScale+ ZCU106 Evaluation Platform", 
+        "latest_revision": "2.5", 
+        "commit_id": "a3ec2205ed62136978646559f37c72ffc9c6a174", 
+        "revisions": [
+          {
+            "revision": "2.5", 
+            "commit_id": "a3ec2205ed62136978646559f37c72ffc9c6a174", 
+            "date": "26-06-2019:11:04:35", 
+            "history": "Migrating 7 series latest board files from perforce to git"
+          }
+        ], 
+        "config": {
+          "root": "boards/Xilinx/zcu106/2.5", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
+      },      
       {
         "name": "zcu111", 
         "display": "Zynq UltraScale+ ZCU111 Evaluation Platform", 
@@ -2406,16 +2406,29 @@
             "commit_id": "ff158172d435d82c4beefc0289e6831353144573", 
             "date": "28-05-2019:11:08:19", 
             "history": "Migrating Alveo latest board files from perforce/2019.1 to git"
-          }, 
-          {
-            "revision": "1.1", 
-            "commit_id": "ff158172d435d82c4beefc0289e6831353144573", 
-            "date": "28-05-2019:11:08:43", 
-            "history": "Migrating Alveo latest board files from perforce/2019.1 to git"
-          }
+          } 
         ], 
         "config": {
           "root": "boards/Xilinx/au280/es1/1.0", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
+      }, 
+      {
+        "name": "au280_es1", 
+        "display": "Alveo U280-ES1 Data Center Accelerator Card", 
+        "latest_revision": "1.1", 
+        "commit_id": "ff158172d435d82c4beefc0289e6831353144573", 
+        "revisions": [
+          {
+            "revision": "1.1", 
+            "commit_id": "ff158172d435d82c4beefc0289e6831353144573", 
+            "date": "28-05-2019:11:08:19", 
+            "history": "Migrating Alveo latest board files from perforce/2019.1 to git"
+          } 
+        ], 
+        "config": {
+          "root": "boards/Xilinx/au280/es1/1.1", 
           "metadata_file": "xitem.json"
         }, 
         "company": "xilinx.com"
