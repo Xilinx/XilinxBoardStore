@@ -2303,7 +2303,7 @@
       {
         "name": "zcu106", 
         "display": "Zynq UltraScale+ ZCU106 Evaluation Platform", 
-        "latest_revision": "2.5", 
+        "latest_revision": "2.4", 
         "commit_id": "c0944700b73787b72133d87b7519934741cda4ee", 
         "revisions": [
           {
