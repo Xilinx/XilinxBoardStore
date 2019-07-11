@@ -3,7 +3,7 @@
     "items": [
       {
         "infra": {
-          "name": "v350", 
+          "name": "v350_es", 
           "display": "V350 ES0 Data Center Accelerator Card", 
           "revision": "1.0", 
           "description": "V350 ES0 Data Center Accelerator Card", 
