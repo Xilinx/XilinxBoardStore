@@ -5,7 +5,7 @@
         "infra": {
           "name": "v350_es", 
           "display": "V350 ES0 Data Center Accelerator Card", 
-          "revision": "1.2", 
+          "revision": "1.0", 
           "description": "V350 ES0 Data Center Accelerator Card", 
           "company": "xilinx.com", 
           "company_display": "Xilinx", 
