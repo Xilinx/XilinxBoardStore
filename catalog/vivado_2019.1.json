@@ -2087,7 +2087,7 @@
           }
         ], 
         "config": {
-          "root": "boards/Xilinx/vcu129/production", 
+          "root": "boards/Xilinx/vcu129/production/1.0", 
           "metadata_file": "xitem.json"
         }, 
         "company": "xilinx.com"
@@ -2106,7 +2106,7 @@
           }
         ], 
         "config": {
-          "root": "boards/Xilinx/vcu129/es", 
+          "root": "boards/Xilinx/vcu129/es/1.0", 
           "metadata_file": "xitem.json"
         }, 
         "company": "xilinx.com"
