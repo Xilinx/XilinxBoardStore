@@ -1977,27 +1977,7 @@
         }, 
         "company": "xilinx.com"
       }, 
-  
- {
-        "name": "vcu129",
-        "display": "Virtex Ultrascale+ 56G VCU129 Evaluation Platform",
-        "latest_revision": "1.0",
-        "commit_id": "9b2afda969d560a474614d9b3c0f26f235c90cdc",
-        "revisions": [
-          {
-            "revision": "1.0",
-            "commit_id": "9b2afda969d560a474614d9b3c0f26f235c90cdc",
-            "date": "11-07-2019",
-            "history": "VCU129 board files for Vivado 2019.1.1"
-          }
-        ],
-        "config": {
-          "root": "boards/Xilinx/vcu129/production/1.0",
-          "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
-      },  
-	    
+   
       {
         "name": "au200", 
         "display": "Alveo U200 Data Center Accelerator Card", 
