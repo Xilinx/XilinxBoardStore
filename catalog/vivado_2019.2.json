@@ -1977,6 +1977,44 @@
         }, 
         "company": "xilinx.com"
       }, 
+    {
+        "name": "vcu129", 
+        "display": "Virtex Ultrascale+ 56G VCU129 Evaluation Platform", 
+        "latest_revision": "1.0", 
+        "commit_id": "3af66ae67961036c370e4860f45b9841724a8eed", 
+        "revisions": [
+          {
+            "revision": "1.0", 
+            "commit_id": "3af66ae67961036c370e4860f45b9841724a8eed", 
+            "date": "24-07-2019:05:52:57", 
+            "history": "VCU129 ES and prod board files"
+          }
+        ], 
+        "config": {
+          "root": "boards/Xilinx/vcu129/production/1.0", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
+      }, 
+      {
+        "name": "vcu129_es", 
+        "display": "Virtex Ultrascale+ 56G VCU129-ES Evaluation Platform", 
+        "latest_revision": "1.0", 
+        "commit_id": "3af66ae67961036c370e4860f45b9841724a8eed", 
+        "revisions": [
+          {
+            "revision": "1.0", 
+            "commit_id": "3af66ae67961036c370e4860f45b9841724a8eed", 
+            "date": "24-07-2019:06:12:33", 
+            "history": "VCU129 ES and prod board files"
+          }
+        ], 
+        "config": {
+          "root": "boards/Xilinx/vcu129/es/1.0", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
+      }
       {
         "name": "au280", 
         "display": "Alveo U280 Data Center Accelerator Card", 
