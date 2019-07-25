@@ -2014,7 +2014,7 @@
           "metadata_file": "xitem.json"
         }, 
         "company": "xilinx.com"
-      }
+      },
       {
         "name": "au280", 
         "display": "Alveo U280 Data Center Accelerator Card", 
