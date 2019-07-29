@@ -32,11 +32,11 @@ def loadStoreJson(args):
 		data = json.load(json_file,object_pairs_hook=OrderedDict)
 		catalog = data['catalog']
 
-		if catalog['_major'] != 2: 
+		if data['_major'] != 1: 
 			print ("store Major version is not supported")
 			exit()
 
-		if catalog['_minor'] != 0:
+		if data['_minor'] != 0:
 			print ("store Minor version is not supported")
 			exit()
 
@@ -67,7 +67,7 @@ def extractItemRoot(args,item_revision):
 	prefix_dir = "/" + args.product + "/" + args.version + "/"
 	if item_root.startswith(prefix_dir) : 
 		item_root = item_root.replace(prefix_dir,'')
-	suffix_dir = item_revision + "/xitem.json" 
+	suffix_dir = "/xitem.json" 
 	if item_root.endswith(suffix_dir):
 		item_root = item_root.replace(suffix_dir,'')
 	elif item_root.endswith('xitem.json'):
@@ -76,7 +76,7 @@ def extractItemRoot(args,item_revision):
 	if item_root.startswith('/'):
 		item_root = item_root[1:]
 	if item_root.endswith('/'):
-		item_root = item_root[:-1]
+		item_root = item_root[:-1]		
 	return item_root
 
 def addXitemEntry(args,item_catalog_file):
@@ -155,10 +155,15 @@ def loadXitemJson(xitem_json_file,xitems,args):
 			for existed_revision in existed_revisions:
 				if existed_revision['revision'] == xitem_infra['revision']:
 					item_revision_found = True
+					if existed_xitem["commit_id"] != args.commit_id:
+						if args.commit_id!="": 
+							existed_xitem['commit_id'] = args.commit_id
+							existed_revision['commit_id'] = args.commit_id
+							print ("Updated commit-id of the xitem.")
 					break
 		if item_already_found:
 			if item_revision_found:
-				print ("not adding xitem as it is already present")
+				print ("Not added xitem as it is already present")
 				return
 			else: 
 				existed_revisions = existed_xitem['revisions']
@@ -178,7 +183,7 @@ def parse_cmdline():
             epilog="Utility script to add xitem entry in store catalog file .")
 #    parser.add_argument('--catalog_file', help="Path of the store catalog file", required = False)
     parser.add_argument('--store_dir', help="Store Root Directory which has all the boards, catalog files", required = True)
-    parser.add_argument('--output_file', help="Path of the board.xml file", required = False)
+   # parser.add_argument('--output_file', help="Path of the board.xml file", required = False)
     parser.add_argument('--xitem_file', help="Path of the xitem json file", required = True)
  #   parser.add_argument('--item_root', help="Path of the xitem relative to store root", required = True)
     parser.add_argument('--commit_id', help="Path of the xitem json file", required = False,default = "")
