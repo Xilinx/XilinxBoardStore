@@ -2016,15 +2016,15 @@
         }, 
         "company": "xilinx.com"
       }, 
-      {
+      {  
         "name": "au50", 
         "display": "Alveo U50 Data Center Accelerator Card", 
         "latest_revision": "1.0", 
-        "commit_id": "feb069b0b49cca3e23863e6ffc8ea0b7bf91022c", 
+        "commit_id": "43815183016ab3cb9d22b995915e0cedc30edf3e", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "feb069b0b49cca3e23863e6ffc8ea0b7bf91022c", 
+            "commit_id": "43815183016ab3cb9d22b995915e0cedc30edf3e", 
             "date": "12-08-2019", 
             "history": "Add U50 acceleration card board Files"
           }
