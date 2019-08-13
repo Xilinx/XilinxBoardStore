@@ -177,7 +177,7 @@
           </port_maps>
         </interface>
 
-	    <interface mode="slave" name="sfpdd_refclk0" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="sfpdd_refclk0">
+	    <interface mode="slave" name="qsfp_refclk0" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="qsfp_refclk0">
           <parameters>
             <parameter name="frequency" value="161132812"/>
           </parameters>
@@ -198,7 +198,7 @@
           </port_maps>
         </interface>
 
-	    <interface mode="slave" name="sfpdd_refclk1" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="sfpdd_refclk1">
+	    <interface mode="slave" name="qsfp_refclk1" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="qsfp_refclk1">
           <parameters>
             <parameter name="frequency" value="322265625"/>
           </parameters>
@@ -562,221 +562,165 @@
           </parameters>
         </interface>
 
-		<interface mode="master" name="sfpdd1_1x" type="xilinx.com:interface:gt_rtl:1.0" of_component="sfpdd" preset_proc="sfpdd1_1x_preset">
-		<description>1-lane GT interface over SFPDD1</description>
-		<preferred_ips>
-			<preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
-		</preferred_ips>
-		<port_maps>
-            <port_map logical_port="GTX_N" physical_port="sfpdd1_txn1" dir="out">
-              <pin_maps>
-                <pin_map port_index="0" component_pin="SFPDD1_TX1_N"/>
-              </pin_maps>
-            </port_map>
-            <port_map logical_port="GTX_P" physical_port="sfpdd1_txp1" dir="out">
-              <pin_maps>
-                <pin_map port_index="0" component_pin="SFPDD1_TX1_P"/>
-              </pin_maps>
-            </port_map>
-            <port_map logical_port="GRX_N" physical_port="sfpdd1_rxn1" dir="in">
-              <pin_maps>
-                <pin_map port_index="0" component_pin="SFPDD1_RX1_N"/>
-              </pin_maps>
-            </port_map>
-            <port_map logical_port="GRX_P" physical_port="sfpdd1_rxp1" dir="in">
-              <pin_maps>
-                <pin_map port_index="0" component_pin="SFPDD1_RX1_P"/>
-              </pin_maps>
-            </port_map>
-          </port_maps>
-          <parameters>
-            <parameter name="gt_loc" value="" />
-          </parameters>
-        </interface>
+        <interface mode="master" name="qsfp_1x" type="xilinx.com:interface:gt_rtl:1.0" of_component="qsfp" preset_proc="qsfp0_1x_preset">
+    		<description>1-lane GT interface over QSFP</description>
+    		<preferred_ips>
+    			<preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
+    			<preferred_ip vendor="xilinx.com" library="ip" name="usxgmii" order="1"/>
+    		</preferred_ips>
+    		<port_maps>
+                <port_map logical_port="GTX_N" physical_port="qsfp0_txn1" dir="out">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="qsfp0_TX_N0"/>
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="GTX_P" physical_port="qsfp0_txp1" dir="out">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="qsfp0_TX_P0"/>
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="GRX_N" physical_port="qsfp0_rxn1" dir="in">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="qsfp0_RX_N0"/>
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="GRX_P" physical_port="qsfp0_rxp1" dir="in">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="qsfp0_RX_P0"/>
+                  </pin_maps>
+                </port_map>
+              </port_maps>
+              <parameters>
+                <parameter name="gt_loc" value="" />
+              </parameters>
+            </interface>
 
-		<interface mode="master" name="sfpdd2_1x" type="xilinx.com:interface:gt_rtl:1.0" of_component="sfpdd" preset_proc="sfpdd2_1x_preset">
-		<description>1-lane GT interface over SFPDD2</description>
-		<preferred_ips>
-			<preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
-		</preferred_ips>
-		<port_maps>
-            <port_map logical_port="GTX_N" physical_port="sfpdd2_txn1" dir="out">
-              <pin_maps>
-                <pin_map port_index="0" component_pin="SFPDD2_TX1_N"/>
-              </pin_maps>
-            </port_map>
-            <port_map logical_port="GTX_P" physical_port="sfpdd2_txp1" dir="out">
-              <pin_maps>
-                <pin_map port_index="0" component_pin="SFPDD2_TX1_P"/>
-              </pin_maps>
-            </port_map>
-            <port_map logical_port="GRX_N" physical_port="sfpdd2_rxn1" dir="in">
-              <pin_maps>
-                <pin_map port_index="0" component_pin="SFPDD2_RX1_N"/>
-              </pin_maps>
-            </port_map>
-            <port_map logical_port="GRX_P" physical_port="sfpdd2_rxp1" dir="in">
-              <pin_maps>
-                <pin_map port_index="0" component_pin="SFPDD2_RX1_P"/>
-              </pin_maps>
-            </port_map>
-          </port_maps>
-          <parameters>
-            <parameter name="gt_loc" value="" />
-          </parameters>
-        </interface>
+    		<interface mode="master" name="qsfp_2x" type="xilinx.com:interface:gt_rtl:1.0" of_component="qsfp" preset_proc="qsfp0_2x_preset">
+    		<description>2-lane GT interface over QSFP</description>
+    		<preferred_ips>
+    			<preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
+    			<preferred_ip vendor="xilinx.com" library="ip" name="usxgmii" order="1"/>
+    			<preferred_ip vendor="xilinx.com" library="ip" name="l_ethernet" order="2"/>
+        	</preferred_ips>
+    		<port_maps>
+                <port_map logical_port="GTX_N" physical_port="qsfp0_txn2" dir="out" left="1" right="0">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="qsfp0_TX_N0"/>
+                    <pin_map port_index="1" component_pin="qsfp0_TX_N1"/>
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="GTX_P" physical_port="qsfp0_txp2" dir="out" left="1" right="0">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="qsfp0_TX_P0"/>
+                    <pin_map port_index="1" component_pin="qsfp0_TX_P1"/>
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="GRX_N" physical_port="qsfp0_rxn2" dir="in" left="1" right="0">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="qsfp0_RX_N0"/>
+                    <pin_map port_index="1" component_pin="qsfp0_RX_N1"/>
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="GRX_P" physical_port="qsfp0_rxp2" dir="in" left="1" right="0">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="qsfp0_RX_P0"/>
+                    <pin_map port_index="1" component_pin="qsfp0_RX_P1"/>
+                  </pin_maps>
+                </port_map>
+              </port_maps>
+              <parameters>
+                <parameter name="gt_loc" value="" />
+              </parameters>
+            </interface>
 
-		<interface mode="master" name="sfpdd1_2x" type="xilinx.com:interface:gt_rtl:1.0" of_component="sfpdd" preset_proc="sfpdd1_2x_preset">
-		<description>2-lane GT interface over SFPDD1</description>
-		<preferred_ips>
-			<preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
-    	</preferred_ips>
-		<port_maps>
-            <port_map logical_port="GTX_N" physical_port="sfpdd1_txn2" dir="out" left="1" right="0">
-              <pin_maps>
-                <pin_map port_index="0" component_pin="SFPDD1_TX1_N"/>
-                <pin_map port_index="1" component_pin="SFPDD1_TX2_N"/>
-              </pin_maps>
-            </port_map>
-            <port_map logical_port="GTX_P" physical_port="sfpdd1_txp2" dir="out" left="1" right="0">
-              <pin_maps>
-                <pin_map port_index="0" component_pin="SFPDD1_TX1_P"/>
-                <pin_map port_index="1" component_pin="SFPDD1_TX2_P"/>
-              </pin_maps>
-            </port_map>
-            <port_map logical_port="GRX_N" physical_port="sfpdd1_rxn2" dir="in" left="1" right="0">
-              <pin_maps>
-                <pin_map port_index="0" component_pin="SFPDD1_RX1_N"/>
-                <pin_map port_index="1" component_pin="SFPDD1_RX2_N"/>
-              </pin_maps>
-            </port_map>
-            <port_map logical_port="GRX_P" physical_port="sfpdd1_rxp2" dir="in" left="1" right="0">
-              <pin_maps>
-                <pin_map port_index="0" component_pin="SFPDD1_RX1_P"/>
-                <pin_map port_index="1" component_pin="SFPDD1_RX2_P"/>
-              </pin_maps>
-            </port_map>
-          </port_maps>
-          <parameters>
-            <parameter name="gt_loc" value="" />
-          </parameters>
-        </interface>
+    		<interface mode="master" name="qsfp_3x" type="xilinx.com:interface:gt_rtl:1.0" of_component="qsfp" preset_proc="qsfp0_3x_preset">
+    		<description>3-lane GT interface over QSFP</description>
+    		<preferred_ips>
+    			<preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
+    			<preferred_ip vendor="xilinx.com" library="ip" name="usxgmii" order="1"/>
+    		</preferred_ips>
+    		<port_maps>
+                <port_map logical_port="GTX_N" physical_port="qsfp0_txn3" dir="out" left="2" right="0">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="qsfp0_TX_N0"/>
+                    <pin_map port_index="1" component_pin="qsfp0_TX_N1"/>
+                    <pin_map port_index="2" component_pin="qsfp0_TX_N2"/>
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="GTX_P" physical_port="qsfp0_txp3" dir="out" left="2" right="0">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="qsfp0_TX_P0"/>
+                    <pin_map port_index="1" component_pin="qsfp0_TX_P1"/>
+                    <pin_map port_index="2" component_pin="qsfp0_TX_P2"/>
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="GRX_N" physical_port="qsfp0_rxn3" dir="in" left="2" right="0">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="qsfp0_RX_N0"/>
+                    <pin_map port_index="1" component_pin="qsfp0_RX_N1"/>
+                    <pin_map port_index="2" component_pin="qsfp0_RX_N2"/>
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="GRX_P" physical_port="qsfp0_rxp3" dir="in" left="2" right="0">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="qsfp0_RX_P0"/>
+                    <pin_map port_index="1" component_pin="qsfp0_RX_P1"/>
+                    <pin_map port_index="2" component_pin="qsfp0_RX_P2"/>
+                  </pin_maps>
+                </port_map>
+              </port_maps>
+              <parameters>
+                <parameter name="gt_loc" value="" />
+              </parameters>
+            </interface>
 
-		<interface mode="master" name="sfpdd2_2x" type="xilinx.com:interface:gt_rtl:1.0" of_component="sfpdd" preset_proc="sfpdd2_2x_preset">
-		<description>2-lane GT interface over SFPDD2</description>
-		<preferred_ips>
-			<preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
-    	</preferred_ips>
-		<port_maps>
-            <port_map logical_port="GTX_N" physical_port="sfpdd2_txn2" dir="out" left="1" right="0">
-              <pin_maps>
-                <pin_map port_index="0" component_pin="SFPDD2_TX1_N"/>
-                <pin_map port_index="1" component_pin="SFPDD2_TX2_N"/>
-              </pin_maps>
-            </port_map>
-            <port_map logical_port="GTX_P" physical_port="sfpdd2_txp2" dir="out" left="1" right="0">
-              <pin_maps>
-                <pin_map port_index="0" component_pin="SFPDD2_TX1_P"/>
-                <pin_map port_index="1" component_pin="SFPDD2_TX2_P"/>
-              </pin_maps>
-            </port_map>
-            <port_map logical_port="GRX_N" physical_port="sfpdd2_rxn2" dir="in" left="1" right="0">
-              <pin_maps>
-                <pin_map port_index="0" component_pin="SFPDD2_RX1_N"/>
-                <pin_map port_index="1" component_pin="SFPDD2_RX2_N"/>
-              </pin_maps>
-            </port_map>
-            <port_map logical_port="GRX_P" physical_port="sfpdd2_rxp2" dir="in" left="1" right="0">
-              <pin_maps>
-                <pin_map port_index="0" component_pin="SFPDD2_RX1_P"/>
-                <pin_map port_index="1" component_pin="SFPDD2_RX2_P"/>
-              </pin_maps>
-            </port_map>
-          </port_maps>
-          <parameters>
-            <parameter name="gt_loc" value="" />
-          </parameters>
-        </interface>
+    		<interface mode="master" name="qsfp_4x" type="xilinx.com:interface:gt_rtl:1.0" of_component="qsfp" preset_proc="qsfp0_4x_preset">
+    		<description>4-lane GT interface over QSFP</description>
+    		<preferred_ips>
+    			<preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
+    			<preferred_ip vendor="xilinx.com" library="ip" name="usxgmii" order="1"/>
+    			<preferred_ip vendor="xilinx.com" library="ip" name="l_ethernet" order="2"/>
+    			<preferred_ip vendor="xilinx.com" library="ip" name="cmac_usplus" order="3"/>
+    		</preferred_ips>
+    		<port_maps>
+                <port_map logical_port="GTX_N" physical_port="qsfp0_txn4" dir="out" left="3" right="0">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="qsfp0_TX_N0"/>
+                    <pin_map port_index="1" component_pin="qsfp0_TX_N1"/>
+                    <pin_map port_index="2" component_pin="qsfp0_TX_N2"/>
+                    <pin_map port_index="3" component_pin="qsfp0_TX_N3"/>
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="GTX_P" physical_port="qsfp0_txp4" dir="out" left="3" right="0">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="qsfp0_TX_P0"/>
+                    <pin_map port_index="1" component_pin="qsfp0_TX_P1"/>
+                    <pin_map port_index="2" component_pin="qsfp0_TX_P2"/>
+                    <pin_map port_index="3" component_pin="qsfp0_TX_P3"/>
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="GRX_N" physical_port="qsfp0_rxn4" dir="in" left="3" right="0">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="qsfp0_RX_N0"/>
+                    <pin_map port_index="1" component_pin="qsfp0_RX_N1"/>
+                    <pin_map port_index="2" component_pin="qsfp0_RX_N2"/>
+                    <pin_map port_index="3" component_pin="qsfp0_RX_N3"/>
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="GRX_P" physical_port="qsfp0_rxp4" dir="in" left="3" right="0">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="qsfp0_RX_P0"/>
+                    <pin_map port_index="1" component_pin="qsfp0_RX_P1"/>
+                    <pin_map port_index="2" component_pin="qsfp0_RX_P2"/>
+                    <pin_map port_index="3" component_pin="qsfp0_RX_P3"/>
+                  </pin_maps>
+                </port_map>
+              </port_maps>
+              <parameters>
+                <parameter name="gt_loc" value="" />
+              </parameters>
+            </interface>
 
-		<interface mode="master" name="sfpdd1_1x_sfpdd2_1x" type="xilinx.com:interface:gt_rtl:1.0" of_component="sfpdd" preset_proc="sfpdd1_1x_sfpdd2_1x_preset">
-		<description>2-lane GT interface over SFPDD1 and SFPDD2</description>
-		<preferred_ips>
-			<preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
-		</preferred_ips>
-		<port_maps>
-            <port_map logical_port="GTX_N" physical_port="sfpdd_txn1" dir="out" left="1" right="0">
-              <pin_maps>
-                <pin_map port_index="0" component_pin="SFPDD1_TX1_N"/>
-                <pin_map port_index="1" component_pin="SFPDD2_TX1_N"/>
-              </pin_maps>
-            </port_map>
-            <port_map logical_port="GTX_P" physical_port="sfpdd1_txp1" dir="out" left="1" right="0">
-              <pin_maps>
-                <pin_map port_index="0" component_pin="SFPDD1_TX1_P"/>
-                <pin_map port_index="1" component_pin="SFPDD2_TX1_P"/>
-              </pin_maps>
-            </port_map>
-            <port_map logical_port="GRX_N" physical_port="sfpdd1_rxn1" dir="in" left="1" right="0">
-              <pin_maps>
-                <pin_map port_index="0" component_pin="SFPDD1_RX1_N"/>
-                <pin_map port_index="1" component_pin="SFPDD2_RX1_N"/>
-              </pin_maps>
-            </port_map>
-            <port_map logical_port="GRX_P" physical_port="sfpdd1_rxp1" dir="in" left="1" right="0">
-              <pin_maps>
-                <pin_map port_index="0" component_pin="SFPDD1_RX1_P"/>
-                <pin_map port_index="1" component_pin="SFPDD2_RX1_P"/>
-              </pin_maps>
-            </port_map>
-          </port_maps>
-          <parameters>
-            <parameter name="gt_loc" value="" />
-          </parameters>
-        </interface>
-
-		<interface mode="master" name="sfpdd1_2x_sfpdd2_2x" type="xilinx.com:interface:gt_rtl:1.0" of_component="sfpdd" preset_proc="sfpdd1_2x_sfpdd2_2x_preset">
-		<description>4-lane GT interface over SFPDD1 and SFPDD2</description>
-		<preferred_ips>
-			<preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
-		</preferred_ips>
-		<port_maps>
-            <port_map logical_port="GTX_N" physical_port="sfpdd_txn1" dir="out" left="3" right="0">
-              <pin_maps>
-                <pin_map port_index="0" component_pin="SFPDD1_TX1_N"/>
-                <pin_map port_index="1" component_pin="SFPDD1_TX2_N"/>
-                <pin_map port_index="2" component_pin="SFPDD2_TX1_N"/>
-                <pin_map port_index="3" component_pin="SFPDD2_TX2_N"/>
-              </pin_maps>
-            </port_map>
-            <port_map logical_port="GTX_P" physical_port="sfpdd1_txp1" dir="out" left="3" right="0">
-              <pin_maps>
-                <pin_map port_index="0" component_pin="SFPDD1_TX1_P"/>
-                <pin_map port_index="1" component_pin="SFPDD1_TX2_P"/>
-                <pin_map port_index="2" component_pin="SFPDD2_TX1_P"/>
-                <pin_map port_index="3" component_pin="SFPDD2_TX2_P"/>
-              </pin_maps>
-            </port_map>
-            <port_map logical_port="GRX_N" physical_port="sfpdd1_rxn1" dir="in" left="3" right="0">
-              <pin_maps>
-                <pin_map port_index="0" component_pin="SFPDD1_RX1_N"/>
-                <pin_map port_index="1" component_pin="SFPDD1_RX2_N"/>
-                <pin_map port_index="2" component_pin="SFPDD2_RX1_N"/>
-                <pin_map port_index="3" component_pin="SFPDD2_RX2_N"/>
-              </pin_maps>
-            </port_map>
-            <port_map logical_port="GRX_P" physical_port="sfpdd1_rxp1" dir="in" left="3" right="0">
-              <pin_maps>
-                <pin_map port_index="0" component_pin="SFPDD1_RX1_P"/>
-                <pin_map port_index="1" component_pin="SFPDD1_RX2_P"/>
-                <pin_map port_index="2" component_pin="SFPDD2_RX1_P"/>
-                <pin_map port_index="3" component_pin="SFPDD2_RX2_P"/>
-              </pin_maps>
-            </port_map>
-          </port_maps>
-          <parameters>
-            <parameter name="gt_loc" value="" />
-          </parameters>
-        </interface>
 
     </interfaces>
 
@@ -810,7 +754,7 @@
       <description>I2C to SI5394</description>
     </component>
 
-	<component name="sfpdd_refclk0" display_name="SFP-DD reference differential clock input 0" type="chip" sub_type="system_clock" major_group="High Speed Tranceivers" part_name="SI5394" vendor="Silicon Labs" spec_url="www.silabs.com">
+	<component name="qsfp_refclk0" display_name="QSFP reference differential clock input 0" type="chip" sub_type="system_clock" major_group="High Speed Tranceivers" part_name="SI5394" vendor="Silicon Labs" spec_url="www.silabs.com">
       <description>1.2V LVDS differential 161 MHz oscillator used as a GT reference clock on the board</description>
       <parameters>
         <parameter name="frequency" value="161132812"/>
@@ -820,7 +764,7 @@
       </preferred_ips>
     </component>
 
-	<component name="sfpdd_refclk1" display_name="SFP-DD reference differential clock input 1" type="chip" sub_type="system_clock" major_group="High Speed Tranceivers" part_name="SI5394" vendor="Silicon Labs" spec_url="www.silabs.com">
+	<component name="qsfp_refclk1" display_name="QSFP reference differential clock input 1" type="chip" sub_type="system_clock" major_group="High Speed Tranceivers" part_name="SI5394" vendor="Silicon Labs" spec_url="www.silabs.com">
       <description>1.2V LVDS differential 322 MHz oscillator used as a GT reference clock on the board</description>
       <parameters>
         <parameter name="frequency" value="322265625"/>
@@ -933,66 +877,109 @@
 
     </component>
 
-    <component name="sfpdd" display_name="SFP-DD Connector 1 and 2" type="chip" sub_type="sfp" major_group="High Speed Tranceivers" part_name="2047300000" vendor="MOLEX" spec_url="www.molex.com">
-      <description>SFP-DD Connector 1 and 2</description>
+    <component name="qsfp" display_name="QSFP Connector" type="chip" sub_type="sfp" major_group="High Speed Tranceivers" part_name="M88E1111_BAB1C000" vendor="Marvell" spec_url="www.marvell.com">
+          <description>QSFP Connector 0</description>
 
-	  <component_modes>
-        <component_mode name="sfpdd1_1x" display_name="sfpdd1_1x">
-		  <interfaces>
-				<interface name="sfpdd1_1x"/>
-		   </interfaces>
-          <preferred_ips>
-			<preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
-          </preferred_ips>
-        </component_mode>
+    	  <component_modes>
 
-    	<component_mode name="sfpdd2_1x" display_name="sfpdd2_1x">
-		  <interfaces>
-				<interface name="sfpdd2_1x"/>
-          </interfaces>
-          <preferred_ips>
-			<preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
-          </preferred_ips>
-        </component_mode>
+            <component_mode name="qsfp_1x_161" display_name="qsfp_1x_161">
+    		  <interfaces>
+    				<interface name="qsfp_1x"/>
+    				<interface name="qsfp_refclk0" optional="true"/>
+    		   </interfaces>
+              <preferred_ips>
+    			<preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
+        		<preferred_ip vendor="xilinx.com" library="ip" name="usxgmii" order="1"/>
+              </preferred_ips>
+            </component_mode>
 
-	    <component_mode name="sfpdd1_2x" display_name="sfpdd1_2x">
-          <interfaces>
-				<interface name="sfpdd1_2x"/>
-          </interfaces>
-          <preferred_ips>
-			<preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
-          </preferred_ips>
-        </component_mode>
+        	<component_mode name="qsfp_2x_161" display_name="qsfp_2x_161">
+    		  <interfaces>
+    				<interface name="qsfp_2x"/>
+      				<interface name="qsfp_refclk0" optional="true"/>
+              </interfaces>
+              <preferred_ips>
+    			<preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
+        		<preferred_ip vendor="xilinx.com" library="ip" name="usxgmii" order="1"/>
+    			<preferred_ip vendor="xilinx.com" library="ip" name="l_ethernet" order="1"/>
+              </preferred_ips>
+            </component_mode>
 
-	    <component_mode name="sfpdd2_2x" display_name="sfpdd2_2x">
-          <interfaces>
-				<interface name="sfpdd2_2x"/>
-          </interfaces>
-          <preferred_ips>
-			<preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
-          </preferred_ips>
-        </component_mode>
+    	    <component_mode name="qsfp_3x_161" display_name="qsfp_3x_161">
+              <interfaces>
+    				<interface name="qsfp_3x"/>
+    				<interface name="qsfp_refclk0" optional="true"/>
+              </interfaces>
+              <preferred_ips>
+    			<preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
+        		<preferred_ip vendor="xilinx.com" library="ip" name="usxgmii" order="1"/>
+              </preferred_ips>
+            </component_mode>
 
-		<component_mode name="sfpdd1_1x_sfpdd2_1x" display_name="sfpdd1_1x_sfpdd2_1x">
-          <interfaces>
-				<interface name="sfpdd1_1x_sfpdd2_1x"/>
-          </interfaces>
-          <preferred_ips>
-			<preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
-          </preferred_ips>
-        </component_mode>
+    		<component_mode name="qsfp_4x_161" display_name="qsfp_4x_161">
+              <interfaces>
+    				<interface name="qsfp_4x"/>
+    				<interface name="qsfp_refclk0" optional="true"/>
+              </interfaces>
+              <preferred_ips>
+    			<preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
+        		<preferred_ip vendor="xilinx.com" library="ip" name="usxgmii" order="1"/>
+    			<preferred_ip vendor="xilinx.com" library="ip" name="l_ethernet" order="1"/>
+    			<preferred_ip vendor="xilinx.com" library="ip" name="cmac_usplus" order="2"/>
+              </preferred_ips>
+            </component_mode>
 
-		<component_mode name="sfpdd1_2x_sfpdd2_2x" display_name="sfpdd1_2x_sfpdd2_2x">
-          <interfaces>
-				<interface name="sfpdd1_2x_sfpdd2_2x"/>
-          </interfaces>
-          <preferred_ips>
-			<preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
-          </preferred_ips>
-        </component_mode>
 
-    </component_modes>
-    </component>
+            <component_mode name="qsfp_1x_322" display_name="qsfp_1x_322">
+    		  <interfaces>
+    				<interface name="qsfp_1x"/>
+    				<interface name="qsfp_refclk1" optional="true"/>
+    		   </interfaces>
+              <preferred_ips>
+    			<preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
+        		<preferred_ip vendor="xilinx.com" library="ip" name="usxgmii" order="1"/>
+              </preferred_ips>
+            </component_mode>
+
+        	<component_mode name="qsfp_2x_322" display_name="qsfp_2x_322">
+    		  <interfaces>
+    				<interface name="qsfp_2x"/>
+      				<interface name="qsfp_refclk1" optional="true"/>
+              </interfaces>
+              <preferred_ips>
+    			<preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
+        		<preferred_ip vendor="xilinx.com" library="ip" name="usxgmii" order="1"/>
+    			<preferred_ip vendor="xilinx.com" library="ip" name="l_ethernet" order="1"/>
+              </preferred_ips>
+            </component_mode>
+
+    	    <component_mode name="qsfp_3x_322" display_name="qsfp_3x_322">
+              <interfaces>
+    				<interface name="qsfp_3x"/>
+    				<interface name="qsfp_refclk1" optional="true"/>
+              </interfaces>
+              <preferred_ips>
+    			<preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
+        		<preferred_ip vendor="xilinx.com" library="ip" name="usxgmii" order="1"/>
+              </preferred_ips>
+            </component_mode>
+
+    		<component_mode name="qsfp_4x_322" display_name="qsfp_4x_322">
+              <interfaces>
+    				<interface name="qsfp_4x"/>
+    				<interface name="qsfp_refclk1" optional="true"/>
+              </interfaces>
+              <preferred_ips>
+    			<preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
+        		<preferred_ip vendor="xilinx.com" library="ip" name="usxgmii" order="1"/>
+    			<preferred_ip vendor="xilinx.com" library="ip" name="l_ethernet" order="1"/>
+    			<preferred_ip vendor="xilinx.com" library="ip" name="cmac_usplus" order="2"/>
+              </preferred_ips>
+            </component_mode>
+
+
+        </component_modes>
+        </component>
 
  </components>
 
@@ -1035,12 +1022,12 @@
       <connection_map name="part0_iic_si5394" typical_delay="5" c1_st_index="100" c1_end_index="101" c2_st_index="0" c2_end_index="1"/>
     </connection>
 
-	 <connection name="part0_sfpdd_refclk0" component1="part0" component2="sfpdd_refclk0">
-      <connection_map name="part0_sfpdd_refclk0" typical_delay="5" c1_st_index="104" c1_end_index="105" c2_st_index="0" c2_end_index="1"/>
+	 <connection name="part0_qsfp_refclk0" component1="part0" component2="qsfp_refclk0">
+      <connection_map name="part0_qsfp_refclk0" typical_delay="5" c1_st_index="104" c1_end_index="105" c2_st_index="0" c2_end_index="1"/>
     </connection>
 
-	 <connection name="part0_sfpdd_refclk1" component1="part0" component2="sfpdd_refclk1">
-      <connection_map name="part0_sfpdd_refclk1" typical_delay="5" c1_st_index="106" c1_end_index="107" c2_st_index="0" c2_end_index="1"/>
+	 <connection name="part0_qsfp_refclk1" component1="part0" component2="qsfp_refclk1">
+      <connection_map name="part0_qsfp_refclk1" typical_delay="5" c1_st_index="106" c1_end_index="107" c2_st_index="0" c2_end_index="1"/>
     </connection>
 
 	 <connection name="part0_cmc_clk_100MHZ" component1="part0" component2="cmc_clk">
@@ -1059,7 +1046,7 @@
       <connection_map name="part0_pcie_express_1" c1_st_index="702" c1_end_index="765" c2_st_index="0" c2_end_index="63"/>
     </connection>
 
-	<connection name="part0_sfpdd_gt" component1="part0" component2="sfpdd">
+	<connection name="part0_qsfp_gt" component1="part0" component2="qsfp">
       <connection_map name="part0_sfpdd_gt" typical_delay="5" c1_st_index="800" c1_end_index="815" c2_st_index="0" c2_end_index="15"/>
     </connection>
 
@@ -1102,21 +1089,75 @@
           </associated_board_interfaces>
        </ip>
 
-	   <ip vendor="xilinx.com" library="ip" name="xxv_ethernet" version="*" ip_interface="gt_serial_port">
+     <ip vendor="xilinx.com" library="ip" name="xxv_ethernet" version="*" ip_interface="gt_serial_port">
           <associated_board_interfaces>
-			<associated_board_interface name="sfpdd1_1x" order="0"/>
-            <associated_board_interface name="sfpdd2_1x" order="1"/>
-            <associated_board_interface name="sfpdd1_2x" order="2"/>
-            <associated_board_interface name="sfpdd2_2x" order="3"/>
-            <associated_board_interface name="sfpdd1_1x_sfpdd2_1x" order="4"/>
-            <associated_board_interface name="sfpdd1_2x_sfpdd2_2x" order="5"/>
+            <associated_board_interface name="qsfp_1x" order="0"/>
+            <associated_board_interface name="qsfp_2x" order="1"/>
+            <associated_board_interface name="qsfp_3x" order="2"/>
+            <associated_board_interface name="qsfp_4x" order="3"/>
+
+          </associated_board_interfaces>
+       </ip>
+
+
+	  <ip vendor="xilinx.com" library="ip" name="usxgmii" version="*" ip_interface="gt_serial_port">
+          <associated_board_interfaces>
+			      <associated_board_interface name="qsfp_1x" order="0"/>
+            <associated_board_interface name="qsfp_2x" order="1"/>
+            <associated_board_interface name="qsfp_3x" order="2"/>
+            <associated_board_interface name="qsfp_4x" order="3"/>
+
+          </associated_board_interfaces>
+       </ip>
+
+
+
+	  <ip vendor="xilinx.com" library="ip" name="l_ethernet" version="*" ip_interface="gt_serial_port">
+          <associated_board_interfaces>
+             <associated_board_interface name="qsfp_2x" order="0"/>
+			       <associated_board_interface name="qsfp_4x" order="1"/>
+
+          </associated_board_interfaces>
+       </ip>
+
+
+
+	  <ip vendor="xilinx.com" library="ip" name="cmac_usplus" version="*" ip_interface="gt_serial_port">
+          <associated_board_interfaces>
+			       <associated_board_interface name="qsfp_4x" order="0"/>
           </associated_board_interfaces>
       </ip>
 
-      <ip vendor="xilinx.com" library="ip" name="xxv_ethernet" version="*" ip_interface="gt_ref_clk">
+
+		<ip vendor="xilinx.com" library="ip" name="xxv_ethernet" version="*" ip_interface="gt_ref_clk">
           <associated_board_interfaces>
-             <associated_board_interface name="sfpdd_refclk0" order="0"/>
-             <associated_board_interface name="sfpdd_refclk1" order="1"/>
+             <associated_board_interface name="qsfp_refclk0" order="0"/>
+             <associated_board_interface name="qsfp_refclk1" order="1"/>
+          </associated_board_interfaces>
+       </ip>
+
+
+		<ip vendor="xilinx.com" library="ip" name="usxgmii" version="*" ip_interface="gt_ref_clk">
+          <associated_board_interfaces>
+             <associated_board_interface name="qsfp_refclk0" order="0"/>
+             <associated_board_interface name="qsfp_refclk1" order="1"/>
+          </associated_board_interfaces>
+       </ip>
+
+
+		<ip vendor="xilinx.com" library="ip" name="l_ethernet" version="*" ip_interface="gt_ref_clk">
+          <associated_board_interfaces>
+             <associated_board_interface name="qsfp_refclk0" order="0"/>
+             <associated_board_interface name="qsfp_refclk1" order="1"/>
+          </associated_board_interfaces>
+       </ip>
+
+
+
+	   <ip vendor="xilinx.com" library="ip" name="cmac_usplus" version="*" ip_interface="gt_ref_clk">
+          <associated_board_interfaces>
+             <associated_board_interface name="qsfp_refclk0" order="0"/>
+             <associated_board_interface name="qsfp_refclk1" order="1"/>
           </associated_board_interfaces>
       </ip>
 
