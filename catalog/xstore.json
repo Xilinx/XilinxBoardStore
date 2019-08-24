@@ -1,6 +1,6 @@
 {
    "catalog": {
-       "current_branch": "2019.1.2",
+       "current_branch": "2019.1.3",
        "supported_products": [    
         {
           "product_name": "vivado",
@@ -33,6 +33,11 @@
             {
               "version": "2019.1.2",
               "xitem_catalogue_file": "catalog/vivado_2019.1.2.json",
+              "remote_repo_branch_to_sync": "2019.1.2"
+            },
+            {
+              "version": "2019.1.3",
+              "xitem_catalogue_file": "catalog/vivado_2019.1.3.json",
               "remote_repo_branch_to_sync": "2019.1.2"
             },
             {
