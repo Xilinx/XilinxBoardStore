@@ -196,7 +196,7 @@
 				<user_parameter name="CONFIG.CONTROLLERTYPE" value="DDR4_SDRAM"/>  
 				<user_parameter name="CONFIG.MC_NO_CHANNELS" value="Single"/>  
 				<user_parameter name="CONFIG.MC_SYSTEM_CLOCK" value="Differential"/>  
-			    <user_parameter name="CONFIG.NUM_MC" value="4"/>  
+			    <!-- <user_parameter name="CONFIG.NUM_MC" value="4"/>   -->
 				<user_parameter name="CONFIG.MC_MEMORY_SPEEDGRADE" value="DDR4-3200AA(22-22-22)"/>	
 				<user_parameter name="CONFIG.MC_COMPONENT_WIDTH" value="x16"/> 
 				<user_parameter name="CONFIG.MC_DATAWIDTH" value="64"/>  
