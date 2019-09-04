@@ -1977,7 +1977,26 @@
         }, 
         "company": "xilinx.com"
       }, 
-    {
+       {
+        "name": "vcu128", 
+        "display": "Virtex Ultrascale+ HBM VCU128 Evaluation Platform", 
+        "latest_revision": "1.0", 
+        "commit_id": "f2f9f51215c189e4fb2e66dcb014053af3f829ba", 
+        "revisions": [
+          {
+            "revision": "1.0", 
+            "commit_id": "f2f9f51215c189e4fb2e66dcb014053af3f829ba", 
+            "date": "04-09-2019", 
+            "history": "Add vcu128 Evaluation Platform Board Files"
+          }
+        ], 
+        "config": {
+          "root": "boards/Xilinx/vcu128/production/1.0", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
+      }, 	    
+      {
         "name": "vcu129", 
         "display": "Virtex Ultrascale+ 56G VCU129 Evaluation Platform", 
         "latest_revision": "1.0", 
