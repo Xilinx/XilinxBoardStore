@@ -2399,11 +2399,11 @@
         "name": "zcu111", 
         "display": "Zynq UltraScale+ ZCU111 Evaluation Platform", 
         "latest_revision": "1.2", 
-        "commit_id": "c0944700b73787b72133d87b7519934741cda4ee", 
+        "commit_id": "b1286e924706c006690a50cf0229ea1f08f316af", 
         "revisions": [
           {
             "revision": "1.2", 
-            "commit_id": "c0944700b73787b72133d87b7519934741cda4ee", 
+            "commit_id": "b1286e924706c006690a50cf0229ea1f08f316af", 
             "date": "28-05-2019:11:04:52", 
             "history": "Migrating 7 series latest board files from perforce to git"
           }
