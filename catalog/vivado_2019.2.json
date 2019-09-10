@@ -2532,11 +2532,11 @@
         "name": "vck190_es", 
         "display": "Versal VCK190 ES1 Evaluation Platform", 
         "latest_revision": "1.0", 
-        "commit_id": "5089d6775df2184a82303b7ff8555f93d52cb408", 
+        "commit_id": "c865e0c5bb43f12b82e814ddb87bc4efae2bcdf8", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "5089d6775df2184a82303b7ff8555f93d52cb408", 
+            "commit_id": "c865e0c5bb43f12b82e814ddb87bc4efae2bcdf8", 
             "date": "09-09-2019:20:07:54", 
             "history": "Adding vck190 board support"
           }
