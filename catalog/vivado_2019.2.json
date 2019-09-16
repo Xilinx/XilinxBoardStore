@@ -2076,12 +2076,12 @@
         "name": "kcu105", 
         "display": "Kintex-UltraScale KCU105 Evaluation Platform", 
         "latest_revision": "1.6", 
-        "commit_id": "c0944700b73787b72133d87b7519934741cda4ee", 
+        "commit_id": "1bc62be086a8d3b4b8b07ac87e84f85e291ab036", 
         "revisions": [
           {
             "revision": "1.6", 
-            "commit_id": "c0944700b73787b72133d87b7519934741cda4ee", 
-            "date": "28-05-2019:11:01:11", 
+            "commit_id": "1bc62be086a8d3b4b8b07ac87e84f85e291ab036", 
+            "date": "16-09-2019:11:01:11", 
             "history": "Migrating 7 series latest board files from perforce to git"
           }
         ], 
