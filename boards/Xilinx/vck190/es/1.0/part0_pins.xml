@@ -343,7 +343,7 @@
     <pin index="529"  name ="lpddr4_2_dq29"      loc="AM29"/>
     <pin index="530"  name ="lpddr4_2_dq30"      loc="AN25"/>
     <pin index="531"  name ="lpddr4_2_dq31"      loc="AP25"/>
-    <pin index="532"  name ="lpddr4_2_dqs0_c"    loc="BD31"/>
+    <pin index="532"  name ="lpddr4_2_dqs0_c"    loc="BD32"/>
     <pin index="533"  name ="lpddr4_2_dqs0_t"    loc="BE31"/>
     <pin index="534"  name ="lpddr4_2_dqs1_c"    loc="AU27"/>
     <pin index="535"  name ="lpddr4_2_dqs1_t"    loc="AV26"/>
@@ -437,7 +437,7 @@
     <pin index="622"  name ="lpddr4_3_cs_b1"      loc="BG38" />
     <pin index="623"  name ="lpddr4_3_cka_t"      loc="AR36" />	
     <pin index="624"  name ="lpddr4_3_ckb_t"      loc="BD37" />	
-    <pin index="625"  name ="lpddr4_3_cka_c"      loc="AR37" />	
+    <pin index="625"  name ="lpddr4_3_cka_c"      loc="AP37" />	
     <pin index="626"  name ="lpddr4_3_ckb_c"      loc="BC37" />
     <pin index="627"  name ="lpddr4_3_cke_a"      loc="AP38" />	
     <pin index="628"  name ="lpddr4_3_cke_b"      loc="BD38" />	
