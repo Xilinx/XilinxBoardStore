@@ -63,8 +63,8 @@
 
     <pin index="47" name ="CPU_RESET" iostandard="LVCMOS18" loc="AN8"/>
 
-    <pin index="48" name ="sysclk_300_p" iostandard="LVDS" loc="AK17" odt="RTT_48"/>
-    <pin index="49" name ="sysclk_300_n" iostandard="LVDS" loc="AK16" odt="RTT_48"/>
+    <pin index="48" name ="sysclk_300_p" iostandard="LVDS" loc="AK17" />
+    <pin index="49" name ="sysclk_300_n" iostandard="LVDS" loc="AK16" />
 
     <pin index="50" name ="SGMIICLK_P" iostandard="LVDS_25" loc="P26"/>
     <pin index="51" name ="SGMIICLK_N" iostandard="LVDS_25" loc="N26"/>
