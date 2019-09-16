@@ -1465,44 +1465,6 @@
         "company": "trenz.biz"
       }, 
       {
-        "name": "te0807_es2", 
-        "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-07EV-1E-ES2. SPRT PCB: REV01.", 
-        "latest_revision": "1.0", 
-        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797", 
-        "revisions": [
-          {
-            "revision": "1.0", 
-            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797", 
-            "date": "28-09-2018:16:20:15", 
-            "history": "Add Trenz Electronic Board Files"
-          }
-        ], 
-        "config": {
-          "root": "boards/Trenz_Electronic/TE0807_ES2/1.0", 
-          "metadata_file": "xitem.json"
-        }, 
-        "company": "trenz.biz"
-      }, 
-      {
-        "name": "te0807_es2_tebf0808", 
-        "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-07EV-1E-ES2 with TEBF0808. SPRT PCB: REV01.", 
-        "latest_revision": "2.0", 
-        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797", 
-        "revisions": [
-          {
-            "revision": "2.0", 
-            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797", 
-            "date": "28-09-2018:16:20:15", 
-            "history": "Add Trenz Electronic Board Files"
-          }
-        ], 
-        "config": {
-          "root": "boards/Trenz_Electronic/TE0807_ES2/2.0", 
-          "metadata_file": "xitem.json"
-        }, 
-        "company": "trenz.biz"
-      }, 
-      {
         "name": "te0808_15eg_1e", 
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-15EG-1E(B,E: 4GB DDR). SPRT PCB: REV04.", 
         "latest_revision": "3.0", 
@@ -1536,44 +1498,6 @@
         ], 
         "config": {
           "root": "boards/Trenz_Electronic/TE0808_15EG_1E/4.0", 
-          "metadata_file": "xitem.json"
-        }, 
-        "company": "trenz.biz"
-      }, 
-      {
-        "name": "te0808_2es2", 
-        "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-2ES2. SPRT PCB: REV03,REV04.", 
-        "latest_revision": "1.0", 
-        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797", 
-        "revisions": [
-          {
-            "revision": "1.0", 
-            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797", 
-            "date": "28-09-2018:16:20:15", 
-            "history": "Add Trenz Electronic Board Files"
-          }
-        ], 
-        "config": {
-          "root": "boards/Trenz_Electronic/TE0808_2ES2/1.0", 
-          "metadata_file": "xitem.json"
-        }, 
-        "company": "trenz.biz"
-      }, 
-      {
-        "name": "te0808_2es2_tebf0808", 
-        "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-2ES2 with TEBF0808. SPRT Module PCB: REV03,REV04.", 
-        "latest_revision": "2.0", 
-        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797", 
-        "revisions": [
-          {
-            "revision": "2.0", 
-            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797", 
-            "date": "28-09-2018:16:20:15", 
-            "history": "Add Trenz Electronic Board Files"
-          }
-        ], 
-        "config": {
-          "root": "boards/Trenz_Electronic/TE0808_2ES2/2.0", 
           "metadata_file": "xitem.json"
         }, 
         "company": "trenz.biz"
@@ -1726,44 +1650,6 @@
         ], 
         "config": {
           "root": "boards/Trenz_Electronic/TE0808_9EG_2I/4.0", 
-          "metadata_file": "xitem.json"
-        }, 
-        "company": "trenz.biz"
-      }, 
-      {
-        "name": "te0808_es2", 
-        "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-ES2. SPRT PCB: REV03,REV04.", 
-        "latest_revision": "1.0", 
-        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797", 
-        "revisions": [
-          {
-            "revision": "1.0", 
-            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797", 
-            "date": "28-09-2018:16:20:15", 
-            "history": "Add Trenz Electronic Board Files"
-          }
-        ], 
-        "config": {
-          "root": "boards/Trenz_Electronic/TE0808_ES2/1.0", 
-          "metadata_file": "xitem.json"
-        }, 
-        "company": "trenz.biz"
-      }, 
-      {
-        "name": "te0808_es2_tebf0808", 
-        "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-ES2 with TEBF0808. SPRT Module PCB: REV03,REV04.", 
-        "latest_revision": "2.0", 
-        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797", 
-        "revisions": [
-          {
-            "revision": "2.0", 
-            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797", 
-            "date": "28-09-2018:16:20:15", 
-            "history": "Add Trenz Electronic Board Files"
-          }
-        ], 
-        "config": {
-          "root": "boards/Trenz_Electronic/TE0808_ES2/2.0", 
           "metadata_file": "xitem.json"
         }, 
         "company": "trenz.biz"
