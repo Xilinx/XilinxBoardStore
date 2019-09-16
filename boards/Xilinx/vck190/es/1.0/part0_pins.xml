@@ -446,7 +446,6 @@
     <pin index="631"  name ="lpddr4_3_dmi2"       loc="BF39" />
     <pin index="632"  name ="lpddr4_3_dmi3"       loc="AR33" />		
     <pin index="633"  name ="lpddr4_3_reset_n"    loc="AW28"/>
-   
 
     <pin index="1000" name ="pcie_rx0_n"      loc="AB47"/>
     <pin index="1001" name ="pcie_rx0_p"      loc="AB46"/>
