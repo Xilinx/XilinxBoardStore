@@ -268,8 +268,14 @@
             </port_maps>
         </interface> 
 		
+		<interface mode="master" name="LPDDR4_unused" type="xilinx.com:interface:lpddr4_rtl:1.0" of_component="LPDDR4_Controller0" preset_proc="">
+			<description>LPDDR4 board interface helper.</description>
+			  <preferred_ips>
+  				<preferred_ip vendor="xilinx.com" library="ip" name="axi_noc" order="0"/>
+			  </preferred_ips>
+		</interface>
 
-		<interface mode="master" name="ch0_lpddr4_c0" type="xilinx.com:interface:lpddr4_rtl:1.0" of_component="LPDDR4_Controller0" preset_proc="lpddr4_ch0_preset">
+		<interface mode="master" name="ch0_lpddr4_c0" type="xilinx.com:interface:lpddr4_rtl:1.0" of_component="LPDDR4_Controller0" preset_proc="LPDDR4_Controller0_preset">
 			<description>LPDDR4 board interface, it can use AXI_NoC IP for connection. </description>
 			
 			  <preferred_ips>
@@ -462,7 +468,7 @@
         </interface>		
 		
  
-		<interface mode="master" name="ch1_lpddr4_c0" type="xilinx.com:interface:lpddr4_rtl:1.0" of_component="LPDDR4_Controller0" preset_proc="lpddr4_ch0_preset">
+		<interface mode="master" name="ch1_lpddr4_c0" type="xilinx.com:interface:lpddr4_rtl:1.0" of_component="LPDDR4_Controller0" preset_proc="LPDDR4_Controller0_preset">
 			<description>LPDDR4 board interface, it can use AXI_NoC IP for connection. </description>
 			
 			  <preferred_ips>
@@ -655,7 +661,7 @@
         </interface>		
  
  
-		<interface mode="master" name="ch0_lpddr4_c1" type="xilinx.com:interface:lpddr4_rtl:1.0" of_component="LPDDR4_Controller1" preset_proc="lpddr4_ch0_preset">
+		<interface mode="master" name="ch0_lpddr4_c1" type="xilinx.com:interface:lpddr4_rtl:1.0" of_component="LPDDR4_Controller1" preset_proc="LPDDR4_Controller1_preset">
 			<description>LPDDR4 board interface, it can use AXI_NoC IP for connection. </description>
 			
 			  <preferred_ips>
@@ -836,7 +842,7 @@
         </interface>		 
  
 
-		<interface mode="master" name="ch1_lpddr4_c1" type="xilinx.com:interface:lpddr4_rtl:1.0" of_component="LPDDR4_Controller1" preset_proc="lpddr4_ch0_preset">
+		<interface mode="master" name="ch1_lpddr4_c1" type="xilinx.com:interface:lpddr4_rtl:1.0" of_component="LPDDR4_Controller1" preset_proc="LPDDR4_Controller1_preset">
 			<description>LPDDR4 board interface, it can use AXI_NoC IP for connection. </description>
 			
 			  <preferred_ips>
@@ -1424,6 +1430,30 @@
 					<associated_board_interface name="ch1_lpddr4_c1" order="0"/> 
 				</associated_board_interfaces>
 			</ip>
+			
+			<ip vendor="xilinx.com" library="ip" name="axi_noc" version="*" ip_interface="CH0_LPDDR4_2">
+				<associated_board_interfaces>
+				  <associated_board_interface name="LPDDR4_unused" order="0"/> 
+				</associated_board_interfaces>
+			</ip>
+	  
+			<ip vendor="xilinx.com" library="ip" name="axi_noc" version="*" ip_interface="CH0_LPDDR4_3">
+				<associated_board_interfaces>
+				  <associated_board_interface name="LPDDR4_unused" order="0"/> 
+				</associated_board_interfaces>
+		    </ip>
+			
+			<ip vendor="xilinx.com" library="ip" name="axi_noc" version="*" ip_interface="CH1_LPDDR4_2">
+				<associated_board_interfaces>
+				  <associated_board_interface name="LPDDR4_unused" order="0"/> 
+				</associated_board_interfaces>
+			</ip>
+	  
+			<ip vendor="xilinx.com" library="ip" name="axi_noc" version="*" ip_interface="CH1_LPDDR4_3">
+				<associated_board_interfaces>
+				  <associated_board_interface name="LPDDR4_unused" order="0"/> 
+				</associated_board_interfaces>
+		    </ip>			
 			
 	   
 		</ip_associated_rule>
