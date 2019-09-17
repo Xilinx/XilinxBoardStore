@@ -130,7 +130,7 @@
 				<user_parameter name="CONFIG.MC_INPUTCLK0_PERIOD" value="4958"/>		
 				<user_parameter name="CONFIG.MC_STACKHEIGHT" value="1"/>
                 <user_parameter name="CONFIG.MC_MEMORY_TIMEPERIOD0" value="536"/>
-				<user_parameter name="CONFIG.MC0_FLIPPED_PINOUT" value="1"/>
+				<user_parameter name="CONFIG.MC1_FLIPPED_PINOUT" value="1"/>
 				<user_parameter name="CONFIG.MC_MEMORY_DEVICETYPE" value="Components"/>
 		   </user_parameters>
 		</ip>
