@@ -1998,6 +1998,25 @@
         "company": "xilinx.com"
       },
       {
+        "name": "vcu118", 
+        "display": "Virtex UltraScale+ VCU118 Evaluation Platform", 
+        "latest_revision": "2.0", 
+        "commit_id": "da2f76a7565e22c8427fd263d8e7aa9cb00b5ed1", 
+        "revisions": [
+          {
+            "revision": "2.0", 
+            "commit_id": "da2f76a7565e22c8427fd263d8e7aa9cb00b5ed1", 
+            "date": "18-09-2019:11:03:03", 
+            "history": "Migrating 7 series latest board files from perforce to git"
+          }
+        ], 
+        "config": {
+          "root": "boards/Xilinx/vcu118/2.0", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
+      },
+      {
         "name": "vcu129_es",
         "display": "Virtex Ultrascale+ 56G VCU129-ES Evaluation Platform",
         "latest_revision": "1.0",
