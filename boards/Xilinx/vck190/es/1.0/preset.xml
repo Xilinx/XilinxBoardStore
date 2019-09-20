@@ -80,7 +80,6 @@
 				<user_parameter name="CONFIG.CONTROLLERTYPE" value="DDR4_SDRAM"/>  
 				<user_parameter name="CONFIG.MC_NO_CHANNELS" value="Single"/>  
 				<user_parameter name="CONFIG.MC_SYSTEM_CLOCK" value="Differential"/>  
-			    <!-- <user_parameter name="CONFIG.NUM_MC" value="2"/>   -->
 				<user_parameter name="CONFIG.MC_MEMORY_SPEEDGRADE" value="DDR4-3200AA(22-22-22)"/>	
 				<user_parameter name="CONFIG.MC_COMPONENT_WIDTH" value="x8"/> 
 				<user_parameter name="CONFIG.MC_DATAWIDTH" value="64"/>  
@@ -98,7 +97,6 @@
 		<ip vendor="xilinx.com" library="ip" name="axi_noc" version="*"> 
 			<user_parameters>
 				<user_parameter name="CONFIG.CONTROLLERTYPE" value="LPDDR4_SDRAM"/>  
-				<!-- <user_parameter name="CONFIG.NUM_MC" value="1"/>   -->
 				<user_parameter name="CONFIG.MC_NO_CHANNELS" value="Dual"/>  
 				<user_parameter name="CONFIG.MC_SYSTEM_CLOCK" value="Differential"/>  
 				<user_parameter name="CONFIG.MC_MEMORY_SPEEDGRADE" value="LPDDR4-4267"/>
