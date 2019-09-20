@@ -70,6 +70,9 @@
 		</ip>
 	</ip_preset>	
 
+<!-- set_property -dict [list CONFIG.MC_DATAWIDTH {64} CONFIG.MC_ECC {false} CONFIG.MC_DQ_WIDTH {64} CONFIG.MC_DQS_WIDTH {8} CONFIG.MC_DM_WIDTH {8} CONFIG.MC_EN_ECC_SCRUBBING {false}] [get_bd_cells axi_noc_0] -->
+
+
 
 	<ip_preset preset_proc_name="ddr4_c0_preset"> 
 		<ip vendor="xilinx.com" library="ip" name="axi_noc" version="*"> 
@@ -80,7 +83,7 @@
 			    <!-- <user_parameter name="CONFIG.NUM_MC" value="2"/>   -->
 				<user_parameter name="CONFIG.MC_MEMORY_SPEEDGRADE" value="DDR4-3200AA(22-22-22)"/>	
 				<user_parameter name="CONFIG.MC_COMPONENT_WIDTH" value="x8"/> 
-				<!-- <user_parameter name="CONFIG.MC_DATAWIDTH" value="72"/>   -->
+				<user_parameter name="CONFIG.MC_DATAWIDTH" value="64"/>  
 				<user_parameter name="CONFIG.MC_INPUTCLK0_PERIOD" value="5000"/>		
 				<user_parameter name="CONFIG.MC_INTERLEAVE_SIZE" value="128"/>
 				<user_parameter name="CONFIG.MC_STACKHEIGHT" value="1"/>
