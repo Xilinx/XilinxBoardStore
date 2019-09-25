@@ -1940,6 +1940,25 @@
         "company": "xilinx.com"
       }, 
       {
+        "name": "au280", 
+        "display": "Alveo U280 Data Center Accelerator Card", 
+        "latest_revision": "1.1", 
+        "commit_id": "f1677cfb5fa87026cb744d4f101b10f5ce728f1d", 
+        "revisions": [
+          {
+            "revision": "1.1", 
+            "commit_id": "f1677cfb5fa87026cb744d4f101b10f5ce728f1d", 
+            "date": "25-09-2019", 
+            "history": "Add au280 Acceleration card Board Files"
+          }
+        ], 
+        "config": {
+          "root": "boards/Xilinx/au280/production/1.1", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
+      }, 
+      {
         "name": "ac701", 
         "display": "Artix-7 AC701 Evaluation Platform", 
         "latest_revision": "1.4", 
