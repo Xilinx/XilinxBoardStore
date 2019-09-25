@@ -869,7 +869,7 @@
 
 		<interface mode="slave" name="sfp_si5328_clock" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="sfp">
 			<parameters>
-				<parameter name="frequency" value="161132812"/>
+				<parameter name="frequency" value="156250000"/>
 			</parameters>
 			<preferred_ips>
 				<preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
