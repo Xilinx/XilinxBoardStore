@@ -50,7 +50,12 @@
 				<user_parameter name="CONFIG.PS_USE_IRQ_2" value="1"/>												
 				
 				<user_parameter name="CONFIG.PMC_USE_NOC_PMC_AXI0" value="1"/>																
-				<user_parameter name="CONFIG.PMC_USE_PMC_NOC_AXI0" value="1"/>												 
+				<user_parameter name="CONFIG.PMC_USE_PMC_NOC_AXI0" value="1"/>	
+				
+				<user_parameter name="CONFIG.PS_MIO_5_DIRECTION" value="out"/>
+				<user_parameter name="CONFIG.PS_MIO_5_USAGE" value="GPIO"/>
+				<user_parameter name="CONFIG.PS_MIO_6_USAGE" value="GPIO"/>
+				<user_parameter name="CONFIG.PS_MIO_5_OUTPUT_DATA" value="high"/>
 				
 				<user_parameter name="CONFIG.PS_I2CSYSMON_PERIPHERAL_IO" value="PMC_MIO 18 .. 20"/>					
 				
