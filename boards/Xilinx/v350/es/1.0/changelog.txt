@@ -1,9 +1,9 @@
 ######### V350 change log ##############
+1.1
+Type parameter added for DDR4 interfaces
+AXI_NoC NUM_MC is no more fixed. This allows non-interleaved, or 2 or 4 way interleaved
+
 1.0
-AXI_NoC NUM_MC is no more fixed. This allows non-interleaved, or 2 or 4 way interleaved(2019.2 update)
-OSPI IO Attributes are updated 
-
-
 V350_es Initial board support(2019.2_siea)
 Features:
 CIPS block automation
