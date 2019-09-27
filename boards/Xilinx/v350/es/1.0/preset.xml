@@ -39,6 +39,11 @@
 				<user_parameter name="CONFIG.PMC_MIO_10_SLEW" value="fast"/>
 				<user_parameter name="CONFIG.PMC_MIO_11_SLEW" value="fast"/>
 				
+				<user_parameter name="CONFIG.PS_MIO_5_DIRECTION" value="out"/>
+				<user_parameter name="CONFIG.PS_MIO_5_USAGE" value="GPIO"/>
+				<user_parameter name="CONFIG.PS_MIO_6_USAGE" value="GPIO"/>
+				<user_parameter name="CONFIG.PS_MIO_5_OUTPUT_DATA" value="high"/>
+				
 				
 				<user_parameter name="CONFIG.PMC_I2CPMC_PERIPHERAL_ENABLE" value="1"/>
 				<user_parameter name="CONFIG.PMC_I2CPMC_PERIPHERAL_IO" value="PMC_MIO 26 .. 27"/>	
