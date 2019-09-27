@@ -1940,6 +1940,25 @@
         "company": "xilinx.com"
       }, 
       {
+        "name": "au280", 
+        "display": "Alveo U280 Data Center Accelerator Card", 
+        "latest_revision": "1.1", 
+        "commit_id": "6d08ce8ab42e2172ce967415ba032934d98c29de", 
+        "revisions": [
+          {
+            "revision": "1.1", 
+            "commit_id": "6d08ce8ab42e2172ce967415ba032934d98c29de", 
+            "date": "25-09-2019", 
+            "history": "Add au280 Acceleration card Board Files"
+          }
+        ], 
+        "config": {
+          "root": "boards/Xilinx/au280/production/1.1", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
+      }, 
+      {
         "name": "ac701", 
         "display": "Artix-7 AC701 Evaluation Platform", 
         "latest_revision": "1.4", 
@@ -2414,6 +2433,25 @@
         }, 
         "company": "xilinx.com"
       }, 
+      {
+        "name": "au200", 
+        "display": "Alveo U200 Data Center Accelerator Card", 
+        "latest_revision": "1.3", 
+        "commit_id": "6d08ce8ab42e2172ce967415ba032934d98c29de", 
+        "revisions": [
+          {
+            "revision": "1.3", 
+            "commit_id": "6d08ce8ab42e2172ce967415ba032934d98c29de", 
+            "date": "25-09-2019:11:12:54", 
+            "history": "Migrating Alveo latest board files from perforce/2019.1 to git"
+          }
+        ], 
+        "config": {
+          "root": "boards/Xilinx/au200/1.3", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
+      }, 
 	  {
         "name": "v350_es", 
         "display": "V350 ES0 Data Center Accelerator Card", 
@@ -2433,6 +2471,25 @@
         }, 
         "company": "xilinx.com"
       }, 
+      {
+        "name": "au250", 
+        "display": "Alveo U250 Data Center Accelerator Card", 
+        "latest_revision": "1.3", 
+        "commit_id": "6d08ce8ab42e2172ce967415ba032934d98c29de", 
+        "revisions": [
+          {
+            "revision": "1.3", 
+            "commit_id": "6d08ce8ab42e2172ce967415ba032934d98c29de", 
+            "date": "25-09-2019:11:13:39", 
+            "history": "Migrating Alveo latest board files from perforce/2019.1 to git"
+          }
+        ], 
+        "config": {
+          "root": "boards/Xilinx/au250/1.3", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
+      },
       {
         "name": "au250", 
         "display": "Alveo U250 Data Center Accelerator Card", 
