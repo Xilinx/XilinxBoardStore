@@ -2455,18 +2455,18 @@
 	  {
         "name": "v350_es", 
         "display": "V350 ES0 Data Center Accelerator Card", 
-        "latest_revision": "1.0", 
-        "commit_id": "285a3c4fb075d69c57d9408989470e119271f1c6", 
+        "latest_revision": "1.1", 
+        "commit_id": "9548dfea26f7f0bd24b29602783af734ac208f6f", 
         "revisions": [
           {
-            "revision": "1.0", 
-            "commit_id": "285a3c4fb075d69c57d9408989470e119271f1c6", 
-            "date": "13-07-2019:20:07:54", 
+            "revision": "1.1", 
+            "commit_id": "9548dfea26f7f0bd24b29602783af734ac208f6f", 
+            "date": "01-10-2019:20:07:54", 
             "history": "Adding v350 board support"
           }
         ], 
         "config": {
-          "root": "boards/Xilinx/v350/es/1.0", 
+          "root": "boards/Xilinx/v350/es/1.1", 
           "metadata_file": "xitem.json"
         }, 
         "company": "xilinx.com"
