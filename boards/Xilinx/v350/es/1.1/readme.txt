@@ -1,7 +1,7 @@
 1)Validate that the xcvc1902-vsva2197-2MP-e-S-es1 is available in your Vivado installation.  Please see details in the board lounge or in user guide UG973: Vivado Release Notes, Installation, and Licensing.
 
 2) Copy the contents from the zip for into local Vivado install.
-Vivado\2019.2\data\boards\board_files\vck190\
+Vivado\2019.2\data\boards\board_files\v350\
 
 Alternative to step 2) 
 Copy the contents from the zip into a local directory <path_to_board_files_dir>.
