@@ -11,7 +11,7 @@
     <revision id="0">Rev_A</revision>
   </compatible_board_revisions>
   
-  <file_version>1.0</file_version>
+  <file_version>1.1</file_version>
   
   <description>V350 ES0 Data Center Accelerator Card</description>
   
@@ -45,6 +45,9 @@
  
         <interface mode="master" name="ddr4_sdram_c0" type="xilinx.com:interface:ddr4_rtl:1.0" of_component="ddr4_sdram_c0" preset_proc="ddr4_c0_preset">
             <description>DDR4 board interface, it can use DDR4 IP for connection. </description>
+            <parameters>
+                <parameter name="TYPE" value="CH0_DDR4"/>
+            </parameters>
 		   
 				<preferred_ips>
 					<preferred_ip vendor="xilinx.com" library="ip" name="axi_noc" order="0"/>
@@ -269,6 +272,9 @@
 		
          <interface mode="master" name="ddr4_sdram_c1" type="xilinx.com:interface:ddr4_rtl:1.0" of_component="ddr4_sdram_c1" preset_proc="ddr4_c0_preset">
 			<description>DDR4 board interface, it can use DDR4 IP for connection. </description>
+            <parameters>
+                <parameter name="TYPE" value="CH0_DDR4"/>
+            </parameters>
 				  <preferred_ips>
 					<preferred_ip vendor="xilinx.com" library="ip" name="axi_noc" order="0"/>
 				  </preferred_ips>
@@ -483,6 +489,9 @@
 
         <interface mode="master" name="ddr4_sdram_c2" type="xilinx.com:interface:ddr4_rtl:1.0" of_component="ddr4_sdram_c2" preset_proc="ddr4_c0_preset">
 			<description>DDR4 board interface, it can use DDR4 IP for connection. </description>
+            <parameters>
+                <parameter name="TYPE" value="CH0_DDR4"/>
+            </parameters>
 			
 			  <preferred_ips>
 				<preferred_ip vendor="xilinx.com" library="ip" name="axi_noc" order="0"/>
@@ -701,6 +710,9 @@
         <interface mode="master" name="ddr4_sdram_c3" type="xilinx.com:interface:ddr4_rtl:1.0" of_component="ddr4_sdram_c3" preset_proc="ddr4_c0_preset">
 		
            <description>DDR4 board interface, it can use DDR4 IP for connection. </description>
+            <parameters>
+                <parameter name="TYPE" value="CH0_DDR4"/>
+            </parameters>
 		   
 				<preferred_ips>
 					<preferred_ip vendor="xilinx.com" library="ip" name="axi_noc" order="0"/>
