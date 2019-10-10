@@ -2,6 +2,7 @@
 if {[catch {
   xhub::get_xstores 
   set_param board.repoPaths [get_property LOCAL_ROOT_DIR [xhub::get_xstores xilinx_board_store]]
+  xhub::uninstall [xhub::get_xitems -of_objects [xhub::get_xstores xilinx_board_store]]
   xhub::refresh_catalog [xhub::get_xstores xilinx_board_store]
   xhub::install [xhub::get_xitems -of_objects [xhub::get_xstores xilinx_board_store]]
 } result]} {
@@ -35,6 +36,7 @@ if {[catch {
     puts  "error : $result"      
 } else {
     puts "Succesfully ran basic board commands on all git boards"
+    xhub::uninstall [xhub::get_xitems -of_objects [xhub::get_xstores xilinx_board_store]]
 } 
 
  
