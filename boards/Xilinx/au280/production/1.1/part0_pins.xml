@@ -15,8 +15,7 @@
     <pin index="11"  name ="IIC_MUX0_INTB_FPGA" iostandard="LVCMOS18" loc="D31" drive="8"/>	
 	
 	<pin index="12"  name ="CPU_RESET" iostandard="LVCMOS18" loc="L30"/>
-
-
+	<pin index="13"  name ="HBM_CATTRIP"  iostandard="LVCMOS18" loc="D32"/>
 	
     <pin index="19" name ="USB_UART_TX"  iostandard="LVCMOS18" loc="B33"/>
     <pin index="20" name ="USB_UART_RX"  iostandard="LVCMOS18" loc="A28"/>
