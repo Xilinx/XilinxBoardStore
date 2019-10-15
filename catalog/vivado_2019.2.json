@@ -1943,12 +1943,12 @@
         "name": "au280", 
         "display": "Alveo U280 Data Center Accelerator Card", 
         "latest_revision": "1.1", 
-        "commit_id": "3d8d2f9eedf59b19b02497bb626fdab556a08eea", 
+        "commit_id": "f78c072682fb00cbfa952fe526af72ec2c98d31b", 
         "revisions": [
           {
             "revision": "1.1", 
-            "commit_id": "3d8d2f9eedf59b19b02497bb626fdab556a08eea", 
-            "date": "09-10-2019", 
+            "commit_id": "f78c072682fb00cbfa952fe526af72ec2c98d31b", 
+            "date": "15-10-2019", 
             "history": "Add au280 Acceleration card Board Files"
           }
         ], 
@@ -2437,12 +2437,12 @@
         "name": "au200", 
         "display": "Alveo U200 Data Center Accelerator Card", 
         "latest_revision": "1.3", 
-        "commit_id": "6d08ce8ab42e2172ce967415ba032934d98c29de", 
+        "commit_id": "f78c072682fb00cbfa952fe526af72ec2c98d31b", 
         "revisions": [
           {
             "revision": "1.3", 
-            "commit_id": "6d08ce8ab42e2172ce967415ba032934d98c29de", 
-            "date": "25-09-2019:11:12:54", 
+            "commit_id": "f78c072682fb00cbfa952fe526af72ec2c98d31b", 
+            "date": "15-10-2019", 
             "history": "Migrating Alveo latest board files from perforce/2019.1 to git"
           }
         ], 
@@ -2475,12 +2475,12 @@
         "name": "au250", 
         "display": "Alveo U250 Data Center Accelerator Card", 
         "latest_revision": "1.3", 
-        "commit_id": "6d08ce8ab42e2172ce967415ba032934d98c29de", 
+        "commit_id": "f78c072682fb00cbfa952fe526af72ec2c98d31b", 
         "revisions": [
           {
             "revision": "1.3", 
-            "commit_id": "6d08ce8ab42e2172ce967415ba032934d98c29de", 
-            "date": "25-09-2019:11:13:39", 
+            "commit_id": "f78c072682fb00cbfa952fe526af72ec2c98d31b", 
+            "date": "15-10-2019", 
             "history": "Migrating Alveo latest board files from perforce/2019.1 to git"
           }
         ], 
