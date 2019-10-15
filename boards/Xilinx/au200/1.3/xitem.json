@@ -5,7 +5,7 @@
         "infra": {
           "name": "au200", 
           "display": "Alveo U200 Data Center Accelerator Card", 
-          "revision": "1.2", 
+          "revision": "1.3", 
           "description": "Alveo U200 Data Center Accelerator Card", 
           "company": "xilinx.com", 
           "company_display": "Xilinx", 
