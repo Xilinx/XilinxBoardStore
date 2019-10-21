@@ -1,6 +1,6 @@
 3.3
 Added PSU_DYNAMIC_DDR_CONFIG_EN to MPSoC preset 
-Added 1.1 as compatible board rev 
+Added 1.1 in compatible board revs  
 
 3.2
 Updated DDR4 CLK IOSTANDARDs
