@@ -1,0 +1,5 @@
+######### ZCU216 change log ############
+
+1.0
+ZCU216 initial board support for Rev A, PL-DDR4 disabled
+
