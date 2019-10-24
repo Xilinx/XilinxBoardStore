@@ -1,1 +1,1 @@
-vivado -source ./test.tcl -nolog -nojournal
+vivado -mode tcl -source ./test.tcl -nolog -nojournal
