@@ -8,6 +8,7 @@ if {[catch {
 } result]} {
   puts "Failed to download boards from github."
   puts "error : $result"
+  return 1
 } else {
   puts "Successfully downloaded boards from github."
 }
@@ -33,7 +34,8 @@ if {[catch {
   }
 } result]} {
     puts  "Failed to execute basic board commands on boards  "  
-    puts  "error : $result"      
+    puts  "error : $result"
+    return 1
 } else {
     puts "Succesfully ran basic board commands on all git boards"
     xhub::uninstall [xhub::get_xitems -of_objects [xhub::get_xstores xilinx_board_store]]
