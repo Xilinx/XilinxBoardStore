@@ -2339,6 +2339,25 @@
         "company": "xilinx.com"
       }, 
       {
+        "name": "zcu216", 
+        "display": "Zynq UltraScale+ ZCU216 Evaluation Platform", 
+        "latest_revision": "1.0", 
+        "commit_id": "da2bc499483b615bc9acb705e818254570634823", 
+        "revisions": [
+          {
+            "revision": "1.0", 
+            "commit_id": "da2bc499483b615bc9acb705e818254570634823", 
+            "date": "22-10-2019:11:04:52", 
+            "history": "ZCU216 initial board files for master branch"
+          }
+        ], 
+        "config": {
+          "root": "boards/Xilinx/zcu216/1.0", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
+      }, 
+      {
         "name": "zcu1275", 
         "display": "Xilinx Zynq UltraScale+ RFSoC ZCU1275 Characterization Kit", 
         "latest_revision": "1.0", 
