@@ -2490,44 +2490,6 @@
         }, 
         "company": "xilinx.com"
       },
-	  {
-        "name": "au50dd",
-        "display": "Alveo U50DD Data Center Accelerator Card",
-        "latest_revision": "1.0",
-        "commit_id": "5f7c2cee8e1801dc65ef4353a11a3f46c8982caf ",
-        "revisions": [
-          {
-            "revision": "1.0",
-            "commit_id": "5f7c2cee8e1801dc65ef4353a11a3f46c8982caf ",
-            "date": "31-10-2019",
-            "history": "change the u50dd part from -2L to -2"
-          }
-        ],
-        "config": {
-          "root": "boards/Xilinx/au50/es/1.0",
-          "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
-      }, 
-	  {
-        "name": "au50",
-        "display": "Alveo U50 Data Center Accelerator Card",
-        "latest_revision": "1.0",
-        "commit_id": "844c035d7586f6b46eabb81106d6a7e6aae121ed ",
-        "revisions": [
-          {
-            "revision": "1.0",
-            "commit_id": "844c035d7586f6b46eabb81106d6a7e6aae121ed ",
-            "date": "31-10-2019",
-            "history": "U50 VBS"
-          }
-        ],
-        "config": {
-          "root": "boards/Xilinx/au50/production/1.0",
-          "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
-      }, 	
       {
         "name": "au250", 
         "display": "Alveo U250 Data Center Accelerator Card", 
