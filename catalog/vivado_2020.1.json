@@ -2509,6 +2509,25 @@
         },
         "company": "xilinx.com"
       }, 
+     {
+        "name": "au50",
+        "display": "Alveo U50 Data Center Accelerator Card",
+        "latest_revision": "1.0",
+        "commit_id": "844c035d7586f6b46eabb81106d6a7e6aae121ed",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "844c035d7586f6b46eabb81106d6a7e6aae121ed",
+            "date": "31-10-2019",
+            "history": "Adding U50 VBS"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/au50/production/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      }, 	
       {
         "name": "au250", 
         "display": "Alveo U250 Data Center Accelerator Card", 
