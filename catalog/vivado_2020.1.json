@@ -2513,11 +2513,11 @@
         "name": "au50",
         "display": "Alveo U50 Data Center Accelerator Card",
         "latest_revision": "1.0",
-        "commit_id": "5f7c2cee8e1801dc65ef4353a11a3f46c8982caf ",
+        "commit_id": "844c035d7586f6b46eabb81106d6a7e6aae121ed ",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "5f7c2cee8e1801dc65ef4353a11a3f46c8982caf ",
+            "commit_id": "844c035d7586f6b46eabb81106d6a7e6aae121ed ",
             "date": "31-10-2019",
             "history": "U50 VBS"
           }
