@@ -1,0 +1,3 @@
+######### AU50 change log ##############
+1.0
+AU50 ES Initial board support

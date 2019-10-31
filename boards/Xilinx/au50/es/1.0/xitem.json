@@ -1,0 +1,33 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "au50dd",
+          "display": "Alveo U50DD Data Center Accelerator Card",
+          "revision": "1.0",
+          "description": "Alveo U50DD Data Center Accelerator Card",
+          "company": "xilinx.com",
+          "company_display": "Xilinx",
+          "author": "Eamonc",
+          "contributors": [
+            {
+              "group": "Xilinx",
+              "url": "www.xilinx.com"
+            }
+          ],
+          "category": "Single Part",
+          "website": "http://www.xilinx.com/u50dd",
+          "search-keywords": [
+            "au50dd",
+            "xilinx.com",
+            "board",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}
