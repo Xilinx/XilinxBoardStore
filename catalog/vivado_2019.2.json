@@ -2475,11 +2475,11 @@
         "name": "v350_es", 
         "display": "V350 ES0 Data Center Accelerator Card", 
         "latest_revision": "1.1", 
-        "commit_id": "2017449b4ef9a3fa2892e129f8dcd5de51d9e8c5", 
+        "commit_id": "03057581429ef1ee4a6eacd75a895ac5db7bb865", 
         "revisions": [
           {
             "revision": "1.1", 
-            "commit_id": "2017449b4ef9a3fa2892e129f8dcd5de51d9e8c5", 
+            "commit_id": "03057581429ef1ee4a6eacd75a895ac5db7bb865", 
             "date": "05-11-2019", 
             "history": "Reduced OSPI fmax and enabled PMC MIO12 GPIO"
           }
