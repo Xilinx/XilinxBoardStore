@@ -2472,25 +2472,6 @@
         "company": "xilinx.com"
       },
 	  {
-        "name": "v350_es", 
-        "display": "V350 ES0 Data Center Accelerator Card", 
-        "latest_revision": "1.1", 
-        "commit_id": "96e64618483fb41baf98d51eacb3ed6f9526a475", 
-        "revisions": [
-          {
-            "revision": "1.1", 
-            "commit_id": "96e64618483fb41baf98d51eacb3ed6f9526a475", 
-            "date": "05-11-2019", 
-            "history": "Reduced OSPI fmax and enabled PMC MIO12 GPIO"
-          }
-        ], 
-        "config": {
-          "root": "boards/Xilinx/v350/es/1.1", 
-          "metadata_file": "xitem.json"
-        }, 
-        "company": "xilinx.com"
-      },
-	  {
         "name": "au50dd",
         "display": "Alveo U50DD Data Center Accelerator Card",
         "latest_revision": "1.0",
