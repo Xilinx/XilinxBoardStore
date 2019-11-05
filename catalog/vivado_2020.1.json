@@ -2551,11 +2551,11 @@
         "name": "au250", 
         "display": "Alveo U250 Data Center Accelerator Card", 
         "latest_revision": "1.2", 
-        "commit_id": "ff158172d435d82c4beefc0289e6831353144573", 
+        "commit_id": "2d8de98d794022483841802ca16580b1badd0866", 
         "revisions": [
           {
             "revision": "1.2", 
-            "commit_id": "ff158172d435d82c4beefc0289e6831353144573", 
+            "commit_id": "2d8de98d794022483841802ca16580b1badd0866", 
             "date": "28-05-2019:11:13:39", 
             "history": "Migrating Alveo latest board files from perforce/2019.1 to git"
           }
