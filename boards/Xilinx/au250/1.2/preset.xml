@@ -702,7 +702,7 @@
 			
 			<ip vendor="xilinx.com" library="ip" name="usxgmii">
 			  <user_parameters>
-				<user_parameter name="CONFIG.NUM_OF_CORES" value="3" />
+				<user_parameter name="CONFIG.NUM_OF_CORES" value="4" />
 				<user_parameter name="CONFIG.GT_TYPE" value="GTY" />
 				<user_parameter name="CONFIG.GT_GROUP_SELECT" value="Quad_X1Y10" />
 			  </user_parameters>
