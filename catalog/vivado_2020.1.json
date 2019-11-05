@@ -2532,11 +2532,11 @@
         "name": "au250", 
         "display": "Alveo U250 Data Center Accelerator Card", 
         "latest_revision": "1.3", 
-        "commit_id": "4b6004bc552bf198bc3c68b1557e09d896fc350a", 
+        "commit_id": "7dcb9f051cc9cf7638c43f28c33077b02be6f84c", 
         "revisions": [
           {
             "revision": "1.3", 
-            "commit_id": "4b6004bc552bf198bc3c68b1557e09d896fc350a", 
+            "commit_id": "7dcb9f051cc9cf7638c43f28c33077b02be6f84c", 
             "date": "01-11-2019", 
             "history": "Syncing 2019.2 updates in to HEAD"
           }
