@@ -12,6 +12,10 @@
 				<user_parameter name="CONFIG.PS_USE_M_AXI_GP0" value="1"/>	
 
 				<user_parameter name="CONFIG.PMC_OSPI_PERIPHERAL_ENABLE" value="1"/>
+				<user_parameter name="CONFIG.PMC_CRP_OSPI_REF_CTRL_FREQMHZ" value="135"/>
+				
+				<user_parameter name="CONFIG.PMC_MIO_12_DIRECTION" value="out"/>
+				<user_parameter name="CONFIG.PMC_MIO_12_USAGE" value="GPIO"/>
 				
 				<user_parameter name="CONFIG.PMC_MIO_0_DRIVE_STRENGTH" value="12mA"/>
 				<user_parameter name="CONFIG.PMC_MIO_0_SLEW" value="fast"/>
@@ -57,7 +61,7 @@
 				<user_parameter name="CONFIG.PMC_GPIO1_MIO_PERIPHERAL_ENABLE" value="1"/>										
 				<user_parameter name="CONFIG.PS_GPIO2_MIO_PERIPHERAL_ENABLE" value="1"/>	
 
-			    	<user_parameter name="CONFIG.SMON_ENABLE_TEMP_MONITORING" value="1"/>	
+			    <user_parameter name="CONFIG.SMON_ENABLE_TEMP_MONITORING" value="1"/>	
 			 	<user_parameter name="CONFIG.SMON_ENABLE_VOLTAGE_MONITORING" value="1"/>
 
 				<user_parameter name="CONFIG.PS_MIO_5_DIRECTION" value="out"/>
