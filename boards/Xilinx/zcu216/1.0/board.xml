@@ -601,14 +601,14 @@
 	
     <component name="ps8_fixedio" display_name="PS8 fixed IO" type="chip" sub_type="fixed_io" major_group=""/>
 
-	<component name="default_sysclk_c0_300mhz" display_name="300 MHZ sysclk" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="SI570" vendor="Silicon Labs" spec_url="www.silabs.com">
+	<component name="default_sysclk_c0_300mhz" display_name="300 MHZ sysclk C0" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="SI570" vendor="Silicon Labs" spec_url="www.silabs.com">
       <description>SI570 based User programmable differential 300 MHz Clock. Can be used for DDR4 input system clock</description>
       <parameters>
         <parameter name="frequency" value="300000000"/>
       </parameters>
     </component>
 
-	<component name="default_sysclk_c1_300mhz" display_name="300 MHZ sysclk" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="SI570" vendor="Silicon Labs" spec_url="www.silabs.com">
+	<component name="default_sysclk_c1_300mhz" display_name="300 MHZ sysclk C1" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="SI570" vendor="Silicon Labs" spec_url="www.silabs.com">
       <description>SI570 based User programmable differential 300 MHz Clock. Can be used for DDR4 input system clock</description>
       <parameters>
         <parameter name="frequency" value="300000000"/>
