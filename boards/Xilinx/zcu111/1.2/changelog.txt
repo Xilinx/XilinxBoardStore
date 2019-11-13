@@ -1,5 +1,6 @@
 ######### ZCU111 change log ############
 1.2
+PSU_DYNAMIC_DDR_CONFIG_EN(2019.2 update)
 Increaed DDDR4 frequency from 1200 to 1333Mhz 
 
 1.1

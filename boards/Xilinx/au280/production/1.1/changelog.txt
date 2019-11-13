@@ -1,0 +1,10 @@
+######### AU280 change log ##############
+1.1
+Updated DQS_T DIR
+Added HBM_CATTRIP pin loc
+Modified NUM_LANES parameter for cmac_usplus IP from 4 to 4x25
+
+1.0
+AU280 Production board support 
+
+

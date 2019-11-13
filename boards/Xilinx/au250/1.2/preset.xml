@@ -595,7 +595,7 @@
 		  <user_parameters>
 			<user_parameter name="CONFIG.GT_TYPE" value="GTY" />
 			<user_parameter name="CONFIG.CMAC_CAUI4_MODE" value="1" />		
-			<user_parameter name="CONFIG.NUM_LANES" value="4" />		
+			<user_parameter name="CONFIG.NUM_LANES" value="4x25" />		
 			<user_parameter name="CONFIG.CMAC_CORE_SELECT" value="CMACE4_X0Y7" />
 			<user_parameter name="CONFIG.GT_GROUP_SELECT" value= "X1Y44~X1Y47" />
 			<user_parameter name="CONFIG.RS_FEC_TRANSCODE_BYPASS" value= "0" />
@@ -702,7 +702,7 @@
 			
 			<ip vendor="xilinx.com" library="ip" name="usxgmii">
 			  <user_parameters>
-				<user_parameter name="CONFIG.NUM_OF_CORES" value="3" />
+				<user_parameter name="CONFIG.NUM_OF_CORES" value="4" />
 				<user_parameter name="CONFIG.GT_TYPE" value="GTY" />
 				<user_parameter name="CONFIG.GT_GROUP_SELECT" value="Quad_X1Y10" />
 			  </user_parameters>
@@ -724,7 +724,7 @@
 			  <user_parameters>
 				<user_parameter name="CONFIG.GT_TYPE" value="GTY" />
 				<user_parameter name="CONFIG.CMAC_CAUI4_MODE" value="1" />		
-				<user_parameter name="CONFIG.NUM_LANES" value="4" />		
+				<user_parameter name="CONFIG.NUM_LANES" value="4x25" />		
 				<user_parameter name="CONFIG.CMAC_CORE_SELECT" value="CMACE4_X0Y7" />
 				<user_parameter name="CONFIG.GT_GROUP_SELECT" value= "X1Y40~X1Y43" />
 				<user_parameter name="CONFIG.RS_FEC_TRANSCODE_BYPASS" value= "0" />		
