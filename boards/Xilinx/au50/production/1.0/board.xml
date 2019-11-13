@@ -25,7 +25,7 @@
   <components>
 
 
-    <component name="part0" display_name="XCU50 FPGA" type="fpga" part_name="xcu50-fsvh2104-2L-e" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="http://www.xilinx.com/u50">
+    <component name="part0" display_name="XCU50 FPGA" type="fpga" part_name="xcu50-fsvh2104-2-e" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="http://www.xilinx.com/u50">
       <description>XCU50 FPGA</description>
 
 
