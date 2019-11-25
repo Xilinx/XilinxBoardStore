@@ -21,7 +21,7 @@
 
   <jumpers>
   </jumpers>
-  
+
   <data_properties>
     <data_property_group name="OPERATING_CONDITIONS">
       <data_property_group name="SUPPLY_CURRENT_BUDGET">
@@ -89,7 +89,7 @@
           </port_maps>
         </interface>
 
-		<interface mode="master" name="rs232_fpga_msp" type="xilinx.com:interface:uart_rtl:1.0" of_component="rs232_fpga_msp">>>
+		<interface mode="master" name="rs232_fpga_msp" type="xilinx.com:interface:uart_rtl:1.0" of_component="rs232_fpga_msp">
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="axi_uart16550" order="0"/>
           </preferred_ips>
