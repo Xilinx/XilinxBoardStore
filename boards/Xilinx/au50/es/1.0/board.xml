@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<board schema_version="2.1" vendor="xilinx.com" name="au50dd" display_name="Alveo U50DD Data Center Accelerator Card" url="http://www.xilinx.com/u50" preset_file="preset.xml" supports_ced="false">
+<board schema_version="2.2" vendor="xilinx.com" name="au50dd" display_name="Alveo U50DD Data Center Accelerator Card" url="http://www.xilinx.com/u50" preset_file="preset.xml" supports_ced="false">
   <images>
     <image name="au50dd_image.jpg" display_name="Alveo U50 Data Center Accelerator Card" sub_type="board" resolution="high">
       <description>Alveo U50 Data Center Accelerator Card</description>
