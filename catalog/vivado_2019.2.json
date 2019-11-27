@@ -2494,12 +2494,12 @@
         "name": "au50dd",
         "display": "Alveo U50DD Data Center Accelerator Card",
         "latest_revision": "1.0",
-        "commit_id": "39f07526d294c1654dd1f3f38827e7fbb7e05bc8",
+        "commit_id": "ac855f447a7ac1b5b0825e4173674054e4ffb972",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "39f07526d294c1654dd1f3f38827e7fbb7e05bc8",
-            "date": "30-10-2019",
+            "commit_id": "ac855f447a7ac1b5b0825e4173674054e4ffb972",
+            "date": "27-11-2019",
             "history": "change the u50dd part from -2L to -2"
           }
         ],
@@ -2513,12 +2513,12 @@
         "name": "au50",
         "display": "Alveo U50 Data Center Accelerator Card",
         "latest_revision": "1.0",
-        "commit_id": "39f07526d294c1654dd1f3f38827e7fbb7e05bc8",
+        "commit_id": "ac855f447a7ac1b5b0825e4173674054e4ffb972",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "39f07526d294c1654dd1f3f38827e7fbb7e05bc8",
-            "date": "30-10-2019",
+            "commit_id": "ac855f447a7ac1b5b0825e4173674054e4ffb972",
+            "date": "27-11-2019",
             "history": "U50 VBS"
           }
         ],
