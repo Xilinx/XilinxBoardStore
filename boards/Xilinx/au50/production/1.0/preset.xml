@@ -122,7 +122,7 @@
 
 	<ip vendor="xilinx.com" library="ip" name="pcie4c_uscale_plus">
 		<user_parameters>
-		    <!-- <user_parameter name="CONFIG.pcie_blk_locn" value="X1Y1" /> -->
+		    <!-- <user_par/ameter name="CONFIG.pcie_blk_locn" value="X1Y1" /> -->
 			<user_parameter name="CONFIG.pl_link_cap_max_link_speed" value="8.0_GT/s" />
 			<user_parameter name="CONFIG.pl_link_cap_max_link_width" value="X4" />
 			<user_parameter name="CONFIG.mode_selection" value="Advanced" />
@@ -322,7 +322,6 @@
  		  </user_parameters>
  		</ip>
 
-
  		<ip vendor="xilinx.com" library="ip" name="l_ethernet">
  		  <user_parameters>
  			<!-- <user_parameter name="CONFIG.GT_REF_CLK_FREQ" value="161.1328125" /> -->
@@ -337,9 +336,9 @@
  		  <user_parameters>
  			<user_parameter name="CONFIG.GT_TYPE" value="GTY" />
  			<user_parameter name="CONFIG.CMAC_CAUI4_MODE" value="1" />
- 			<user_parameter name="CONFIG.NUM_LANES" value="4" />
- 			<user_parameter name="CONFIG.CMAC_CORE_SELECT" value="CMACE4_X0Y7" />
- 			<user_parameter name="CONFIG.GT_GROUP_SELECT" value= "Quad_X0Y7" />
+ 			<user_parameter name="CONFIG.NUM_LANES" value="4x25" />
+ 			<user_parameter name="CONFIG.CMAC_CORE_SELECT" value="CMACE4_X0Y4" />
+			<user_parameter name="CONFIG.GT_GROUP_SELECT" value= "X0Y28~X0Y31" />
  			<user_parameter name="CONFIG.RS_FEC_TRANSCODE_BYPASS" value= "0" />
  		  </user_parameters>
  		</ip>
