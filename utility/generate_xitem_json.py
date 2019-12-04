@@ -25,8 +25,12 @@ def createXitemJson(xmldoc,args) :
 	imagelist = xmldoc.getElementsByTagName('image')
 
 	imlength = len(imagelist)
-	deslist = xmldoc.getElementsByTagName("description")	
+        if imlength > 0:
+           logo = imagelist[0].attributes['name'].value
+  
+        deslist = xmldoc.getElementsByTagName("description")	
 	deslen = len(deslist)
+
 	if deslen > 0 :
 		des = deslist[imlength].firstChild
 		if des:
@@ -78,6 +82,8 @@ def createXitemJson(xmldoc,args) :
 	orderItem["contributors"] = contributors
 	orderItem["category"] = category
 	orderItem["website"] = url
+	if logo != "":
+		orderItem["logo"] = logo
 	orderItem["search-keywords"] = search_keywords
 	
 	item = OrderedDict()
