@@ -2190,11 +2190,11 @@
         "name": "vcu118", 
         "display": "Virtex UltraScale+ VCU118 Evaluation Platform", 
         "latest_revision": "2.3", 
-        "commit_id": "c0944700b73787b72133d87b7519934741cda4ee", 
+        "commit_id": "eea37ada8e6c8ebc1b6b4193b09d5fd19fa11fc2", 
         "revisions": [
           {
             "revision": "2.3", 
-            "commit_id": "c0944700b73787b72133d87b7519934741cda4ee", 
+            "commit_id": "eea37ada8e6c8ebc1b6b4193b09d5fd19fa11fc2", 
             "date": "28-05-2019:11:03:03", 
             "history": "Migrating 7 series latest board files from perforce to git"
           }
@@ -2209,11 +2209,11 @@
         "name": "vcu118", 
         "display": "Virtex UltraScale+ VCU118 Evaluation Platform", 
         "latest_revision": "2.0", 
-        "commit_id": "f96808141d61649b819dc05f2c44d42734bfa134", 
+        "commit_id": "c8dddfb140c20b77ac318b6721922ee5bbde0ff8", 
         "revisions": [
           {
             "revision": "2.0", 
-            "commit_id": "f96808141d61649b819dc05f2c44d42734bfa134", 
+            "commit_id": "c8dddfb140c20b77ac318b6721922ee5bbde0ff8", 
             "date": "18-09-2019:11:03:03", 
             "history": "Migrating 7 series latest board files from perforce to git"
           }
