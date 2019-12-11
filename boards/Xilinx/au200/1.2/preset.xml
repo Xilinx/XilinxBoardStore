@@ -662,9 +662,10 @@
     <ip vendor="xilinx.com" library="ip" name="l_ethernet">
       <user_parameters>
 		<!-- <user_parameter name="CONFIG.GT_REF_CLK_FREQ" value="161.1328125" /> -->
-		<user_parameter name="CONFIG.LINE_RATE" value="40" />
+	<user_parameter name="CONFIG.LINE_RATE" value="40" />
         <user_parameter name="CONFIG.GT_TYPE" value="GTY" />
         <user_parameter name="CONFIG.GT_GROUP_SELECT" value="Quad_X1Y11" />
+	<user_parameter name="CONFIG.BASE_R_KR" value="BASE-R" />
       </user_parameters>
     </ip>
 
