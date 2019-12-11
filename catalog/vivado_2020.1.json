@@ -2437,11 +2437,11 @@
         "name": "au200", 
         "display": "Alveo U200 Data Center Accelerator Card", 
         "latest_revision": "1.2", 
-        "commit_id": "78da943ed1848454aa4c8a176264366f572a947b", 
+        "commit_id": "6ee5c967bbbc2615779d42009fc70cb3f1e213da", 
         "revisions": [
           {
             "revision": "1.2", 
-            "commit_id": "78da943ed1848454aa4c8a176264366f572a947b", 
+            "commit_id": "6ee5c967bbbc2615779d42009fc70cb3f1e213da", 
             "date": "28-05-2019:11:12:54", 
             "history": "Migrating Alveo latest board files from perforce/2019.1 to git"
           }
@@ -2456,11 +2456,11 @@
         "name": "au200", 
         "display": "Alveo U200 Data Center Accelerator Card", 
         "latest_revision": "1.3", 
-        "commit_id": "4b6004bc552bf198bc3c68b1557e09d896fc350a", 
+        "commit_id": "d9e9994b8fbf997a38b04d8eb152483e0b3e41b1", 
         "revisions": [
           {
             "revision": "1.3", 
-            "commit_id": "4b6004bc552bf198bc3c68b1557e09d896fc350a", 
+            "commit_id": "d9e9994b8fbf997a38b04d8eb152483e0b3e41b1", 
             "date": "01-11-2019", 
             "history": "Syncing 2019.2 updates in to HEAD"
           }
