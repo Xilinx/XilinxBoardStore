@@ -569,7 +569,7 @@
 	  <user_parameters>
 		<user_parameter name="CONFIG.GT_TYPE" value="GTY" />
 		<user_parameter name="CONFIG.CMAC_CAUI4_MODE" value="1" />		
-		<user_parameter name="CONFIG.NUM_LANES" value="4" />		
+		<user_parameter name="CONFIG.NUM_LANES" value="4x25" />		
 		<user_parameter name="CONFIG.CMAC_CORE_SELECT" value="CMAC_SITE_X0Y1" />
 		<user_parameter name="CONFIG.GT_GROUP_SELECT" value= "X0Y12~X0Y15" />
 	  </user_parameters>
