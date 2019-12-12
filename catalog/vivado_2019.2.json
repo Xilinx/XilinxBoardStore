@@ -2456,13 +2456,13 @@
         "name": "au200", 
         "display": "Alveo U200 Data Center Accelerator Card", 
         "latest_revision": "1.3", 
-        "commit_id": "09c62fbdb2287f8836ffa1bb03c6740db7a585fd", 
+        "commit_id": "5f19190f13813dc421a997e8ac050256b4c56ea7", 
         "revisions": [
           {
             "revision": "1.3", 
-            "commit_id": "09c62fbdb2287f8836ffa1bb03c6740db7a585fd", 
-            "date": "15-10-2019", 
-            "history": "Migrating Alveo latest board files from perforce/2019.1 to git"
+            "commit_id": "5f19190f13813dc421a997e8ac050256b4c56ea7", 
+            "date": "12-12-2019", 
+            "history": "Corrected data with for PCIE X8 mode"
           }
         ], 
         "config": {
@@ -2475,13 +2475,13 @@
         "name": "au250", 
         "display": "Alveo U250 Data Center Accelerator Card", 
         "latest_revision": "1.3", 
-        "commit_id": "da02c5d6f29b4807b1781563c47d3b4999b97485", 
+        "commit_id": "5f19190f13813dc421a997e8ac050256b4c56ea7", 
         "revisions": [
           {
             "revision": "1.3", 
-            "commit_id": "da02c5d6f29b4807b1781563c47d3b4999b97485", 
-            "date": "15-10-2019", 
-            "history": "Migrating Alveo latest board files from perforce/2019.1 to git"
+            "commit_id": "5f19190f13813dc421a997e8ac050256b4c56ea7", 
+            "date": "12-12-2019", 
+            "history": "Corrected data with for PCIE X8 mode"
           }
         ], 
         "config": {
