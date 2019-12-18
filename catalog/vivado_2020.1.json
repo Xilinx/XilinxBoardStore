@@ -2437,13 +2437,13 @@
         "name": "au200", 
         "display": "Alveo U200 Data Center Accelerator Card", 
         "latest_revision": "1.2", 
-        "commit_id": "6ee5c967bbbc2615779d42009fc70cb3f1e213da", 
+        "commit_id": "78a40f24814d17be871b6912ad0ab3dad5156cb1", 
         "revisions": [
           {
             "revision": "1.2", 
-            "commit_id": "6ee5c967bbbc2615779d42009fc70cb3f1e213da", 
-            "date": "28-05-2019:11:12:54", 
-            "history": "Migrating Alveo latest board files from perforce/2019.1 to git"
+           "commit_id": "78a40f24814d17be871b6912ad0ab3dad5156cb1", 
+            "date": "18-12-2019", 
+            "history": "Modifying preset.xml for au200"
           }
         ], 
         "config": {
