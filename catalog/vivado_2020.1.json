@@ -2019,13 +2019,13 @@
         "name": "vc707", 
         "display": "Virtex-7 VC707 Evaluation Platform", 
         "latest_revision": "1.4", 
-        "commit_id": "b6b08e53750126f55d887391bb52976b76cecc15", 
+        "commit_id": "fc96e4d7b3df6410fc8bab589e761ee52dd2d48c", 
         "revisions": [
           {
             "revision": "1.4", 
-            "commit_id": "b6b08e53750126f55d887391bb52976b76cecc15", 
-            "date": "28-05-2019:10:57:49", 
-            "history": "Migrating 7 series latest board files from perforce to git"
+            "commit_id": "fc96e4d7b3df6410fc8bab589e761ee52dd2d48c", 
+            "date": "20-12-2019", 
+            "history": "Added 50Mhz additional clk to help build generic CEDs"
           }
         ], 
         "config": {
