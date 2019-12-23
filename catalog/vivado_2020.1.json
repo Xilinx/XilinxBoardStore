@@ -2304,11 +2304,11 @@
         "name": "zcu106", 
         "display": "Zynq UltraScale+ ZCU106 Evaluation Platform", 
         "latest_revision": "2.5", 
-        "commit_id": "acd7ee5e38c1466366c153db7dfac7ece49dc1ff", 
+        "commit_id": "8717b66d05b9d81378665d839269e005774479e3", 
         "revisions": [
           {
             "revision": "2.5", 
-            "commit_id": "acd7ee5e38c1466366c153db7dfac7ece49dc1ff", 
+            "commit_id": "8717b66d05b9d81378665d839269e005774479e3", 
             "date": "23-12-2019", 
             "history": "Updated schema version and addressed linting issues"
           }
