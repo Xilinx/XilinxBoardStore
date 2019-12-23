@@ -2247,13 +2247,13 @@
         "name": "zcu102", 
         "display": "Zynq UltraScale+ ZCU102 Evaluation Board", 
         "latest_revision": "3.3", 
-        "commit_id": "c0944700b73787b72133d87b7519934741cda4ee", 
+        "commit_id": "acd7ee5e38c1466366c153db7dfac7ece49dc1ff", 
         "revisions": [
           {
             "revision": "3.3", 
-            "commit_id": "c0944700b73787b72133d87b7519934741cda4ee", 
-            "date": "28-05-2019:11:03:57", 
-            "history": "Migrating 7 series latest board files from perforce to git"
+            "commit_id": "acd7ee5e38c1466366c153db7dfac7ece49dc1ff", 
+            "date": "23-12-2019", 
+            "history": "Updated schema version and addressed linting issues"
           }
         ], 
         "config": {
@@ -2266,13 +2266,13 @@
         "name": "zcu104", 
         "display": "Zynq UltraScale+ ZCU104 Evaluation Board", 
         "latest_revision": "1.1", 
-        "commit_id": "c0944700b73787b72133d87b7519934741cda4ee", 
+        "commit_id": "acd7ee5e38c1466366c153db7dfac7ece49dc1ff", 
         "revisions": [
           {
             "revision": "1.1", 
-            "commit_id": "c0944700b73787b72133d87b7519934741cda4ee", 
-            "date": "28-05-2019:11:04:13", 
-            "history": "Migrating 7 series latest board files from perforce to git"
+            "commit_id": "acd7ee5e38c1466366c153db7dfac7ece49dc1ff", 
+            "date": "23-12-2019", 
+            "history": "Updated schema version and addressed linting issues"
           }
         ], 
         "config": {
@@ -2304,13 +2304,13 @@
         "name": "zcu106", 
         "display": "Zynq UltraScale+ ZCU106 Evaluation Platform", 
         "latest_revision": "2.5", 
-        "commit_id": "d16e95f4dbb67025348c75ea61b60f92878b2ac6", 
+        "commit_id": "acd7ee5e38c1466366c153db7dfac7ece49dc1ff", 
         "revisions": [
           {
             "revision": "2.5", 
-            "commit_id": "d16e95f4dbb67025348c75ea61b60f92878b2ac6", 
-            "date": "25-09-2019:11:04:35", 
-            "history": "Migrating 7 series latest board files from perforce to git"
+            "commit_id": "acd7ee5e38c1466366c153db7dfac7ece49dc1ff", 
+            "date": "23-12-2019", 
+            "history": "Updated schema version and addressed linting issues"
           }
         ], 
         "config": {
@@ -2323,13 +2323,13 @@
         "name": "zcu111", 
         "display": "Zynq UltraScale+ ZCU111 Evaluation Platform", 
         "latest_revision": "1.2", 
-        "commit_id": "4b6004bc552bf198bc3c68b1557e09d896fc350a", 
+        "commit_id": "acd7ee5e38c1466366c153db7dfac7ece49dc1ff", 
         "revisions": [
           {
             "revision": "1.2", 
-            "commit_id": "4b6004bc552bf198bc3c68b1557e09d896fc350a", 
-            "date": "01-11-2019", 
-            "history": "Syncing 2019.2 updates in to HEAD"
+            "commit_id": "acd7ee5e38c1466366c153db7dfac7ece49dc1ff", 
+            "date": "23-12-2019", 
+            "history": "Updated schema version and addressed linting issues"
           }
         ], 
         "config": {
@@ -2342,13 +2342,13 @@
         "name": "zcu216", 
         "display": "Zynq UltraScale+ ZCU216 Evaluation Platform", 
         "latest_revision": "1.0", 
-        "commit_id": "350277a0ff3ce02d8191e51163efc3dbce5ed2f4", 
+        "commit_id": "acd7ee5e38c1466366c153db7dfac7ece49dc1ff", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "350277a0ff3ce02d8191e51163efc3dbce5ed2f4", 
-            "date": "22-10-2019:11:04:52", 
-            "history": "ZCU216 initial board files for master branch"
+            "commit_id": "acd7ee5e38c1466366c153db7dfac7ece49dc1ff", 
+            "date": "23-12-2019", 
+            "history": "Updated schema version and addressed linting issues"
           }
         ], 
         "config": {
@@ -2361,13 +2361,13 @@
         "name": "zcu1275", 
         "display": "Xilinx Zynq UltraScale+ RFSoC ZCU1275 Characterization Kit", 
         "latest_revision": "1.0", 
-        "commit_id": "c0944700b73787b72133d87b7519934741cda4ee", 
+        "commit_id": "acd7ee5e38c1466366c153db7dfac7ece49dc1ff", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "c0944700b73787b72133d87b7519934741cda4ee", 
-            "date": "28-05-2019:11:05:07", 
-            "history": "Migrating 7 series latest board files from perforce to git"
+            "commit_id": "acd7ee5e38c1466366c153db7dfac7ece49dc1ff", 
+            "date": "23-12-2019", 
+            "history": "Updated schema version and addressed linting issues"
           }
         ], 
         "config": {
@@ -2380,13 +2380,13 @@
         "name": "zcu1285", 
         "display": "Xilinx Zynq UltraScale+ RFSoC ZCU1285 Characterization Kit", 
         "latest_revision": "1.0", 
-        "commit_id": "c0944700b73787b72133d87b7519934741cda4ee", 
+        "commit_id": "acd7ee5e38c1466366c153db7dfac7ece49dc1ff", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "c0944700b73787b72133d87b7519934741cda4ee", 
-            "date": "28-05-2019:11:05:16", 
-            "history": "Migrating 7 series latest board files from perforce to git"
+            "commit_id": "acd7ee5e38c1466366c153db7dfac7ece49dc1ff", 
+            "date": "23-12-2019", 
+            "history": "Updated schema version and addressed linting issues"
           }
         ], 
         "config": {
