@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
 <part_info part_name="xcvu190-flgc2104-2-e-es2">
   <pins>
     <pin index="0" name ="GPIO_DIP_SW0" iostandard="LVCMOS15" loc="BD28"/>

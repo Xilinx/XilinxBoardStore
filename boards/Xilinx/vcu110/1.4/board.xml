@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<board schema_version="2.1" vendor="xilinx.com" name="vcu110" display_name="Virtex-UltraScale VCU110 Evaluation Platform" url="www.xilinx.com/vcu110" preset_file="preset.xml">
+
+<board schema_version="2.2" vendor="xilinx.com" name="vcu110" display_name="Virtex-UltraScale VCU110 Evaluation Platform" url="www.xilinx.com/vcu110" preset_file="preset.xml">
   <images>
     <image name="vcu110_board.jpeg" display_name="VCU110 BOARD" sub_type="board">
       <description>VCU110 Board File Image</description>
@@ -380,7 +381,7 @@
             </port_map>
           </port_maps>
         </interface>
-        <interface mode="master" name="rs232_uart" type="xilinx.com:interface:uart_rtl:1.0" of_component="rs232_uart" preset_proc="rs232_uart_preset">>>
+        <interface mode="master" name="rs232_uart" type="xilinx.com:interface:uart_rtl:1.0" of_component="rs232_uart" preset_proc="rs232_uart_preset">
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="axi_uartlite" order="0"/>
           </preferred_ips>
@@ -449,7 +450,7 @@
             </port_map>
           </port_maps>
         </interface>
-        <interface mode="master" name="push_buttons_5bits" type="xilinx.com:interface:gpio_rtl:1.0" of_component="push_buttons_5bits" preset_proc="push_buttons_5bits_preset">>
+        <interface mode="master" name="push_buttons_5bits" type="xilinx.com:interface:gpio_rtl:1.0" of_component="push_buttons_5bits" preset_proc="push_buttons_5bits_preset">
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
           </preferred_ips>
@@ -662,9 +663,6 @@
       <parameters>
         <parameter name="frequency" value="300000000"/>
       </parameters>
-      <preferred_ips>
-        <preferred_ip vendor="xilinx.com" library="ip" name="clk_wiz" order="0"/>
-      </preferred_ips>
     </component>
     <component name="user_prog_clock" display_name="User Programmable Clock" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="SI570BAB0000544DG" vendor="Si Time" spec_url="www.sitime.com">
       <description>3.3V LVDS SI570 programmable oscillator used as differential clock on the board; Can be programmed using system controller UART or using IIC interface in the Kintex fabric</description>

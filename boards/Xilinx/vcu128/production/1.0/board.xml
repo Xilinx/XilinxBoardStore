@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<board schema_version="2.1" vendor="xilinx.com" name="vcu128" display_name="Virtex Ultrascale+ HBM VCU128 Evaluation Platform" url="www.xilinx.com/vcu128" preset_file="preset.xml" supports_ced="true">
+
+<board schema_version="2.2" vendor="xilinx.com" name="vcu128" display_name="Virtex Ultrascale+ HBM VCU128 Evaluation Platform" url="www.xilinx.com/vcu128" preset_file="preset.xml" supports_ced="true">
   <images>
     <image name="vcu128_board.jpeg" display_name="VCU128 BOARD" sub_type="board">
       <description>VCU128 Board File Image</description>
@@ -282,7 +283,7 @@
           </port_maps>
         </interface>
 		
-        <interface mode="master" name="rs232_uart_0" type="xilinx.com:interface:uart_rtl:1.0" of_component="rs232_uart_0" preset_proc="rs232_uart_preset">>>
+        <interface mode="master" name="rs232_uart_0" type="xilinx.com:interface:uart_rtl:1.0" of_component="rs232_uart_0" preset_proc="rs232_uart_preset">
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="axi_uart16550" order="0"/>
           </preferred_ips>
@@ -300,7 +301,7 @@
           </port_maps>
         </interface>
 		
-		<interface mode="master" name="rs232_uart_1" type="xilinx.com:interface:uart_rtl:1.0" of_component="rs232_uart_1" preset_proc="rs232_uart_preset">>>
+		<interface mode="master" name="rs232_uart_1" type="xilinx.com:interface:uart_rtl:1.0" of_component="rs232_uart_1" preset_proc="rs232_uart_preset">
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="axi_uart16550" order="0"/>
           </preferred_ips>
@@ -1820,9 +1821,6 @@
       <parameters>
         <parameter name="frequency" value="100000000"/>
       </parameters>
-      <preferred_ips>
-        <preferred_ip vendor="xilinx.com" library="ip" name="clk_wiz" order="0"/>
-      </preferred_ips>
     </component>
 	
 

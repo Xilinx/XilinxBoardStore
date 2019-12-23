@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<board schema_version="2.1" vendor="xilinx.com" name="au280" display_name="Alveo U280 Data Center Accelerator Card" url="http://www.xilinx.com/u280" preset_file="preset.xml" supports_ced="false"> >
+
+<board schema_version="2.2" vendor="xilinx.com" name="au280" display_name="Alveo U280 Data Center Accelerator Card" url="http://www.xilinx.com/u280" preset_file="preset.xml" supports_ced="false"> 
 			
   <images>
     <image name="au280_image.jpg" display_name="Alveo U280 Data Center Accelerator Card" sub_type="board" resolution="high">
@@ -908,7 +909,7 @@
 	  </port_maps>
 	 </interface> 
 		
-		<interface mode="master" name="rs232_uart" type="xilinx.com:interface:uart_rtl:1.0" of_component="rs232_uart" preset_proc="rs232_uart_preset">>>
+		<interface mode="master" name="rs232_uart" type="xilinx.com:interface:uart_rtl:1.0" of_component="rs232_uart" preset_proc="rs232_uart_preset">
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="axi_uart16550" order="0"/>
           </preferred_ips>
@@ -1812,9 +1813,6 @@
       <parameters>
         <parameter name="frequency" value="100000000"/>
       </parameters>
-      <preferred_ips>
-        <preferred_ip vendor="xilinx.com" library="ip" name="ddr4" order="0"/>
-      </preferred_ips> 
     </component>
 	
     <component name="sysclk1" display_name="100 MHz System differential clock1" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="SI53340" vendor="Silicon Labs" spec_url="www.silabs.com">
@@ -1822,9 +1820,6 @@
       <parameters>
         <parameter name="frequency" value="100000000"/>
       </parameters>
-      <preferred_ips>
-        <preferred_ip vendor="xilinx.com" library="ip" name="ddr4" order="0"/>
-      </preferred_ips>
     </component>
 
 	<component name="rs232_uart" display_name="UART" type="chip" sub_type="uart" major_group="Miscellaneous" part_name="CP2105-F01-GM" vendor="SiliconLabs">

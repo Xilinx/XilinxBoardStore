@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<board schema_version="2.1" vendor="xilinx.com" name="kcu116" display_name="Kintex UltraScale+ KCU116 Evaluation Platform" url="www.xilinx.com/kcu116" preset_file="preset.xml">
+
+<board schema_version="2.2" vendor="xilinx.com" name="kcu116" display_name="Kintex UltraScale+ KCU116 Evaluation Platform" url="www.xilinx.com/kcu116" preset_file="preset.xml">
   <images>
     <image name="kcu116_board.jpeg" display_name="KCU116 BOARD" sub_type="board">
       <description>KCU116 Board File Image</description>
@@ -421,7 +422,7 @@
           </port_maps>
         </interface>
 		
-        <interface mode="master" name="rs232_uart" type="xilinx.com:interface:uart_rtl:1.0" of_component="rs232_uart" preset_proc="rs232_uart_preset">>>
+        <interface mode="master" name="rs232_uart" type="xilinx.com:interface:uart_rtl:1.0" of_component="rs232_uart" preset_proc="rs232_uart_preset">
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="axi_uart16550" order="0"/>
           </preferred_ips>
@@ -492,7 +493,7 @@
           </port_maps>
         </interface>
 		
-        <interface mode="master" name="push_buttons_5bits" type="xilinx.com:interface:gpio_rtl:1.0" of_component="push_buttons_5bits" preset_proc="push_buttons_5bits_preset">>
+        <interface mode="master" name="push_buttons_5bits" type="xilinx.com:interface:gpio_rtl:1.0" of_component="push_buttons_5bits" preset_proc="push_buttons_5bits_preset">
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
           </preferred_ips>
@@ -829,10 +830,6 @@
       <parameters>
         <parameter name="frequency" value="300000000"/>
       </parameters>
-      <preferred_ips>
-	    <preferred_ip vendor="xilinx.com" library="ip" name="ddr4" order="0"/>
-        <preferred_ip vendor="xilinx.com" library="ip" name="clk_wiz" order="0"/>
-      </preferred_ips>
     </component>
 	
     <component name="pcie_refclk" display_name="PCIe MGT reference Clock" type="chip" sub_type="mgt_clock" major_group="Clock Sources" part_name="pcie_8lane_edge" vendor="Clock" spec_url="">
@@ -1023,7 +1020,8 @@
 	<connection_map name="part0_fmc_hpc0_la21_p" c1_st_index="243" c1_end_index="243" c2_st_index="305" c2_end_index="305" />	
     <connection_map name="part0_fmc_hpc0_la22_n" c1_st_index="244" c1_end_index="244" c2_st_index="265" c2_end_index="265" />	
 	<connection_map name="part0_fmc_hpc0_la22_p" c1_st_index="245" c1_end_index="245" c2_st_index="264" c2_end_index="264" />		
-    <connection_map name="part0_fmc_hpc0_la23_n" c1_st_index="246" c1_end_index="246" c2_st_index="144" c2_end_index="144" />	
+	
+<!--     <connection_map name="part0_fmc_hpc0_la23_n" c1_st_index="246" c1_end_index="246" c2_st_index="144" c2_end_index="144" />	
 	<connection_map name="part0_fmc_hpc0_la23_p" c1_st_index="247" c1_end_index="247" c2_st_index="143" c2_end_index="143" />	
     <connection_map name="part0_fmc_hpc0_la24_n" c1_st_index="248" c1_end_index="248" c2_st_index="309" c2_end_index="309" />	
 	<connection_map name="part0_fmc_hpc0_la24_p" c1_st_index="249" c1_end_index="249" c2_st_index="308" c2_end_index="308" />		
@@ -1044,7 +1042,7 @@
     <connection_map name="part0_fmc_hpc0_la32_n" c1_st_index="264" c1_end_index="264" c2_st_index="318" c2_end_index="318" />	
 	<connection_map name="part0_fmc_hpc0_la32_p" c1_st_index="265" c1_end_index="265" c2_st_index="317" c2_end_index="317" />	
     <connection_map name="part0_fmc_hpc0_la33_n" c1_st_index="266" c1_end_index="266" c2_st_index="277" c2_end_index="277" />	
-	<connection_map name="part0_fmc_hpc0_la33_p" c1_st_index="267" c1_end_index="267" c2_st_index="276" c2_end_index="276" />	
+	<connection_map name="part0_fmc_hpc0_la33_p" c1_st_index="267" c1_end_index="267" c2_st_index="276" c2_end_index="276" />	 -->
 	
     <connection_map name="part0_fmc_hpc0_dp0_c2m_p" c1_st_index="268" c1_end_index="268" c2_st_index="82" c2_end_index="82" />	
 	<connection_map name="part0_fmc_hpc0_dp0_c2m_n" c1_st_index="269" c1_end_index="269" c2_st_index="83" c2_end_index="83" />		

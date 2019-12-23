@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+
 <part_info part_name="xcku040ffva1156e-2">
   <pins>
     <pin index="0" name ="GPIO_DIP_SW0" iostandard="LVCMOS12" loc="AN16"/>
@@ -71,7 +73,7 @@
 
     <pin index="52" name ="mdc" iostandard="LVCMOS18" loc="L25"/>
     <pin index="53" name ="mdio_i" iostandard="LVCMOS18" loc="H26"/>
-    <pin index="54" name ="PHY_RESET" iostandard="LVCMOS18" loc="J23"/> 
+    <!-- <pin index="54" name ="PHY_RESET" iostandard="LVCMOS18" loc="J23"/>  -->
 
     <pin index="55" name ="c0_ddr4_act_n"  loc="AH14"/>
     <pin index="56" name ="c0_ddr4_adr0"   loc="AE17" />
@@ -231,10 +233,11 @@
     <pin index="203" name ="pcie_tx6_p" loc="AM6"/>
     <pin index="204" name ="pcie_tx7_p" loc="AN4"/>
 
-    <pin index="205" name ="sysclk_125_p" iostandard="LVDS" loc="G10" DIFF_TERM="TRUE"/>
-    <pin index="206" name ="sysclk_125_n" iostandard="LVDS" loc="F10" DIFF_TERM="TRUE"/>
-    <pin index="207" name ="user_prog_clock_p" iostandard="LVDS_25" loc="M25" DIFF_TERM="TRUE"/>
-    <pin index="208" name ="user_prog_clock_n" iostandard="LVDS_25" loc="M26" DIFF_TERM="TRUE"/>
+    <pin index="205" name ="sysclk_125_p" iostandard="LVDS" loc="G10" diff_term ="TRUE"/>
+    <pin index="206" name ="sysclk_125_n" iostandard="LVDS" loc="F10" diff_term="TRUE"/>
+    <pin index="207" name ="user_prog_clock_p" iostandard="LVDS_25" loc="M25" diff_term="TRUE"/>
+    <pin index="208" name ="user_prog_clock_n" iostandard="LVDS_25" loc="M26" diff_term="TRUE"/>
+	
 	<pin index="209" name ="mgt_si570_clk_p" loc="P6"/>
     <pin index="210" name ="mgt_si570_clk_n" loc="P5"/>
 	<pin index="211" name ="sma_mgt_refclk_p" loc="V6"/>
