@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
-<board schema_version="2.1" vendor="xilinx.com" name="zcu106" display_name="Zynq UltraScale+ ZCU106 Evaluation Platform" url="www.xilinx.com/zcu106" preset_file="preset.xml">
+<board schema_version="2.2" vendor="xilinx.com" name="zcu106" display_name="Zynq UltraScale+ ZCU106 Evaluation Platform" url="www.xilinx.com/zcu106" preset_file="preset.xml">
 <images>
     <image name="zcu106_board.jpeg" display_name="ZCU106 BOARD" sub_type="board">
       <description>ZCU106 Board File Image</description>
@@ -1090,9 +1090,12 @@
       <connection_map name="part0_pcie_perstn_1" c1_st_index="163" c1_end_index="163" c2_st_index="0" c2_end_index="0"/>
     </connection>
 	
+	<connection name="part0_sfp_gt" component1="part0" component2="sfp">
+		<connection_map name="part0_sfp" typical_delay="5" c1_st_index="375" c1_end_index="384" c2_st_index="0" c2_end_index="9"/>
+	</connection>	
+	
 	<connection name="part0_fmc_hpc0" component1="part0" component2="fmc_hpc0_connector">
-  
-		<connection_map name="part0_fmc_hpc0_la00_cc_n" c1_st_index="164" c1_end_index="164" c2_st_index="247" c2_end_index="247" />
+ 		<connection_map name="part0_fmc_hpc0_la00_cc_n" c1_st_index="164" c1_end_index="164" c2_st_index="247" c2_end_index="247" />
 		<connection_map name="part0_fmc_hpc0_la00_cc_p" c1_st_index="165" c1_end_index="165" c2_st_index="246" c2_end_index="246" />
 		<connection_map name="part0_fmc_hpc0_la01_cc_n" c1_st_index="166" c1_end_index="166" c2_st_index="128" c2_end_index="128" />
 		<connection_map name="part0_fmc_hpc0_la01_cc_p" c1_st_index="167" c1_end_index="167" c2_st_index="129" c2_end_index="129" />
@@ -1202,13 +1205,12 @@
 		<connection_map name="part0_fmc_hpc0_gbtclk0_m2c_n" c1_st_index="269" c1_end_index="269" c2_st_index="125" c2_end_index="125" />	
 		<connection_map name="part0_fmc_hpc0_gbtclk1_m2c_p" c1_st_index="270" c1_end_index="270" c2_st_index="60" c2_end_index="60" />	
 		<connection_map name="part0_fmc_hpc0_gbtclk1_m2c_n" c1_st_index="271" c1_end_index="271" c2_st_index="61" c2_end_index="61" />	
-  </connection>
+    </connection>
   
   
   
   	<connection name="part0_fmc_hpc1" component1="part0" component2="fmc_hpc1_connector">
-  
-		<connection_map name="part0_fmc_hpc1_la00_cc_n" c1_st_index="272" c1_end_index="272" c2_st_index="247" c2_end_index="247" />
+ 		<connection_map name="part0_fmc_hpc1_la00_cc_n" c1_st_index="272" c1_end_index="272" c2_st_index="247" c2_end_index="247" />
 		<connection_map name="part0_fmc_hpc1_la00_cc_p" c1_st_index="273" c1_end_index="273" c2_st_index="246" c2_end_index="246" />
 		<connection_map name="part0_fmc_hpc1_la01_cc_n" c1_st_index="274" c1_end_index="274" c2_st_index="128" c2_end_index="128" />
 		<connection_map name="part0_fmc_hpc1_la01_cc_p" c1_st_index="275" c1_end_index="275" c2_st_index="129" c2_end_index="129" />
@@ -1251,12 +1253,8 @@
 		<connection_map name="part0_fmc_hpc1_clk0_m2c_p" c1_st_index="311" c1_end_index="311" c2_st_index="284" c2_end_index="284" />	
 		<connection_map name="part0_fmc_hpc1_gbtclk0_m2c_p" c1_st_index="312" c1_end_index="312" c2_st_index="124" c2_end_index="124" />	
 		<connection_map name="part0_fmc_hpc1_gbtclk0_m2c_n" c1_st_index="313" c1_end_index="313" c2_st_index="125" c2_end_index="125" />	
-		
-		<connection name="part0_sfp_gt" component1="part0" component2="sfp">
-			<connection_map name="part0_sfp" typical_delay="5" c1_st_index="375" c1_end_index="384" c2_st_index="0" c2_end_index="9"/>
-		</connection>
 
-  </connection>
+    </connection>
 </connections>
   
 <ip_associated_rules>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
-<board schema_version="2.1" vendor="xilinx.com" name="zcu1285" display_name="Xilinx Zynq UltraScale+ RFSoC ZCU1285 Characterization Kit" url="www.xilinx.com/zcu1285" preset_file="preset.xml" supports_ced="false">
+<board schema_version="2.2" vendor="xilinx.com" name="zcu1285" display_name="Xilinx Zynq UltraScale+ RFSoC ZCU1285 Characterization Kit" url="www.xilinx.com/zcu1285" preset_file="preset.xml" supports_ced="false">
 <images>
     <image name="zcu1285_board.jpeg" display_name="ZCU1285 Characterization Kit" sub_type="board">
       <description>ZCU1285 Board Image</description>

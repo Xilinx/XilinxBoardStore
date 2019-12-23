@@ -290,8 +290,8 @@
 	
 	<pin index="268" name="fmc_hpc0_gbtclk0_m2c_p" iostandard="LVCMOS18" loc="V8"/>
 	<pin index="269" name="fmc_hpc0_gbtclk0_m2c_n" iostandard="LVCMOS18" loc="V7"/>	
-	<pin index="270" name="fmc_hpc0_gbtclk1_m2c_p" iostandard="LVCMOS18" loc="Y8"/>
-	<pin index="271" name="fmc_hpc0_gbtclk1_m2c_n" iostandard="LVCMOS18" loc="Y7"/>	  
+	<pin index="270" name="fmc_hpc0_gbtclk1_m2c_p" iostandard="LVCMOS18" loc="T8"/>
+	<pin index="271" name="fmc_hpc0_gbtclk1_m2c_n" iostandard="LVCMOS18" loc="77"/>	  
 	
 	
 	

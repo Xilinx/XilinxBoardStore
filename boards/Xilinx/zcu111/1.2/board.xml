@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
-<board schema_version="2.1" vendor="xilinx.com" name="zcu111" display_name="Zynq UltraScale+ ZCU111 Evaluation Platform" url="www.xilinx.com/zcu111" preset_file="preset.xml">
+<board schema_version="2.2" vendor="xilinx.com" name="zcu111" display_name="Zynq UltraScale+ ZCU111 Evaluation Platform" url="www.xilinx.com/zcu111" preset_file="preset.xml">
 <images>
     <image name="zcu111_board.jpeg" display_name="ZCU111 BOARD" sub_type="board">
       <description>ZCU111 Board File Image</description>

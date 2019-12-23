@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
-<board schema_version="2.1" vendor="xilinx.com" name="zcu102" display_name="Zynq UltraScale+ ZCU102 Evaluation Board" url="www.xilinx.com/zcu102" preset_file="preset.xml">
+<board schema_version="2.2" vendor="xilinx.com" name="zcu102" display_name="Zynq UltraScale+ ZCU102 Evaluation Board" url="www.xilinx.com/zcu102" preset_file="preset.xml">
 <images>
     <image name="zcu102_board.jpeg" display_name="ZCU102 BOARD" sub_type="board">
       <description>ZCU102 Board File Image</description>
@@ -646,7 +646,7 @@
       <connection_map name="part0_iic1_pl" typical_delay="5" c1_st_index="8" c1_end_index="9" c2_st_index="0" c2_end_index="1"/>
     </connection>
     <connection name="part0_ddr_sdram" component1="part0" component2="ddr4_sdram">
-      <connection_map name="part0_dip_switches_4bits_1" typical_delay="5" c1_st_index="10" c1_end_index="57" c2_st_index="0" c2_end_index="47"/>
+      <connection_map name="part0_dip_switches_4bits_1" typical_delay="5" c1_st_index="400" c1_end_index="448" c2_st_index="0" c2_end_index="48"/>
     </connection>
     <connection name="part0_reset" component1="part0" component2="reset">
       <connection_map name="part0_reset_1" typical_delay="5" c1_st_index="58" c1_end_index="58" component2="reset" c2_st_index="0" c2_end_index="0"/>

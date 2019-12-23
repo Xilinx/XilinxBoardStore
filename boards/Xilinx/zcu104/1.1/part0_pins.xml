@@ -134,7 +134,7 @@
   <pin index="123" name ="c0_ddr4_dqs7_t" loc="AN9"/>
   <pin index="124" name ="c0_ddr4_odt0" loc="AE15"/>
   <pin index="125" name ="c0_ddr4_odt1" loc="AM16"/>
-  <pin index="126" name ="c0_ddr4_reset_n" iostandard="LVCMOS12" loc="AB14" DRIVE="8"/>
+  <pin index="126" name ="c0_ddr4_reset_n" iostandard="LVCMOS12" loc="AB14" drive="8"/>
   
  
   <pin index="127" name ="CPU_RESET" iostandard="LVCMOS33" loc="M11"/>	
