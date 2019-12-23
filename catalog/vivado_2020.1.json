@@ -1867,13 +1867,13 @@
         "name": "vcu128", 
         "display": "Virtex Ultrascale+ HBM VCU128 Evaluation Platform", 
         "latest_revision": "1.0", 
-        "commit_id": "939bddf00d1004dd38129d318200655baa74b72c", 
+        "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "939bddf00d1004dd38129d318200655baa74b72c", 
+            "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
             "date": "23-12-2019", 
-            "history": "Enabled CED Support"
+            "history": "Updated schema version and addressed linting issues"
           }
         ], 
         "config": {
@@ -1886,13 +1886,13 @@
         "name": "vcu129", 
         "display": "Virtex Ultrascale+ 56G VCU129 Evaluation Platform", 
         "latest_revision": "1.0", 
-        "commit_id": "2601200b8e55efdd25afd7c96b8349d2031be268", 
+        "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "2601200b8e55efdd25afd7c96b8349d2031be268", 
-            "date": "24-07-2019:05:52:57", 
-            "history": "VCU129 ES and prod board files"
+            "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
+            "date": "23-12-2019", 
+            "history": "Updated schema version and addressed linting issues"
           }
         ], 
         "config": {
@@ -1943,13 +1943,13 @@
         "name": "au280", 
         "display": "Alveo U280 Data Center Accelerator Card", 
         "latest_revision": "1.1", 
-        "commit_id": "4b6004bc552bf198bc3c68b1557e09d896fc350a", 
+        "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
         "revisions": [
           {
             "revision": "1.1", 
-            "commit_id": "4b6004bc552bf198bc3c68b1557e09d896fc350a", 
-            "date": "01-11-2019", 
-            "history": "Syncing 2019.2 updates in to HEAD"
+            "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
+            "date": "23-12-2019", 
+            "history": "Updated schema version and addressed linting issues"
           }
         ], 
         "config": {
@@ -2095,13 +2095,13 @@
         "name": "kcu105", 
         "display": "Kintex-UltraScale KCU105 Evaluation Platform", 
         "latest_revision": "1.6", 
-        "commit_id": "4b6004bc552bf198bc3c68b1557e09d896fc350a", 
+        "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
         "revisions": [
           {
             "revision": "1.6", 
-            "commit_id": "4b6004bc552bf198bc3c68b1557e09d896fc350a", 
-            "date": "01-11-2019", 
-            "history": "Syncing 2019.2 updates in to HEAD"
+            "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
+            "date": "23-12-2019", 
+            "history": "Updated schema version and addressed linting issues"
           }
         ], 
         "config": {
@@ -2114,13 +2114,13 @@
         "name": "kcu116", 
         "display": "Kintex UltraScale+ KCU116 Evaluation Platform", 
         "latest_revision": "1.4", 
-        "commit_id": "c0944700b73787b72133d87b7519934741cda4ee", 
+        "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
         "revisions": [
           {
             "revision": "1.4", 
-            "commit_id": "c0944700b73787b72133d87b7519934741cda4ee", 
-            "date": "28-05-2019:11:01:29", 
-            "history": "Migrating 7 series latest board files from perforce to git"
+            "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
+            "date": "23-12-2019", 
+            "history": "Updated schema version and addressed linting issues"
           }
         ], 
         "config": {
@@ -2133,13 +2133,13 @@
         "name": "KCU1500", 
         "display": "Kintex UltraScale KCU1500 Acceleration Development Board", 
         "latest_revision": "1.2", 
-        "commit_id": "c0944700b73787b72133d87b7519934741cda4ee", 
+        "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
         "revisions": [
           {
             "revision": "1.2", 
-            "commit_id": "c0944700b73787b72133d87b7519934741cda4ee", 
-            "date": "28-05-2019:11:01:50", 
-            "history": "Migrating 7 series latest board files from perforce to git"
+            "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
+            "date": "23-12-2019", 
+            "history": "Updated schema version and addressed linting issues"
           }
         ], 
         "config": {
@@ -2152,13 +2152,13 @@
         "name": "vcu108", 
         "display": "Virtex-UltraScale VCU108 Evaluation Platform", 
         "latest_revision": "1.6", 
-        "commit_id": "c0944700b73787b72133d87b7519934741cda4ee", 
+        "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
         "revisions": [
           {
             "revision": "1.6", 
-            "commit_id": "c0944700b73787b72133d87b7519934741cda4ee", 
-            "date": "28-05-2019:11:02:16", 
-            "history": "Migrating 7 series latest board files from perforce to git"
+            "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
+            "date": "23-12-2019", 
+            "history": "Updated schema version and addressed linting issues"
           }
         ], 
         "config": {
@@ -2171,13 +2171,13 @@
         "name": "vcu110", 
         "display": "Virtex-UltraScale VCU110 Evaluation Platform", 
         "latest_revision": "1.4", 
-        "commit_id": "c0944700b73787b72133d87b7519934741cda4ee", 
+        "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
         "revisions": [
           {
             "revision": "1.4", 
-            "commit_id": "c0944700b73787b72133d87b7519934741cda4ee", 
-            "date": "28-05-2019:11:02:44", 
-            "history": "Migrating 7 series latest board files from perforce to git"
+            "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
+            "date": "23-12-2019", 
+            "history": "Updated schema version and addressed linting issues"
           }
         ], 
         "config": {
@@ -2190,13 +2190,13 @@
         "name": "vcu118", 
         "display": "Virtex UltraScale+ VCU118 Evaluation Platform", 
         "latest_revision": "2.3", 
-        "commit_id": "eea37ada8e6c8ebc1b6b4193b09d5fd19fa11fc2", 
+        "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
         "revisions": [
           {
             "revision": "2.3", 
-            "commit_id": "eea37ada8e6c8ebc1b6b4193b09d5fd19fa11fc2", 
-            "date": "28-05-2019:11:03:03", 
-            "history": "Migrating 7 series latest board files from perforce to git"
+            "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
+            "date": "23-12-2019", 
+            "history": "Updated schema version and addressed linting issues"
           }
         ], 
         "config": {
@@ -2228,13 +2228,13 @@
         "name": "VCU1525", 
         "display": "Virtex UltraScale+ VCU1525 Acceleration Development Board", 
         "latest_revision": "1.3", 
-        "commit_id": "c0944700b73787b72133d87b7519934741cda4ee", 
+        "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
         "revisions": [
           {
             "revision": "1.3", 
-            "commit_id": "c0944700b73787b72133d87b7519934741cda4ee", 
-            "date": "28-05-2019:11:03:26", 
-            "history": "Migrating 7 series latest board files from perforce to git"
+            "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
+            "date": "23-12-2019", 
+            "history": "Updated schema version and addressed linting issues"
           }
         ], 
         "config": {
@@ -2456,13 +2456,13 @@
         "name": "au200", 
         "display": "Alveo U200 Data Center Accelerator Card", 
         "latest_revision": "1.3", 
-        "commit_id": "d9e9994b8fbf997a38b04d8eb152483e0b3e41b1", 
+        "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
         "revisions": [
           {
             "revision": "1.3", 
-            "commit_id": "d9e9994b8fbf997a38b04d8eb152483e0b3e41b1", 
-            "date": "01-11-2019", 
-            "history": "Syncing 2019.2 updates in to HEAD"
+            "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
+            "date": "23-12-2019", 
+            "history": "Updated schema version and addressed linting issues"
           }
         ], 
         "config": {
@@ -2494,13 +2494,13 @@
         "name": "au50",
         "display": "Alveo U50 Data Center Accelerator Card",
         "latest_revision": "1.0",
-        "commit_id": "844c035d7586f6b46eabb81106d6a7e6aae121ed",
+        "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "844c035d7586f6b46eabb81106d6a7e6aae121ed",
-            "date": "31-10-2019",
-            "history": "Adding U50 VBS"
+            "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7",
+            "date": "23-12-2019",
+            "history": "Updated schema version and addressed linting issues"
           }
         ],
         "config": {
@@ -2513,13 +2513,13 @@
         "name": "au250", 
         "display": "Alveo U250 Data Center Accelerator Card", 
         "latest_revision": "1.3", 
-        "commit_id": "7dcb9f051cc9cf7638c43f28c33077b02be6f84c", 
+        "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
         "revisions": [
           {
             "revision": "1.3", 
-            "commit_id": "7dcb9f051cc9cf7638c43f28c33077b02be6f84c", 
-            "date": "01-11-2019", 
-            "history": "Syncing 2019.2 updates in to HEAD"
+            "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
+            "date": "12-23-2019", 
+            "history": "Updated schema version and addressed linting issues"
           }
         ], 
         "config": {
