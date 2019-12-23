@@ -1867,13 +1867,13 @@
         "name": "vcu128", 
         "display": "Virtex Ultrascale+ HBM VCU128 Evaluation Platform", 
         "latest_revision": "1.0", 
-        "commit_id": "f2f9f51215c189e4fb2e66dcb014053af3f829ba", 
+        "commit_id": "939bddf00d1004dd38129d318200655baa74b72c", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "f2f9f51215c189e4fb2e66dcb014053af3f829ba", 
-            "date": "04-09-2019", 
-            "history": "Add vcu128 Evaluation Platform Board Files"
+            "commit_id": "939bddf00d1004dd38129d318200655baa74b72c", 
+            "date": "23-12-2019", 
+            "history": "Enabled CED Support"
           }
         ], 
         "config": {
