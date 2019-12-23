@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<board schema_version="2.1" vendor="xilinx.com" name="vcu128" display_name="Virtex Ultrascale+ HBM VCU128 Evaluation Platform" url="www.xilinx.com/vcu128" preset_file="preset.xml" supports_ced="false">
+<board schema_version="2.1" vendor="xilinx.com" name="vcu128" display_name="Virtex Ultrascale+ HBM VCU128 Evaluation Platform" url="www.xilinx.com/vcu128" preset_file="preset.xml" supports_ced="true">
   <images>
     <image name="vcu128_board.jpeg" display_name="VCU128 BOARD" sub_type="board">
       <description>VCU128 Board File Image</description>
