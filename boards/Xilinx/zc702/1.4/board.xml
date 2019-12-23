@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
-<board schema_version="2.0" vendor="xilinx.com" name="zc702" display_name="ZYNQ-7 ZC702 Evaluation Board" url="www.xilinx.com/zc702" preset_file="preset.xml">
+
+<board schema_version="2.2" vendor="xilinx.com" name="zc702" display_name="ZYNQ-7 ZC702 Evaluation Board" url="www.xilinx.com/zc702" preset_file="preset.xml">
   <images>
     <image name="zc702_board.jpg" display_name="ZC702 BOARD" sub_type="board">
       <description>ZC702 Board File Image</description>
@@ -470,7 +471,7 @@
     </connection>
 	
 	<connection name="part0_push_buttons" component1="part0" component2="push_buttons">
-      <connection_map name="part0_push_buttons_1" typical_delay="5" c1_st_index="100" c1_end_index="101" c2_st_index="0" c2_end_index="1"/>
+      <connection_map name="part0_push_buttons_1" typical_delay="5" c1_st_index="200" c1_end_index="201" c2_st_index="0" c2_end_index="1"/>
     </connection>
 	
   </connections>

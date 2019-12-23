@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+
 <part_info part_name="xc7s100fgga676-2">
 <pins>
   <pin index="0"  name ="dip_switches_tri_i_0"  iostandard="LVCMOS18" loc="AD21"/>

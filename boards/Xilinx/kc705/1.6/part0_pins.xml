@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+
 <part_info part_name="xc7k325tffg900-2">
 	<pins>
 		<pin index="0" name ="GPIO_DIP_SW0" iostandard="LVCMOS25" loc="Y29"/>
@@ -151,24 +153,9 @@
 		<pin index="131" name ="SYSCLK_N" iostandard="DIFF_SSTL15" loc="AD11" diff_term="true"/>
 		<pin index="132" name ="CPU_RESET" iostandard="LVCMOS15" loc="AB7"/>
 		
-		<pin index="133" name="FMC_LPC_LA09_P" iostandard="LVCMOS25" loc="AK23"/>
-		<pin index="134" name="FMC_LPC_LA09_N" iostandard="LVCMOS25" loc="AK24"/>
-		<pin index="135" name="FMC_LPC_LA10_P" iostandard="LVCMOS25" loc="AJ24"/>
-		<pin index="136" name="FMC_LPC_LA10_N" iostandard="LVCMOS25" loc="AK25"/>
-		<pin index="137" name="FMC_LPC_LA11_P" iostandard="LVCMOS25" loc="AE25"/>
-		<pin index="138" name="FMC_LPC_LA11_N" iostandard="LVCMOS25" loc="AF25"/>
-		<pin index="139" name="FMC_LPC_LA12_P" iostandard="LVCMOS25" loc="AA20"/>
-		<pin index="140" name="FMC_LPC_LA12_N" iostandard="LVCMOS25" loc="AB20"/>
-		<pin index="141" name="FMC_LPC_LA13_P" iostandard="LVCMOS25" loc="AB24"/>
-		<pin index="142" name="FMC_LPC_LA13_N" iostandard="LVCMOS25" loc="AC25"/>
-		<pin index="143" name="FMC_LPC_LA14_P" iostandard="LVCMOS25" loc="AD21"/>
-		<pin index="144" name="FMC_LPC_LA14_N" iostandard="LVCMOS25" loc="AE21"/>
-		<pin index="145" name="FMC_LPC_LA15_P" iostandard="LVCMOS25" loc="AC24"/>
-		<pin index="146" name="FMC_LPC_LA15_N" iostandard="LVCMOS25" loc="AD24"/>
-		<pin index="147" name="FMC_LPC_LA16_P" iostandard="LVCMOS25" loc="AC22"/>
-		<pin index="148" name="FMC_LPC_LA16_N" iostandard="LVCMOS25" loc="AD22"/>
-		<pin index="149" name="FPGA_FCS" iostandard="LVCMOS25" loc="U19"/>
-	    <pin index="150" name="fmc_hpc_prsnt_m2c_b_ls" iostandard="LVCMOS25" loc="M20"/>
+	
+	<pin index="149" name="FPGA_FCS" iostandard="LVCMOS25" loc="U19"/>
+	<pin index="150" name="fmc_hpc_prsnt_m2c_b_ls" iostandard="LVCMOS25" loc="M20"/>
     <pin index="151" name="fmc_hpc_pg_m2c_ls" iostandard="LVCMOS25" loc="J29"/>
     <pin index="152" name="fmc_hpc_la16_p" iostandard="LVCMOS25" loc="B27"/>
     <pin index="153" name="fmc_hpc_la16_n" iostandard="LVCMOS25" loc="A27"/>

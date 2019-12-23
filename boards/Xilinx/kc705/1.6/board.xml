@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+
 <board schema_version="2.1" vendor="xilinx.com" name="kc705" display_name="Kintex-7 KC705 Evaluation Platform" url="www.xilinx.com/kc705" preset_file="preset.xml">
   <images>
     <image name="kc705_board.jpeg" display_name="KC705 BOARD" sub_type="board">

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
-<board schema_version="2.0" vendor="xilinx.com" name="SP701" display_name="Spartan-7 SP701 Evaluation Platform" url="www.xilinx.com/SP701" preset_file="preset.xml">
+
+<board schema_version="2.2" vendor="xilinx.com" name="SP701" display_name="Spartan-7 SP701 Evaluation Platform" url="www.xilinx.com/SP701" preset_file="preset.xml">
   <images>
     <image name="sp701_board.jpg" display_name="SP701 BOARD" sub_type="board">
       <description>SP701 Board File Image</description>

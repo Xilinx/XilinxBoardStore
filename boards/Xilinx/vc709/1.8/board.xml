@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
-<board schema_version="2.1" vendor="xilinx.com" name="vc709" display_name="Virtex-7 VC709 Evaluation Platform" url="www.xilinx.com/vc709" preset_file="preset.xml">
+
+<board schema_version="2.2" vendor="xilinx.com" name="vc709" display_name="Virtex-7 VC709 Evaluation Platform" url="www.xilinx.com/vc709" preset_file="preset.xml">
   <images>
     <image name="vc709_board.jpg" display_name="VC709 BOARD" sub_type="board">
       <description>VC709 Board File Image</description>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+
 <part_info part_name="xc7z045ffg900-2">
 <pins>
   <pin index="0" name ="clk_n" iostandard="LVDS" loc="G9"/>

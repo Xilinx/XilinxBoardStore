@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
-<board schema_version="2.0" vendor="xilinx.com" name="ac701" display_name="Artix-7 AC701 Evaluation Platform" url="www.xilinx.com/ac701" preset_file="preset.xml">
+
+<board schema_version="2.2" vendor="xilinx.com" name="ac701" display_name="Artix-7 AC701 Evaluation Platform" url="www.xilinx.com/ac701" preset_file="preset.xml">
   <images>
     <image name="ac701_board.jpg" display_name="AC701 BOARD" sub_type="board">
       <description>AC701 Board File Image</description>
@@ -1083,7 +1084,8 @@
     <connection_map name="part0_fmc1_hpc_ha12_n" c1_st_index="269" c1_end_index="269" c2_st_index="214" c2_end_index="214" />
     <connection_map name="part0_fmc1_hpc_ha07_p" c1_st_index="270" c1_end_index="270" c2_st_index="329" c2_end_index="329" />
     <connection_map name="part0_fmc1_hpc_ha07_n" c1_st_index="271" c1_end_index="271" c2_st_index="330" c2_end_index="330" />
-    <connection_map name="part0_fmc1_hpc_dp3_c2m_p" c1_st_index="272" c1_end_index="272" c2_st_index="30" c2_end_index="30" />
+	
+<!--     <connection_map name="part0_fmc1_hpc_dp3_c2m_p" c1_st_index="272" c1_end_index="272" c2_st_index="30" c2_end_index="30" />
     <connection_map name="part0_fmc1_hpc_dp3_m2c_p" c1_st_index="273" c1_end_index="273" c2_st_index="10" c2_end_index="10" />
     <connection_map name="part0_fmc1_hpc_dp3_c2m_n" c1_st_index="274" c1_end_index="274" c2_st_index="31" c2_end_index="31" />
     <connection_map name="part0_fmc1_hpc_dp3_m2c_n" c1_st_index="275" c1_end_index="275" c2_st_index="11" c2_end_index="11" />
@@ -1094,7 +1096,7 @@
     <connection_map name="part0_fmc1_hpc_dp2_m2c_n" c1_st_index="280" c1_end_index="280" c2_st_index="7" c2_end_index="7" />
     <connection_map name="part0_fmc1_hpc_gbtclk0_m2c_n" c1_st_index="281" c1_end_index="281" c2_st_index="125" c2_end_index="125" />
     <connection_map name="part0_fmc1_hpc_gbtclk1_m2c_n" c1_st_index="282" c1_end_index="282" c2_st_index="61" c2_end_index="61" />
-    <connection_map name="part0_fmc1_hpc_gbtclk1_m2c_p" c1_st_index="283" c1_end_index="283" c2_st_index="60" c2_end_index="60" />
+    <connection_map name="part0_fmc1_hpc_gbtclk1_m2c_p" c1_st_index="283" c1_end_index="283" c2_st_index="60" c2_end_index="60" /> -->
 	
     <connection_map name="part0_fmc1_hpc_dp1_c2m_p" c1_st_index="284" c1_end_index="284" c2_st_index="22" c2_end_index="22" />
     <connection_map name="part0_fmc1_hpc_dp1_c2m_n" c1_st_index="285" c1_end_index="285" c2_st_index="23" c2_end_index="23" />
