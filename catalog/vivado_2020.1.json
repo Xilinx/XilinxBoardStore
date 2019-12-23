@@ -1962,13 +1962,13 @@
         "name": "ac701", 
         "display": "Artix-7 AC701 Evaluation Platform", 
         "latest_revision": "1.4", 
-        "commit_id": "b6b08e53750126f55d887391bb52976b76cecc15", 
+        "commit_id": "d9b2745df6986d22940bf23f9b3dc4d9a5a69b20", 
         "revisions": [
           {
             "revision": "1.4", 
-            "commit_id": "b6b08e53750126f55d887391bb52976b76cecc15", 
-            "date": "28-05-2019:10:52:07", 
-            "history": "Migrating 7 series latest board files from perforce to git"
+            "commit_id": "d9b2745df6986d22940bf23f9b3dc4d9a5a69b20", 
+            "date": "23-12-2019", 
+            "history": "Updated schema version and addressed linting issues"
           }
         ], 
         "config": {
@@ -1981,13 +1981,13 @@
         "name": "kc705", 
         "display": "Kintex-7 KC705 Evaluation Platform", 
         "latest_revision": "1.6", 
-        "commit_id": "b6b08e53750126f55d887391bb52976b76cecc15", 
+        "commit_id": "d9b2745df6986d22940bf23f9b3dc4d9a5a69b20", 
         "revisions": [
           {
             "revision": "1.6", 
-            "commit_id": "b6b08e53750126f55d887391bb52976b76cecc15", 
-            "date": "28-05-2019:10:55:41", 
-            "history": "Migrating 7 series latest board files from perforce to git"
+            "commit_id": "d9b2745df6986d22940bf23f9b3dc4d9a5a69b20", 
+            "date": "23-12-2019", 
+            "history": "Updated schema version and addressed linting issues"
           }
         ], 
         "config": {
@@ -2000,13 +2000,13 @@
         "name": "SP701", 
         "display": "Spartan-7 SP701 Evaluation Platform", 
         "latest_revision": "1.0", 
-        "commit_id": "b6b08e53750126f55d887391bb52976b76cecc15", 
+        "commit_id": "d9b2745df6986d22940bf23f9b3dc4d9a5a69b20", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "b6b08e53750126f55d887391bb52976b76cecc15", 
-            "date": "28-05-2019:10:57:28", 
-            "history": "Migrating 7 series latest board files from perforce to git"
+            "commit_id": "d9b2745df6986d22940bf23f9b3dc4d9a5a69b20", 
+            "date": "23-12-2019", 
+            "history": "Updated schema version and addressed linting issues"
           }
         ], 
         "config": {
@@ -2019,13 +2019,13 @@
         "name": "vc707", 
         "display": "Virtex-7 VC707 Evaluation Platform", 
         "latest_revision": "1.4", 
-        "commit_id": "fc96e4d7b3df6410fc8bab589e761ee52dd2d48c", 
+        "commit_id": "d9b2745df6986d22940bf23f9b3dc4d9a5a69b20", 
         "revisions": [
           {
             "revision": "1.4", 
-            "commit_id": "fc96e4d7b3df6410fc8bab589e761ee52dd2d48c", 
-            "date": "20-12-2019", 
-            "history": "Added 50Mhz additional clk to help build generic CEDs"
+            "commit_id": "d9b2745df6986d22940bf23f9b3dc4d9a5a69b20", 
+            "date": "23-12-2019", 
+            "history": "Added 50Mhz additional clk to help build generic CEDs and updated schema version and addressed linting issues"
           }
         ], 
         "config": {
@@ -2038,13 +2038,13 @@
         "name": "vc709", 
         "display": "Virtex-7 VC709 Evaluation Platform", 
         "latest_revision": "1.8", 
-        "commit_id": "b6b08e53750126f55d887391bb52976b76cecc15", 
+        "commit_id": "d9b2745df6986d22940bf23f9b3dc4d9a5a69b20", 
         "revisions": [
           {
             "revision": "1.8", 
-            "commit_id": "b6b08e53750126f55d887391bb52976b76cecc15", 
-            "date": "28-05-2019:10:58:06", 
-            "history": "Migrating 7 series latest board files from perforce to git"
+            "commit_id": "d9b2745df6986d22940bf23f9b3dc4d9a5a69b20", 
+            "date": "23-12-2019", 
+            "history": "Updated schema version and addressed linting issues"
           }
         ], 
         "config": {
@@ -2057,13 +2057,13 @@
         "name": "zc702", 
         "display": "ZYNQ-7 ZC702 Evaluation Board", 
         "latest_revision": "1.4", 
-        "commit_id": "b6b08e53750126f55d887391bb52976b76cecc15", 
+        "commit_id": "d9b2745df6986d22940bf23f9b3dc4d9a5a69b20", 
         "revisions": [
           {
             "revision": "1.4", 
-            "commit_id": "b6b08e53750126f55d887391bb52976b76cecc15", 
-            "date": "28-05-2019:10:58:35", 
-            "history": "Migrating 7 series latest board files from perforce to git"
+            "commit_id": "d9b2745df6986d22940bf23f9b3dc4d9a5a69b20", 
+            "date": "23-12-2019", 
+            "history": "Updated schema version and addressed linting issues"
           }
         ], 
         "config": {
@@ -2076,13 +2076,13 @@
         "name": "zc706", 
         "display": "ZYNQ-7 zc706 Evaluation Board", 
         "latest_revision": "1.4", 
-        "commit_id": "b6b08e53750126f55d887391bb52976b76cecc15", 
+        "commit_id": "d9b2745df6986d22940bf23f9b3dc4d9a5a69b20", 
         "revisions": [
           {
             "revision": "1.4", 
-            "commit_id": "b6b08e53750126f55d887391bb52976b76cecc15", 
-            "date": "28-05-2019:10:58:48", 
-            "history": "Migrating 7 series latest board files from perforce to git"
+            "commit_id": "d9b2745df6986d22940bf23f9b3dc4d9a5a69b20", 
+            "date": "23-12-2019", 
+            "history": "Updated schema version and addressed linting issues"
           }
         ], 
         "config": {
