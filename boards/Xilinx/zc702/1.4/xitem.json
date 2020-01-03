@@ -16,7 +16,8 @@
               "url": "www.xilinx.com"
             }
           ], 
-          "category": "Single Part", 
+          "category": "Single Part",
+          "logo": "zc702_board.jpg",
           "website": "http://www.xilinx.com/zc702", 
           "search-keywords": [
             "zc702", 
