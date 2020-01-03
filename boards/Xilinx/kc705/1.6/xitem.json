@@ -16,7 +16,8 @@
               "url": "www.xilinx.com"
             }
           ], 
-          "category": "Single Part", 
+          "category": "Single Part",
+          "logo": "kc705_board.jpeg",
           "website": "http://www.xilinx.com/kc705", 
           "search-keywords": [
             "kc705", 
