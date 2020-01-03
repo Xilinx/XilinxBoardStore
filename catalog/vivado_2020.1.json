@@ -2095,11 +2095,11 @@
         "name": "kcu105", 
         "display": "Kintex-UltraScale KCU105 Evaluation Platform", 
         "latest_revision": "1.6", 
-        "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
+        "commit_id": "8b4c320d6c8d464e83c5723bc964f73b0adc4eb5", 
         "revisions": [
           {
             "revision": "1.6", 
-            "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
+            "commit_id": "8b4c320d6c8d464e83c5723bc964f73b0adc4eb5", 
             "date": "23-12-2019", 
             "history": "Updated schema version and addressed linting issues"
           }
