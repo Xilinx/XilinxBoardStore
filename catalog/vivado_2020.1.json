@@ -2456,11 +2456,11 @@
         "name": "au200", 
         "display": "Alveo U200 Data Center Accelerator Card", 
         "latest_revision": "1.3", 
-        "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
+        "commit_id": "9d7f502d474b8cf713a42b79a9bec7e5a34489f4", 
         "revisions": [
           {
             "revision": "1.3", 
-            "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
+            "commit_id": "9d7f502d474b8cf713a42b79a9bec7e5a34489f4", 
             "date": "23-12-2019", 
             "history": "Updated schema version and addressed linting issues"
           }
