@@ -1943,12 +1943,12 @@
         "name": "au280", 
         "display": "Alveo U280 Data Center Accelerator Card", 
         "latest_revision": "1.1", 
-        "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
+        "commit_id": "e4828bb37aeca2495a8e5b7855e435a6e364e2bb", 
         "revisions": [
           {
             "revision": "1.1", 
-            "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
-            "date": "23-12-2019", 
+            "commit_id": "e4828bb37aeca2495a8e5b7855e435a6e364e2bb", 
+            "date": "03-01-2020", 
             "history": "Updated schema version and addressed linting issues"
           }
         ], 
