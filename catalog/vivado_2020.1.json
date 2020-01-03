@@ -2114,12 +2114,12 @@
         "name": "kcu116", 
         "display": "Kintex UltraScale+ KCU116 Evaluation Platform", 
         "latest_revision": "1.4", 
-        "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
+        "commit_id": "5ae9c47f6260b41322b9e0a64d9cea23d0adc087", 
         "revisions": [
           {
             "revision": "1.4", 
-            "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
-            "date": "23-12-2019", 
+            "commit_id": "5ae9c47f6260b41322b9e0a64d9cea23d0adc087", 
+            "date": "03-01-2020", 
             "history": "Updated schema version and addressed linting issues"
           }
         ], 
