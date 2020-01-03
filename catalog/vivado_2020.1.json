@@ -2133,11 +2133,11 @@
         "name": "KCU1500", 
         "display": "Kintex UltraScale KCU1500 Acceleration Development Board", 
         "latest_revision": "1.2", 
-        "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
+        "commit_id": "28efc5b2359c7673645ac6ad5fa07c22725b31cc", 
         "revisions": [
           {
             "revision": "1.2", 
-            "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7", 
+            "commit_id": "28efc5b2359c7673645ac6ad5fa07c22725b31cc", 
             "date": "23-12-2019", 
             "history": "Updated schema version and addressed linting issues"
           }
