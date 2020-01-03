@@ -16,7 +16,8 @@
               "url": "www.xilinx.com"
             }
           ], 
-          "category": "Single Part", 
+          "category": "Single Part",
+          "logo": "au250_image.jpg",
           "website": "http://www.xilinx.com/u250", 
           "search-keywords": [
             "au250", 
