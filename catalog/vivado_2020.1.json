@@ -1981,11 +1981,11 @@
         "name": "kc705", 
         "display": "Kintex-7 KC705 Evaluation Platform", 
         "latest_revision": "1.6", 
-        "commit_id": "d9b2745df6986d22940bf23f9b3dc4d9a5a69b20", 
+        "commit_id": "a17a0735b5a4896b85054049b6c2b357305ede45", 
         "revisions": [
           {
             "revision": "1.6", 
-            "commit_id": "d9b2745df6986d22940bf23f9b3dc4d9a5a69b20", 
+            "commit_id": "a17a0735b5a4896b85054049b6c2b357305ede45", 
             "date": "23-12-2019", 
             "history": "Updated schema version and addressed linting issues"
           }
