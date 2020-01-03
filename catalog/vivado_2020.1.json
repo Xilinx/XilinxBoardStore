@@ -1962,11 +1962,11 @@
         "name": "ac701", 
         "display": "Artix-7 AC701 Evaluation Platform", 
         "latest_revision": "1.4", 
-        "commit_id": "d9b2745df6986d22940bf23f9b3dc4d9a5a69b20", 
+        "commit_id": "506ede0c22473f94dff3a387cd0f4b021ae5f326", 
         "revisions": [
           {
             "revision": "1.4", 
-            "commit_id": "d9b2745df6986d22940bf23f9b3dc4d9a5a69b20", 
+            "commit_id": "506ede0c22473f94dff3a387cd0f4b021ae5f326", 
             "date": "23-12-2019", 
             "history": "Updated schema version and addressed linting issues"
           }
