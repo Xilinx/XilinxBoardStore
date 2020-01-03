@@ -2437,11 +2437,11 @@
         "name": "au200", 
         "display": "Alveo U200 Data Center Accelerator Card", 
         "latest_revision": "1.2", 
-        "commit_id": "78a40f24814d17be871b6912ad0ab3dad5156cb1", 
+        "commit_id": "16da2698918d597e37bcfdca06d1a429616952d2", 
         "revisions": [
           {
             "revision": "1.2", 
-           "commit_id": "78a40f24814d17be871b6912ad0ab3dad5156cb1", 
+           "commit_id": "16da2698918d597e37bcfdca06d1a429616952d2", 
             "date": "18-12-2019", 
             "history": "Modifying preset.xml for au200"
           }
