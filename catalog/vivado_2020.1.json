@@ -2057,11 +2057,11 @@
         "name": "zc702", 
         "display": "ZYNQ-7 ZC702 Evaluation Board", 
         "latest_revision": "1.4", 
-        "commit_id": "d9b2745df6986d22940bf23f9b3dc4d9a5a69b20", 
+        "commit_id": "e1d520502a8eb39e0b28a2d564e297ce1bd54c54", 
         "revisions": [
           {
             "revision": "1.4", 
-            "commit_id": "d9b2745df6986d22940bf23f9b3dc4d9a5a69b20", 
+            "commit_id": "e1d520502a8eb39e0b28a2d564e297ce1bd54c54", 
             "date": "23-12-2019", 
             "history": "Updated schema version and addressed linting issues"
           }
