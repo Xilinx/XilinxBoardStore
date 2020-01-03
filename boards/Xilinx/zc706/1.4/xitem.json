@@ -16,7 +16,8 @@
               "url": "www.xilinx.com"
             }
           ], 
-          "category": "Single Part", 
+          "category": "Single Part",
+          "logo": "zc706_board.jpg",
           "website": "http://www.xilinx.com/zc706", 
           "search-keywords": [
             "zc706", 
