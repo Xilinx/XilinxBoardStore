@@ -73,7 +73,6 @@
     <pin index="64"  name ="c1_ddr4_ck_t"       loc="G24" />
     <pin index="65"  name ="c1_ddr4_cke"        loc="M24" />
     <pin index="66"  name ="c1_ddr4_cs_n"       loc="H23" />
-
     <pin index="67"  name ="c1_ddr4_dq0"       loc="C22" />
     <pin index="68"  name ="c1_ddr4_dq1"       loc="B24" />
     <pin index="69"  name ="c1_ddr4_dq2"       loc="C23" />
@@ -106,25 +105,20 @@
     <pin index="96"  name ="c1_ddr4_dq29"      loc="C16" />
     <pin index="97"  name ="c1_ddr4_dq30"      loc="H16" />
     <pin index="98"  name ="c1_ddr4_dq31"      loc="G17" />
-  
-  
-    <pin index="131" name ="c1_ddr4_dqs_c0"     loc="B21" />
-    <pin index="132" name ="c1_ddr4_dqs_c1"     loc="A18" />
-    <pin index="133" name ="c1_ddr4_dqs_c2"     loc="E20" />
-    <pin index="134" name ="c1_ddr4_dqs_c3"     loc="E17" />
-
-    <pin index="139" name ="c1_ddr4_dqs_t0"     loc="C21" />
-    <pin index="140" name ="c1_ddr4_dqs_t1"     loc="A17" />
-    <pin index="141" name ="c1_ddr4_dqs_t2"     loc="F20" />
-    <pin index="142" name ="c1_ddr4_dqs_t3"     loc="E16" />
-
-    <pin index="147" name ="c1_ddr4_dm_dbi_n0"   loc="A22" />
-    <pin index="148" name ="c1_ddr4_dm_dbi_n1"   loc="C18" />
-    <pin index="149" name ="c1_ddr4_dm_dbi_n2"   loc="H18" />
-    <pin index="150" name ="c1_ddr4_dm_dbi_n3"   loc="G15" />
-											   
-	<pin index="155" name ="c1_ddr4_odt"         loc="H24" />
-    <pin index="156" name ="c1_ddr4_reset_n"   iostandard="LVCMOS12"        loc="L25" drive="8"/>
+    <pin index="99"  name ="c1_ddr4_dqs_c0"     loc="B21" />
+    <pin index="100" name ="c1_ddr4_dqs_c1"     loc="A18" />
+    <pin index="101" name ="c1_ddr4_dqs_c2"     loc="E20" />
+    <pin index="102" name ="c1_ddr4_dqs_c3"     loc="E17" />
+	<pin index="103" name ="c1_ddr4_dqs_t0"     loc="C21" />
+    <pin index="104" name ="c1_ddr4_dqs_t1"     loc="A17" />
+    <pin index="105" name ="c1_ddr4_dqs_t2"     loc="F20" />
+    <pin index="106" name ="c1_ddr4_dqs_t3"     loc="E16" />
+    <pin index="107" name ="c1_ddr4_dm_dbi_n0"   loc="A22" />
+    <pin index="108" name ="c1_ddr4_dm_dbi_n1"   loc="C18" />
+    <pin index="109" name ="c1_ddr4_dm_dbi_n2"   loc="H18" />
+    <pin index="110" name ="c1_ddr4_dm_dbi_n3"   loc="G15" />
+	<pin index="111" name ="c1_ddr4_odt"         loc="H24" />
+    <pin index="112" name ="c1_ddr4_reset_n"   iostandard="LVCMOS12"        loc="L25" drive="8"/>
 	
     <pin index="157" name ="pcie_mgt_clkn" loc="V6"/>
     <pin index="158" name ="pcie_mgt_clkp" loc="V7"/>

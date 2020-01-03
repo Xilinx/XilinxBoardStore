@@ -1059,8 +1059,9 @@
     <connection_map name="part0_fmc_hpc0_dp3_c2m_p" c1_st_index="280" c1_end_index="280" c2_st_index="30" c2_end_index="30" />	
 	<connection_map name="part0_fmc_hpc0_dp3_c2m_n" c1_st_index="281" c1_end_index="281" c2_st_index="31" c2_end_index="31" />		
     <connection_map name="part0_fmc_hpc0_dp3_m2c_p" c1_st_index="282" c1_end_index="282" c2_st_index="10" c2_end_index="10" />	
-	<connection_map name="part0_fmc_hpc0_dp3_m2c_n" c1_st_index="283" c1_end_index="283" c2_st_index="11" c2_end_index="11" />		
-    <connection_map name="part0_fmc_hpc0_dp4_c2m_p" c1_st_index="284" c1_end_index="284" c2_st_index="34" c2_end_index="34" />	
+	<connection_map name="part0_fmc_hpc0_dp3_m2c_n" c1_st_index="283" c1_end_index="283" c2_st_index="11" c2_end_index="11" />	
+	
+<!--     <connection_map name="part0_fmc_hpc0_dp4_c2m_p" c1_st_index="284" c1_end_index="284" c2_st_index="34" c2_end_index="34" />	
 	<connection_map name="part0_fmc_hpc0_dp4_c2m_n" c1_st_index="285" c1_end_index="285" c2_st_index="35" c2_end_index="35" />		
     <connection_map name="part0_fmc_hpc0_dp4_m2c_p" c1_st_index="286" c1_end_index="286" c2_st_index="14" c2_end_index="14" />	
 	<connection_map name="part0_fmc_hpc0_dp4_m2c_n" c1_st_index="287" c1_end_index="287" c2_st_index="15" c2_end_index="15" />		
@@ -1075,11 +1076,14 @@
     <connection_map name="part0_fmc_hpc0_dp7_c2m_p" c1_st_index="296" c1_end_index="296" c2_st_index="72" c2_end_index="72" />	
 	<connection_map name="part0_fmc_hpc0_dp7_c2m_n" c1_st_index="297" c1_end_index="297" c2_st_index="73" c2_end_index="73" />		
     <connection_map name="part0_fmc_hpc0_dp7_m2c_p" c1_st_index="298" c1_end_index="298" c2_st_index="52" c2_end_index="52" />	
-	<connection_map name="part0_fmc_hpc0_dp7_m2c_n" c1_st_index="299" c1_end_index="299" c2_st_index="53" c2_end_index="53" />		
+	<connection_map name="part0_fmc_hpc0_dp7_m2c_n" c1_st_index="299" c1_end_index="299" c2_st_index="53" c2_end_index="53" /> -->	
+	
     <connection_map name="part0_fmc_hpc0_clk0_m2c_n" c1_st_index="300" c1_end_index="300" c2_st_index="285" c2_end_index="285" />	
 	<connection_map name="part0_fmc_hpc0_clk0_m2c_p" c1_st_index="301" c1_end_index="301" c2_st_index="284" c2_end_index="284" />	
-    <connection_map name="part0_fmc_hpc0_clk1_m2c_n" c1_st_index="302" c1_end_index="302" c2_st_index="243" c2_end_index="243" />	
-	<connection_map name="part0_fmc_hpc0_clk1_m2c_n" c1_st_index="303" c1_end_index="303" c2_st_index="242" c2_end_index="242" />
+	
+<!--     <connection_map name="part0_fmc_hpc0_clk1_m2c_n" c1_st_index="302" c1_end_index="302" c2_st_index="243" c2_end_index="243" />	
+	<connection_map name="part0_fmc_hpc0_clk1_m2c_n" c1_st_index="303" c1_end_index="303" c2_st_index="242" c2_end_index="242" /> -->
+	
     <connection_map name="part0_fmc_hpc0_gbtclk0_m2c_p" c1_st_index="304" c1_end_index="304" c2_st_index="124" c2_end_index="124" />	
 	<connection_map name="part0_fmc_hpc0_gbtclk0_m2c_n" c1_st_index="305" c1_end_index="305" c2_st_index="125" c2_end_index="125" />	
     <connection_map name="part0_fmc_hpc0_gbtclk1_m2c_p" c1_st_index="306" c1_end_index="306" c2_st_index="60" c2_end_index="60" />	
@@ -1099,7 +1103,7 @@
       <connection_map name="part0_phy_onboard_1" typical_delay="5" c1_st_index="4" c1_end_index="7" c2_st_index="0" c2_end_index="3"/>
     </connection>
     <connection name="part0_iic_main" component1="part0" component2="iic_main">
-      <connection_map name="part0_iic_main_1" typical_delay="5" c1_st_index="8" c1_end_index="10" c2_st_index="0" c2_end_index="2"/>
+      <connection_map name="part0_iic_main_1" typical_delay="5" c1_st_index="9" c1_end_index="10" c2_st_index="0" c2_end_index="1"/>
     </connection>
     <connection name="part0_led_8bits" component1="part0" component2="led_8bits">
       <connection_map name="part0_led_8bits_1" typical_delay="5" c1_st_index="11" c1_end_index="18" c2_st_index="0" c2_end_index="7"/>
@@ -1133,7 +1137,7 @@
       <connection_map name="part0_user_sma_clock_1" typical_delay="5" c1_st_index="36" c1_end_index="37" c2_st_index="0" c2_end_index="1"/>
     </connection>
     <connection name="part0_ddr4_sdramc1" component1="part0" component2="ddr4_sdram_c1">
-      <connection_map name="part0_dip_switches_4bits_1" typical_delay="5" c1_st_index="42" c1_end_index="156" c2_st_index="0" c2_end_index="114"/>
+      <connection_map name="part0_dip_switches_4bits_1" typical_delay="5" c1_st_index="42" c1_end_index="112" c2_st_index="0" c2_end_index="70"/>
     </connection>
     <connection name="part0_pcie_refclk" component1="part0" component2="pcie_refclk">
       <connection_map name="part0_pcie_refclk1" typical_delay="5" c1_st_index="157" c1_end_index="158" c2_st_index="0" c2_end_index="1"/>
@@ -1147,9 +1151,9 @@
     <!-- <connection name="part0_sysclk_125" component1="part0" component2="sysclk_125"> -->
       <!-- <connection_map name="part0_sys_clk_125_1" typical_delay="5" c1_st_index="192" c1_end_index="193" c2_st_index="0" c2_end_index="1"/> -->
     <!-- </connection> -->
-    <connection name="part0_ddr4_sdram_c2" component1="part0" component2="ddr4_sdram_c2">
+<!--     <connection name="part0_ddr4_sdram_c2" component1="part0" component2="ddr4_sdram_c2">
       <connection_map name="part0_dip_switches_4bits_1" typical_delay="5" c1_st_index="196" c1_end_index="310" c2_st_index="0" c2_end_index="114"/>
-    </connection>
+    </connection> -->
  </connections>
  
  <ip_associated_rules>
