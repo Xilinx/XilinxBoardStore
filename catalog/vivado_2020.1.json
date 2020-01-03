@@ -2494,11 +2494,11 @@
         "name": "au50",
         "display": "Alveo U50 Data Center Accelerator Card",
         "latest_revision": "1.0",
-        "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7",
+        "commit_id": "3bdf9b5c4dc447acc51df6a6305404d584f091a1",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "4ab82adf390247cd822230e623150ef551fdf8b7",
+            "commit_id": "3bdf9b5c4dc447acc51df6a6305404d584f091a1",
             "date": "23-12-2019",
             "history": "Updated schema version and addressed linting issues"
           }
