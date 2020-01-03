@@ -16,7 +16,8 @@
               "url": "www.xilinx.com"
             }
           ], 
-          "category": "Single Part", 
+          "category": "Single Part",
+          "logo": "kcu105_board.jpeg",
           "website": "www.xilinx.com/kcu105", 
           "search-keywords": [
             "kcu105", 
