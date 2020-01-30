@@ -2358,6 +2358,25 @@
         "company": "xilinx.com"
       }, 
       {
+        "name": "zcu208", 
+        "display": "Zynq UltraScale+ ZCU208 Evaluation Platform", 
+        "latest_revision": "1.0", 
+        "commit_id": "1116d76c190aa88930f85d9c548739e68cf59f40", 
+        "revisions": [
+          {
+            "revision": "1.0", 
+            "commit_id": "1116d76c190aa88930f85d9c548739e68cf59f40", 
+            "date": "30-01-2020:11:04:52", 
+            "history": "ZCU208 initial board files (2019.2.2)"
+          }
+        ], 
+        "config": {
+          "root": "boards/Xilinx/zcu216/es/1.0", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
+      }, 
+      {
         "name": "zcu1275", 
         "display": "Xilinx Zynq UltraScale+ RFSoC ZCU1275 Characterization Kit", 
         "latest_revision": "1.0", 
