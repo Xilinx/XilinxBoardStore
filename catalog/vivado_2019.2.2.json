@@ -2371,7 +2371,7 @@
           }
         ], 
         "config": {
-          "root": "boards/Xilinx/zcu216/es/1.0", 
+          "root": "boards/Xilinx/zcu208/es/1.0", 
           "metadata_file": "xitem.json"
         }, 
         "company": "xilinx.com"
