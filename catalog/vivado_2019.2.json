@@ -2513,13 +2513,13 @@
         "name": "au50",
         "display": "Alveo U50 Data Center Accelerator Card",
         "latest_revision": "1.0",
-        "commit_id": "ac855f447a7ac1b5b0825e4173674054e4ffb972",
+        "commit_id": "fc2fd67802cc686d7246322c0eaf2e6ebfff7820",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "ac855f447a7ac1b5b0825e4173674054e4ffb972",
-            "date": "27-11-2019",
-            "history": "U50 VBS"
+            "commit_id": "fc2fd67802cc686d7246322c0eaf2e6ebfff7820",
+            "date": "02-03-2020",
+            "history": "Swap the pin numbers of FPGA_TXD_MSP and FPGA_RXD_MSP"
           }
         ],
         "config": {
