@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<board schema_version="2.1" vendor="xilinx.com" name="au50" display_name="Alveo U50 Data Center Accelerator Card" url="http://www.xilinx.com/u50" preset_file="preset.xml" supports_ced="false">
+<board schema_version="2.2" vendor="xilinx.com" name="au50" display_name="Alveo U50 Data Center Accelerator Card" url="http://www.xilinx.com/u50" preset_file="preset.xml" supports_ced="false">
   <images>
     <image name="au50_image.jpg" display_name="Alveo U50 Data Center Accelerator Card" sub_type="board" resolution="high">
       <description>Alveo U50 Data Center Accelerator Card</description>
@@ -22,10 +22,32 @@
   <jumpers>
   </jumpers>
 
+  <data_properties>
+    <data_property_group name="OPERATING_CONDITIONS">
+      <data_property_group name="SUPPLY_CURRENT_BUDGET">
+        <data_property name="VCCINT"     value="42"/>
+        <data_property name="VCCINT_IO"  value="7.38"/>
+        <data_property name="VCCBRAM"    value="1.62"/>
+        <data_property name="VCCAUX"     value="1.19"/>
+        <data_property name="VCCAUX_IO"  value="0.056"/>
+        <data_property name="VCCO18"     value="0.014"/>
+        <data_property name="VCC_IO_HBM" value="3.84"/>
+        <data_property name="VCC_HBM"    value="4.16"/>
+        <data_property name="VCCAUX_HBM" value="0.2"/>
+        <data_property name="MGTYVCCAUX" value="0.144"/>
+        <data_property name="MGTYAVCC"   value="1.4"/>
+        <data_property name="MGTYAVTT"   value="3.6"/>
+        <data_property name="VCCADC"     value="0.02"/>
+      </data_property_group> 
+      <data_property name="THETAJA" value="0.75"/>
+      <data_property name="AMBIENT_TEMP" value="55"/>
+      <data_property name="DESIGN_POWER_BUDGET" value="60"/>
+    </data_property_group>
+  </data_properties>
   <components>
 
 
-    <component name="part0" display_name="XCU50 FPGA" type="fpga" part_name="xcu50-fsvh2104-2L-e" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="http://www.xilinx.com/u50">
+    <component name="part0" display_name="XCU50 FPGA" type="fpga" part_name="xcu50-fsvh2104-2-e" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="http://www.xilinx.com/u50">
       <description>XCU50 FPGA</description>
 
 
@@ -67,7 +89,7 @@
           </port_maps>
         </interface>
 
-		<interface mode="master" name="rs232_fpga_msp" type="xilinx.com:interface:uart_rtl:1.0" of_component="rs232_fpga_msp">>>
+		<interface mode="master" name="rs232_fpga_msp" type="xilinx.com:interface:uart_rtl:1.0" of_component="rs232_fpga_msp">
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="axi_uart16550" order="0"/>
           </preferred_ips>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<part_info part_name="xcu50-fsvh2104-2L-e">
+<part_info part_name="xcu50-fsvh2104-2-e">
 
   <pins>
 
@@ -16,8 +16,8 @@
     <pin index="7"   name ="SFPDD_1_STATUS_LEDG"  iostandard="LVCMOS18" loc="F15" drive="8"/>
     <pin index="8"   name ="SFPDD_1_STATUS_LEDY"  iostandard="LVCMOS18" loc="E17" drive="8"/>
 
-    <pin index="9"   name ="FPGA_TXD_MSP"  iostandard="LVCMOS18" loc="BB26"/>
-    <pin index="10"  name ="FPGA_RXD_MSP"  iostandard="LVCMOS18" loc="BB25"/>
+    <pin index="9"   name ="FPGA_TXD_MSP"  iostandard="LVCMOS18" loc="BB25"/>
+    <pin index="10"  name ="FPGA_RXD_MSP"  iostandard="LVCMOS18" loc="BB26"/>
 
     <pin index="11"  name ="SI_RSTBB"    iostandard="LVCMOS18" loc="F20"/>
     <pin index="12"  name ="SI_INTRB"    iostandard="LVCMOS18" loc="H18"/>
