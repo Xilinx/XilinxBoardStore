@@ -9,12 +9,12 @@
 
     <pin index="2"   name ="HBM_CATTRIP"     iostandard="LVCMOS18" loc="J18"/>
 
-    <pin index="3"   name ="SFPDD_0_ACTIVITY_LED" iostandard="LVCMOS18" loc="E18" drive="8"/>
-    <pin index="4"   name ="SFPDD_0_STATUS_LEDG"  iostandard="LVCMOS18" loc="E16" drive="8"/>
-    <pin index="5"   name ="SFPDD_0_STATUS_LEDY"  iostandard="LVCMOS18" loc="F17" drive="8"/>
-    <pin index="6"   name ="SFPDD_1_ACTIVITY_LED" iostandard="LVCMOS18" loc="E15" drive="8"/>
-    <pin index="7"   name ="SFPDD_1_STATUS_LEDG"  iostandard="LVCMOS18" loc="F15" drive="8"/>
-    <pin index="8"   name ="SFPDD_1_STATUS_LEDY"  iostandard="LVCMOS18" loc="E17" drive="8"/>
+    <pin index="3"   name ="QSFP28_0_ACTIVITY_LED" iostandard="LVCMOS18" loc="E18" drive="8"/>
+    <pin index="4"   name ="QSFP28_0_STATUS_LEDG"  iostandard="LVCMOS18" loc="E16" drive="8"/>
+    <pin index="5"   name ="QSFP28_0_STATUS_LEDY"  iostandard="LVCMOS18" loc="F17" drive="8"/>
+    <pin index="6"   name ="QSFP28_1_ACTIVITY_LED" iostandard="LVCMOS18" loc="E15" drive="8"/>
+    <pin index="7"   name ="QSFP28_1_STATUS_LEDG"  iostandard="LVCMOS18" loc="F15" drive="8"/>
+    <pin index="8"   name ="QSFP28_1_STATUS_LEDY"  iostandard="LVCMOS18" loc="E17" drive="8"/>
 
     <pin index="9"   name ="FPGA_TXD_MSP"  iostandard="LVCMOS18" loc="BB25"/>
     <pin index="10"  name ="FPGA_RXD_MSP"  iostandard="LVCMOS18" loc="BB26"/>
