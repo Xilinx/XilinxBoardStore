@@ -2456,13 +2456,13 @@
         "name": "au50",
         "display": "Alveo U50 Data Center Accelerator Card",
         "latest_revision": "1.0",
-        "commit_id": "100ebdacfe7e55bbda12886b2ca4eca13460eaa5",
+        "commit_id": "c138467076d2e993aba697a2208170b998f89740",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "100ebdacfe7e55bbda12886b2ca4eca13460eaa5",
-            "date": "23-12-2019",
-            "history": "Changing part number from -2L to -2"
+            "commit_id": "c138467076d2e993aba697a2208170b998f89740",
+            "date": "06-02-2020",
+            "history": "Removed DD reference on LED interface"
           }
         ],
         "config": {
