@@ -153,9 +153,10 @@
             <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
           </preferred_ips>
           <port_maps>
-            <port_map logical_port="TRI_I" physical_port="GPIO_MSP_i" dir="in">
+            <port_map logical_port="TRI_I" physical_port="GPIO_MSP_i" dir="in" left="1" right="0">
               <pin_maps>
                 <pin_map port_index="0" component_pin="GPIO_MSP0"/>
+                <pin_map port_index="1" component_pin="GPIO_MSP1"/>                
               </pin_maps>
             </port_map>
           </port_maps>
@@ -769,7 +770,7 @@
     </component>
 
 	<component name="msp_gpio" display_name="GPIO between the SC and the CMC" type="chip" sub_type="led" major_group="General Purpose Input or Output">
-      <description>GPIO between the SC and the CMC</description>
+      <description>GPIO between the SC and the CMC, 2 bits</description>
     </component>
 
 	<component name="iic_si5394" display_name="IIC_SI5394" type="chip" sub_type="mux" major_group="Miscellaneous" part_name="SI5394" vendor="Silicon Labs" spec_url="www.silabs.com">
@@ -1036,7 +1037,7 @@
     </connection>
 
 	<connection name="part0_msp_gpio" component1="part0" component2="msp_gpio">
-      <connection_map name="part0_msp_gpio" typical_delay="5" c1_st_index="15" c1_end_index="15" c2_st_index="0" c2_end_index="0"/>
+      <connection_map name="part0_msp_gpio" typical_delay="5" c1_st_index="15" c1_end_index="16" c2_st_index="0" c2_end_index="1"/>
     </connection>
 
 
