@@ -25,6 +25,7 @@
     <pin index="14"  name ="SI_IN_LOS"   iostandard="LVCMOS18" loc="H19"/>
 
     <pin index="15"  name ="GPIO_MSP0"   iostandard="LVCMOS18" loc="C16"/>
+    <pin index="16"  name ="GPIO_MSP1"   iostandard="LVCMOS18" loc="C17"/>    
 
     <pin index="100" name ="I2C_SI5394_SCLK"  iostandard="LVCMOS18" loc="L19" drive="8" slew="SLOW"/>
     <pin index="101" name ="I2C_SI5394_SDA"   iostandard="LVCMOS18" loc="J16" drive="8" slew="SLOW"/>
