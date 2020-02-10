@@ -2361,11 +2361,11 @@
         "name": "zcu208", 
         "display": "Zynq UltraScale+ ZCU208 Evaluation Platform", 
         "latest_revision": "1.0", 
-        "commit_id": "1116d76c190aa88930f85d9c548739e68cf59f40", 
+        "commit_id": "af4c02a2d5704365eebd0037d48b6274ed8875c2", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "1116d76c190aa88930f85d9c548739e68cf59f40", 
+            "commit_id": "af4c02a2d5704365eebd0037d48b6274ed8875c2", 
             "date": "30-01-2020:11:04:52", 
             "history": "ZCU208 initial board files (2019.2.2)"
           }
