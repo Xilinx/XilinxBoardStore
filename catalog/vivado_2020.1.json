@@ -1962,13 +1962,13 @@
         "name": "SP701", 
         "display": "Spartan-7 SP701 Evaluation Platform", 
         "latest_revision": "1.0", 
-        "commit_id": "d9b2745df6986d22940bf23f9b3dc4d9a5a69b20", 
+        "commit_id": "e80b2c0c968ee357c295c4d7cbf23c4251696243", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "d9b2745df6986d22940bf23f9b3dc4d9a5a69b20", 
-            "date": "23-12-2019", 
-            "history": "Updated schema version and addressed linting issues"
+            "commit_id": "e80b2c0c968ee357c295c4d7cbf23c4251696243", 
+            "date": "11-02-2020", 
+            "history": "Changing order of preferred IPs for sys_diff_clock for CR-1054086"
           }
         ], 
         "config": {
