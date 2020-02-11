@@ -399,8 +399,8 @@
       
 	  <interface mode="slave" name="sys_diff_clock" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="sys_diff_clock" preset_proc="sys_diff_clock_preset">
           <preferred_ips>
-            <preferred_ip vendor="xilinx.com" library="ip" name="mig_7series" order="0"/>
-			<preferred_ip vendor="xilinx.com" library="ip" name="clk_wiz" order="1"/>
+         	<preferred_ip vendor="xilinx.com" library="ip" name="clk_wiz" order="0"/>
+		<preferred_ip vendor="xilinx.com" library="ip" name="mig_7series" order="1"/>
           </preferred_ips>
           <port_maps>
             <port_map logical_port="CLK_P" physical_port="SYSCLK_P" dir="in">
