@@ -2000,13 +2000,13 @@
         "name": "SP701", 
         "display": "Spartan-7 SP701 Evaluation Platform", 
         "latest_revision": "1.0", 
-        "commit_id": "b6b08e53750126f55d887391bb52976b76cecc15", 
+        "commit_id": "95d74f50d562efe2261308145ea89ea1e28c6882", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "b6b08e53750126f55d887391bb52976b76cecc15", 
+            "commit_id": "95d74f50d562efe2261308145ea89ea1e28c6882", 
             "date": "28-05-2019:10:57:28", 
-            "history": "Migrating 7 series latest board files from perforce to git"
+            "history": "Changing preferred IP order for sys_diff_clock as per CR-1054086"
           }
         ], 
         "config": {
