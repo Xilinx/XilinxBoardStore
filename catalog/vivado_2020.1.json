@@ -2266,13 +2266,13 @@
         "name": "zcu106", 
         "display": "Zynq UltraScale+ ZCU106 Evaluation Platform", 
         "latest_revision": "2.5", 
-        "commit_id": "e6b150a87023f9a985fc7b4e65521efda1b484b0", 
+        "commit_id": "4bb48f0322758d155cffc56b0375f8536b61bf7a", 
         "revisions": [
           {
             "revision": "2.5", 
-            "commit_id": "e6b150a87023f9a985fc7b4e65521efda1b484b0", 
-            "date": "23-12-2019", 
-            "history": "Updated schema version and addressed linting issues"
+            "commit_id": "4bb48f0322758d155cffc56b0375f8536b61bf7a", 
+            "date": "26-02-2020", 
+            "history": "Fixed PCIE pin loc issues"
           }
         ], 
         "config": {
