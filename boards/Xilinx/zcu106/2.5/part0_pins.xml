@@ -169,15 +169,13 @@
 	<pin index="154" name ="pcie_rx1_p"    loc="AF4"/>
 	<pin index="155" name ="pcie_tx2_n"    loc="AG5"/>
 	<pin index="156" name ="pcie_tx2_p"    loc="AG6"/>
-	<pin index="157" name ="pcie_rx2_n"    loc="AJ2"/>
-	<pin index="158" name ="pcie_rx2_p"    loc="AJ1"/>
-	<pin index="159" name ="pcie_tx3_n"    loc="AH3"/>
-	<pin index="160" name ="pcie_tx3_p"    loc="AH4"/>
-	<pin index="161" name ="pcie_rx3_n"    loc="AG2"/>
-	<pin index="162" name ="pcie_rx3_p"    loc="AG1"/>
+	<pin index="157" name ="pcie_rx2_n"    loc="AG1"/>
+	<pin index="158" name ="pcie_rx2_p"    loc="AG2"/>
+	<pin index="159" name ="pcie_tx3_n"    loc="AH4"/>
+	<pin index="160" name ="pcie_tx3_p"    loc="AH3"/>
+	<pin index="161" name ="pcie_rx3_n"    loc="AJ1"/>
+	<pin index="162" name ="pcie_rx3_p"    loc="AJ2"/>
 	<pin index="163" name ="pcie_perstn_rst" iostandard="LVCMOS18" loc="L8"/>	
-	
-
 
 	<!-- fmc_hpc0 -->	
 	
