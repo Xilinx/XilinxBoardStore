@@ -2342,13 +2342,13 @@
         "name": "zcu1275", 
         "display": "Xilinx Zynq UltraScale+ RFSoC ZCU1275 Characterization Kit", 
         "latest_revision": "1.0", 
-        "commit_id": "acd7ee5e38c1466366c153db7dfac7ece49dc1ff", 
+        "commit_id": "ada4503b1d4e7009b2183faa8fe9dc1a8719f96c", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "acd7ee5e38c1466366c153db7dfac7ece49dc1ff", 
-            "date": "23-12-2019", 
-            "history": "Updated schema version and addressed linting issues"
+            "commit_id": "ada4503b1d4e7009b2183faa8fe9dc1a8719f96c", 
+            "date": "26-02-2020", 
+            "history": "Fixed ZCU1275 URL"
           }
         ], 
         "config": {
