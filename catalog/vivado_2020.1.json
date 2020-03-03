@@ -2304,13 +2304,13 @@
         "name": "zcu216", 
         "display": "Zynq UltraScale+ ZCU216 Evaluation Platform", 
         "latest_revision": "1.0", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "c2448c26ed1d6037b113093a1c718a72a9ed0b3d", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
-            "date": "23-12-2019", 
-            "history": "Updated schema version and addressed linting issues"
+            "commit_id": "c2448c26ed1d6037b113093a1c718a72a9ed0b3d", 
+            "date": "03-03-2020", 
+            "history": "setting PSU_DYNAMIC_DDR_CONFIG_EN"
           }
         ], 
         "config": {
