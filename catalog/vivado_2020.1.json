@@ -1962,13 +1962,13 @@
         "name": "SP701", 
         "display": "Spartan-7 SP701 Evaluation Platform", 
         "latest_revision": "1.0", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "e4cb7c68575c821bb26c4137e46810231092659b", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
-            "date": "11-02-2020", 
-            "history": "Changing order of preferred IPs for sys_diff_clock for CR-1054086"
+            "commit_id": "e4cb7c68575c821bb26c4137e46810231092659b", 
+            "date": "04-03-2020", 
+            "history": "Enabled MIG additional Ui clock"
           }
         ], 
         "config": {
