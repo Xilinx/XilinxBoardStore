@@ -2490,6 +2490,44 @@
         },
         "company": "xilinx.com"
       }, 	
+     {
+        "name": "vck190_es",
+        "display": "Versal VCK190 ES1 Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "41030f106f951a99044880e76bde8bfb75fa08d8",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "41030f106f951a99044880e76bde8bfb75fa08d8",
+            "date": "06-03-2020",
+            "history": "Adding VCK190 and VMK180 board files to XHub"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vck190/es/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      }, 
+     {
+        "name": "vmk180_es",
+        "display": "Versal VMK180 ES1 Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "41030f106f951a99044880e76bde8bfb75fa08d8",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "41030f106f951a99044880e76bde8bfb75fa08d8",
+            "date": "06-03-2020",
+            "history": "Adding VCK190 and VMK180 board files to XHub"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vmk180/es/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      }, 	  
       {
         "name": "au250", 
         "display": "Alveo U250 Data Center Accelerator Card", 
