@@ -1,0 +1,7 @@
+######### VMK180 change log ##############
+Post 2019.2 changes  
+Fixed GPIO port polarities 
+Fix added for LPDDR Controller 1 standalone usage
+1.0
+VMK180 Initial board support(2019.2_web) 
+
