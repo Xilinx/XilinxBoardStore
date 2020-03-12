@@ -466,4 +466,15 @@
         </user_parameters>
     </ip>
   </ip_preset>
+
+  <ip_preset preset_proc_name="spi_flash_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_quad_spi">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_SPI_MODE" value="2"/> 
+          <user_parameter name="CONFIG.C_SPI_MEMORY" value="2"/> 
+          <user_parameter name="CONFIG.C_SCK_RATIO" value="2"/> 
+          <user_parameter name="CONFIG.C_SHARED_STARTUP" value="0"/> 
+        </user_parameters>
+    </ip>
+  </ip_preset>
 </ip_presets>
