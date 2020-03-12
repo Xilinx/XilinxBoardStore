@@ -1924,13 +1924,13 @@
         "name": "ac701", 
         "display": "Artix-7 AC701 Evaluation Platform", 
         "latest_revision": "1.4", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "f2be17282104b29cda567162af842ecff73a343c", 
         "revisions": [
           {
             "revision": "1.4", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+            "commit_id": "f2be17282104b29cda567162af842ecff73a343c", 
             "date": "23-12-2019", 
-            "history": "Updated schema version and addressed linting issues"
+            "history": "Added spi_flash_preset proc for CR-1052945"
           }
         ], 
         "config": {
