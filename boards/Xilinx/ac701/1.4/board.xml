@@ -622,7 +622,7 @@
             <parameter name="gt_loc" value="GTPE2_CHANNEL_X0Y3" />
           </parameters>
         </interface>
-        <interface mode="master" name="spi_flash" type="xilinx.com:interface:spi_rtl:1.0" of_component="spi_flash">
+        <interface mode="master" name="spi_flash" type="xilinx.com:interface:spi_rtl:1.0" of_component="spi_flash" preset_proc="spi_flash_preset">
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="axi_quad_spi" order="0"/>
           </preferred_ips>
