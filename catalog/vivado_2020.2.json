@@ -2532,13 +2532,13 @@
         "name": "au250", 
         "display": "Alveo U250 Data Center Accelerator Card", 
         "latest_revision": "1.3", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "bed7cd62e62a1b326e8a510811007457009dec37", 
         "revisions": [
           {
             "revision": "1.3", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
-            "date": "12-23-2019", 
-            "history": "Updated schema version and addressed linting issues"
+            "commit_id": "bed7cd62e62a1b326e8a510811007457009dec37", 
+            "date": "15-03-2020", 
+            "history": "QSFP0 is now on CMACE4_X0Y8"
           }
         ], 
         "config": {
