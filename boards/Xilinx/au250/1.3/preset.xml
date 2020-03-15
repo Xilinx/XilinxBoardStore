@@ -607,7 +607,7 @@
 			<user_parameter name="CONFIG.GT_TYPE" value="GTY" />
 			<user_parameter name="CONFIG.CMAC_CAUI4_MODE" value="1" />		
 			<user_parameter name="CONFIG.NUM_LANES" value="4x25" />		
-			<user_parameter name="CONFIG.CMAC_CORE_SELECT" value="CMACE4_X0Y7" />
+			<user_parameter name="CONFIG.CMAC_CORE_SELECT" value="CMACE4_X0Y8" />
 			<user_parameter name="CONFIG.GT_GROUP_SELECT" value= "X1Y44~X1Y47" />
 			<user_parameter name="CONFIG.RS_FEC_TRANSCODE_BYPASS" value= "0" />
 		  </user_parameters>
