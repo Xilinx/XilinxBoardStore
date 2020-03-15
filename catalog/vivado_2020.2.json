@@ -1905,13 +1905,13 @@
         "name": "au280", 
         "display": "Alveo U280 Data Center Accelerator Card", 
         "latest_revision": "1.1", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "434fec487ef0de774fe3b6def4710e0e17245506", 
         "revisions": [
           {
             "revision": "1.1", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
-            "date": "03-01-2020", 
-            "history": "Updated schema version and addressed linting issues"
+            "commit_id": "434fec487ef0de774fe3b6def4710e0e17245506", 
+            "date": "03-15-2020", 
+            "history": "QSP0 is now on CMACE4_X0Y6"
           }
         ], 
         "config": {
