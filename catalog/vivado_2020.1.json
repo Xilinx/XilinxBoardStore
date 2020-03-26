@@ -2246,18 +2246,18 @@
       {
         "name": "zcu106", 
         "display": "Zynq UltraScale+ ZCU106 Evaluation Platform", 
-        "latest_revision": "2.4", 
+        "latest_revision": "2.5", 
         "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
         "revisions": [
           {
-            "revision": "2.4", 
+            "revision": "2.5", 
             "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
             "date": "28-05-2019:11:04:35", 
-            "history": "Migrating 7 series latest board files from perforce to git"
+            "history": "Fixed PCIE pin loc issues"
           }
         ], 
         "config": {
-          "root": "boards/Xilinx/zcu106/2.4", 
+          "root": "boards/Xilinx/zcu106/2.5", 
           "metadata_file": "xitem.json"
         }, 
         "company": "xilinx.com"
@@ -2265,18 +2265,18 @@
       {
         "name": "zcu106", 
         "display": "Zynq UltraScale+ ZCU106 Evaluation Platform", 
-        "latest_revision": "2.5", 
+        "latest_revision": "2.4", 
         "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
         "revisions": [
           {
-            "revision": "2.5", 
+            "revision": "2.4", 
             "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
             "date": "26-02-2020", 
-            "history": "Fixed PCIE pin loc issues"
+            "history": "Migrating 7 series latest board files from perforce to git"
           }
         ], 
         "config": {
-          "root": "boards/Xilinx/zcu106/2.5", 
+          "root": "boards/Xilinx/zcu106/2.4", 
           "metadata_file": "xitem.json"
         }, 
         "company": "xilinx.com"
