@@ -755,7 +755,7 @@ under the License.-->
     </connection>
 
     <connection name="part0_c1_ddr_sdram" component1="part0" component2="ddr4_sdram_c1">
-      <connection_map name="part0_c1_ddr_sdram_pl" typical_delay="5" c1_st_index="79" c1_end_index="152" c2_st_index="0" c2_end_index="73"/>
+      <connection_map name="part0_c1_ddr_sdram_pl" typical_delay="5" c1_st_index="80" c1_end_index="153" c2_st_index="0" c2_end_index="73"/>
     </connection>	
 
     <connection name="part0_dip_switches_8bits" component1="part0" component2="dip_switches_8bits">
