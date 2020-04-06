@@ -2342,11 +2342,11 @@
         "name": "zcu208_es", 
         "display": "Zynq UltraScale+ ZCU208-LD Evaluation Platform", 
         "latest_revision": "1.0", 
-        "commit_id": "ce9bdc4947f4572d8c7f2c879f16810f52d6d431", 
+        "commit_id": "bd0b4a4c19f5202368a7d2cb86d97efc95158b79", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "ce9bdc4947f4572d8c7f2c879f16810f52d6d431", 
+            "commit_id": "bd0b4a4c19f5202368a7d2cb86d97efc95158b79", 
             "date": "04-03-2020", 
             "history": "Initial board file entry for zcu208-LD board"
           }
