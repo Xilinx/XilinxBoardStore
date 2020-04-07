@@ -16,7 +16,8 @@
               "url": "www.xilinx.com"
             }
           ], 
-          "category": "Single Part", 
+          "category": "Single Part",
+          "logo": "zcu104_board.jpeg",
           "website": "www.xilinx.com/zcu104", 
           "search-keywords": [
             "zcu104", 
