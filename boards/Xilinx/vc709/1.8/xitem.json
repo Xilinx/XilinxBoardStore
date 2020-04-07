@@ -16,7 +16,8 @@
               "url": "www.xilinx.com"
             }
           ], 
-          "category": "Single Part", 
+          "category": "Single Part",
+          "logo": "vc709_board.jpg",
           "website": "http://www.xilinx.com/vc709", 
           "search-keywords": [
             "vc709", 
