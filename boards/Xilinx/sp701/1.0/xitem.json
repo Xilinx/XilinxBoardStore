@@ -16,7 +16,8 @@
               "url": "www.xilinx.com"
             }
           ], 
-          "category": "Single Part", 
+          "category": "Single Part",
+          "logo": "sp701_board.jpg",
           "website": "http://www.xilinx.com/sp701", 
           "search-keywords": [
             "SP701", 
