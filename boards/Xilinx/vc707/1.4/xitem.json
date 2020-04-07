@@ -16,7 +16,8 @@
               "url": "www.xilinx.com"
             }
           ], 
-          "category": "Single Part", 
+          "category": "Single Part",
+          "logo": "vc707_board.jpg",
           "website": "http://www.xilinx.com/vc707", 
           "search-keywords": [
             "vc707", 
