@@ -2209,13 +2209,13 @@
         "name": "zcu102", 
         "display": "Zynq UltraScale+ ZCU102 Evaluation Board", 
         "latest_revision": "3.3", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "4cee0d3c6ffc0e3d75180489a1d7f08bae678462", 
         "revisions": [
           {
             "revision": "3.3", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+            "commit_id": "4cee0d3c6ffc0e3d75180489a1d7f08bae678462", 
             "date": "23-12-2019", 
-            "history": "Updated schema version and addressed linting issues"
+            "history": "Addition of logo field for board image in xitem.json"
           }
         ], 
         "config": {
@@ -2228,13 +2228,13 @@
         "name": "zcu104", 
         "display": "Zynq UltraScale+ ZCU104 Evaluation Board", 
         "latest_revision": "1.1", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "ea2faaf61bc070b59ecc1d53987566e3808c3d2d", 
         "revisions": [
           {
             "revision": "1.1", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+            "commit_id": "ea2faaf61bc070b59ecc1d53987566e3808c3d2d", 
             "date": "23-12-2019", 
-            "history": "Updated schema version and addressed linting issues"
+            "history": "Addition of logo field for board image in xitem.json"
           }
         ], 
         "config": {
@@ -2247,13 +2247,13 @@
         "name": "zcu106", 
         "display": "Zynq UltraScale+ ZCU106 Evaluation Platform", 
         "latest_revision": "2.5", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "4c856d903c1bb14994c360412d2bbb6f05509c5b", 
         "revisions": [
           {
             "revision": "2.5", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+            "commit_id": "4c856d903c1bb14994c360412d2bbb6f05509c5b", 
             "date": "28-05-2019:11:04:35", 
-            "history": "Fixed PCIE pin loc issues"
+            "history": "Addition of logo field for board image in xitem.json"
           }
         ], 
         "config": {
@@ -2285,13 +2285,13 @@
         "name": "zcu111", 
         "display": "Zynq UltraScale+ ZCU111 Evaluation Platform", 
         "latest_revision": "1.2", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "70f06d6da0d262af413154f868ab6cabe555a714", 
         "revisions": [
           {
             "revision": "1.2", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+            "commit_id": "70f06d6da0d262af413154f868ab6cabe555a714", 
             "date": "23-12-2019", 
-            "history": "Updated schema version and addressed linting issues"
+            "history": "Addition of logo field for board image in xitem.json"
           }
         ], 
         "config": {
@@ -2304,13 +2304,13 @@
         "name": "zcu216", 
         "display": "Zynq UltraScale+ ZCU216 Evaluation Platform", 
         "latest_revision": "1.0", 
-        "commit_id": "c2448c26ed1d6037b113093a1c718a72a9ed0b3d", 
+        "commit_id": "da1f0f01934b0035193287c6d652bde54cba62df", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "c2448c26ed1d6037b113093a1c718a72a9ed0b3d", 
+            "commit_id": "da1f0f01934b0035193287c6d652bde54cba62df", 
             "date": "03-03-2020", 
-            "history": "setting PSU_DYNAMIC_DDR_CONFIG_EN"
+            "history": "Addition of logo field for board image in xitem.json"
           }
         ], 
         "config": {
@@ -2361,13 +2361,13 @@
         "name": "zcu1275", 
         "display": "Xilinx Zynq UltraScale+ RFSoC ZCU1275 Characterization Kit", 
         "latest_revision": "1.0", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "c2b64cd4d2861522813ab4661b245b57744373de", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+            "commit_id": "c2b64cd4d2861522813ab4661b245b57744373de", 
             "date": "26-02-2020", 
-            "history": "Fixed ZCU1275 URL"
+            "history": "Addition of logo field for board image to xitem.json"
           }
         ], 
         "config": {
@@ -2380,13 +2380,13 @@
         "name": "zcu1285", 
         "display": "Xilinx Zynq UltraScale+ RFSoC ZCU1285 Characterization Kit", 
         "latest_revision": "1.0", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "d4958bb57aa26ad06f3446e32d45fc2f2a264724", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+            "commit_id": "d4958bb57aa26ad06f3446e32d45fc2f2a264724", 
             "date": "23-12-2019", 
-            "history": "Updated schema version and addressed linting issues"
+            "history": "Addition of logo field for board image in xitem.json"
           }
         ], 
         "config": {
