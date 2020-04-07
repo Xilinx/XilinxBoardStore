@@ -1829,13 +1829,13 @@
         "name": "vcu128", 
         "display": "Virtex Ultrascale+ HBM VCU128 Evaluation Platform", 
         "latest_revision": "1.0", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "19162d34978cb2dc86bedf52426cb8934839e97b", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+            "commit_id": "19162d34978cb2dc86bedf52426cb8934839e97b", 
             "date": "23-12-2019", 
-            "history": "Updated schema version and addressed linting issues"
+            "history": "Addition of logo field for board image in xitem.json"
           }
         ], 
         "config": {
@@ -1848,13 +1848,13 @@
         "name": "vcu129", 
         "display": "Virtex Ultrascale+ 56G VCU129 Evaluation Platform", 
         "latest_revision": "1.0", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "f2cffe8f90de3e6fff0dd9f27047b221d109b68f", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+            "commit_id": "f2cffe8f90de3e6fff0dd9f27047b221d109b68f", 
             "date": "23-12-2019", 
-            "history": "Updated schema version and addressed linting issues"
+            "history": "Addition of logo field for board image in xitem.json"
           }
         ], 
         "config": {
@@ -1962,13 +1962,13 @@
         "name": "SP701", 
         "display": "Spartan-7 SP701 Evaluation Platform", 
         "latest_revision": "1.0", 
-        "commit_id": "e4cb7c68575c821bb26c4137e46810231092659b", 
+        "commit_id": "631957d1d8ee1e6a2b67297e5288c03753f554f2", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "e4cb7c68575c821bb26c4137e46810231092659b", 
+            "commit_id": "631957d1d8ee1e6a2b67297e5288c03753f554f2", 
             "date": "04-03-2020", 
-            "history": "Enabled MIG additional Ui clock"
+            "history": "Addition of logo field in xitem.json"
           }
         ], 
         "config": {
@@ -1981,13 +1981,13 @@
         "name": "vc707", 
         "display": "Virtex-7 VC707 Evaluation Platform", 
         "latest_revision": "1.4", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "97b37c9eaf975614b69f8823408b99ab2c5c3469", 
         "revisions": [
           {
             "revision": "1.4", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+            "commit_id": "97b37c9eaf975614b69f8823408b99ab2c5c3469", 
             "date": "23-12-2019", 
-            "history": "Added 50Mhz additional clk to help build generic CEDs and updated schema version and addressed linting issues"
+            "history": "Addition of logo field in xitem.json for board image"
           }
         ], 
         "config": {
@@ -2000,13 +2000,13 @@
         "name": "vc709", 
         "display": "Virtex-7 VC709 Evaluation Platform", 
         "latest_revision": "1.8", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "ef177ccea2d919508ca3e3437646293c039ed362", 
         "revisions": [
           {
             "revision": "1.8", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+            "commit_id": "ef177ccea2d919508ca3e3437646293c039ed362", 
             "date": "23-12-2019", 
-            "history": "Updated schema version and addressed linting issues"
+            "history": "Addition of logo field for board image in xitem.json"
           }
         ], 
         "config": {
@@ -2114,13 +2114,13 @@
         "name": "vcu108", 
         "display": "Virtex-UltraScale VCU108 Evaluation Platform", 
         "latest_revision": "1.6", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "6b2e55b1306cd6ac999e12e21128dcfaad7b37cf", 
         "revisions": [
           {
             "revision": "1.6", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+            "commit_id": "6b2e55b1306cd6ac999e12e21128dcfaad7b37cf", 
             "date": "23-12-2019", 
-            "history": "Updated schema version and addressed linting issues"
+            "history": "Addition of logo field for image in xitem.json"
           }
         ], 
         "config": {
@@ -2133,13 +2133,13 @@
         "name": "vcu110", 
         "display": "Virtex-UltraScale VCU110 Evaluation Platform", 
         "latest_revision": "1.4", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "ad6543f195ba64141f618661f0730845ae7438b7", 
         "revisions": [
           {
             "revision": "1.4", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+            "commit_id": "ad6543f195ba64141f618661f0730845ae7438b7", 
             "date": "23-12-2019", 
-            "history": "Updated schema version and addressed linting issues"
+            "history": "Addition of logo field for image in xitem.json"
           }
         ], 
         "config": {
@@ -2152,13 +2152,13 @@
         "name": "vcu118", 
         "display": "Virtex UltraScale+ VCU118 Evaluation Platform", 
         "latest_revision": "2.3", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "85578bb2f28fdf674dcb396fff8387046f770863", 
         "revisions": [
           {
             "revision": "2.3", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+            "commit_id": "85578bb2f28fdf674dcb396fff8387046f770863", 
             "date": "23-12-2019", 
-            "history": "Updated schema version and addressed linting issues"
+            "history": "Addition of logo field for image in xitem.json"
           }
         ], 
         "config": {
@@ -2190,13 +2190,13 @@
         "name": "VCU1525", 
         "display": "Virtex UltraScale+ VCU1525 Acceleration Development Board", 
         "latest_revision": "1.3", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "f97aeab95538aceae137b91ae30ddfdfaf4d869a", 
         "revisions": [
           {
             "revision": "1.3", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+            "commit_id": "f97aeab95538aceae137b91ae30ddfdfaf4d869a", 
             "date": "23-12-2019", 
-            "history": "Updated schema version and addressed linting issues"
+            "history": "Addition of logo field for board image in xitem.json"
           }
         ], 
         "config": {
@@ -2209,13 +2209,13 @@
         "name": "zcu102", 
         "display": "Zynq UltraScale+ ZCU102 Evaluation Board", 
         "latest_revision": "3.3", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "28a094311aca817bf05a56437c255e677bdc67ae", 
         "revisions": [
           {
             "revision": "3.3", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+            "commit_id": "28a094311aca817bf05a56437c255e677bdc67ae", 
             "date": "23-12-2019", 
-            "history": "Updated schema version and addressed linting issues"
+            "history": "Addition of logo field for board image in xitem.json"
           }
         ], 
         "config": {
@@ -2228,13 +2228,13 @@
         "name": "zcu104", 
         "display": "Zynq UltraScale+ ZCU104 Evaluation Board", 
         "latest_revision": "1.1", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "1f655f061046f93bdd42753b5ea80ba4c033b182", 
         "revisions": [
           {
             "revision": "1.1", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+            "commit_id": "1f655f061046f93bdd42753b5ea80ba4c033b182", 
             "date": "23-12-2019", 
-            "history": "Updated schema version and addressed linting issues"
+            "history": "Addition of logo field for board image in xitem.json"
           }
         ], 
         "config": {
@@ -2399,13 +2399,13 @@
         "name": "au280_es1", 
         "display": "Alveo U280-ES1 Data Center Accelerator Card", 
         "latest_revision": "1.1", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "a085e247e1c70cd5aac0615075eaf917897866e5", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+            "commit_id": "a085e247e1c70cd5aac0615075eaf917897866e5", 
             "date": "28-05-2019:11:08:19", 
-            "history": "Migrating Alveo latest board files from perforce/2019.1 to git"
+            "history": "Addition of logo field to xitem.json"
           } 
         ], 
         "config": {
