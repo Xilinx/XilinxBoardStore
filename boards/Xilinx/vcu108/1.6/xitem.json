@@ -16,7 +16,8 @@
               "url": "www.xilinx.com"
             }
           ], 
-          "category": "Single Part", 
+          "category": "Single Part",
+          "logo": "vcu108_board.jpeg",
           "website": "www.xilinx.com/vcu108", 
           "search-keywords": [
             "vcu108", 
