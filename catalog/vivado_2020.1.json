@@ -1829,13 +1829,13 @@
         "name": "vcu128", 
         "display": "Virtex Ultrascale+ HBM VCU128 Evaluation Platform", 
         "latest_revision": "1.0", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "570f5e6c46526a49988a2dfb8a93a2b3e43bc037", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+            "commit_id": "570f5e6c46526a49988a2dfb8a93a2b3e43bc037", 
             "date": "23-12-2019", 
-            "history": "Updated schema version and addressed linting issues"
+            "history": "Addition of logo field for board image to xitem.json"
           }
         ], 
         "config": {
@@ -1848,13 +1848,13 @@
         "name": "vcu129", 
         "display": "Virtex Ultrascale+ 56G VCU129 Evaluation Platform", 
         "latest_revision": "1.0", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "e85ede5cf3cf67c9a0fe834b66d6a5cd885d9d27", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+            "commit_id": "e85ede5cf3cf67c9a0fe834b66d6a5cd885d9d27", 
             "date": "23-12-2019", 
-            "history": "Updated schema version and addressed linting issues"
+            "history": "Addition of logo field for board image to xitem.json"
           }
         ], 
         "config": {
@@ -1905,13 +1905,13 @@
         "name": "au280", 
         "display": "Alveo U280 Data Center Accelerator Card", 
         "latest_revision": "1.1", 
-        "commit_id": "22a48420fad6cebb66e3a0de7af8295ad6c101a8", 
+        "commit_id": "3d0a0b745325ae5b992edd3cb8a471c17419cf0f", 
         "revisions": [
           {
             "revision": "1.1", 
-            "commit_id": "22a48420fad6cebb66e3a0de7af8295ad6c101a8", 
+            "commit_id": "3d0a0b745325ae5b992edd3cb8a471c17419cf0f", 
             "date": "03-15-2020", 
-            "history": "QSFP0 is now on CMACE4_X0Y6"
+            "history": "Addition of logo field for board image in xitem.json"
           }
         ], 
         "config": {
@@ -1962,13 +1962,13 @@
         "name": "SP701", 
         "display": "Spartan-7 SP701 Evaluation Platform", 
         "latest_revision": "1.0", 
-        "commit_id": "e4cb7c68575c821bb26c4137e46810231092659b", 
+        "commit_id": "f2eeb4583735b9cd2633e8725832ea916cb8838a", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "e4cb7c68575c821bb26c4137e46810231092659b", 
+            "commit_id": "f2eeb4583735b9cd2633e8725832ea916cb8838a", 
             "date": "04-03-2020", 
-            "history": "Enabled MIG additional Ui clock"
+            "history": "Addition of logo field for board image in xitem.json"
           }
         ], 
         "config": {
@@ -1981,13 +1981,13 @@
         "name": "vc707", 
         "display": "Virtex-7 VC707 Evaluation Platform", 
         "latest_revision": "1.4", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "4a545d7614731e09907813e6107c12f3b1ece2ab", 
         "revisions": [
           {
             "revision": "1.4", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+            "commit_id": "4a545d7614731e09907813e6107c12f3b1ece2ab", 
             "date": "23-12-2019", 
-            "history": "Added 50Mhz additional clk to help build generic CEDs and updated schema version and addressed linting issues"
+            "history": "Addition of logo field for board image in xitem.json"
           }
         ], 
         "config": {
@@ -2000,13 +2000,13 @@
         "name": "vc709", 
         "display": "Virtex-7 VC709 Evaluation Platform", 
         "latest_revision": "1.8", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "bc4be1e36078bda5e2d03a46611b68616725c3a6", 
         "revisions": [
           {
             "revision": "1.8", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+            "commit_id": "bc4be1e36078bda5e2d03a46611b68616725c3a6", 
             "date": "23-12-2019", 
-            "history": "Updated schema version and addressed linting issues"
+            "history": "Addition of logo field for board image in xitem.json"
           }
         ], 
         "config": {
@@ -2114,13 +2114,13 @@
         "name": "vcu108", 
         "display": "Virtex-UltraScale VCU108 Evaluation Platform", 
         "latest_revision": "1.6", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "70c52a6ddac51e88b965fe8669a1701fb863c829", 
         "revisions": [
           {
             "revision": "1.6", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+            "commit_id": "70c52a6ddac51e88b965fe8669a1701fb863c829", 
             "date": "23-12-2019", 
-            "history": "Updated schema version and addressed linting issues"
+            "history": "Addition of logo field for board image in xitem.json"
           }
         ], 
         "config": {
@@ -2133,13 +2133,13 @@
         "name": "vcu110", 
         "display": "Virtex-UltraScale VCU110 Evaluation Platform", 
         "latest_revision": "1.4", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "cfeabe38ae360fdec797355031fad4bd28d7c1f7", 
         "revisions": [
           {
             "revision": "1.4", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+            "commit_id": "cfeabe38ae360fdec797355031fad4bd28d7c1f7", 
             "date": "23-12-2019", 
-            "history": "Updated schema version and addressed linting issues"
+            "history": "Addition of logo field for board image in xitem.json"
           }
         ], 
         "config": {
@@ -2152,13 +2152,13 @@
         "name": "vcu118", 
         "display": "Virtex UltraScale+ VCU118 Evaluation Platform", 
         "latest_revision": "2.3", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "07f8f6c28ec5c2a43668dd930d5492613129eb3e", 
         "revisions": [
           {
             "revision": "2.3", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+            "commit_id": "07f8f6c28ec5c2a43668dd930d5492613129eb3e", 
             "date": "23-12-2019", 
-            "history": "Updated schema version and addressed linting issues"
+            "history": "Addition of logo field for board image in xitem.json"
           }
         ], 
         "config": {
@@ -2190,13 +2190,13 @@
         "name": "VCU1525", 
         "display": "Virtex UltraScale+ VCU1525 Acceleration Development Board", 
         "latest_revision": "1.3", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "b8a50c48d4ee11f4594ac515e8126e10b792f615", 
         "revisions": [
           {
             "revision": "1.3", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+            "commit_id": "b8a50c48d4ee11f4594ac515e8126e10b792f615", 
             "date": "23-12-2019", 
-            "history": "Updated schema version and addressed linting issues"
+            "history": "Addition of logo field for board image in xitem.json"
           }
         ], 
         "config": {
@@ -2418,13 +2418,13 @@
         "name": "au280_es1", 
         "display": "Alveo U280-ES1 Data Center Accelerator Card", 
         "latest_revision": "1.1", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "038c5dcaed2546a59637b947357bfbcf5805e79e", 
         "revisions": [
           {
             "revision": "1.1", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+            "commit_id": "038c5dcaed2546a59637b947357bfbcf5805e79e", 
             "date": "28-05-2019:11:08:19", 
-            "history": "Migrating Alveo latest board files from perforce/2019.1 to git"
+            "history": "Addition of logo field for board image in xitem.json"
           } 
         ], 
         "config": {
