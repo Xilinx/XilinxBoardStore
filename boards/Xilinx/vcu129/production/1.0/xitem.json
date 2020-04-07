@@ -16,7 +16,8 @@
               "url": "www.xilinx.com"
             }
           ], 
-          "category": "Single Part", 
+          "category": "Single Part",
+          "logo": "VCU129_board.jpeg",
           "website": "www.xilinx.com/VCU129", 
           "search-keywords": [
             "vcu129", 
