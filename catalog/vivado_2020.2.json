@@ -2513,13 +2513,13 @@
         "name": "vck190_es",
         "display": "Versal VCK190 ES1 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "41030f106f951a99044880e76bde8bfb75fa08d8",
+        "commit_id": "ba971cedaaad5e258f7fc86b61afc8854d2839a5",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "41030f106f951a99044880e76bde8bfb75fa08d8",
-            "date": "06-03-2020",
-            "history": "Adding VCK190 and VMK180 board files to XHub"
+            "commit_id": "ba971cedaaad5e258f7fc86b61afc8854d2839a5",
+            "date": "04-08-2020",
+            "history": "Adding IOSTANDARD for all clocks in this file"
           }
         ],
         "config": {
@@ -2532,13 +2532,13 @@
         "name": "vmk180_es",
         "display": "Versal VMK180 ES1 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "41030f106f951a99044880e76bde8bfb75fa08d8",
+        "commit_id": "69f7fa28156004f07c665f39fd509a8c15bc6bb9",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "41030f106f951a99044880e76bde8bfb75fa08d8",
-            "date": "06-03-2020",
-            "history": "Adding VCK190 and VMK180 board files to XHub"
+            "commit_id": "69f7fa28156004f07c665f39fd509a8c15bc6bb9",
+            "date": "04-08-2020",
+            "history": "Adding IOSTANDARD for all clocks in this file"
           }
         ],
         "config": {
