@@ -13,14 +13,14 @@
 
   <pins>
 
-    <pin index="0"  name ="ddr4_dimm1_sma_clk_p" loc="AE42" />
-    <pin index="1"  name ="ddr4_dimm1_sma_clk_n" loc="AF43" />	
+    <pin index="0"  name ="ddr4_dimm1_sma_clk_p" iostandard="LVDS15" loc="AE42" />
+    <pin index="1"  name ="ddr4_dimm1_sma_clk_n" iostandard="LVDS15" loc="AF43" />	
 	
-    <pin index="2"  name ="lpddr4_sma_clk1_p"  loc="AK8" />
-    <pin index="3"  name ="lpddr4_sma_clk1_n"  loc="AK7" />
+    <pin index="2"  name ="lpddr4_sma_clk1_p" iostandard="DIFF_LVSTL_11" loc="AK8" />
+    <pin index="3"  name ="lpddr4_sma_clk1_n" iostandard="DIFF_LVSTL_11" loc="AK7" />
 	
-    <pin index="4"  name ="lpddr4_sma_clk2_p"  loc="AW27" />
-    <pin index="5"  name ="lpddr4_sma_clk2_n"  loc="AY27" />	
+    <pin index="4"  name ="lpddr4_sma_clk2_p" iostandard="DIFF_LVSTL_11" loc="AW27" />
+    <pin index="5"  name ="lpddr4_sma_clk2_n" iostandard="DIFF_LVSTL_11" loc="AY27" />	
 		
     <pin index="6"  name ="uart2_bank306_tx" iostandard="LVCMOS18" loc="L33" />
     <pin index="7"  name ="uart2_bank306_rx" iostandard="LVCMOS18" loc="K33" />
