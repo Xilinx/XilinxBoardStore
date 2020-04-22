@@ -1,0 +1,33 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "te0715_30_3e", 
+          "display": "ZYNQ-7 TE0715-*-30-3E (1GB DDR). *SPRT PCB: REV03, REV02, REV01", 
+          "revision": "1.0", 
+          "description": "ZYNQ-7 TE0715-*-30-3E (1GB DDR) Board (form factor 4x5cm) with 1GB DDR3, 1GBit Ethernet, speed grade -1 and extended temperature grade. *Supported PCB Revisions: REV03, REV02, REV01.", 
+          "company": "trenz.biz", 
+          "company_display": "Trenz Electronic GmbH", 
+          "author": "trenz.biz", 
+          "contributors": [
+            {
+              "group": "Trenz Electronic GmbH", 
+              "url": "https://www.trenz-electronic.de/"
+            }
+          ], 
+          "category": "Single Part", 
+          "website": "trenz.org/te0715-info", 
+          "search-keywords": [
+            "te0715_30_3e", 
+            "trenz.biz", 
+            "board", 
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  }, 
+  "_major": 1, 
+  "_minor": 0
+}

@@ -4,9 +4,9 @@
       {
         "infra": {
           "name": "te0725_100_2c", 
-          "display": "Artix-7 TE0725_100_2C(_, F). SPRT PCB: REV01, REV02, REV03", 
+          "display": "Artix-7 TE0725-*-100-2C(F). *SPRT PCB: REV03, REV02, REV01", 
           "revision": "1.0", 
-          "description": "Artix-7 TE0725_100_2C(_, F) Board (form factor 3.5x7.3 cm) with 8MB HyperRAM and commercial temperature range. PFO only on ...F assembly variant. Supported PCB Revisions: REV01 REV02, REV03.", 
+          "description": "Artix-7 TE0725-*-100-2C(F) Board (form factor 3.5x7.3 cm) with optional HyperRAM, Speed Grade -2 and commercial temperature range. PFO only on ...F assembly variant. *Supported PCB Revisions: REV03 REV02, REV01.", 
           "company": "trenz.biz", 
           "company_display": "Trenz Electronic GmbH", 
           "author": "trenz.biz", 
