@@ -1294,25 +1294,6 @@
         "company": "trenz.biz"
       }, 
       {
-        "name": "te0803_4eg_1i", 
-        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-4EG-1I(C: 8GB DDR). SPRT PCB: REV02", 
-        "latest_revision": "5.0", 
-        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797", 
-        "revisions": [
-          {
-            "revision": "5.0", 
-            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797", 
-            "date": "28-09-2018:16:20:15", 
-            "history": "Add Trenz Electronic Board Files"
-          }
-        ], 
-        "config": {
-          "root": "boards/Trenz_Electronic/TE0803_4EG_1I/5.0", 
-          "metadata_file": "xitem.json"
-        }, 
-        "company": "trenz.biz"
-      }, 
-      {
         "name": "te0803_4eg_1i_tebf0808", 
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-4EG-1I(C: 8GB DDR) with TEBF0808. SPRT PCB: REV02", 
         "latest_revision": "6.0", 
