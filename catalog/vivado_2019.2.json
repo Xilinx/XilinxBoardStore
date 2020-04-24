@@ -838,25 +838,6 @@
         "company": "trenz.biz"
       }, 
       {
-        "name": "te0725lp_100", 
-        "display": "Artix-7 TE0725LP_100_2(C, D, L). SPRT PCB: REV01", 
-        "latest_revision": "1.0", 
-        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797", 
-        "revisions": [
-          {
-            "revision": "1.0", 
-            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797", 
-            "date": "28-09-2018:16:20:14", 
-            "history": "Add Trenz Electronic Board Files"
-          }
-        ], 
-        "config": {
-          "root": "boards/Trenz_Electronic/TE0725LP/1.0", 
-          "metadata_file": "xitem.json"
-        }, 
-        "company": "trenz.biz"
-      }, 
-      {
         "name": "te0725_100_2c", 
         "display": "Artix-7 TE0725_100_2C(_, F). SPRT PCB: REV01, REV02, REV03", 
         "latest_revision": "1.0", 
