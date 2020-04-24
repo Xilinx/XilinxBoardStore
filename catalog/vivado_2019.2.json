@@ -1710,26 +1710,7 @@
           "metadata_file": "xitem.json"
         }, 
         "company": "trenz.biz"
-      }, 
-      {
-        "name": "te0820_4ev_1e", 
-        "display": "UltraSOM (ZYNQ-UltraScale+) TE0820-4EV-1E(A : 2 GB DDR). SPRT PCB: REV03", 
-        "latest_revision": "1.0", 
-        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797", 
-        "revisions": [
-          {
-            "revision": "1.0", 
-            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797", 
-            "date": "28-09-2018:16:20:15", 
-            "history": "Add Trenz Electronic Board Files"
-          }
-        ], 
-        "config": {
-          "root": "boards/Trenz_Electronic/TE0820_4EV_1E/1.0", 
-          "metadata_file": "xitem.json"
-        }, 
-        "company": "trenz.biz"
-      }, 
+      },  
       {
         "name": "teb0911_9eg_1e", 
         "display": "ZYNQ-UltraScale+ TEB0911-09EG-1E. SPRT PCB: REV03,REV02.", 
