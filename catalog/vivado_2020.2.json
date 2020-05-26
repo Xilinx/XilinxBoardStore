@@ -2212,14 +2212,14 @@
         "commit_id": "a8b55b1ca2e2002cbd6b6a71cd1890a1e3f5b282", 
         "revisions": [
           {
-            "revision": "3.3", 
+            "revision": "3.4", 
             "commit_id": "a8b55b1ca2e2002cbd6b6a71cd1890a1e3f5b282", 
             "date": "26-05-2020", 
             "history": "Adding 3.4 with Dual Memory Support"
           }
         ], 
         "config": {
-          "root": "boards/Xilinx/zcu102/3.3", 
+          "root": "boards/Xilinx/zcu102/3.4", 
           "metadata_file": "xitem.json"
         }, 
         "company": "xilinx.com"
