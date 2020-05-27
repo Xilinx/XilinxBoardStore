@@ -2299,7 +2299,26 @@
           "metadata_file": "xitem.json"
         }, 
         "company": "xilinx.com"
-      },      
+      },   
+     {
+        "name": "zcu111", 
+        "display": "Zynq UltraScale+ ZCU111 Evaluation Platform", 
+        "latest_revision": "1.3", 
+        "commit_id": "e573e97b471fde13c827d187cd4e5a399815a453", 
+        "revisions": [
+          {
+            "revision": "1.3", 
+            "commit_id": "e573e97b471fde13c827d187cd4e5a399815a453", 
+            "date": "27-05-2020", 
+            "history": "Addition 1.3 with Dual Memory Support"
+          }
+        ], 
+        "config": {
+          "root": "boards/Xilinx/zcu111/1.3", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
+      }, 
       {
         "name": "zcu111", 
         "display": "Zynq UltraScale+ ZCU111 Evaluation Platform", 
