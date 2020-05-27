@@ -25,7 +25,7 @@
   <pin index="58" name ="CPU_RESET" iostandard="LVCMOS33" loc="AM13"/>
   <pin index="59" name ="user_si570_sysclk_p" iostandard="DIFF_SSTL12" loc="AL8"/>
   <pin index="60" name ="user_si570_sysclk_n" iostandard="DIFF_SSTL12" loc="AL7"/>
-  <pin index="61" name ="GPIO_DIP_SW0" iostandard="LVCMOS34" loc="AN14"/>
+  <pin index="61" name ="GPIO_DIP_SW0" iostandard="LVCMOS33" loc="AN14"/>
   <pin index="62" name ="GPIO_DIP_SW1" iostandard="LVCMOS33" loc="AP14"/>
   <pin index="63" name ="GPIO_DIP_SW2" iostandard="LVCMOS33" loc="AM14"/>
   <pin index="64" name ="GPIO_DIP_SW3" iostandard="LVCMOS33" loc="AN13"/>
