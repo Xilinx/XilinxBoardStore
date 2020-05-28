@@ -18,17 +18,17 @@ def createXitemJson(xmldoc,args) :
 	#		print ("The utility script does work for schema 2.0 only")
 	#		exit()
 	else: 
-		print ("Did not find board Specific data in file , cannot Create xitem json file")
+		print ("Did not find board specific data in file, cannot create xitem json file")
 		exit()
 
 	subtype = "board"	
 	imagelist = xmldoc.getElementsByTagName('image')
 
 	imlength = len(imagelist)
-        if imlength > 0:
-           logo = imagelist[0].attributes['name'].value
-  
-        deslist = xmldoc.getElementsByTagName("description")	
+	if imlength > 0:
+		logo = imagelist[0].attributes['name'].value
+
+	deslist = xmldoc.getElementsByTagName("description")	
 	deslen = len(deslist)
 
 	if deslen > 0 :
@@ -42,7 +42,7 @@ def createXitemJson(xmldoc,args) :
 		if child:
 			ver = child.nodeValue.strip()
 		else :
-			print ("Did not finf file_version in the board file")
+			print ("Did not find file_version in the board file")
 			exit()
 	
 	complist = xmldoc.getElementsByTagName("component")
@@ -82,7 +82,7 @@ def createXitemJson(xmldoc,args) :
 	orderItem["contributors"] = contributors
 	orderItem["category"] = category
 	orderItem["website"] = url
-	if logo != "":
+	if imlength > 0 and logo != "":
 		orderItem["logo"] = logo
 	orderItem["search-keywords"] = search_keywords
 	
