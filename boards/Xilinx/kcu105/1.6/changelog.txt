@@ -1,4 +1,6 @@
 ######### KCU105 Change log ##############
+1.7
+
 1.6
 Added GT location for XDMA IP
 
