@@ -1,9 +1,11 @@
 ######### VCK190 change log ##############
-Post 2019.2 changes  
+2020.1 Updates:
+Added IOSTANDARD for all clock ports
 Fixed GPIO port polarities 
 Fix added for LPDDR Controller 1 standalone usage
 
 
 1.0
-VCK190 Initial board support(2019.2) 
+VCK190 Initial board support(2019.2)
+
 
