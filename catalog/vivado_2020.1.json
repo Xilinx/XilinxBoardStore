@@ -2513,13 +2513,13 @@
         "name": "vck190_es",
         "display": "Versal VCK190 ES1 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "7ea9fba7e1d456b6dd4accaef9e5fa060fc0d804",
+        "commit_id": "437fecdb225155d2ee94da398743840709b54e11",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "7ea9fba7e1d456b6dd4accaef9e5fa060fc0d804",
-            "date": "04-08-2020",
-            "history": "Addition of IOSTANDARD to all clocks in part0_pins.xml"
+            "commit_id": "437fecdb225155d2ee94da398743840709b54e11",
+            "date": "11-06-2020",
+            "history": "updated readme.txt"
           }
         ],
         "config": {
