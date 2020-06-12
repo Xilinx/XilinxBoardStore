@@ -2052,7 +2052,26 @@
           "metadata_file": "xitem.json"
         }, 
         "company": "xilinx.com"
-      }, 
+      },
+      {
+        "name": "kcu105", 
+        "display": "Kintex-UltraScale KCU105 Evaluation Platform", 
+        "latest_revision": "1.7", 
+        "commit_id": "f9d84f595957d055aa192948d0101affa5df6519", 
+        "revisions": [
+          {
+            "revision": "1.7", 
+            "commit_id": "f9d84f595957d055aa192948d0101affa5df6519", 
+            "date": "12-06-2020", 
+            "history": "Adding 1.7 with Dual Memory Support"
+          }
+        ], 
+        "config": {
+          "root": "boards/Xilinx/kcu105/1.7", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
+      },	  
       {
         "name": "kcu105", 
         "display": "Kintex-UltraScale KCU105 Evaluation Platform", 
@@ -2071,7 +2090,26 @@
           "metadata_file": "xitem.json"
         }, 
         "company": "xilinx.com"
-      }, 
+      },
+      {
+        "name": "kcu116", 
+        "display": "Kintex UltraScale+ KCU116 Evaluation Platform", 
+        "latest_revision": "1.5", 
+        "commit_id": "f9d84f595957d055aa192948d0101affa5df6519", 
+        "revisions": [
+          {
+            "revision": "1.5", 
+            "commit_id": "f9d84f595957d055aa192948d0101affa5df6519", 
+            "date": "12-06-2020", 
+            "history": "Adding 1.5 with Dual Memory Support"
+          }
+        ], 
+        "config": {
+          "root": "boards/Xilinx/kcu116/1.5", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
+      },
       {
         "name": "kcu116", 
         "display": "Kintex UltraScale+ KCU116 Evaluation Platform", 
@@ -2090,7 +2128,7 @@
           "metadata_file": "xitem.json"
         }, 
         "company": "xilinx.com"
-      }, 
+      },	  
       {
         "name": "KCU1500", 
         "display": "Kintex UltraScale KCU1500 Acceleration Development Board", 
@@ -2113,6 +2151,25 @@
       {
         "name": "vcu108", 
         "display": "Virtex-UltraScale VCU108 Evaluation Platform", 
+        "latest_revision": "1.7", 
+        "commit_id": "f9d84f595957d055aa192948d0101affa5df6519", 
+        "revisions": [
+          {
+            "revision": "1.7", 
+            "commit_id": "f9d84f595957d055aa192948d0101affa5df6519", 
+            "date": "12-06-2020", 
+            "history": "Adding 1.7 with Dual Memory Support"
+          }
+        ], 
+        "config": {
+          "root": "boards/Xilinx/vcu108/1.7", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vcu108", 
+        "display": "Virtex-UltraScale VCU108 Evaluation Platform", 
         "latest_revision": "1.6", 
         "commit_id": "6b2e55b1306cd6ac999e12e21128dcfaad7b37cf", 
         "revisions": [
@@ -2128,7 +2185,7 @@
           "metadata_file": "xitem.json"
         }, 
         "company": "xilinx.com"
-      }, 
+      },	  
       {
         "name": "vcu110", 
         "display": "Virtex-UltraScale VCU110 Evaluation Platform", 
@@ -2148,6 +2205,25 @@
         }, 
         "company": "xilinx.com"
       }, 
+      {
+        "name": "vcu118", 
+        "display": "Virtex UltraScale+ VCU118 Evaluation Platform", 
+        "latest_revision": "2.4", 
+        "commit_id": "f9d84f595957d055aa192948d0101affa5df6519", 
+        "revisions": [
+          {
+            "revision": "2.4", 
+            "commit_id": "f9d84f595957d055aa192948d0101affa5df6519", 
+            "date": "12-06-2020", 
+            "history": "Adding 2.4 with Dual Memory Support"
+          }
+        ], 
+        "config": {
+          "root": "boards/Xilinx/vcu118/2.4", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
+      },
       {
         "name": "vcu118", 
         "display": "Virtex UltraScale+ VCU118 Evaluation Platform", 
@@ -2299,7 +2375,26 @@
           "metadata_file": "xitem.json"
         }, 
         "company": "xilinx.com"
-      },   
+      },
+      {
+        "name": "zcu106", 
+        "display": "Zynq UltraScale+ ZCU106 Evaluation Platform", 
+        "latest_revision": "2.6", 
+        "commit_id": "f9d84f595957d055aa192948d0101affa5df6519", 
+        "revisions": [
+          {
+            "revision": "2.6", 
+            "commit_id": "f9d84f595957d055aa192948d0101affa5df6519", 
+            "date": "12-06-2020", 
+            "history": "Adding 2.6 with Dual Memory Supportt"
+          }
+        ], 
+        "config": {
+          "root": "boards/Xilinx/zcu106/2.6", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
+      },	  
      {
         "name": "zcu111", 
         "display": "Zynq UltraScale+ ZCU111 Evaluation Platform", 
@@ -2551,11 +2646,11 @@
         "name": "vck190_es",
         "display": "Versal VCK190 ES1 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "ba971cedaaad5e258f7fc86b61afc8854d2839a5",
+        "commit_id": "f9d84f595957d055aa192948d0101affa5df6519",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "ba971cedaaad5e258f7fc86b61afc8854d2839a5",
+            "commit_id": "f9d84f595957d055aa192948d0101affa5df6519",
             "date": "04-08-2020",
             "history": "Adding IOSTANDARD for all clocks in this file"
           }
@@ -2570,11 +2665,11 @@
         "name": "vmk180_es",
         "display": "Versal VMK180 ES1 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "69f7fa28156004f07c665f39fd509a8c15bc6bb9",
+        "commit_id": "f9d84f595957d055aa192948d0101affa5df6519",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "69f7fa28156004f07c665f39fd509a8c15bc6bb9",
+            "commit_id": "f9d84f595957d055aa192948d0101affa5df6519",
             "date": "04-08-2020",
             "history": "Adding IOSTANDARD for all clocks in this file"
           }
