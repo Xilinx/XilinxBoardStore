@@ -2337,7 +2337,26 @@
           "metadata_file": "xitem.json"
         }, 
         "company": "xilinx.com"
-      },   
+      },
+      {
+        "name": "zcu106", 
+        "display": "Zynq UltraScale+ ZCU106 Evaluation Platform", 
+        "latest_revision": "2.6", 
+        "commit_id": "44ce8afdbf01853b23ca757bab327236b8cb723e", 
+        "revisions": [
+          {
+            "revision": "2.6", 
+            "commit_id": "44ce8afdbf01853b23ca757bab327236b8cb723e", 
+            "date": "12-06-2020", 
+            "history": "Adding 2.6 with Dual Memory Supportt"
+          }
+        ], 
+        "config": {
+          "root": "boards/Xilinx/zcu106/2.6", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
+      },	  
       {
         "name": "zcu106", 
         "display": "Zynq UltraScale+ ZCU106 Evaluation Platform", 
@@ -2372,25 +2391,6 @@
         ], 
         "config": {
           "root": "boards/Xilinx/zcu106/2.5", 
-          "metadata_file": "xitem.json"
-        }, 
-        "company": "xilinx.com"
-      },
-      {
-        "name": "zcu106", 
-        "display": "Zynq UltraScale+ ZCU106 Evaluation Platform", 
-        "latest_revision": "2.6", 
-        "commit_id": "44ce8afdbf01853b23ca757bab327236b8cb723e", 
-        "revisions": [
-          {
-            "revision": "2.6", 
-            "commit_id": "44ce8afdbf01853b23ca757bab327236b8cb723e", 
-            "date": "12-06-2020", 
-            "history": "Adding 2.6 with Dual Memory Supportt"
-          }
-        ], 
-        "config": {
-          "root": "boards/Xilinx/zcu106/2.6", 
           "metadata_file": "xitem.json"
         }, 
         "company": "xilinx.com"
