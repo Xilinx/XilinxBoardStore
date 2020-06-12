@@ -2057,11 +2057,11 @@
         "name": "kcu105", 
         "display": "Kintex-UltraScale KCU105 Evaluation Platform", 
         "latest_revision": "1.7", 
-        "commit_id": "f9d84f595957d055aa192948d0101affa5df6519", 
+        "commit_id": "624bef01f0f781ddde84764386e810d102e94507", 
         "revisions": [
           {
             "revision": "1.7", 
-            "commit_id": "f9d84f595957d055aa192948d0101affa5df6519", 
+            "commit_id": "624bef01f0f781ddde84764386e810d102e94507", 
             "date": "12-06-2020", 
             "history": "Adding 1.7 with Dual Memory Support"
           }
@@ -2095,11 +2095,11 @@
         "name": "kcu116", 
         "display": "Kintex UltraScale+ KCU116 Evaluation Platform", 
         "latest_revision": "1.5", 
-        "commit_id": "f9d84f595957d055aa192948d0101affa5df6519", 
+        "commit_id": "624bef01f0f781ddde84764386e810d102e94507", 
         "revisions": [
           {
             "revision": "1.5", 
-            "commit_id": "f9d84f595957d055aa192948d0101affa5df6519", 
+            "commit_id": "624bef01f0f781ddde84764386e810d102e94507", 
             "date": "12-06-2020", 
             "history": "Adding 1.5 with Dual Memory Support"
           }
@@ -2152,11 +2152,11 @@
         "name": "vcu108", 
         "display": "Virtex-UltraScale VCU108 Evaluation Platform", 
         "latest_revision": "1.7", 
-        "commit_id": "f9d84f595957d055aa192948d0101affa5df6519", 
+        "commit_id": "624bef01f0f781ddde84764386e810d102e94507", 
         "revisions": [
           {
             "revision": "1.7", 
-            "commit_id": "f9d84f595957d055aa192948d0101affa5df6519", 
+            "commit_id": "624bef01f0f781ddde84764386e810d102e94507", 
             "date": "12-06-2020", 
             "history": "Adding 1.7 with Dual Memory Support"
           }
@@ -2209,11 +2209,11 @@
         "name": "vcu118", 
         "display": "Virtex UltraScale+ VCU118 Evaluation Platform", 
         "latest_revision": "2.4", 
-        "commit_id": "f9d84f595957d055aa192948d0101affa5df6519", 
+        "commit_id": "624bef01f0f781ddde84764386e810d102e94507", 
         "revisions": [
           {
             "revision": "2.4", 
-            "commit_id": "f9d84f595957d055aa192948d0101affa5df6519", 
+            "commit_id": "624bef01f0f781ddde84764386e810d102e94507", 
             "date": "12-06-2020", 
             "history": "Adding 2.4 with Dual Memory Support"
           }
@@ -2380,11 +2380,11 @@
         "name": "zcu106", 
         "display": "Zynq UltraScale+ ZCU106 Evaluation Platform", 
         "latest_revision": "2.6", 
-        "commit_id": "f9d84f595957d055aa192948d0101affa5df6519", 
+        "commit_id": "624bef01f0f781ddde84764386e810d102e94507", 
         "revisions": [
           {
             "revision": "2.6", 
-            "commit_id": "f9d84f595957d055aa192948d0101affa5df6519", 
+            "commit_id": "624bef01f0f781ddde84764386e810d102e94507", 
             "date": "12-06-2020", 
             "history": "Adding 2.6 with Dual Memory Supportt"
           }
@@ -2646,11 +2646,11 @@
         "name": "vck190_es",
         "display": "Versal VCK190 ES1 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "f9d84f595957d055aa192948d0101affa5df6519",
+        "commit_id": "624bef01f0f781ddde84764386e810d102e94507",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "f9d84f595957d055aa192948d0101affa5df6519",
+            "commit_id": "624bef01f0f781ddde84764386e810d102e94507",
             "date": "04-08-2020",
             "history": "Adding IOSTANDARD for all clocks in this file"
           }
@@ -2665,11 +2665,11 @@
         "name": "vmk180_es",
         "display": "Versal VMK180 ES1 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "f9d84f595957d055aa192948d0101affa5df6519",
+        "commit_id": "624bef01f0f781ddde84764386e810d102e94507",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "f9d84f595957d055aa192948d0101affa5df6519",
+            "commit_id": "624bef01f0f781ddde84764386e810d102e94507",
             "date": "04-08-2020",
             "history": "Adding IOSTANDARD for all clocks in this file"
           }
