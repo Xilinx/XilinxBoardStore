@@ -5,7 +5,7 @@
         "infra": {
           "name": "vcu118", 
           "display": "Virtex UltraScale+ VCU118 Evaluation Platform", 
-          "revision": "2.3", 
+          "revision": "2.4", 
           "description": "Virtex UltraScale+ VCU118 Evaluation Platform", 
           "company": "xilinx.com", 
           "company_display": "Xilinx", 

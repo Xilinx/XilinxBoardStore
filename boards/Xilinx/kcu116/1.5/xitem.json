@@ -5,7 +5,7 @@
         "infra": {
           "name": "kcu116", 
           "display": "Kintex UltraScale+ KCU116 Evaluation Platform", 
-          "revision": "1.4", 
+          "revision": "1.5", 
           "description": "Kintex UltraScale+ KCU116 Evaluation Platform", 
           "company": "xilinx.com", 
           "company_display": "Xilinx", 
