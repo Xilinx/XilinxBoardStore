@@ -2057,11 +2057,11 @@
         "name": "kcu105", 
         "display": "Kintex-UltraScale KCU105 Evaluation Platform", 
         "latest_revision": "1.7", 
-        "commit_id": "a7f1ace9bf2cff6b4f8589d6116439e5366c8bb5", 
+        "commit_id": "09061b968a930f8c0611a0c3cb77c21f1f71bcee", 
         "revisions": [
           {
             "revision": "1.7", 
-            "commit_id": "a7f1ace9bf2cff6b4f8589d6116439e5366c8bb5", 
+            "commit_id": "09061b968a930f8c0611a0c3cb77c21f1f71bcee", 
             "date": "12-06-2020", 
             "history": "Adding 1.7 with Dual Memory Support"
           }
@@ -2095,11 +2095,11 @@
         "name": "kcu116", 
         "display": "Kintex UltraScale+ KCU116 Evaluation Platform", 
         "latest_revision": "1.5", 
-        "commit_id": "a7f1ace9bf2cff6b4f8589d6116439e5366c8bb5", 
+        "commit_id": "09061b968a930f8c0611a0c3cb77c21f1f71bcee", 
         "revisions": [
           {
             "revision": "1.5", 
-            "commit_id": "a7f1ace9bf2cff6b4f8589d6116439e5366c8bb5", 
+            "commit_id": "09061b968a930f8c0611a0c3cb77c21f1f71bcee", 
             "date": "12-06-2020", 
             "history": "Adding 1.5 with Dual Memory Support"
           }
@@ -2152,11 +2152,11 @@
         "name": "vcu108", 
         "display": "Virtex-UltraScale VCU108 Evaluation Platform", 
         "latest_revision": "1.7", 
-        "commit_id": "a7f1ace9bf2cff6b4f8589d6116439e5366c8bb5", 
+        "commit_id": "09061b968a930f8c0611a0c3cb77c21f1f71bcee", 
         "revisions": [
           {
             "revision": "1.7", 
-            "commit_id": "a7f1ace9bf2cff6b4f8589d6116439e5366c8bb5", 
+            "commit_id": "09061b968a930f8c0611a0c3cb77c21f1f71bcee", 
             "date": "12-06-2020", 
             "history": "Adding 1.7 with Dual Memory Support"
           }
@@ -2209,11 +2209,11 @@
         "name": "vcu118", 
         "display": "Virtex UltraScale+ VCU118 Evaluation Platform", 
         "latest_revision": "2.4", 
-        "commit_id": "a7f1ace9bf2cff6b4f8589d6116439e5366c8bb5", 
+        "commit_id": "09061b968a930f8c0611a0c3cb77c21f1f71bcee", 
         "revisions": [
           {
             "revision": "2.4", 
-            "commit_id": "a7f1ace9bf2cff6b4f8589d6116439e5366c8bb5", 
+            "commit_id": "09061b968a930f8c0611a0c3cb77c21f1f71bcee", 
             "date": "12-06-2020", 
             "history": "Adding 2.4 with Dual Memory Support"
           }
@@ -2285,11 +2285,11 @@
         "name": "zcu102", 
         "display": "Zynq UltraScale+ ZCU102 Evaluation Board", 
         "latest_revision": "3.4", 
-        "commit_id": "a7f1ace9bf2cff6b4f8589d6116439e5366c8bb5", 
+        "commit_id": "09061b968a930f8c0611a0c3cb77c21f1f71bcee", 
         "revisions": [
           {
             "revision": "3.4", 
-            "commit_id": "a7f1ace9bf2cff6b4f8589d6116439e5366c8bb5", 
+            "commit_id": "09061b968a930f8c0611a0c3cb77c21f1f71bcee", 
             "date": "26-05-2020", 
             "history": "Adding 3.4 with Dual Memory Support"
           }
@@ -2342,11 +2342,11 @@
         "name": "zcu106", 
         "display": "Zynq UltraScale+ ZCU106 Evaluation Platform", 
         "latest_revision": "2.6", 
-        "commit_id": "a7f1ace9bf2cff6b4f8589d6116439e5366c8bb5", 
+        "commit_id": "09061b968a930f8c0611a0c3cb77c21f1f71bcee", 
         "revisions": [
           {
             "revision": "2.6", 
-            "commit_id": "a7f1ace9bf2cff6b4f8589d6116439e5366c8bb5", 
+            "commit_id": "09061b968a930f8c0611a0c3cb77c21f1f71bcee", 
             "date": "12-06-2020", 
             "history": "Adding 2.6 with Dual Memory Supportt"
           }
@@ -2399,11 +2399,11 @@
         "name": "zcu111", 
         "display": "Zynq UltraScale+ ZCU111 Evaluation Platform", 
         "latest_revision": "1.3", 
-        "commit_id": "a7f1ace9bf2cff6b4f8589d6116439e5366c8bb5", 
+        "commit_id": "09061b968a930f8c0611a0c3cb77c21f1f71bcee", 
         "revisions": [
           {
             "revision": "1.3", 
-            "commit_id": "a7f1ace9bf2cff6b4f8589d6116439e5366c8bb5", 
+            "commit_id": "09061b968a930f8c0611a0c3cb77c21f1f71bcee", 
             "date": "27-05-2020", 
             "history": "Addition 1.3 with Dual Memory Support"
           }
