@@ -718,7 +718,7 @@
       <description>PL I2C1</description>
     </component>
 	
-    <component name="ddr4_sdram" display_name="DDR4 SDRAM" type="chip" sub_type="ddr" major_group="External Memory" part_name="MT40A512M16JY-075E" vendor="Micron" spec_url="https://www.micron.com/parts/dram/ddr4-sdram/mt40a512m16jy-075e-ait">
+    <component name="ddr4_sdram" display_name="DDR4 SDRAM" type="chip" sub_type="ddr" major_group="External Memory" part_name="MT40A512M16JY-075E(old)/MT40A256M16LY-062E(new)" vendor="Micron" spec_url="https://www.micron.com/parts/dram/ddr4-sdram/mt40a512m16jy-075e-ait">
       <description>8Gb DDR4 SDRAM memory SODIMM</description>
       <parameters>
         <parameter name="ddr_type" value="ddr4"/>
