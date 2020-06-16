@@ -951,7 +951,7 @@
       </interfaces>
 	  
     </component>
-    <component name="ddr4_sdram_c1" display_name="DDR4 SDRAM C1" type="chip" sub_type="ddr" major_group="External Memory" part_name="MT40A256M16GE-075E" vendor="Micron" spec_url="https://www.micron.com/parts/dram/ddr4-sdram/mt40a256m16ge-075e">
+    <component name="ddr4_sdram_c1" display_name="DDR4 SDRAM C1" type="chip" sub_type="ddr" major_group="External Memory" part_name="MT40A256M16GE-075E/(old)/MT40A256M16LY-062E(new)" vendor="Micron" spec_url="https://www.micron.com/parts/dram/ddr4-sdram/mt40a256m16ge-075e">
       <description>4Gb DDR4 SDRAM memory C1</description>
       <parameters>
         <parameter name="ddr_type" value="ddr4"/>

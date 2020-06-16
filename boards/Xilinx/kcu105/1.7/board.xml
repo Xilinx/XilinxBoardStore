@@ -1492,7 +1492,7 @@
 	
 	
    
-    <component name="ddr4_sdram" display_name="DDR4 SDRAM" type="chip" sub_type="ddr" major_group="External Memory" part_name="EDY4016AABG-DR-F-D" vendor="Elpida" spec_url="http://www.micron.com/parts/dram/ddr4-sdram/edy4016aabg-dr-f">
+    <component name="ddr4_sdram" display_name="DDR4 SDRAM" type="chip" sub_type="ddr" major_group="External Memory" part_name="EDY4016AABG-DR-F-D(old)/MT40A256M16LY-062E(new)" vendor="Elpida/Micron" spec_url="http://www.micron.com/parts/dram/ddr4-sdram/edy4016aabg-dr-f">
       <description>4GB DDR4 SDRAM memory SODIMM</description>
       <parameters>
         <parameter name="ddr_type" value="ddr4"/>

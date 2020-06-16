@@ -640,7 +640,7 @@
           </port_maps>
         </interface>
 		
-		<interface mode="master" name="ddr4_sdram_c2" type="xilinx.com:interface:ddr4_rtl:1.0" of_component="ddr4_sdram_c2" preset_proc="ddr4_sdram_preset">
+		<interface mode="master" name="ddr4_sdram_c2" type="xilinx.com:interface:ddr4_rtl:1.0" of_component="ddr4_sdram_c2" preset_proc="ddr4_sdram_preset_DR">
           <description>DDR4 board interface C2, it can use DDR4 IP for connection. </description>
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="ddr4" order="0"/>
@@ -2281,7 +2281,7 @@
 	  
     </component>	
 	
-    <component name="ddr4_sdram_c1" display_name="DDR4 SDRAM C1" type="chip" sub_type="ddr" major_group="External Memory" part_name="EDY4016AABG-DR-F-D" vendor="Elpida" spec_url="http://www.micron.com/parts/dram/ddr4-sdram/edy4016aabg-dr-f">
+    <component name="ddr4_sdram_c1" display_name="DDR4 SDRAM C1" type="chip" sub_type="ddr" major_group="External Memory" part_name="EDY4016AABG-DR-F-D(old)/MT40A256M16LY-062E(new)" vendor="Elpida/Micron" spec_url="http://www.micron.com/parts/dram/ddr4-sdram/edy4016aabg-dr-f">
       <description>4GB DDR4 SDRAM memory C1</description>
       <parameters>
         <parameter name="ddr_type" value="ddr4"/>

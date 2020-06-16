@@ -734,7 +734,7 @@
     <component name="iic1_pl" display_name="PL IIC1" type="chip" sub_type="mux" major_group="Miscellaneous">
       <description>PL I2C1</description>
     </component>
-    <component name="ddr4_sdram" display_name="DDR4 SDRAM" type="chip" sub_type="ddr" major_group="External Memory" part_name="MT40A256M16GE-075E" vendor="Micron" spec_url="https://www.micron.com/parts/dram/ddr4-sdram/mt40a256m16ge-075e">
+    <component name="ddr4_sdram" display_name="DDR4 SDRAM" type="chip" sub_type="ddr" major_group="External Memory" part_name="MT40A256M16GE-075E(old)/MT40A256M16LY-062E(new)" vendor="Micron" spec_url="https://www.micron.com/parts/dram/ddr4-sdram/mt40a256m16ge-075e">
       <description>2GB DDR4 SDRAM memory SODIMM</description>
       <parameters>
         <parameter name="ddr_type" value="ddr4"/>

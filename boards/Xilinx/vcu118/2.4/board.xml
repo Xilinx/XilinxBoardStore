@@ -396,7 +396,7 @@
         </interface> 		
 		
 		
-	<interface mode="master" name="ddr4_sdram_c2" type="xilinx.com:interface:ddr4_rtl:1.0" of_component="ddr4_sdram_c2" preset_proc="ddr4_sdram_preset">
+	<interface mode="master" name="ddr4_sdram_c2" type="xilinx.com:interface:ddr4_rtl:1.0" of_component="ddr4_sdram_c2" preset_proc="ddr4_sdram_preset_083">
           <description>DDR4 board interface C2, it can use DDR4 IP for connection. </description>
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="ddr4" order="0"/>
@@ -1873,7 +1873,7 @@
 	
 	
 	
-    <component name="ddr4_sdram_c1" display_name="DDR4 SDRAM C1" type="chip" sub_type="ddr" major_group="External Memory" part_name="MT40A256M16GE" vendor="Micron" spec_url="https://www.micron.com/parts/dram/ddr4-sdram/mt40a256m16ge-083E">
+    <component name="ddr4_sdram_c1" display_name="DDR4 SDRAM C1" type="chip" sub_type="ddr" major_group="External Memory" part_name="MT40A256M16GE-083E(old)/MT40A256M16LY-062E(new)" vendor="Micron" spec_url="https://www.micron.com/parts/dram/ddr4-sdram/mt40a256m16ge-083E">
       <description>4Gb DDR4 SDRAM memory C1</description>
       <parameters>
         <parameter name="ddr_type" value="ddr4"/>
