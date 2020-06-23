@@ -2489,6 +2489,25 @@
           "metadata_file": "xitem.json"
         }, 
         "company": "xilinx.com"
+      }, 
+      {
+        "name": "zcu216_es", 
+        "display": "Zynq UltraScale+ ZCU216-LD Evaluation Platform", 
+        "latest_revision": "1.0", 
+        "commit_id": "8bece90f33bfed61e2ea4371bb449e240402aeea", 
+        "revisions": [
+          {
+            "revision": "1.0", 
+            "commit_id": "8bece90f33bfed61e2ea4371bb449e240402aeea", 
+            "date": "06-23-2020", 
+            "history": "Initial board file entry for zcu216-LD board"
+          }
+        ], 
+        "config": {
+          "root": "boards/Xilinx/zcu216ld/es/1.0", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
       }, 	    
       {
         "name": "zcu1275", 
