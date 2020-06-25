@@ -2152,11 +2152,11 @@
         "name": "vcu108", 
         "display": "Virtex-UltraScale VCU108 Evaluation Platform", 
         "latest_revision": "1.7", 
-        "commit_id": "09061b968a930f8c0611a0c3cb77c21f1f71bcee", 
+        "commit_id": "68b6cfc831f18a50afdf0fb4986f095e601ff2ac", 
         "revisions": [
           {
             "revision": "1.7", 
-            "commit_id": "09061b968a930f8c0611a0c3cb77c21f1f71bcee", 
+            "commit_id": "68b6cfc831f18a50afdf0fb4986f095e601ff2ac", 
             "date": "12-06-2020", 
             "history": "Adding 1.7 with Dual Memory Support"
           }
@@ -2209,11 +2209,11 @@
         "name": "vcu118", 
         "display": "Virtex UltraScale+ VCU118 Evaluation Platform", 
         "latest_revision": "2.4", 
-        "commit_id": "856243b2a0cfa5fbe9e85bdc3ec156b520a74449", 
+        "commit_id": "68b6cfc831f18a50afdf0fb4986f095e601ff2ac", 
         "revisions": [
           {
             "revision": "2.4", 
-            "commit_id": "856243b2a0cfa5fbe9e85bdc3ec156b520a74449", 
+            "commit_id": "68b6cfc831f18a50afdf0fb4986f095e601ff2ac", 
             "date": "12-06-2020", 
             "history": "Adding 2.4 with Dual Memory Support"
           }
@@ -2285,11 +2285,11 @@
         "name": "zcu102", 
         "display": "Zynq UltraScale+ ZCU102 Evaluation Board", 
         "latest_revision": "3.4", 
-        "commit_id": "09061b968a930f8c0611a0c3cb77c21f1f71bcee", 
+        "commit_id": "68b6cfc831f18a50afdf0fb4986f095e601ff2ac", 
         "revisions": [
           {
             "revision": "3.4", 
-            "commit_id": "09061b968a930f8c0611a0c3cb77c21f1f71bcee", 
+            "commit_id": "68b6cfc831f18a50afdf0fb4986f095e601ff2ac", 
             "date": "26-05-2020", 
             "history": "Adding 3.4 with Dual Memory Support"
           }
@@ -2342,11 +2342,11 @@
         "name": "zcu106", 
         "display": "Zynq UltraScale+ ZCU106 Evaluation Platform", 
         "latest_revision": "2.6", 
-        "commit_id": "09061b968a930f8c0611a0c3cb77c21f1f71bcee", 
+        "commit_id": "68b6cfc831f18a50afdf0fb4986f095e601ff2ac", 
         "revisions": [
           {
             "revision": "2.6", 
-            "commit_id": "09061b968a930f8c0611a0c3cb77c21f1f71bcee", 
+            "commit_id": "68b6cfc831f18a50afdf0fb4986f095e601ff2ac", 
             "date": "12-06-2020", 
             "history": "Adding 2.6 with Dual Memory Supportt"
           }
@@ -2399,11 +2399,11 @@
         "name": "zcu111", 
         "display": "Zynq UltraScale+ ZCU111 Evaluation Platform", 
         "latest_revision": "1.3", 
-        "commit_id": "09061b968a930f8c0611a0c3cb77c21f1f71bcee", 
+        "commit_id": "68b6cfc831f18a50afdf0fb4986f095e601ff2ac", 
         "revisions": [
           {
             "revision": "1.3", 
-            "commit_id": "09061b968a930f8c0611a0c3cb77c21f1f71bcee", 
+            "commit_id": "68b6cfc831f18a50afdf0fb4986f095e601ff2ac", 
             "date": "27-05-2020", 
             "history": "Addition 1.3 with Dual Memory Support"
           }
