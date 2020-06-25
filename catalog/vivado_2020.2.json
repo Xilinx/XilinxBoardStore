@@ -2057,13 +2057,13 @@
         "name": "kcu105", 
         "display": "Kintex-UltraScale KCU105 Evaluation Platform", 
         "latest_revision": "1.7", 
-        "commit_id": "69e720bd4499c0b737993c10b8993ada1b4534ad", 
+        "commit_id": "a211568fbb80ddfa8fdcdcf5234e61a82ffd74ed", 
         "revisions": [
           {
             "revision": "1.7", 
             "commit_id": "69e720bd4499c0b737993c10b8993ada1b4534ad", 
-            "date": "12-06-2020", 
-            "history": "Adding 1.7 with Dual Memory Support"
+            "date": "25-06-2020", 
+            "history": "QSPI Enabled"
           }
         ], 
         "config": {
