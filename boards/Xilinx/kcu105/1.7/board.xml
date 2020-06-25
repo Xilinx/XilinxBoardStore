@@ -731,6 +731,88 @@
             </port_map>
           </port_maps>
         </interface>
+<interface mode="master" name="spi_flash" type="xilinx.com:interface:spi_rtl:1.0" of_component="spi_flash" preset_proc="qspi_flash_preset" >
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_quad_spi" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="IO0_I" physical_port="spi_io0_i" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="QSPI_IO0"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO0_O" physical_port="spi_io0_o" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="QSPI_IO0"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO0_T" physical_port="spi_io0_t" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="QSPI_IO0"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO1_I" physical_port="spi_io1_i" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="QSPI_IO1"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO1_O" physical_port="spi_io1_o" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="QSPI_IO1"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO1_T" physical_port="spi_io1_t" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="QSPI_IO1"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO2_I" physical_port="spi_io2_i" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="QSPI_IO2"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO2_O" physical_port="spi_io2_o" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="QSPI_IO2"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO2_T" physical_port="spi_io2_t" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="QSPI_IO2"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO3_I" physical_port="spi_io3_i" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="QSPI_IO3"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO3_O" physical_port="spi_io3_o" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="QSPI_IO3"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO3_T" physical_port="spi_io3_t" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="QSPI_IO3"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SS_I" physical_port="spi_ss_i" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="QSPI_CSB"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SS_O" physical_port="spi_ss_o" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="QSPI_CSB"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SS_T" physical_port="spi_ss_t" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="QSPI_CSB"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
 	    <interface mode="slave" name="pcie_refclk" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="pcie_refclk" preset_proc="pcie_refclk_preset">
 	  <parameters>
 	    <parameter name="frequency" value="100000000"/>
@@ -1568,6 +1650,10 @@
     </component>
 	<component name="phy_reset_out" display_name="PHY reset out" type="chip" sub_type="reset" major_group="Reset">
       <description>PHY RESET OUT</description>
+</component>
+	<component name="spi_flash" display_name="QSPI flash" type="chip" sub_type="memory_flash_qspi" major_group="External Memory" part_name="N25Q256A11ESF40F" vendor="Microchip" spec_url="www.microchip.com">
+      <description>256 of nonvolatile storage that can be used for configuration or data storage</description>
+    
     </component>
     <component name="phy_onboard" display_name="Onboard PHY" type="chip" sub_type="ethernet" major_group="Ethernet Configurations" part_name="M88E1111_BAB1C000" vendor="Marvell" spec_url="www.marvell.com">
       <description>PHY on the board</description>
@@ -2160,7 +2246,9 @@
     <connection name="part0_phy_reset_out" component1="part0" component2="phy_reset_out">
       <connection_map name="part0_phy_reset_out_1" c1_st_index="215" c1_end_index="215" c2_st_index="0" c2_end_index="0"/>
     </connection>
-	
+		<connection name="part0_spi_flash" component1="part0" component2="spi_flash">
+      <connection_map name="part0_spi_flash_1" typical_delay="5" c1_st_index="466" c1_end_index="470" c2_st_index="0" c2_end_index="4"/>
+    </connection>
 	<connection name="part0_sysmon" component1="part0" component2="sysmon">
       <connection_map name="part0_sysmon_1" typical_delay="5" c1_st_index="0" c1_end_index="5" c2_st_index="460" c2_end_index="465"/>
     </connection>
@@ -2240,6 +2328,11 @@
          </associated_board_interfaces>
       </ip>
 	  
+	  <ip vendor="xilinx.com" library="ip" name="axi_quad_spi" version="*" ip_interface="SPI_1">
+		<associated_board_interfaces>
+			<associated_board_interface name="spi_flash" order="0"/> 
+		</associated_board_interfaces>
+      </ip>
     </ip_associated_rule>
   </ip_associated_rules>
 </board>
