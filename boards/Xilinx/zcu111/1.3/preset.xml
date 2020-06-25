@@ -13,7 +13,7 @@
 
 		
 
-  <ip_preset preset_proc_name="ddr4_sdram_preset_075">
+  <ip_preset preset_proc_name="ddr4_sdram_preset_HA">
     <ip vendor="xilinx.com" library="ip" name="ddr4">
       <user_parameters>
         <user_parameter name="CONFIG.C0.DDR4_MemoryPart" value="MT40A512M16HA-075E" />
@@ -25,10 +25,10 @@
     </ip>
   </ip_preset>
 
-  <ip_preset preset_proc_name="ddr4_sdram_preset_062">
+  <ip_preset preset_proc_name="ddr4_sdram_preset_075">
     <ip vendor="xilinx.com" library="ip" name="ddr4">
       <user_parameters>
-        <user_parameter name="CONFIG.C0.DDR4_MemoryPart" value="MT40A256M16LY-062E" />
+        <user_parameter name="CONFIG.C0.DDR4_MemoryPart" value="MT40A512M16LY-075" />
         <user_parameter name="CONFIG.C0.DDR4_DataWidth" value="64" />
         <user_parameter name="CONFIG.C0.DDR4_TimePeriod" value="750" />
         <user_parameter name="CONFIG.C0.DDR4_InputClockPeriod" value="3334" />
