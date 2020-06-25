@@ -224,7 +224,7 @@
           </port_maps>
         </interface>
 		
-		<interface mode="master" name="ddr4_sdram_075" type="xilinx.com:interface:ddr4_rtl:1.0" of_component="ddr4_sdram" preset_proc="ddr4_sdram_preset_075">
+		<interface mode="master" name="ddr4_sdram_JY" type="xilinx.com:interface:ddr4_rtl:1.0" of_component="ddr4_sdram" preset_proc="ddr4_sdram_preset_JY">
           <description>DDR4 board interface, it can use DDR4 controller IP for connection. </description>
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="ddr4" order="0"/>
@@ -408,7 +408,7 @@
           </port_maps>
         </interface>
 
-		<interface mode="master" name="ddr4_sdram_062" type="xilinx.com:interface:ddr4_rtl:1.0" of_component="ddr4_sdram" preset_proc="ddr4_sdram_preset_062">
+		<interface mode="master" name="ddr4_sdram_LY" type="xilinx.com:interface:ddr4_rtl:1.0" of_component="ddr4_sdram" preset_proc="ddr4_sdram_preset_LY">
           <description>DDR4 board interface, it can use DDR4 controller IP for connection. </description>
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="ddr4" order="0"/>
@@ -718,7 +718,7 @@
       <description>PL I2C1</description>
     </component>
 	
-    <component name="ddr4_sdram" display_name="DDR4 SDRAM" type="chip" sub_type="ddr" major_group="External Memory" part_name="MT40A512M16JY-075E(old)/MT40A256M16LY-062E(new)" vendor="Micron" spec_url="https://www.micron.com/parts/dram/ddr4-sdram/mt40a512m16jy-075e-ait">
+    <component name="ddr4_sdram" display_name="DDR4 SDRAM" type="chip" sub_type="ddr" major_group="External Memory" part_name="MT40A512M16JY-075E(old)/MT40A512M16LY-075E(new)" vendor="Micron" spec_url="https://www.micron.com/parts/dram/ddr4-sdram/mt40a512m16jy-075e-ait">
       <description>8Gb DDR4 SDRAM memory SODIMM</description>
       <parameters>
         <parameter name="ddr_type" value="ddr4"/>
@@ -726,18 +726,18 @@
       </parameters>
 	  
 	  <component_modes>
-	   <component_mode name="ddr4_sdram_075" display_name="ddr4_sdram_075">
+	   <component_mode name="ddr4_sdram_JY" display_name="ddr4_sdram_JY">
           <interfaces>
-            <interface name="ddr4_sdram_075"/>
+            <interface name="ddr4_sdram_JY"/>
 			<interface name="default_sysclk1_300mhz" optional="true"/>
           </interfaces>
         </component_mode>
 	  </component_modes>
 
 	  <component_modes>
-	   <component_mode name="ddr4_sdram_062" display_name="ddr4_sdram_062">
+	   <component_mode name="ddr4_sdram_LY" display_name="ddr4_sdram_LY">
           <interfaces>
-            <interface name="ddr4_sdram_062"/>
+            <interface name="ddr4_sdram_LY"/>
 			<interface name="default_sysclk1_300mhz" optional="true"/>
           </interfaces>
         </component_mode>
