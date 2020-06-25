@@ -505,6 +505,11 @@
     <pin index="464" name="sysmon_vaux8_p"  loc="C11"/>
     <pin index="465" name="sysmon_vaux8_n"  loc="B11"/>	
 	
+	<pin index="466" name="QSPI_IO0" iostandard="LVCMOS18" loc="M20"/>
+	<pin index="467" name="QSPI_IO1" iostandard="LVCMOS18" loc="L20"/>
+	<pin index="468" name="QSPI_IO2" iostandard="LVCMOS18" loc="R21"/>
+	<pin index="469" name="QSPI_IO3" iostandard="LVCMOS18" loc="R22"/>
+	<pin index="470" name="QSPI_CSB" iostandard="LVCMOS18" loc="G26"/>
 	
 	</pins>
 	
