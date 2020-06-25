@@ -1180,21 +1180,6 @@
         <parameter name="ddr_type" value="ddr4"/>
         <parameter name="size" value="2GB"/>
       </parameters>
-
-	 	  <component_modes>
-	   <component_mode name="ddr4_sdram_075" display_name="ddr4_sdram_075">
-          <interfaces>
-            <interface name="ddr4_sdram_075"/>
-          </interfaces>
-        </component_mode>
-
-	   <component_mode name="ddr4_sdram_062" display_name="ddr4_sdram_062">
-          <interfaces>
-            <interface name="ddr4_sdram_062"/>
-          </interfaces>
-        </component_mode>
-	  </component_modes>
-	  
     </component>
 	
     <component name="reset" display_name="FPGA Reset" type="chip" sub_type="system_reset" major_group="Reset" part_name="TL3301EP100QG" vendor="ESwitch">

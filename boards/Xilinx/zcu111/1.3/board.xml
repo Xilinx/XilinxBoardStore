@@ -732,7 +732,9 @@
 			<interface name="default_sysclk1_300mhz" optional="true"/>
           </interfaces>
         </component_mode>
+	  </component_modes>
 
+	  <component_modes>
 	   <component_mode name="ddr4_sdram_062" display_name="ddr4_sdram_062">
           <interfaces>
             <interface name="ddr4_sdram_062"/>

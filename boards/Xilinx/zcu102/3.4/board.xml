@@ -9,7 +9,6 @@
  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
  License for the specific language governing permissions and limitations
  under the License. -->
- 
 <board schema_version="2.2" vendor="xilinx.com" name="zcu102" display_name="Zynq UltraScale+ ZCU102 Evaluation Board" url="www.xilinx.com/zcu102" preset_file="preset.xml">
 <images>
     <image name="zcu102_board.jpeg" display_name="ZCU102 BOARD" sub_type="board">
@@ -742,23 +741,23 @@
         <parameter name="size" value="2GB"/>
       </parameters>
 	  
-	 	  <component_modes>
+<!-- 	 	  <component_modes>
 	   <component_mode name="ddr4_sdram_075" display_name="ddr4_sdram_075">
           <interfaces>
             <interface name="ddr4_sdram_075"/>
-														
-          </interfaces>
-        </component_mode>
-
-   
-					  
-	   <component_mode name="ddr4_sdram_062" display_name="ddr4_sdram_062">
-          <interfaces>
-            <interface name="ddr4_sdram_062"/>
-														
+			<interface name="user_si570_sysclk" optional="true"/>
           </interfaces>
         </component_mode>
 	  </component_modes>
+	  
+  	  <component_modes>
+	   <component_mode name="ddr4_sdram_062" display_name="ddr4_sdram_062">
+          <interfaces>
+            <interface name="ddr4_sdram_062"/>
+			<interface name="user_si570_sysclk" optional="true"/>
+          </interfaces>
+        </component_mode>
+	  </component_modes> -->
 	  
     </component>
     <component name="reset" display_name="FPGA Reset" type="chip" sub_type="system_reset" major_group="Reset" part_name="TL3301EP100QG" vendor="ESwitch">
