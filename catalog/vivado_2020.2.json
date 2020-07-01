@@ -1843,7 +1843,7 @@
           "metadata_file": "xitem.json"
         }, 
         "company": "xilinx.com"
-      }, 	    
+      }, 
       {
         "name": "vcu129", 
         "display": "Virtex Ultrascale+ 56G VCU129 Evaluation Platform", 
@@ -2452,6 +2452,25 @@
         }, 
         "company": "xilinx.com"
       }, 
+      {
+        "name": "zcu216_es", 
+        "display": "Zynq UltraScale+ ZCU216-LD Evaluation Platform", 
+        "latest_revision": "1.0", 
+        "commit_id": "327138abbda6ba44bcc476048789f141d7df6e14", 
+        "revisions": [
+          {
+            "revision": "1.0", 
+            "commit_id": "327138abbda6ba44bcc476048789f141d7df6e14", 
+            "date": "01-07-2020", 
+            "history": "Addition of Zynq UltraScale+ ZCU216-LD Evaluation Platform"
+          }
+        ], 
+        "config": {
+          "root": "boards/Xilinx/zcu216ld/es/1.0", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
+      },
       {
         "name": "zcu208", 
         "display": "Zynq UltraScale+ ZCU208 Evaluation Platform", 
