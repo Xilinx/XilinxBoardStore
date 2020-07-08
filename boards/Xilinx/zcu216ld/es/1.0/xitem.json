@@ -3,7 +3,7 @@
     "items": [
       {
         "infra": {
-          "name": "zcu216_es", 
+          "name": "zcu216ld_es", 
           "display": "Zynq UltraScale+ ZCU216-LD Evaluation Platform", 
           "revision": "1.0", 
           "description": "Zynq UltraScale+ ZCU216-LD Evaluation Platform", 
