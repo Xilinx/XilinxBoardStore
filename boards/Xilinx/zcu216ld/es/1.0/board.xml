@@ -9,7 +9,7 @@
  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
  License for the specific language governing permissions and limitations
  under the License. -->
-<board schema_version="2.2" vendor="xilinx.com" name="zcu216_es" display_name="Zynq UltraScale+ ZCU216-LD Evaluation Platform" url="www.xilinx.com/zcu216" preset_file="preset.xml">
+<board schema_version="2.2" vendor="xilinx.com" name="zcu216ld_es" display_name="Zynq UltraScale+ ZCU216-LD Evaluation Platform" url="www.xilinx.com/zcu216" preset_file="preset.xml">
 <images>
     <image name="zcu216_board.jpeg" display_name="ZCU216-LD BOARD" sub_type="board">
       <description>ZCU216 Board File Image</description>
