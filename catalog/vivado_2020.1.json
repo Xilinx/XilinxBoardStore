@@ -2644,44 +2644,7 @@
         }, 
         "company": "xilinx.com"
       },
-	  {
-        "name": "au50dd",
-        "display": "Alveo U50DD Data Center Accelerator Card",
-        "latest_revision": "1.0",
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd",
-        "revisions": [
-          {
-            "revision": "1.0",
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd",
-            "date": "31-10-2019",
-            "history": "Adding U50DD VBS"
-          }
-        ],
-        "config": {
-          "root": "boards/Xilinx/au50/es/1.0",
-          "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
-      }, 
-     {
-        "name": "au50",
-        "display": "Alveo U50 Data Center Accelerator Card",
-        "latest_revision": "1.0",
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd",
-        "revisions": [
-          {
-            "revision": "1.0",
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd",
-            "date": "06-02-2020",
-            "history": "Removed DD reference on LED interface"
-          }
-        ],
-        "config": {
-          "root": "boards/Xilinx/au50/production/1.0",
-          "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
-      }, 	
+	  	
      {
         "name": "vck190_es",
         "display": "Versal VCK190 ES1 Evaluation Platform",
