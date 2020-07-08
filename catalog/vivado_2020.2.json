@@ -2433,6 +2433,25 @@
         }, 
         "company": "xilinx.com"
       }, 
+	 {
+        "name": "zcu216", 
+        "display": "Zynq UltraScale+ ZCU216 Evaluation Platform", 
+        "latest_revision": "1.1",
+        "commit_id": "659986880b659f32f3950abc08475a0d587a8e6a", 
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "659986880b659f32f3950abc08475a0d587a8e6a", 
+            "date": "08-07-2020",
+            "history": "Enabled PL-DDR4 interface"
+          }
+        ], 
+        "config": {
+          "root": "boards/Xilinx/zcu216/1.1",
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
+      }, 
       {
         "name": "zcu216", 
         "display": "Zynq UltraScale+ ZCU216 Evaluation Platform", 
