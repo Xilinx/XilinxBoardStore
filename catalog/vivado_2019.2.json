@@ -2414,44 +2414,6 @@
         }, 
         "company": "xilinx.com"
       },
-	  {
-        "name": "au50dd",
-        "display": "Alveo U50DD Data Center Accelerator Card",
-        "latest_revision": "1.0",
-        "commit_id": "ac855f447a7ac1b5b0825e4173674054e4ffb972",
-        "revisions": [
-          {
-            "revision": "1.0",
-            "commit_id": "ac855f447a7ac1b5b0825e4173674054e4ffb972",
-            "date": "27-11-2019",
-            "history": "change the u50dd part from -2L to -2"
-          }
-        ],
-        "config": {
-          "root": "boards/Xilinx/au50/es/1.0",
-          "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
-      }, 
-	  {
-        "name": "au50",
-        "display": "Alveo U50 Data Center Accelerator Card",
-        "latest_revision": "1.0",
-        "commit_id": "fc2fd67802cc686d7246322c0eaf2e6ebfff7820",
-        "revisions": [
-          {
-            "revision": "1.0",
-            "commit_id": "fc2fd67802cc686d7246322c0eaf2e6ebfff7820",
-            "date": "02-03-2020",
-            "history": "Swap the pin numbers of FPGA_TXD_MSP and FPGA_RXD_MSP"
-          }
-        ],
-        "config": {
-          "root": "boards/Xilinx/au50/production/1.0",
-          "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
-      }, 	  
       {
         "name": "au250", 
         "display": "Alveo U250 Data Center Accelerator Card", 
