@@ -19,6 +19,10 @@
 	
     <pin index="2"  name ="sysclk1_p" iostandard="LVDS" loc="BH6"  dqs_bias="TRUE"/>
     <pin index="3"  name ="sysclk1_n" iostandard="LVDS" loc="BJ6"  dqs_bias="TRUE"/>
+	
+	<pin index="4"  name ="sysclk3_p" iostandard="LVDS" loc="G31"  dqs_bias="TRUE"/>
+    <pin index="5"  name ="sysclk3_n" iostandard="LVDS" loc="F31"  dqs_bias="TRUE"/>
+
 
     <pin index="8"   name ="IIC_MAIN_RESET_B_LS" iostandard="LVCMOS18" loc="B31"/>
     <pin index="9"   name ="IIC_SCL_MAIN" iostandard="LVCMOS18" loc="C30" drive="8" slew="SLOW"/>
