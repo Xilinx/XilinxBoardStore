@@ -4,9 +4,9 @@
       {
         "infra": {
           "name": "te0724_20_1i", 
-          "display": "ZYNQ-7 TE0724-*-20-1I (1GB DDR3). *SPRT PCB: REV03, REV02", 
+          "display": "ZYNQ-7 TE0724_20_1I( : 1GB DDR3L). SPRT PCB: REV02", 
           "revision": "1.0", 
-          "description": "ZYNQ-7 TE0724-*-20-1I (1GB DDR3) Board (form factor 4x6cm) with 1GB DDR3L, 1GBit Ethernet, speed grade -1 and industrial temperature grade. *Supported PCB Revisions: REV03, REV02.", 
+          "description": "ZYNQ-7 TE0724_20_1I Board (form factor 4x6cm) with 1GB DDR3L, 1GBit Ethernet, speed grade -1 and industrial temperature grade. Supported PCB Revisions: REV02.", 
           "company": "trenz.biz", 
           "company_display": "Trenz Electronic GmbH", 
           "author": "trenz.biz", 
@@ -18,7 +18,6 @@
           ], 
           "category": "Single Part", 
           "website": "trenz.org/te0724-info", 
-          "logo": "te0724_board.png", 
           "search-keywords": [
             "te0724_20_1i", 
             "trenz.biz", 

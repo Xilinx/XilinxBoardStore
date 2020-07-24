@@ -4,9 +4,9 @@
       {
         "infra": {
           "name": "te0726_m", 
-          "display": "ZYNQ-7 TE0726-*M (512MB DDR). *SPRT PCB: REV03, REV02.", 
+          "display": "ZYNQ-7 TE0726_M (512MB DDR). SPRT PCB: REV03, REV02.", 
           "revision": "3.1", 
-          "description": "ZYNQ-7 TE0726-*M ZynqBerry Board (form factor like RPI2) with 512MB Memory and 100MBit Ethernet, speed grade -1 and commercial temperature range. *Supported PCB Revisions: REV03 and REV02. Note: primary boot device is QSPI, SD can be used as secondary boot device only.", 
+          "description": "ZYNQ-7 TE0726-M ZynqBerry Board (form factor like RPI2) with 512MB Memory and 100MBit Ethernet, speed grade -1 and commercial temperature range. Supported PCB Revisions: REV03 and REV02. Note: primary boot device is QSPI, SD can be used as secondary boot device only.", 
           "company": "trenz.biz", 
           "company_display": "Trenz Electronic GmbH", 
           "author": "trenz.biz", 
@@ -18,7 +18,6 @@
           ], 
           "category": "Single Part", 
           "website": "trenz.org/te0726-info", 
-          "logo": "te0726_board.png", 
           "search-keywords": [
             "te0726_m", 
             "trenz.biz", 
