@@ -1867,13 +1867,13 @@
         "name": "au280", 
         "display": "Alveo U280 Data Center Accelerator Card", 
         "latest_revision": "1.1", 
-        "commit_id": "7b69d37cac28e7185d16532defff9b7a8520a28e", 
+        "commit_id": "b35f9a0e810ec15066f9e8c71e53d5ea15b40754", 
         "revisions": [
           {
             "revision": "1.1", 
-            "commit_id": "7b69d37cac28e7185d16532defff9b7a8520a28e", 
-            "date": "15-10-2019", 
-            "history": "Add au280 Acceleration card Board Files"
+            "commit_id": "b35f9a0e810ec15066f9e8c71e53d5ea15b40754", 
+            "date": "29-07-2020", 
+            "history": "Added missing sysclk3 clock definition"
           }
         ], 
         "config": {
