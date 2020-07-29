@@ -2394,7 +2394,26 @@
           "metadata_file": "xitem.json"
         }, 
         "company": "xilinx.com"
-      },	  
+      },
+     {
+        "name": "zcu111", 
+        "display": "Zynq UltraScale+ ZCU111 Evaluation Platform", 
+        "latest_revision": "1.4", 
+        "commit_id": "ca2d7a691cebbe72078f8b751b3bf331ae0c3743", 
+        "revisions": [
+          {
+            "revision": "1.4", 
+            "commit_id": "ca2d7a691cebbe72078f8b751b3bf331ae0c3743", 
+            "date": "29-07-2020", 
+            "history": "Adding sfp interface enabled board files"
+          }
+        ], 
+        "config": {
+          "root": "boards/Xilinx/zcu111/1.4", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
+      }, 
      {
         "name": "zcu111", 
         "display": "Zynq UltraScale+ ZCU111 Evaluation Platform", 
@@ -2429,6 +2448,25 @@
         ], 
         "config": {
           "root": "boards/Xilinx/zcu111/1.2", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
+      },
+	 {
+        "name": "zcu216", 
+        "display": "Zynq UltraScale+ ZCU216 Evaluation Platform", 
+        "latest_revision": "1.2",
+        "commit_id": "ca2d7a691cebbe72078f8b751b3bf331ae0c3743", 
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "ca2d7a691cebbe72078f8b751b3bf331ae0c3743", 
+            "date": "29-07-2020",
+            "history": "Adding sfp interface enabled board files"
+          }
+        ], 
+        "config": {
+          "root": "boards/Xilinx/zcu216/1.2",
           "metadata_file": "xitem.json"
         }, 
         "company": "xilinx.com"
@@ -2490,6 +2528,25 @@
         }, 
         "company": "xilinx.com"
       },
+      {
+        "name": "zcu208", 
+        "display": "Zynq UltraScale+ ZCU208 Evaluation Platform", 
+        "latest_revision": "1.1", 
+        "commit_id": "ca2d7a691cebbe72078f8b751b3bf331ae0c3743", 
+        "revisions": [
+          {
+            "revision": "1.1", 
+            "commit_id": "ca2d7a691cebbe72078f8b751b3bf331ae0c3743", 
+            "date": "29-07-2020", 
+            "history": "Adding sfp interface enabled board files"
+          }
+        ], 
+        "config": {
+          "root": "boards/Xilinx/zcu208/es/1.1", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
+      }, 
       {
         "name": "zcu208", 
         "display": "Zynq UltraScale+ ZCU208 Evaluation Platform", 
