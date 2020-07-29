@@ -16,7 +16,8 @@
               "url": "www.xilinx.com"
             }
           ], 
-          "category": "Single Part", 
+          "category": "Single Part",
+          "logo": "au280_image.jpg",
           "website": "http://www.xilinx.com/u280", 
           "search-keywords": [
             "au280", 
