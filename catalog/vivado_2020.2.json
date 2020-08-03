@@ -2703,13 +2703,13 @@
         "name": "vck190_es",
         "display": "Versal VCK190 ES1 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "44ce8afdbf01853b23ca757bab327236b8cb723e",
+        "commit_id": "1fd425869077cc64a63cabd94a1bf939d77a6a41",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "44ce8afdbf01853b23ca757bab327236b8cb723e",
-            "date": "04-08-2020",
-            "history": "Adding IOSTANDARD for all clocks in this file"
+            "commit_id": "1fd425869077cc64a63cabd94a1bf939d77a6a41",
+            "date": "03-08-2020",
+            "history": "Updated CIPS Interface"
           }
         ],
         "config": {
