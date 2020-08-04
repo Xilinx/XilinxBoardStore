@@ -9,7 +9,7 @@
  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
  License for the specific language governing permissions and limitations
  under the License. -->
-<board schema_version="2.1" vendor="xilinx.com" name="zcu208_es" display_name="Zynq UltraScale+ RFSoC ZCU208-ES1 Evaluation Kit" url="www.xilinx.com/zcu208" preset_file="preset.xml">
+<board schema_version="2.2" vendor="xilinx.com" name="zcu208_es" display_name="Zynq UltraScale+ RFSoC ZCU208-ES1 Evaluation Kit" url="www.xilinx.com/zcu208" preset_file="preset.xml">
 <images>
     <image name="zcu208_board.jpeg" display_name="ZCU208 BOARD" sub_type="board">
       <description>ZCU08 Board File Image</description>
