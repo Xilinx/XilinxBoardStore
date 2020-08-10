@@ -2703,12 +2703,12 @@
         "name": "vck190_es",
         "display": "Versal VCK190 ES1 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "1fd425869077cc64a63cabd94a1bf939d77a6a41",
+        "commit_id": "bcb8344dedb9a0978f56a19df4abba00de5f68d5",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "1fd425869077cc64a63cabd94a1bf939d77a6a41",
-            "date": "03-08-2020",
+            "commit_id": "bcb8344dedb9a0978f56a19df4abba00de5f68d5",
+            "date": "10-08-2020",
             "history": "Updated CIPS Interface"
           }
         ],
