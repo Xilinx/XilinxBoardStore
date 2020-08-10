@@ -43,7 +43,7 @@
     <interfaces>
   
 
-        <interface mode="master" name="cips_fixedio" type="xilinx.com:interface:fixedio_rtl:1.0" of_component="cips_fixedio" preset_proc="versal_cips_preset"> 
+        <interface mode="master" name="cips_fixed_io" type="xilinx.com:interface:fixed_io_rtl:1.0" of_component="cips_fixed_io" preset_proc="versal_cips_preset"> 
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="versal_cips" order="0"/>
           </preferred_ips>
@@ -1280,9 +1280,9 @@
     </component>   
 	
 	
-    <!-- <component name="cips_fixedio" display_name="PS8 fixed IO" type="chip" sub_type="fixed_io" major_group=""/>	 -->
+    <!-- <component name="cips_fixed_io" display_name="PS8 fixed IO" type="chip" sub_type="fixed_io" major_group=""/>	 -->
 	
-	<component name="cips_fixedio" display_name="CIPS fixed IO" type="chip" sub_type="fixed_io" major_group="MIO interface" part_name="Versal CIPS" vendor="Xilinx" >
+	<component name="cips_fixed_io" display_name="CIPS fixed IO" type="chip" sub_type="fixed_io" major_group="MIO interface" part_name="Versal CIPS" vendor="Xilinx" >
       <description>Versal CIPS component </description>
 	</component>
    
