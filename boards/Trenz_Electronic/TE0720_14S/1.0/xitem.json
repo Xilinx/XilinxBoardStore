@@ -4,9 +4,9 @@
       {
         "infra": {
           "name": "te0720_14s", 
-          "display": "ZYNQ-7 TE0720_14S. SPRT PCB: REV02, REV03", 
+          "display": "ZYNQ-7 TE0720-*-14S-1C (1GB DDR). *SPRT PCB: REV02, REV03", 
           "revision": "1.0", 
-          "description": "ZYNQ-7 TE0720_14S Board (form factor 4x5 cm) with 1GByte DDR3L, 1GBit Ethernet, Speed Grade -1 and commercial temperature grade. Supported PCB Revisions: REV02, REV03.", 
+          "description": "ZYNQ-7  TE0720-*-14S-1C (1GB DDR) Board (form factor 4x5 cm) with 1GByte DDR3, 1GBit Ethernet, Speed Grade -1 and commercial temperature grade. *Supported PCB Revisions: REV02, REV03.", 
           "company": "trenz.biz", 
           "company_display": "Trenz Electronic GmbH", 
           "author": "trenz.biz", 
@@ -18,6 +18,7 @@
           ], 
           "category": "Single Part", 
           "website": "trenz.org/te0720-info", 
+          "logo": "te0720_board.png", 
           "search-keywords": [
             "te0720_14s", 
             "trenz.biz", 

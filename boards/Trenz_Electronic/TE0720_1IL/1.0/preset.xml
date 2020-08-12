@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
 <!-- ##################################################################### -->
 <!-- ##TE File Version:1.0-->
-<!-- ##TE Last Modification:2018.08.23 -->
+<!-- ##TE Last Modification:2019.02.12 -->
 <!-- ##################################################################### -->
 <ip_presets schema="1.0">
   <!--insert ip presets here, see ug895 or other board part files-->
@@ -43,7 +43,7 @@
         <user_parameter  name="CONFIG.PCW_WDT_PERIPHERAL_ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PCW_TTC0_PERIPHERAL_ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PCW_TTC1_PERIPHERAL_ENABLE" value="1"/>
-        <user_parameter  name="CONFIG.PCW_UIPARAM_DDR_MEMORY_TYPE" value="DDR 3"/>
+        <user_parameter  name="CONFIG.PCW_UIPARAM_DDR_MEMORY_TYPE" value="DDR 3 (Low Voltage)"/>
         <user_parameter  name="CONFIG.PCW_UIPARAM_DDR_PARTNO" value="MT41K256M16 RE-125"/>
         <user_parameter  name="CONFIG.PCW_UIPARAM_DDR_BUS_WIDTH" value="16 Bit"/>
         <user_parameter  name="CONFIG.PCW_GPIO_MIO_GPIO_ENABLE" value="1"/>

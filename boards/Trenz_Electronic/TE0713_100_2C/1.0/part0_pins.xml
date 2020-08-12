@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<!-- ##################################################################### -->
+<!-- ##TE File Version:1.0-->
+<!-- ##TE Last Modification:2017.03.01-->
+<!-- ##################################################################### -->
+<!-- ## replace part_name with correct FPGA PART from board.xml-->
+<part_info part_name="xc7a100tfgg484-2">
+  <pins>
+    <!--insert ip pin settings and locations here, see ug895 or other board part files-->
+    <pin index="0" name="J1_92" iostandard="LVCMOS33" loc="P19"/>
+    <pin index="1" name="J1_85" iostandard="LVCMOS33" loc="U18"/>
+    
+    <pin index="2" name="spi_ss" iostandard="LVCMOS33" loc="T19"/>
+    <pin index="3" name="spi_io_0" iostandard="LVCMOS33" loc="P22"/>
+    <pin index="4" name="spi_io_1" iostandard="LVCMOS33" loc="R22"/>
+    <pin index="5" name="spi_io_2" iostandard="LVCMOS33" loc="P21"/>
+    <pin index="6" name="spi_io_3" iostandard="LVCMOS33" loc="R21"/>
+    
+    <pin index="7" name="RESET" iostandard="SSTL135" loc="T3"/>
+    
+    <pin index="8" name="sys_diff_clkp" iostandard="DIFF_SSTL135_R" loc="H4"/>
+    <pin index="9" name="sys_diff_clkn" iostandard="DIFF_SSTL135_R" loc="G4"/>
+    
+    <pin index="10" name="mgt_diff_clkp" loc="F6" />
+    <pin index="11" name="mgt_diff_clkn" loc="E6" />
+    
+    <pin index="12" name="iic_main0_scl_i" iostandard="LVCMOS33" loc="AB22"/>
+    <pin index="13" name="iic_main0_sda_i" iostandard="LVCMOS33" loc="AB21"/>
+    
+  </pins>
+</part_info>
