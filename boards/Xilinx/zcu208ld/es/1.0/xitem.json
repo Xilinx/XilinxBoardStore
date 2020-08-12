@@ -3,7 +3,7 @@
     "items": [
       {
         "infra": {
-          "name": "zcu208_es", 
+          "name": "zcu208ld_es", 
           "display": "Zynq UltraScale+ ZCU208-LD Evaluation Platform", 
           "revision": "1.0", 
           "description": "Zynq UltraScale+ ZCU208-LD Evaluation Platform", 
@@ -19,7 +19,7 @@
           "category": "Single Part", 
           "website": "www.xilinx.com/zcu208", 
           "search-keywords": [
-            "zcu208_es", 
+            "zcu208ld_es", 
             "xilinx.com", 
             "board", 
             "Single Part"
