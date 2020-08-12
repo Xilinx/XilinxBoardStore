@@ -1,0 +1,34 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "te0745_45_2i", 
+          "display": "Zynq-7 TE0745-*-92I11-F (1GB DDR). *SPRT PCB: REV02", 
+          "revision": "2.0", 
+          "description": "Zynq-7 TE0745-*-92I11-F (1GB DDR) Board (form factor 5.2x7.6 cm) with 1GByte DDR3, 1GBit Ethernet, Speed Grade -2 and industrial temperature grade. *Supported PCB: REV02.", 
+          "company": "trenz.biz", 
+          "company_display": "Trenz Electronic GmbH", 
+          "author": "trenz.biz", 
+          "contributors": [
+            {
+              "group": "Trenz Electronic GmbH", 
+              "url": "https://www.trenz-electronic.de/"
+            }
+          ], 
+          "category": "Single Part", 
+          "website": "trenz.org/te0745-info", 
+          "logo": "te0745_board.png", 
+          "search-keywords": [
+            "te0745_45_2i", 
+            "trenz.biz", 
+            "board", 
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  }, 
+  "_major": 1, 
+  "_minor": 0
+}

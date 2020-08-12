@@ -1,0 +1,34 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "te0741_070_2c", 
+          "display": "Kintex-7 TE0741-*-070-2CF. *SPRT PCB: REV03, REV02", 
+          "revision": "1.0", 
+          "description": "Kintex-7 TE0741-*-070-2CF Board (form factor 4x5 cm) with 6.6Gb/s GTX Transceiver, Speed Grade -2 and commercial temperature range. *Supported PCB Revisions: REV03, REV02.", 
+          "company": "trenz.biz", 
+          "company_display": "Trenz Electronic GmbH", 
+          "author": "trenz.biz", 
+          "contributors": [
+            {
+              "group": "Trenz Electronic GmbH", 
+              "url": "https://www.trenz-electronic.de/"
+            }
+          ], 
+          "category": "Single Part", 
+          "website": "trenz.org/te0741-info", 
+          "logo": "te0741_board.png", 
+          "search-keywords": [
+            "te0741_070_2c", 
+            "trenz.biz", 
+            "board", 
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  }, 
+  "_major": 1, 
+  "_minor": 0
+}
