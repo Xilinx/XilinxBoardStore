@@ -2511,14 +2511,14 @@
         "company": "xilinx.com"
       },
       {
-        "name": "zcu208", 
+        "name": "zcu208_es", 
         "display": "Zynq UltraScale+ ZCU208 Evaluation Platform", 
         "latest_revision": "1.1", 
-        "commit_id": "8a9cf303e1251da5984bd718bc94c472a4c34901", 
+        "commit_id": "786cc2892e75aea0cb10aeb3a874047f01e0f3cd", 
         "revisions": [
           {
             "revision": "1.1", 
-            "commit_id": "8a9cf303e1251da5984bd718bc94c472a4c34901", 
+            "commit_id": "786cc2892e75aea0cb10aeb3a874047f01e0f3cd", 
             "date": "29-07-2020", 
             "history": "Adding sfp interface enabled board files"
           }
@@ -2530,14 +2530,14 @@
         "company": "xilinx.com"
       },
       {
-        "name": "zcu208", 
+        "name": "zcu208_es", 
         "display": "Zynq UltraScale+ ZCU208 Evaluation Platform", 
         "latest_revision": "1.0", 
-        "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+        "commit_id": "786cc2892e75aea0cb10aeb3a874047f01e0f3cd", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
+            "commit_id": "786cc2892e75aea0cb10aeb3a874047f01e0f3cd", 
             "date": "10-02-2020", 
             "history": "Initial board file entry for zcu208 board"
           }
@@ -2549,14 +2549,14 @@
         "company": "xilinx.com"
       },
       {
-        "name": "zcu208_es", 
+        "name": "zcu208ld_es", 
         "display": "Zynq UltraScale+ ZCU208-LD Evaluation Platform", 
         "latest_revision": "1.0", 
-        "commit_id": "bd0b4a4c19f5202368a7d2cb86d97efc95158b79", 
+        "commit_id": "786cc2892e75aea0cb10aeb3a874047f01e0f3cd", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "bd0b4a4c19f5202368a7d2cb86d97efc95158b79", 
+            "commit_id": "786cc2892e75aea0cb10aeb3a874047f01e0f3cd", 
             "date": "04-03-2020", 
             "history": "Initial board file entry for zcu208-LD board"
           }
