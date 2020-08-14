@@ -2703,11 +2703,11 @@
         "name": "vck190",
         "display": "Versal VCK190 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "17d551c8ec289bd568c65c6c47ff1ac8fcd7ba66",
+        "commit_id": "37bc0fa9b0a5e9bf8346203b3bb81d90bce3894d",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "17d551c8ec289bd568c65c6c47ff1ac8fcd7ba66",
+            "commit_id": "37bc0fa9b0a5e9bf8346203b3bb81d90bce3894d",
             "date": "14-08-2020",
             "history": "Adding VCK190 production VBS"
           }
