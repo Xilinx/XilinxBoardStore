@@ -4,9 +4,9 @@
       {
         "infra": {
           "name": "te0720_1il", 
-          "display": "ZYNQ-7 TE0720_L1IF. SPRT PCB: REV02, REV03", 
+          "display": "ZYNQ-7 TE0720-*-L1IF (512MB DDR). *SPRT PCB: REV02, REV03", 
           "revision": "1.0", 
-          "description": "ZYNQ-7 TE0720_L1IF Board (form factor 4x5 cm) with 512MB DDR3L, 1GBit Ethernet, Speed Grade -1 and industrial temperature grade. Supported PCB Revisions: REV02, REV03.", 
+          "description": "ZYNQ-7 TE0720-*-L1IF (512MB DDR) Board (form factor 4x5 cm) with 512MB DDR3L, 1GBit Ethernet, Speed Grade -1 and industrial temperature grade. *Supported PCB Revisions: REV02, REV03.", 
           "company": "trenz.biz", 
           "company_display": "Trenz Electronic GmbH", 
           "author": "trenz.biz", 
@@ -18,6 +18,7 @@
           ], 
           "category": "Single Part", 
           "website": "trenz.org/te0720-info", 
+          "logo": "te0720_board.png", 
           "search-keywords": [
             "te0720_1il", 
             "trenz.biz", 

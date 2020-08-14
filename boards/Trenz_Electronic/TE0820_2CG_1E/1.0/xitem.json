@@ -4,9 +4,9 @@
       {
         "infra": {
           "name": "te0820_2cg_1e", 
-          "display": "UltraSOM (ZYNQ-UltraScale+) TE0820-2CG-1E(_, A  : 1 GB DDR). SPRT PCB: REV02", 
+          "display": "UltraSOM (ZYNQ-UltraScale+) TE0820-*-2CG-1E/A (1 GB DDR). *SPRT PCB: REV02", 
           "revision": "1.0", 
-          "description": "Zynq UltraScale+ TE0820-2CG-1E(_, A) Board (form factor 4x5 cm) with 2x 512MByte DDR4, 2x 32MByte Flash, speed grade -1 and extended temperature range. Supported PCB Revisions: REV02.", 
+          "description": "Zynq UltraScale+ TE0820-*-2CG-1E/A (1 GB DDR) Board (form factor 4x5 cm) with 2x 512MByte DDR4, speed grade -1 and extended temperature range. *Supported PCB Revisions: REV02.", 
           "company": "trenz.biz", 
           "company_display": "Trenz Electronic GmbH", 
           "author": "trenz.biz", 
@@ -18,6 +18,7 @@
           ], 
           "category": "Single Part", 
           "website": "trenz.org/te0820-info", 
+          "logo": "te0820_board.png", 
           "search-keywords": [
             "te0820_2cg_1e", 
             "trenz.biz", 
