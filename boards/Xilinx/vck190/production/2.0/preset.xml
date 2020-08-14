@@ -9,11 +9,12 @@
  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
  License for the specific language governing permissions and limitations
  under the License. -->
+ 
 <ip_presets schema="1.0">
 
-
 	<ip_preset preset_proc_name="versal_cips_preset"> 
-		<ip vendor="xilinx.com" library="ip" name="versal_cips" version="*"> 
+
+		<ip vendor="xilinx.com" library="ip" name="versal_cips" version="*" ip_interface="FIXED_IO"> 
 			<user_parameters>
 
 		        <user_parameter name="CONFIG.PMC_SD1_PERIPHERAL_ENABLE" value="1"/>
