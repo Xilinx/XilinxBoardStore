@@ -2700,6 +2700,25 @@
         "company": "xilinx.com"
       },
      {
+        "name": "vmk180",
+        "display": "Versal VMK180 Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "8a1659036ee2a89e40782fe1291a980980654d37",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "8a1659036ee2a89e40782fe1291a980980654d37",
+            "date": "17-08-2020",
+            "history": "Adding vmk180 production VBS"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vmk180/production/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },	  
+     {
         "name": "vck190",
         "display": "Versal VCK190 Evaluation Platform",
         "latest_revision": "1.0",
