@@ -2514,11 +2514,11 @@
         "name": "zcu208_es", 
         "display": "Zynq UltraScale+ ZCU208 Evaluation Platform", 
         "latest_revision": "1.1", 
-        "commit_id": "786cc2892e75aea0cb10aeb3a874047f01e0f3cd", 
+        "commit_id": "6468b0964a4a1b4039ae1afbf6adde508fe27fcd", 
         "revisions": [
           {
             "revision": "1.1", 
-            "commit_id": "786cc2892e75aea0cb10aeb3a874047f01e0f3cd", 
+            "commit_id": "6468b0964a4a1b4039ae1afbf6adde508fe27fcd", 
             "date": "29-07-2020", 
             "history": "Adding sfp interface enabled board files"
           }
@@ -2533,11 +2533,11 @@
         "name": "zcu208_es", 
         "display": "Zynq UltraScale+ ZCU208 Evaluation Platform", 
         "latest_revision": "1.0", 
-        "commit_id": "786cc2892e75aea0cb10aeb3a874047f01e0f3cd", 
+        "commit_id": "6468b0964a4a1b4039ae1afbf6adde508fe27fcd", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "786cc2892e75aea0cb10aeb3a874047f01e0f3cd", 
+            "commit_id": "6468b0964a4a1b4039ae1afbf6adde508fe27fcd", 
             "date": "10-02-2020", 
             "history": "Initial board file entry for zcu208 board"
           }
