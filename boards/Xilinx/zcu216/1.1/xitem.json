@@ -3,7 +3,7 @@
     "items": [
       {
         "infra": {
-          "name": "zcu216", 
+          "name": "zcu216_es", 
           "display": "Zynq UltraScale+ ZCU216 Evaluation Platform", 
           "revision": "1.1", 
           "description": "Zynq UltraScale+ ZCU216 Evaluation Platform", 
@@ -20,7 +20,7 @@
           "logo": "zcu216_board.jpeg",
           "website": "www.xilinx.com/zcu216", 
           "search-keywords": [
-            "zcu216", 
+            "zcu216_es", 
             "xilinx.com", 
             "board", 
             "Single Part"
