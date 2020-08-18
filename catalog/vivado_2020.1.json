@@ -2453,14 +2453,14 @@
         "company": "xilinx.com"
       }, 
 	{
-        "name": "zcu216", 
+        "name": "zcu216_es", 
         "display": "Zynq UltraScale+ ZCU216 Evaluation Platform", 
         "latest_revision": "1.2",
-        "commit_id": "8a9cf303e1251da5984bd718bc94c472a4c34901", 
+        "commit_id": "a83fc43de51627fb27810388624bd1b3d447b89d", 
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "8a9cf303e1251da5984bd718bc94c472a4c34901", 
+            "commit_id": "a83fc43de51627fb27810388624bd1b3d447b89d", 
             "date": "29-07-2020",
             "history": "Adding sfp interface enabled board files"
           }
@@ -2472,14 +2472,14 @@
         "company": "xilinx.com"
       }, 	    
 	    {
-        "name": "zcu216", 
+        "name": "zcu216_es", 
         "display": "Zynq UltraScale+ ZCU216 Evaluation Platform", 
         "latest_revision": "1.1",
-        "commit_id": "dd54e137ea53bbaf5c5403285b73988cf50b6048", 
+        "commit_id": "a83fc43de51627fb27810388624bd1b3d447b89d", 
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "dd54e137ea53bbaf5c5403285b73988cf50b6048", 
+            "commit_id": "a83fc43de51627fb27810388624bd1b3d447b89d", 
             "date": "08-07-2020",
             "history": "Enabled PL-DDR4 interface"
           }
@@ -2492,14 +2492,14 @@
       }, 
 	    
       {
-        "name": "zcu216", 
+        "name": "zcu216_es", 
         "display": "Zynq UltraScale+ ZCU216 Evaluation Platform", 
         "latest_revision": "1.0", 
-        "commit_id": "da1f0f01934b0035193287c6d652bde54cba62df", 
+        "commit_id": "a83fc43de51627fb27810388624bd1b3d447b89d", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "da1f0f01934b0035193287c6d652bde54cba62df", 
+            "commit_id": "a83fc43de51627fb27810388624bd1b3d447b89d", 
             "date": "03-03-2020", 
             "history": "Addition of logo field for board image in xitem.json"
           }
@@ -2568,7 +2568,7 @@
         "company": "xilinx.com"
       }, 
       {
-        "name": "zcu216_es", 
+        "name": "zcu216ld_es", 
         "display": "Zynq UltraScale+ ZCU216-LD Evaluation Platform", 
         "latest_revision": "1.0", 
         "commit_id": "8bece90f33bfed61e2ea4371bb449e240402aeea", 
