@@ -2455,6 +2455,25 @@
 	 {
         "name": "zcu216", 
         "display": "Zynq UltraScale+ ZCU216 Evaluation Platform", 
+        "latest_revision": "2.0",
+        "commit_id": "1d9bab1a502bbaa070ccd16c6c167cab1aba9957", 
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "1d9bab1a502bbaa070ccd16c6c167cab1aba9957", 
+            "date": "29-07-2020",
+            "history": "Initial entry for ZCU216 production board files"
+          }
+        ], 
+        "config": {
+          "root": "boards/Xilinx/zcu216/production/2.0",
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
+      }, 
+	 {
+        "name": "zcu216_es", 
+        "display": "Zynq UltraScale+ ZCU216 Evaluation Platform", 
         "latest_revision": "1.2",
         "commit_id": "ca2d7a691cebbe72078f8b751b3bf331ae0c3743", 
         "revisions": [
@@ -2472,7 +2491,7 @@
         "company": "xilinx.com"
       }, 
 	 {
-        "name": "zcu216", 
+        "name": "zcu216_es", 
         "display": "Zynq UltraScale+ ZCU216 Evaluation Platform", 
         "latest_revision": "1.1",
         "commit_id": "659986880b659f32f3950abc08475a0d587a8e6a", 
@@ -2491,7 +2510,7 @@
         "company": "xilinx.com"
       }, 
       {
-        "name": "zcu216", 
+        "name": "zcu216_es", 
         "display": "Zynq UltraScale+ ZCU216 Evaluation Platform", 
         "latest_revision": "1.0", 
         "commit_id": "38c967c71c190bb3277b08d80898c5363a702d7d", 
@@ -2510,7 +2529,7 @@
         "company": "xilinx.com"
       }, 
       {
-        "name": "zcu216_es", 
+        "name": "zcu216ld_es", 
         "display": "Zynq UltraScale+ ZCU216-LD Evaluation Platform", 
         "latest_revision": "1.0", 
         "commit_id": "327138abbda6ba44bcc476048789f141d7df6e14", 
@@ -2528,8 +2547,27 @@
         }, 
         "company": "xilinx.com"
       },
-      {
+	 {
         "name": "zcu208", 
+        "display": "Zynq UltraScale+ ZCU208 Evaluation Platform", 
+        "latest_revision": "2.0",
+        "commit_id": "1d9bab1a502bbaa070ccd16c6c167cab1aba9957", 
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "1d9bab1a502bbaa070ccd16c6c167cab1aba9957", 
+            "date": "24-08-2020",
+            "history": "Initial entry for ZCU208 production board files"
+          }
+        ], 
+        "config": {
+          "root": "boards/Xilinx/zcu208/production/2.0",
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
+      }, 
+      {
+        "name": "zcu208_es", 
         "display": "Zynq UltraScale+ ZCU208 Evaluation Platform", 
         "latest_revision": "1.1", 
         "commit_id": "ca2d7a691cebbe72078f8b751b3bf331ae0c3743", 
@@ -2548,7 +2586,7 @@
         "company": "xilinx.com"
       }, 
       {
-        "name": "zcu208", 
+        "name": "zcu208_es", 
         "display": "Zynq UltraScale+ ZCU208 Evaluation Platform", 
         "latest_revision": "1.0", 
         "commit_id": "1143dec6e6ae48f8217907999deaab5c046963bd", 
@@ -2567,7 +2605,7 @@
         "company": "xilinx.com"
       }, 
       {
-        "name": "zcu208_es", 
+        "name": "zcu208ld_es", 
         "display": "Zynq UltraScale+ ZCU208-LD Evaluation Platform", 
         "latest_revision": "1.0", 
         "commit_id": "59404b8dd9ad79eeac87307e593f4689d9bf7e31", 
