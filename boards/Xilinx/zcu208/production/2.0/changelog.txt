@@ -1,0 +1,5 @@
+######### ZCU208 change log ############
+
+2.0
+ZCU208 production initial board support (Vivado 2020.2)
+
