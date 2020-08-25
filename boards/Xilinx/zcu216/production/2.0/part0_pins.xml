@@ -228,10 +228,10 @@
   <pin index="226" name ="RGB_R_LED_6" iostandard="LVCMOS12" loc="BB12"/>
   <pin index="227" name ="RGB_R_LED_7" iostandard="LVCMOS12" loc="E25"/>  
 																														 
-  <pin index="228" name ="RGB_G_LED_0" iostandard="LVCMOS12" loc="C13"/>
-  <pin index="229" name ="RGB_G_LED_1" iostandard="LVCMOS12" loc="D14"/>
-  <pin index="230" name ="RGB_G_LED_2" iostandard="LVCMOS12" loc="D12"/>
-  <pin index="231" name ="RGB_G_LED_3" iostandard="LVCMOS12" loc="D13"/> 
+  <pin index="228" name ="RGB_G_LED_0" iostandard="LVCMOS18" loc="C13"/>
+  <pin index="229" name ="RGB_G_LED_1" iostandard="LVCMOS18" loc="D14"/>
+  <pin index="230" name ="RGB_G_LED_2" iostandard="LVCMOS18" loc="D12"/>
+  <pin index="231" name ="RGB_G_LED_3" iostandard="LVCMOS18" loc="D13"/> 
   <pin index="232" name ="RGB_G_LED_4" iostandard="LVCMOS12" loc="AW18"/>
   <pin index="233" name ="RGB_G_LED_5" iostandard="LVCMOS12" loc="AV18"/>
   <pin index="234" name ="RGB_G_LED_6" iostandard="LVCMOS12" loc="BA19"/>
