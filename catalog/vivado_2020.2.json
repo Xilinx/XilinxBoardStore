@@ -2456,11 +2456,11 @@
         "name": "zcu216", 
         "display": "Zynq UltraScale+ ZCU216 Evaluation Platform", 
         "latest_revision": "2.0",
-        "commit_id": "1d9bab1a502bbaa070ccd16c6c167cab1aba9957", 
+        "commit_id": "28ea38c401029bd49d05e8a2c051586b80e4fe7f", 
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "1d9bab1a502bbaa070ccd16c6c167cab1aba9957", 
+            "commit_id": "28ea38c401029bd49d05e8a2c051586b80e4fe7f", 
             "date": "29-07-2020",
             "history": "Initial entry for ZCU216 production board files"
           }
