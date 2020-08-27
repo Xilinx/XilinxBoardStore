@@ -1905,11 +1905,11 @@
         "name": "au280", 
         "display": "Alveo U280 Data Center Accelerator Card", 
         "latest_revision": "1.1", 
-        "commit_id": "7014a29d49871864972b175ac7e6974b397af3d2", 
+        "commit_id": "6379250361ec2e0b24c06f22870cdd9ac9425cfd", 
         "revisions": [
           {
             "revision": "1.1", 
-            "commit_id": "7014a29d49871864972b175ac7e6974b397af3d2", 
+            "commit_id": "6379250361ec2e0b24c06f22870cdd9ac9425cfd", 
             "date": "03-15-2020", 
             "history": "Addition of logo field in xitem.json"
           }
@@ -2532,11 +2532,11 @@
         "name": "zcu216ld_es", 
         "display": "Zynq UltraScale+ ZCU216-LD Evaluation Platform", 
         "latest_revision": "1.0", 
-        "commit_id": "327138abbda6ba44bcc476048789f141d7df6e14", 
+        "commit_id": "b048e8d305a1fcce79b34f812574e0ecbc60c925", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "327138abbda6ba44bcc476048789f141d7df6e14", 
+            "commit_id": "b048e8d305a1fcce79b34f812574e0ecbc60c925", 
             "date": "01-07-2020", 
             "history": "Addition of Zynq UltraScale+ ZCU216-LD Evaluation Platform"
           }
