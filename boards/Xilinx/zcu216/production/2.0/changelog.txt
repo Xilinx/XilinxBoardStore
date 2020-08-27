@@ -1,4 +1,4 @@
-######### ZCU216 change log ############
+######### ZCU216 Production change log ############
 
 2.0
 ZCU216 initial board support for Production Board (Vivado 2020.2)
