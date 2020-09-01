@@ -2209,11 +2209,11 @@
         "name": "vcu118", 
         "display": "Virtex UltraScale+ VCU118 Evaluation Platform", 
         "latest_revision": "2.4", 
-        "commit_id": "849632c7c8aef3cd281be93f700e6582e4ec9efb", 
+        "commit_id": "0fe149da22868f3a123974cba88759b7f4d7d59e", 
         "revisions": [
           {
             "revision": "2.4", 
-            "commit_id": "849632c7c8aef3cd281be93f700e6582e4ec9efb", 
+            "commit_id": "0fe149da22868f3a123974cba88759b7f4d7d59e", 
             "date": "25-06-2020", 
             "history": "Adding 2.4 with Dual Memory Support"
           }
