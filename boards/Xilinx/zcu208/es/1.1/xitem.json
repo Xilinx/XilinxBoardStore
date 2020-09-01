@@ -4,9 +4,9 @@
       {
         "infra": {
           "name": "zcu208_es", 
-          "display": "Zynq UltraScale+ ZCU208 Evaluation Platform", 
+          "display": "Zynq UltraScale+ ZCU208-ES Evaluation Platform", 
           "revision": "1.1", 
-          "description": "Zynq UltraScale+ ZCU208 Evaluation Platform", 
+          "description": "Zynq UltraScale+ ZCU208-ES Evaluation Platform", 
           "company": "xilinx.com", 
           "company_display": "Xilinx", 
           "author": "Ashish", 
