@@ -1725,7 +1725,7 @@
 		
 		<interface mode="slave" name="qsfp1_si570_clock" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="qsfp1">
           <parameters>
-            <parameter name="frequency" value="161132812"/>
+            <parameter name="frequency" value="156250000"/>
           </parameters>
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
@@ -1750,7 +1750,7 @@
 		
 		<interface mode="slave" name="qsfp1_si5328_clock1" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="qsfp1">
           <parameters>
-            <parameter name="frequency" value="161132812"/>
+            <parameter name="frequency" value="156250000"/>
           </parameters>
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
@@ -1774,7 +1774,7 @@
 		
 		<interface mode="slave" name="qsfp2_mgt_si570_clock2" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="qsfp2">
           <parameters>
-            <parameter name="frequency" value="161132812"/>
+            <parameter name="frequency" value="156250000"/>
           </parameters>
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
@@ -1799,7 +1799,7 @@
 		
 		<interface mode="slave" name="qsfp2_si5328_clock2" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="qsfp2">
           <parameters>
-            <parameter name="frequency" value="161132812"/>
+            <parameter name="frequency" value="156250000"/>
           </parameters>
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
