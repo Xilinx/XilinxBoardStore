@@ -3,7 +3,7 @@
     "items": [
       {
         "infra": {
-          "name": "KCU1500", 
+          "name": "kcu1500", 
           "display": "Kintex UltraScale KCU1500 Acceleration Development Board", 
           "revision": "1.2", 
           "description": "Kintex UltraScale KCU1500 Acceleration Development Board", 
