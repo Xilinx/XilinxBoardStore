@@ -9,7 +9,7 @@
  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
  License for the specific language governing permissions and limitations
  under the License. -->
-<board schema_version="2.1" vendor="xilinx.com" name="zcu208_es" display_name="Zynq UltraScale+ RFSoC ZCU208-ES1 Evaluation Kit" url="www.xilinx.com/zcu208" preset_file="preset.xml">
+<board schema_version="2.2" vendor="xilinx.com" name="zcu208_es" display_name="Zynq UltraScale+ RFSoC ZCU208-ES1 Evaluation Kit" url="www.xilinx.com/zcu208" preset_file="preset.xml">
 <images>
     <image name="zcu208_board.jpeg" display_name="ZCU208 BOARD" sub_type="board">
       <description>ZCU08 Board File Image</description>
@@ -578,16 +578,16 @@
             <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
           </preferred_ips>
           <port_maps>
-            <port_map logical_port="TRI_O" physical_port="leds_4bits_tri_o" dir="out" left="7" right="0">
+            <port_map logical_port="TRI_O" physical_port="leds_8bits_tri_o" dir="out" left="7" right="0">
               <pin_maps>
-                <pin_map port_index="0" component_pin="RGB_G_LED_0"/>
-                <pin_map port_index="1" component_pin="RGB_G_LED_1"/>
-                <pin_map port_index="2" component_pin="RGB_G_LED_2"/>
-                <pin_map port_index="3" component_pin="RGB_G_LED_3"/>
-                <pin_map port_index="4" component_pin="RGB_G_LED_4"/>
-                <pin_map port_index="5" component_pin="RGB_G_LED_5"/>
-                <pin_map port_index="6" component_pin="RGB_G_LED_6"/>
-                <pin_map port_index="7" component_pin="RGB_G_LED_7"/>
+                <pin_map port_index="0" component_pin="GPIO_LED_0_LS"/>
+                <pin_map port_index="1" component_pin="GPIO_LED_1_LS"/>
+                <pin_map port_index="2" component_pin="GPIO_LED_2_LS"/>
+                <pin_map port_index="3" component_pin="GPIO_LED_3_LS"/>
+                <pin_map port_index="4" component_pin="GPIO_LED_4_LS"/>
+                <pin_map port_index="5" component_pin="GPIO_LED_5_LS"/>
+                <pin_map port_index="6" component_pin="GPIO_LED_6_LS"/>
+                <pin_map port_index="7" component_pin="GPIO_LED_7_LS"/>
               </pin_maps>
             </port_map>
           </port_maps>
@@ -947,7 +947,7 @@
     </connection>
 
     <connection name="part0_c1_ddr_sdram" component1="part0" component2="ddr4_sdram_c1">
-      <connection_map name="part0_c1_ddr_sdram_pl" typical_delay="5" c1_st_index="79" c1_end_index="152" c2_st_index="0" c2_end_index="73"/>
+      <connection_map name="part0_c1_ddr_sdram_pl" typical_delay="5" c1_st_index="80" c1_end_index="153" c2_st_index="0" c2_end_index="73"/>
     </connection>	
 
     <connection name="part0_dip_switches_8bits" component1="part0" component2="dip_switches_8bits">

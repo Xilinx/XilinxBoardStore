@@ -585,16 +585,16 @@ under the License.-->
             <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
           </preferred_ips>
           <port_maps>
-            <port_map logical_port="TRI_O" physical_port="leds_4bits_tri_o" dir="out" left="7" right="0">
+            <port_map logical_port="TRI_O" physical_port="leds_8bits_tri_o" dir="out" left="7" right="0">
               <pin_maps>
-                <pin_map port_index="0" component_pin="RGB_G_LED_0"/>
-                <pin_map port_index="1" component_pin="RGB_G_LED_1"/>
-                <pin_map port_index="2" component_pin="RGB_G_LED_2"/>
-                <pin_map port_index="3" component_pin="RGB_G_LED_3"/>
-                <pin_map port_index="4" component_pin="RGB_G_LED_4"/>
-                <pin_map port_index="5" component_pin="RGB_G_LED_5"/>
-                <pin_map port_index="6" component_pin="RGB_G_LED_6"/>
-                <pin_map port_index="7" component_pin="RGB_G_LED_7"/>
+                <pin_map port_index="0" component_pin="GPIO_LED_0_LS"/>
+                <pin_map port_index="1" component_pin="GPIO_LED_1_LS"/>
+                <pin_map port_index="2" component_pin="GPIO_LED_2_LS"/>
+                <pin_map port_index="3" component_pin="GPIO_LED_3_LS"/>
+                <pin_map port_index="4" component_pin="GPIO_LED_4_LS"/>
+                <pin_map port_index="5" component_pin="GPIO_LED_5_LS"/>
+                <pin_map port_index="6" component_pin="GPIO_LED_6_LS"/>
+                <pin_map port_index="7" component_pin="GPIO_LED_7_LS"/>
               </pin_maps>
             </port_map>
           </port_maps>
@@ -616,6 +616,161 @@ under the License.-->
             </port_map>
           </port_maps>
         </interface>
+
+	<!-- SFP interface	 -->
+		
+	<!-- <interface mode="master" name="sfp0_1x" type="xilinx.com:interface:gt_rtl:1.0" of_component="sfp" preset_proc="sfp0_1x_preset"> -->
+		<!-- <description>1-lane GT interface over SFP</description> -->
+		<!-- <preferred_ips> -->
+			<!-- <preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/> -->
+		<!-- </preferred_ips> -->
+			<!-- <port_maps> -->
+				<!-- <port_map logical_port="GTX_N" physical_port="sfp0_txn1" dir="out"> -->
+					<!-- <pin_maps> -->
+						<!-- <pin_map port_index="0" component_pin="sfp0_TX_N0"/> -->
+					<!-- </pin_maps> -->
+				<!-- </port_map> -->
+				<!-- <port_map logical_port="GTX_P" physical_port="sfp0_txp1" dir="out"> -->
+					<!-- <pin_maps> -->
+						<!-- <pin_map port_index="0" component_pin="sfp0_TX_P0"/> -->
+					<!-- </pin_maps> -->
+				<!-- </port_map> -->
+				<!-- <port_map logical_port="GRX_N" physical_port="sfp0_rxn1" dir="in"> -->
+					<!-- <pin_maps> -->
+						<!-- <pin_map port_index="0" component_pin="sfp0_RX_N0"/> -->
+					<!-- </pin_maps> -->
+				<!-- </port_map> -->
+				<!-- <port_map logical_port="GRX_P" physical_port="sfp0_rxp1" dir="in"> -->
+					<!-- <pin_maps> -->
+						<!-- <pin_map port_index="0" component_pin="sfp0_RX_P0"/> -->
+					<!-- </pin_maps> -->
+				<!-- </port_map>  -->
+			<!-- </port_maps> -->
+          <!-- <parameters> -->
+				<!-- <parameter name="gt_loc" value="" /> -->
+          <!-- </parameters> -->
+        <!-- </interface> -->
+		
+	<!-- <interface mode="master" name="sfp1_1x" type="xilinx.com:interface:gt_rtl:1.0" of_component="sfp" preset_proc="sfp1_1x_preset"> -->
+		<!-- <description>1-lane GT interface over SFP</description> -->
+		<!-- <preferred_ips> -->
+			<!-- <preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/> -->
+		<!-- </preferred_ips> -->
+			<!-- <port_maps> -->
+				<!-- <port_map logical_port="GTX_N" physical_port="sfp1_txn1" dir="out"> -->
+					<!-- <pin_maps> -->
+						<!-- <pin_map port_index="0" component_pin="sfp1_TX_N0"/> -->
+					<!-- </pin_maps> -->
+				<!-- </port_map> -->
+				<!-- <port_map logical_port="GTX_P" physical_port="sfp1_txp1" dir="out"> -->
+					<!-- <pin_maps> -->
+						<!-- <pin_map port_index="0" component_pin="sfp1_TX_P0"/> -->
+					<!-- </pin_maps> -->
+				<!-- </port_map> -->
+				<!-- <port_map logical_port="GRX_N" physical_port="sfp1_rxn1" dir="in"> -->
+					<!-- <pin_maps> -->
+						<!-- <pin_map port_index="0" component_pin="sfp1_RX_N0"/> -->
+					<!-- </pin_maps> -->
+				<!-- </port_map> -->
+				<!-- <port_map logical_port="GRX_P" physical_port="sfp1_rxp1" dir="in"> -->
+					<!-- <pin_maps> -->
+						<!-- <pin_map port_index="0" component_pin="sfp1_RX_P0"/> -->
+					<!-- </pin_maps> -->
+				<!-- </port_map>  -->
+			<!-- </port_maps> -->
+          <!-- <parameters> -->
+				<!-- <parameter name="gt_loc" value="" /> -->
+          <!-- </parameters> -->
+        <!-- </interface>	 -->
+
+	 <interface mode="master" name="sfp2_1x" type="xilinx.com:interface:gt_rtl:1.0" of_component="sfp" preset_proc="sfp2_1x_preset">
+		<description>1-lane GT interface over SFP</description>
+		<preferred_ips>
+			<preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
+		</preferred_ips>
+			<port_maps>
+				<port_map logical_port="GTX_N" physical_port="sfp2_txn1" dir="out">
+					<pin_maps>
+						<pin_map port_index="0" component_pin="sfp2_TX_N0"/>
+					</pin_maps>
+				</port_map>
+				<port_map logical_port="GTX_P" physical_port="sfp2_txp1" dir="out">
+					<pin_maps>
+						<pin_map port_index="0" component_pin="sfp2_TX_P0"/>
+					</pin_maps>
+				</port_map>
+				<port_map logical_port="GRX_N" physical_port="sfp2_rxn1" dir="in">
+					<pin_maps>
+						<pin_map port_index="0" component_pin="sfp2_RX_N0"/>
+					</pin_maps>
+				</port_map>
+				<port_map logical_port="GRX_P" physical_port="sfp2_rxp1" dir="in">
+					<pin_maps>
+						<pin_map port_index="0" component_pin="sfp2_RX_P0"/>
+					</pin_maps>
+				</port_map> 
+			</port_maps>
+          <parameters>
+				<parameter name="gt_loc" value="" />
+          </parameters>
+        </interface>	
+
+	<interface mode="master" name="sfp3_1x" type="xilinx.com:interface:gt_rtl:1.0" of_component="sfp" preset_proc="sfp3_1x_preset">
+		<description>1-lane GT interface over SFP</description>
+		<preferred_ips>
+			<preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
+		</preferred_ips>
+			<port_maps>
+				<port_map logical_port="GTX_N" physical_port="sfp3_txn1" dir="out">
+					<pin_maps>
+						<pin_map port_index="0" component_pin="sfp3_TX_N0"/>
+					</pin_maps>
+				</port_map>
+				<port_map logical_port="GTX_P" physical_port="sfp3_txp1" dir="out">
+					<pin_maps>
+						<pin_map port_index="0" component_pin="sfp3_TX_P0"/>
+					</pin_maps>
+				</port_map>
+				<port_map logical_port="GRX_N" physical_port="sfp3_rxn1" dir="in">
+					<pin_maps>
+						<pin_map port_index="0" component_pin="sfp3_RX_N0"/>
+					</pin_maps>
+				</port_map>
+				<port_map logical_port="GRX_P" physical_port="sfp3_rxp1" dir="in">
+					<pin_maps>
+						<pin_map port_index="0" component_pin="sfp3_RX_P0"/>
+					</pin_maps>
+				</port_map> 
+			</port_maps>
+          <parameters>
+				<parameter name="gt_loc" value="" />
+          </parameters>
+        </interface>	
+
+	    <interface mode="slave" name="user_mgt_si570_clock" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="sfp">
+          <parameters>
+            <parameter name="frequency" value="156250000"/>
+          </parameters>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
+			<!-- <preferred_ip vendor="xilinx.com" library="ip" name="l_ethernet" order="1"/> -->
+			<!-- <preferred_ip vendor="xilinx.com" library="ip" name="interlaken" order="2"/> -->
+			<!-- <preferred_ip vendor="xilinx.com" library="ip" name="cmac_usplus" order="3"/> -->
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="user_mgt_si570_p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="user_mgt_si570_p"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CLK_N" physical_port="user_mgt_si570_n" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="user_mgt_si570_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>	   
+
        </interfaces>
 	  
     </component>
@@ -726,6 +881,50 @@ under the License.-->
     <component name="push_buttons_5bits" display_name="Push buttons" type="chip" sub_type="push_button" major_group="General Purpose Input or Output" part_name="TL3301EF100QG" vendor="ESwitch">
       <description>Push Buttons, C W E S N, Active High</description>
     </component>
+
+	<component name="sfp" display_name="SFP Connector" type="chip" sub_type="sfp" major_group="Ethernet Configurations" part_name="M88E1111_BAB1C000" vendor="Marvell" spec_url="www.marvell.com">
+       <description>SFP Connector</description>
+      
+		<component_modes>
+			<!-- <component_mode name="sfp0_1x" display_name="sfp0_1x"> -->
+			<!-- <interfaces> -->
+				<!-- <interface name="sfp0_1x"/> -->
+				<!-- <interface name="user_mgt_si570_clock" optional="true"/> -->
+			<!-- </interfaces> -->
+			<!-- <preferred_ips> -->
+				<!-- <preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/> -->
+			<!-- </preferred_ips> -->
+			<!-- </component_mode> -->
+			<!-- <component_mode name="sfp1_1x" display_name="sfp1_1x"> -->
+			<!-- <interfaces> -->
+				<!-- <interface name="sfp1_1x"/> -->
+				<!-- <interface name="user_mgt_si570_clock" optional="true"/> -->
+			<!-- </interfaces> -->
+			<!-- <preferred_ips> -->
+				<!-- <preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/> -->
+			<!-- </preferred_ips> -->
+			<!-- </component_mode> -->
+			<component_mode name="sfp2_1x" display_name="sfp2_1x">
+			<interfaces>
+				<interface name="sfp2_1x"/>
+				<interface name="user_mgt_si570_clock" optional="true"/>
+			</interfaces>
+			<preferred_ips>
+				<preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
+			</preferred_ips>
+			</component_mode>
+			<component_mode name="sfp3_1x" display_name="sfp3_1x">
+			<interfaces>
+				<interface name="sfp3_1x"/>
+				<interface name="user_mgt_si570_clock" optional="true"/>
+			</interfaces>
+			<preferred_ips>
+				<preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
+			</preferred_ips>
+			</component_mode>			
+			
+		</component_modes>
+	</component> 	
 	
     </components>
 	
@@ -783,6 +982,10 @@ under the License.-->
       <connection_map name="part0_default_sysclk_c1_300mhz_1" typical_delay="5" c1_st_index="203" c1_end_index="204" c2_st_index="0" c2_end_index="1"/>
     </connection>
 	
+	<connection name="part0_sfp_gt" component1="part0" component2="sfp">
+		<connection_map name="part0_sfp" typical_delay="5" c1_st_index="275" c1_end_index="292" c2_st_index="0" c2_end_index="17"/>
+	</connection>	
+	
 	<!-- <connection name="part0_default_sysclk2_125mhz" component1="part0" component2="default_sysclk2_125mhz"> -->
       <!-- <connection_map name="part0_default_sysclk2_125mhz_1" typical_delay="5" c1_st_index="205" c1_end_index="206" c2_st_index="0" c2_end_index="1"/> -->
     <!-- </connection> -->
@@ -807,7 +1010,20 @@ under the License.-->
 			<associated_board_interface name="default_sysclk_c1_300mhz" order="1"/> 
       </associated_board_interfaces>
     </ip>
+	<ip vendor="xilinx.com" library="ip" name="xxv_ethernet" version="*" ip_interface="gt_serial_port">
+        <associated_board_interfaces>
+		  <!-- <associated_board_interface name="sfp0_1x" order="0"/>  -->
+          <!-- <associated_board_interface name="sfp1_1x" order="1"/>  -->
+          <associated_board_interface name="sfp2_1x" order="0"/> 
+          <associated_board_interface name="sfp3_1x" order="1"/> 
+        </associated_board_interfaces>
+     </ip>	
 
+	<ip vendor="xilinx.com" library="ip" name="xxv_ethernet" version="*" ip_interface="gt_ref_clk">
+        <associated_board_interfaces>
+          <associated_board_interface name="user_mgt_si570_clock" order="0"/> 
+        </associated_board_interfaces>
+    </ip>
 
   </ip_associated_rule>
 </ip_associated_rules>

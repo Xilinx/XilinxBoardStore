@@ -182,16 +182,16 @@
 		<user_parameter name="CONFIG.PSU__DDRC__DIMM_ADDR_MIRROR" value="0"/>
 		<user_parameter name="CONFIG.PSU__DDRC__STATIC_RD_MODE" value="0"/>
 		<user_parameter name="CONFIG.PSU__DDRC__SELF_REF_ABORT" value="0"/>
-		<user_parameter name="CONFIG.PSU__DISPLAYPORT__LANE0__ENABLE" value="1"/>
-		<user_parameter name="CONFIG.PSU__DISPLAYPORT__LANE0__IO" value="GT Lane1"/>
-		<user_parameter name="CONFIG.PSU__DISPLAYPORT__LANE1__ENABLE" value="1"/>
-		<user_parameter name="CONFIG.PSU__DISPLAYPORT__LANE1__IO" value="GT Lane0"/>
-		<user_parameter name="CONFIG.PSU__DISPLAYPORT__PERIPHERAL__ENABLE" value="1"/>
-		<user_parameter name="CONFIG.PSU__DPAUX__PERIPHERAL__ENABLE" value="1"/>
-		<user_parameter name="CONFIG.PSU__DPAUX__PERIPHERAL__IO" value="MIO 27 .. 30"/>
-		<user_parameter name="CONFIG.PSU__DP__LANE_SEL" value="Dual Lower"/>
-		<user_parameter name="CONFIG.PSU__DP__REF_CLK_FREQ" value="27"/>
-		<user_parameter name="CONFIG.PSU__DP__REF_CLK_SEL" value="Ref Clk1"/>
+		<!-- <user_parameter name="CONFIG.PSU__DISPLAYPORT__LANE0__ENABLE" value="1"/> -->
+		<!-- <user_parameter name="CONFIG.PSU__DISPLAYPORT__LANE0__IO" value="GT Lane1"/> -->
+		<!-- <user_parameter name="CONFIG.PSU__DISPLAYPORT__LANE1__ENABLE" value="1"/> -->
+		<!-- <user_parameter name="CONFIG.PSU__DISPLAYPORT__LANE1__IO" value="GT Lane0"/> -->
+		<!-- <user_parameter name="CONFIG.PSU__DISPLAYPORT__PERIPHERAL__ENABLE" value="1"/> -->
+		<!-- <user_parameter name="CONFIG.PSU__DPAUX__PERIPHERAL__ENABLE" value="1"/> -->
+		<!-- <user_parameter name="CONFIG.PSU__DPAUX__PERIPHERAL__IO" value="MIO 27 .. 30"/> -->
+		<!-- <user_parameter name="CONFIG.PSU__DP__LANE_SEL" value="Dual Lower"/> -->
+		<!-- <user_parameter name="CONFIG.PSU__DP__REF_CLK_FREQ" value="27"/> -->
+		<!-- <user_parameter name="CONFIG.PSU__DP__REF_CLK_SEL" value="Ref Clk1"/> -->
 		<user_parameter name="CONFIG.PSU__PSS_REF_CLK__FREQMHZ" value="33.333"/>
 		<user_parameter name="CONFIG.PSU__SATA__REF_CLK_SEL" value="Ref Clk3"/>
 		<user_parameter name="CONFIG.PSU__USB0__REF_CLK_SEL" value="Ref Clk2"/>

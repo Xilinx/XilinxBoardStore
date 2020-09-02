@@ -192,10 +192,7 @@
   <pin index="176" name ="GPIO_DIP_SW6" iostandard="LVCMOS18" loc="BB10"/>
   <pin index="177" name ="GPIO_DIP_SW7" iostandard="LVCMOS18" loc="BB11"/>
   
-  <pin index="180" name ="RGB_G_LED_0" iostandard="LVCMOS18" loc="C13"/>
-  <pin index="181" name ="RGB_G_LED_1" iostandard="LVCMOS18" loc="D14"/>
-  <pin index="182" name ="RGB_G_LED_2" iostandard="LVCMOS18" loc="D12"/>
-  <pin index="183" name ="RGB_G_LED_3" iostandard="LVCMOS18" loc="D13"/> 
+
   <!-- <pin index="144" name ="GPIO_LED_4_LS" iostandard="LVCMOS18" loc="AP15"/> -->
   <!-- <pin index="145" name ="GPIO_LED_5_LS" iostandard="LVCMOS18" loc="AN16"/> -->
   <!-- <pin index="146" name ="GPIO_LED_6_LS" iostandard="LVCMOS18" loc="AN17"/> -->
@@ -223,6 +220,53 @@
   
   <!-- <pin index="167" name ="user_mgt_si570_p" loc="V31"/> -->
   <!-- <pin index="168" name ="user_mgt_si570_n" loc="V32"/>   -->
+  <pin index="220" name ="RGB_R_LED_0" iostandard="LVCMOS12" loc="AN14"/>
+  <pin index="221" name ="RGB_R_LED_1" iostandard="LVCMOS12" loc="AP16"/>
+  <pin index="222" name ="RGB_R_LED_2" iostandard="LVCMOS12" loc="AP14"/>
+  <pin index="223" name ="RGB_R_LED_3" iostandard="LVCMOS12" loc="AU16"/> 
+  <pin index="224" name ="RGB_R_LED_4" iostandard="LVCMOS12" loc="AW12"/>
+  <pin index="225" name ="RGB_R_LED_5" iostandard="LVCMOS12" loc="AY16"/>
+  <pin index="226" name ="RGB_R_LED_6" iostandard="LVCMOS12" loc="BB12"/>
+  <pin index="227" name ="RGB_R_LED_7" iostandard="LVCMOS12" loc="E25"/>  
+																														 
+  <pin index="228" name ="RGB_G_LED_0" iostandard="LVCMOS18" loc="C13"/>
+  <pin index="229" name ="RGB_G_LED_1" iostandard="LVCMOS18" loc="D14"/>
+  <pin index="230" name ="RGB_G_LED_2" iostandard="LVCMOS18" loc="D12"/>
+  <pin index="231" name ="RGB_G_LED_3" iostandard="LVCMOS18" loc="D13"/> 
+  <pin index="232" name ="RGB_G_LED_4" iostandard="LVCMOS12" loc="AW18"/>
+  <pin index="233" name ="RGB_G_LED_5" iostandard="LVCMOS12" loc="AV18"/>
+  <pin index="234" name ="RGB_G_LED_6" iostandard="LVCMOS12" loc="BA19"/>
+  <pin index="235" name ="RGB_G_LED_7" iostandard="LVCMOS12" loc="AP21"/>  
+																														 
+  <pin index="236" name ="RGB_B_LED_0" iostandard="LVCMOS12" loc="B26"/>
+  <pin index="237" name ="RGB_B_LED_1" iostandard="LVCMOS12" loc="E24"/>
+  <pin index="238" name ="RGB_B_LED_2" iostandard="LVCMOS12" loc="G26"/>
+  <pin index="239" name ="RGB_B_LED_3" iostandard="LVCMOS12" loc="J23"/> 
+  <pin index="240" name ="RGB_B_LED_4" iostandard="LVCMOS12" loc="L24"/>
+  <pin index="241" name ="RGB_B_LED_5" iostandard="LVCMOS12" loc="P21"/>
+  <pin index="242" name ="RGB_B_LED_6" iostandard="LVCMOS12" loc="AV21"/>
+  <pin index="243" name ="RGB_B_LED_7" iostandard="LVCMOS12" loc="AR21"/>    
+
  
+  <pin index="275" name ="sfp0_TX_N0" loc="V39"/>
+  <pin index="276" name ="sfp0_TX_P0" loc="V38"/>
+  <pin index="277" name ="sfp0_RX_N0" loc="AC42"/>
+  <pin index="278" name ="sfp0_RX_P0" loc="AC41"/>
+  <pin index="279" name ="sfp1_TX_N0" loc="U37"/>
+  <pin index="280" name ="sfp1_TX_P0" loc="U36"/>
+  <pin index="281" name ="sfp1_RX_N0" loc="AB40"/>
+  <pin index="282" name ="sfp1_RX_P0" loc="AB39"/>
+  <pin index="283" name ="sfp2_TX_N0" loc="P39"/>
+  <pin index="284" name ="sfp2_TX_P0" loc="P38"/>
+  <pin index="285" name ="sfp2_RX_N0" loc="W42"/>
+  <pin index="286" name ="sfp2_RX_P0" loc="W41"/>
+  <pin index="287" name ="sfp3_TX_N0" loc="N37"/>
+  <pin index="288" name ="sfp3_TX_P0" loc="N36"/>
+  <pin index="289" name ="sfp3_RX_N0" loc="U42"/>
+  <pin index="290" name ="sfp3_RX_P0" loc="U41"/>  
+  <pin index="291" name ="user_mgt_si570_p" loc="H34"/>	
+  <pin index="292" name ="user_mgt_si570_n" loc="H35"/>	
+ 
+
 </pins>
 </part_info>

@@ -482,5 +482,65 @@
         </user_parameters>
     </ip>
   </ip_preset>
+  
+    	<!-- <ip_preset preset_proc_name="sfp0_1x_preset"> -->
+
+		<!-- <ip vendor="xilinx.com" library="ip" name="xxv_ethernet"> -->
+		  <!-- <user_parameters> -->
+			<!-- <user_parameter name="CONFIG.LINE_RATE" value="10" /> -->
+			<!-- <user_parameter name="CONFIG.GT_REF_CLK_FREQ" value="156.25" /> -->
+			<!-- <user_parameter name="CONFIG.NUM_OF_CORES" value="1" /> -->
+			<!-- <user_parameter name="CONFIG.GT_TYPE" value="GTY" /> -->
+			<!-- <user_parameter name="CONFIG.GT_GROUP_SELECT" value="Quad_X0Y1" /> -->
+			<!-- <user_parameter name="CONFIG.LANE1_GT_LOC" value="X0Y4" /> -->
+		  <!-- </user_parameters> -->
+		<!-- </ip> -->
+
+   <!-- </ip_preset> -->
+   
+ 	<!-- <ip_preset preset_proc_name="sfp1_1x_preset"> -->
+
+		<!-- <ip vendor="xilinx.com" library="ip" name="xxv_ethernet"> -->
+		  <!-- <user_parameters> -->
+			<!-- <user_parameter name="CONFIG.LINE_RATE" value="10" /> -->
+			<!-- <user_parameter name="CONFIG.GT_REF_CLK_FREQ" value="156.25" /> -->
+			<!-- <user_parameter name="CONFIG.NUM_OF_CORES" value="1" /> -->
+			<!-- <user_parameter name="CONFIG.GT_TYPE" value="GTY" /> -->
+			<!-- <user_parameter name="CONFIG.GT_GROUP_SELECT" value="Quad_X0Y1" /> -->
+			<!-- <user_parameter name="CONFIG.LANE1_GT_LOC" value="X0Y5" /> -->
+		  <!-- </user_parameters> -->
+		<!-- </ip> -->
+
+   <!-- </ip_preset> -->
+   
+ 	<ip_preset preset_proc_name="sfp2_1x_preset">
+
+		<ip vendor="xilinx.com" library="ip" name="xxv_ethernet">
+		  <user_parameters>
+			<user_parameter name="CONFIG.LINE_RATE" value="10" />
+			<user_parameter name="CONFIG.GT_REF_CLK_FREQ" value="156.25" />
+			<user_parameter name="CONFIG.NUM_OF_CORES" value="1" />
+			<user_parameter name="CONFIG.GT_TYPE" value="GTY" />
+			<user_parameter name="CONFIG.GT_GROUP_SELECT" value="Quad_X0Y2" />
+			<user_parameter name="CONFIG.LANE1_GT_LOC" value="X0Y8" />
+		  </user_parameters>
+		</ip>
+
+   </ip_preset>
+   
+	<ip_preset preset_proc_name="sfp3_1x_preset">
+
+		<ip vendor="xilinx.com" library="ip" name="xxv_ethernet">
+		  <user_parameters>
+			<user_parameter name="CONFIG.LINE_RATE" value="10" />
+			<user_parameter name="CONFIG.GT_REF_CLK_FREQ" value="156.25" />
+			<user_parameter name="CONFIG.NUM_OF_CORES" value="1" />
+			<user_parameter name="CONFIG.GT_TYPE" value="GTY" />
+			<user_parameter name="CONFIG.GT_GROUP_SELECT" value="Quad_X0Y2" />
+			<user_parameter name="CONFIG.LANE1_GT_LOC" value="X0Y9" />
+		  </user_parameters>
+		</ip>
+
+   </ip_preset>
 
 </ip_presets>

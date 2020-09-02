@@ -183,16 +183,16 @@
 		<user_parameter name="CONFIG.PSU__DDRC__DIMM_ADDR_MIRROR" value="0"/>
 		<user_parameter name="CONFIG.PSU__DDRC__STATIC_RD_MODE" value="0"/>
 		<user_parameter name="CONFIG.PSU__DDRC__SELF_REF_ABORT" value="0"/>
-		<user_parameter name="CONFIG.PSU__DISPLAYPORT__LANE0__ENABLE" value="1"/>
-		<user_parameter name="CONFIG.PSU__DISPLAYPORT__LANE0__IO" value="GT Lane1"/>
-		<user_parameter name="CONFIG.PSU__DISPLAYPORT__LANE1__ENABLE" value="1"/>
-		<user_parameter name="CONFIG.PSU__DISPLAYPORT__LANE1__IO" value="GT Lane0"/>
-		<user_parameter name="CONFIG.PSU__DISPLAYPORT__PERIPHERAL__ENABLE" value="1"/>
-		<user_parameter name="CONFIG.PSU__DPAUX__PERIPHERAL__ENABLE" value="1"/>
-		<user_parameter name="CONFIG.PSU__DPAUX__PERIPHERAL__IO" value="MIO 27 .. 30"/>
-		<user_parameter name="CONFIG.PSU__DP__LANE_SEL" value="Dual Lower"/>
-		<user_parameter name="CONFIG.PSU__DP__REF_CLK_FREQ" value="27"/>
-		<user_parameter name="CONFIG.PSU__DP__REF_CLK_SEL" value="Ref Clk1"/>
+		<!-- <user_parameter name="CONFIG.PSU__DISPLAYPORT__LANE0__ENABLE" value="1"/> -->
+		<!-- <user_parameter name="CONFIG.PSU__DISPLAYPORT__LANE0__IO" value="GT Lane1"/> -->
+		<!-- <user_parameter name="CONFIG.PSU__DISPLAYPORT__LANE1__ENABLE" value="1"/> -->
+		<!-- <user_parameter name="CONFIG.PSU__DISPLAYPORT__LANE1__IO" value="GT Lane0"/> -->
+		<!-- <user_parameter name="CONFIG.PSU__DISPLAYPORT__PERIPHERAL__ENABLE" value="1"/> -->
+		<!-- <user_parameter name="CONFIG.PSU__DPAUX__PERIPHERAL__ENABLE" value="1"/> -->
+		<!-- <user_parameter name="CONFIG.PSU__DPAUX__PERIPHERAL__IO" value="MIO 27 .. 30"/> -->
+		<!-- <user_parameter name="CONFIG.PSU__DP__LANE_SEL" value="Dual Lower"/> -->
+		<!-- <user_parameter name="CONFIG.PSU__DP__REF_CLK_FREQ" value="27"/> -->
+		<!-- <user_parameter name="CONFIG.PSU__DP__REF_CLK_SEL" value="Ref Clk1"/> -->
 		<user_parameter name="CONFIG.PSU__PSS_REF_CLK__FREQMHZ" value="33.333"/>
 		<user_parameter name="CONFIG.PSU__SATA__REF_CLK_SEL" value="Ref Clk3"/>
 		<user_parameter name="CONFIG.PSU__USB0__REF_CLK_SEL" value="Ref Clk2"/>
@@ -352,10 +352,10 @@
     </ip>
   </ip_preset>
   
-  <ip_preset preset_proc_name="led_4bits_preset">
+  <ip_preset preset_proc_name="led_r_8bits_preset">
     <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
         <user_parameters>
-          <user_parameter name="CONFIG.C_GPIO_WIDTH" value="4"/> 
+          <user_parameter name="CONFIG.C_GPIO_WIDTH" value="8"/> 
           <user_parameter name="CONFIG.C_ALL_OUTPUTS" value="1"/> 
 	  <user_parameter name="CONFIG.C_ALL_INPUTS" value="0"/>
         </user_parameters>
@@ -363,7 +363,7 @@
     <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
         <user_parameters>
           <user_parameter name="CONFIG.C_IS_DUAL" value="1"/> 
-          <user_parameter name="CONFIG.C_GPIO2_WIDTH" value="4"/> 
+          <user_parameter name="CONFIG.C_GPIO2_WIDTH" value="8"/> 
           <user_parameter name="CONFIG.C_ALL_OUTPUTS_2" value="1"/> 
 	  <user_parameter name="CONFIG.C_ALL_INPUTS_2" value="0"/>
         </user_parameters>
@@ -371,49 +371,181 @@
     <ip vendor="xilinx.com" library="ip" name="iomodule" ip_interface="GPIO1">
         <user_parameters>
           <user_parameter name="CONFIG.C_USE_GPO1" value="1"/> 
-          <user_parameter name="CONFIG.C_GPO1_SIZE" value="4"/> 
+          <user_parameter name="CONFIG.C_GPO1_SIZE" value="8"/> 
         </user_parameters>
     </ip>
     <ip vendor="xilinx.com" library="ip" name="iomodule" ip_interface="GPIO2">
         <user_parameters>
           <user_parameter name="CONFIG.C_USE_GPO2" value="1"/> 
-          <user_parameter name="CONFIG.C_GPO2_SIZE" value="4"/> 
+          <user_parameter name="CONFIG.C_GPO2_SIZE" value="8"/> 
         </user_parameters>
     </ip>
     <ip vendor="xilinx.com" library="ip" name="iomodule" ip_interface="GPIO3">
         <user_parameters>
           <user_parameter name="CONFIG.C_USE_GPO3" value="1"/> 
-          <user_parameter name="CONFIG.C_GPO3_SIZE" value="4"/> 
+          <user_parameter name="CONFIG.C_GPO3_SIZE" value="8"/> 
         </user_parameters>
     </ip>
     <ip vendor="xilinx.com" library="ip" name="iomodule" ip_interface="GPIO4">
         <user_parameters>
           <user_parameter name="CONFIG.C_USE_GPO4" value="1"/> 
-          <user_parameter name="CONFIG.C_GPO4_SIZE" value="4"/> 
+          <user_parameter name="CONFIG.C_GPO4_SIZE" value="8"/> 
         </user_parameters>
     </ip>
     <ip vendor="xilinx.com" library="ip" name="microblaze_mcs" ip_interface="GPIO1">
         <user_parameters>
           <user_parameter name="CONFIG.USE_GPO1" value="1"/> 
-          <user_parameter name="CONFIG.GPO1_SIZE" value="4"/> 
+          <user_parameter name="CONFIG.GPO1_SIZE" value="8"/> 
         </user_parameters>
     </ip>
     <ip vendor="xilinx.com" library="ip" name="microblaze_mcs" ip_interface="GPIO2">
         <user_parameters>
           <user_parameter name="CONFIG.USE_GPO2" value="1"/> 
-          <user_parameter name="CONFIG.GPO2_SIZE" value="4"/> 
+          <user_parameter name="CONFIG.GPO2_SIZE" value="8"/> 
         </user_parameters>
     </ip>
     <ip vendor="xilinx.com" library="ip" name="microblaze_mcs" ip_interface="GPIO3">
         <user_parameters>
           <user_parameter name="CONFIG.USE_GPO3" value="1"/> 
-          <user_parameter name="CONFIG.GPO3_SIZE" value="4"/> 
+          <user_parameter name="CONFIG.GPO3_SIZE" value="8"/> 
         </user_parameters>
     </ip>
     <ip vendor="xilinx.com" library="ip" name="microblaze_mcs" ip_interface="GPIO4">
         <user_parameters>
           <user_parameter name="CONFIG.USE_GPO4" value="1"/> 
-          <user_parameter name="CONFIG.GPO4_SIZE" value="4"/> 
+          <user_parameter name="CONFIG.GPO4_SIZE" value="8"/> 
+        </user_parameters>
+    </ip>
+  </ip_preset>
+  
+  <ip_preset preset_proc_name="led_g_8bits_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_GPIO_WIDTH" value="8"/> 
+          <user_parameter name="CONFIG.C_ALL_OUTPUTS" value="1"/> 
+	  <user_parameter name="CONFIG.C_ALL_INPUTS" value="0"/>
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_IS_DUAL" value="1"/> 
+          <user_parameter name="CONFIG.C_GPIO2_WIDTH" value="8"/> 
+          <user_parameter name="CONFIG.C_ALL_OUTPUTS_2" value="1"/> 
+	  <user_parameter name="CONFIG.C_ALL_INPUTS_2" value="0"/>
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="iomodule" ip_interface="GPIO1">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_USE_GPO1" value="1"/> 
+          <user_parameter name="CONFIG.C_GPO1_SIZE" value="8"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="iomodule" ip_interface="GPIO2">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_USE_GPO2" value="1"/> 
+          <user_parameter name="CONFIG.C_GPO2_SIZE" value="8"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="iomodule" ip_interface="GPIO3">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_USE_GPO3" value="1"/> 
+          <user_parameter name="CONFIG.C_GPO3_SIZE" value="8"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="iomodule" ip_interface="GPIO4">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_USE_GPO4" value="1"/> 
+          <user_parameter name="CONFIG.C_GPO4_SIZE" value="8"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="microblaze_mcs" ip_interface="GPIO1">
+        <user_parameters>
+          <user_parameter name="CONFIG.USE_GPO1" value="1"/> 
+          <user_parameter name="CONFIG.GPO1_SIZE" value="8"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="microblaze_mcs" ip_interface="GPIO2">
+        <user_parameters>
+          <user_parameter name="CONFIG.USE_GPO2" value="1"/> 
+          <user_parameter name="CONFIG.GPO2_SIZE" value="8"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="microblaze_mcs" ip_interface="GPIO3">
+        <user_parameters>
+          <user_parameter name="CONFIG.USE_GPO3" value="1"/> 
+          <user_parameter name="CONFIG.GPO3_SIZE" value="8"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="microblaze_mcs" ip_interface="GPIO4">
+        <user_parameters>
+          <user_parameter name="CONFIG.USE_GPO4" value="1"/> 
+          <user_parameter name="CONFIG.GPO4_SIZE" value="8"/> 
+        </user_parameters>
+    </ip>
+  </ip_preset>
+  
+  <ip_preset preset_proc_name="led_b_8bits_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_GPIO_WIDTH" value="8"/> 
+          <user_parameter name="CONFIG.C_ALL_OUTPUTS" value="1"/> 
+	  <user_parameter name="CONFIG.C_ALL_INPUTS" value="0"/>
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_IS_DUAL" value="1"/> 
+          <user_parameter name="CONFIG.C_GPIO2_WIDTH" value="8"/> 
+          <user_parameter name="CONFIG.C_ALL_OUTPUTS_2" value="1"/> 
+	  <user_parameter name="CONFIG.C_ALL_INPUTS_2" value="0"/>
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="iomodule" ip_interface="GPIO1">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_USE_GPO1" value="1"/> 
+          <user_parameter name="CONFIG.C_GPO1_SIZE" value="8"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="iomodule" ip_interface="GPIO2">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_USE_GPO2" value="1"/> 
+          <user_parameter name="CONFIG.C_GPO2_SIZE" value="8"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="iomodule" ip_interface="GPIO3">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_USE_GPO3" value="1"/> 
+          <user_parameter name="CONFIG.C_GPO3_SIZE" value="8"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="iomodule" ip_interface="GPIO4">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_USE_GPO4" value="1"/> 
+          <user_parameter name="CONFIG.C_GPO4_SIZE" value="8"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="microblaze_mcs" ip_interface="GPIO1">
+        <user_parameters>
+          <user_parameter name="CONFIG.USE_GPO1" value="1"/> 
+          <user_parameter name="CONFIG.GPO1_SIZE" value="8"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="microblaze_mcs" ip_interface="GPIO2">
+        <user_parameters>
+          <user_parameter name="CONFIG.USE_GPO2" value="1"/> 
+          <user_parameter name="CONFIG.GPO2_SIZE" value="8"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="microblaze_mcs" ip_interface="GPIO3">
+        <user_parameters>
+          <user_parameter name="CONFIG.USE_GPO3" value="1"/> 
+          <user_parameter name="CONFIG.GPO3_SIZE" value="8"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="microblaze_mcs" ip_interface="GPIO4">
+        <user_parameters>
+          <user_parameter name="CONFIG.USE_GPO4" value="1"/> 
+          <user_parameter name="CONFIG.GPO4_SIZE" value="8"/> 
         </user_parameters>
     </ip>
   </ip_preset>

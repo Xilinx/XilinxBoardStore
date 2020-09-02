@@ -574,17 +574,61 @@
           </port_maps>
         </interface>
 		
-        <interface mode="master" name="led_4bits" type="xilinx.com:interface:gpio_rtl:1.0" of_component="led_4bits" preset_proc="led_4bits_preset">
+		<interface mode="master" name="led_r_8bits" type="xilinx.com:interface:gpio_rtl:1.0" of_component="led_r_8bits" preset_proc="led_r_8bits_preset">
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
           </preferred_ips>
           <port_maps>
-            <port_map logical_port="TRI_O" physical_port="leds_4bits_tri_o" dir="out" left="3" right="0">
+            <port_map logical_port="TRI_O" physical_port="leds_r_8bits_tri_o" dir="out" left="7" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="RGB_R_LED_0"/>
+                <pin_map port_index="1" component_pin="RGB_R_LED_1"/>
+                <pin_map port_index="2" component_pin="RGB_R_LED_2"/>
+                <pin_map port_index="3" component_pin="RGB_R_LED_3"/>
+				<pin_map port_index="4" component_pin="RGB_R_LED_4"/>
+                <pin_map port_index="5" component_pin="RGB_R_LED_5"/>
+                <pin_map port_index="6" component_pin="RGB_R_LED_6"/>
+                <pin_map port_index="7" component_pin="RGB_R_LED_7"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+		
+		<interface mode="master" name="led_g_8bits" type="xilinx.com:interface:gpio_rtl:1.0" of_component="led_g_8bits" preset_proc="led_g_8bits_preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_O" physical_port="leds_g_8bits_tri_o" dir="out" left="7" right="0">
               <pin_maps>
                 <pin_map port_index="0" component_pin="RGB_G_LED_0"/>
                 <pin_map port_index="1" component_pin="RGB_G_LED_1"/>
                 <pin_map port_index="2" component_pin="RGB_G_LED_2"/>
                 <pin_map port_index="3" component_pin="RGB_G_LED_3"/>
+				<pin_map port_index="4" component_pin="RGB_G_LED_4"/>
+                <pin_map port_index="5" component_pin="RGB_G_LED_5"/>
+                <pin_map port_index="6" component_pin="RGB_G_LED_6"/>
+                <pin_map port_index="7" component_pin="RGB_G_LED_7"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+		
+		<interface mode="master" name="led_b_8bits" type="xilinx.com:interface:gpio_rtl:1.0" of_component="led_b_8bits" preset_proc="led_b_8bits_preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_O" physical_port="leds_b_8bits_tri_o" dir="out" left="7" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="RGB_B_LED_0"/>
+                <pin_map port_index="1" component_pin="RGB_B_LED_1"/>
+                <pin_map port_index="2" component_pin="RGB_B_LED_2"/>
+                <pin_map port_index="3" component_pin="RGB_B_LED_3"/>
+				<pin_map port_index="4" component_pin="RGB_B_LED_4"/>
+                <pin_map port_index="5" component_pin="RGB_B_LED_5"/>
+                <pin_map port_index="6" component_pin="RGB_B_LED_6"/>
+                <pin_map port_index="7" component_pin="RGB_B_LED_7"/>
               </pin_maps>
             </port_map>
           </port_maps>
@@ -865,8 +909,16 @@
       <description>DIP Switches 7 to 0</description>
     </component>
 
-    <component name="led_4bits" display_name="LED" type="chip" sub_type="led" major_group="General Purpose Input or Output">
-      <description>LEDs, 3 to 0, Active High</description>
+    <component name="led_r_8bits" display_name="LED_R" type="chip" sub_type="led" major_group="General Purpose Input or Output">
+      <description>RGB_R LEDs, 7 to 0, Active High</description>
+    </component>
+	
+    <component name="led_g_8bits" display_name="LED_G" type="chip" sub_type="led" major_group="General Purpose Input or Output">
+      <description>RGB_G LEDs, 7 to 0, Active High</description>
+    </component>	
+
+    <component name="led_b_8bits" display_name="LED_B" type="chip" sub_type="led" major_group="General Purpose Input or Output">
+      <description>RGB_B LEDs, 7 to 0, Active High</description>
     </component>
 
     <component name="push_buttons_5bits" display_name="Push buttons" type="chip" sub_type="push_button" major_group="General Purpose Input or Output" part_name="TL3301EF100QG" vendor="ESwitch">
@@ -952,8 +1004,16 @@
       <connection_map name="part0_dip_switches_8bits_1" typical_delay="5" c1_st_index="170" c1_end_index="177" c2_st_index="0" c2_end_index="7"/>
     </connection>
 	
-    <connection name="part0_led_4bits" component1="part0" component2="led_4bits">
-      <connection_map name="part0_led_4bits_1" typical_delay="5" c1_st_index="180" c1_end_index="183" c2_st_index="0" c2_end_index="3"/>
+    <connection name="part0_led_r_8bits" component1="part0" component2="led_r_8bits">
+      <connection_map name="part0_led_r_8bits_1" typical_delay="5" c1_st_index="220" c1_end_index="227" c2_st_index="0" c2_end_index="7"/>
+    </connection>
+
+    <connection name="part0_led_g_8bits" component1="part0" component2="led_g_8bits">
+      <connection_map name="part0_led_g_8bits_1" typical_delay="5" c1_st_index="228" c1_end_index="235" c2_st_index="0" c2_end_index="7"/>
+    </connection>
+	
+    <connection name="part0_led_b_8bits" component1="part0" component2="led_b_8bits">
+      <connection_map name="part0_led_b_8bits_1" typical_delay="5" c1_st_index="236" c1_end_index="243" c2_st_index="0" c2_end_index="7"/>
     </connection>
 	
     <connection name="part0_push_buttons_5bits" component1="part0" component2="push_buttons_5bits">
