@@ -227,6 +227,25 @@
   
   <!-- <pin index="167" name ="user_mgt_si570_p" loc="V31"/> -->
   <!-- <pin index="168" name ="user_mgt_si570_n" loc="V32"/>   -->
+  
+  <pin index="275" name ="sfp0_TX_N0" loc="Y36"/>
+  <pin index="276" name ="sfp0_TX_P0" loc="Y35"/>
+  <pin index="277" name ="sfp0_RX_N0" loc="AA39"/>
+  <pin index="278" name ="sfp0_RX_P0" loc="AA38"/>
+  <pin index="279" name ="sfp1_TX_N0" loc="V36"/>
+  <pin index="280" name ="sfp1_TX_P0" loc="V35"/>
+  <pin index="281" name ="sfp1_RX_N0" loc="W39"/>
+  <pin index="282" name ="sfp1_RX_P0" loc="W38"/>
+  <pin index="283" name ="sfp2_TX_N0" loc="P36"/>
+  <pin index="284" name ="sfp2_TX_P0" loc="P35"/>
+  <pin index="285" name ="sfp2_RX_N0" loc="N39"/>
+  <pin index="286" name ="sfp2_RX_P0" loc="N38"/>
+  <pin index="287" name ="sfp3_TX_N0" loc="N34"/>
+  <pin index="288" name ="sfp3_TX_P0" loc="N33"/>
+  <pin index="289" name ="sfp3_RX_N0" loc="M37"/>
+  <pin index="290" name ="sfp3_RX_P0" loc="M36"/>  
+  <pin index="291" name ="user_mgt_si570_p" loc="M31"/>	
+  <pin index="292" name ="user_mgt_si570_n" loc="M32"/>	
  
 </pins>
 </part_info>

@@ -199,14 +199,14 @@ under the License.-->
   <pin index="176" name ="GPIO_DIP_SW6" iostandard="LVCMOS18" loc="AW5"/>
   <pin index="177" name ="GPIO_DIP_SW7" iostandard="LVCMOS18" loc="AW6"/>
   
-  <pin index="180" name ="RGB_G_LED_0" iostandard="LVCMOS12" loc="AR19"/>
-  <pin index="181" name ="RGB_G_LED_1" iostandard="LVCMOS12" loc="AT17"/>
-  <pin index="182" name ="RGB_G_LED_2" iostandard="LVCMOS12" loc="AR17"/>
-  <pin index="183" name ="RGB_G_LED_3" iostandard="LVCMOS12" loc="AU19"/> 
-  <pin index="184" name ="RGB_G_LED_4" iostandard="LVCMOS12" loc="AU20"/> 
-  <pin index="185" name ="RGB_G_LED_5" iostandard="LVCMOS12" loc="AW21"/> 
-  <pin index="186" name ="RGB_G_LED_6" iostandard="LVCMOS12" loc="AV21"/> 
-  <pin index="187" name ="RGB_G_LED_7" iostandard="LVCMOS12" loc="AV17"/> 
+  <pin index="180" name ="GPIO_LED_0_LS" iostandard="LVCMOS12" loc="AR19"/>
+  <pin index="181" name ="GPIO_LED_1_LS" iostandard="LVCMOS12" loc="AT17"/>
+  <pin index="182" name ="GPIO_LED_2_LS" iostandard="LVCMOS12" loc="AR17"/>
+  <pin index="183" name ="GPIO_LED_3_LS" iostandard="LVCMOS12" loc="AU19"/> 
+  <pin index="184" name ="GPIO_LED_4_LS" iostandard="LVCMOS12" loc="AU20"/> 
+  <pin index="185" name ="GPIO_LED_5_LS" iostandard="LVCMOS12" loc="AW21"/> 
+  <pin index="186" name ="GPIO_LED_6_LS" iostandard="LVCMOS12" loc="AV21"/> 
+  <pin index="187" name ="GPIO_LED_7_LS" iostandard="LVCMOS12" loc="AV17"/> 
   <!-- <pin index="144" name ="GPIO_LED_4_LS" iostandard="LVCMOS18" loc="AP15"/> -->
   <!-- <pin index="145" name ="GPIO_LED_5_LS" iostandard="LVCMOS18" loc="AN16"/> -->
   <!-- <pin index="146" name ="GPIO_LED_6_LS" iostandard="LVCMOS18" loc="AN17"/> -->
@@ -234,6 +234,25 @@ under the License.-->
   
   <!-- <pin index="167" name ="user_mgt_si570_p" loc="V31"/> -->
   <!-- <pin index="168" name ="user_mgt_si570_n" loc="V32"/>   -->
+  
+  <pin index="275" name ="sfp0_TX_N0" loc="Y36"/>
+  <pin index="276" name ="sfp0_TX_P0" loc="Y35"/>
+  <pin index="277" name ="sfp0_RX_N0" loc="AA39"/>
+  <pin index="278" name ="sfp0_RX_P0" loc="AA38"/>
+  <pin index="279" name ="sfp1_TX_N0" loc="V36"/>
+  <pin index="280" name ="sfp1_TX_P0" loc="V35"/>
+  <pin index="281" name ="sfp1_RX_N0" loc="W39"/>
+  <pin index="282" name ="sfp1_RX_P0" loc="W38"/>
+  <pin index="283" name ="sfp2_TX_N0" loc="P36"/>
+  <pin index="284" name ="sfp2_TX_P0" loc="P35"/>
+  <pin index="285" name ="sfp2_RX_N0" loc="N39"/>
+  <pin index="286" name ="sfp2_RX_P0" loc="N38"/>
+  <pin index="287" name ="sfp3_TX_N0" loc="N34"/>
+  <pin index="288" name ="sfp3_TX_P0" loc="N33"/>
+  <pin index="289" name ="sfp3_RX_N0" loc="M37"/>
+  <pin index="290" name ="sfp3_RX_P0" loc="M36"/>  
+  <pin index="291" name ="user_mgt_si570_p" loc="M31"/>	
+  <pin index="292" name ="user_mgt_si570_n" loc="M32"/>	
  
 </pins>
 </part_info>
