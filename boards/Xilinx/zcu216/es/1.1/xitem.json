@@ -4,9 +4,9 @@
       {
         "infra": {
           "name": "zcu216_es", 
-          "display": "Zynq UltraScale+ ZCU216 Evaluation Platform", 
-          "revision": "1.2", 
-          "description": "Zynq UltraScale+ ZCU216 Evaluation Platform", 
+          "display": "Zynq UltraScale+ ZCU216-ES Evaluation Platform", 
+          "revision": "1.1", 
+          "description": "Zynq UltraScale+ ZCU216-ES Evaluation Platform", 
           "company": "xilinx.com", 
           "company_display": "Xilinx", 
           "author": "Ashish", 
