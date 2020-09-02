@@ -3,7 +3,7 @@
     "items": [
       {
         "infra": {
-          "name": "SP701", 
+          "name": "sp701", 
           "display": "Spartan-7 SP701 Evaluation Platform", 
           "revision": "1.0", 
           "description": "Spartan-7 SP701 Evaluation Platform", 

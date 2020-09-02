@@ -3,7 +3,7 @@
     "items": [
       {
         "infra": {
-          "name": "VCU1525", 
+          "name": "vcu1525", 
           "display": "Virtex UltraScale+ VCU1525 Acceleration Development Board", 
           "revision": "1.3", 
           "description": "Virtex UltraScale+ VCU1525 Acceleration Development Board", 
