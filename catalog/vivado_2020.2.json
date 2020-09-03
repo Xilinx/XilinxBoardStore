@@ -1959,14 +1959,14 @@
         "company": "xilinx.com"
       }, 
       {
-        "name": "SP701", 
+        "name": "sp701", 
         "display": "Spartan-7 SP701 Evaluation Platform", 
         "latest_revision": "1.0", 
-        "commit_id": "631957d1d8ee1e6a2b67297e5288c03753f554f2", 
+        "commit_id": "91b053af060e39452917f793900051f09d55209f", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "631957d1d8ee1e6a2b67297e5288c03753f554f2", 
+            "commit_id": "91b053af060e39452917f793900051f09d55209f", 
             "date": "04-03-2020", 
             "history": "Addition of logo field in xitem.json"
           }
