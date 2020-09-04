@@ -3,10 +3,10 @@
     "items": [
       {
         "infra": {
-          "name": "te0741_160_3e", 
-          "display": "Kintex-7 TE0741-*-B3E-1-AF. *SPRT PCB: REV03", 
-          "revision": "2.0", 
-          "description": "Kintex-7 TE0741-*-B3E-1-AF Board (form factor 4x5 cm) with 10.3125Gb/s GTX Transceiver, Speed Grade -3 and extended temperature range. *Supported PCB Revisions: REV03.", 
+          "name": "te0711_35_2i", 
+          "display": "Artix-7 TE0711-*-35-2I. *SPRT PCB: REV01", 
+          "revision": "1.0", 
+          "description": "Artix-7  TE0711-*-35-2I Board with industrial temperature range. *Supported PCB Revisions: REV01.", 
           "company": "trenz.biz", 
           "company_display": "Trenz Electronic GmbH", 
           "author": "trenz.biz", 
@@ -17,10 +17,10 @@
             }
           ], 
           "category": "Single Part", 
-          "website": "trenz.org/te0741-info", 
-          "logo": "te0741_board.png", 
+          "website": "trenz.org/te0711-info", 
+          "logo": "te0711_board.png", 
           "search-keywords": [
-            "te0741_160_3e", 
+            "te0711_35_2i", 
             "trenz.biz", 
             "board", 
             "Single Part"
