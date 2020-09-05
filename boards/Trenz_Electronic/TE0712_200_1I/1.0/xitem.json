@@ -4,9 +4,9 @@
       {
         "infra": {
           "name": "te0712_200_1i", 
-          "display": "Artix-7 TE0712-*-200-1I3/-200-1I (1GB DDR). *SPRT PCB: REV02, REV01", 
+          "display": "Artix-7 TE0712_200_1I. SPRT PCB: REV02, REV01", 
           "revision": "1.0", 
-          "description": "Artix-7 TE0712-*-200-1I3/-200-1I (1GB DDR) Board (form factor 4x5cm) with 1GB DDR3, 100MBit Ethernet, speed grade -1 and industrial temperature grade. *Supported PCB Revisions: REV02, REV01.", 
+          "description": "Artix-7 TE0712_200_1I Board (form factor 4x5cm) with 1GB DDR3, 100MBit Ethernet, speed grade -1 and industrial temperature grade. Supported PCB Revisions: REV02, REV01.", 
           "company": "trenz.biz", 
           "company_display": "Trenz Electronic GmbH", 
           "author": "trenz.biz", 
@@ -18,7 +18,6 @@
           ], 
           "category": "Single Part", 
           "website": "trenz.org/te0712-info", 
-          "logo": "te0712_board.png", 
           "search-keywords": [
             "te0712_200_1i", 
             "trenz.biz", 

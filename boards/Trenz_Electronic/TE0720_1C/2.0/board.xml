@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
 <!-- ##################################################################### -->
 <!-- ##TE File Version:1.2-->
-<!-- ##Vivado Version:2019.2-->
-<!-- ##TE Last Modification:2020.06.02-->
+<!-- ##Vivado Version:2018.2-->
+<!-- ##TE Last Modification:2018.08.09-->
 <!-- ##################################################################### -->
 <!-- ##general board part description-->
 <!-- ##Info: board part name: board_vendor:board_name:part0:file_version  , use all lower case-->
-<board schema_version="2.1" vendor="trenz.biz" name="te0720_1c" display_name="ZYNQ-7 TE0720-*-1CR (256MB DDR). *SPRT PCB: REV02, REV03" url="trenz.org/te0720-info" preset_file="preset.xml">
+<board schema_version="2.1" vendor="trenz.biz" name="te0720_1c" display_name="ZYNQ-7 TE0720_1CR. SPRT PCB: REV02, REV03" url="trenz.org/te0720-info" preset_file="preset.xml">
   <images>
     <image name="te0720_board.png" display_name="ZYNQ-7 TE0720 BOARD" sub_type="board">
       <description>ZYNQ-7 TE0720 Board File Image</description>
@@ -26,13 +26,13 @@
   <file_version>2.0</file_version>
 <!-- ##################################################################### -->
 <!-- ##Board descriptions -->
-  <description>ZYNQ-7 TE0720-*-1CR (256MB DDR) Board (form factor 4x5 cm) with 256MB DDR, 1GBit Ethernet, Speed Grade -1 and commercial temperature grade. Supported PCB Revisions: REV02, REV03.</description>
+  <description>ZYNQ-7 TE0720_1CR Board (form factor 4x5 cm) with 256MB DDR, 1GBit Ethernet, Speed Grade -1 and commercial temperature grade. Supported PCB Revisions: REV02, REV03.</description>
 <!-- ##################################################################### -->
 <!-- ##Board components. Special component part0=fpga -->
 <!-- ##set display_name and correct part_name for fpga-->
 <!-- ##add part interfaces and corresponding component here -->
   <components>
-    <component name="part0" display_name="ZYNQ-7 TE0720" type="fpga" part_name="xc7z020clg484-1" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="www.xilinx.com">
+    <component name="part0" display_name="ZYNQ-7 TE0720_1CR" type="fpga" part_name="xc7z020clg484-1" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="www.xilinx.com">
       <description>FPGA part on the board</description>
       <interfaces>
         <!--insert fpga interfaces here, see ug895 or other board part files-->
