@@ -4,9 +4,9 @@
       {
         "infra": {
           "name": "te0712_35_2i", 
-          "display": "Artix-7 TE0712-*-35-2I (1GB DDR3). *SPRT PCB: REV02", 
+          "display": "Artix-7 TE0712_35_2I. SPRT PCB: REV02", 
           "revision": "1.0", 
-          "description": "Artix-7 TE0712-*-35-2I (1GB DDR3) Board (form factor 4x5cm) with 1GB DDR3, 100MBit Ethernet, speed grade -2 and industrial temperature grade. *Supported PCB Revisions: REV02.", 
+          "description": "Artix-7 TE0712_35_2I Board (form factor 4x5cm) with 1GB DDR3, 100MBit Ethernet, speed grade -2 and industrial temperature grade. Supported PCB Revisions: REV02.", 
           "company": "trenz.biz", 
           "company_display": "Trenz Electronic GmbH", 
           "author": "trenz.biz", 
@@ -18,7 +18,6 @@
           ], 
           "category": "Single Part", 
           "website": "trenz.org/te0712-info", 
-          "logo": "te0712_board.png", 
           "search-keywords": [
             "te0712_35_2i", 
             "trenz.biz", 

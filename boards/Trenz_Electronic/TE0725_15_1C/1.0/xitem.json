@@ -4,9 +4,9 @@
       {
         "infra": {
           "name": "te0725_15_1c", 
-          "display": "Artix-7 TE0725-*-15-1C. *SPRT PCB: REV03, REV02, REV01", 
+          "display": "Artix-7 TE0725_15_1C. SPRT PCB: REV01, REV02, REV03", 
           "revision": "1.0", 
-          "description": "Artix-7 TE0725-*-15-1C Board (form factor 3.5x7.3 cm) with optional HyperRAM, Speed Grade -1 and commercial temperature range. *Supported PCB Revisions: REV03 REV02, REV01.", 
+          "description": "Artix-7 TE0725_15_1C Board (form factor 3.5x7.3 cm) with 8MB HyperRAM and commercial temperature range. Supported PCB Revisions: REV01 REV02, REV03.", 
           "company": "trenz.biz", 
           "company_display": "Trenz Electronic GmbH", 
           "author": "trenz.biz", 
@@ -18,7 +18,6 @@
           ], 
           "category": "Single Part", 
           "website": "trenz.org/te0725-info", 
-          "logo": "te0725_board.png", 
           "search-keywords": [
             "te0725_15_1c", 
             "trenz.biz", 
