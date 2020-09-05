@@ -1,0 +1,34 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "te0711_35_2i", 
+          "display": "Artix-7 TE0711-*-35-2I. *SPRT PCB: REV01", 
+          "revision": "1.0", 
+          "description": "Artix-7  TE0711-*-35-2I Board with industrial temperature range. *Supported PCB Revisions: REV01.", 
+          "company": "trenz.biz", 
+          "company_display": "Trenz Electronic GmbH", 
+          "author": "trenz.biz", 
+          "contributors": [
+            {
+              "group": "Trenz Electronic GmbH", 
+              "url": "https://www.trenz-electronic.de/"
+            }
+          ], 
+          "category": "Single Part", 
+          "website": "trenz.org/te0711-info", 
+          "logo": "te0711_board.png", 
+          "search-keywords": [
+            "te0711_35_2i", 
+            "trenz.biz", 
+            "board", 
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  }, 
+  "_major": 1, 
+  "_minor": 0
+}

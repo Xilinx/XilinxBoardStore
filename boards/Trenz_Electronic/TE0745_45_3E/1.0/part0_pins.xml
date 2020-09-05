@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<!-- ##################################################################### -->
+<!-- ##TE File Version:1.0-->
+<!-- ##TE Last Modification:2019.09.17-->
+<!-- ##################################################################### -->
+<!-- ## replace part_name with correct FPGA PART from board.xml-->
+<part_info part_name="xc7z045ffg676-3">
+  <pins>
+    <!--insert ip pin settings and locations here, see ug895 or other board part files-->
+    <!-- ################################ MGT CLK ###############################################-->
+    <pin index="0" name ="si5338_clk0_p" iostandard="LVDS" loc="U6" DIFF_TERM="TRUE"/>
+    <pin index="1" name ="si5338_clk0_n" iostandard="LVDS" loc="U5" DIFF_TERM="TRUE"/>    
+    
+    <pin index="2" name ="con_j3_75_p" iostandard="LVDS" loc="R6" DIFF_TERM="TRUE"/>
+    <pin index="3" name ="con_j3_77_n" iostandard="LVDS" loc="R5" DIFF_TERM="TRUE"/>
+
+    <pin index="4" name ="si5338_clk3_p" iostandard="LVDS" loc="AA6" DIFF_TERM="TRUE"/>
+    <pin index="5" name ="si5338_clk3_n" iostandard="LVDS" loc="AA5" DIFF_TERM="TRUE"/>  
+
+    <pin index="6" name ="con_j3_81_p" iostandard="LVDS" loc="W6" DIFF_TERM="TRUE"/>
+    <pin index="7" name ="con_j3_83_n" iostandard="LVDS" loc="W5" DIFF_TERM="TRUE"/>    
+    
+    <!-- ################################ End file ###############################################-->
+    
+  </pins>
+</part_info>
