@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
 <!-- ##################################################################### -->
 <!-- ##TE File Version:1.2-->
-<!-- ##Vivado Version:2019.2-->
-<!-- ##TE Last Modification:2020.01.06-->
+<!-- ##Vivado Version:2018.2-->
+<!-- ##TE Last Modification:2018.07.10-->
 <!-- ##################################################################### -->
 <!-- ##general board part description-->
 <!-- ##Info: board part name: board_vendor:board_name:part0:file_version  , use all lower case-->
-<board schema_version="2.1" vendor="trenz.biz" name="te0726_m" display_name="ZYNQ-7 TE0726-*M (512MB DDR). *SPRT PCB: REV03, REV02." url="trenz.org/te0726-info" preset_file="preset.xml">
+<board schema_version="2.1" vendor="trenz.biz" name="te0726_m" display_name="ZYNQ-7 TE0726_M (512MB DDR). SPRT PCB: REV03, REV02." url="trenz.org/te0726-info" preset_file="preset.xml">
   <images>
     <image name="te0726_board.png" display_name="ZYNQ-7 TE0726_M BOARD" sub_type="board">
       <description>ZYNQ-7 TE0726_M Board File Image</description>
@@ -25,7 +25,7 @@
   <file_version>3.1</file_version>
 <!-- ##################################################################### -->
 <!-- ##Board descriptions -->
-  <description>ZYNQ-7 TE0726-*M ZynqBerry Board (form factor like RPI2) with 512MB Memory and 100MBit Ethernet, speed grade -1 and commercial temperature range. *Supported PCB Revisions: REV03 and REV02. Note: primary boot device is QSPI, SD can be used as secondary boot device only.</description>
+  <description>ZYNQ-7 TE0726-M ZynqBerry Board (form factor like RPI2) with 512MB Memory and 100MBit Ethernet, speed grade -1 and commercial temperature range. Supported PCB Revisions: REV03 and REV02. Note: primary boot device is QSPI, SD can be used as secondary boot device only.</description>
 <!-- ##################################################################### -->
 <!-- ##Board components. Special component part0=fpga -->
 <!-- ##set display_name and correct part_name for fpga-->

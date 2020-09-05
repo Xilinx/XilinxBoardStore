@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!-- ##################################################################### -->
 <!-- ##TE File Version:1.0-->
-<!-- ##TE Last Modification:2020.02.10 -->
+<!-- ##TE Last Modification:2018.07.19 -->
 <!-- ##################################################################### -->
 <ip_presets schema="1.0">
   <!--insert ip presets here, see ug895 or other board part files-->
   <ip_preset preset_proc_name="zynq_ultra_ps_e_preset"> 
     <ip vendor="xilinx.com" library="ip" name="zynq_ultra_ps_e" version="*"> 
       <user_parameters>
-        <user_parameter  name="CONFIG.PSU__PRESET_APPLIED" value="1"/>
         <user_parameter  name="CONFIG.PSU_BANK_0_IO_STANDARD" value="LVCMOS18"/>
         <user_parameter  name="CONFIG.PSU_BANK_1_IO_STANDARD" value="LVCMOS33"/>
         <user_parameter  name="CONFIG.PSU_BANK_2_IO_STANDARD" value="LVCMOS18"/>
         <user_parameter  name="CONFIG.PSU_BANK_3_IO_STANDARD" value="LVCMOS18"/>
-        <user_parameter  name="CONFIG.PSU__PSS_REF_CLK__FREQMHZ" value="33.333333"/>
+        <user_parameter  name="CONFIG.PSU__PSS_REF_CLK__FREQMHZ" value="33.33333"/>
         <user_parameter  name="CONFIG.PSU__QSPI__PERIPHERAL__ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PSU__QSPI__PERIPHERAL__MODE" value="Dual Parallel"/>
         <user_parameter  name="CONFIG.PSU__QSPI__PERIPHERAL__DATA_MODE" value="x4"/>
@@ -57,8 +56,6 @@
         <user_parameter  name="CONFIG.PSU__PJTAG__PERIPHERAL__IO" value="MIO 26 .. 29"/>
         <user_parameter  name="CONFIG.PSU__I2C0__PERIPHERAL__ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PSU__I2C0__PERIPHERAL__IO" value="MIO 38 .. 39"/>
-        <user_parameter  name="CONFIG.PSU__CAN0__PERIPHERAL__ENABLE" value="1"/>
-        <user_parameter  name="CONFIG.PSU__CAN0__PERIPHERAL__IO" value="MIO 34 .. 35"/>
         <user_parameter  name="CONFIG.PSU__ENET3__PERIPHERAL__ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PSU__ENET3__PERIPHERAL__IO" value="MIO 64 .. 75"/>
         <user_parameter  name="CONFIG.PSU__ENET3__GRP_MDIO__ENABLE" value="1"/>
@@ -79,20 +76,9 @@
         <user_parameter  name="CONFIG.PSU__DISPLAYPORT__PERIPHERAL__ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PSU__DISPLAYPORT__LANE0__IO" value="GT Lane3"/>
         <user_parameter  name="CONFIG.PSU__DISPLAYPORT__LANE1__IO" value="GT Lane2"/>
-        <user_parameter  name="CONFIG.PSU__CRF_APB__DP_VIDEO_REF_CTRL__SRCSEL" value="VPLL"/>
-        <user_parameter  name="CONFIG.PSU__CRF_APB__GPU_REF_CTRL__SRCSEL" value="IOPLL"/>
-        <user_parameter  name="CONFIG.PSU__CRF_APB__GDMA_REF_CTRL__SRCSEL" value="APLL"/>
-        <user_parameter  name="CONFIG.PSU__CRF_APB__DPDMA_REF_CTRL__SRCSEL" value="APLL"/>
         <user_parameter  name="CONFIG.PSU__DDRC__COMPONENTS" value="UDIMM"/>
-        <user_parameter  name="CONFIG.PSU__DDRC__CL" value="12"/>
-        <user_parameter  name="CONFIG.PSU__DDRC__T_RCD" value="17"/>
-        <user_parameter  name="CONFIG.PSU__DDRC__T_RP" value="17"/>
-        <user_parameter  name="CONFIG.PSU__DDRC__SPEED_BIN" value="DDR4_2133P"/>
-        <user_parameter  name="CONFIG.PSU__CRF_APB__DDR_CTRL__FREQMHZ" value="1066"/>
-        <user_parameter  name="CONFIG.PSU__DDRC__CL" value="16"/>
-        <user_parameter  name="CONFIG.PSU__DDRC__CWL" value="14"/>
-        <user_parameter  name="CONFIG.PSU__DDRC__T_RAS_MIN" value="33.0"/>
-        <user_parameter  name="CONFIG.PSU__DDRC__T_RC" value="48"/>
+        <user_parameter  name="CONFIG.PSU__DDRC__SPEED_BIN" value="DDR4_2400T"/>
+        <user_parameter  name="CONFIG.PSU__DDRC__CWL" value="12"/>
         <user_parameter  name="CONFIG.PSU__DDRC__DRAM_WIDTH" value="8 Bits"/>
         <user_parameter  name="CONFIG.PSU__DDRC__BG_ADDR_COUNT" value="2"/>
         <user_parameter  name="CONFIG.PSU__DDRC__ROW_ADDR_COUNT" value="16"/>
