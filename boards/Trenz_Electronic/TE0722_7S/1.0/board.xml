@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
 <!-- ##################################################################### -->
 <!-- ##TE File Version:1.2-->
-<!-- ##Vivado Version:2018.2-->
-<!-- ##TE Last Modification:2018.08.13-->
+<!-- ##Vivado Version:2019.2-->
+<!-- ##TE Last Modification:2020.04.01-->
 <!-- ##################################################################### -->
 <!-- ##general board part description-->
 <!-- ##Info: board part name: board_vendor:board_name:part0:file_version  , use all lower case-->
-<board schema_version="2.1" vendor="trenz.biz" name="te0722_7s" display_name="ZYNQ-7S TE0722_07S. SPRT PCB: REV01, REV02" url="trenz.org/te0722-info" preset_file="preset.xml">
+<board schema_version="2.1" vendor="trenz.biz" name="te0722_7s" display_name="ZYNQ-7S TE0722-*-07S-1C (0GB DDR). *SPRT PCB: REV02" url="trenz.org/te0722-info" preset_file="preset.xml">
 
   <images>
     <image name="te0722_board.png" display_name="ZYNQ-7 TE0722 BOARD" sub_type="board">
@@ -18,7 +18,6 @@
 <!-- ##Currently revision with highest id is only displayed in Vivado. Write supported revisions to description too!-->
   <compatible_board_revisions>
     <revision id="1">0.2</revision>
-    <revision id="0">0.1</revision>
   </compatible_board_revisions>
 <!-- ##################################################################### -->
 <!-- ##Board File Revision -->
@@ -26,7 +25,7 @@
   <file_version>1.0</file_version>
 <!-- ##################################################################### -->
 <!-- ##Board descriptions -->
-  <description>ZYNQ-7S TE0722-07S Board (form factor 1.8 x 5.1 cm) with single ARM Cortex-A9, without DDR, speed grade -1 and commercial temperature range. Supported PCB Revisions: REV01,REV2. Note: Primary boot device is QSPI, SD can be used as secondary boot device only. DDR less Zynq need a modified FSBL!</description>
+  <description>ZYNQ-7S ZYNQ-7S TE0722-*-07S-1C (0GB DDR) Board (form factor 1.8 x 5.1 cm) with single ARM Cortex-A9, without DDR, speed grade -1 and commercial temperature range. *Supported PCB Revisions: REV02. Note: Primary boot device is QSPI, SD can be used as secondary boot device only. DDR less Zynq need a modified FSBL!</description>
 <!-- ##################################################################### -->
 <!-- ##Board components. Special component part0=fpga -->
 <!-- ##set display_name and correct part_name for fpga-->
