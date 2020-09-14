@@ -14,4 +14,4 @@ The wiki contains documentation on how to use and contribute to the Board Store:
 Click on the corresponding hyperlinks to go to the sample and partners board data location, where you will see a list of board data files.  
 
 [Sample Example Board Files](https://github.com/Xilinx/XilinxBoardStore/tree/2018.1-dev/boards/example_vendor)
-abcde
+abcdefghi
