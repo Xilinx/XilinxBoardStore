@@ -1821,7 +1821,7 @@
           </port_maps>
         </interface>
 		
-		<interface mode="master" name="spi_flash" type="xilinx.com:interface:spi_rtl:1.0" of_component="spi_flash" preset_proc="qspi_flash_preset">
+		<interface mode="master" name="spi_flash_no_xip" type="xilinx.com:interface:spi_rtl:1.0" of_component="spi_flash" preset_proc="qspi_flash_no_xip_preset">
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="axi_quad_spi" order="0"/>
           </preferred_ips>
@@ -1925,7 +1925,111 @@
 	    
           </port_maps>
 	</interface>		
-		
+
+		<interface mode="master" name="spi_flash_xip" type="xilinx.com:interface:spi_rtl:1.0" of_component="spi_flash" preset_proc="qspi_flash_xip_preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_quad_spi" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="IO0_I" physical_port="spi_io0_i" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="FLASH_D0"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO0_O" physical_port="spi_io0_o" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="FLASH_D0"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO0_T" physical_port="spi_io0_t" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="FLASH_D0"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO1_I" physical_port="spi_io1_i" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="FLASH_D1"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO1_O" physical_port="spi_io1_o" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="FLASH_D1"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO1_T" physical_port="spi_io1_t" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="FLASH_D1"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO2_I" physical_port="spi_io2_i" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="FLASH_D2"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO2_O" physical_port="spi_io2_o" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="FLASH_D2"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO2_T" physical_port="spi_io2_t" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="FLASH_D2"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO3_I" physical_port="spi_io3_i" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="FLASH_D3"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO3_O" physical_port="spi_io3_o" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="FLASH_D3"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO3_T" physical_port="spi_io3_t" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="FLASH_D3"/>
+              </pin_maps>
+            </port_map>
+	    
+            <port_map logical_port="SS_I" physical_port="spi_ss_i" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="FPGA_FCS"/>
+              </pin_maps>
+            </port_map>
+	    
+            <port_map logical_port="SS_O" physical_port="spi_ss_o" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="FPGA_FCS"/>
+              </pin_maps>
+            </port_map>
+	    
+            <port_map logical_port="SS_T" physical_port="spi_ss_t" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="FPGA_FCS"/>
+              </pin_maps>
+            </port_map>
+	    
+	     <!-- <port_map logical_port="SCK_I" physical_port="spi_sck_i" dir="inout">
+		 <pin_maps>
+                   <pin_map port_index="0" component_pin="FPGA_CCLK"/>
+		 </pin_maps>
+            </port_map>
+	    
+            <port_map logical_port="SCK_O" physical_port="spi_sck_o" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="FPGA_CCLK"/>
+              </pin_maps>
+            </port_map>
+	    
+            <port_map logical_port="SCK_T" physical_port="spi_sck_t" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="FPGA_CCLK"/>
+              </pin_maps>
+            </port_map> -->
+	    
+          </port_maps>
+	</interface>				
 		
       </interfaces>
 	  
@@ -2266,6 +2370,21 @@
 	
     <component name="spi_flash" display_name="QSPI flash" type="chip" sub_type="memory_flash_qspi" major_group="External Memory" part_name="MT25QU01GBB8ESF-0SIT" vendor="Microchip" spec_url="www.microchip.com">
       <description>2G bit of nonvolatile storage that can be used for configuration or data storage</description>
+	  
+	 <component_modes>
+	   <component_mode name="spi_flash_no_xip" display_name="spi_flash_no_xip">
+          <interfaces>
+            <interface name="spi_flash_no_xip"/>
+          </interfaces>
+        </component_mode>
+  
+	   <component_mode name="spi_flash_xip" display_name="spi_flash_xip">
+          <interfaces>
+            <interface name="spi_flash_xip"/>
+          </interfaces>
+        </component_mode>		
+	  </component_modes>
+	  
     </component>	
 	
    <!--  <component name="spi_flash" display_name="QSPI flash" type="chip" sub_type="memory_flash_qspi" major_group="External Memory" part_name="MT25QU01GBB8ESF-0SIT" vendor="Microchip" spec_url="www.microchip.com">
@@ -2537,11 +2656,12 @@
           </associated_board_interfaces>
        </ip>
 	   
-<!--       <ip vendor="xilinx.com" library="ip" name="axi_quad_spi" version="*" ip_interface="SPI_1">
+      <ip vendor="xilinx.com" library="ip" name="axi_quad_spi" version="*" ip_interface="SPI_1">
 		<associated_board_interfaces>
-			<associated_board_interface name="spi_flash" order="0"/> 
+			<associated_board_interface name="spi_flash_no_xip" order="0"/> 
+			<associated_board_interface name="spi_flash_xip" order="1"/> 
 		</associated_board_interfaces>
-      </ip> -->
+      </ip>
 
 <!--       <ip vendor="xilinx.com" library="ip" name="axi_quad_spi" version="*" ip_interface="SPI_1">
 		<associated_board_interfaces>
