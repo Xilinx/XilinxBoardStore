@@ -1821,7 +1821,7 @@
           </port_maps>
         </interface>
 		
-		<interface mode="master" name="spi_flash_no_xip" type="xilinx.com:interface:spi_rtl:1.0" of_component="spi_flash" preset_proc="qspi_flash_no_xip_preset">
+		<interface mode="master" name="spi_flash" type="xilinx.com:interface:spi_rtl:1.0" of_component="spi_flash" preset_proc="qspi_flash_preset">
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="axi_quad_spi" order="0"/>
           </preferred_ips>
@@ -2372,9 +2372,9 @@
       <description>2G bit of nonvolatile storage that can be used for configuration or data storage</description>
 	  
 	 <component_modes>
-	   <component_mode name="spi_flash_no_xip" display_name="spi_flash_no_xip">
+	   <component_mode name="spi_flash" display_name="spi_flash">
           <interfaces>
-            <interface name="spi_flash_no_xip"/>
+            <interface name="spi_flash"/>
           </interfaces>
         </component_mode>
   
@@ -2658,7 +2658,7 @@
 	   
       <ip vendor="xilinx.com" library="ip" name="axi_quad_spi" version="*" ip_interface="SPI_1">
 		<associated_board_interfaces>
-			<associated_board_interface name="spi_flash_no_xip" order="0"/> 
+			<associated_board_interface name="spi_flash" order="0"/> 
 			<associated_board_interface name="spi_flash_xip" order="1"/> 
 		</associated_board_interfaces>
       </ip>

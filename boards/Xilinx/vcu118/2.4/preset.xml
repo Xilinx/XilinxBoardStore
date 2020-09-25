@@ -14,7 +14,7 @@
 
 <ip_presets schema="1.0">
 
-  <ip_preset preset_proc_name="qspi_flash_no_xip_preset">
+  <ip_preset preset_proc_name="qspi_flash_preset">
     <ip vendor="xilinx.com" library="ip" name="axi_quad_spi">
       <user_parameters>
         <user_parameter name="CONFIG.C_SPI_MODE" value="2" />
