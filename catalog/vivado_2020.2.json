@@ -2209,11 +2209,11 @@
         "name": "vcu118", 
         "display": "Virtex UltraScale+ VCU118 Evaluation Platform", 
         "latest_revision": "2.4", 
-        "commit_id": "0fe149da22868f3a123974cba88759b7f4d7d59e", 
+        "commit_id": "cdb121dffa5b11ca9daee3643a8de2319ffadbf9", 
         "revisions": [
           {
             "revision": "2.4", 
-            "commit_id": "0fe149da22868f3a123974cba88759b7f4d7d59e", 
+            "commit_id": "cdb121dffa5b11ca9daee3643a8de2319ffadbf9", 
             "date": "25-06-2020", 
             "history": "Adding 2.4 with Dual Memory Support"
           }
@@ -2779,13 +2779,13 @@
         "name": "vck190_es",
         "display": "Versal VCK190 ES1 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "bcb8344dedb9a0978f56a19df4abba00de5f68d5",
+        "commit_id": "ab87904e1237c61f3f8dc02eb8b5fe44071cf1ce",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "bcb8344dedb9a0978f56a19df4abba00de5f68d5",
-            "date": "10-08-2020",
-            "history": "Updated CIPS Interface"
+            "commit_id": "ab87904e1237c61f3f8dc02eb8b5fe44071cf1ce",
+            "date": "25-09-2020",
+            "history": "Added CIPS dummy Interface for automation"
           }
         ],
         "config": {
