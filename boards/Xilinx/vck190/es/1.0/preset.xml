@@ -72,6 +72,11 @@
 				<user_parameter name="CONFIG.PMC_MIO_37_DIRECTION" value="out"/>	
 				<user_parameter name="CONFIG.PMC_MIO_37_USAGE" value="GPIO"/>
 				<user_parameter name="CONFIG.PMC_MIO_37_OUTPUT_DATA" value="high"/>
+
+				<user_parameter name="CONFIG.PS_MIO_7_PULL" value="disable"/>	
+				<user_parameter name="CONFIG.PS_MIO_9_PULL" value="disable"/>	
+				<user_parameter name="CONFIG.PS_MIO_19_PULL" value="disable"/>
+				<user_parameter name="CONFIG.PS_MIO_21_PULL" value="disable"/>				
 			
 <!--			<user_parameter name="CONFIG.CPM_PCIE0_MODES" value="DMA"/>		
 				<user_parameter name="CONFIG.CPM_PCIE0_PL_LINK_CAP_MAX_LINK_WIDTH" value="X16"/>	  
