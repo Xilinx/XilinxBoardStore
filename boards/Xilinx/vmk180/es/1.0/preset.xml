@@ -11,9 +11,9 @@
  under the License. -->
 <ip_presets schema="1.0">
 
+<ip_preset preset_proc_name="versal_cips_preset"> 
 
-	<ip_preset preset_proc_name="versal_cips_preset"> 
-		<ip vendor="xilinx.com" library="ip" name="versal_cips" version="*"> 
+		<ip vendor="xilinx.com" library="ip" name="versal_cips" version="*" ip_interface="FIXED_IO"> 
 			<user_parameters>
 
 		        <user_parameter name="CONFIG.PMC_SD1_PERIPHERAL_ENABLE" value="1"/>
@@ -72,6 +72,11 @@
 				<user_parameter name="CONFIG.PMC_MIO_37_DIRECTION" value="out"/>	
 				<user_parameter name="CONFIG.PMC_MIO_37_USAGE" value="GPIO"/>
 				<user_parameter name="CONFIG.PMC_MIO_37_OUTPUT_DATA" value="high"/>
+				
+				<user_parameter name="CONFIG.PS_MIO_7_PULL" value="disable"/>	
+				<user_parameter name="CONFIG.PS_MIO_9_PULL" value="disable"/>	
+				<user_parameter name="CONFIG.PS_MIO_19_PULL" value="disable"/>
+				<user_parameter name="CONFIG.PS_MIO_21_PULL" value="disable"/>				
 			
 <!--			<user_parameter name="CONFIG.CPM_PCIE0_MODES" value="DMA"/>		
 				<user_parameter name="CONFIG.CPM_PCIE0_PL_LINK_CAP_MAX_LINK_WIDTH" value="X16"/>	  
@@ -149,16 +154,6 @@
 	</ip_preset>	
 	 
   
-	<ip_preset preset_proc_name="pcie_refclk_preset">
-		<ip vendor="xilinx.com" library="ip" name="util_ds_buf">
-		    <user_parameters>
-				<user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDSGTE" />
-				<user_parameter name="CONFIG.C_SIZE" value="1" />
-		    </user_parameters>
-		</ip>
-	</ip_preset>
-	  
-
   
 	<ip_preset preset_proc_name="sysclk0_preset">
 	
