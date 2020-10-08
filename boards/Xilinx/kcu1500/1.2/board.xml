@@ -1639,8 +1639,7 @@
          <associated_board_interfaces>
             <associated_board_interface name="sysmon_vaux8" order="0"/> 
          </associated_board_interfaces>
-      </ip>	   
-	   
+      </ip>
 	   
     </ip_associated_rule>
  </ip_associated_rules>
