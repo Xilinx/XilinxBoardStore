@@ -2760,13 +2760,13 @@
         "name": "vck190",
         "display": "Versal VCK190 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "35b80c0583c7b3bd4bacb41f9c1951f2dc6c4014",
+        "commit_id": "722e24ce7c603f1112b4dcb4c193458bf7d991d7",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "35b80c0583c7b3bd4bacb41f9c1951f2dc6c4014",
-            "date": "14-08-2020",
-            "history": "Adding VCK190 production VBS"
+            "commit_id": "722e24ce7c603f1112b4dcb4c193458bf7d991d7",
+            "date": "10-12-2020",
+            "history": "Updated CIPS preset for PCIE RESET IOs"
           }
         ],
         "config": {
