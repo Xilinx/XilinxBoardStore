@@ -65,7 +65,9 @@
 				<user_parameter name="CONFIG.PS_I2C1_PERIPHERAL_IO" value="PMC_MIO 44 .. 45"/>																				
 
 				<user_parameter name="CONFIG.PS_PCIE_RESET_ENABLE" value="1"/>																		
-				<user_parameter name="CONFIG.PS_PCIE_RESET_IO" value="PMC_MIO 38 .. 39"/>		
+				<!-- <user_parameter name="CONFIG.PS_PCIE_RESET_IO" value="PMC_MIO 38 .. 39"/> -->	
+                <user_parameter name="CONFIG.PS_PCIE_EP_RESET1_IO" value="PMC_MIO 38"/>
+				<user_parameter name="CONFIG.PS_PCIE_EP_RESET2_IO" value="PMC_MIO 39"/>		
 				<user_parameter name="CONFIG.PS_TTC3_PERIPHERAL_ENABLE" value="0"/>																				
 				
 				<user_parameter name="CONFIG.PS_UART0_PERIPHERAL_ENABLE" value="1"/>																		
