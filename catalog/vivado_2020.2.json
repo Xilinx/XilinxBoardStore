@@ -2741,13 +2741,13 @@
         "name": "vmk180",
         "display": "Versal VMK180 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "e34dfde77818be76efa1172c07b79bc295572155 ",
+        "commit_id": "a4c242ecc1f6b66026fa921b6e2a93aebea733fe",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "e34dfde77818be76efa1172c07b79bc295572155 ",
-            "date": "17-08-2020",
-            "history": "Adding vmk180 production VBS"
+            "commit_id": "a4c242ecc1f6b66026fa921b6e2a93aebea733fe",
+            "date": "18-10-2020",
+            "history": "Added REF_CLK_FREQMHZ with 6 decimal digit precision"
           }
         ],
         "config": {
@@ -2760,13 +2760,13 @@
         "name": "vck190",
         "display": "Versal VCK190 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "722e24ce7c603f1112b4dcb4c193458bf7d991d7",
+        "commit_id": "a4c242ecc1f6b66026fa921b6e2a93aebea733fe",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "722e24ce7c603f1112b4dcb4c193458bf7d991d7",
-            "date": "10-12-2020",
-            "history": "Updated CIPS preset for PCIE RESET IOs"
+            "commit_id": "a4c242ecc1f6b66026fa921b6e2a93aebea733fe",
+            "date": "18-10-2020",
+            "history": "Added REF_CLK_FREQMHZ with 6 decimal digit precision"
           }
         ],
         "config": {
@@ -2779,13 +2779,13 @@
         "name": "vck190_es",
         "display": "Versal VCK190 ES1 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "e34dfde77818be76efa1172c07b79bc295572155 ",
+        "commit_id": "a4c242ecc1f6b66026fa921b6e2a93aebea733fe",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "e34dfde77818be76efa1172c07b79bc295572155 ",
-            "date": "25-09-2020",
-            "history": "Added CIPS dummy Interface for automation"
+            "commit_id": "a4c242ecc1f6b66026fa921b6e2a93aebea733fe",
+            "date": "18-10-2020",
+            "history": "Added REF_CLK_FREQMHZ with 6 decimal digit precision"
           }
         ],
         "config": {
@@ -2798,13 +2798,13 @@
         "name": "vmk180_es",
         "display": "Versal VMK180 ES1 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "e34dfde77818be76efa1172c07b79bc295572155 ",
+        "commit_id": "a4c242ecc1f6b66026fa921b6e2a93aebea733fe",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "e34dfde77818be76efa1172c07b79bc295572155 ",
-            "date": "04-08-2020",
-            "history": "Adding IOSTANDARD for all clocks in this file"
+            "commit_id": "a4c242ecc1f6b66026fa921b6e2a93aebea733fe",
+            "date": "18-10-2020",
+            "history": "Added REF_CLK_FREQMHZ with 6 decimal digit precision"
           }
         ],
         "config": {
