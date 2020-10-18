@@ -2741,11 +2741,11 @@
         "name": "vmk180",
         "display": "Versal VMK180 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "a4c242ecc1f6b66026fa921b6e2a93aebea733fe",
+        "commit_id": "e34dfde77818be76efa1172c07b79bc295572155 ",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "a4c242ecc1f6b66026fa921b6e2a93aebea733fe",
+            "commit_id": "e34dfde77818be76efa1172c07b79bc295572155 ",
             "date": "17-08-2020",
             "history": "Adding vmk180 production VBS"
           }
@@ -2760,11 +2760,11 @@
         "name": "vck190",
         "display": "Versal VCK190 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "a4c242ecc1f6b66026fa921b6e2a93aebea733fe",
+        "commit_id": "722e24ce7c603f1112b4dcb4c193458bf7d991d7",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "a4c242ecc1f6b66026fa921b6e2a93aebea733fe",
+            "commit_id": "722e24ce7c603f1112b4dcb4c193458bf7d991d7",
             "date": "10-12-2020",
             "history": "Updated CIPS preset for PCIE RESET IOs"
           }
@@ -2779,11 +2779,11 @@
         "name": "vck190_es",
         "display": "Versal VCK190 ES1 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "a4c242ecc1f6b66026fa921b6e2a93aebea733fe",
+        "commit_id": "e34dfde77818be76efa1172c07b79bc295572155 ",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "a4c242ecc1f6b66026fa921b6e2a93aebea733fe",
+            "commit_id": "e34dfde77818be76efa1172c07b79bc295572155 ",
             "date": "25-09-2020",
             "history": "Added CIPS dummy Interface for automation"
           }
@@ -2798,11 +2798,11 @@
         "name": "vmk180_es",
         "display": "Versal VMK180 ES1 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "a4c242ecc1f6b66026fa921b6e2a93aebea733fe",
+        "commit_id": "e34dfde77818be76efa1172c07b79bc295572155 ",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "a4c242ecc1f6b66026fa921b6e2a93aebea733fe",
+            "commit_id": "e34dfde77818be76efa1172c07b79bc295572155 ",
             "date": "04-08-2020",
             "history": "Adding IOSTANDARD for all clocks in this file"
           }
