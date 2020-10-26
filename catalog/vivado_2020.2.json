@@ -2209,13 +2209,13 @@
         "name": "vcu118", 
         "display": "Virtex UltraScale+ VCU118 Evaluation Platform", 
         "latest_revision": "2.4", 
-        "commit_id": "cdb121dffa5b11ca9daee3643a8de2319ffadbf9", 
+        "commit_id": "003adbf83eb5b653739307df228a086b30620c7e", 
         "revisions": [
           {
             "revision": "2.4", 
-            "commit_id": "cdb121dffa5b11ca9daee3643a8de2319ffadbf9", 
-            "date": "25-06-2020", 
-            "history": "Adding 2.4 with Dual Memory Support"
+            "commit_id": "003adbf83eb5b653739307df228a086b30620c7e", 
+            "date": "23-10-2020", 
+            "history": "VCU118 board SGMII-LVDS - DCI_CASECADE, Vref IOSTANDARDs in BoardFlow files"
           }
         ], 
         "config": {
