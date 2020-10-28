@@ -974,7 +974,7 @@
           </port_maps>
         </interface>
 		
-		<interface mode="slave" name="default_300mhz_clk1" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="default_300mhz_clk1" preset_proc="default_300mhz_clk1_preset">
+		<interface mode="slave" name="default_300mhz_clk1" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="default_300mhz_clk1" preset_proc="default_300mhz_clk0_preset">
          
 		 <parameters>
             <parameter name="frequency" value="300000000"/>
@@ -1000,7 +1000,7 @@
         </interface>	
 
 
-		<interface mode="slave" name="default_300mhz_clk2" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="default_300mhz_clk2" preset_proc="default_300mhz_clk2_preset">
+		<interface mode="slave" name="default_300mhz_clk2" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="default_300mhz_clk2" preset_proc="default_300mhz_clk0_preset">
          
 		 <parameters>
             <parameter name="frequency" value="300000000"/>
@@ -1025,7 +1025,7 @@
           </port_maps>
         </interface>	
 
-       <interface mode="slave" name="default_300mhz_clk3" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="default_300mhz_clk3" preset_proc="default_300mhz_clk3_preset">
+       <interface mode="slave" name="default_300mhz_clk3" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="default_300mhz_clk3" preset_proc="default_300mhz_clk0_preset">
          
 		 <parameters>
             <parameter name="frequency" value="300000000"/>
@@ -1542,7 +1542,7 @@
 	  </port_maps>
 	 </interface> 
 		
-		<interface mode="master" name="rs232_uart" type="xilinx.com:interface:uart_rtl:1.0" of_component="rs232_uart" preset_proc="rs232_uart_preset">
+		<interface mode="master" name="rs232_uart" type="xilinx.com:interface:uart_rtl:1.0" of_component="rs232_uart">
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="axi_uart16550" order="0"/>
           </preferred_ips>

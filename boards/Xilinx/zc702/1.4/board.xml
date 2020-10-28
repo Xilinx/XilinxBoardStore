@@ -248,7 +248,7 @@
           </port_maps>
         </interface>
 		
-		<interface mode="master" name="push_buttons" type="xilinx.com:interface:gpio_rtl:1.0" of_component="push_buttons" preset_proc="push_buttons_preset">
+		<interface mode="master" name="push_buttons" type="xilinx.com:interface:gpio_rtl:1.0" of_component="push_buttons">
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
           </preferred_ips>
