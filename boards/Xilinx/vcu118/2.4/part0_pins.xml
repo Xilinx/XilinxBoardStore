@@ -18,11 +18,16 @@
     <pin index="2"   name ="GPIO_DIP_SW3" iostandard="LVCMOS12" loc="J16"/>
     <pin index="3"   name ="GPIO_DIP_SW4" iostandard="LVCMOS12" loc="D21"/>
 
-	<pin index="4"	name ="SGMII_RX_N" iostandard="DIFF_HSTL_I_DCI_18" loc="AV24" odt="RTT_48" iobank.internal_vref="0.9" />
+<!-- 	<pin index="4"	name ="SGMII_RX_N" iostandard="DIFF_HSTL_I_DCI_18" loc="AV24" odt="RTT_48" iobank.internal_vref="0.9" />
 	<pin index="5"	name ="SGMII_RX_P" iostandard="DIFF_HSTL_I_DCI_18" loc="AU24" odt="RTT_48" iobank.internal_vref="0.9"/> 
     <pin index="6"	name ="SGMII_TX_N" iostandard="DIFF_HSTL_I_DCI_18" loc="AV21" output_impedance="RDRV_48_48" iobank.internal_vref="0.9" /> 
-	<pin index="7"	name ="SGMII_TX_P" iostandard="DIFF_HSTL_I_DCI_18" loc="AU21" output_impedance="RDRV_48_48" iobank.internal_vref="0.9" /> 
+	<pin index="7"	name ="SGMII_TX_P" iostandard="DIFF_HSTL_I_DCI_18" loc="AU21" output_impedance="RDRV_48_48" iobank.internal_vref="0.9" />  -->
 
+	<pin index="4"	name ="SGMII_RX_N" iostandard="DIFF_HSTL_I_DCI_18" loc="AV24" odt="RTT_48" />
+	<pin index="5"	name ="SGMII_RX_P" iostandard="DIFF_HSTL_I_DCI_18" loc="AU24" odt="RTT_48" /> 
+    <pin index="6"	name ="SGMII_TX_N" iostandard="DIFF_HSTL_I_DCI_18" loc="AV21" output_impedance="RDRV_48_48" /> 
+	<pin index="7"	name ="SGMII_TX_P" iostandard="DIFF_HSTL_I_DCI_18" loc="AU21" output_impedance="RDRV_48_48" /> 
+	
     <pin index="8"   name ="IIC_MUX_RESET_B" iostandard="LVCMOS18" loc="AL25"/>
     <pin index="9"   name ="IIC_SCL_MAIN" iostandard="LVCMOS18" loc="AM24" drive="8" slew="SLOW"/>
     <pin index="10"  name ="IIC_SDA_MAIN" iostandard="LVCMOS18" loc="AL24" drive="8" slew="SLOW"/>
@@ -421,7 +426,13 @@
 	<pin index="454" name ="FPGA_FCS" iostandard="LVCMOS18" loc="BF16"/>	
 	
     <!-- ################################END OF FILE ###############################################-->
-  </pins>       
+  </pins>  
+
+	<design_constrs>
+	  <dci_cascade master_bank_id="65" slave_bank_ids="64"/>
+	  <internal_vref bank_id="65" voltage=".9"/>
+    </design_constrs>
+	
 </part_info>    
                 
 
