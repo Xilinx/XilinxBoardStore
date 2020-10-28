@@ -380,7 +380,7 @@
           </port_maps>
         </interface>
 		
-        <interface mode="master" name="rs232_uart_0" type="xilinx.com:interface:uart_rtl:1.0" of_component="rs232_uart_0" preset_proc="rs232_uart_preset">>>
+        <interface mode="master" name="rs232_uart_0" type="xilinx.com:interface:uart_rtl:1.0" of_component="rs232_uart_0" preset_proc="rs232_uart_preset">
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="axi_uart16550" order="0"/>
           </preferred_ips>
@@ -398,7 +398,7 @@
           </port_maps>
         </interface>
 		
-		<interface mode="master" name="rs232_uart_1" type="xilinx.com:interface:uart_rtl:1.0" of_component="rs232_uart_1" preset_proc="rs232_uart_preset">>>
+		<interface mode="master" name="rs232_uart_1" type="xilinx.com:interface:uart_rtl:1.0" of_component="rs232_uart_1" preset_proc="rs232_uart_preset">
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="axi_uart16550" order="0"/>
           </preferred_ips>
@@ -1012,9 +1012,6 @@
       <parameters>
         <parameter name="frequency" value="100000000"/>
       </parameters>
-      <preferred_ips>
-        <preferred_ip vendor="xilinx.com" library="ip" name="clk_wiz" order="0"/>
-      </preferred_ips>
     </component>
 	
 	<component name="default_clk1" display_name="300 MHz System differential clock" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="OSC_EG2121CA_6P" vendor="SITIME" spec_url="https://www.sitime.com">
@@ -1022,9 +1019,6 @@
       <parameters>
         <parameter name="frequency" value="300000000"/>
       </parameters>
-      <preferred_ips>
-        <preferred_ip vendor="xilinx.com" library="ip" name="clk_wiz" order="0"/>
-      </preferred_ips>
     </component>
 	
 

@@ -671,7 +671,7 @@
             </port_map>
           </port_maps>
         </interface>
-        <interface mode="slave" name="default_sysclk_300" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="default_sysclk_300" preset_proc="default_sysclk_300_preset">
+        <interface mode="slave" name="default_sysclk_300" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="default_sysclk_300">
           <parameters>
             <parameter name="frequency" value="300000000"/>
           </parameters>
@@ -691,7 +691,7 @@
             </port_map>
           </port_maps>
         </interface>
-        <interface mode="slave" name="sysclk_125" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="sysclk_125" preset_proc="sysclk_125_preset">
+        <interface mode="slave" name="sysclk_125" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="sysclk_125">
           <parameters>
             <parameter name="frequency" value="125000000"/>
           </parameters>
@@ -711,7 +711,7 @@
             </port_map>
           </port_maps>
         </interface>
-        <interface mode="slave" name="user_prog_clock" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="user_prog_clock" preset_proc="user_prog_clock_preset">
+        <interface mode="slave" name="user_prog_clock" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="user_prog_clock">
           <parameters>
             <parameter name="frequency" value="156250000"/>
           </parameters>
@@ -731,7 +731,8 @@
             </port_map>
           </port_maps>
         </interface>
-<interface mode="master" name="spi_flash" type="xilinx.com:interface:spi_rtl:1.0" of_component="spi_flash" preset_proc="qspi_flash_preset" >
+		
+		<interface mode="master" name="spi_flash" type="xilinx.com:interface:spi_rtl:1.0" of_component="spi_flash" preset_proc="qspi_flash_preset" >
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="axi_quad_spi" order="0"/>
           </preferred_ips>
@@ -813,26 +814,28 @@
             </port_map>
           </port_maps>
         </interface>
+		
 	    <interface mode="slave" name="pcie_refclk" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="pcie_refclk" preset_proc="pcie_refclk_preset">
-	  <parameters>
-	    <parameter name="frequency" value="100000000"/>
-	  </parameters>
-	  <preferred_ips>
-	    <preferred_ip vendor="xilinx.com" library="ip" name="util_ds_buf" order="0"/>
-	  </preferred_ips>
-	  <port_maps>
-	    <port_map logical_port="CLK_P" physical_port="pcie_mgt_clkp" dir="in">
-	      <pin_maps>
-		<pin_map port_index="0" component_pin="pcie_mgt_clkp"/>
-	      </pin_maps>
-	    </port_map>
-	    <port_map logical_port="CLK_N" physical_port="pcie_mgt_clkn" dir="in">
-	      <pin_maps>
-		<pin_map port_index="0" component_pin="pcie_mgt_clkn"/>
-	      </pin_maps>
-	    </port_map>
-	  </port_maps>
-	</interface>
+		  <parameters>
+			<parameter name="frequency" value="100000000"/>
+		  </parameters>
+		  <preferred_ips>
+			<preferred_ip vendor="xilinx.com" library="ip" name="util_ds_buf" order="0"/>
+		  </preferred_ips>
+		  <port_maps>
+			<port_map logical_port="CLK_P" physical_port="pcie_mgt_clkp" dir="in">
+			  <pin_maps>
+			<pin_map port_index="0" component_pin="pcie_mgt_clkp"/>
+			  </pin_maps>
+			</port_map>
+			<port_map logical_port="CLK_N" physical_port="pcie_mgt_clkn" dir="in">
+			  <pin_maps>
+			<pin_map port_index="0" component_pin="pcie_mgt_clkn"/>
+			  </pin_maps>
+			</port_map>
+		  </port_maps>
+	    </interface>
+	
         <interface mode="master" name="led_8bits" type="xilinx.com:interface:gpio_rtl:1.0" of_component="led_8bits" preset_proc="led_8bits_preset">
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
@@ -852,83 +855,87 @@
             </port_map>
           </port_maps>
         </interface>
+		
 	    <interface mode="master" name="rs232_uart" type="xilinx.com:interface:uart_rtl:1.0" of_component="rs232_uart" preset_proc="rs232_uart_preset">
-	  <preferred_ips>
-	    <preferred_ip vendor="xilinx.com" library="ip" name="axi_uartlite" order="0"/>
-	  </preferred_ips>
-	  <port_maps>
-	    <port_map logical_port="TxD" physical_port="rs232_uart_txd" dir="out">
-	      <pin_maps>
-		<pin_map port_index="0" component_pin="USB_UART_TX"/>
-	      </pin_maps>
-	    </port_map>
-	    <port_map logical_port="RxD" physical_port="rs232_uart_rxd" dir="in">
-	      <pin_maps>
-		<pin_map port_index="0" component_pin="USB_UART_RX"/>
-	      </pin_maps>
-	    </port_map>
-	  </port_maps>
-	</interface>
+		  <preferred_ips>
+			<preferred_ip vendor="xilinx.com" library="ip" name="axi_uartlite" order="0"/>
+		  </preferred_ips>
+		  <port_maps>
+			<port_map logical_port="TxD" physical_port="rs232_uart_txd" dir="out">
+			  <pin_maps>
+			<pin_map port_index="0" component_pin="USB_UART_TX"/>
+			  </pin_maps>
+			</port_map>
+			<port_map logical_port="RxD" physical_port="rs232_uart_rxd" dir="in">
+			  <pin_maps>
+			<pin_map port_index="0" component_pin="USB_UART_RX"/>
+			  </pin_maps>
+			</port_map>
+		  </port_maps>
+	    </interface>
+	
 	    <interface mode="master" name="sfp0" type="xilinx.com:interface:sfp_rtl:1.0" of_component="phy_sfp0" preset_proc="sfp0_preset">
-	  <parameters>
-	    <parameter name="gt_loc" value="GTXE2_CHANNEL_X0Y10"/>
-	  </parameters>
-	  <preferred_ips>
-	    <preferred_ip vendor="xilinx.com" library="ip" name="axi_ethernet" order="0"/>
-	  </preferred_ips>
-	  <port_maps>
-	    <port_map logical_port="TXN" physical_port="sfp0_txn" dir="out" name="sfp_txn">
-	      <pin_maps>
-		<pin_map port_index="0" component_pin="sfp0_tx_n"/>
-	      </pin_maps>
-	    </port_map>
-	    <port_map logical_port="TXP" physical_port="sfp_txp" dir="out" name="sfp_txp">
-	      <pin_maps>
-		<pin_map port_index="0" component_pin="sfp0_tx_p"/>
-	      </pin_maps>
-	    </port_map>
-	    <port_map logical_port="RXN" physical_port="sfp_rxn" dir="in" name="sfp_rxn">
-	      <pin_maps>
-		<pin_map port_index="0" component_pin="sfp0_rx_n"/>
-	      </pin_maps>
-	    </port_map>
-	    <port_map logical_port="RXP" physical_port="sfp_rxp" dir="in" name="sfp_rxp">
-	      <pin_maps>
-		<pin_map port_index="0" component_pin="sfp0_rx_p"/>
-	      </pin_maps>
-	    </port_map>
-	  </port_maps>
-	</interface>
+		  <parameters>
+			<parameter name="gt_loc" value="GTXE2_CHANNEL_X0Y10"/>
+		  </parameters>
+		  <preferred_ips>
+			<preferred_ip vendor="xilinx.com" library="ip" name="axi_ethernet" order="0"/>
+		  </preferred_ips>
+		  <port_maps>
+			<port_map logical_port="TXN" physical_port="sfp0_txn" dir="out" name="sfp_txn">
+			  <pin_maps>
+			<pin_map port_index="0" component_pin="sfp0_tx_n"/>
+			  </pin_maps>
+			</port_map>
+			<port_map logical_port="TXP" physical_port="sfp_txp" dir="out" name="sfp_txp">
+			  <pin_maps>
+			<pin_map port_index="0" component_pin="sfp0_tx_p"/>
+			  </pin_maps>
+			</port_map>
+			<port_map logical_port="RXN" physical_port="sfp_rxn" dir="in" name="sfp_rxn">
+			  <pin_maps>
+			<pin_map port_index="0" component_pin="sfp0_rx_n"/>
+			  </pin_maps>
+			</port_map>
+			<port_map logical_port="RXP" physical_port="sfp_rxp" dir="in" name="sfp_rxp">
+			  <pin_maps>
+			<pin_map port_index="0" component_pin="sfp0_rx_p"/>
+			  </pin_maps>
+			</port_map>
+		  </port_maps>
+	    </interface>
+	
 	    <interface mode="master" name="sfp1" type="xilinx.com:interface:sfp_rtl:1.0" of_component="phy_sfp1" preset_proc="sfp1_preset">
-	  <parameters>
-	    <parameter name="gt_loc" value="GTXE2_CHANNEL_X0Y9"/>
-	  </parameters>
-	  <preferred_ips>
-	    <preferred_ip vendor="xilinx.com" library="ip" name="axi_ethernet" order="0"/>
-	  </preferred_ips>
-	  <port_maps>
-	    <port_map logical_port="TXN" physical_port="sfp_txn" dir="out" name="sfp_txn">
-	      <pin_maps>
-		<pin_map port_index="0" component_pin="sfp1_tx_n"/>
-	      </pin_maps>
-	    </port_map>
-	    <port_map logical_port="TXP" physical_port="sfp_txp" dir="out" name="sfp_txp">
-	      <pin_maps>
-		<pin_map port_index="0" component_pin="sfp1_tx_p"/>
-	      </pin_maps>
-	    </port_map>
-	    <port_map logical_port="RXN" physical_port="sfp_rxn" dir="in" name="sfp_rxn">
-	      <pin_maps>
-		<pin_map port_index="0" component_pin="sfp1_rx_n"/>
-	      </pin_maps>
-	    </port_map>
-	    <port_map logical_port="RXP" physical_port="sfp_rxp" dir="in" name="sfp_rxp">
-	      <pin_maps>
-		<pin_map port_index="0" component_pin="sfp1_rx_p"/>
-	      </pin_maps>
-	    </port_map>
-	  </port_maps>
-	</interface>
+		  <parameters>
+			<parameter name="gt_loc" value="GTXE2_CHANNEL_X0Y9"/>
+		  </parameters>
+		  <preferred_ips>
+			<preferred_ip vendor="xilinx.com" library="ip" name="axi_ethernet" order="0"/>
+		  </preferred_ips>
+		  <port_maps>
+			<port_map logical_port="TXN" physical_port="sfp_txn" dir="out" name="sfp_txn">
+			  <pin_maps>
+			<pin_map port_index="0" component_pin="sfp1_tx_n"/>
+			  </pin_maps>
+			</port_map>
+			<port_map logical_port="TXP" physical_port="sfp_txp" dir="out" name="sfp_txp">
+			  <pin_maps>
+			<pin_map port_index="0" component_pin="sfp1_tx_p"/>
+			  </pin_maps>
+			</port_map>
+			<port_map logical_port="RXN" physical_port="sfp_rxn" dir="in" name="sfp_rxn">
+			  <pin_maps>
+			<pin_map port_index="0" component_pin="sfp1_rx_n"/>
+			  </pin_maps>
+			</port_map>
+			<port_map logical_port="RXP" physical_port="sfp_rxp" dir="in" name="sfp_rxp">
+			  <pin_maps>
+			<pin_map port_index="0" component_pin="sfp1_rx_p"/>
+			  </pin_maps>
+			</port_map>
+		  </port_maps>
+	   </interface>
+	   
         <interface mode="master" name="sfp_sgmii0" type="xilinx.com:interface:sgmii_rtl:1.0" of_component="phy_sfp0" preset_proc="sfp_sgmii0_preset">
           <parameters>
             <parameter name="gt_loc" value="GTXE2_CHANNEL_X0Y10"/>
@@ -959,36 +966,38 @@
             </port_map>
           </port_maps>
         </interface>
+		
 	    <interface mode="master" name="sfp_sgmii1" type="xilinx.com:interface:sgmii_rtl:1.0" of_component="phy_sfp1" preset_proc="sfp_sgmii1_preset">
-	  <parameters>
-	    <parameter name="gt_loc" value="GTXE2_CHANNEL_X0Y9"/>
-	  </parameters>
-	  <preferred_ips>
-	    <preferred_ip vendor="xilinx.com" library="ip" name="axi_ethernet" order="0"/>
-	  </preferred_ips>
-	  <port_maps>
-	    <port_map logical_port="TXN" physical_port="sfp_sgmii_txn" dir="out">
-	      <pin_maps>
-		<pin_map port_index="0" component_pin="sfp1_tx_n"/>
-	      </pin_maps>
-	    </port_map>
-	    <port_map logical_port="TXP" physical_port="sfp_sgmii_txp" dir="out">
-	      <pin_maps>
-		<pin_map port_index="0" component_pin="sfp1_tx_p"/>
-	      </pin_maps>
-	    </port_map>
-	    <port_map logical_port="RXN" physical_port="sfp_sgmii_rxn" dir="in">
-	      <pin_maps>
-		<pin_map port_index="0" component_pin="sfp1_rx_n"/>
-	      </pin_maps>
-	    </port_map>
-	    <port_map logical_port="RXP" physical_port="sfp_sgmii_rxp" dir="in">
-	      <pin_maps>
-		<pin_map port_index="0" component_pin="sfp1_rx_p"/>
-	      </pin_maps>
-	    </port_map>
-	  </port_maps>
-	</interface>
+		  <parameters>
+			<parameter name="gt_loc" value="GTXE2_CHANNEL_X0Y9"/>
+		  </parameters>
+		  <preferred_ips>
+			<preferred_ip vendor="xilinx.com" library="ip" name="axi_ethernet" order="0"/>
+		  </preferred_ips>
+		  <port_maps>
+			<port_map logical_port="TXN" physical_port="sfp_sgmii_txn" dir="out">
+			  <pin_maps>
+			<pin_map port_index="0" component_pin="sfp1_tx_n"/>
+			  </pin_maps>
+			</port_map>
+			<port_map logical_port="TXP" physical_port="sfp_sgmii_txp" dir="out">
+			  <pin_maps>
+			<pin_map port_index="0" component_pin="sfp1_tx_p"/>
+			  </pin_maps>
+			</port_map>
+			<port_map logical_port="RXN" physical_port="sfp_sgmii_rxn" dir="in">
+			  <pin_maps>
+			<pin_map port_index="0" component_pin="sfp1_rx_n"/>
+			  </pin_maps>
+			</port_map>
+			<port_map logical_port="RXP" physical_port="sfp_sgmii_rxp" dir="in">
+			  <pin_maps>
+			<pin_map port_index="0" component_pin="sfp1_rx_p"/>
+			  </pin_maps>
+			</port_map>
+		  </port_maps>
+	    </interface>
+		
         <interface mode="master" name="iic_main" type="xilinx.com:interface:iic_rtl:1.0" of_component="iic_main">
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="axi_iic" order="0"/>
@@ -1026,6 +1035,7 @@
             </port_map>
           </port_maps>
         </interface>
+		
         <interface mode="slave" name="reset" type="xilinx.com:signal:reset_rtl:1.0" of_component="reset">
           <parameters>
             <parameter name="rst_polarity" value="1"/>
@@ -1041,6 +1051,7 @@
             </port_map>
           </port_maps>
         </interface>
+		
         <interface mode="master" name="push_buttons_5bits" type="xilinx.com:interface:gpio_rtl:1.0" of_component="push_buttons_5bits" preset_proc="push_buttons_5bits_preset">
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
@@ -1057,6 +1068,7 @@
             </port_map>
           </port_maps>
         </interface>
+		
         <interface mode="master" name="pci_express_x1" type="xilinx.com:interface:pcie_7x_mgt_rtl:1.0" of_component="pci_express" preset_proc="pciex1_preset">
           <preferred_ips>
 		  <preferred_ip vendor="xilinx.com" library="ip" name="xdma" order="0"/>
@@ -1088,6 +1100,7 @@
             <parameter name="block_location" value="X0Y0" />
           </parameters>
         </interface>
+		
 		<interface mode="master" name="pci_express_x2" type="xilinx.com:interface:pcie_7x_mgt_rtl:1.0" of_component="pci_express" preset_proc="pciex2_preset">
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="xdma" order="0"/>
@@ -1123,6 +1136,7 @@
             <parameter name="block_location" value="X0Y0" />
           </parameters>
         </interface>
+		
 		<interface mode="master" name="pci_express_x4" type="xilinx.com:interface:pcie_7x_mgt_rtl:1.0" of_component="pci_express" preset_proc="pciex4_preset">
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="xdma" order="0"/>
@@ -1166,6 +1180,7 @@
             <parameter name="block_location" value="X0Y0" />
           </parameters>
         </interface>
+		
 		<interface mode="master" name="pci_express_x8" type="xilinx.com:interface:pcie_7x_mgt_rtl:1.0" of_component="pci_express" preset_proc="pciex8_preset">
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="xdma" order="0"/>

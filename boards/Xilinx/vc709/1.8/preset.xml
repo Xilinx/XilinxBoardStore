@@ -292,7 +292,7 @@
         </user_parameters>
     </ip>
   </ip_preset>
-  <ip_preset preset_proc_name="sys_diff_clk_preset">
+  <ip_preset preset_proc_name="sys_diff_clock_preset">
     <ip vendor="xilinx.com" library="ip" name="clk_wiz" ip_interface="CLK_IN1_D">
         <user_parameters>
           <user_parameter name="CONFIG.PRIM_IN_FREQ" value="200"/> 
@@ -307,7 +307,7 @@
         </user_parameters>
     </ip>
   </ip_preset>
-  <ip_preset preset_proc_name="sys_diff_clk233_preset">
+  <ip_preset preset_proc_name="sys_diff_clock_233_preset">
     <ip vendor="xilinx.com" library="ip" name="clk_wiz" ip_interface="CLK_IN1_D">
         <user_parameters>
           <user_parameter name="CONFIG.PRIM_IN_FREQ" value="233"/> 
