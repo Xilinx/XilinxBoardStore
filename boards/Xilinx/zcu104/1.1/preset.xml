@@ -387,7 +387,8 @@
         </user_parameters>
     </ip>
   </ip_preset>
-  <ip_preset preset_proc_name="PUSH_BUTTON_4Bits">
+  
+  <ip_preset preset_proc_name="PUSH_BUTTON_4Bits_Preset">
     <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
         <user_parameters>
           <user_parameter name="CONFIG.C_GPIO_WIDTH" value="4"/> 
