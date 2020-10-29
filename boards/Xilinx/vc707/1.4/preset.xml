@@ -305,6 +305,7 @@
         </user_parameters>
     </ip>
   </ip_preset>
+  
   <ip_preset preset_proc_name="lcd_7bits_preset">
     <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
       <user_parameters>
@@ -370,6 +371,7 @@
         </user_parameters>
     </ip>
   </ip_preset>
+  
   <ip_preset preset_proc_name="push_buttons_5bits_preset">
     <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
       <user_parameters>
@@ -435,6 +437,7 @@
         </user_parameters>
     </ip>
   </ip_preset>
+  
   <ip_preset preset_proc_name="rs232_uart_preset">
     <ip vendor="xilinx.com" library="ip" name="iomodule" ip_interface="UART">
       <user_parameters>
@@ -449,7 +452,8 @@
         </user_parameters>
     </ip>
   </ip_preset>
-  <ip_preset preset_proc_name="sys_diff_clk_preset">
+  
+  <ip_preset preset_proc_name="sys_diff_clock_preset">
     <ip vendor="xilinx.com" library="ip" name="clk_wiz" ip_interface="CLK_IN1_D">
         <user_parameters>
           <user_parameter name="CONFIG.PRIM_IN_FREQ" value="200"/> 
@@ -464,4 +468,5 @@
         </user_parameters>
     </ip>
   </ip_preset>
+  
 </ip_presets>
