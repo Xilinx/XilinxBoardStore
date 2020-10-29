@@ -594,6 +594,7 @@
             <parameter name="gt_loc" value="GTXE2_CHANNEL_X1Y0" />
           </parameters>
         </interface>
+		
         <interface mode="slave" name="sys_diff_clock" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="sys_diff_clock" preset_proc="sys_diff_clock_preset">
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="clk_wiz" order="0"/>
@@ -614,7 +615,9 @@
             <parameter name="frequency" value="200000000" />
           </parameters>
         </interface>
+		
       </interfaces>
+	  
     </component>
     <component name="ddr3_sdram" display_name="DDR3 SDRAM" type="chip" sub_type="ddr" major_group="External Memory" part_name="MT8JTF12864HZ-1G6G1" vendor="Micron" spec_url="www.micron.com/memory">
       <description>1 GB DDR3 memory SODIMM </description>

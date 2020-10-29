@@ -495,7 +495,7 @@
 
 
 	
-		<interface mode="slave" name="sysclk0" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="sysclk0" preset_proc="sysclk0_preset">
+		<interface mode="slave" name="sysclk0" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="sysclk0">
          
 		 <parameters>
             <parameter name="frequency" value="100000000"/>
@@ -520,7 +520,7 @@
           </port_maps>
         </interface>
 		
-		<interface mode="slave" name="sysclk1" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="sysclk1" preset_proc="sysclk1_preset">
+		<interface mode="slave" name="sysclk1" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="sysclk1">
          
 		 <parameters>
             <parameter name="frequency" value="100000000"/>
@@ -545,7 +545,7 @@
           </port_maps>
         </interface>	
 
-		<interface mode="slave" name="sysclk3" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="sysclk3" preset_proc="sysclk3_preset">
+		<interface mode="slave" name="sysclk3" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="sysclk3">
          
 		 <parameters>
             <parameter name="frequency" value="100000000"/>
@@ -944,7 +944,7 @@
 	  </port_maps>
 	 </interface> 
 		
-		<interface mode="master" name="rs232_uart" type="xilinx.com:interface:uart_rtl:1.0" of_component="rs232_uart" preset_proc="rs232_uart_preset">
+		<interface mode="master" name="rs232_uart" type="xilinx.com:interface:uart_rtl:1.0" of_component="rs232_uart">
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="axi_uart16550" order="0"/>
           </preferred_ips>

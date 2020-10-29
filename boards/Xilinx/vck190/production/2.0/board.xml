@@ -47,6 +47,9 @@
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="versal_cips" order="0"/>
           </preferred_ips>
+		  <port_maps>
+				<port_map logical_port="dummy" physical_port="dummy" dir="out" />
+		  </port_maps>
         </interface>  
 		
  
