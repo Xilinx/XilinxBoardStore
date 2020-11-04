@@ -2491,6 +2491,44 @@
         "company": "xilinx.com"
       },
       {
+        "name": "vermeo_t1_rfsoc",
+        "display": "Zynq Ultrascale+ RFSoC T1 Development Board",
+        "latest_revision": "1.0",
+        "commit_id": "89a1011776d5904cbb6aa6a8beb38913ecbcc0d2",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "89a1011776d5904cbb6aa6a8beb38913ecbcc0d2",
+            "date": "04-11-2020",
+            "history": "Adding Vermeo T1 RFSoC initial board files"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vermeo_t1_rfsoc/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vermeo_t1_mpsoc",
+        "display": "Zynq Ultrascale+ MPSoC T1 Development Board",
+        "latest_revision": "1.0",
+        "commit_id": "89a1011776d5904cbb6aa6a8beb38913ecbcc0d2",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "89a1011776d5904cbb6aa6a8beb38913ecbcc0d2",
+            "date": "04-11-2020",
+            "history": "Adding Vermeo T1 MPSoC initial board files"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vermeo_t1_mpsoc/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },	 
+      {
         "name": "zcu208",
         "display": "Zynq UltraScale+ ZCU208 Evaluation Platform",
         "latest_revision": "2.0",
