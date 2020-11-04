@@ -2793,6 +2793,44 @@
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
+      },
+      {
+        "name": "vermeo_t1_mpsoc",
+        "display": "Zynq Ultrascale+ MPSoC T1 Development Board",
+        "latest_revision": "1.0",
+        "commit_id": "2b64ea1e640e67ba6ae3357a68516496e4ee7fa0",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "2b64ea1e640e67ba6ae3357a68516496e4ee7fa0",
+            "date": "04-11-2020:09:27:07",
+            "history": "Added board Zynq Ultrascale+ MPSoC T1 Development Board v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vermeo_t1_mpsoc/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vermeo_t1_rfsoc",
+        "display": "Zynq Ultrascale+ RFSoC T1 Development Board",
+        "latest_revision": "1.0",
+        "commit_id": "2b64ea1e640e67ba6ae3357a68516496e4ee7fa0",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "2b64ea1e640e67ba6ae3357a68516496e4ee7fa0",
+            "date": "04-11-2020:09:27:07",
+            "history": "Added board Zynq Ultrascale+ RFSoC T1 Development Board v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vermeo_t1_rfsoc/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
       }
     ],
     "categories": [
