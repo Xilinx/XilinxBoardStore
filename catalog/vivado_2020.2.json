@@ -192,25 +192,6 @@
         "company": "digilentinc.com"
       }, 
       {
-        "name": "cmod-s7-25", 
-        "display": "Cmod S7-25", 
-        "latest_revision": "1.0", 
-        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797", 
-        "revisions": [
-          {
-            "revision": "1.0", 
-            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797", 
-            "date": "11-09-2018:16:24:05", 
-            "history": "Added cmod-s7-25 to the XilinxBoardStore"
-          }
-        ], 
-        "config": {
-          "root": "boards/Digilent/cmod-s7-25/B.0", 
-          "metadata_file": "xitem.json"
-        }, 
-        "company": "digilentinc.com"
-      }, 
-      {
         "name": "cmod_a7-15t", 
         "display": "Cmod A7-15t", 
         "latest_revision": "1.1", 
@@ -358,44 +339,6 @@
         ], 
         "config": {
           "root": "boards/Digilent/nexys_video/A.0", 
-          "metadata_file": "xitem.json"
-        }, 
-        "company": "digilentinc.com"
-      }, 
-      {
-        "name": "sword", 
-        "display": "Sword", 
-        "latest_revision": "1.0", 
-        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797", 
-        "revisions": [
-          {
-            "revision": "1.0", 
-            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797", 
-            "date": "11-09-2018:16:24:06", 
-            "history": "Added sword to the XilinxBoardStore"
-          }
-        ], 
-        "config": {
-          "root": "boards/Digilent/sword/C.0", 
-          "metadata_file": "xitem.json"
-        }, 
-        "company": "digilentinc.com"
-      }, 
-      {
-        "name": "zedboard", 
-        "display": "Zedboard", 
-        "latest_revision": "1.0", 
-        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797", 
-        "revisions": [
-          {
-            "revision": "1.0", 
-            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797", 
-            "date": "11-09-2018:16:24:06", 
-            "history": "Added zedboard to the XilinxBoardStore"
-          }
-        ], 
-        "config": {
-          "root": "boards/Digilent/zedboard/1.3", 
           "metadata_file": "xitem.json"
         }, 
         "company": "digilentinc.com"
