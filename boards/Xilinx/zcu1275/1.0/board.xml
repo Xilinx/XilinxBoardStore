@@ -9,7 +9,7 @@
  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
  License for the specific language governing permissions and limitations
  under the License. -->
-<board schema_version="2.2" vendor="xilinx.com" name="zcu1275" display_name="Xilinx Zynq UltraScale+ RFSoC ZCU1275 Characterization Kit" url="https://www.xilinx.com/products/boards-and-kits/zcu1275.html" preset_file="preset.xml" supports_ced="false">
+<board schema_version="2.2" vendor="xilinx.com" name="zcu1275" display_name="Xilinx Zynq UltraScale+ RFSoC ZCU1275 Characterization Kit" url="https://www.xilinx.com/products/boards-and-kits/zcu1275.html" preset_file="preset.xml" supports_ced="true">
 <images>
     <image name="zcu1275_board.jpeg" display_name="ZCU1275 Characterization Kit" sub_type="board">
       <description>ZCU1275 Board Image</description>
