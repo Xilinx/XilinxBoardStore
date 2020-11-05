@@ -2532,13 +2532,13 @@
         "name": "zcu208", 
         "display": "Zynq UltraScale+ ZCU208 Evaluation Platform", 
         "latest_revision": "2.0",
-        "commit_id": "ea54a86522502e6a7041d3059400275b7dc74157", 
+        "commit_id": "9b2b9dd1a673115154774ee93ad4d412d726775b", 
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "ea54a86522502e6a7041d3059400275b7dc74157", 
-            "date": "24-08-2020",
-            "history": "Initial entry for ZCU208 production board files"
+            "commit_id": "9b2b9dd1a673115154774ee93ad4d412d726775b", 
+            "date": "11-05-2020",
+            "history": "Modified board files for dual memory support"
           }
         ], 
         "config": {
@@ -2581,6 +2581,25 @@
         ], 
         "config": {
           "root": "boards/Xilinx/zcu208/es/1.0", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu208_es", 
+        "display": "Zynq UltraScale+ ZCU208 Evaluation Platform", 
+        "latest_revision": "1.2", 
+        "commit_id": "9b2b9dd1a673115154774ee93ad4d412d726775b", 
+        "revisions": [
+          {
+            "revision": "1.2", 
+            "commit_id": "9b2b9dd1a673115154774ee93ad4d412d726775b", 
+            "date": "11-05-2020", 
+            "history": "Adding dual memory support with zcu208 board"
+          }
+        ], 
+        "config": {
+          "root": "boards/Xilinx/zcu208/es/1.2", 
           "metadata_file": "xitem.json"
         }, 
         "company": "xilinx.com"
