@@ -26,8 +26,8 @@
       </user_parameters>
     </ip>
   </ip_preset>
-  
-  <ip_preset preset_proc_name="ddr4_sdram_c0_preset_sa">
+ 
+ <ip_preset preset_proc_name="ddr4_sdram_c0_preset_sa">
     <ip vendor="xilinx.com" library="ip" name="ddr4">
       <user_parameters>
         <user_parameter name="CONFIG.C0.DDR4_MemoryPart" value="MT40A1G8SA-075" />
@@ -54,7 +54,7 @@
       </user_parameters>
     </ip>
   </ip_preset>
-  
+
    <ip_preset preset_proc_name="ddr4_sdram_c1_preset_sa">
     <ip vendor="xilinx.com" library="ip" name="ddr4">
       <user_parameters>
@@ -68,7 +68,6 @@
       </user_parameters>
     </ip>
   </ip_preset>
-
   <!-- <ip_preset preset_proc_name="ddr4_sdram_c0_preset"> -->
     <!-- <ip vendor="xilinx.com" library="ip" name="ddr4"> -->
       <!-- <user_parameters> -->

@@ -9,7 +9,7 @@
  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
  License for the specific language governing permissions and limitations
  under the License. -->
-<board schema_version="2.2" vendor="xilinx.com" name="zcu208" display_name="Zynq UltraScale+ RFSoC ZCU208 Evaluation Kit" url="www.xilinx.com/zcu208" preset_file="preset.xml">
+<board schema_version="2.2" vendor="xilinx.com" name="zcu208_es" display_name="Zynq UltraScale+ RFSoC ZCU208-ES1 Evaluation Kit" url="www.xilinx.com/zcu208" preset_file="preset.xml">
 <images>
     <image name="zcu208_board.jpeg" display_name="ZCU208 BOARD" sub_type="board">
       <description>ZCU08 Board File Image</description>
@@ -20,8 +20,8 @@
 	<!-- <revision id="1">Rev B</revision> -->
 	<!-- <revision id="1">Rev 1.0</revision> -->
   </compatible_board_revisions>
-  <file_version>2.0</file_version>
-  <description>Zynq UltraScale+ RFSoC ZCU208 Evaluation Kit</description>
+  <file_version>1.2</file_version>
+  <description>Zynq UltraScale+ RFSoC ZCU208-ES1 Evaluation Kit</description>
   <parameters>
     <parameter name="heat_sink_type" value="medium" value_type="string"/>
     <parameter name="heat_sink_temperature" value_type="range" value_min="20.0" value_max="30.0"/>
@@ -30,7 +30,7 @@
   </jumpers>
   <components>   
   
-     <component name="part0" display_name="Zynq UltraScale+ RFSoC ZCU208 Evaluation Kit" type="fpga" part_name="xczu48dr-fsvg1517-2-e" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="www.xilinx.com/zcu208">
+     <component name="part0" display_name="Zynq UltraScale+ RFSoC ZCU208-ES1 Evaluation Kit" type="fpga" part_name="xczu48dr-fsvg1517-2-e-es1" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="www.xilinx.com/zcu208">
 	 
       <description>FPGA part on the board</description>
 	  
@@ -537,6 +537,7 @@
           </port_maps>
         </interface>
 
+
 		<interface mode="master" name="ddr4_sdram_c1" type="xilinx.com:interface:ddr4_rtl:1.0" of_component="ddr4_sdram_c1" preset_proc="ddr4_sdram_c1_preset">
           <description>DDR4 board interface, it can use DDR4 controller IP for connection. </description>
           <preferred_ips>
@@ -677,6 +678,22 @@
             <port_map logical_port="RESET_N" physical_port="c1_ddr4_reset_n" dir="out">
               <pin_maps>
                 <pin_map port_index="0" component_pin="c1_ddr4_reset_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+		
+	    <interface mode="slave" name="reset" type="xilinx.com:signal:reset_rtl:1.0" of_component="reset">
+          <parameters>
+            <parameter name="rst_polarity" value="1"/>
+          </parameters>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="proc_sys_reset" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="RESET" physical_port="reset" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CPU_RESET"/>
               </pin_maps>
             </port_map>
           </port_maps>
@@ -822,38 +839,6 @@
             <port_map logical_port="RESET_N" physical_port="c1_ddr4_reset_n" dir="out">
               <pin_maps>
                 <pin_map port_index="0" component_pin="c1_ddr4_reset_n"/>
-              </pin_maps>
-            </port_map>
-          </port_maps>
-        </interface>
-		
-	    <interface mode="slave" name="reset" type="xilinx.com:signal:reset_rtl:1.0" of_component="reset">
-          <parameters>
-            <parameter name="rst_polarity" value="1"/>
-          </parameters>
-          <preferred_ips>
-            <preferred_ip vendor="xilinx.com" library="ip" name="proc_sys_reset" order="0"/>
-          </preferred_ips>
-          <port_maps>
-            <port_map logical_port="RESET" physical_port="reset" dir="in">
-              <pin_maps>
-                <pin_map port_index="0" component_pin="CPU_RESET"/>
-              </pin_maps>
-            </port_map>
-          </port_maps>
-        </interface>
-		
-	    <interface mode="slave" name="reset" type="xilinx.com:signal:reset_rtl:1.0" of_component="reset">
-          <parameters>
-            <parameter name="rst_polarity" value="1"/>
-          </parameters>
-          <preferred_ips>
-            <preferred_ip vendor="xilinx.com" library="ip" name="proc_sys_reset" order="0"/>
-          </preferred_ips>
-          <port_maps>
-            <port_map logical_port="RESET" physical_port="reset" dir="in">
-              <pin_maps>
-                <pin_map port_index="0" component_pin="CPU_RESET"/>
               </pin_maps>
             </port_map>
           </port_maps>
