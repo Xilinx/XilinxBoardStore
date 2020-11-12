@@ -9,12 +9,11 @@
  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
  License for the specific language governing permissions and limitations
  under the License. -->
- 
 <ip_presets schema="1.0">
 
-	<ip_preset preset_proc_name="versal_cips_preset"> 
 
-		<ip vendor="xilinx.com" library="ip" name="versal_cips" version="*" ip_interface="FIXED_IO"> 
+	<ip_preset preset_proc_name="versal_cips_preset"> 
+		<ip vendor="xilinx.com" library="ip" name="versal_cips" version="*"> 
 			<user_parameters>
 
 		        <user_parameter name="CONFIG.PMC_SD1_PERIPHERAL_ENABLE" value="1"/>
@@ -22,7 +21,7 @@
 				<user_parameter name="CONFIG.PMC_SD1_SLOT_TYPE" value="SD 3.0"/> 			
 				
 			    <user_parameter name="CONFIG.PMC_SD1_GRP_CD_ENABLE" value="1"/>
-				<user_parameter name="CONFIG.PMC_SD1_GRP_POW_ENABLE" value="1"/>
+				<user_parameter name="CONFIG.PMC_SD1_GRP_POW_ENABLE" value="0"/>
 			    <user_parameter name="CONFIG.PMC_SD1_GRP_WP_ENABLE" value="0"/>								
 			
 				<user_parameter name="CONFIG.PMC_GPIO0_MIO_PERIPHERAL_ENABLE" value="1"/>	
@@ -59,14 +58,12 @@
 				<user_parameter name="CONFIG.PS_GEN_IPI_PMC_ENABLE" value="1"/>		
 				<user_parameter name="CONFIG.PS_GEN_IPI_PSM_ENABLE" value="1"/>																										
 
-				<!-- <user_parameter name="CONFIG.PS_GPIO2_MIO_PERIPHERAL_ENABLE" value="0"/>																		 -->
+				<user_parameter name="CONFIG.PS_GPIO2_MIO_PERIPHERAL_ENABLE" value="0"/>																		
 				<user_parameter name="CONFIG.PS_I2C1_PERIPHERAL_ENABLE" value="1"/>		
 				<user_parameter name="CONFIG.PS_I2C1_PERIPHERAL_IO" value="PMC_MIO 44 .. 45"/>																				
 
 				<user_parameter name="CONFIG.PS_PCIE_RESET_ENABLE" value="1"/>																		
-				<user_parameter name="CONFIG.PS_PCIE_EP_RESET1_IO" value="PMC_MIO 38"/>
-				<user_parameter name="CONFIG.PS_PCIE_EP_RESET2_IO" value="PMC_MIO 39"/>	
-				
+				<user_parameter name="CONFIG.PS_PCIE_RESET_IO" value="PMC_MIO 38 .. 39"/>		
 				<user_parameter name="CONFIG.PS_TTC3_PERIPHERAL_ENABLE" value="0"/>																				
 				
 				<user_parameter name="CONFIG.PS_UART0_PERIPHERAL_ENABLE" value="1"/>																		
@@ -75,20 +72,12 @@
 				<user_parameter name="CONFIG.PMC_MIO_37_DIRECTION" value="out"/>	
 				<user_parameter name="CONFIG.PMC_MIO_37_USAGE" value="GPIO"/>
 				<user_parameter name="CONFIG.PMC_MIO_37_OUTPUT_DATA" value="high"/>
-
-				<user_parameter name="CONFIG.PS_MIO_7_PULL" value="disable"/>	
-				<user_parameter name="CONFIG.PS_MIO_9_PULL" value="disable"/>	
-				<user_parameter name="CONFIG.PS_MIO_19_PULL" value="disable"/>
-				<user_parameter name="CONFIG.PS_MIO_21_PULL" value="disable"/>	
-				
-				<user_parameter name="CONFIG.PMC_REF_CLK_FREQMHZ" value="33.333333"/>	
-
+			
 <!--			<user_parameter name="CONFIG.CPM_PCIE0_MODES" value="DMA"/>		
 				<user_parameter name="CONFIG.CPM_PCIE0_PL_LINK_CAP_MAX_LINK_WIDTH" value="X16"/>	  
 				<user_parameter name="CONFIG.CPM_PCIE0_MAX_LINK_SPEED" value="8.0_GT/s"/> 	
  				<user_parameter name="CONFIG.CPM_PCIE0_DMA_DATA_WIDTH" value="512"/>	
 				<user_parameter name="CONFIG.CPM_PCIE0_AXISTEN_IF_WIDTH" value="512"/>	 -->
-	
 			
             </user_parameters>
 		</ip>
@@ -160,6 +149,16 @@
 	</ip_preset>	
 	 
   
+	<ip_preset preset_proc_name="pcie_refclk_preset">
+		<ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+		    <user_parameters>
+				<user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDSGTE" />
+				<user_parameter name="CONFIG.C_SIZE" value="1" />
+		    </user_parameters>
+		</ip>
+	</ip_preset>
+	  
+
   
 	<ip_preset preset_proc_name="sysclk0_preset">
 	
