@@ -1,0 +1,13 @@
+######### VCK190 change log ##############
+2020.2 changes(1.1)
+CIPS board preset is now part of IP customization 
+FREQ_HZ added for PMC_REF_CLK_FREQMHZ  
+Updated PCIE_EP_RESET MIOs
+
+Post 2019.2 changes  
+Fixed GPIO port polarities 
+Fix added for LPDDR Controller 1 standalone usage
+
+
+1.0
+VCK190 Initial board support(2019.2)

@@ -22,7 +22,7 @@
     <revision id="0">Rev A</revision>
   </compatible_board_revisions>
   
-  <file_version>1.0</file_version>
+  <file_version>1.1</file_version>
   
   <description>Versal VCK190 ES1 Evaluation Platform</description>
   
@@ -43,10 +43,13 @@
     <interfaces>
   
 
-        <interface mode="master" name="ps8_fixedio" type="xilinx.com:zynq_ultra_ps_e:fixedio_rtl:1.0" of_component="ps8_fixedio" preset_proc="versal_cips_preset"> 
+        <interface mode="master" name="cips_fixed_io" type="xilinx.com:interface:fixed_io_rtl:1.0" of_component="cips_fixed_io" preset_proc="versal_cips_preset"> 
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="versal_cips" order="0"/>
           </preferred_ips>
+		  <port_maps>
+				<port_map logical_port="dummy" physical_port="dummy" dir="out" />
+		  </port_maps>
         </interface>  
 		
  
@@ -1280,7 +1283,11 @@
     </component>   
 	
 	
-    <component name="ps8_fixedio" display_name="PS8 fixed IO" type="chip" sub_type="fixed_io" major_group=""/>	
+    <!-- <component name="cips_fixed_io" display_name="PS8 fixed IO" type="chip" sub_type="fixed_io" major_group=""/>	 -->
+	
+	<component name="cips_fixed_io" display_name="CIPS fixed IO" type="chip" sub_type="fixed_io" major_group="MIO interface" part_name="Versal CIPS" vendor="Xilinx" >
+      <description>Versal CIPS component </description>
+	</component>
    
 	<component name="ddr4_dimm1" display_name="DDR4 DIMM1" type="chip" sub_type="ddr" major_group="External Memory" part_name="MTA9ADF1G72AZ-3G2E1" vendor="Micron" spec_url="https://www.micron.com/">
       <description>8GB DDR4 SDRAM DIMM1</description>
