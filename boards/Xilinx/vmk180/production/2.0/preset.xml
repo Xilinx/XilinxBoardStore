@@ -120,7 +120,8 @@
 				<user_parameter name="CONFIG.CONTROLLERTYPE" value="LPDDR4_SDRAM"/>  
 				<user_parameter name="CONFIG.MC_NO_CHANNELS" value="Dual"/>  
 				<user_parameter name="CONFIG.MC_SYSTEM_CLOCK" value="Differential"/>  
-				<user_parameter name="CONFIG.MC_MEMORY_SPEEDGRADE" value="LPDDR4-3200"/>
+				<!-- <user_parameter name="CONFIG.MC_MEMORY_SPEEDGRADE" value="LPDDR4-3200"/> -->
+				<user_parameter name="CONFIG.MC_MEMORY_SPEEDGRADE" value="LPDDR4-4267"/>
 				<user_parameter name="CONFIG.MC_DATAWIDTH" value="32"/>
 				<user_parameter name="CONFIG.MC_DQ_WIDTH" value="32"/>
 				<user_parameter name="CONFIG.MC_DQS_WIDTH" value="4"/>
@@ -143,7 +144,8 @@
 				<user_parameter name="CONFIG.CONTROLLERTYPE" value="LPDDR4_SDRAM"/>  
 				<user_parameter name="CONFIG.MC_NO_CHANNELS" value="Dual"/>  
 				<user_parameter name="CONFIG.MC_SYSTEM_CLOCK" value="Differential"/>  
-				<user_parameter name="CONFIG.MC_MEMORY_SPEEDGRADE" value="LPDDR4-3200"/>
+				<!-- <user_parameter name="CONFIG.MC_MEMORY_SPEEDGRADE" value="LPDDR4-3200"/> -->
+				<user_parameter name="CONFIG.MC_MEMORY_SPEEDGRADE" value="LPDDR4-4267"/>
 				<user_parameter name="CONFIG.MC_DATAWIDTH" value="32"/>
 				<user_parameter name="CONFIG.MC_DQ_WIDTH" value="32"/>
 				<user_parameter name="CONFIG.MC_DQS_WIDTH" value="4"/>
