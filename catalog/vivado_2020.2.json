@@ -2778,25 +2778,6 @@
      {
         "name": "vck190_es",
         "display": "Versal VCK190 ES1 Evaluation Platform",
-        "latest_revision": "1.0",
-        "commit_id": "91a10e0cd9a2d7d0486ead6825e1e912f07efb1b",
-        "revisions": [
-          {
-            "revision": "1.0",
-            "commit_id": "91a10e0cd9a2d7d0486ead6825e1e912f07efb1b",
-            "date": "12-11-2020",
-            "history": "Change log updated for 2020.2"
-          }
-        ],
-        "config": {
-          "root": "boards/Xilinx/vck190/es/1.0",
-          "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
-      },
-	    {
-        "name": "vck190_es",
-        "display": "Versal VCK190 ES1 Evaluation Platform",
         "latest_revision": "1.1",
         "commit_id": "91a10e0cd9a2d7d0486ead6825e1e912f07efb1b",
         "revisions": [
@@ -2809,25 +2790,6 @@
         ],
         "config": {
           "root": "boards/Xilinx/vck190/es/1.1",
-          "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
-      },
-     {
-        "name": "vmk180_es",
-        "display": "Versal VMK180 ES1 Evaluation Platform",
-        "latest_revision": "1.0",
-        "commit_id": "91a10e0cd9a2d7d0486ead6825e1e912f07efb1b",
-        "revisions": [
-          {
-            "revision": "1.0",
-            "commit_id": "91a10e0cd9a2d7d0486ead6825e1e912f07efb1b",
-            "date": "12-11-2020",
-            "history": "Change log updated for 2020.2"
-          }
-        ],
-        "config": {
-          "root": "boards/Xilinx/vmk180/es/1.0",
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
