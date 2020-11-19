@@ -2741,12 +2741,12 @@
         "name": "vmk180",
         "display": "Versal VMK180 Evaluation Platform",
         "latest_revision": "2.0",
-        "commit_id": "5181cdfb4126db3069985dea43cfb11fde8d5c5a",
+        "commit_id": "98b8c734cd8f5072fad98fb969a57472892bd310",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "5181cdfb4126db3069985dea43cfb11fde8d5c5a",
-            "date": "16-11-2020",
+            "commit_id": "98b8c734cd8f5072fad98fb969a57472892bd310",
+            "date": "19-11-2020",
             "history": "MEMORY_SPEEDGRADE updated"
           }
         ],
