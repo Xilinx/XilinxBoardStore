@@ -1,0 +1,10 @@
+######### ZCU208 change log ############
+1.2
+Adding dual memory support with addition of MT40A1G8SA-075 (Vivado 2020.2)
+
+1.1
+Added sfp[2-3] interface support for xxv_ethernet IP (Vivado 2020.1)
+
+1.0
+ZCU208 initial board support for Rev A
+
