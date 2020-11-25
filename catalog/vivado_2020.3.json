@@ -192,25 +192,6 @@
         "company": "digilentinc.com"
       },
       {
-        "name": "cmod-s7-25",
-        "display": "Cmod S7-25",
-        "latest_revision": "1.0",
-        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
-        "revisions": [
-          {
-            "revision": "1.0",
-            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
-            "date": "11-09-2018:16:24:05",
-            "history": "Added cmod-s7-25 to the XilinxBoardStore"
-          }
-        ],
-        "config": {
-          "root": "boards/Digilent/cmod-s7-25/B.0",
-          "metadata_file": "xitem.json"
-        },
-        "company": "digilentinc.com"
-      },
-      {
         "name": "cmod_a7-15t",
         "display": "Cmod A7-15t",
         "latest_revision": "1.1",
@@ -358,44 +339,6 @@
         ],
         "config": {
           "root": "boards/Digilent/nexys_video/A.0",
-          "metadata_file": "xitem.json"
-        },
-        "company": "digilentinc.com"
-      },
-      {
-        "name": "sword",
-        "display": "Sword",
-        "latest_revision": "1.0",
-        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
-        "revisions": [
-          {
-            "revision": "1.0",
-            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
-            "date": "11-09-2018:16:24:06",
-            "history": "Added sword to the XilinxBoardStore"
-          }
-        ],
-        "config": {
-          "root": "boards/Digilent/sword/C.0",
-          "metadata_file": "xitem.json"
-        },
-        "company": "digilentinc.com"
-      },
-      {
-        "name": "zedboard",
-        "display": "Zedboard",
-        "latest_revision": "1.0",
-        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
-        "revisions": [
-          {
-            "revision": "1.0",
-            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
-            "date": "11-09-2018:16:24:06",
-            "history": "Added zedboard to the XilinxBoardStore"
-          }
-        ],
-        "config": {
-          "root": "boards/Digilent/zedboard/1.3",
           "metadata_file": "xitem.json"
         },
         "company": "digilentinc.com"
@@ -2548,6 +2491,44 @@
         "company": "xilinx.com"
       },
       {
+        "name": "vermeo_t1_rfsoc",
+        "display": "Zynq Ultrascale+ RFSoC T1 Development Board",
+        "latest_revision": "1.0",
+        "commit_id": "89a1011776d5904cbb6aa6a8beb38913ecbcc0d2",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "89a1011776d5904cbb6aa6a8beb38913ecbcc0d2",
+            "date": "04-11-2020",
+            "history": "Adding Vermeo T1 RFSoC initial board files"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vermeo_t1_rfsoc/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vermeo_t1_mpsoc",
+        "display": "Zynq Ultrascale+ MPSoC T1 Development Board",
+        "latest_revision": "1.0",
+        "commit_id": "89a1011776d5904cbb6aa6a8beb38913ecbcc0d2",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "89a1011776d5904cbb6aa6a8beb38913ecbcc0d2",
+            "date": "04-11-2020",
+            "history": "Adding Vermeo T1 MPSoC initial board files"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vermeo_t1_mpsoc/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
         "name": "zcu208",
         "display": "Zynq UltraScale+ ZCU208 Evaluation Platform",
         "latest_revision": "2.0",
@@ -2627,11 +2608,11 @@
         "name": "zcu1275",
         "display": "Xilinx Zynq UltraScale+ RFSoC ZCU1275 Characterization Kit",
         "latest_revision": "1.0",
-        "commit_id": "ef014e8a4f31fcab7b283b4fa04e5e6efa79b309",
+        "commit_id": "f1bfdf721f31fb1b8458bec45b6685fae11841f1",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "ef014e8a4f31fcab7b283b4fa04e5e6efa79b309",
+            "commit_id": "f1bfdf721f31fb1b8458bec45b6685fae11841f1",
             "date": "26-02-2020",
             "history": "Addition of logo field in xitem.json"
           }
@@ -2646,11 +2627,11 @@
         "name": "zcu1285",
         "display": "Xilinx Zynq UltraScale+ RFSoC ZCU1285 Characterization Kit",
         "latest_revision": "1.0",
-        "commit_id": "066cc40112cd4564711c6d125d23008536d5d5fd",
+        "commit_id": "f1bfdf721f31fb1b8458bec45b6685fae11841f1",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "066cc40112cd4564711c6d125d23008536d5d5fd",
+            "commit_id": "f1bfdf721f31fb1b8458bec45b6685fae11841f1",
             "date": "23-12-2019",
             "history": "Addition of logo field for board image in xitem.json"
           }
@@ -2847,6 +2828,44 @@
         ],
         "config": {
           "root": "boards/Xilinx/au250/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vermeo_t1_mpsoc",
+        "display": "Zynq Ultrascale+ MPSoC T1 Development Board",
+        "latest_revision": "1.0",
+        "commit_id": "2b64ea1e640e67ba6ae3357a68516496e4ee7fa0",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "2b64ea1e640e67ba6ae3357a68516496e4ee7fa0",
+            "date": "04-11-2020:09:27:07",
+            "history": "Added board Zynq Ultrascale+ MPSoC T1 Development Board v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vermeo_t1_mpsoc/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vermeo_t1_rfsoc",
+        "display": "Zynq Ultrascale+ RFSoC T1 Development Board",
+        "latest_revision": "1.0",
+        "commit_id": "2b64ea1e640e67ba6ae3357a68516496e4ee7fa0",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "2b64ea1e640e67ba6ae3357a68516496e4ee7fa0",
+            "date": "04-11-2020:09:27:07",
+            "history": "Added board Zynq Ultrascale+ RFSoC T1 Development Board v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vermeo_t1_rfsoc/1.0",
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
