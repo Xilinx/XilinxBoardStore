@@ -2152,11 +2152,11 @@
         "name": "vcu118",
         "display": "Virtex UltraScale+ VCU118 Evaluation Platform",
         "latest_revision": "2.4",
-        "commit_id": "952e57661b980893c57ecaac590c2b950a82ff2e",
+        "commit_id": "0476bf2e4ca34cb5eb376e98722147819a326b79",
         "revisions": [
           {
             "revision": "2.4",
-            "commit_id": "952e57661b980893c57ecaac590c2b950a82ff2e",
+            "commit_id": "0476bf2e4ca34cb5eb376e98722147819a326b79",
             "date": "29-10-2020",
             "history": "VCU118 board SGMII-LVDS - DCI_CASECADE, Vref IOSTANDARDs in BoardFlow files"
           }
@@ -2399,11 +2399,11 @@
         "name": "zcu216",
         "display": "Zynq UltraScale+ ZCU216 Evaluation Platform",
         "latest_revision": "2.0",
-        "commit_id": "07a84e26d5f8013a69f8d73e19955349bc18900f",
+        "commit_id": "0476bf2e4ca34cb5eb376e98722147819a326b79",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "07a84e26d5f8013a69f8d73e19955349bc18900f",
+            "commit_id": "0476bf2e4ca34cb5eb376e98722147819a326b79",
             "date": "29-07-2020",
             "history": "Initial entry for ZCU216 production board files"
           }
@@ -2532,11 +2532,11 @@
         "name": "zcu208",
         "display": "Zynq UltraScale+ ZCU208 Evaluation Platform",
         "latest_revision": "2.0",
-        "commit_id": "ea54a86522502e6a7041d3059400275b7dc74157",
+        "commit_id": "0476bf2e4ca34cb5eb376e98722147819a326b79",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "ea54a86522502e6a7041d3059400275b7dc74157",
+            "commit_id": "0476bf2e4ca34cb5eb376e98722147819a326b79",
             "date": "24-08-2020",
             "history": "Initial entry for ZCU208 production board files"
           }
@@ -2722,11 +2722,11 @@
         "name": "vmk180",
         "display": "Versal VMK180 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "62e54f2a98b33dbdf5937237b9268b76e07fd815",
+        "commit_id": "0476bf2e4ca34cb5eb376e98722147819a326b79",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "62e54f2a98b33dbdf5937237b9268b76e07fd815",
+            "commit_id": "0476bf2e4ca34cb5eb376e98722147819a326b79",
             "date": "06-10-2020",
             "history": "Updated CIPS Interface"
           }
@@ -2741,55 +2741,17 @@
         "name": "vck190",
         "display": "Versal VCK190 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "62e54f2a98b33dbdf5937237b9268b76e07fd815",
+        "commit_id": "0476bf2e4ca34cb5eb376e98722147819a326b79",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "62e54f2a98b33dbdf5937237b9268b76e07fd815",
+            "commit_id": "0476bf2e4ca34cb5eb376e98722147819a326b79",
             "date": "06-10-2020",
             "history": "Updated CIPS Interface"
           }
         ],
         "config": {
           "root": "boards/Xilinx/vck190/production/2.0",
-          "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
-      },
-      {
-        "name": "vck190_es",
-        "display": "Versal VCK190 ES1 Evaluation Platform",
-        "latest_revision": "1.0",
-        "commit_id": "62e54f2a98b33dbdf5937237b9268b76e07fd815",
-        "revisions": [
-          {
-            "revision": "1.0",
-            "commit_id": "62e54f2a98b33dbdf5937237b9268b76e07fd815",
-            "date": "06-10-2020",
-            "history": "Updated CIPS Interface"
-          }
-        ],
-        "config": {
-          "root": "boards/Xilinx/vck190/es/1.0",
-          "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
-      },
-      {
-        "name": "vmk180_es",
-        "display": "Versal VMK180 ES1 Evaluation Platform",
-        "latest_revision": "1.0",
-        "commit_id": "62e54f2a98b33dbdf5937237b9268b76e07fd815",
-        "revisions": [
-          {
-            "revision": "1.0",
-            "commit_id": "62e54f2a98b33dbdf5937237b9268b76e07fd815",
-            "date": "06-10-2020",
-            "history": "Updated CIPS Interface"
-          }
-        ],
-        "config": {
-          "root": "boards/Xilinx/vmk180/es/1.0",
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
@@ -2866,6 +2828,101 @@
         ],
         "config": {
           "root": "boards/Xilinx/vermeo_t1_rfsoc/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "kv260",
+        "display": "Humboldt KV260 Vision AI Starter Kit",
+        "latest_revision": "1.0",
+        "commit_id": "0476bf2e4ca34cb5eb376e98722147819a326b79",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "0476bf2e4ca34cb5eb376e98722147819a326b79",
+            "date": "26-11-2020:06:06:57",
+            "history": "Added board Humboldt KV260 Vision AI Starter Kit v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/kv260/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "som240",
+        "display": "Vision AI Starter Kit carrier card",
+        "latest_revision": "1.0",
+        "commit_id": "0476bf2e4ca34cb5eb376e98722147819a326b79",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "0476bf2e4ca34cb5eb376e98722147819a326b79",
+            "date": "26-11-2020:06:06:57",
+            "history": "Added board Vision AI Starter Kit carrier card v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/som240/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vck190_es",
+        "display": "Versal VCK190 ES1 Evaluation Platform",
+        "latest_revision": "1.1",
+        "commit_id": "0476bf2e4ca34cb5eb376e98722147819a326b79",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "0476bf2e4ca34cb5eb376e98722147819a326b79",
+            "date": "26-11-2020:06:06:57",
+            "history": "Added board Versal VCK190 ES1 Evaluation Platform v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vck190/es/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vmk180_es",
+        "display": "Versal VMK180 ES1 Evaluation Platform",
+        "latest_revision": "1.1",
+        "commit_id": "0476bf2e4ca34cb5eb376e98722147819a326b79",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "0476bf2e4ca34cb5eb376e98722147819a326b79",
+            "date": "26-11-2020:06:06:57",
+            "history": "Added board Versal VMK180 ES1 Evaluation Platform v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vmk180/es/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu208_es",
+        "display": "Zynq UltraScale+ ZCU208-ES Evaluation Platform",
+        "latest_revision": "1.2",
+        "commit_id": "0476bf2e4ca34cb5eb376e98722147819a326b79",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "0476bf2e4ca34cb5eb376e98722147819a326b79",
+            "date": "26-11-2020:06:06:57",
+            "history": "Added board Zynq UltraScale+ ZCU208-ES Evaluation Platform v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu208/es/1.2",
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"

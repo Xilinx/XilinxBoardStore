@@ -3,10 +3,10 @@
     "items": [
       {
         "infra": {
-          "name": "vmk180_es", 
-          "display": "Versal VMK180 ES1 Evaluation Platform", 
+          "name": "kv260", 
+          "display": "Humboldt KV260 Vision AI Starter Kit", 
           "revision": "1.0", 
-          "description": "Versal VMK180 ES1 Evaluation Platform", 
+          "description": "Humboldt KV260 Vision AI Starter Kit", 
           "company": "xilinx.com", 
           "company_display": "Xilinx", 
           "author": "Vanitha", 
@@ -16,13 +16,14 @@
               "url": "www.xilinx.com"
             }
           ], 
-          "category": "Single Part", 
-          "website": "www.xilinx.com/vmk180", 
+          "category": "System On Modules(SOM)",
+          "logo": "vsom_kit.jpeg",
+          "website": "www.xilinx.com/SOM", 
           "search-keywords": [
-            "vmk180_es", 
+            "SOM", 
             "xilinx.com", 
             "board", 
-            "Single Part"
+            "System On Modules(SOM)"
           ]
         }
       }

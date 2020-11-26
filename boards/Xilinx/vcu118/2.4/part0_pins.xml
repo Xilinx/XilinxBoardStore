@@ -426,7 +426,7 @@
 	<pin index="454" name ="FPGA_FCS" iostandard="LVCMOS18" loc="BF16"/>	
 	
     <!-- ################################END OF FILE ###############################################-->
-  </pins>  
+  </pins>
 
 	<design_constrs>
 	  <dci_cascade master_bank_id="65" slave_bank_ids="64"/>

@@ -5,7 +5,7 @@
         "infra": {
           "name": "vck190_es", 
           "display": "Versal VCK190 ES1 Evaluation Platform", 
-          "revision": "1.0", 
+          "revision": "1.1", 
           "description": "Versal VCK190 ES1 Evaluation Platform", 
           "company": "xilinx.com", 
           "company_display": "Xilinx", 
