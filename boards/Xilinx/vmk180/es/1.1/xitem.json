@@ -3,10 +3,10 @@
     "items": [
       {
         "infra": {
-          "name": "vck190_es", 
-          "display": "Versal VCK190 ES1 Evaluation Platform", 
-          "revision": "1.0", 
-          "description": "Versal VCK190 ES1 Evaluation Platform", 
+          "name": "vmk180_es", 
+          "display": "Versal VMK180 ES1 Evaluation Platform", 
+          "revision": "1.1", 
+          "description": "Versal VMK180 ES1 Evaluation Platform", 
           "company": "xilinx.com", 
           "company_display": "Xilinx", 
           "author": "Vanitha", 
@@ -17,9 +17,9 @@
             }
           ], 
           "category": "Single Part", 
-          "website": "www.xilinx.com/vck190", 
+          "website": "www.xilinx.com/vmk180", 
           "search-keywords": [
-            "vck190_es", 
+            "vmk180_es", 
             "xilinx.com", 
             "board", 
             "Single Part"

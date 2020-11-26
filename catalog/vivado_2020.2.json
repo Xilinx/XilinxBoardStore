@@ -2399,11 +2399,11 @@
         "name": "zcu216", 
         "display": "Zynq UltraScale+ ZCU216 Evaluation Platform", 
         "latest_revision": "2.0",
-        "commit_id": "07a84e26d5f8013a69f8d73e19955349bc18900f", 
+        "commit_id": "1472447ad0f3610d2efa84bc8434d06e4ce6e8ce", 
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "07a84e26d5f8013a69f8d73e19955349bc18900f", 
+            "commit_id": "1472447ad0f3610d2efa84bc8434d06e4ce6e8ce", 
             "date": "29-07-2020",
             "history": "Initial entry for ZCU216 production board files"
           }
@@ -2532,13 +2532,13 @@
         "name": "zcu208", 
         "display": "Zynq UltraScale+ ZCU208 Evaluation Platform", 
         "latest_revision": "2.0",
-        "commit_id": "ea54a86522502e6a7041d3059400275b7dc74157", 
+        "commit_id": "9b2b9dd1a673115154774ee93ad4d412d726775b", 
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "ea54a86522502e6a7041d3059400275b7dc74157", 
-            "date": "24-08-2020",
-            "history": "Initial entry for ZCU208 production board files"
+            "commit_id": "9b2b9dd1a673115154774ee93ad4d412d726775b", 
+            "date": "11-05-2020",
+            "history": "Modified board files for dual memory support"
           }
         ], 
         "config": {
@@ -2584,6 +2584,25 @@
           "metadata_file": "xitem.json"
         }, 
         "company": "xilinx.com"
+      },
+      {
+        "name": "zcu208_es", 
+        "display": "Zynq UltraScale+ ZCU208 Evaluation Platform", 
+        "latest_revision": "1.2", 
+        "commit_id": "9b2b9dd1a673115154774ee93ad4d412d726775b", 
+        "revisions": [
+          {
+            "revision": "1.2", 
+            "commit_id": "9b2b9dd1a673115154774ee93ad4d412d726775b", 
+            "date": "11-05-2020", 
+            "history": "Adding dual memory support with zcu208 board"
+          }
+        ], 
+        "config": {
+          "root": "boards/Xilinx/zcu208/es/1.2", 
+          "metadata_file": "xitem.json"
+        }, 
+        "company": "xilinx.com"
       }, 
       {
         "name": "zcu208ld_es", 
@@ -2608,13 +2627,13 @@
         "name": "zcu1275", 
         "display": "Xilinx Zynq UltraScale+ RFSoC ZCU1275 Characterization Kit", 
         "latest_revision": "1.0", 
-        "commit_id": "ef014e8a4f31fcab7b283b4fa04e5e6efa79b309", 
+        "commit_id": "d82f8c11540f098d8a294e7af02d8a2a2789c8e6", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "ef014e8a4f31fcab7b283b4fa04e5e6efa79b309", 
-            "date": "26-02-2020", 
-            "history": "Addition of logo field in xitem.json"
+            "commit_id": "d82f8c11540f098d8a294e7af02d8a2a2789c8e6", 
+            "date": "05-11-2020", 
+            "history": "Enabled support ced for zcu1275 board"
           }
         ], 
         "config": {
@@ -2627,13 +2646,13 @@
         "name": "zcu1285", 
         "display": "Xilinx Zynq UltraScale+ RFSoC ZCU1285 Characterization Kit", 
         "latest_revision": "1.0", 
-        "commit_id": "066cc40112cd4564711c6d125d23008536d5d5fd", 
+        "commit_id": "d82f8c11540f098d8a294e7af02d8a2a2789c8e6", 
         "revisions": [
           {
             "revision": "1.0", 
-            "commit_id": "066cc40112cd4564711c6d125d23008536d5d5fd", 
-            "date": "23-12-2019", 
-            "history": "Addition of logo field for board image in xitem.json"
+            "commit_id": "d82f8c11540f098d8a294e7af02d8a2a2789c8e6", 
+            "date": "05-11-2020", 
+            "history": "Enabled support ced for zcu1285 board"
           }
         ], 
         "config": {
@@ -2721,14 +2740,14 @@
      {
         "name": "vmk180",
         "display": "Versal VMK180 Evaluation Platform",
-        "latest_revision": "1.0",
-        "commit_id": "a4c242ecc1f6b66026fa921b6e2a93aebea733fe",
+        "latest_revision": "2.0",
+        "commit_id": "98b8c734cd8f5072fad98fb969a57472892bd310",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "a4c242ecc1f6b66026fa921b6e2a93aebea733fe",
-            "date": "18-10-2020",
-            "history": "Added REF_CLK_FREQMHZ with 6 decimal digit precision"
+            "commit_id": "98b8c734cd8f5072fad98fb969a57472892bd310",
+            "date": "19-11-2020",
+            "history": "MEMORY_SPEEDGRADE updated"
           }
         ],
         "config": {
@@ -2740,14 +2759,14 @@
      {
         "name": "vck190",
         "display": "Versal VCK190 Evaluation Platform",
-        "latest_revision": "1.0",
-        "commit_id": "a4c242ecc1f6b66026fa921b6e2a93aebea733fe",
+        "latest_revision": "2.0",
+        "commit_id": "5181cdfb4126db3069985dea43cfb11fde8d5c5a",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "a4c242ecc1f6b66026fa921b6e2a93aebea733fe",
-            "date": "18-10-2020",
-            "history": "Added REF_CLK_FREQMHZ with 6 decimal digit precision"
+            "commit_id": "5181cdfb4126db3069985dea43cfb11fde8d5c5a",
+            "date": "16-11-2020",
+            "history": "MEMORY_SPEEDGRADE updated"
           }
         ],
         "config": {
@@ -2759,37 +2778,37 @@
      {
         "name": "vck190_es",
         "display": "Versal VCK190 ES1 Evaluation Platform",
-        "latest_revision": "1.0",
-        "commit_id": "a4c242ecc1f6b66026fa921b6e2a93aebea733fe",
+        "latest_revision": "1.1",
+        "commit_id": "91a10e0cd9a2d7d0486ead6825e1e912f07efb1b",
         "revisions": [
           {
-            "revision": "1.0",
-            "commit_id": "a4c242ecc1f6b66026fa921b6e2a93aebea733fe",
-            "date": "18-10-2020",
-            "history": "Added REF_CLK_FREQMHZ with 6 decimal digit precision"
+            "revision": "1.1",
+            "commit_id": "91a10e0cd9a2d7d0486ead6825e1e912f07efb1b",
+            "date": "12-11-2020",
+            "history": "new board file for 2020.2"
           }
         ],
         "config": {
-          "root": "boards/Xilinx/vck190/es/1.0",
+          "root": "boards/Xilinx/vck190/es/1.1",
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
-      }, 
-     {
+      },
+	{
         "name": "vmk180_es",
         "display": "Versal VMK180 ES1 Evaluation Platform",
-        "latest_revision": "1.0",
-        "commit_id": "a4c242ecc1f6b66026fa921b6e2a93aebea733fe",
+        "latest_revision": "1.1",
+        "commit_id": "91a10e0cd9a2d7d0486ead6825e1e912f07efb1b",
         "revisions": [
           {
-            "revision": "1.0",
-            "commit_id": "a4c242ecc1f6b66026fa921b6e2a93aebea733fe",
-            "date": "18-10-2020",
-            "history": "Added REF_CLK_FREQMHZ with 6 decimal digit precision"
+            "revision": "1.1",
+            "commit_id": "91a10e0cd9a2d7d0486ead6825e1e912f07efb1b",
+            "date": "12-11-2020",
+            "history": "new board file for 2020.2"
           }
         ],
         "config": {
-          "root": "boards/Xilinx/vmk180/es/1.0",
+          "root": "boards/Xilinx/vmk180/es/1.1",
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
