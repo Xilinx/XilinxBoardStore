@@ -16,14 +16,14 @@
               "url": "www.xilinx.com"
             }
           ], 
-          "category": "Single Part", 
+          "category": "Evaluation Boards", 
           "logo": "kcu1500_board.png",
           "website": "https://www.xilinx.com/products/boards-and-kits/dk-u1-kcu1500-g.html", 
           "search-keywords": [
             "KCU1500", 
             "xilinx.com", 
             "board", 
-            "Single Part"
+            "Evaluation Boards"
           ]
         }
       }
