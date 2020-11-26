@@ -356,10 +356,7 @@
 			<connection_map name="part0_som240_1_connector_bank45_gpio_3" typical_delay="5" c1_st_index="30" c1_end_index="30" c2_st_index="78" c2_end_index="78"/>
 			<connection_map name="part0_som240_1_connector_bank45_gpio_4" typical_delay="5" c1_st_index="31" c1_end_index="31" c2_st_index="15" c2_end_index="15"/>		
 			<connection_map name="part0_som240_1_connector_bank45_gpio_5" typical_delay="5" c1_st_index="32" c1_end_index="32" c2_st_index="141" c2_end_index="141"/>	
-		</connection> 						
-		
-		
-		</connection>  		
+		</connection> 							
 	</connections>
   
 
