@@ -1,0 +1,34 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "pynqzu",
+          "display": "Zynq UltraScale+ PYNQ-ZU Development Board",
+          "revision": "1.1",
+          "description": "Zynq UltraScale+ PYNQ-ZU Development Board",
+          "company": "tul.com.tw",
+          "company_display": "TUL",
+          "author": "TUL",
+          "contributors": [
+            {
+              "group": "TUL",
+              "url": "http://www.tul.com.tw"
+            }
+          ],
+          "category": "Single Part",
+          "website": "http://www.tul.com.tw",
+          "logo": "pynqzu_board.png",
+          "search-keywords": [
+            "pynqzu",
+            "tul.com.tw",
+            "board",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}
