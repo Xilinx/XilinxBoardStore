@@ -2926,6 +2926,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
+      },
+      {
+        "name": "pynqzu",
+        "display": "Zynq UltraScale+ PYNQ-ZU Development Board",
+        "latest_revision": "1.1",
+        "commit_id": "5a599c07b37a50f3b78189731897a3c2d04be349",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "5a599c07b37a50f3b78189731897a3c2d04be349",
+            "date": "08-12-2020:23:57:05",
+            "history": "Added board Zynq UltraScale+ PYNQ-ZU Development Board v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/TUL/pynqzu/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "tul.com.tw"
       }
     ],
     "categories": [
