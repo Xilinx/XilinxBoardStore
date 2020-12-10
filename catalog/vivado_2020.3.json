@@ -2836,11 +2836,11 @@
         "name": "kv260",
         "display": "Humboldt KV260 Vision AI Starter Kit",
         "latest_revision": "1.0",
-        "commit_id": "1cf1a9af7783e9a6d223bad45a89e82b8b85a673",
+        "commit_id": "76917b5e2ffe44757a53907f350e94ea471b8b49",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "1cf1a9af7783e9a6d223bad45a89e82b8b85a673",
+            "commit_id": "76917b5e2ffe44757a53907f350e94ea471b8b49",
             "date": "26-11-2020:06:06:57",
             "history": "Added board Humboldt KV260 Vision AI Starter Kit v1.0"
           }
