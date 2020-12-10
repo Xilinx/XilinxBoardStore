@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
 <!-- Copyright (C) 2019, Xilinx Inc - All rights reserved
  Licensed under the Apache License, Version 2.0 (the "License"). You may
  not use this file except in compliance with the License. A copy of the
@@ -10,10 +11,10 @@
  License for the specific language governing permissions and limitations
  under the License. -->
 
-<board schema_version="2.2" vendor="xilinx.com" name="kv260" display_name="Humboldt KV260 Vision AI Starter Kit" url="www.xilinx.com" preset_file="preset.xml">
+<board schema_version="2.2" vendor="xilinx.com" name="kv260" display_name="Humboldt KV260 Vision AI Starter Kit" url="www.xilinx.com" preset_file="preset.xml" supports_ced="false">
 
 <images>
-    <image name="vsom_kit.jpg" display_name="Humboldt KV260 Vision AI Starter Kit" sub_type="board" >
+    <image name="vsom_kit.jpg" display_name="Humboldt KV260 Vision AI Starter Kit" sub_type="board">
       <description>Humboldt KV260 Vision AI starter Kit</description>
     </image>
 </images>
@@ -356,6 +357,15 @@
 			<connection_map name="part0_som240_1_connector_bank45_gpio_3" typical_delay="5" c1_st_index="30" c1_end_index="30" c2_st_index="78" c2_end_index="78"/>
 			<connection_map name="part0_som240_1_connector_bank45_gpio_4" typical_delay="5" c1_st_index="31" c1_end_index="31" c2_st_index="15" c2_end_index="15"/>		
 			<connection_map name="part0_som240_1_connector_bank45_gpio_5" typical_delay="5" c1_st_index="32" c1_end_index="32" c2_st_index="141" c2_end_index="141"/>	
+			
+			<connection_map name="part0_som240_1_connector_i2s_in_0" typical_delay="5" c1_st_index="33" c1_end_index="33" c2_st_index="81" c2_end_index="81"/>
+			<connection_map name="part0_som240_1_connector_i2s_in_1" typical_delay="5" c1_st_index="34" c1_end_index="34" c2_st_index="82" c2_end_index="82"/>
+			<connection_map name="part0_som240_1_connector_i2s_in_2" typical_delay="5" c1_st_index="35" c1_end_index="35" c2_st_index="142" c2_end_index="142"/>	
+
+			<connection_map name="part0_som240_1_connector_i2s_in_0" typical_delay="5" c1_st_index="36" c1_end_index="36" c2_st_index="200" c2_end_index="200"/>
+			<connection_map name="part0_som240_1_connector_i2s_in_1" typical_delay="5" c1_st_index="37" c1_end_index="37" c2_st_index="201" c2_end_index="201"/>
+			<connection_map name="part0_som240_1_connector_i2s_in_2" typical_delay="5" c1_st_index="38" c1_end_index="38" c2_st_index="202" c2_end_index="202"/>			
+			
 		</connection> 							
 	</connections>
   

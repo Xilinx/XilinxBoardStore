@@ -179,7 +179,26 @@
 			</user_parameters>
 		</ip>	 -->	
 	  </ip_preset>	  
-	
+	  
+	  
+	  <ip_preset preset_proc_name="i2s_in_preset">
+		<ip vendor="xilinx.com" library="ip" name="i2s_receiver" ip_interface="i2s_in">
+			<user_parameters>
+				<user_parameter name="CONFIG.C_NUM_CHANNELS"  value="2"/>
+				<user_parameter name="CONFIG.C_DWIDTH"  value="24"/>
+			</user_parameters>
+		</ip>
+	 </ip_preset>	
+	 
+	 
+	 <ip_preset preset_proc_name="i2s_out_preset">
+		<ip vendor="xilinx.com" library="ip" name="i2s_transmitter" ip_interface="i2s_out">
+			<user_parameters>
+				<user_parameter name="CONFIG.C_NUM_CHANNELS"  value="2"/>
+				<user_parameter name="CONFIG.C_DWIDTH"  value="24"/>
+			</user_parameters>
+		</ip>
+	</ip_preset>	
 	
 
 </ip_presets>
