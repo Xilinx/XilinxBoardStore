@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE part_info SYSTEM "/proj/xbuilds/2020.2_daily_latest/installs/lin64/Vivado/2020.2/data/boards/board_schemas/current/part0_pins.dtd">
 
 <!-- Copyright (C) 2019, Xilinx Inc - All rights reserved
  Licensed under the Apache License, Version 2.0 (the "License"). You may
@@ -16,44 +17,44 @@
 		<pin index="0" name ="som240_1_d16"    iostandard="LVCMOS33" loc="G11"/>
 		<pin index="1" name ="som240_1_d17"    iostandard="LVCMOS33" loc="F10"/>	
 										      
-		<pin index="2" name ="som240_1_c12"    iostandard="LVCMOS18"  loc="D7"/>
-		<pin index="3" name ="som240_1_c13"    iostandard="LVCMOS18"  loc="D6"/>			
-		<pin index="4" name ="som240_1_b10"    iostandard="LVCMOS18"  loc="E5"/>
-		<pin index="5" name ="som240_1_a9"     iostandard="LVCMOS18"  loc="G6"/>		
-		<pin index="6" name ="som240_1_b11"    iostandard="LVCMOS18"  loc="D5"/>
-		<pin index="7" name ="som240_1_a10"    iostandard="LVCMOS18"  loc="F6"/>		
+		<pin index="2" name ="som240_1_c12"    iostandard="LVCMOS18"  diff_term="TRUE" loc="D7"/>
+		<pin index="3" name ="som240_1_c13"    iostandard="LVCMOS18"  diff_term="TRUE" loc="D6"/>			
+		<pin index="4" name ="som240_1_b10"    iostandard="LVCMOS18"  diff_term="TRUE" loc="E5"/>
+		<pin index="5" name ="som240_1_a9"     iostandard="LVCMOS18"  diff_term="TRUE" loc="G6"/>		
+		<pin index="6" name ="som240_1_b11"    iostandard="LVCMOS18"  diff_term="TRUE" loc="D5"/>
+		<pin index="7" name ="som240_1_a10"    iostandard="LVCMOS18"  diff_term="TRUE" loc="F6"/>		
 											  
-		<pin index="8"  name ="som240_1_b1"    iostandard="LVCMOS18"  loc="C1"/>
-		<pin index="9"  name ="som240_1_b2"    iostandard="LVCMOS18"  loc="B1"/>
+		<pin index="8"  name ="som240_1_b1"    iostandard="LVCMOS18"  diff_term="TRUE" loc="C1"/>
+		<pin index="9"  name ="som240_1_b2"    iostandard="LVCMOS18"  diff_term="TRUE" loc="B1"/>
 											  
-		<pin index="10" name ="som240_1_a3"    iostandard="LVCMOS18"  loc="A2"/>
-		<pin index="11" name ="som240_1_b7"    iostandard="LVCMOS18"  loc="B3"/>			
-		<pin index="12" name ="som240_1_c9"    iostandard="LVCMOS18"  loc="B4"/>
-		<pin index="13" name ="som240_1_d10"   iostandard="LVCMOS18"  loc="D4"/>	
+		<pin index="10" name ="som240_1_a3"    iostandard="LVCMOS18"  diff_term="TRUE" loc="A2"/>
+		<pin index="11" name ="som240_1_b7"    iostandard="LVCMOS18"  diff_term="TRUE" loc="B3"/>			
+		<pin index="12" name ="som240_1_c9"    iostandard="LVCMOS18"  diff_term="TRUE" loc="B4"/>
+		<pin index="13" name ="som240_1_d10"   iostandard="LVCMOS18"  diff_term="TRUE" loc="D4"/>	
 											  
-		<pin index="14" name ="som240_1_a4"    iostandard="LVCMOS18"  loc="A1"/>
-		<pin index="15" name ="som240_1_b8"    iostandard="LVCMOS18"  loc="A3"/>	
-		<pin index="16" name ="som240_1_c10"   iostandard="LVCMOS18"  loc="A4"/>
-		<pin index="17" name ="som240_1_d11"   iostandard="LVCMOS18"  loc="C4"/>												  
+		<pin index="14" name ="som240_1_a4"    iostandard="LVCMOS18"  diff_term="TRUE" loc="A1"/>
+		<pin index="15" name ="som240_1_b8"    iostandard="LVCMOS18"  diff_term="TRUE" loc="A3"/>	
+		<pin index="16" name ="som240_1_c10"   iostandard="LVCMOS18"  diff_term="TRUE" loc="A4"/>
+		<pin index="17" name ="som240_1_d11"   iostandard="LVCMOS18"  diff_term="TRUE" loc="C4"/>												  
 											  
-		<pin index="18"  name ="som240_1_c3"   iostandard="LVCMOS18"  loc="G1"/>
-		<pin index="19"  name ="som240_1_c4"   iostandard="LVCMOS18"  loc="F1"/>
+		<pin index="18"  name ="som240_1_c3"   iostandard="LVCMOS18"  diff_term="TRUE" loc="G1"/>
+		<pin index="19"  name ="som240_1_c4"   iostandard="LVCMOS18"  diff_term="TRUE" loc="F1"/>
 											  
-		<pin index="20" name ="som240_1_d7"    iostandard="LVCMOS18"  loc="E1"/>
-		<pin index="21" name ="som240_1_d4"    iostandard="LVCMOS18"  loc="F2"/>			
-		<pin index="22" name ="som240_1_c6"    iostandard="LVCMOS18"  loc="G3"/>
-		<pin index="23" name ="som240_1_b4"    iostandard="LVCMOS18"  loc="E4"/>	
+		<pin index="20" name ="som240_1_d7"    iostandard="LVCMOS18"  diff_term="TRUE" loc="E1"/>
+		<pin index="21" name ="som240_1_d4"    iostandard="LVCMOS18"  diff_term="TRUE" loc="F2"/>			
+		<pin index="22" name ="som240_1_c6"    iostandard="LVCMOS18"  diff_term="TRUE" loc="G3"/>
+		<pin index="23" name ="som240_1_b4"    iostandard="LVCMOS18"  diff_term="TRUE" loc="E4"/>	
 											  
-		<pin index="24" name ="som240_1_d8"    iostandard="LVCMOS18"  loc="D1"/>
-		<pin index="25" name ="som240_1_d5"    iostandard="LVCMOS18"  loc="E2"/>	
-		<pin index="26" name ="som240_1_c7"    iostandard="LVCMOS18"  loc="F3"/>
-		<pin index="27" name ="som240_1_b5"    iostandard="LVCMOS18"  loc="E3"/>	
+		<pin index="24" name ="som240_1_d8"    iostandard="LVCMOS18"  diff_term="TRUE" loc="D1"/>
+		<pin index="25" name ="som240_1_d5"    iostandard="LVCMOS18"  diff_term="TRUE" loc="E2"/>	
+		<pin index="26" name ="som240_1_c7"    iostandard="LVCMOS18"  diff_term="TRUE" loc="F3"/>
+		<pin index="27" name ="som240_1_b5"    iostandard="LVCMOS18"  diff_term="TRUE" loc="E3"/>	
 											  
-		<pin index="28" name ="som240_1_d18"   iostandard="LVCMOS33" loc="J11"/>
-		<pin index="29" name ="som240_1_b17"   iostandard="LVCMOS33" loc="J10"/>	
-		<pin index="30" name ="som240_1_b18"   iostandard="LVCMOS33" loc="K13"/>
-		<pin index="31" name ="som240_1_a15"   iostandard="LVCMOS33" loc="F11"/>
-		<pin index="32" name ="som240_1_c21"   iostandard="LVCMOS33" loc="A12"/>	
+		<pin index="28" name ="som240_1_d18"   iostandard="LVCMOS33"  loc="J11"/>
+		<pin index="29" name ="som240_1_b17"   iostandard="LVCMOS33"  loc="J10"/>	
+		<pin index="30" name ="som240_1_b18"   iostandard="LVCMOS33"  loc="K13"/>
+		<pin index="31" name ="som240_1_a15"   iostandard="LVCMOS33"  loc="F11"/>
+		<pin index="32" name ="som240_1_c21"   iostandard="LVCMOS33"  loc="A12"/>	
 	
 		<pin index="33" name ="som240_1_b21"   iostandard="LVCMOS33" loc="E12"/>
 		<pin index="34" name ="som240_1_b22"   iostandard="LVCMOS33" loc="D11"/>
@@ -64,39 +65,5 @@
 		<pin index="37" name ="som240_1_d21"   iostandard="LVCMOS33" loc="D10"/>
 		<pin index="38" name ="som240_1_d22"   iostandard="LVCMOS33" loc="C11"/>
 		
-<!-- 
-diff_term_adv="TRUE"		
-diff_term_adv="TRUE"		
-diff_term_adv="TRUE"		
-diff_term_adv="TRUE"		
-diff_term_adv="TRUE"		
-diff_term_adv="TRUE"	
-diff_term_adv="TRUE"
-diff_term_adv="TRUE"
-
-diff_term_adv="TRUE"
-diff_term_adv="TRUE"
-diff_term_adv="TRUE"
-diff_term_adv="TRUE"
-
-diff_term_adv="TRUE"
-diff_term_adv="TRUE"
-diff_term_adv="TRUE"
-diff_term_adv="TRUE"
-
-diff_term_adv="TRUE"
-diff_term_adv="TRUE"
-
-diff_term_adv="TRUE"
-diff_term_adv="TRUE"
-diff_term_adv="TRUE"
-diff_term_adv="TRUE"
-
-diff_term_adv="TRUE"
-diff_term_adv="TRUE"
-diff_term_adv="TRUE"
-diff_term_adv="TRUE" -->
-
-
 </pins>
 </part_info>
