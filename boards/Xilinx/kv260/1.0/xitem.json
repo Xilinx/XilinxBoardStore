@@ -4,9 +4,9 @@
       {
         "infra": {
           "name": "kv260", 
-          "display": "Humboldt KV260 Vision AI Starter Kit", 
+          "display": "Kria KV260 Vision AI Starter Kit", 
           "revision": "1.0", 
-          "description": "Humboldt KV260 Vision AI Starter Kit", 
+          "description": "Kria KV260 Vision AI Starter Kit", 
           "company": "xilinx.com", 
           "company_display": "Xilinx", 
           "author": "Vanitha", 
