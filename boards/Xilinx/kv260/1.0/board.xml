@@ -11,11 +11,11 @@
  License for the specific language governing permissions and limitations
  under the License. -->
 
-<board schema_version="2.2" vendor="xilinx.com" name="kv260" display_name="Humboldt KV260 Vision AI Starter Kit" url="www.xilinx.com" preset_file="preset.xml" supports_ced="false">
+<board schema_version="2.2" vendor="xilinx.com" name="kv260" display_name="Kria KV260 Vision AI Starter Kit" url="www.xilinx.com" preset_file="preset.xml" supports_ced="false">
 
 <images>
-    <image name="vsom_kit.jpg" display_name="Humboldt KV260 Vision AI Starter Kit" sub_type="board">
-      <description>Humboldt KV260 Vision AI starter Kit</description>
+    <image name="vsom_kit.jpg" display_name="Kria KV260 Vision AI Starter Kit" sub_type="board">
+      <description>Kria KV260 Vision AI starter Kit</description>
     </image>
 </images>
   
@@ -25,7 +25,7 @@
   
   <file_version>1.0</file_version>
   
-  <description>Humboldt KV260 Vision AI starter Kit</description>
+  <description>Kria KV260 Vision AI starter Kit</description>
   
   <parameters>
     <parameter name="heat_sink_type" value="medium" value_type="string"/>
