@@ -441,13 +441,13 @@
 						<preferred_ip vendor="xilinx.com" library="ip" name="i2s_receiver" order="0"/>
 					</preferred_ips>
 					<port_maps>					
-						<port_map logical_port="LRCLK_OUT" physical_port="lrclk_out_receiver" dir="out" >
+						<port_map logical_port="LRCLK_RX" physical_port="lrclk_out_receiver" dir="out" >
 							<pin_maps>
 								<pin_map port_index="0" component_pin="som240_1_b21"/>
 							</pin_maps>
 						</port_map>
 					
-						<port_map logical_port="SCLK_OUT" physical_port="sclk_out_receiver" dir="out" >
+						<port_map logical_port="SCLK_RX" physical_port="sclk_out_receiver" dir="out" >
 							<pin_maps>
 								<pin_map port_index="0" component_pin="som240_1_b22"/>
 							</pin_maps>
@@ -467,13 +467,13 @@
 						<preferred_ip vendor="xilinx.com" library="ip" name="i2s_transmiter" order="0"/>
 					</preferred_ips>
 					<port_maps>					
-						<port_map logical_port="LRCLK_OUT" physical_port="lrclk_out_transmiter" dir="out" >
+						<port_map logical_port="LRCLK_TX" physical_port="lrclk_out_transmiter" dir="out" >
 							<pin_maps>
 								<pin_map port_index="0" component_pin="som240_1_d20"/>
 							</pin_maps>
 						</port_map>
 					
-						<port_map logical_port="SCLK_OUT" physical_port="sclk_out_transmiter" dir="out" >
+						<port_map logical_port="SCLK_TX" physical_port="sclk_out_transmiter" dir="out" >
 							<pin_maps>
 								<pin_map port_index="0" component_pin="som240_1_d21"/>
 							</pin_maps>
