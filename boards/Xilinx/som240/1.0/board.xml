@@ -10,7 +10,7 @@
  License for the specific language governing permissions and limitations
  under the License. -->
 
-<board schema_version="2.2" vendor="xilinx.com" name="som240" display_name="Vision AI Starter Kit carrier card" url="" preset_file="preset.xml">
+<board schema_version="2.2" vendor="xilinx.com" name="som240" display_name="Vision AI Starter Kit carrier card" url="" preset_file="preset.xml" supports_ced="false">
 	<file_version>1.0</file_version> 
 	
 	<description>Vision AI Starter Kit carrier card</description>
@@ -435,7 +435,59 @@
 						</port_map>
 					</port_maps>
 			    </interface>	
-			
+				
+				<interface mode="slave" name="i2s_in" type="xilinx.com:interface:i2s_rtl:1.0" of_component="i2s_in" preset_proc="i2s_in_preset">
+					<preferred_ips>
+						<preferred_ip vendor="xilinx.com" library="ip" name="i2s_receiver" order="0"/>
+					</preferred_ips>
+					<port_maps>					
+						<port_map logical_port="LRCLK_RX" physical_port="lrclk_out_receiver" dir="out" >
+							<pin_maps>
+								<pin_map port_index="0" component_pin="som240_1_b21"/>
+							</pin_maps>
+						</port_map>
+					
+						<port_map logical_port="SCLK_RX" physical_port="sclk_out_receiver" dir="out" >
+							<pin_maps>
+								<pin_map port_index="0" component_pin="som240_1_b22"/>
+							</pin_maps>
+						</port_map>						
+											
+						<port_map logical_port="SDATA_0" physical_port="sdata_0_receiver" dir="in" >
+							<pin_maps>
+								<pin_map port_index="0" component_pin="som240_1_c22"/>
+							</pin_maps>
+						</port_map>		
+					</port_maps>
+			    </interface>	
+				
+				
+				<interface mode="master" name="i2s_out" type="xilinx.com:interface:i2s_rtl:1.0" of_component="i2s_out" preset_proc="i2s_out_preset">
+					<preferred_ips>
+						<preferred_ip vendor="xilinx.com" library="ip" name="i2s_transmiter" order="0"/>
+					</preferred_ips>
+					<port_maps>					
+						<port_map logical_port="LRCLK_TX" physical_port="lrclk_out_transmiter" dir="out" >
+							<pin_maps>
+								<pin_map port_index="0" component_pin="som240_1_d20"/>
+							</pin_maps>
+						</port_map>
+					
+						<port_map logical_port="SCLK_TX" physical_port="sclk_out_transmiter" dir="out" >
+							<pin_maps>
+								<pin_map port_index="0" component_pin="som240_1_d21"/>
+							</pin_maps>
+						</port_map>						
+											
+						<port_map logical_port="SDATA_0" physical_port="sdata_0_transmiter" dir="out" >
+							<pin_maps>
+								<pin_map port_index="0" component_pin="som240_1_d22"/>
+							</pin_maps>
+						</port_map>		
+					</port_maps>
+			    </interface>
+				
+		
 			</interfaces>
 			
 		</component>
@@ -461,8 +513,10 @@
 		</component>
 		
 		<component name="bank45_gpio" display_name="Bank 45 GPIO" type="chip" sub_type="led" major_group="General Purpose Input or Output"/> 
-
-	
+		
+		<component name="i2s_in" display_name="I2S RECEIVER" type="chip" sub_type="chip" major_group=""/>
+		<component name="i2s_out" display_name="I2S TRASMITTER" type="chip" sub_type="chip" major_group=""/> 		
+				
 	</components>
 	
 	
@@ -522,6 +576,18 @@
 			<connection_map name="som240_1_connector_bank45_gpio_connection_2" typical_delay="5" c1_st_index="78" c1_end_index="78" c2_st_index="2" c2_end_index="2"/>
 			<connection_map name="som240_1_connector_bank45_gpio_connection_3" typical_delay="5" c1_st_index="15" c1_end_index="15" c2_st_index="3" c2_end_index="3"/>
 			<connection_map name="som240_1_connector_bank45_gpio_connection_4" typical_delay="5" c1_st_index="141" c1_end_index="141" c2_st_index="4" c2_end_index="4"/>
+		</connection> 	
+
+		<connection name="som240_1_i2s_in_connection" component1="som240_1_connector" component2="i2s_in">
+			<connection_map name="som240_1_connector_i2s_in_connection_0" typical_delay="5" c1_st_index="81" c1_end_index="81" c2_st_index="0" c2_end_index="0"/>
+			<connection_map name="som240_1_connector_i2s_in_connection_1" typical_delay="5" c1_st_index="82" c1_end_index="82" c2_st_index="1" c2_end_index="1"/>
+			<connection_map name="som240_1_connector_i2s_in_connection_2" typical_delay="5" c1_st_index="142" c1_end_index="142" c2_st_index="2" c2_end_index="2"/>
+		</connection> 				
+		
+		<connection name="som240_1_i2s_out_connection" component1="som240_1_connector" component2="i2s_out">
+			<connection_map name="som240_1_connector_i2s_out_connection_0" typical_delay="5" c1_st_index="200" c1_end_index="200" c2_st_index="0" c2_end_index="0"/>
+			<connection_map name="som240_1_connector_i2s_out_connection_1" typical_delay="5" c1_st_index="201" c1_end_index="201" c2_st_index="1" c2_end_index="1"/>
+			<connection_map name="som240_1_connector_i2s_out_connection_2" typical_delay="5" c1_st_index="202" c1_end_index="202" c2_st_index="2" c2_end_index="2"/>
 		</connection> 			
 		
 	</connections> 
