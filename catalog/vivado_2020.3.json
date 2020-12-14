@@ -1807,25 +1807,6 @@
         "company": "xilinx.com"
       },
       {
-        "name": "vcu129_es",
-        "display": "Virtex Ultrascale+ 56G VCU129-ES Evaluation Platform",
-        "latest_revision": "1.0",
-        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
-        "revisions": [
-          {
-            "revision": "1.0",
-            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
-            "date": "29-10-2020",
-            "history": "Addressed linting issues"
-          }
-        ],
-        "config": {
-          "root": "boards/Xilinx/vcu129/es/1.0",
-          "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
-      },
-      {
         "name": "au280",
         "display": "Alveo U280 Data Center Accelerator Card",
         "latest_revision": "1.0",
