@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<!-- ##################################################################### -->
+<!-- ##TE File Version:1.2-->
+<!-- ##Vivado Version:2019.2-->
+<!-- ##TE Last Modification:2020.06.17-->
+<!-- ##################################################################### -->
+<!-- ##general board part description-->
+<!-- ##Info: board part name: board_vendor:board_name:part0:file_version  , use all lower case-->
+<board schema_version="2.1" vendor="trenz.biz" name="te0713_100_2c" display_name="Artix-7 TE0713-*-100-2C (1GB DDR)  *SPRT PCB: REV02, REV01" url="wiki.trenz-electronic.de" preset_file="preset.xml">
+  <images>
+    <image name="te0713_board.jpg" display_name="PCB Series Name" sub_type="board">
+      <description>PCB Series Name Board File Image</description>
+    </image>
+  </images>
+<!-- ##################################################################### -->
+<!-- ##Board PCB Revision -->
+<!-- ##Currently revision with highest id is only displayed in Vivado. Write supported revisions to description too!-->
+  <compatible_board_revisions>
+    <!--insert supported revisions-->
+    <revision id="0">0.2</revision>
+    <revision id="0">0.1</revision>
+  </compatible_board_revisions>
+<!-- ##################################################################### -->
+<!-- ##Board File Revision -->
+<!-- ##Description, see https://wiki.trenz-electronic.de/display/PD/TE+Board+Part+Files -->
+  <file_version>1.0</file_version>
+<!-- ##################################################################### -->
+<!-- ##Board descriptions -->
+  <description>Artix-7 TE0713-*-100-2C (1GB DDR) Board (form factor 4x5 cm) with 1GByte DDR3, speed grade -2 and commercial temperature grade. *Supported PCB Revisions: REV02, REV01.</description>
+<!-- ##################################################################### -->
+<!-- ##Board components. Special component part0=fpga -->
+<!-- ##set display_name and correct part_name for fpga-->
+<!-- ##add part interfaces and corresponding component here -->
+  <components>
+    <component name="part0" display_name="Artix-7 TE0713_100_2C" type="fpga" part_name="xc7a100tfgg484-2" pin_map_file="part0_pins.xml" vendor="xilinx.com" spec_url="www.xilinx.com">
+      <description>FPGA part on the board</description>
+      <interfaces>
+        <!--insert fpga interfaces here, see ug895 or other board part files-->
+        <interface mode="master" name="DDR3_SDRAM" type="xilinx.com:interface:ddrx_rtl:1.0" of_component="ddr3_sdram" preset_proc="ddr3_sdram_preset"> 
+          <description>DDR3 board interface, it can use MIG IP for connection.</description>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="mig_7series" order="0"/>
+          </preferred_ips>
+        </interface> 
+        
+        <interface mode="master" name="UART0" type="xilinx.com:interface:uart_rtl:1.0" of_component="uart0" preset_proc="uart_preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_uartlite" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TxD" physical_port="uart0_txd" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="J1_85"/> 
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="RxD" physical_port="uart0_rxd" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="J1_92"/> 
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        
+	      <interface mode="master" name="qspi_flash" type="xilinx.com:interface:spi_rtl:1.0" of_component="spi_flash" preset_proc="qspi_flash_preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_quad_spi" order="0"/>
+          </preferred_ips>
+          <port_maps>
+
+            <port_map logical_port="SS_I" physical_port="spi_ss_i" dir="in"> 
+              <pin_maps>
+                <pin_map port_index="0" component_pin="spi_ss"/> 
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SS_O" physical_port="spi_ss_o" dir="out"> 
+              <pin_maps>
+                <pin_map port_index="0" component_pin="spi_ss"/> 
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SS_T" physical_port="spi_ss_t" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="spi_ss"/> 
+              </pin_maps>
+            </port_map>
+
+            <port_map logical_port="IO0_I" physical_port="spi_io0_i" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="spi_io_0"/> 
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO0_O" physical_port="spi_io0_o" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="spi_io_0"/> 
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO0_T" physical_port="spi_io0_t" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="spi_io_0"/> 
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO1_I" physical_port="spi_io1_i" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="spi_io_1"/> 
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO1_O" physical_port="spi_io1_o" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="spi_io_1"/> 
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO1_T" physical_port="spi_io1_t" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="spi_io_1"/> 
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO2_I" physical_port="spi_io2_i" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="spi_io_2"/> 
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO2_O" physical_port="spi_io2_o" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="spi_io_2"/> 
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO2_T" physical_port="spi_io2_t" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="spi_io_2"/> 
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO3_I" physical_port="spi_io3_i" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="spi_io_3"/> 
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO3_O" physical_port="spi_io3_o" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="spi_io_3"/> 
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO3_T" physical_port="spi_io3_t" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="spi_io_3"/> 
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        
+        <interface mode="slave" name="reset" type="xilinx.com:signal:reset_rtl:1.0" of_component="reset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="mig_7series" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="RST" physical_port="RESET" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="RESET"/> 
+              </pin_maps>
+            </port_map>
+          </port_maps>
+          <parameters>
+            <parameter name="rst_polarity" value="1" />
+          </parameters>
+        </interface>
+        
+        <interface mode="slave" name="sys_diff_clock" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="sys_diff_clock">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="clk_wiz" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="sysdiff_clkp" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="sys_diff_clkp"/> 
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CLK_N" physical_port="sysdiff_clkn" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="sys_diff_clkn"/> 
+              </pin_maps>
+            </port_map>
+          </port_maps>
+          <parameters>
+            <parameter name="frequency" value="200000000" />
+          </parameters>
+        </interface>
+        
+        <interface mode="slave" name="mgt_clk0" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="mgt_clk0" preset_proc="mgt_refclk_preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="clk_wiz" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="mgt_clk0p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="mgt_diff_clkp"/> 
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CLK_N" physical_port="mgt_clk0n" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="mgt_diff_clkn"/> 
+              </pin_maps>
+            </port_map>
+          </port_maps>
+          <parameters>
+            <parameter name="frequency" value="125000000" />
+          </parameters>
+        </interface>	
+        
+	      <interface mode="master" name="PLL_I2C" type="xilinx.com:interface:iic_rtl:1.0" of_component="iic_main0">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_iic" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="SDA_I" physical_port="iic_main0_sda_i" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="iic_main0_sda_i"/> 
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SDA_O" physical_port="iic_main0_sda_o" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="iic_main0_sda_i"/> 
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SDA_T" physical_port="iic_main0_sda_t" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="iic_main0_sda_i"/> 
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SCL_I" physical_port="iic_main0_scl_i" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="iic_main0_scl_i"/> 
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SCL_O" physical_port="iic_main0_scl_o" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="iic_main0_scl_i"/> 
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SCL_T" physical_port="iic_main0_scl_t" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="iic_main0_scl_i"/> 
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        
+      </interfaces>
+    </component>
+    <!--insert interface components here, see ug895 or other board part files-->
+    <component name="ddr3_sdram" display_name="DDR3 SDRAM" type="chip" sub_type="ddr" major_group="External Memory" part_name="IM4G16D3FABG" vendor="IM" spec_url="www.intelligentmemory.com/dram/ddr3-sdram/">
+      <description>DDR3 memory device </description>
+      <parameters>
+        <parameter name="ddr_type" value="ddr3"/>
+      </parameters>
+    </component>  
+
+    <component name="uart0" display_name="BASE_UART" type="chip" sub_type="uart" major_group="Miscellaneous">
+      <description>USB-to-UART Bridge, which allows a connection to a host computer with a USB port </description>
+    </component>
+    
+    <component name="spi_flash" display_name="SPI flash" type="chip" sub_type="memory_flash_qspi" major_group="External Memory" part_name="S25FL256S" vendor="Spansion">
+      <description>32 MByte storage that can be used for configuration or data storage</description>
+    </component>
+    
+    <component name="reset" display_name="FPGA Reset" type="chip" sub_type="system_reset" major_group="Reset">
+      <description>Active High: On unused pin T3, need pull down property</description>
+    </component>
+    
+    <component name="sys_diff_clock" display_name="System differential clock" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="SI5338" vendor="Silicon Labs" spec_url="www.silabs.com">
+      <description>differential 200 MHz oscillator used as system differential clock on the board</description>
+      <parameters>
+        <parameter name="frequency" value="200000000"/>
+      </parameters>
+    </component>
+    
+    <component name="mgt_clk0" display_name="MGT Clock0" type="chip" sub_type="mgt_clock" major_group="Clock Sources">
+      <description>MGT clock 0</description>
+      <parameters>
+        <parameter name="frequency" value="125000000"/>
+      </parameters>
+    </component>	
+    
+    <component name="iic_main0" display_name="PLL_I2C" type="chip" sub_type="MUX" major_group="Miscellaneous">
+      <description>I2C</description>
+    </component>
+    
+  </components>
+<!-- ##################################################################### -->
+<!-- ##Board jtag chains for partx  -->
+  <jtag_chains>
+    <jtag_chain name="chain1">
+      <position name="0" component="part0"/>
+    </jtag_chain>
+  </jtag_chains>
+<!-- ##################################################################### -->
+<!-- ##connections between interfaces definition and part0_pins.xml  -->
+  <connections>
+    <!--insert interface connections here, see ug895 or other board part files-->
+    <connection name="part0_uart0" component1="part0" component2="uart0">
+      <connection_map name="part0_uart0_1" c1_st_index="0" c1_end_index="1" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+    
+    <connection name="part0_spi_flash" component1="part0" component2="spi_flash">
+      <connection_map name="part0_spi_flash_1" c1_st_index="2" c1_end_index="6" c2_st_index="0" c2_end_index="4"/>
+    </connection>
+    
+    <connection name="part0_reset" component1="part0" component2="reset">
+      <connection_map name="part0_reset_1" c1_st_index="7" c1_end_index="7" c2_st_index="0" c2_end_index="0"/>
+    </connection>
+    
+    <connection name="part0_sys_diff_clock" component1="part0" component2="sys_diff_clock">
+      <connection_map name="part0_sys_diff_clock_1" c1_st_index="8" c1_end_index="9" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+    
+    <connection name="part0_mgt_clk0" component1="part0" component2="mgt_clk0">
+      <connection_map name="part0_mgt_clk0_1" c1_st_index="10" c1_end_index="11" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+    
+    <connection name="part0_iic_main0" component1="part0" component2="iic_main0">
+      <connection_map name="part0_iic_main0_1" c1_st_index="12" c1_end_index="13" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+    
+  </connections>
+<!-- ##################################################################### -->
+<!-- ##Additional IO interface rules-->
+  <ip_associated_rules>
+    <ip_associated_rule name="default">
+      <!--insert interface ip rules here, see ug895 or other board part files-->
+    </ip_associated_rule>
+  </ip_associated_rules>
+<!-- ##################################################################### -->
+</board>
