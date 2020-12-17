@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<board schema_version="2.1" vendor="tul.com.tw" name="pynqzu" display_name="Zynq UltraScale+ PYNQ-ZU Development Board" url="http://www.tul.com.tw" preset_file="preset.xml">
+ 
+<images>
+<image name="pynqzu_board.png" display_name="PYNQ-ZU BOARD" sub_type="board">
+  <description>PYNQ-ZU Board File Image</description>
+</image>
+</images>
+  
+<compatible_board_revisions>
+ <revision id="0">RevB</revision>
+</compatible_board_revisions>
+
+<file_version>1.1</file_version>
+
+<description>Zynq UltraScale+ PYNQ-ZU Development Board</description>
+
+<components>
+    <component name="part0" display_name="Zynq chip on board" type="fpga" part_name="xczu5eg-sfvc784-1-e" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="www.tul.com.tw/ProductsPYNQ-ZU">
+  	  <interfaces>   
+        <interface mode="master" name="ps8_fixedio" type="xilinx.com:zynq_ultra_ps_e:fixedio_rtl:1.0" of_component="ps8_fixedio" preset_proc="zynq_ultra_ps_e_preset"> 
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="zynq_ultra_ps_e" order="0"/>
+          </preferred_ips>
+        </interface>						
+	    <interface mode="master" name="dip_switch_4bits" type="xilinx.com:interface:gpio_rtl:1.0" of_component="dip_switch_4bits" preset_proc="DIP_SWITCH_4Bits_Preset"> 
+          <description>4-Position User DIP Switch</description>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_I" physical_port="dip_switches_tri_i" dir="in" left="3" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="GPIO_DIP_SW_0"/>
+                <pin_map port_index="1" component_pin="GPIO_DIP_SW_1"/>
+                <pin_map port_index="2" component_pin="GPIO_DIP_SW_2"/>
+                <pin_map port_index="3" component_pin="GPIO_DIP_SW_3"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        <interface mode="master" name="led_4bits" type="xilinx.com:interface:gpio_rtl:1.0" of_component="led_4bits" preset_proc="LED_4Bits_Preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_O" physical_port="led_4bits_tri_o" dir="out" left="3" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="GPIO_LED_0"/>
+                <pin_map port_index="1" component_pin="GPIO_LED_1"/>
+                <pin_map port_index="2" component_pin="GPIO_LED_2"/>
+                <pin_map port_index="3" component_pin="GPIO_LED_3"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        <interface mode="master" name="push_button_4bits" type="xilinx.com:interface:gpio_rtl:1.0" of_component="push_button_4bits" preset_proc="PUSH_BUTTON_4Bits_Preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_I" physical_port="push_buttons_4bits_tri" dir="in" left="3" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="GPIO_PB_0"/>
+                <pin_map port_index="1" component_pin="GPIO_PB_1"/>
+                <pin_map port_index="2" component_pin="GPIO_PB_2"/>
+                <pin_map port_index="3" component_pin="GPIO_PB_3"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>		
+        <interface mode="master" name="rgbleds" type="xilinx.com:interface:gpio_rtl:1.0" of_component="rgbleds" preset_proc="rgbleds_Preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_O" physical_port="rgbleds_tri_o" dir="out" left="5" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="GPIO_RGBLED0_B_0"/>
+                <pin_map port_index="1" component_pin="GPIO_RGBLED0_G_0"/>
+                <pin_map port_index="2" component_pin="GPIO_RGBLED0_R_0"/>
+                <pin_map port_index="3" component_pin="GPIO_RGBLED1_B_0"/>
+                <pin_map port_index="4" component_pin="GPIO_RGBLED1_G_0"/>
+                <pin_map port_index="5" component_pin="GPIO_RGBLED1_R_0"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        <interface mode="master" name="pmod0" type="xilinx.com:interface:gpio_rtl:1.0" of_component="pmod0" preset_proc="pmod0_Preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_O" physical_port="pmod0_tri_o" dir="in" left="7" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pmod0_0"/>
+                <pin_map port_index="1" component_pin="pmod0_1"/>
+                <pin_map port_index="2" component_pin="pmod0_2"/>
+                <pin_map port_index="3" component_pin="pmod0_3"/>
+                <pin_map port_index="4" component_pin="pmod0_4"/>
+                <pin_map port_index="5" component_pin="pmod0_5"/>
+                <pin_map port_index="6" component_pin="pmod0_6"/>
+                <pin_map port_index="7" component_pin="pmod0_7"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="TRI_I" physical_port="pmod0_tri_i" dir="out" left="7" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pmod0_0"/>
+                <pin_map port_index="1" component_pin="pmod0_1"/>
+                <pin_map port_index="2" component_pin="pmod0_2"/>
+                <pin_map port_index="3" component_pin="pmod0_3"/>
+                <pin_map port_index="4" component_pin="pmod0_4"/>
+                <pin_map port_index="5" component_pin="pmod0_5"/>
+                <pin_map port_index="6" component_pin="pmod0_6"/>
+                <pin_map port_index="7" component_pin="pmod0_7"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="TRI_T" physical_port="pmod0_tri_t" dir="out" left="7" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pmod0_0"/>
+                <pin_map port_index="1" component_pin="pmod0_1"/>
+                <pin_map port_index="2" component_pin="pmod0_2"/>
+                <pin_map port_index="3" component_pin="pmod0_3"/>
+                <pin_map port_index="4" component_pin="pmod0_4"/>
+                <pin_map port_index="5" component_pin="pmod0_5"/>
+                <pin_map port_index="6" component_pin="pmod0_6"/>
+                <pin_map port_index="7" component_pin="pmod0_7"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        <interface mode="master" name="pmod1" type="xilinx.com:interface:gpio_rtl:1.0" of_component="pmod1" preset_proc="pmod1_Preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_O" physical_port="pmod1_tri_o" dir="in" left="7" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pmod1_0"/>
+                <pin_map port_index="1" component_pin="pmod1_1"/>
+                <pin_map port_index="2" component_pin="pmod1_2"/>
+                <pin_map port_index="3" component_pin="pmod1_3"/>
+                <pin_map port_index="4" component_pin="pmod1_4"/>
+                <pin_map port_index="5" component_pin="pmod1_5"/>
+                <pin_map port_index="6" component_pin="pmod1_6"/>
+                <pin_map port_index="7" component_pin="pmod1_7"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="TRI_I" physical_port="pmod1_tri_i" dir="out" left="7" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pmod1_0"/>
+                <pin_map port_index="1" component_pin="pmod1_1"/>
+                <pin_map port_index="2" component_pin="pmod1_2"/>
+                <pin_map port_index="3" component_pin="pmod1_3"/>
+                <pin_map port_index="4" component_pin="pmod1_4"/>
+                <pin_map port_index="5" component_pin="pmod1_5"/>
+                <pin_map port_index="6" component_pin="pmod1_6"/>
+                <pin_map port_index="7" component_pin="pmod1_7"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="TRI_T" physical_port="pmod1_tri_t" dir="out" left="7" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pmod1_0"/>
+                <pin_map port_index="1" component_pin="pmod1_1"/>
+                <pin_map port_index="2" component_pin="pmod1_2"/>
+                <pin_map port_index="3" component_pin="pmod1_3"/>
+                <pin_map port_index="4" component_pin="pmod1_4"/>
+                <pin_map port_index="5" component_pin="pmod1_5"/>
+                <pin_map port_index="6" component_pin="pmod1_6"/>
+                <pin_map port_index="7" component_pin="pmod1_7"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        <interface mode="master" name="grove0" type="xilinx.com:interface:gpio_rtl:1.0" of_component="grove0" preset_proc="grove0_preset">
+		  <preferred_ips>
+			<preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+		  </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_O" physical_port="grove0_tri_o" dir="in" left="1" right="0">
+             <pin_maps> 
+              <pin_map port_index="0"  component_pin="GPIO_GROVE0_0"/> 
+              <pin_map port_index="1"  component_pin="GPIO_GROVE0_1"/> 
+             </pin_maps>
+            </port_map>
+            <port_map logical_port="TRI_I" physical_port="grove0_tri_i" dir="out" left="1" right="0"> 
+             <pin_maps>
+              <pin_map port_index="0"  component_pin="GPIO_GROVE0_0"/> 
+              <pin_map port_index="1"  component_pin="GPIO_GROVE0_1"/> 
+             </pin_maps>
+            </port_map>
+            <port_map logical_port="TRI_T" physical_port="grove0_tri_t" dir="out" left="1" right="0"> 
+             <pin_maps>
+              <pin_map port_index="0"  component_pin="GPIO_GROVE0_0"/> 
+              <pin_map port_index="1"  component_pin="GPIO_GROVE0_1"/> 
+             </pin_maps>			
+            </port_map>		 
+          </port_maps>
+        </interface>
+        <interface mode="master" name="grove1" type="xilinx.com:interface:gpio_rtl:1.0" of_component="grove1" preset_proc="grove1_preset">
+		  <preferred_ips>
+			<preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+		  </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_O" physical_port="grove1_tri_o" dir="in" left="1" right="0">
+             <pin_maps> 
+              <pin_map port_index="0"  component_pin="GPIO_GROVE1_0"/> 
+              <pin_map port_index="1"  component_pin="GPIO_GROVE1_1"/> 
+             </pin_maps>
+            </port_map>
+            <port_map logical_port="TRI_I" physical_port="grove1_tri_i" dir="out" left="1" right="0"> 
+             <pin_maps>
+              <pin_map port_index="0"  component_pin="GPIO_GROVE1_0"/> 
+              <pin_map port_index="1"  component_pin="GPIO_GROVE1_1"/> 
+             </pin_maps>
+            </port_map>
+            <port_map logical_port="TRI_T" physical_port="grove1_tri_t" dir="out" left="1" right="0"> 
+             <pin_maps>
+              <pin_map port_index="0"  component_pin="GPIO_GROVE1_0"/> 
+              <pin_map port_index="1"  component_pin="GPIO_GROVE1_1"/> 
+             </pin_maps>			
+            </port_map>		 
+          </port_maps>
+        </interface>
+        <interface mode="master" name="raspberry_pi" type="xilinx.com:interface:gpio_rtl:1.0" of_component="raspberry_pi" preset_proc="raspberry_pi_preset">
+		  <preferred_ips>
+			<preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+		  </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_O" physical_port="raspberry_pi_tri_o" dir="in" left="27" right="0">
+             <pin_maps> 
+              <pin_map port_index="0"  component_pin="raspberry_pi_0"/> 
+              <pin_map port_index="1"  component_pin="raspberry_pi_1"/> 
+              <pin_map port_index="2"  component_pin="raspberry_pi_2"/> 
+              <pin_map port_index="3"  component_pin="raspberry_pi_3"/> 
+              <pin_map port_index="4"  component_pin="raspberry_pi_4"/> 
+              <pin_map port_index="5"  component_pin="raspberry_pi_5"/> 
+              <pin_map port_index="6"  component_pin="raspberry_pi_6"/> 
+              <pin_map port_index="7"  component_pin="raspberry_pi_7"/> 
+              <pin_map port_index="8"  component_pin="raspberry_pi_8"/> 
+              <pin_map port_index="9"  component_pin="raspberry_pi_9"/> 
+              <pin_map port_index="10" component_pin="raspberry_pi_10"/> 
+              <pin_map port_index="11" component_pin="raspberry_pi_11"/> 
+              <pin_map port_index="12" component_pin="raspberry_pi_12"/> 
+              <pin_map port_index="13" component_pin="raspberry_pi_13"/> 
+              <pin_map port_index="14" component_pin="raspberry_pi_14"/> 
+              <pin_map port_index="15" component_pin="raspberry_pi_15"/>
+			  <pin_map port_index="16" component_pin="raspberry_pi_16"/> 
+              <pin_map port_index="17" component_pin="raspberry_pi_17"/> 
+              <pin_map port_index="18" component_pin="raspberry_pi_18"/> 
+              <pin_map port_index="19" component_pin="raspberry_pi_19"/>
+			  <pin_map port_index="20" component_pin="raspberry_pi_20"/> 
+              <pin_map port_index="21" component_pin="raspberry_pi_21"/> 
+              <pin_map port_index="22" component_pin="raspberry_pi_22"/> 
+              <pin_map port_index="23" component_pin="raspberry_pi_23"/> 
+              <pin_map port_index="24" component_pin="raspberry_pi_24"/> 
+              <pin_map port_index="25" component_pin="raspberry_pi_25"/> 
+              <pin_map port_index="26" component_pin="raspberry_pi_26"/> 
+              <pin_map port_index="27" component_pin="raspberry_pi_27"/>                            
+             </pin_maps>
+            </port_map>
+            <port_map logical_port="TRI_I" physical_port="raspberry_pi_tri_i" dir="out" left="27" right="0"> 
+             <pin_maps>
+              <pin_map port_index="0"  component_pin="raspberry_pi_0"/> 
+              <pin_map port_index="1"  component_pin="raspberry_pi_1"/> 
+              <pin_map port_index="2"  component_pin="raspberry_pi_2"/> 
+              <pin_map port_index="3"  component_pin="raspberry_pi_3"/> 
+              <pin_map port_index="4"  component_pin="raspberry_pi_4"/> 
+              <pin_map port_index="5"  component_pin="raspberry_pi_5"/> 
+              <pin_map port_index="6"  component_pin="raspberry_pi_6"/> 
+              <pin_map port_index="7"  component_pin="raspberry_pi_7"/> 
+              <pin_map port_index="8"  component_pin="raspberry_pi_8"/> 
+              <pin_map port_index="9"  component_pin="raspberry_pi_9"/> 
+              <pin_map port_index="10" component_pin="raspberry_pi_10"/> 
+              <pin_map port_index="11" component_pin="raspberry_pi_11"/> 
+              <pin_map port_index="12" component_pin="raspberry_pi_12"/> 
+              <pin_map port_index="13" component_pin="raspberry_pi_13"/> 
+              <pin_map port_index="14" component_pin="raspberry_pi_14"/> 
+              <pin_map port_index="15" component_pin="raspberry_pi_15"/>
+			  <pin_map port_index="16" component_pin="raspberry_pi_16"/> 
+              <pin_map port_index="17" component_pin="raspberry_pi_17"/> 
+              <pin_map port_index="18" component_pin="raspberry_pi_18"/> 
+              <pin_map port_index="19" component_pin="raspberry_pi_19"/>
+			  <pin_map port_index="20" component_pin="raspberry_pi_20"/> 
+              <pin_map port_index="21" component_pin="raspberry_pi_21"/> 
+              <pin_map port_index="22" component_pin="raspberry_pi_22"/> 
+              <pin_map port_index="23" component_pin="raspberry_pi_23"/> 
+              <pin_map port_index="24" component_pin="raspberry_pi_24"/> 
+              <pin_map port_index="25" component_pin="raspberry_pi_25"/> 
+              <pin_map port_index="26" component_pin="raspberry_pi_26"/> 
+              <pin_map port_index="27" component_pin="raspberry_pi_27"/>              
+             </pin_maps>
+            </port_map>
+            <port_map logical_port="TRI_T" physical_port="raspberry_pi_tri_t" dir="out" left="27" right="0"> 
+             <pin_maps>
+              <pin_map port_index="0"  component_pin="raspberry_pi_0"/> 
+              <pin_map port_index="1"  component_pin="raspberry_pi_1"/> 
+              <pin_map port_index="2"  component_pin="raspberry_pi_2"/> 
+              <pin_map port_index="3"  component_pin="raspberry_pi_3"/> 
+              <pin_map port_index="4"  component_pin="raspberry_pi_4"/> 
+              <pin_map port_index="5"  component_pin="raspberry_pi_5"/> 
+              <pin_map port_index="6"  component_pin="raspberry_pi_6"/> 
+              <pin_map port_index="7"  component_pin="raspberry_pi_7"/> 
+              <pin_map port_index="8"  component_pin="raspberry_pi_8"/> 
+              <pin_map port_index="9"  component_pin="raspberry_pi_9"/> 
+              <pin_map port_index="10" component_pin="raspberry_pi_10"/> 
+              <pin_map port_index="11" component_pin="raspberry_pi_11"/> 
+              <pin_map port_index="12" component_pin="raspberry_pi_12"/> 
+              <pin_map port_index="13" component_pin="raspberry_pi_13"/> 
+              <pin_map port_index="14" component_pin="raspberry_pi_14"/> 
+              <pin_map port_index="15" component_pin="raspberry_pi_15"/>
+			  <pin_map port_index="16" component_pin="raspberry_pi_16"/> 
+              <pin_map port_index="17" component_pin="raspberry_pi_17"/> 
+              <pin_map port_index="18" component_pin="raspberry_pi_18"/> 
+              <pin_map port_index="19" component_pin="raspberry_pi_19"/>
+			  <pin_map port_index="20" component_pin="raspberry_pi_20"/> 
+              <pin_map port_index="21" component_pin="raspberry_pi_21"/> 
+              <pin_map port_index="22" component_pin="raspberry_pi_22"/> 
+              <pin_map port_index="23" component_pin="raspberry_pi_23"/> 
+              <pin_map port_index="24" component_pin="raspberry_pi_24"/> 
+              <pin_map port_index="25" component_pin="raspberry_pi_25"/> 
+              <pin_map port_index="26" component_pin="raspberry_pi_26"/> 
+              <pin_map port_index="27" component_pin="raspberry_pi_27"/>              
+             </pin_maps>			
+            </port_map>		 
+          </port_maps>
+        </interface>
+	    <interface mode="slave" name="clk_125mhz" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="clk_125mhz">
+          <parameters>
+            <parameter name="frequency" value="125000000"/>
+          </parameters>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="clk_wiz" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="CLK_125_P" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CLK_125_P"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CLK_N" physical_port="CLK_125_N" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CLK_125_N"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        <interface mode="master" name="audio_addr" type="xilinx.com:interface:gpio_rtl:1.0" of_component="audio_addr" preset_proc="audio_addr_preset">
+          <port_maps>
+            <port_map logical_port="TRI_O" physical_port="audio_adr_o" dir="out" left="1" right="0"> 
+             <pin_maps>
+              <pin_map port_index="0" component_pin="audio_adr_0"/> 
+              <pin_map port_index="1" component_pin="audio_adr_1"/>              
+             </pin_maps>
+            </port_map>
+		    <port_map logical_port="TRI_I" physical_port="audio_adr_o" dir="in" left="1" right="0"> 
+             <pin_maps>
+              <pin_map port_index="0" component_pin="audio_adr_0"/> 
+              <pin_map port_index="1" component_pin="audio_adr_1"/>               
+             </pin_maps>
+            </port_map>
+		    <port_map logical_port="TRI_T" physical_port="audio_adr_o" dir="out" left="1" right="0"> 
+             <pin_maps>
+              <pin_map port_index="0" component_pin="audio_adr_0"/> 
+              <pin_map port_index="1" component_pin="audio_adr_1"/>               
+             </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+	    <interface mode="master" name="audio_clock" type="xilinx.com:signal:clock_rtl:1.0" of_component="audio_clock" preset_proc="audio_clock_preset">
+          <port_maps>
+            <port_map logical_port="CLK" physical_port="audio_clk" dir="out">
+             <pin_maps>
+              <pin_map port_index="0" component_pin="audio_clk"/> 
+             </pin_maps>
+            </port_map>
+          </port_maps> 
+          <parameters>
+             <parameter name="frequency" value="10000000" />
+          </parameters>	
+        </interface>	    
+		<interface mode="master" name="audio_i2s" type="xilinx.com:interface:audio_i2s_rtl:1.0" of_component="audio_i2s" preset_proc="audio_i2s_preset">        
+		  <port_maps>
+            <port_map logical_port="bclk" physical_port="bclk_i" dir="out">
+             <pin_maps>
+              <pin_map port_index="0" component_pin="bclk_i"/> 
+             </pin_maps>
+            </port_map>
+            <port_map logical_port="wclk" physical_port="wclk_i" dir="out">
+             <pin_maps>
+              <pin_map port_index="1" component_pin="wclk_i"/> 
+             </pin_maps>
+            </port_map>          
+            <port_map logical_port="sdata_out_O" physical_port="sdata_out_i_o" dir="out">
+             <pin_maps>
+              <pin_map port_index="2" component_pin="sdata_out_i"/> 
+             </pin_maps>
+            </port_map>
+            <port_map logical_port="sdata_in_I" physical_port="sdata_in_i" dir="in">
+		     <pin_maps>
+              <pin_map port_index="3" component_pin="sdata_in_i"/> 
+             </pin_maps>
+            </port_map>		 
+          </port_maps>
+        </interface>
+ 	    <interface mode="slave" name="reset" type="xilinx.com:signal:reset_rtl:1.0" of_component="reset">
+          <parameters>
+            <parameter name="rst_polarity" value="0"/>
+          </parameters>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="proc_sys_reset" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="RESET" physical_port="reset" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="URST_B"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface> 		
+      </interfaces>
+    </component>
+	
+    <component name="ps8_fixedio" display_name="PS8 fixed IO" type="chip" sub_type="fixed_io" major_group=""/>
+    <component name="reset" display_name="User Reset" type="chip" sub_type="system_reset" major_group="Reset">
+      <description>User Reset Push Button, Active Low</description>
+    </component>	
+    <component name="dip_switch_4bits" display_name="DIP switches" type="chip" sub_type="switch" major_group="General Purpose Input or Output">
+      <description>DIP Switches 3 to 0</description>
+    </component>
+    <component name="led_4bits" display_name="LED" type="chip" sub_type="led" major_group="General Purpose Input or Output">
+      <description>LEDs, 3 to 0, Active High</description>
+    </component>
+    <component name="push_button_4bits" display_name="Push buttons" type="chip" sub_type="push_button" major_group="General Purpose Input or Output">
+      <description>Push Buttons, 3 to 0, Active High</description>
+    </component>
+    <component name="rgbleds" display_name="REGLEDs" type="chip" sub_type="led" major_group="General Purpose Input or Output">
+      <description>RGB1 and RGB0, Active High</description>
+    </component>
+    <component name="pmod0" display_name="PMOD0" type="chip" sub_type="pmod" major_group="PMOD">
+      <description>Pmod0 Connector</description>
+    </component>
+    <component name="pmod1" display_name="PMOD1" type="chip" sub_type="chip" major_group="PMOD">
+      <description>Pmod1 Connector</description>
+    </component>
+    <component name="grove0" display_name="grove0" type="chip" sub_type="chip" major_group="General Purpose Input or Output">
+      <description>Grove0 Connector</description>
+    </component>
+    <component name="grove1" display_name="grove1" type="chip" sub_type="chip" major_group="General Purpose Input or Output">
+      <description>Grove1 Connector</description>
+    </component> 	
+    <component name="raspberry_pi" display_name="RaspberryPi" type="chip" sub_type="chip" major_group="RaspberryPi">
+      <description>RaspberryPi Connector</description>
+    </component>
+	<component name="clk_125mhz" display_name="Differential Clock (125MHz) for PL" type="chip" sub_type="system_clock" major_group="Clock Sources" >
+      <description>User 125 MHz differential FPGA Clock</description>
+      <parameters>
+        <parameter name="frequency" value="125000000"/>
+      </parameters>
+    </component>
+    <component name="audio_addr" display_name="Audio Address" type="chip" sub_type="mux" major_group="Audio">
+      <description>Audio I2C Address</description>
+    </component> 
+    <component name="audio_clock" display_name="Audio MCLK" type="chip" sub_type="mux" major_group="Audio">
+      <description>Audio Master Clock 10 MHz</description>
+    </component>    
+    <component name="audio_i2s" display_name="Audio I2S" type="chip" sub_type="mux" major_group="Audio">
+      <description>Audio I2S interface</description>
+    </component>
+</components>
+	
+<jtag_chains>
+	<jtag_chain name="chain1">
+	  <position name="0" component="part0"/>
+	</jtag_chain>
+</jtag_chains>
+  
+  
+<connections>   
+	<connection name="Part0_DIP_SWITCH_4Bits" component1="part0" component2="dip_switch_4bits">
+      <connection_map name="Part0_DIP_SWITCH_4Bits_1" typical_delay="5" c1_st_index="0" c1_end_index="3" c2_st_index="0" c2_end_index="3"/>
+    </connection>    
+	<connection name="Part0_LED_4Bits" component1="part0" component2="led_4bits">
+      <connection_map name="Part0_LED_4Bits_1" typical_delay="5" c1_st_index="4" c1_end_index="7" c2_st_index="0" c2_end_index="3"/>
+    </connection>
+	<connection name="Part0_PUSH_BUTTON_4Bits" component1="part0" component2="push_button_4bits">
+      <connection_map name="Part0_PUSH_BUTTON_4Bits_1" typical_delay="5" c1_st_index="8" c1_end_index="11" c2_st_index="0" c2_end_index="3"/>
+    </connection>
+	<connection name="rgbleds" component1="part0" component2="rgbleds">
+      <connection_map name="Part0_rgbleds" typical_delay="5" c1_st_index="12" c1_end_index="17" c2_st_index="0" c2_end_index="5"/>
+    </connection>
+	<connection name="part0_pmod0" component1="part0" component2="pmod0">
+      <connection_map name="Part0_pmod0_1" typical_delay="5" c1_st_index="18" c1_end_index="25" c2_st_index="0" c2_end_index="7"/>
+    </connection>
+	<connection name="part0_pmod1" component1="part0" component2="pmod1">
+      <connection_map name="Part0_pmod1_1" typical_delay="5" c1_st_index="26" c1_end_index="33" c2_st_index="0" c2_end_index="7"/>
+    </connection>
+	<connection name="part0_grove0" component1="part0" component2="grove0">
+      <connection_map name="Part0_grove0" typical_delay="5" c1_st_index="34" c1_end_index="35" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+	<connection name="part0_grove1" component1="part0" component2="grove1">
+      <connection_map name="Part0_grove1" typical_delay="5" c1_st_index="36" c1_end_index="37" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+	<connection name="part0_raspberry_pi" component1="part0" component2="raspberry_pi">
+      <connection_map name="Part0_raspberry_pi_0" typical_delay="5" c1_st_index="38" c1_end_index="65" c2_st_index="0" c2_end_index="27"/>
+    </connection>
+  	<connection name="Part0_CLK_125MZ" component1="part0" component2="clk_125mhz">
+	  <connection_map name="Part0_CLK_125MHz_1" typical_delay="5" c1_st_index="66" c1_end_index="67" c2_st_index="0" c2_end_index="1"/>
+	</connection>
+    <connection name="part0_audio_addr" component1="part0" component2="audio_addr">
+       <connection_map name="audio_addr_1" c1_st_index="68" c1_end_index="69" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+    <connection name="part0_audio_clock" component1="part0" component2="audio_clock">
+       <connection_map name="audio_clock_1" c1_st_index="70" c1_end_index="70" c2_st_index="0" c2_end_index="0"/>
+    </connection>
+    <connection name="part0_audio_i2s" component1="part0" component2="audio_i2s">
+      <connection_map name="audio_i2s_1" c1_st_index="71" c1_end_index="74" c2_st_index="0" c2_end_index="3"/>
+    </connection>
+ 	<connection name="Part0_reset" component1="part0" component2="reset">
+      <connection_map name="Part0_reset_1" typical_delay="5" c1_st_index="75" c1_end_index="75" component2="reset" c2_st_index="0" c2_end_index="0"/>
+    </connection>
+</connections>
+
+</board>
+
