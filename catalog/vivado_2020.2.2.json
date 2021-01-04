@@ -2888,44 +2888,6 @@
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
-      },
-      {
-        "name": "kv260",
-        "display": "Kria KV260 Vision AI Starter Kit",
-        "latest_revision": "1.0",
-        "commit_id": "b5bec80c9d2dc9f1a3faef6c4c5254049f782943",
-        "revisions": [
-          {
-            "revision": "1.0",
-            "commit_id": "b5bec80c9d2dc9f1a3faef6c4c5254049f782943",
-            "date": "15-12-2020:06:06:51",
-            "history": "Added board Kria KV260 Vision AI Starter Kit v1.0"
-          }
-        ],
-        "config": {
-          "root": "boards/Xilinx/kv260/1.0",
-          "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
-      },
-      {
-        "name": "som240",
-        "display": "Vision AI Starter Kit carrier card",
-        "latest_revision": "1.0",
-        "commit_id": "b5bec80c9d2dc9f1a3faef6c4c5254049f782943",
-        "revisions": [
-          {
-            "revision": "1.0",
-            "commit_id": "b5bec80c9d2dc9f1a3faef6c4c5254049f782943",
-            "date": "15-12-2020:06:06:51",
-            "history": "Added board Vision AI Starter Kit carrier card v1.0"
-          }
-        ],
-        "config": {
-          "root": "boards/Xilinx/som240/1.0",
-          "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
       }
     ],
     "categories": [
