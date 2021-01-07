@@ -1,6 +1,6 @@
 {
   "catalog": {
-    "current_branch": "master", 
+    "current_branch": "2020.3", 
     "supported_products": [
       {
         "product_name": "vivado", 
