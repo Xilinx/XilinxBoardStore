@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
 <!-- ##################################################################### -->
 <!-- ##TE File Version:1.2-->
-<!-- ##Vivado Version:2018.2-->
-<!-- ##TE Last Modification:2018.09.19-->
+<!-- ##Vivado Version:2019.2-->
+<!-- ##TE Last Modification:2020.01.06-->
 <!-- ##################################################################### -->
 <!-- ##general board part description-->
 <!-- ##Info: board part name: board_vendor:board_name:part0:file_version  , use all lower case -->
-<board schema_version="2.1" vendor="trenz.biz" name="te0726_01" display_name="ZYNQ-7 TE0726_01 (64MB DDR). SPRT PCB: REV01." url="trenz.org/te0726-info" preset_file="preset.xml">
+<board schema_version="2.1" vendor="trenz.biz" name="te0726_01" display_name="ZYNQ-7 TE0726-01 (64MB DDR). SPRT PCB: REV01." url="trenz.org/te0726-info" preset_file="preset.xml">
   <images>
     <image name="te0726_board.png" display_name="ZYNQ-7 TE0726_01 BOARD" sub_type="board">
       <description>ZYNQ-7 TE0726_01 Board File Image</description>
