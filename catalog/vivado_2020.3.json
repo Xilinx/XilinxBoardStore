@@ -2888,6 +2888,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "tul.com.tw"
+      },
+      {
+        "name": "vck190",
+        "display": "Versal VCK190 Evaluation Platform",
+        "latest_revision": "2.1",
+        "commit_id": "5b6819d9d6124d407643b96b23f4fe4fdc877a69",
+        "revisions": [
+          {
+            "revision": "2.1",
+            "commit_id": "5b6819d9d6124d407643b96b23f4fe4fdc877a69",
+            "date": "11-01-2021:12:46:45",
+            "history": "Added board Versal VCK190 Evaluation Platform v2.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vck190/production/2.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
       }
     ],
     "categories": [
