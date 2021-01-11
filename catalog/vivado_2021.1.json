@@ -5249,11 +5249,11 @@
         "name": "vck190",
         "display": "Versal VCK190 Evaluation Platform",
         "latest_revision": "2.1",
-        "commit_id": "2dc274a08d8daccc2c1d083b7522bb75db475921",
+        "commit_id": "261d41920a029405fb269531c42eec4bb7b541de",
         "revisions": [
           {
             "revision": "2.1",
-            "commit_id": "2dc274a08d8daccc2c1d083b7522bb75db475921",
+            "commit_id": "261d41920a029405fb269531c42eec4bb7b541de",
             "date": "11-01-2021:11:46:33",
             "history": "Added board Versal VCK190 Evaluation Platform v2.1"
           }
