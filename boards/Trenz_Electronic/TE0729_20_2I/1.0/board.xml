@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
 <!-- ##################################################################### -->
 <!-- ##TE File Version:1.2-->
-<!-- ##Vivado Version:2019.2-->
-<!-- ##TE Last Modification:2020.09.23-->
+<!-- ##Vivado Version:2018.2-->
+<!-- ##TE Last Modification:2018.07.13-->
 <!-- ##################################################################### -->
 <!-- ##general board part description-->
 <!-- ##Info: board part name: board_vendor:board_name:part0:file_version  , use all lower case-->
-<board schema_version="2.1" vendor="trenz.biz" name="te0729_20_2i" display_name="ZYNQ-7 TE0729-*-2IF (512MB DDR). *SPRT PCB: REV02, REV01" url="trenz.org/te0729-info" preset_file="preset.xml">
+<board schema_version="2.1" vendor="trenz.biz" name="te0729_20_2i" display_name="ZYNQ-7 TE0729_20_2I(F). SPRT PCB: REV02, REV01" url="trenz.org/te0729-info" preset_file="preset.xml">
   <images>
-    <image name="te0729_board.png" display_name="ZYNQ-7 TE0729" sub_type="board">
+    <image name="te0729_board.png" display_name="ZYNQ-7 TE0729_01" sub_type="board">
       <description>TE0729 Board File Image</description>
     </image>
   </images>
@@ -26,7 +26,7 @@
   <file_version>1.0</file_version>
 <!-- ##################################################################### -->
 <!-- ##Board descriptions -->
-  <description>ZYNQ-7 TE0729-*-2IF (512MB DDR) Board (form factor 5 x 7 cm) with 512MB DDR3, 2 x 100MBit Ethernet, 1 x 1GBit Ethernet, speed grade -2 and industrial temperature range.Supported *PCB Revisions: REV02, REV01.</description>
+  <description>ZYNQ-7 TE0729_20_2I(F) Board (form factor 5 x 7 cm) with 512MB DDR3, 2 x 100MBit Ethernet, 1 x 1GBit Ethernet, speed grade -2 and industrial temperature range.Supported PCB Revisions: REV02, REV01.</description>
 <!-- ##################################################################### -->
 <!-- ##Board components. Special component part0=fpga -->
 <!-- ##set display_name and correct part_name for fpga-->
