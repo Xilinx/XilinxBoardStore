@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
 <!-- ##################################################################### -->
 <!-- ##TE File Version:1.2-->
-<!-- ##Vivado Version:2019.2-->
-<!-- ##TE Last Modification:2020.09.21-->
+<!-- ##Vivado Version:2018.2-->
+<!-- ##TE Last Modification:2018.09.04-->
 <!-- ##################################################################### -->
 <!-- ##general board part description-->
 <!-- ##Info: board part name: board_vendor:board_name:part0:file_version  , use all lower case-->
-<board schema_version="2.1" vendor="trenz.biz" name="te0808_9eg_1e_tebf0808" display_name="UltraSOM (ZYNQ-UltraScale+) TE0808-*-9BE21-(A,L)/-09EG-1E(B,D,E,L) (4GB DDR) with TEBF0808. *SPRT Module PCB: REV05, REV04." url="trenz.org/te0808-info" preset_file="preset.xml">
+<board schema_version="2.1" vendor="trenz.biz" name="te0808_9eg_1e_tebf0808" display_name="UltraSOM (ZYNQ-UltraScale+) TE0808-9EG-1E(B,D,E,L: 4GB DDR) with TEBF0808. SPRT Module PCB: REV04." url="trenz.org/te0808-info" preset_file="preset.xml">
   <images>
     <image name="te0808_starterkit.png" display_name="ZYNQ-UltraScale+ TE0808 BOARD" sub_type="board">
       <description>ZYNQ-UltraScale+ TE0808 Board File Image</description>
@@ -17,7 +17,6 @@
 <!-- ##Currently revision with highest id is only displayed in Vivado. Write supported revisions to description too!-->
   <compatible_board_revisions>
     <!--insert supported revisions-->
-    <revision id="0">0.5</revision>
     <revision id="0">0.4</revision>
   </compatible_board_revisions>
 <!-- ##################################################################### -->
@@ -26,7 +25,7 @@
   <file_version>4.0</file_version>
 <!-- ##################################################################### -->
 <!-- ##Board descriptions -->
-  <description>Zynq UltraScale+ TE0808-*-9BE21-(A,L)/-09EG-1E(B,D,E,L) (4GB DDR) Board (form factor 5.2x7.6 cm) with 4x 1 GByte DDR4, speed grade -1 and extended temperature range. *Supported PCB Revisions: REV05, REV04. Board Part is for usage with carrier-board TEBF0808. </description>
+  <description>Zynq UltraScale+ TE0808-9EG-1E(B,D,E,L: 4GB DDR) Board (form factor 5.2x7.6 cm) with 4x 1 GByte DDR4, speed grade -1 and extended temperature range. Supported PCB Revisions: REV04. Board Part is for usage with carrier-board TEBF0808. </description>
 <!-- ##################################################################### -->
 <!-- ##Board components. Special component part0=fpga -->
 <!-- ##set display_name and correct part_name for fpga-->

@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!-- ##################################################################### -->
 <!-- ##TE File Version:1.0-->
-<!-- ##TE Last Modification:2019.03.12 -->
+<!-- ##TE Last Modification:2018.01.16 -->
 <!-- ##################################################################### -->
 <ip_presets schema="1.0">
   <!--insert ip presets here, see ug895 or other board part files-->
   <ip_preset preset_proc_name="zynq_ultra_ps_e_preset"> 
     <ip vendor="xilinx.com" library="ip" name="zynq_ultra_ps_e" version="*"> 
       <user_parameters>
-        <user_parameter  name="CONFIG.PSU__PRESET_APPLIED" value="1"/>
         <user_parameter  name="CONFIG.PSU_BANK_0_IO_STANDARD" value="LVCMOS18"/>
         <user_parameter  name="CONFIG.PSU_BANK_1_IO_STANDARD" value="LVCMOS18"/>
         <user_parameter  name="CONFIG.PSU_BANK_2_IO_STANDARD" value="LVCMOS18"/>
@@ -87,9 +86,6 @@
         <user_parameter  name="CONFIG.PSU__USB0__PERIPHERAL__IO" value="MIO 52 .. 63"/>
         <user_parameter  name="CONFIG.PSU__USB3_0__PERIPHERAL__ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PSU__USB3_0__PERIPHERAL__IO" value="GT Lane1"/>
-        <user_parameter  name="CONFIG.PSU__USB0__RESET__ENABLE" value="1"/>
-        <user_parameter  name="CONFIG.PSU__USB0__RESET__IO" value="MIO 30"/>
-        <user_parameter  name="CONFIG.PSU__USB__RESET__MODE" value="Separate MIO Pin"/>
         <user_parameter  name="CONFIG.PSU__DP__LANE_SEL" value="Single Higher"/>
         <user_parameter  name="CONFIG.PSU__DISPLAYPORT__PERIPHERAL__ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PSU__DISPLAYPORT__LANE0__IO" value="GT Lane3"/>
