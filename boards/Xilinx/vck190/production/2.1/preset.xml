@@ -47,7 +47,7 @@
 				<user_parameter name="CONFIG.PS_ENET1_PERIPHERAL_ENABLE" value="1"/>				
 				<user_parameter name="CONFIG.PS_ENET1_PERIPHERAL_IO" value="PS_MIO 12 .. 23"/>						
 
-<!-- 				<user_parameter name="CONFIG.PS_GEN_IPI_0_ENABLE" value="1"/>						
+ 				<user_parameter name="CONFIG.PS_GEN_IPI_0_ENABLE" value="1"/>					
 				<user_parameter name="CONFIG.PS_GEN_IPI_1_ENABLE" value="1"/>						
 				<user_parameter name="CONFIG.PS_GEN_IPI_2_ENABLE" value="1"/>						
 				<user_parameter name="CONFIG.PS_GEN_IPI_3_ENABLE" value="1"/>						
@@ -57,7 +57,7 @@
 				
 				<user_parameter name="CONFIG.PS_GEN_IPI_PMCNOBUF_ENABLE" value="1"/>																		
 				<user_parameter name="CONFIG.PS_GEN_IPI_PMC_ENABLE" value="1"/>		
-				<user_parameter name="CONFIG.PS_GEN_IPI_PSM_ENABLE" value="1"/>	 -->																									
+				<user_parameter name="CONFIG.PS_GEN_IPI_PSM_ENABLE" value="1"/>																										
 
 				<!-- <user_parameter name="CONFIG.PS_GPIO2_MIO_PERIPHERAL_ENABLE" value="0"/>																		 -->
 				<user_parameter name="CONFIG.PS_I2C1_PERIPHERAL_ENABLE" value="1"/>		
