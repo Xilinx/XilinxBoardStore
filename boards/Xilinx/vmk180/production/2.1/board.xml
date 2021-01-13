@@ -1079,7 +1079,7 @@
 		
 		<interface mode="slave" name="lpddr4_sma_clk1" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="lpddr4_sma_clk1" preset_proc="sysclk0_preset">
 		  <parameters>
-            <parameter name="frequency" value="200000000"/>
+            <parameter name="frequency" value="200321000"/>
           </parameters>
 		  		  
             <preferred_ips>
@@ -1105,7 +1105,7 @@
 		
 		<interface mode="slave" name="lpddr4_sma_clk2" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="lpddr4_sma_clk2" preset_proc="sysclk0_preset">
 		  <parameters>
-            <parameter name="frequency" value="200000000"/>
+            <parameter name="frequency" value="200321000"/>
           </parameters>
 		  		  
             <preferred_ips>
