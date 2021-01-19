@@ -57,7 +57,7 @@
 				
 				<user_parameter name="CONFIG.PS_GEN_IPI_PMCNOBUF_ENABLE" value="1"/>																		
 				<user_parameter name="CONFIG.PS_GEN_IPI_PMC_ENABLE" value="1"/>		
-				<user_parameter name="CONFIG.PS_GEN_IPI_PSM_ENABLE" value="1"/>																										
+				<user_parameter name="CONFIG.PS_GEN_IPI_PSM_ENABLE" value="1"/>																							
 
 				<!-- <user_parameter name="CONFIG.PS_GPIO2_MIO_PERIPHERAL_ENABLE" value="0"/>																		 -->
 				<user_parameter name="CONFIG.PS_I2C1_PERIPHERAL_ENABLE" value="1"/>		
@@ -128,7 +128,7 @@
 				<user_parameter name="CONFIG.MC_COMPONENT_WIDTH" value="x32"/> 
 				<user_parameter name="CONFIG.MC_INPUTCLK0_PERIOD" value="4992"/>		
 				<user_parameter name="CONFIG.MC_STACKHEIGHT" value="1"/>
-               			<user_parameter name="CONFIG.MC_MEMORY_TIMEPERIOD0" value="512"/>
+               	<user_parameter name="CONFIG.MC_MEMORY_TIMEPERIOD0" value="512"/>
 				<user_parameter name="CONFIG.MC0_FLIPPED_PINOUT" value="true"/>
 				<user_parameter name="CONFIG.MC1_FLIPPED_PINOUT" value="true"/>
 				<user_parameter name="CONFIG.MC_MEMORY_DEVICETYPE" value="Components"/>
@@ -151,7 +151,7 @@
 				<user_parameter name="CONFIG.MC_COMPONENT_WIDTH" value="x32"/> 
 				<user_parameter name="CONFIG.MC_INPUTCLK0_PERIOD" value="4992"/>		
 				<user_parameter name="CONFIG.MC_STACKHEIGHT" value="1"/>
-               			<user_parameter name="CONFIG.MC_MEMORY_TIMEPERIOD0" value="512"/>
+               	<user_parameter name="CONFIG.MC_MEMORY_TIMEPERIOD0" value="512"/>
 				<user_parameter name="CONFIG.MC0_FLIPPED_PINOUT" value="true"/>
 				<user_parameter name="CONFIG.MC1_FLIPPED_PINOUT" value="true"/>
 				<user_parameter name="CONFIG.MC_MEMORY_DEVICETYPE" value="Components"/>
