@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!-- ##################################################################### -->
+<!-- ##TE File Version:1.0-->
+<!-- ##TE Last Modification:2018.05.07-->
+<!-- ##################################################################### -->
+<ip_presets schema="1.0">
+  <!--insert ip presets here, see ug895 or other board part files-->
+  <ip_preset preset_proc_name="ddr4_sdram_preset">
+    <ip vendor="xilinx.com" library="ip" name="ddr4">
+      <user_parameters>
+        <user_parameter name="CONFIG.C0.DDR4_isCustom" value="true" />
+        <user_parameter name="CONFIG.C0.DDR4_MemoryPart" value="NT5AD256M16B2-GN" />
+        <user_parameter name="CONFIG.C0.DDR4_CustomParts" value="NT5AD256M16B2-GN.csv" value_type="file" />
+        <user_parameter name="CONFIG.C0.DDR4_DataWidth" value="16" />
+        <user_parameter name="CONFIG.C0.DDR4_TimePeriod" value="1000" />
+        <user_parameter name="CONFIG.C0.DDR4_InputClockPeriod" value="5000" />
+        <user_parameter name="CONFIG.System_Clock" value="No_Buffer" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+  
+  <ip_preset preset_proc_name="si5338_clk12_preset">
+    <ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDSGTE"/> 
+          <user_parameter name="CONFIG.C_SIZE" value="1"/> 
+        </user_parameters>
+    </ip>
+  </ip_preset> 
+  
+  <ip_preset preset_proc_name="spi_flash_spix4_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_quad_spi">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_SPI_MEMORY" value="2"/> 
+          <user_parameter name="CONFIG.C_SPI_MODE" value="2"/> 
+          <user_parameter name="CONFIG.C_SCK_RATIO" value="2"/> 
+          <user_parameter name="CONFIG.C_FIFO_DEPTH" value="256"/> 
+          <user_parameter name="CONFIG.C_USE_STARTUP" value="1"/> 
+          <user_parameter name="CONFIG.C_USE_STARTUP_INT" value="1"/> 
+        </user_parameters>
+    </ip>
+  </ip_preset>  
+  
+  <ip_preset preset_proc_name="spi_flash_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_quad_spi">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_SPI_MEMORY" value="1"/> 
+          <user_parameter name="CONFIG.C_SPI_MODE" value="0"/> 
+          <user_parameter name="CONFIG.C_SCK_RATIO" value="2"/> 
+          <user_parameter name="CONFIG.C_FIFO_DEPTH" value="256"/> 
+          <user_parameter name="CONFIG.C_USE_STARTUP" value="1"/> 
+          <user_parameter name="CONFIG.C_USE_STARTUP_INT" value="1"/> 
+        </user_parameters>
+    </ip>
+  </ip_preset>
+  
+  
+</ip_presets>

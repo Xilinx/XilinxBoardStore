@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
 <!-- ##################################################################### -->
 <!-- ##TE File Version:1.2-->
-<!-- ##Vivado Version:2018.2-->
-<!-- ##TE Last Modification:2018.08.28-->
+<!-- ##Vivado Version:2019.2-->
+<!-- ##TE Last Modification:2020.01.27-->
 <!-- ##################################################################### -->
 <!-- ##general board part description-->
 <!-- ##Info: board part name: board_vendor:board_name:part0:file_version  , use all lower case-->
-<board schema_version="2.1" vendor="trenz.biz" name="te0724_20_1i" display_name="ZYNQ-7 TE0724_20_1I( : 1GB DDR3L). SPRT PCB: REV02" url="trenz.org/te0724-info" preset_file="preset.xml">
+<board schema_version="2.1" vendor="trenz.biz" name="te0724_20_1i" display_name="ZYNQ-7 TE0724-*-20-1I (1GB DDR3). *SPRT PCB: REV03, REV02" url="trenz.org/te0724-info" preset_file="preset.xml">
   <images>
     <image name="te0724_board.png" display_name="TE0724" sub_type="board">
       <description>PCB Series Name Board File Image</description>
@@ -17,6 +17,7 @@
 <!-- ##Currently revision with highest id is only displayed in Vivado. Write supported revisions to description too!-->
   <compatible_board_revisions>
     <!--insert supported revisions-->
+    <revision id="0">0.3</revision>
     <revision id="0">0.2</revision>
   </compatible_board_revisions>
 <!-- ##################################################################### -->
@@ -25,7 +26,7 @@
   <file_version>1.0</file_version>
 <!-- ##################################################################### -->
 <!-- ##Board descriptions -->
-  <description>ZYNQ-7 TE0724_20_1I Board (form factor 4x6cm) with 1GB DDR3L, 1GBit Ethernet, speed grade -1 and industrial temperature grade. Supported PCB Revisions: REV02.</description>
+  <description>ZYNQ-7 TE0724-*-20-1I (1GB DDR3) Board (form factor 4x6cm) with 1GB DDR3L, 1GBit Ethernet, speed grade -1 and industrial temperature grade. *Supported PCB Revisions: REV03, REV02.</description>
 <!-- ##################################################################### -->
 <!-- ##Board components. Special component part0=fpga -->
 <!-- ##set display_name and correct part_name for fpga-->
