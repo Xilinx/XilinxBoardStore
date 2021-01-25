@@ -5282,6 +5282,44 @@
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
+      },
+      {
+        "name": "LI-IMX274MIPI-FMC",
+        "display": "FMC XM105 Debug Card",
+        "latest_revision": "1.0",
+        "commit_id": "002d6453af50e59c711525619320cff92dc1a141",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "002d6453af50e59c711525619320cff92dc1a141",
+            "date": "25-01-2021:05:01:35",
+            "history": "Added board FMC XM105 Debug Card v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/li-imx274-mipi/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "Leopardimaging"
+      },
+      {
+        "name": "xm105",
+        "display": "FMC XM105 Debug Card",
+        "latest_revision": "1.0",
+        "commit_id": "002d6453af50e59c711525619320cff92dc1a141",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "002d6453af50e59c711525619320cff92dc1a141",
+            "date": "25-01-2021:05:01:35",
+            "history": "Added board FMC XM105 Debug Card v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/xm105/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
       }
     ],
     "categories": [
