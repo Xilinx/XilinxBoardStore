@@ -1,0 +1,5355 @@
+{
+  "catalog": {
+    "items": [
+      {
+        "name": "Ultra96",
+        "display": "Ultra96 Evaluation Platform",
+        "latest_revision": "1.2",
+        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+            "date": "21-08-2018:19:15:03",
+            "history": "Adding Ultra96 1.2 to the XilinxBoardStore"
+          }
+        ],
+        "config": {
+          "root": "boards/Avnet/ultra96/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "em.avnet.com"
+      },
+      {
+        "name": "picozed_7010_fmc2",
+        "display": "PicoZed 7010 SOM + FMC Carrier V2",
+        "latest_revision": "1.2",
+        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+            "date": "23-08-2018:16:40:57",
+            "history": "Adding picozed_7010_fmc2 e to the XilinxBoardStore"
+          }
+        ],
+        "config": {
+          "root": "boards/Avnet/picozed_7010_fmc2/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "em.avnet.com"
+      },
+      {
+        "name": "arty",
+        "display": "Arty",
+        "latest_revision": "1.1",
+        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+            "date": "11-09-2018:16:24:03",
+            "history": "Added arty to the XilinxBoardStore"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/arty/C.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "arty-a7-100",
+        "display": "Arty A7-100",
+        "latest_revision": "1.0",
+        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+            "date": "11-09-2018:16:24:04",
+            "history": "Added arty-a7-100 to the XilinxBoardStore"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/arty-a7-100/E.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "arty-a7-35",
+        "display": "Arty A7-35",
+        "latest_revision": "1.0",
+        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+            "date": "11-09-2018:16:24:04",
+            "history": "Added arty-a7-35 to the XilinxBoardStore"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/arty-a7-35/E.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "arty-s7-25",
+        "display": "Arty S7-25",
+        "latest_revision": "1.0",
+        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+            "date": "11-09-2018:16:24:04",
+            "history": "Added arty-s7-25 to the XilinxBoardStore"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/arty-s7-25/E.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "arty-s7-50",
+        "display": "Arty S7-50",
+        "latest_revision": "1.0",
+        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+            "date": "11-09-2018:16:24:04",
+            "history": "Added arty-s7-50 to the XilinxBoardStore"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/arty-s7-50/B.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "arty-z7-10",
+        "display": "Arty Z7-10",
+        "latest_revision": "1.0",
+        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+            "date": "11-09-2018:16:24:04",
+            "history": "Added arty-z7-10 to the XilinxBoardStore"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/arty-z7-10/A.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "arty-z7-20",
+        "display": "Arty Z7-20",
+        "latest_revision": "1.0",
+        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+            "date": "11-09-2018:16:24:04",
+            "history": "Added arty-z7-20 to the XilinxBoardStore"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/arty-z7-20/A.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "basys3",
+        "display": "Basys3",
+        "latest_revision": "1.1",
+        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+            "date": "11-09-2018:16:24:04",
+            "history": "Added basys3 to the XilinxBoardStore"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/basys3/C.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "cmod_a7-15t",
+        "display": "Cmod A7-15t",
+        "latest_revision": "1.1",
+        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+            "date": "11-09-2018:16:24:05",
+            "history": "Added cmod_a7-15t to the XilinxBoardStore"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/cmod_a7-15t/B.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "cmod_a7-35t",
+        "display": "Cmod A7-35t",
+        "latest_revision": "1.1",
+        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+            "date": "11-09-2018:16:24:05",
+            "history": "Added cmod_a7-35t to the XilinxBoardStore"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/cmod_a7-35t/B.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "cora-z7-07s",
+        "display": "Cora Z7-07S",
+        "latest_revision": "1.0",
+        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+            "date": "11-09-2018:16:24:05",
+            "history": "Added cora-z7-07s to the XilinxBoardStore"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/cora-z7-07s/B.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "cora-z7-10",
+        "display": "Cora Z7-10",
+        "latest_revision": "1.0",
+        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+            "date": "11-09-2018:16:24:05",
+            "history": "Added cora-z7-10 to the XilinxBoardStore"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/cora-z7-10/B.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "genesys2",
+        "display": "Genesys2",
+        "latest_revision": "1.1",
+        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+            "date": "11-09-2018:16:24:05",
+            "history": "Added genesys2 to the XilinxBoardStore"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/genesys2/H",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "nexys4",
+        "display": "Nexys4",
+        "latest_revision": "1.1",
+        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+            "date": "11-09-2018:16:24:06",
+            "history": "Added nexys4 to the XilinxBoardStore"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/nexys4/B.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "nexys4_ddr",
+        "display": "Nexys4 DDR",
+        "latest_revision": "1.1",
+        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+            "date": "11-09-2018:16:24:06",
+            "history": "Added nexys4_ddr to the XilinxBoardStore"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/nexys4_ddr/C.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "nexys_video",
+        "display": "Nexys Video",
+        "latest_revision": "1.1",
+        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+            "date": "11-09-2018:16:24:06",
+            "history": "Added nexys_video to the XilinxBoardStore"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/nexys_video/A.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "zybo",
+        "display": "Zybo",
+        "latest_revision": "1.0",
+        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+            "date": "11-09-2018:16:24:07",
+            "history": "Added zybo to the XilinxBoardStore"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/zybo/B.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "zybo-z7-10",
+        "display": "Zybo Z7-10",
+        "latest_revision": "1.0",
+        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+            "date": "11-09-2018:16:24:07",
+            "history": "Added zybo-z7-10 to the XilinxBoardStore"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/zybo-z7-10/A.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "zybo-z7-20",
+        "display": "Zybo Z7-20",
+        "latest_revision": "1.0",
+        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+            "date": "11-09-2018:16:24:07",
+            "history": "Added zybo-z7-20 to the XilinxBoardStore"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/zybo-z7-20/A.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "minized",
+        "display": "MiniZed",
+        "latest_revision": "1.2",
+        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+            "date": "28-09-2018:09:09:38",
+            "history": "Added MiniZed"
+          }
+        ],
+        "config": {
+          "root": "boards/Avnet/minized/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "em.avnet.com"
+      },
+      {
+        "name": "te0712_100_1i",
+        "display": "Artix-7 TE0712_100_1I. SPRT PCB: REV02, REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0712_100_1I/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0712_100_2c",
+        "display": "Artix-7 TE0712_100_2C. SPRT PCB: REV02, REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0712_100_2C/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0712_100_2c",
+        "display": "Artix-7 TE0712_100_2CA. SPRT PCB: REV02",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0712_100_2C/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0712_200_1i",
+        "display": "Artix-7 TE0712_200_1I. SPRT PCB: REV02, REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0712_200_1I/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0712_200_2c",
+        "display": "Artix-7 TE0712_200_2C. SPRT PCB: REV02, REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0712_200_2C/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0712_200_2i",
+        "display": "Artix-7 TE0712_200_2I. SPRT PCB: REV02, REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0712_200_2I/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0712_35_2i",
+        "display": "Artix-7 TE0712_35_2I. SPRT PCB: REV02",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0712_35_2I/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0720_14s",
+        "display": "ZYNQ-7 TE0720_14S. SPRT PCB: REV02, REV03",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0720_14S/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0720_1c",
+        "display": "ZYNQ-7 TE0720_1CF(_, A). SPRT PCB: REV02, REV03",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0720_1C/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0720_1c",
+        "display": "ZYNQ-7 TE0720_1CR. SPRT PCB: REV02, REV03",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0720_1C/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0720_1il",
+        "display": "ZYNQ-7 TE0720_L1IF. SPRT PCB: REV02, REV03",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0720_1IL/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0720_1q",
+        "display": "ZYNQ-7 TE0720_1QF (_, A). SPRT PCB: REV02, REV03",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0720_1Q/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0720_2e",
+        "display": "ZYNQ-7 TE0720_2EF. SPRT PCB: REV02, REV03",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0720_2E/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0720_2i",
+        "display": "ZYNQ-7 TE0720_2IF (_, C3, C8, A). SPRT PCB: REV02, REV03",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0720_2I/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0722",
+        "display": "ZYNQ-7 TE0722. SPRT PCB: REV01, REV02",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0722/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0722_7s",
+        "display": "ZYNQ-7S TE0722_07S. SPRT PCB: REV01, REV02",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0722_7S/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0722_i",
+        "display": "ZYNQ-7 TE0722_I. SPRT PCB: REV01, REV02",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0722_I/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0724_10_1i",
+        "display": "ZYNQ-7 TE0724_10_1I( : 1GB DDR3L). SPRT PCB: REV02",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0724_10_1I/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0724_20_1i",
+        "display": "ZYNQ-7 TE0724_20_1I( : 1GB DDR3L). SPRT PCB: REV02",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0724_20_1I/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0725_100_2c",
+        "display": "Artix-7 TE0725_100_2C(_, F). SPRT PCB: REV01, REV02, REV03",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0725_100_2C/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0725_100_2i",
+        "display": "Artix-7 TE0725_100_2I9. SPRT PCB: REV01, REV02, REV03",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0725_100_2I/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0725_15_1c",
+        "display": "Artix-7 TE0725_15_1C. SPRT PCB: REV01, REV02, REV03",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0725_15_1C/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0725_35_2c",
+        "display": "Artix-7 TE0725_35_2C. SPRT PCB: REV01, REV02, REV03",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0725_35_2C/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0726_01",
+        "display": "ZYNQ-7 TE0726_01 (64MB DDR). SPRT PCB: REV01.",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0726/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0726_r",
+        "display": "ZYNQ-7 TE0726_R (128MB DDR). SPRT PCB: REV03R, REV02.",
+        "latest_revision": "2.1",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.1",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0726/2.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0726_m",
+        "display": "ZYNQ-7 TE0726_M (512MB DDR). SPRT PCB: REV03, REV02.",
+        "latest_revision": "3.1",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "3.1",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0726/3.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0726_7s",
+        "display": "ZYNQ-7S TE0726_07S (512MB DDR). SPRT PCB: REV03, REV02.",
+        "latest_revision": "3.1",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "3.1",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0726_7S/3.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0729_20_2i",
+        "display": "ZYNQ-7 TE0729_20_2I(F). SPRT PCB: REV02, REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0729_20_2I/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0729_20_2i",
+        "display": "ZYNQ-7 TE0729_20_2I(R,RA). SPRT PCB: REV02, REV01",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0729_20_2I/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_2cg_1e",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-2CG-1E(_, A: 2GB DDR). SPRT PCB: REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_2CG_1E/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_2cg_1e_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-2CG-1E(_, A: 2GB DDR) with TEBF0808. SPRT PCB: REV01",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_2CG_1E/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_2eg_1e",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-2EG-1E(_, A: 2GB DDR). SPRT PCB: REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_2EG_1E/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_2eg_1e_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-2EG-1E(_, A: 2GB DDR) with TEBF0808. SPRT PCB: REV01",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_2EG_1E/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_3cg_1e",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-3CG-1E(_, A: 2GB DDR). SPRT PCB: REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_3CG_1E/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_3cg_1e_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-3CG-1E(_, A: 2GB DDR) with TEBF0808. SPRT PCB: REV01",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_3CG_1E/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_3eg_1e",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-3EG-1E(_, A: 2GB DDR). SPRT PCB: REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_3EG_1E/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_3eg_1e_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-3EG-1E(_, A: 2GB DDR) with TEBF0808. SPRT PCB: REV01",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_3EG_1E/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_3eg_1e",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-3EG-1E(B: 4GB DDR). SPRT PCB: REV01",
+        "latest_revision": "3.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_3EG_1E/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_3eg_1e_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-3EG-1E(B: 4GB DDR) with TEBF0808. SPRT PCB: REV01",
+        "latest_revision": "4.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "4.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:14",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_3EG_1E/4.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_4cg_1e",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-4CG-1E(A: 2GB DDR). SPRT PCB: REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:15",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_4CG_1E/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_4cg_1e_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-4CG-1E(A: 2GB DDR) with TEBF0808. SPRT PCB: REV01",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:15",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_4CG_1E/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_4eg_1e",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-4EG-1E(A: 2GB DDR). SPRT PCB: REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:15",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_4EG_1E/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_4eg_1e_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-4EG-1E(A: 2GB DDR) with TEBF0808. SPRT PCB: REV01",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:15",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_4EG_1E/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_4ev_1e",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-4EV-1E(A, 3: 2GB DDR). SPRT PCB: REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:15",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_4EV_1E/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_4ev_1e_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-4EV-1E(A, 3: 2GB DDR) with TEBF0808. SPRT PCB: REV01",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:15",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_4EV_1E/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_5ev_1e",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-5EV-1E(A: 2GB DDR). SPRT PCB: REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:15",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_5EV_1E/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_5ev_1e_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-5EV-1E(A: 2GB DDR) with TEBF0808. SPRT PCB: REV01",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:15",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_5EV_1E/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_5ev_1i",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-5EV-1I(A: 2GB DDR). SPRT PCB: REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:15",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_5EV_1I/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_5ev_1i_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-5EV-1I(A: 2GB DDR) with TEBF0808. SPRT PCB: REV01",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:15",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_5EV_1I/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0808_15eg_1e",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-15EG-1E(B,E: 4GB DDR). SPRT PCB: REV04.",
+        "latest_revision": "3.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:15",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0808_15EG_1E/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0808_15eg_1e_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-15EG-1E(B,E: 4GB DDR) with TEBF0808. SPRT Module PCB: REV04.",
+        "latest_revision": "4.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "4.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:15",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0808_15EG_1E/4.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0808_6eg_1e",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-6EG-1E(E,3: 4GB DDR). SPRT PCB: REV04.",
+        "latest_revision": "3.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:15",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0808_6EG_1E/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0808_6eg_1e_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-6EG-1E(E,3: 4GB DDR) with TEBF0808. SPRT Module PCB: REV04.",
+        "latest_revision": "4.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "4.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:15",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0808_6EG_1E/4.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0808_9eg_1e",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-9EG-1E(A: 2GB DDR). SPRT PCB: REV04.",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:15",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0808_9EG_1E/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0808_9eg_1e_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-9EG-1E(A: 2GB DDR) with TEBF0808. SPRT Module PCB: REV04.",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:15",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0808_9EG_1E/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0808_9eg_1e",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-9EG-1E(B,D,E,L: 4GB DDR). SPRT PCB: REV04.",
+        "latest_revision": "3.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:15",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0808_9EG_1E/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0808_9eg_1e_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-9EG-1E(B,D,E,L: 4GB DDR) with TEBF0808. SPRT Module PCB: REV04.",
+        "latest_revision": "4.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "4.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:15",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0808_9EG_1E/4.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0808_9eg_2i",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-9EG-2I(B,E: 4GB DDR). SPRT PCB: REV04.",
+        "latest_revision": "3.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:15",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0808_9EG_2I/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0808_9eg_2i_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-9EG-2I(B,E: 4GB DDR) with TEBF0808. SPRT Module PCB: REV04.",
+        "latest_revision": "4.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "4.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:15",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0808_9EG_2I/4.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0820_2cg_1e",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0820-2CG-1E(_, A  : 1 GB DDR). SPRT PCB: REV02",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:15",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0820_2CG_1E/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0820_2eg_1e",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0820-2EG-1E(_, 3, A, L  : 1 GB DDR). SPRT PCB: REV02",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:15",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0820_2EG_1E/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0820_2eg_1e",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0820-2EG-1E(E : 2 GB DDR). SPRT PCB: REV02",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:15",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0820_2EG_1E/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0820_3cg_1e",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0820-3CG-1E(_, A  : 1 GB DDR). SPRT PCB: REV02",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:15",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0820_3CG_1E/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0820_3eg_1e",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0820-3EG-1E(_, 3, A, L  : 1 GB DDR). SPRT PCB: REV02",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:15",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0820_3EG_1E/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0820_4cg_1e",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0820-4CG-1E(A  : 1 GB DDR). SPRT PCB: REV02",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:15",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0820_4CG_1E/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "teb0911_9eg_1e",
+        "display": "ZYNQ-UltraScale+ TEB0911-09EG-1E. SPRT PCB: REV03,REV02.",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:15",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TEB0911_9EG_1E/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "tec0850_15eg_1e",
+        "display": "UltraScale+ Zynq TEC0850-15EG-1E. SPRT PCB: REV02",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "28-09-2018:16:20:15",
+            "history": "Add Trenz Electronic Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TEC0850_15EG_1E/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "vcu128",
+        "display": "Virtex Ultrascale+ HBM VCU128 Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "23-12-2019",
+            "history": "Addition of logo field for board image in xitem.json"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vcu128/production/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vcu129",
+        "display": "Virtex Ultrascale+ 56G VCU129 Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "23-12-2019",
+            "history": "Addition of logo field for board image in xitem.json"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vcu129/production/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "au280",
+        "display": "Alveo U280 Data Center Accelerator Card",
+        "latest_revision": "1.0",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "26-06-2019",
+            "history": "Add au280 Acceleration card Board Files"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/au280/production/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "au280",
+        "display": "Alveo U280 Data Center Accelerator Card",
+        "latest_revision": "1.1",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "29-10-2020",
+            "history": "Addressed linting issues"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/au280/production/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "ac701",
+        "display": "Artix-7 AC701 Evaluation Platform",
+        "latest_revision": "1.4",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.4",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "23-12-2019",
+            "history": "Added spi_flash_preset proc for CR-1052945"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/ac701/1.4",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "kc705",
+        "display": "Kintex-7 KC705 Evaluation Platform",
+        "latest_revision": "1.6",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.6",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "23-12-2019",
+            "history": "Updated schema version and addressed linting issues"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/kc705/1.6",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "sp701",
+        "display": "Spartan-7 SP701 Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "04-03-2020",
+            "history": "Addition of logo field in xitem.json"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/sp701/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vc707",
+        "display": "Virtex-7 VC707 Evaluation Platform",
+        "latest_revision": "1.4",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.4",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "29-10-2020",
+            "history": "Addressed linting issues"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vc707/1.4",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vc709",
+        "display": "Virtex-7 VC709 Evaluation Platform",
+        "latest_revision": "1.8",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.8",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "29-10-2020",
+            "history": "Addressed linting issues"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vc709/1.8",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zc702",
+        "display": "ZYNQ-7 ZC702 Evaluation Board",
+        "latest_revision": "1.4",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.4",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "29-10-2020",
+            "history": "Addressed linting issues"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zc702/1.4",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zc706",
+        "display": "ZYNQ-7 zc706 Evaluation Board",
+        "latest_revision": "1.4",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.4",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "23-12-2019",
+            "history": "Updated schema version and addressed linting issues"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zc706/1.4",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "kcu105",
+        "display": "Kintex-UltraScale KCU105 Evaluation Platform",
+        "latest_revision": "1.7",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.7",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "29-10-2020",
+            "history": "Addressed linting issues"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/kcu105/1.7",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "kcu105",
+        "display": "Kintex-UltraScale KCU105 Evaluation Platform",
+        "latest_revision": "1.6",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.6",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "23-12-2019",
+            "history": "Updated schema version and addressed linting issues"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/kcu105/1.6",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "kcu116",
+        "display": "Kintex UltraScale+ KCU116 Evaluation Platform",
+        "latest_revision": "1.5",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.5",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "12-06-2020",
+            "history": "Adding 1.5 with Dual Memory Support"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/kcu116/1.5",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "kcu116",
+        "display": "Kintex UltraScale+ KCU116 Evaluation Platform",
+        "latest_revision": "1.4",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.4",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "03-01-2020",
+            "history": "Updated schema version and addressed linting issues"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/kcu116/1.4",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "kcu1500",
+        "display": "Kintex UltraScale KCU1500 Acceleration Development Board",
+        "latest_revision": "1.2",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "29-10-2020",
+            "history": "Addressed linting issues"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/kcu1500/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vcu108",
+        "display": "Virtex-UltraScale VCU108 Evaluation Platform",
+        "latest_revision": "1.7",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.7",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "25-06-2020",
+            "history": "Adding 1.7 with Dual Memory Support"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vcu108/1.7",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vcu108",
+        "display": "Virtex-UltraScale VCU108 Evaluation Platform",
+        "latest_revision": "1.6",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.6",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "23-12-2019",
+            "history": "Addition of logo field for image in xitem.json"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vcu108/1.6",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vcu110",
+        "display": "Virtex-UltraScale VCU110 Evaluation Platform",
+        "latest_revision": "1.4",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.4",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "23-12-2019",
+            "history": "Addition of logo field for image in xitem.json"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vcu110/1.4",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vcu118",
+        "display": "Virtex UltraScale+ VCU118 Evaluation Platform",
+        "latest_revision": "2.4",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "2.4",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "29-10-2020",
+            "history": "VCU118 board SGMII-LVDS - DCI_CASECADE, Vref IOSTANDARDs in BoardFlow files"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vcu118/2.4",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vcu118",
+        "display": "Virtex UltraScale+ VCU118 Evaluation Platform",
+        "latest_revision": "2.3",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "2.3",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "23-12-2019",
+            "history": "Addition of logo field for image in xitem.json"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vcu118/2.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vcu118",
+        "display": "Virtex UltraScale+ VCU118 Evaluation Platform",
+        "latest_revision": "2.0",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "18-09-2019:11:03:03",
+            "history": "Migrating 7 series latest board files from perforce to git"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vcu118/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vcu1525",
+        "display": "Virtex UltraScale+ VCU1525 Acceleration Development Board",
+        "latest_revision": "1.3",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.3",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "29-10-2020",
+            "history": "Addressed linting issues"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vcu1525/1.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu102",
+        "display": "Zynq UltraScale+ ZCU102 Evaluation Board",
+        "latest_revision": "3.4",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "3.4",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "25-06-2020",
+            "history": "Adding 3.4 with Dual Memory Support"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu102/3.4",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu102",
+        "display": "Zynq UltraScale+ ZCU102 Evaluation Board",
+        "latest_revision": "3.3",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "3.3",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "23-12-2019",
+            "history": "Addition of logo field for board image in xitem.json"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu102/3.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu104",
+        "display": "Zynq UltraScale+ ZCU104 Evaluation Board",
+        "latest_revision": "1.1",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "29-10-2020",
+            "history": "Addressed linting issues"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu104/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu106",
+        "display": "Zynq UltraScale+ ZCU106 Evaluation Platform",
+        "latest_revision": "2.6",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "2.6",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "25-06-2020",
+            "history": "Adding 2.6 with Dual Memory Supportt"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu106/2.6",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu106",
+        "display": "Zynq UltraScale+ ZCU106 Evaluation Platform",
+        "latest_revision": "2.4",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "2.4",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "28-05-2019:11:04:35",
+            "history": "Migrating 7 series latest board files from perforce to git"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu106/2.4",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu106",
+        "display": "Zynq UltraScale+ ZCU106 Evaluation Platform",
+        "latest_revision": "2.5",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "2.5",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "26-02-2020",
+            "history": "Addition of logo field in xitem.json"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu106/2.5",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu111",
+        "display": "Zynq UltraScale+ ZCU111 Evaluation Platform",
+        "latest_revision": "1.4",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.4",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "29-07-2020",
+            "history": "Adding sfp interface enabled board files"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu111/1.4",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu111",
+        "display": "Zynq UltraScale+ ZCU111 Evaluation Platform",
+        "latest_revision": "1.3",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.3",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "25-06-2020",
+            "history": "Addition 1.3 with Dual Memory Support"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu111/1.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu111",
+        "display": "Zynq UltraScale+ ZCU111 Evaluation Platform",
+        "latest_revision": "1.2",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "23-12-2019",
+            "history": "Addition of logo field in xitem.json"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu111/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu216",
+        "display": "Zynq UltraScale+ ZCU216 Evaluation Platform",
+        "latest_revision": "2.0",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "29-07-2020",
+            "history": "Initial entry for ZCU216 production board files"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu216/production/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu216_es",
+        "display": "Zynq UltraScale+ ZCU216 Evaluation Platform",
+        "latest_revision": "1.2",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "29-07-2020",
+            "history": "Adding sfp interface enabled board files"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu216/es/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu216_es",
+        "display": "Zynq UltraScale+ ZCU216 Evaluation Platform",
+        "latest_revision": "1.1",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "08-07-2020",
+            "history": "Enabled PL-DDR4 interface"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu216/es/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu216_es",
+        "display": "Zynq UltraScale+ ZCU216 Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "03-03-2020",
+            "history": "Addition of logo field in xitem.json"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu216/es/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu216ld_es",
+        "display": "Zynq UltraScale+ ZCU216-LD Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "01-07-2020",
+            "history": "Addition of Zynq UltraScale+ ZCU216-LD Evaluation Platform"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu216ld/es/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vermeo_t1_rfsoc",
+        "display": "Zynq Ultrascale+ RFSoC T1 Development Board",
+        "latest_revision": "1.0",
+        "commit_id": "89a1011776d5904cbb6aa6a8beb38913ecbcc0d2",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "89a1011776d5904cbb6aa6a8beb38913ecbcc0d2",
+            "date": "04-11-2020",
+            "history": "Adding Vermeo T1 RFSoC initial board files"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vermeo_t1_rfsoc/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vermeo_t1_mpsoc",
+        "display": "Zynq Ultrascale+ MPSoC T1 Development Board",
+        "latest_revision": "1.0",
+        "commit_id": "89a1011776d5904cbb6aa6a8beb38913ecbcc0d2",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "89a1011776d5904cbb6aa6a8beb38913ecbcc0d2",
+            "date": "04-11-2020",
+            "history": "Adding Vermeo T1 MPSoC initial board files"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vermeo_t1_mpsoc/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu208",
+        "display": "Zynq UltraScale+ ZCU208 Evaluation Platform",
+        "latest_revision": "2.0",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "24-08-2020",
+            "history": "Initial entry for ZCU208 production board files"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu208/production/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu208_es",
+        "display": "Zynq UltraScale+ ZCU208 Evaluation Platform",
+        "latest_revision": "1.1",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "29-07-2020",
+            "history": "Adding sfp interface enabled board files"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu208/es/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu208_es",
+        "display": "Zynq UltraScale+ ZCU208 Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "10-02-2020",
+            "history": "Initial board file entry for zcu208 board"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu208/es/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu208ld_es",
+        "display": "Zynq UltraScale+ ZCU208-LD Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "04-03-2020",
+            "history": "Initial board file entry for zcu208-LD board"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu208ld/es/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu1275",
+        "display": "Xilinx Zynq UltraScale+ RFSoC ZCU1275 Characterization Kit",
+        "latest_revision": "1.0",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "26-02-2020",
+            "history": "Addition of logo field in xitem.json"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu1275/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu1285",
+        "display": "Xilinx Zynq UltraScale+ RFSoC ZCU1285 Characterization Kit",
+        "latest_revision": "1.0",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "23-12-2019",
+            "history": "Addition of logo field for board image in xitem.json"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu1285/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "au280_es1",
+        "display": "Alveo U280-ES1 Data Center Accelerator Card",
+        "latest_revision": "1.1",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "28-05-2019:11:08:19",
+            "history": "Addition of logo field to xitem.json"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/au280/es1/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "au280_es1",
+        "display": "Alveo U280-ES1 Data Center Accelerator Card",
+        "latest_revision": "1.1",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "29-10-2020",
+            "history": "Addressed linting issues"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/au280/es1/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "au200",
+        "display": "Alveo U200 Data Center Accelerator Card",
+        "latest_revision": "1.2",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "18-12-2019",
+            "history": "Modifying preset.xml for au200"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/au200/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "au200",
+        "display": "Alveo U200 Data Center Accelerator Card",
+        "latest_revision": "1.3",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.3",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "29-10-2020",
+            "history": "Addressed linting issues"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/au200/1.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vmk180",
+        "display": "Versal VMK180 Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "06-10-2020",
+            "history": "Updated CIPS Interface"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vmk180/production/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vck190",
+        "display": "Versal VCK190 Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "06-10-2020",
+            "history": "Updated CIPS Interface"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vck190/production/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "au250",
+        "display": "Alveo U250 Data Center Accelerator Card",
+        "latest_revision": "1.3",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.3",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "29-10-2020",
+            "history": "Addressed linting issues"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/au250/1.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "au250",
+        "display": "Alveo U250 Data Center Accelerator Card",
+        "latest_revision": "1.2",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "28-05-2019:11:13:39",
+            "history": "Migrating Alveo latest board files from perforce/2019.1 to git"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/au250/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vermeo_t1_mpsoc",
+        "display": "Zynq Ultrascale+ MPSoC T1 Development Board",
+        "latest_revision": "1.0",
+        "commit_id": "2b64ea1e640e67ba6ae3357a68516496e4ee7fa0",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "2b64ea1e640e67ba6ae3357a68516496e4ee7fa0",
+            "date": "04-11-2020:09:27:07",
+            "history": "Added board Zynq Ultrascale+ MPSoC T1 Development Board v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vermeo_t1_mpsoc/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vermeo_t1_rfsoc",
+        "display": "Zynq Ultrascale+ RFSoC T1 Development Board",
+        "latest_revision": "1.0",
+        "commit_id": "2b64ea1e640e67ba6ae3357a68516496e4ee7fa0",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "2b64ea1e640e67ba6ae3357a68516496e4ee7fa0",
+            "date": "04-11-2020:09:27:07",
+            "history": "Added board Zynq Ultrascale+ RFSoC T1 Development Board v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vermeo_t1_rfsoc/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vck190_es",
+        "display": "Versal VCK190 ES1 Evaluation Platform",
+        "latest_revision": "1.1",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "26-11-2020:06:06:57",
+            "history": "Added board Versal VCK190 ES1 Evaluation Platform v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vck190/es/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vmk180_es",
+        "display": "Versal VMK180 ES1 Evaluation Platform",
+        "latest_revision": "1.1",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "26-11-2020:06:06:57",
+            "history": "Added board Versal VMK180 ES1 Evaluation Platform v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vmk180/es/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu208_es",
+        "display": "Zynq UltraScale+ ZCU208-ES Evaluation Platform",
+        "latest_revision": "1.2",
+        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "date": "26-11-2020:06:06:57",
+            "history": "Added board Zynq UltraScale+ ZCU208-ES Evaluation Platform v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu208/es/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "pynqzu",
+        "display": "Zynq UltraScale+ PYNQ-ZU Development Board",
+        "latest_revision": "1.1",
+        "commit_id": "5a599c07b37a50f3b78189731897a3c2d04be349",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "5a599c07b37a50f3b78189731897a3c2d04be349",
+            "date": "08-12-2020:23:57:05",
+            "history": "Added board Zynq UltraScale+ PYNQ-ZU Development Board v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/TUL/pynqzu/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "tul.com.tw"
+      },
+      {
+        "name": "te0710_02_100_2c",
+        "display": "Artix-7 TE0710-*-100-2CF (512MB DDR3). *SPRT PCB: REV02",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Artix-7 TE0710-*-100-2CF (512MB DDR3). *SPRT PCB: REV02 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0710_100_2C/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0710_02_100_2i",
+        "display": "Artix-7 TE0710-*-100-2IF (512MB DDR3). *SPRT PCB: REV02",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Artix-7 TE0710-*-100-2IF (512MB DDR3). *SPRT PCB: REV02 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0710_100_2I/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0710_02_35_2c",
+        "display": "Artix-7 TE0710-*-35-2CF (512MB DDR3). *SPRT PCB: REV02",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Artix-7 TE0710-*-35-2CF (512MB DDR3). *SPRT PCB: REV02 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0710_35_2C/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0710_02_35_2i",
+        "display": "Artix-7 TE0710-*-35-2IF (512MB DDR3). *SPRT PCB: REV02",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Artix-7 TE0710-*-35-2IF (512MB DDR3). *SPRT PCB: REV02 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0710_35_2I/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0711_100_2c",
+        "display": "Artix-7 TE0711-*-100-2C. *SPRT PCB: REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Artix-7 TE0711-*-100-2C. *SPRT PCB: REV01 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0711_100_2C/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0711_100_2i",
+        "display": "Artix-7 TE0711-*-100-2I. *SPRT PCB: REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Artix-7 TE0711-*-100-2I. *SPRT PCB: REV01 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0711_100_2I/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0711_35_2c",
+        "display": "Artix-7 TE0711-*-35-2C. *SPRT PCB: REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Artix-7 TE0711-*-35-2C. *SPRT PCB: REV01 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0711_35_2C/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0711_35_2i",
+        "display": "Artix-7 TE0711-*-35-2I. *SPRT PCB: REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Artix-7 TE0711-*-35-2I. *SPRT PCB: REV01 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0711_35_2I/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0713_100_2c",
+        "display": "Artix-7 TE0713-*-100-2C (1GB DDR)  *SPRT PCB: REV02, REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Artix-7 TE0713-*-100-2C (1GB DDR)  *SPRT PCB: REV02, REV01 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0713_100_2C/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0713_200_2c",
+        "display": "Artix-7 TE0713-*-200-2C (1GB DDR) *SPRT PCB: REV02, REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Artix-7 TE0713-*-200-2C (1GB DDR) *SPRT PCB: REV02, REV01 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0713_200_2C/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0715_12s_1c",
+        "display": "ZYNQ-7S TE0715-*-12S-1C/-12S-1CC (1GB DDR). *SPRT PCB: REV04",
+        "latest_revision": "1.1",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-7S TE0715-*-12S-1C/-12S-1CC (1GB DDR). *SPRT PCB: REV04 v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0715_12S_1C/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0715_15_1c",
+        "display": "ZYNQ-7 TE0715-*-15-1C (1GB DDR). *SPRT PCB: REV03, REV02, REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-7 TE0715-*-15-1C (1GB DDR). *SPRT PCB: REV03, REV02, REV01 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0715_15_1C/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0715_15_1c",
+        "display": "ZYNQ-7 TE0715-*-15-1C (1GB DDR). *SPRT PCB: REV04",
+        "latest_revision": "1.1",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-7 TE0715-*-15-1C (1GB DDR). *SPRT PCB: REV04 v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0715_15_1C/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0715_15_1i",
+        "display": "ZYNQ-7 TE0715-*-15-1I/-15-1I3 (1GB DDR). *SPRT PCB: REV03, REV02, REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-7 TE0715-*-15-1I/-15-1I3 (1GB DDR). *SPRT PCB: REV03, REV02, REV01 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0715_15_1I/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0715_15_1i",
+        "display": "ZYNQ-7 TE0715-*-15-1I/-15-1I3/-15-1IC (1GB DDR). *SPRT PCB: REV04",
+        "latest_revision": "1.1",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-7 TE0715-*-15-1I/-15-1I3/-15-1IC (1GB DDR). *SPRT PCB: REV04 v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0715_15_1I/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0715_15_2i",
+        "display": "ZYNQ-7 TE0715-*-15-2I (1GB DDR). *SPRT PCB: REV03, REV02, REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-7 TE0715-*-15-2I (1GB DDR). *SPRT PCB: REV03, REV02, REV01 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0715_15_2I/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0715_15_2i",
+        "display": "ZYNQ-7 TE0715-*-15-2I (1GB DDR). *SPRT PCB: REV04",
+        "latest_revision": "1.1",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-7 TE0715-*-15-2I (1GB DDR). *SPRT PCB: REV04 v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0715_15_2I/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0715_30_1c",
+        "display": "ZYNQ-7 TE0715-*-30-1C (1GB DDR). *SPRT PCB: REV03, REV02, REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-7 TE0715-*-30-1C (1GB DDR). *SPRT PCB: REV03, REV02, REV01 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0715_30_1C/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0715_30_1c",
+        "display": "ZYNQ-7 TE0715-*-30-1C (1GB DDR). *SPRT PCB: REV04",
+        "latest_revision": "1.1",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-7 TE0715-*-30-1C (1GB DDR). *SPRT PCB: REV04 v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0715_30_1C/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0715_30_1i",
+        "display": "ZYNQ-7 TE0715-*-30-1I (1GB DDR). *SPRT PCB: REV03, REV02, REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-7 TE0715-*-30-1I (1GB DDR). *SPRT PCB: REV03, REV02, REV01 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0715_30_1I/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0715_30_1i",
+        "display": "ZYNQ-7 TE0715-*-30-1I/-30-1I3/-30-1IA/-30-1I3C1 (1GB DDR). *SPRT PCB: REV04",
+        "latest_revision": "1.1",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-7 TE0715-*-30-1I/-30-1I3/-30-1IA/-30-1I3C1 (1GB DDR). *SPRT PCB: REV04 v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0715_30_1I/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0715_30_3e",
+        "display": "ZYNQ-7 TE0715-*-30-3E (1GB DDR). *SPRT PCB: REV03, REV02, REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-7 TE0715-*-30-3E (1GB DDR). *SPRT PCB: REV03, REV02, REV01 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0715_30_3E/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0715_30_3e",
+        "display": "ZYNQ-7 TE0715-*-30-3E (1GB DDR). *SPRT PCB: REV04",
+        "latest_revision": "1.1",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-7 TE0715-*-30-3E (1GB DDR). *SPRT PCB: REV04 v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0715_30_3E/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0716_20_1c",
+        "display": "ZYNQ-7 TE0716-*(1GB DDR). *SPRT PCB: REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-7 TE0716-*(1GB DDR). *SPRT PCB: REV01 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0716_20_1C/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0722_i",
+        "display": "ZYNQ-7 TE0722-*IC7 (0GB DDR). *SPRT PCB: REV02",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-7 TE0722-*IC7 (0GB DDR). *SPRT PCB: REV02 v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0722_I/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0725lp_100_2c",
+        "display": "Artix-7 TE0725LP-*-72C-1(T, U, H)/-100-2(C, D, L). *SPRT PCB: REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Artix-7 TE0725LP-*-72C-1(T, U, H)/-100-2(C, D, L). *SPRT PCB: REV01 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0725LP_100_2C/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0725lp_100_2i",
+        "display": "Artix-7 TE0725LP-*-72I-1(T, U, H)/-100-2I. *SPRT PCB: REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Artix-7 TE0725LP-*-72I-1(T, U, H)/-100-2I. *SPRT PCB: REV01 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0725LP_100_2I/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0725_35_2i",
+        "display": "Artix-7 TE0725-*-35-2I. SPRT PCB: REV03, REV02, REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Artix-7 TE0725-*-35-2I. SPRT PCB: REV03, REV02, REV01 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0725_35_2I/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0741_160_2c",
+        "display": "Kintex-7 TE0741-*-160-2CF. *SPRT PCB: REV03, REV02",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Kintex-7 TE0741-*-160-2CF. *SPRT PCB: REV03, REV02 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0741_160_2C/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0741_160_2c",
+        "display": "Kintex-7 TE0741-*-160-2C1. SPRT PCB: REV03, REV02",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Kintex-7 TE0741-*-160-2C1. SPRT PCB: REV03, REV02 v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0741_160_2C/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0741_160_2i",
+        "display": "Kintex-7 TE0741-*-160-2IF. SPRT PCB: REV03, REV02",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Kintex-7 TE0741-*-160-2IF. SPRT PCB: REV03, REV02 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0741_160_2I/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0741_160_3e",
+        "display": "Kintex-7 TE0741-*-B3E-1-AF. *SPRT PCB: REV03",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Kintex-7 TE0741-*-B3E-1-AF. *SPRT PCB: REV03 v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0741_160_3E/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0741_325_2c",
+        "display": "Kintex-7 TE0741-*-325-2CF. *SPRT PCB: REV03, REV02",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Kintex-7 TE0741-*-325-2CF. *SPRT PCB: REV03, REV02 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0741_325_2C/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0741_325_2i",
+        "display": "Kintex-7 TE0741-*-325-2IF. *SPRT PCB: REV03, REV02",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Kintex-7 TE0741-*-325-2IF. *SPRT PCB: REV03, REV02 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0741_325_2I/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0741_410_2c",
+        "display": "Kintex-7 TE0741-*-410-2CF. *SPRT PCB: REV03, REV02",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Kintex-7 TE0741-*-410-2CF. *SPRT PCB: REV03, REV02 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0741_410_2C/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0741_410_2i",
+        "display": "Kintex-7 TE0741-*-410-2IF. *SPRT PCB: REV03, REV02",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Kintex-7 TE0741-*-410-2IF. *SPRT PCB: REV03, REV02 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0741_410_2I/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0741_070_2c",
+        "display": "Kintex-7 TE0741-*-070-2CF. *SPRT PCB: REV03, REV02",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Kintex-7 TE0741-*-070-2CF. *SPRT PCB: REV03, REV02 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0741_70_2C/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0741_070_2i",
+        "display": "Kintex-7 TE0741-*-070-2IF. *SPRT PCB: REV03, REV02",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Kintex-7 TE0741-*-070-2IF. *SPRT PCB: REV03, REV02 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0741_70_2I/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0745_30_1i",
+        "display": "ZYNQ-7 TE0745-*-71I11-AK/-71I11-A/-30-1I (1GB DDR). *SPRT PCB: REV02, REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-7 TE0745-*-71I11-AK/-71I11-A/-30-1I (1GB DDR). *SPRT PCB: REV02, REV01 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0745_30_1I/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0745_30_2i",
+        "display": "ZYNQ-7 TE0745-*-72I11-A/-30-2IA (1GB DDR). *SPRT PCB: REV02, REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-7 TE0745-*-72I11-A/-30-2IA (1GB DDR). *SPRT PCB: REV02, REV01 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0745_30_2I/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0745_35_1c",
+        "display": "ZYNQ-7 TE0745-*-81C11-A/-35-1C (1GB DDR). *SPRT PCB: REV02, REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-7 TE0745-*-81C11-A/-35-1C (1GB DDR). *SPRT PCB: REV02, REV01 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0745_35_1C/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0745_45_1c",
+        "display": "ZYNQ-7 TE0745-*-91C11-A/-45-1CA/-45-1C (1GB DDR). *SPRT PCB: REV02, REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-7 TE0745-*-91C11-A/-45-1CA/-45-1C (1GB DDR). *SPRT PCB: REV02, REV01 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0745_45_1C/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0745_45_2i",
+        "display": "ZYNQ-7 TE0745-*-92I11-A/-45-2IA/-45-2I (1GB DDR). *SPRT PCB: REV02, REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-7 TE0745-*-92I11-A/-45-2IA/-45-2I (1GB DDR). *SPRT PCB: REV02, REV01 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0745_45_2I/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0745_45_2i",
+        "display": "ZYNQ-7 TE0745-*-92I11-F (1GB DDR). *SPRT PCB: REV02",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-7 TE0745-*-92I11-F (1GB DDR). *SPRT PCB: REV02 v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0745_45_2I/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0745_45_3e",
+        "display": "ZYNQ-7 TE0745-*-93E11-A/-45-3EA 1GB DDR). *SPRT PCB: REV02, REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-7 TE0745-*-93E11-A/-45-3EA 1GB DDR). *SPRT PCB: REV02, REV01 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0745_45_3E/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0802_2cg_1e",
+        "display": "ZYNQ-UltraScale+ TE0802-*-2AEV2-A ( 1GB DDRL K4F8E). SPRT PCB: *REV02",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-UltraScale+ TE0802-*-2AEV2-A ( 1GB DDRL K4F8E). SPRT PCB: *REV02 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0802_2CG_1E/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0802_2cg_1e",
+        "display": "ZYNQ-UltraScale+ TE0802-*-2AEU2-A ( 1GB DDRL IS43LQ). SPRT PCB: *REV02",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-UltraScale+ TE0802-*-2AEU2-A ( 1GB DDRL IS43LQ). SPRT PCB: *REV02 v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0802_2CG_1E/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_3cg_1e",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-3AE10-A (2GB DDR). *SPRT PCB: REV03",
+        "latest_revision": "5.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "5.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-3AE10-A (2GB DDR). *SPRT PCB: REV03 v5.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_3CG_1E/5.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_3cg_1e_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-3AE10-A (2GB DDR) with TEBF0808. *SPRT PCB: REV03",
+        "latest_revision": "6.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "6.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-3AE10-A (2GB DDR) with TEBF0808. *SPRT PCB: REV03 v6.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_3CG_1E/6.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_3eg_1e",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-3BE31-A (8GB DDR). *SPRT PCB: REV03",
+        "latest_revision": "5.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "5.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-3BE31-A (8GB DDR). *SPRT PCB: REV03 v5.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_3EG_1E/5.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_3eg_1e_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-3BE31-A (8GB DDR) with TEBF0808. *SPRT PCB: REV03",
+        "latest_revision": "6.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "6.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-3BE31-A (8GB DDR) with TEBF0808. *SPRT PCB: REV03 v6.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_3EG_1E/6.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_3eg_1i",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-3BI21-A (4GB DDR). *SPRT PCB: REV03",
+        "latest_revision": "3.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-3BI21-A (4GB DDR). *SPRT PCB: REV03 v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_3EG_1I/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_3eg_1i_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-3BI21-A (4GB DDR) with TEBF0808. *SPRT PCB: REV03",
+        "latest_revision": "4.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "4.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-3BI21-A (4GB DDR) with TEBF0808. *SPRT PCB: REV03 v4.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_3EG_1I/4.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_3eg_1li",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-3RI21-A (4GB DDR). *SPRT PCB: REV03",
+        "latest_revision": "3.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-3RI21-A (4GB DDR). *SPRT PCB: REV03 v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_3EG_1LI/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_3eg_1li_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-3RI21-A (4GB DDR) with TEBF0808. *SPRT PCB: REV03",
+        "latest_revision": "4.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "4.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-3RI21-A (4GB DDR) with TEBF0808. *SPRT PCB: REV03 v4.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_3EG_1LI/4.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_4eg_1e",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4BE21-L/-04EG-1E3 (4GB DDR). *SPRT PCB: REV03, REV02",
+        "latest_revision": "3.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4BE21-L/-04EG-1E3 (4GB DDR). *SPRT PCB: REV03, REV02 v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_4EG_1E/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_4eg_1e_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4BE21-L/-04EG-1E3 (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02",
+        "latest_revision": "4.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "4.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4BE21-L/-04EG-1E3 (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02 v4.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_4EG_1E/4.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_4eg_1i",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4BI21-A/-4BI21-X (4GB DDR). *SPRT PCB: REV03",
+        "latest_revision": "3.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4BI21-A/-4BI21-X (4GB DDR). *SPRT PCB: REV03 v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_4EG_1I/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_4eg_1i_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4BI21-A/-4BI21-X (4GB DDR) with TEBF0808. SPRT PCB: REV03",
+        "latest_revision": "4.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "4.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4BI21-A/-4BI21-X (4GB DDR) with TEBF0808. SPRT PCB: REV03 v4.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_4EG_1I/4.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_4eg_2e",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GE11-A (2GB DDR). *SPRT PCB: REV03",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GE11-A (2GB DDR). *SPRT PCB: REV03 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_4EG_2E/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_4eg_2e_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GE11-A (2GB DDR) with TEBF0808. *SPRT PCB: REV03",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GE11-A (2GB DDR) with TEBF0808. *SPRT PCB: REV03 v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_4EG_2E/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_4eg_2e",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GE21-L (4GB DDR). *SPRT PCB: REV03",
+        "latest_revision": "3.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GE21-L (4GB DDR). *SPRT PCB: REV03 v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_4EG_2E/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_4eg_2e_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GE21-L (4GB DDR) with TEBF0808. *SPRT PCB: REV03",
+        "latest_revision": "4.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "4.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GE21-L (4GB DDR) with TEBF0808. *SPRT PCB: REV03 v4.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_4EG_2E/4.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_4eg_2i",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GI11-A (2GB DDR). *SPRT PCB: REV03",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GI11-A (2GB DDR). *SPRT PCB: REV03 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_4EG_2I/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_4eg_2i_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GI11-A (2GB DDR) with TEBF0808. *SPRT PCB: REV03",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GI11-A (2GB DDR) with TEBF0808. *SPRT PCB: REV03 v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_4EG_2I/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_4eg_2i",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GI21-A (4GB DDR). *SPRT PCB: REV03",
+        "latest_revision": "3.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GI21-A (4GB DDR). *SPRT PCB: REV03 v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_4EG_2I/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_4eg_2i_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GI21-A (4GB DDR) with TEBF0808. SPRT PCB: REV03",
+        "latest_revision": "4.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "4.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GI21-A (4GB DDR) with TEBF0808. SPRT PCB: REV03 v4.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_4EG_2I/4.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_4ev_1e",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4DE21-L/-04EV-1EB/-04EV-1E3 (4GB DDR). *SPRT PCB: REV03,REV02",
+        "latest_revision": "3.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4DE21-L/-04EV-1EB/-04EV-1E3 (4GB DDR). *SPRT PCB: REV03,REV02 v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_4EV_1E/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_4ev_1e_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4DE21-L/-04EV-1EB/-04EV-1E3 (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02",
+        "latest_revision": "4.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "4.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4DE21-L/-04EV-1EB/-04EV-1E3 (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02 v4.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_4EV_1E/4.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_4ev_1i",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4DI21-L (4GB DDR)  (4GB DDR). *SPRT PCB: REV03,REV02",
+        "latest_revision": "3.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4DI21-L (4GB DDR)  (4GB DDR). *SPRT PCB: REV03,REV02 v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_4EV_1I/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_4ev_1i_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4DI21-L (4GB DDR) with TEBF0808. *SPRT PCB: REV03",
+        "latest_revision": "4.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "4.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4DI21-L (4GB DDR) with TEBF0808. *SPRT PCB: REV03 v4.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_4EV_1I/4.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_5eg_1e",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-5BE11-A (2GB DDR). *SPRT PCB: REV03",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-5BE11-A (2GB DDR). *SPRT PCB: REV03 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_5EG_1E/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_5eg_1e_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-5BE11-A (2GB DDR) with TEBF0808. *SPRT PCB: REV03",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-5BE11-A (2GB DDR) with TEBF0808. *SPRT PCB: REV03 v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_5EG_1E/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_5ev_1i",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-5DI21-A/-5DI24-A  (4GB DDR). *SPRT PCB: REV03",
+        "latest_revision": "3.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-5DI21-A/-5DI24-A  (4GB DDR). *SPRT PCB: REV03 v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_5EV_1I/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0803_5ev_1i_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-5DI21-A/-5DI24-A (4GB DDR) with TEBF0808. *SPRT PCB: REV01",
+        "latest_revision": "4.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "4.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-5DI21-A/-5DI24-A (4GB DDR) with TEBF0808. *SPRT PCB: REV01 v4.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0803_5EV_1I/4.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0807_4cg_1i",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-4AI21-(A,C,X) (4GB DDR). *SPRT PCB: REV03, REV02.",
+        "latest_revision": "3.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-4AI21-(A,C,X) (4GB DDR). *SPRT PCB: REV03, REV02. v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0807_4CG_1I/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0807_4cg_1i_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-(A,C,X) (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02.",
+        "latest_revision": "4.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "4.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-(A,C,X) (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02. v4.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0807_4CG_1I/4.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0807_4eg_1e",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-4BE21-(A,AK) (4GB DDR). *SPRT PCB: REV03, REV02.",
+        "latest_revision": "3.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-4BE21-(A,AK) (4GB DDR). *SPRT PCB: REV03, REV02. v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0807_4EG_1E/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0807_4eg_1e_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-4BE21-(A,AK) (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02.",
+        "latest_revision": "4.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "4.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-4BE21-(A,AK) (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02. v4.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0807_4EG_1E/4.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0807_5cg_1i",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-5AI21-A (4GB DDR). *SPRT PCB: REV03, REV02.",
+        "latest_revision": "3.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-5AI21-A (4GB DDR). *SPRT PCB: REV03, REV02. v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0807_5CG_1I/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0807_5cg_1i_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-5AI21-A (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02.",
+        "latest_revision": "4.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "4.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-5AI21-A (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02. v4.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0807_5CG_1I/4.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0807_5ev_1i",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-5DI21-A (4GB DDR). *SPRT PCB: REV03, REV02.",
+        "latest_revision": "3.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-5DI21-A (4GB DDR). *SPRT PCB: REV03, REV02. v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0807_5EV_1I/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0807_5ev_1i_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-5DI21-A (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02.",
+        "latest_revision": "4.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "4.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-5DI21-A (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02. v4.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0807_5EV_1I/4.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0807_7cg_1i",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-7AI21-A (4GB DDR). *SPRT PCB: REV03, REV02.",
+        "latest_revision": "3.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-7AI21-A (4GB DDR). *SPRT PCB: REV03, REV02. v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0807_7CG_1I/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0807_7cg_1i_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-7AI21-A (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02.",
+        "latest_revision": "4.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "4.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-7AI21-A (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02. v4.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0807_7CG_1I/4.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0807_7ev_1e",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-7DE21-(A,AK)/-07EV-1E( ,K) (4GB DDR). *SPRT PCB: REV03, REV02.",
+        "latest_revision": "3.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-7DE21-(A,AK)/-07EV-1E( ,K) (4GB DDR). *SPRT PCB: REV03, REV02. v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0807_7EV_1E/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0807_7ev_1e_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-7DE21-(A,AK)/-07EV-1E( ,K) (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02.",
+        "latest_revision": "4.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "4.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-7DE21-(A,AK)/-07EV-1E( ,K) (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02. v4.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0807_7EV_1E/4.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0807_7ev_1i",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-7DI21-(A,C)/-7DI24-A (4GB DDR). *SPRT PCB: REV03, REV02.",
+        "latest_revision": "3.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-7DI21-(A,C)/-7DI24-A (4GB DDR). *SPRT PCB: REV03, REV02. v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0807_7EV_1I/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0807_7ev_1i_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-7DI21-(A,C)/-7DI24-A (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02.",
+        "latest_revision": "4.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "4.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-7DI21-(A,C)/-7DI24-A (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02. v4.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0807_7EV_1I/4.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0807_7ev_3e",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-7NE21-A (4GB DDR). *SPRT PCB: REV03, REV02.",
+        "latest_revision": "3.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-7NE21-A (4GB DDR). *SPRT PCB: REV03, REV02. v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0807_7EV_3E/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0807_7ev_3e_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-7NE21-A (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02.",
+        "latest_revision": "4.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "4.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-7NE21-A (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02. v4.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0807_7EV_3E/4.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0808_6eg_1i",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-*-6BI21-(A,X,D) (4GB DDR). *SPRT PCB: REV05,REV04.",
+        "latest_revision": "3.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0808-*-6BI21-(A,X,D) (4GB DDR). *SPRT PCB: REV05,REV04. v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0808_6EG_1I/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0808_6eg_1i_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-*-6BI21-(A,X,D) (4GB DDR) with TEBF0808. *SPRT Module PCB: REV05,REV04.",
+        "latest_revision": "4.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "4.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0808-*-6BI21-(A,X,D) (4GB DDR) with TEBF0808. *SPRT Module PCB: REV05,REV04. v4.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0808_6EG_1I/4.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0808_6eg_1i",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-*-6BI41-X (8GB DDR). *SPRT PCB: REV05.",
+        "latest_revision": "5.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "5.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0808-*-6BI41-X (8GB DDR). *SPRT PCB: REV05. v5.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0808_6EG_1I/5.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0808_6eg_1i_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-*-6BI41-X (8GB DDR) with TEBF0808. *SPRT Module PCB: REV05.",
+        "latest_revision": "6.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "6.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0808-*-6BI41-X (8GB DDR) with TEBF0808. *SPRT Module PCB: REV05. v6.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0808_6EG_1I/6.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0808_6eg_2i",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-*-6GI21-(A,L) (4GB DDR). *SPRT PCB: REV04.",
+        "latest_revision": "3.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0808-*-6GI21-(A,L) (4GB DDR). *SPRT PCB: REV04. v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0808_6EG_2I/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0808_6eg_2i_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-*-6GI21-(A,L) (4GB DDR) with TEBF0808. *SPRT Module PCB: REV04.",
+        "latest_revision": "4.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "4.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0808-*-6GI21-(A,L) (4GB DDR) with TEBF0808. *SPRT Module PCB: REV04. v4.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0808_6EG_2I/4.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0808_9eg_1i",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-*-9BI41-X (8GB DDR). *SPRT PCB: REV05.",
+        "latest_revision": "5.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "5.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0808-*-9BI41-X (8GB DDR). *SPRT PCB: REV05. v5.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0808_9EG_1I/5.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0808_9eg_1i_tebf0808",
+        "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-*-9BI41-X (8GB DDR) with TEBF0808. *SPRT Module PCB: REV05.",
+        "latest_revision": "6.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "6.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0808-*-9BI41-X (8GB DDR) with TEBF0808. *SPRT Module PCB: REV05. v6.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0808_9EG_1I/6.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0820_2cg_1e",
+        "display": "ZYNQ-UltraScale+ TE0820-*-2AE21FA/-2CG-1EA/-2CG-1ED(2 GB DDR). *SPRT PCB: REV03",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-UltraScale+ TE0820-*-2AE21FA/-2CG-1EA/-2CG-1ED(2 GB DDR). *SPRT PCB: REV03 v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0820_2CG_1E/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0820_2cg_1i",
+        "display": "ZYNQ-UltraScale+ TE0820-*-2AI21FA(2 GB DDR). *SPRT PCB: REV03",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-UltraScale+ TE0820-*-2AI21FA(2 GB DDR). *SPRT PCB: REV03 v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0820_2CG_1I/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0820_3cg_1e",
+        "display": "ZYNQ-UltraScale+ TE0820-*-3AE21FA/-3CG-1EA (2 GB DDR). *SPRT PCB: REV03",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-UltraScale+ TE0820-*-3AE21FA/-3CG-1EA (2 GB DDR). *SPRT PCB: REV03 v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0820_3CG_1E/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0820_3cg_1i",
+        "display": "ZYNQ-UltraScale+ TE0820-*-3AI210A/-3AI21FA (2 GB DDR). *SPRT PCB: REV03",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-UltraScale+ TE0820-*-3AI210A/-3AI21FA (2 GB DDR). *SPRT PCB: REV03 v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0820_3CG_1I/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0820_3eg_1e",
+        "display": "ZYNQ-UltraScale+ TE0820-*-3BE21FL/-3BE21FA/-3EG-1EA/-3EG-1EL (2 GB DDR). *SPRT PCB: REV03",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-UltraScale+ TE0820-*-3BE21FL/-3BE21FA/-3EG-1EA/-3EG-1EL (2 GB DDR). *SPRT PCB: REV03 v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0820_3EG_1E/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0820_4cg_1e",
+        "display": "ZYNQ-UltraScale+ TE0820-*-4AE21FA/-4CG-1EA (2 GB DDR). *SPRT PCB: REV03",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-UltraScale+ TE0820-*-4AE21FA/-4CG-1EA (2 GB DDR). *SPRT PCB: REV03 v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0820_4CG_1E/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0820_4cg_1e",
+        "display": "ZYNQ-UltraScale+ TE0820-*-4AE21FI (2 GB DDR). *SPRT PCB: REV03",
+        "latest_revision": "3.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-UltraScale+ TE0820-*-4AE21FI (2 GB DDR). *SPRT PCB: REV03 v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0820_4CG_1E/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0820_4cg_1i",
+        "display": "ZYNQ-UltraScale+ TE0820-*-4AI21FI (2 GB DDR). *SPRT PCB: REV03",
+        "latest_revision": "3.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-UltraScale+ TE0820-*-4AI21FI (2 GB DDR). *SPRT PCB: REV03 v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0820_4CG_1I/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0820_4ev_1e",
+        "display": "ZYNQ-UltraScale+ TE0820-*-4DE21FA/-04EV-1EA (2 GB DDR). *SPRT PCB: REV03",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-UltraScale+ TE0820-*-4DE21FA/-04EV-1EA (2 GB DDR). *SPRT PCB: REV03 v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0820_4EV_1E/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0820_4ev_1i",
+        "display": "ZYNQ-UltraScale+ TE0820-*-4DI21FA(2 GB DDR). *SPRT PCB: REV03",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-UltraScale+ TE0820-*-4DI21FA(2 GB DDR). *SPRT PCB: REV03 v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0820_4EV_1I/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0820_5ev_1q",
+        "display": "ZYNQ-UltraScale+ TE0820-*-5DR21FA (2 GB DDR). *SPRT PCB: REV03",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-UltraScale+ TE0820-*-5DR21FA (2 GB DDR). *SPRT PCB: REV03 v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0820_5EV_1Q/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0821_2cg_1e",
+        "display": "ZYNQ-UltraScale+ TE0821-*-2AE31KA(4 GB DDR). *SPRT PCB: REV01",
+        "latest_revision": "3.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-UltraScale+ TE0821-*-2AE31KA(4 GB DDR). *SPRT PCB: REV01 v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0821_2CG_1E/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0821_3cg_1e",
+        "display": "ZYNQ-UltraScale+ TE0821-*-3AE31KA (4 GB DDR). *SPRT PCB: REV01",
+        "latest_revision": "3.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-UltraScale+ TE0821-*-3AE31KA (4 GB DDR). *SPRT PCB: REV01 v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0821_3CG_1E/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0821_3eg_1e",
+        "display": "ZYNQ-UltraScale+ TE0821-*-3BE21FA/-3BE21FL/-3BE21FC (2 GB DDR). *SPRT PCB: REV01",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-UltraScale+ TE0821-*-3BE21FA/-3BE21FL/-3BE21FC (2 GB DDR). *SPRT PCB: REV01 v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0821_3EG_1E/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0821_3eg_1i",
+        "display": "ZYNQ-UltraScale+ TE0821-*-3BI21FA/-3BI21FL (2 GB DDR). *SPRT PCB: REV01",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-UltraScale+ TE0821-*-3BI21FA/-3BI21FL (2 GB DDR). *SPRT PCB: REV01 v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0821_3EG_1I/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0821_4ev_1e",
+        "display": "ZYNQ-UltraScale+ TE0821-*-4DE31FL (4 GB DDR). *SPRT PCB: REV01",
+        "latest_revision": "3.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-UltraScale+ TE0821-*-4DE31FL (4 GB DDR). *SPRT PCB: REV01 v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0821_4EV_1E/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0823_3cg_1li",
+        "display": "ZYNQ-UltraScale+ TE0823-*-3PIU1FL (1 GB DDR). *SPRT PCB: REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-UltraScale+ TE0823-*-3PIU1FL (1 GB DDR). *SPRT PCB: REV01 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0823_3CG_1LI/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0835_25dr_1e",
+        "display": "ZYNQ-UltraScale+ RFSoC TE0835-*-MXE21-A (4GB DDR). *SPRT PCB: REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-UltraScale+ RFSoC TE0835-*-MXE21-A (4GB DDR). *SPRT PCB: REV01 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0835_25DR_1E/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0841_35_1c",
+        "display": "Kintex-Ultrascale TE0841-*-035-1C (1GB DDR). *SPRT PCB: REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Kintex-Ultrascale TE0841-*-035-1C (1GB DDR). *SPRT PCB: REV01 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0841_35_1C/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0841_35_1c",
+        "display": "Kintex-Ultrascale TE0841-*-31C21-A/-035-1C (2GB DDR). *SPRT PCB: REV02",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Kintex-Ultrascale TE0841-*-31C21-A/-035-1C (2GB DDR). *SPRT PCB: REV02 v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0841_35_1C/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0841_35_1i",
+        "display": "Kintex-Ultrascale TE0841-*-035-1I (1GB DDR). *SPRT PCB: REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Kintex-Ultrascale TE0841-*-035-1I (1GB DDR). *SPRT PCB: REV01 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0841_35_1I/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0841_35_1i",
+        "display": "Kintex-Ultrascale TE0841-*-31I21-A/-035-1I (2GB DDR). *SPRT PCB: REV02",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Kintex-Ultrascale TE0841-*-31I21-A/-035-1I (2GB DDR). *SPRT PCB: REV02 v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0841_35_1I/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0841_35_2i",
+        "display": "Kintex-Ultrascale TE0841-*-035-2I (1GB DDR). *SPRT PCB: REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Kintex-Ultrascale TE0841-*-035-2I (1GB DDR). *SPRT PCB: REV01 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0841_35_2I/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0841_35_2i",
+        "display": "Kintex-Ultrascale TE0841-*-32I21-A/-035-2I (2GB DDR). *SPRT PCB: REV02",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Kintex-Ultrascale TE0841-*-32I21-A/-035-2I (2GB DDR). *SPRT PCB: REV02 v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0841_35_2I/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0841_40_1c",
+        "display": "Kintex-Ultrascale TE0841-*-040-1C (1GB DDR). *SPRT PCB: REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Kintex-Ultrascale TE0841-*-040-1C (1GB DDR). *SPRT PCB: REV01 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0841_40_1C/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0841_40_1c",
+        "display": "Kintex-Ultrascale TE0841-*-41C21-A/-040-1C (2GB DDR). *SPRT PCB: REV02",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Kintex-Ultrascale TE0841-*-41C21-A/-040-1C (2GB DDR). *SPRT PCB: REV02 v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0841_40_1C/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0841_40_1i",
+        "display": "Kintex-Ultrascale TE0841-*-040-1I (1GB DDR). *SPRT PCB: REV01",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Kintex-Ultrascale TE0841-*-040-1I (1GB DDR). *SPRT PCB: REV01 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0841_40_1I/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "te0841_40_1i",
+        "display": "Kintex-Ultrascale TE0841-*-41I21-L/-41I21-A/-040-1IL/-040-1I (2GB DDR). *SPRT PCB: REV02",
+        "latest_revision": "2.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board Kintex-Ultrascale TE0841-*-41I21-L/-41I21-A/-040-1IL/-040-1I (2GB DDR). *SPRT PCB: REV02 v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TE0841_40_1I/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "teb0911_15eg_1e",
+        "display": "ZYNQ-UltraScale+ TEB0911-*-BBEX1FA/-15EG-1E/-15EG-1EA (8GB DDR-CT8G4SFS824A). *SPRT PCB: REV04..",
+        "latest_revision": "1.0",
+        "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6a377abd13bd21c6ef8f75c860e04167f1f98a32",
+            "date": "08-01-2021:22:12:43",
+            "history": "Added board ZYNQ-UltraScale+ TEB0911-*-BBEX1FA/-15EG-1E/-15EG-1EA (8GB DDR-CT8G4SFS824A). *SPRT PCB: REV04.. v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Trenz_Electronic/TEB0911_15EG_1E/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "trenz.biz"
+      },
+      {
+        "name": "vck190",
+        "display": "Versal VCK190 Evaluation Platform",
+        "latest_revision": "2.1",
+        "commit_id": "9e427acd2a37d447d7433439d6b1d580e89d66c4",
+        "revisions": [
+          {
+            "revision": "2.1",
+            "commit_id": "9e427acd2a37d447d7433439d6b1d580e89d66c4",
+            "date": "11-01-2021:11:46:33",
+            "history": "Added board Versal VCK190 Evaluation Platform v2.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vck190/production/2.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vmk180",
+        "display": "Versal VMK180 Evaluation Platform",
+        "latest_revision": "2.1",
+        "commit_id": "9e427acd2a37d447d7433439d6b1d580e89d66c4",
+        "revisions": [
+          {
+            "revision": "2.1",
+            "commit_id": "9e427acd2a37d447d7433439d6b1d580e89d66c4",
+            "date": "19-01-2021:10:57:18",
+            "history": "Added board Versal VMK180 Evaluation Platform v2.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vmk180/production/2.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "LI-IMX274MIPI-FMC",
+        "display": "FMC XM105 Debug Card",
+        "latest_revision": "1.0",
+        "commit_id": "002d6453af50e59c711525619320cff92dc1a141",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "002d6453af50e59c711525619320cff92dc1a141",
+            "date": "25-01-2021:05:01:35",
+            "history": "Added board FMC XM105 Debug Card v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/li-imx274-mipi/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "Leopardimaging"
+      },
+      {
+        "name": "xm105",
+        "display": "FMC XM105 Debug Card",
+        "latest_revision": "1.0",
+        "commit_id": "002d6453af50e59c711525619320cff92dc1a141",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "002d6453af50e59c711525619320cff92dc1a141",
+            "date": "25-01-2021:05:01:35",
+            "history": "Added board FMC XM105 Debug Card v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/xm105/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "single_part",
+        "display_name": "Single Part",
+        "description": "This category represents all the boards which have single part",
+        "parent": ""
+      },
+      {
+        "name": "multi_part",
+        "display_name": "Multi Part",
+        "description": "This category represents all the boards which have multi part",
+        "parent": ""
+      },
+      {
+        "name": "daughter_card",
+        "display_name": "Daughter Card",
+        "description": "This category represents all the boards which are daughter cards",
+        "parent": ""
+      },
+      {
+        "name": "misc",
+        "display_name": "Misc",
+        "description": "This category represents miscellaneous variety of boards",
+        "default": true,
+        "parent": ""
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}
