@@ -5320,6 +5320,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
+      },
+      {
+        "name": "vck190",
+        "display": "Versal VCK190 Evaluation Platform",
+        "latest_revision": "2.2",
+        "commit_id": "387df10b4f48cc986f6b1a6761571b520e681ce5",
+        "revisions": [
+          {
+            "revision": "2.2",
+            "commit_id": "387df10b4f48cc986f6b1a6761571b520e681ce5",
+            "date": "04-02-2021:09:57:09",
+            "history": "Added board Versal VCK190 Evaluation Platform v2.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vck190/production/2.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
       }
     ],
     "categories": [
