@@ -5339,6 +5339,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
+      },
+      {
+        "name": "vmk180",
+        "display": "Versal VMK180 Evaluation Platform",
+        "latest_revision": "2.2",
+        "commit_id": "6954aed36dde08fb610d24fbc5ebca88ba65d1cb",
+        "revisions": [
+          {
+            "revision": "2.2",
+            "commit_id": "6954aed36dde08fb610d24fbc5ebca88ba65d1cb",
+            "date": "09-02-2021:10:06:44",
+            "history": "Added board Versal VMK180 Evaluation Platform v2.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vmk180/production/2.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
       }
     ],
     "categories": [
