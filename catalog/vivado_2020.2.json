@@ -5206,6 +5206,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "trenz.biz"
+      },
+      {
+        "name": "pynqzu",
+        "display": "Zynq UltraScale+ PYNQ-ZU Development Board",
+        "latest_revision": "1.1",
+        "commit_id": "7930bcd7de0458fa10d864d4d90008cede2ae8c9",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "7930bcd7de0458fa10d864d4d90008cede2ae8c9",
+            "date": "17-12-2020:15:37:04",
+            "history": "Added board Zynq UltraScale+ PYNQ-ZU Development Board v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/TUL/pynqzu/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "tul.com.tw"
       }
     ],
     "categories": [
