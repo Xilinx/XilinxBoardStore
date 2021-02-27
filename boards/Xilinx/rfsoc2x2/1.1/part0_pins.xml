@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<!-- Copyright (C) 2019, Xilinx Inc - All rights reserved
+ Licensed under the Apache License, Version 2.0 (the "License"). You may
+ not use this file except in compliance with the License. A copy of the
+ License is located at
+     http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ License for the specific language governing permissions and limitations
+ under the License. -->
+<part_info part_name="xczu28dr-ffvg1517-2-e">
+<pins>  
+  <pin index="0" name ="GPIO_DIP_SW1" iostandard="LVCMOS18" loc="AT10"/>
+  <pin index="1" name ="GPIO_DIP_SW2" iostandard="LVCMOS18" loc="AU10"/>
+  <pin index="2" name ="GPIO_DIP_SW3" iostandard="LVCMOS18" loc="AV10"/>
+  <pin index="3" name ="GPIO_DIP_SW4" iostandard="LVCMOS18" loc="AW10"/>
+  <pin index="4" name ="GPIO_LED_0_LS" iostandard="LVCMOS18" loc="AR12"/>
+  <pin index="5" name ="GPIO_LED_1_LS" iostandard="LVCMOS18" loc="AT12"/>
+  <pin index="6" name ="GPIO_LED_2_LS" iostandard="LVCMOS18" loc="AV12"/>
+  <pin index="7" name ="GPIO_LED_3_LS" iostandard="LVCMOS18" loc="AU12"/> 
+  <pin index="8" name ="GPIO_PB_0" iostandard="LVCMOS18" loc="AM7"/>		
+  <pin index="9" name ="GPIO_PB_1" iostandard="LVCMOS18" loc="AM8"/>
+  <pin index="10" name ="GPIO_PB_2" iostandard="LVCMOS18" loc="AN8"/>
+  <pin index="11" name ="GPIO_PB_3" iostandard="LVCMOS18" loc="AP8"/>
+  <pin index="12" name ="GPIO_RGB0_R" iostandard="LVCMOS18" loc="AV11"/>		
+  <pin index="13" name ="GPIO_RGB0_G" iostandard="LVCMOS18" loc="AT11"/>
+  <pin index="14" name ="GPIO_RGB0_B" iostandard="LVCMOS18" loc="AW11"/>
+  <pin index="15" name ="GPIO_RGB1_R" iostandard="LVCMOS18" loc="AN13"/>		
+  <pin index="16" name ="GPIO_RGB1_G" iostandard="LVCMOS18" loc="AN12"/>
+  <pin index="17" name ="GPIO_RGB1_B" iostandard="LVCMOS18" loc="AR11"/>
+  <pin index="18" name ="pmod0_0" iostandard="LVCMOS18" loc="AT16"/>
+  <pin index="19" name ="pmod0_1" iostandard="LVCMOS18" loc="AW16"/>
+  <pin index="20" name ="pmod0_2" iostandard="LVCMOS18" loc="AV16"/>
+  <pin index="21" name ="pmod0_3" iostandard="LVCMOS18" loc="AU15"/>
+  <pin index="22" name ="pmod0_4" iostandard="LVCMOS18" loc="AV13"/>
+  <pin index="23" name ="pmod0_5" iostandard="LVCMOS18" loc="AU13"/>
+  <pin index="24" name ="pmod0_6" iostandard="LVCMOS18" loc="AU14"/>
+  <pin index="25" name ="pmod0_7" iostandard="LVCMOS18" loc="AT15"/>
+  <pin index="26" name ="pmod1_0" iostandard="LVCMOS18" loc="AJ15"/>
+  <pin index="27" name ="pmod1_1" iostandard="LVCMOS18" loc="AL15"/>
+  <pin index="28" name ="pmod1_2" iostandard="LVCMOS18" loc="AJ16"/>
+  <pin index="29" name ="pmod1_3" iostandard="LVCMOS18" loc="AK16"/>
+  <pin index="30" name ="pmod1_4" iostandard="LVCMOS18" loc="AM17"/>
+  <pin index="31" name ="pmod1_5" iostandard="LVCMOS18" loc="AP15"/>
+  <pin index="32" name ="pmod1_6" iostandard="LVCMOS18" loc="AL16"/>
+  <pin index="33" name ="pmod1_7" iostandard="LVCMOS18" loc="AK17"/>
+  <pin index="34" name ="CPU_RESET" iostandard="LVCMOS18" loc="AP9"/>	
+</pins>
+</part_info>

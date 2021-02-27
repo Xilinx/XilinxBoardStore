@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<!-- Copyright (C) 2019, Xilinx Inc - All rights reserved
+ Licensed under the Apache License, Version 2.0 (the "License"). You may
+ not use this file except in compliance with the License. A copy of the
+ License is located at
+     http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ License for the specific language governing permissions and limitations
+ under the License. -->
+<board schema_version="2.1" vendor="xilinx.com" name="rfsoc2x2" display_name="Zynq UltraScale+ RFSoC 2x2 Development Board" url="www.xilinx.com/support/university/boards-portfolio/xup-boards/RFSoC2x2.html" preset_file="preset.xml">
+  <images>
+    <image name="rfsoc2x2_board.png" display_name="RFSoC 2x2 BOARD" sub_type="board">
+      <description>RFSoC 2x2 Board File Image</description>
+    </image>
+  </images>
+  <compatible_board_revisions>
+	<revision id="1">Rev 1.1</revision>
+  </compatible_board_revisions>
+  <file_version>1.1</file_version>
+  <description>Zynq UltraScale+ RFSoC 2x2 Development Board</description>
+  <parameters>
+    <parameter name="heat_sink_type" value="medium" value_type="string"/>
+    <parameter name="heat_sink_temperature" value_type="range" value_min="20.0" value_max="30.0"/>
+  </parameters>
+  <jumpers>
+  </jumpers>
+  <components>   
+  
+    <component name="part0" display_name="Zynq UltraScale+ RFSoC 2x2 Development Board" type="fpga" part_name="xczu28dr-ffvg1517-2-e" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="www.xilinx.com/support/university/boards-portfolio/xup-boards/RFSoC2x2.html">
+	 
+      <description>FPGA part on the board</description>
+	  
+      <interfaces>
+      
+	    <interface mode="master" name="ps8_fixedio" type="xilinx.com:zynq_ultra_ps_e:fixedio_rtl:1.0" of_component="ps8_fixedio" preset_proc="zynq_ultra_ps_e_preset"> 
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="zynq_ultra_ps_e" order="0"/>
+          </preferred_ips>
+        </interface>
+	    <interface mode="slave" name="reset" type="xilinx.com:signal:reset_rtl:1.0" of_component="reset">
+          <parameters>
+            <parameter name="rst_polarity" value="0"/>
+          </parameters>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="proc_sys_reset" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="RESET" physical_port="reset" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CPU_RESET"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+	    <interface mode="master" name="dip_switches_4bits" type="xilinx.com:interface:gpio_rtl:1.0" of_component="dip_switches_4bits" preset_proc="dip_switches_4bits_preset">
+          <description>4-position user DIP Switch</description>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_I" physical_port="dip_switches_tri_i" dir="in" left="3" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="GPIO_DIP_SW1"/>
+                <pin_map port_index="1" component_pin="GPIO_DIP_SW2"/>
+                <pin_map port_index="2" component_pin="GPIO_DIP_SW3"/>
+                <pin_map port_index="3" component_pin="GPIO_DIP_SW4"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        <interface mode="master" name="led_4bits" type="xilinx.com:interface:gpio_rtl:1.0" of_component="led_4bits" preset_proc="led_4bits_preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_O" physical_port="leds_4bits_tri_o" dir="out" left="3" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="GPIO_LED_0_LS"/>
+                <pin_map port_index="1" component_pin="GPIO_LED_1_LS"/>
+                <pin_map port_index="2" component_pin="GPIO_LED_2_LS"/>
+                <pin_map port_index="3" component_pin="GPIO_LED_3_LS"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+		<interface mode="master" name="push_buttons_4bits" type="xilinx.com:interface:gpio_rtl:1.0" of_component="push_buttons_4bits" preset_proc="push_buttons_4bits_preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_I" physical_port="push_buttons_4bits_tri" dir="in" left="3" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="GPIO_PB_0"/>
+                <pin_map port_index="1" component_pin="GPIO_PB_1"/>
+                <pin_map port_index="2" component_pin="GPIO_PB_2"/>
+                <pin_map port_index="3" component_pin="GPIO_PB_3"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+		<interface mode="master" name="rgbled0" type="xilinx.com:interface:gpio_rtl:1.0" of_component="rgbled0" preset_proc="rgbled0_preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_O" physical_port="rgbled0_tri_o" dir="out" left="2" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="GPIO_RGB0_R"/>
+                <pin_map port_index="1" component_pin="GPIO_RGB0_G"/>
+                <pin_map port_index="2" component_pin="GPIO_RGB0_B"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+		<interface mode="master" name="rgbled1" type="xilinx.com:interface:gpio_rtl:1.0" of_component="rgbled1" preset_proc="rgbled1_preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_O" physical_port="rgbled1_tri_o" dir="out" left="2" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="GPIO_RGB1_R"/>
+                <pin_map port_index="1" component_pin="GPIO_RGB1_G"/>
+                <pin_map port_index="2" component_pin="GPIO_RGB1_B"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        <interface mode="master" name="pmod0" type="xilinx.com:interface:gpio_rtl:1.0" of_component="pmod0" preset_proc="pmod0_preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_O" physical_port="pmod0_tri_o" dir="in" left="7" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pmod0_0"/>
+                <pin_map port_index="1" component_pin="pmod0_1"/>
+                <pin_map port_index="2" component_pin="pmod0_2"/>
+                <pin_map port_index="3" component_pin="pmod0_3"/>
+                <pin_map port_index="4" component_pin="pmod0_4"/>
+                <pin_map port_index="5" component_pin="pmod0_5"/>
+                <pin_map port_index="6" component_pin="pmod0_6"/>
+                <pin_map port_index="7" component_pin="pmod0_7"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="TRI_I" physical_port="pmod0_tri_i" dir="out" left="7" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pmod0_0"/>
+                <pin_map port_index="1" component_pin="pmod0_1"/>
+                <pin_map port_index="2" component_pin="pmod0_2"/>
+                <pin_map port_index="3" component_pin="pmod0_3"/>
+                <pin_map port_index="4" component_pin="pmod0_4"/>
+                <pin_map port_index="5" component_pin="pmod0_5"/>
+                <pin_map port_index="6" component_pin="pmod0_6"/>
+                <pin_map port_index="7" component_pin="pmod0_7"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="TRI_T" physical_port="pmod0_tri_t" dir="out" left="7" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pmod0_0"/>
+                <pin_map port_index="1" component_pin="pmod0_1"/>
+                <pin_map port_index="2" component_pin="pmod0_2"/>
+                <pin_map port_index="3" component_pin="pmod0_3"/>
+                <pin_map port_index="4" component_pin="pmod0_4"/>
+                <pin_map port_index="5" component_pin="pmod0_5"/>
+                <pin_map port_index="6" component_pin="pmod0_6"/>
+                <pin_map port_index="7" component_pin="pmod0_7"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        <interface mode="master" name="pmod1" type="xilinx.com:interface:gpio_rtl:1.0" of_component="pmod1" preset_proc="pmod1_preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_O" physical_port="pmod1_tri_o" dir="in" left="7" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pmod1_0"/>
+                <pin_map port_index="1" component_pin="pmod1_1"/>
+                <pin_map port_index="2" component_pin="pmod1_2"/>
+                <pin_map port_index="3" component_pin="pmod1_3"/>
+                <pin_map port_index="4" component_pin="pmod1_4"/>
+                <pin_map port_index="5" component_pin="pmod1_5"/>
+                <pin_map port_index="6" component_pin="pmod1_6"/>
+                <pin_map port_index="7" component_pin="pmod1_7"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="TRI_I" physical_port="pmod1_tri_i" dir="out" left="7" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pmod1_0"/>
+                <pin_map port_index="1" component_pin="pmod1_1"/>
+                <pin_map port_index="2" component_pin="pmod1_2"/>
+                <pin_map port_index="3" component_pin="pmod1_3"/>
+                <pin_map port_index="4" component_pin="pmod1_4"/>
+                <pin_map port_index="5" component_pin="pmod1_5"/>
+                <pin_map port_index="6" component_pin="pmod1_6"/>
+                <pin_map port_index="7" component_pin="pmod1_7"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="TRI_T" physical_port="pmod1_tri_t" dir="out" left="7" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pmod1_0"/>
+                <pin_map port_index="1" component_pin="pmod1_1"/>
+                <pin_map port_index="2" component_pin="pmod1_2"/>
+                <pin_map port_index="3" component_pin="pmod1_3"/>
+                <pin_map port_index="4" component_pin="pmod1_4"/>
+                <pin_map port_index="5" component_pin="pmod1_5"/>
+                <pin_map port_index="6" component_pin="pmod1_6"/>
+                <pin_map port_index="7" component_pin="pmod1_7"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+      </interfaces>
+	  
+    </component>
+	
+    <component name="ps8_fixedio" display_name="PS8 fixed IO" type="chip" sub_type="fixed_io" major_group=""/>
+    <component name="reset" display_name="FPGA Reset" type="chip" sub_type="system_reset" major_group="Reset">
+      <description>CPU Reset Push Button, Active Low</description>
+    </component>
+    <component name="dip_switches_4bits" display_name="DIP switches" type="chip" sub_type="switch" major_group="General Purpose Input or Output">
+      <description>DIP Switches 3 to 0</description>
+    </component>
+    <component name="led_4bits" display_name="LED" type="chip" sub_type="led" major_group="General Purpose Input or Output">
+      <description>LEDs, 3 to 0, Active Low</description>
+    </component>
+    <component name="push_buttons_4bits" display_name="Push buttons" type="chip" sub_type="push_button" major_group="General Purpose Input or Output">
+      <description>Push Buttons, Active Low</description>
+    </component>
+    <component name="rgbled0" display_name="REGLED0" type="chip" sub_type="led" major_group="General Purpose Input or Output">
+      <description>RGBLED0, Active Low</description>
+    </component>
+    <component name="rgbled1" display_name="REGLED1" type="chip" sub_type="led" major_group="General Purpose Input or Output">
+      <description>RGBLED1, Active Low</description>
+    </component>
+    <component name="pmod0" display_name="PMOD0" type="chip" sub_type="pmod" major_group="PMOD">
+      <description>Pmod0 Connector</description>
+    </component>
+    <component name="pmod1" display_name="PMOD1" type="chip" sub_type="pmod" major_group="PMOD">
+      <description>Pmod1 Connector</description>
+    </component>
+  </components>
+	
+  <jtag_chains> 
+    <jtag_chain name="chain1">
+      <position name="0" component="part0"/>
+    </jtag_chain>
+  </jtag_chains>
+  
+  <connections>
+
+    <connection name="part0_dip_switches_4bits" component1="part0" component2="dip_switches_4bits">
+      <connection_map name="part0_dip_switches_4bits_1" typical_delay="5" c1_st_index="0" c1_end_index="3" c2_st_index="0" c2_end_index="3"/>
+    </connection>	
+    <connection name="part0_led_4bits" component1="part0" component2="led_4bits">
+      <connection_map name="part0_led_8bits_1" typical_delay="5" c1_st_index="4" c1_end_index="7" c2_st_index="0" c2_end_index="3"/>
+    </connection>
+    <connection name="part0_push_buttons_4bits" component1="part0" component2="push_buttons_4bits">
+      <connection_map name="part0_push_buttons_4bits_1" typical_delay="5" c1_st_index="8" c1_end_index="11" c2_st_index="0" c2_end_index="3"/>
+    </connection>
+	<connection name="rgbled0" component1="part0" component2="rgbleds">
+      <connection_map name="Part0_rgbled0_1" typical_delay="5" c1_st_index="12" c1_end_index="14" c2_st_index="0" c2_end_index="2"/>
+    </connection>
+	<connection name="rgbled1" component1="part0" component2="rgbleds">
+      <connection_map name="Part0_rgbled1_1" typical_delay="5" c1_st_index="15" c1_end_index="17" c2_st_index="0" c2_end_index="2"/>
+    </connection>
+	<connection name="part0_pmod0" component1="part0" component2="pmod0">
+      <connection_map name="Part0_pmod0_1" typical_delay="5" c1_st_index="18" c1_end_index="25" c2_st_index="0" c2_end_index="7"/>
+    </connection>
+	<connection name="part0_pmod1" component1="part0" component2="pmod1">
+      <connection_map name="Part0_pmod1_1" typical_delay="5" c1_st_index="26" c1_end_index="33" c2_st_index="0" c2_end_index="7"/>
+    </connection>
+    <connection name="part0_reset" component1="part0" component2="reset">
+      <connection_map name="part0_reset_1" typical_delay="5" c1_st_index="34" c1_end_index="34" c2_st_index="0" c2_end_index="0"/>
+    </connection>
+	
+  </connections>
+
+</board>
+
