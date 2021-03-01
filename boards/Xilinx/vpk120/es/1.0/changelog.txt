@@ -1,4 +1,0 @@
-######### VPK120 change log ##############
-1.0 - 2020.3
-VPK120 ES Initial board support
-
