@@ -1,4 +1,7 @@
 ######### VCK190 change log ##############
+2021.1 changes(1.3)
+Added support for cips 3.0 - Vivado 2021.1
+
 2020.3 changes(1.2)
 Updated speed bin, frequency for triplet 2 & 4
 

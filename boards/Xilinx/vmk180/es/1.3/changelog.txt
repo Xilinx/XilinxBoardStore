@@ -1,4 +1,7 @@
-######### VCK190 change log ##############
+######### VMK180 change log ##############
+2021.1 changes(1.3)
+Added support for cips 3.0 - Vivado 2021.1
+
 2020.3 changes(1.2)
 Updated speed bin, frequency for triplet 2 & 4
 
@@ -10,8 +13,6 @@ Updated PCIE_EP_RESET MIOs
 Post 2019.2 changes  
 Fixed GPIO port polarities 
 Fix added for LPDDR Controller 1 standalone usage
-
-
 1.0
-VCK190 Initial board support(2019.2) 
+VMK180 Initial board support(2019.2_web) 
 
