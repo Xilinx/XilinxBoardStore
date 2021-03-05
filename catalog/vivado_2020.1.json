@@ -4964,11 +4964,11 @@
         "name": "rfsoc2x2",
         "display": "Zynq UltraScale+ RFSoC 2x2 Development Board",
         "latest_revision": "1.1",
-        "commit_id": "ff856fef84a7ec33c0c52f34f8845aeefcdf9e81",
+        "commit_id": "4035276c9b375d79624b4a5ef55b27d11c9516ea",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "ff856fef84a7ec33c0c52f34f8845aeefcdf9e81",
+            "commit_id": "4035276c9b375d79624b4a5ef55b27d11c9516ea",
             "date": "28-02-2021:21:06:40",
             "history": "Added board Zynq UltraScale+ RFSoC 2x2 Development Board v1.1"
           }
