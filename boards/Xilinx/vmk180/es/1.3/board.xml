@@ -9,12 +9,11 @@
  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
  License for the specific language governing permissions and limitations
  under the License. -->
- 
-<board schema_version="2.2" vendor="xilinx.com" name="vck190_es" display_name="Versal VCK190 ES1 Evaluation Platform" url="http://www.xilinx.com/vck190" preset_file="preset.xml" supports_ced="true"> 
+<board schema_version="2.2" vendor="xilinx.com" name="vmk180_es" display_name="Versal VMK180 ES1 Evaluation Platform" url="http://www.xilinx.com/VMK180" preset_file="preset.xml" supports_ced="true"> 
 			
   <images>
-    <image name="vck190_image.jpg" display_name="Versal VCK190 ES1 Evaluation Platform" sub_type="board" resolution="high">
-      <description>Versal VCK190 ES1 Evaluation Platform"</description>
+    <image name="vmk180_image.jpg" display_name="Versal VMK180 ES1 Evaluation Platform" sub_type="board" resolution="high">
+      <description>Versal VMK180 ES1 Evaluation Platform"</description>
     </image>
   </images>
   
@@ -22,9 +21,9 @@
     <revision id="0">Rev A</revision>
   </compatible_board_revisions>
   
-  <file_version>1.2</file_version>
+  <file_version>1.3</file_version>
   
-  <description>Versal VCK190 ES1 Evaluation Platform</description>
+  <description>Versal VMK180 ES1 Evaluation Platform</description>
   
   <parameters>
     <parameter name="heat_sink_type" value="medium" value_type="string"/>
@@ -37,8 +36,8 @@
   <components>
   
   
-  <component name="part0" display_name="xcvc1902 FPGA" type="fpga" part_name="xcvc1902-vsva2197-2MP-e-S-es1" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="http://www.xilinx.com/vck190">
-      <description>xcvc1902 FPGA</description>
+  <component name="part0" display_name="xcvm1802 FPGA" type="fpga" part_name="xcvm1802-vsva2197-2MP-e-S-es1" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="http://www.xilinx.com/vmk180">
+      <description>xcvm1802 FPGA</description>
   
     <interfaces>
   
@@ -1429,7 +1428,7 @@
 			
 			<connection name="part0_lpddr4_sma_clk2" component1="part0" component2="lpddr4_sma_clk2">
 			  <connection_map name="part0_lpddr4_sma_clk2_1" typical_delay="5" c1_st_index="4" c1_end_index="5" c2_st_index="0" c2_end_index="1"/>
-			</connection>
+			</connection>			
 		
 			<connection name="part0_uart2_bank306" component1="part0" component2="uart2_bank306">
 			  <connection_map name="part0_uart2_bank306_1" typical_delay="5" c1_st_index="6" c1_end_index="7" c2_st_index="0" c2_end_index="1"/>

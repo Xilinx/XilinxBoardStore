@@ -5358,6 +5358,82 @@
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
+      },
+      {
+        "name": "vck190_es",
+        "display": "Versal VCK190 ES1 Evaluation Platform",
+        "latest_revision": "1.2",
+        "commit_id": "37236a644639684278523ffd0269d22ef861aa25",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "37236a644639684278523ffd0269d22ef861aa25",
+            "date": "26-02-2021:09:42:03",
+            "history": "Added board Versal VCK190 ES1 Evaluation Platform v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vck190/es/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vmk180_es",
+        "display": "Versal VMK180 ES1 Evaluation Platform",
+        "latest_revision": "1.2",
+        "commit_id": "37236a644639684278523ffd0269d22ef861aa25",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "37236a644639684278523ffd0269d22ef861aa25",
+            "date": "26-02-2021:09:42:03",
+            "history": "Added board Versal VMK180 ES1 Evaluation Platform v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vmk180/es/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vck190_es",
+        "display": "Versal VCK190 ES1 Evaluation Platform",
+        "latest_revision": "1.2",
+        "commit_id": "37236a644639684278523ffd0269d22ef861aa25",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "37236a644639684278523ffd0269d22ef861aa25",
+            "date": "03-03-2021:08:52:26",
+            "history": "Added board Versal VCK190 ES1 Evaluation Platform v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vck190/es/1.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vmk180_es",
+        "display": "Versal VMK180 ES1 Evaluation Platform",
+        "latest_revision": "1.2",
+        "commit_id": "37236a644639684278523ffd0269d22ef861aa25",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "37236a644639684278523ffd0269d22ef861aa25",
+            "date": "03-03-2021:08:52:26",
+            "history": "Added board Versal VMK180 ES1 Evaluation Platform v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vmk180/es/1.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
       }
     ],
     "categories": [
