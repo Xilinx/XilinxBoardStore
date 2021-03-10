@@ -41,17 +41,18 @@
       <description>xcvm1802 FPGA</description> 
 	  
     <interfaces>
-  
 
         <interface mode="master" name="cips_fixed_io" type="xilinx.com:interface:fixed_io_rtl:1.0" of_component="cips_fixed_io" preset_proc="versal_cips_preset"> 
-          <preferred_ips>
+           <parameters>
+              <parameter name="presets_special_handling"/>
+            </parameters>
+		  <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="versal_cips" order="0"/>
           </preferred_ips>
 		  <port_maps>
 				<port_map logical_port="dummy" physical_port="dummy" dir="out" />
 		  </port_maps>
         </interface>  
-		
  
         <interface mode="master" name="ddr4_dimm1" type="xilinx.com:interface:ddr4_rtl:1.0" of_component="ddr4_dimm1" preset_proc="ddr4_c0_preset">
             <description>DDR4 board interface, it can use DDR4 IP for connection. </description>
