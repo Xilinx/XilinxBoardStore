@@ -60,6 +60,7 @@
             <description>DDR4 board interface, it can use DDR4 IP for connection. </description>
             <parameters>
               <parameter name="TYPE" value="CH0_DDR4"/>
+			  <parameter name="presets_special_handling"/>
             </parameters>
 		   
 				<preferred_ips>
@@ -299,6 +300,7 @@
 			<description>LPDDR4 board interface, it can use AXI_NoC IP for connection. </description>
             <parameters>
                 <parameter name="TYPE" value="CH0_LPDDR4"/>
+				<parameter name="presets_special_handling"/>
             </parameters>
 			
 			  <preferred_ips>
@@ -495,6 +497,7 @@
 			<description>LPDDR4 board interface, it can use AXI_NoC IP for connection. </description>
             <parameters>
                 <parameter name="TYPE" value="CH1_LPDDR4"/>
+				<parameter name="presets_special_handling"/>
             </parameters>
 			
 			  <preferred_ips>
@@ -691,6 +694,7 @@
 			<description>LPDDR4 board interface, it can use AXI_NoC IP for connection. </description>
             <parameters>
                 <parameter name="TYPE" value="CH0_LPDDR4"/>
+				<parameter name="presets_special_handling"/>
             </parameters>
 			
 			  <preferred_ips>
@@ -875,6 +879,7 @@
 			<description>LPDDR4 board interface, it can use AXI_NoC IP for connection. </description>
             <parameters>
                 <parameter name="TYPE" value="CH1_LPDDR4"/>
+				<parameter name="presets_special_handling"/>
             </parameters>
 			
 			  <preferred_ips>
