@@ -1,0 +1,34 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "zedboard", 
+          "display": "ZedBoard Zynq Evaluation and Development Kit", 
+          "revision": "1.4", 
+          "description": "ZedBoard Zynq Evaluation and Development Kit", 
+          "company": "avnet.com", 
+          "company_display": "Avnet", 
+          "author": "Bryan", 
+          "contributors": [
+            {
+              "group": "Avnet", 
+              "url": "avnet.com"
+            }
+          ], 
+          "category": "Evaluation Boards", 
+          "website": "http://avnet.me/zedboard", 
+          "logo": "zed_board.jpg", 
+          "search-keywords": [
+            "zedboard", 
+            "avnet.com", 
+            "board", 
+            "Evaluation Boards"
+          ]
+        }
+      }
+    ]
+  }, 
+  "_major": 1, 
+  "_minor": 0
+}
