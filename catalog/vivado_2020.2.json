@@ -5225,6 +5225,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "tul.com.tw"
+      },
+      {
+        "name": "zedboard",
+        "display": "ZedBoard Zynq Evaluation and Development Kit",
+        "latest_revision": "1.4",
+        "commit_id": "cfcd893e1e76921f466683712d49ca505677cc63",
+        "revisions": [
+          {
+            "revision": "1.4",
+            "commit_id": "cfcd893e1e76921f466683712d49ca505677cc63",
+            "date": "06-04-2021:23:00:46",
+            "history": "Added board ZedBoard Zynq Evaluation and Development Kit v1.4"
+          }
+        ],
+        "config": {
+          "root": "boards/Avnet/zedboard/1.4",
+          "metadata_file": "xitem.json"
+        },
+        "company": "avnet.com"
       }
     ],
     "categories": [
