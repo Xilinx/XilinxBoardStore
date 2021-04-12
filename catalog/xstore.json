@@ -77,7 +77,7 @@
           },
           {
             "xitem_catalogue_file": "catalog/vivado_master.json", 
-            "version": "default", 
+            "version": "HEAD", 
             "remote_repo_branch_to_sync": "master"
           }
         ]
