@@ -2888,6 +2888,82 @@
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
+      },
+      {
+        "name": "k26c",
+        "display": "Kria K26C SOM",
+        "latest_revision": "1.1",
+        "commit_id": "f12552b043e48b7375cec58be4b808ce9a8252f4",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "f12552b043e48b7375cec58be4b808ce9a8252f4",
+            "date": "20-04-2021:06:30:47",
+            "history": "Added board Kria K26C SOM v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/k26c/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "k26i",
+        "display": "Kria K26i SOM",
+        "latest_revision": "1.1",
+        "commit_id": "f12552b043e48b7375cec58be4b808ce9a8252f4",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "f12552b043e48b7375cec58be4b808ce9a8252f4",
+            "date": "20-04-2021:06:30:47",
+            "history": "Added board Kria K26i SOM v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/k26i/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "kv260",
+        "display": "Kria KV260 Vision AI Starter Kit",
+        "latest_revision": "1.1",
+        "commit_id": "f12552b043e48b7375cec58be4b808ce9a8252f4",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "f12552b043e48b7375cec58be4b808ce9a8252f4",
+            "date": "20-04-2021:06:30:47",
+            "history": "Added board Kria KV260 Vision AI Starter Kit v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/kv260/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "som240",
+        "display": "Vision AI Starter Kit carrier card",
+        "latest_revision": "1.1",
+        "commit_id": "f12552b043e48b7375cec58be4b808ce9a8252f4",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "f12552b043e48b7375cec58be4b808ce9a8252f4",
+            "date": "20-04-2021:06:30:47",
+            "history": "Added board Vision AI Starter Kit carrier card v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/som240/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
       }
     ],
     "categories": [
