@@ -5325,11 +5325,11 @@
         "name": "vck190",
         "display": "Versal VCK190 Evaluation Platform",
         "latest_revision": "2.2",
-        "commit_id": "b8b5a24b8dba6d09de0a62571ad0d69f6d0f408d",
+        "commit_id": "1239c5fac230d2ab32ab73acf2a91c4550017a97",
         "revisions": [
           {
             "revision": "2.2",
-            "commit_id": "b8b5a24b8dba6d09de0a62571ad0d69f6d0f408d",
+            "commit_id": "1239c5fac230d2ab32ab73acf2a91c4550017a97",
             "date": "04-02-2021:09:57:09",
             "history": "Added board Versal VCK190 Evaluation Platform v2.2"
           }
@@ -5344,11 +5344,11 @@
         "name": "vmk180",
         "display": "Versal VMK180 Evaluation Platform",
         "latest_revision": "2.2",
-        "commit_id": "b8b5a24b8dba6d09de0a62571ad0d69f6d0f408d",
+        "commit_id": "1239c5fac230d2ab32ab73acf2a91c4550017a97",
         "revisions": [
           {
             "revision": "2.2",
-            "commit_id": "b8b5a24b8dba6d09de0a62571ad0d69f6d0f408d",
+            "commit_id": "1239c5fac230d2ab32ab73acf2a91c4550017a97",
             "date": "09-02-2021:10:06:44",
             "history": "Added board Versal VMK180 Evaluation Platform v2.2"
           }
@@ -5401,11 +5401,11 @@
         "name": "vck190_es",
         "display": "Versal VCK190 ES1 Evaluation Platform",
         "latest_revision": "1.2",
-        "commit_id": "b8b5a24b8dba6d09de0a62571ad0d69f6d0f408d",
+        "commit_id": "1239c5fac230d2ab32ab73acf2a91c4550017a97",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "b8b5a24b8dba6d09de0a62571ad0d69f6d0f408d",
+            "commit_id": "1239c5fac230d2ab32ab73acf2a91c4550017a97",
             "date": "03-03-2021:08:52:26",
             "history": "Added board Versal VCK190 ES1 Evaluation Platform v1.2"
           }
@@ -5420,11 +5420,11 @@
         "name": "vmk180_es",
         "display": "Versal VMK180 ES1 Evaluation Platform",
         "latest_revision": "1.2",
-        "commit_id": "b8b5a24b8dba6d09de0a62571ad0d69f6d0f408d",
+        "commit_id": "1239c5fac230d2ab32ab73acf2a91c4550017a97",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "b8b5a24b8dba6d09de0a62571ad0d69f6d0f408d",
+            "commit_id": "1239c5fac230d2ab32ab73acf2a91c4550017a97",
             "date": "03-03-2021:08:52:26",
             "history": "Added board Versal VMK180 ES1 Evaluation Platform v1.2"
           }
