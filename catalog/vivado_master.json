@@ -5325,11 +5325,11 @@
         "name": "vck190",
         "display": "Versal VCK190 Evaluation Platform",
         "latest_revision": "2.2",
-        "commit_id": "38e6b88bb2aff6e6cb4d0d74aa558a04d4d60727",
+        "commit_id": "b8b5a24b8dba6d09de0a62571ad0d69f6d0f408d",
         "revisions": [
           {
             "revision": "2.2",
-            "commit_id": "38e6b88bb2aff6e6cb4d0d74aa558a04d4d60727",
+            "commit_id": "b8b5a24b8dba6d09de0a62571ad0d69f6d0f408d",
             "date": "04-02-2021:09:57:09",
             "history": "Added board Versal VCK190 Evaluation Platform v2.2"
           }
@@ -5344,11 +5344,11 @@
         "name": "vmk180",
         "display": "Versal VMK180 Evaluation Platform",
         "latest_revision": "2.2",
-        "commit_id": "38e6b88bb2aff6e6cb4d0d74aa558a04d4d60727",
+        "commit_id": "b8b5a24b8dba6d09de0a62571ad0d69f6d0f408d",
         "revisions": [
           {
             "revision": "2.2",
-            "commit_id": "38e6b88bb2aff6e6cb4d0d74aa558a04d4d60727",
+            "commit_id": "b8b5a24b8dba6d09de0a62571ad0d69f6d0f408d",
             "date": "09-02-2021:10:06:44",
             "history": "Added board Versal VMK180 Evaluation Platform v2.2"
           }
@@ -5401,11 +5401,11 @@
         "name": "vck190_es",
         "display": "Versal VCK190 ES1 Evaluation Platform",
         "latest_revision": "1.2",
-        "commit_id": "b901c51eece4e2641c7291d591e620e93e2616cb",
+        "commit_id": "b8b5a24b8dba6d09de0a62571ad0d69f6d0f408d",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "b901c51eece4e2641c7291d591e620e93e2616cb",
+            "commit_id": "b8b5a24b8dba6d09de0a62571ad0d69f6d0f408d",
             "date": "03-03-2021:08:52:26",
             "history": "Added board Versal VCK190 ES1 Evaluation Platform v1.2"
           }
@@ -5420,17 +5420,93 @@
         "name": "vmk180_es",
         "display": "Versal VMK180 ES1 Evaluation Platform",
         "latest_revision": "1.2",
-        "commit_id": "b901c51eece4e2641c7291d591e620e93e2616cb",
+        "commit_id": "b8b5a24b8dba6d09de0a62571ad0d69f6d0f408d",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "b901c51eece4e2641c7291d591e620e93e2616cb",
+            "commit_id": "b8b5a24b8dba6d09de0a62571ad0d69f6d0f408d",
             "date": "03-03-2021:08:52:26",
             "history": "Added board Versal VMK180 ES1 Evaluation Platform v1.2"
           }
         ],
         "config": {
           "root": "boards/Xilinx/vmk180/es/1.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "k26c",
+        "display": "Kria K26C SOM",
+        "latest_revision": "1.1",
+        "commit_id": "89808880049025ad7365207010b998956e0d1a30",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "89808880049025ad7365207010b998956e0d1a30",
+            "date": "20-04-2021:12:05:01",
+            "history": "Added board Kria K26C SOM v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/k26c/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "k26i",
+        "display": "Kria K26i SOM",
+        "latest_revision": "1.1",
+        "commit_id": "89808880049025ad7365207010b998956e0d1a30",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "89808880049025ad7365207010b998956e0d1a30",
+            "date": "20-04-2021:12:05:01",
+            "history": "Added board Kria K26i SOM v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/k26i/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "kv260",
+        "display": "Kria KV260 Vision AI Starter Kit",
+        "latest_revision": "1.1",
+        "commit_id": "89808880049025ad7365207010b998956e0d1a30",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "89808880049025ad7365207010b998956e0d1a30",
+            "date": "20-04-2021:12:05:01",
+            "history": "Added board Kria KV260 Vision AI Starter Kit v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/kv260/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "som240",
+        "display": "Vision AI Starter Kit carrier card",
+        "latest_revision": "1.1",
+        "commit_id": "89808880049025ad7365207010b998956e0d1a30",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "89808880049025ad7365207010b998956e0d1a30",
+            "date": "20-04-2021:12:05:01",
+            "history": "Added board Vision AI Starter Kit carrier card v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/som240/1.1",
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
