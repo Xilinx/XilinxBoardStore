@@ -2626,7 +2626,7 @@
       {
         "name": "vmk180",
         "display": "Versal VMK180 Evaluation Platform",
-        "latest_revision": "1.0",
+        "latest_revision": "2.0",
         "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
         "revisions": [
           {
@@ -2645,7 +2645,7 @@
       {
         "name": "vck190",
         "display": "Versal VCK190 Evaluation Platform",
-        "latest_revision": "1.0",
+        "latest_revision": "2.0",
         "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
         "revisions": [
           {
