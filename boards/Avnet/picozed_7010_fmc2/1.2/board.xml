@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
-<board schema_version="2.0" vendor="em.avnet.com" name="picozed_7010_fmc2" display_name="PicoZed 7010 SOM + FMC Carrier V2" url="http://www.picozed.org" preset_file="preset.xml" >
+<board schema_version="2.0" vendor="avnet.com" name="picozed_7010_fmc2" display_name="PicoZed 7010 SOM + FMC Carrier V2" url="http://avnet.me/picozed" preset_file="preset.xml" >
   <images>
     <image name="picozed_fmc2_carrier_card.jpg" display_name="PicoZed FMC2 Carrier Card" sub_type="board">
       <description>PicoZed FMC Carrier Card V2 File Image</description>
@@ -11,7 +11,7 @@
 <file_version>1.2</file_version>
 <description>PicoZed 7010 SOM + FMC Carrier V2</description>
 <components>
-  <component name="part0" display_name="PicoZed 7010 SOM + FMC Carrier V2" type="fpga" part_name="xc7z010clg400-1" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="http://www.picozed.org">
+  <component name="part0" display_name="PicoZed 7010 SOM + FMC Carrier V2" type="fpga" part_name="xc7z010clg400-1" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="http://avnet.me/picozed">
     <interfaces>
         <interface mode="master" name="pl_pb_1bit" type="xilinx.com:interface:gpio_rtl:1.0" of_component="pl_pb_1bit" preset_proc="pl_pb_1bit_preset">
         	<description>1 push button</description>
