@@ -2,33 +2,14 @@
   "catalog": {
     "items": [
       {
-        "name": "Ultra96",
-        "display": "Ultra96 Evaluation Platform",
-        "latest_revision": "1.2",
-        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
-        "revisions": [
-          {
-            "revision": "1.2",
-            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
-            "date": "21-08-2018:19:15:03",
-            "history": "Adding Ultra96 1.2 to the XilinxBoardStore"
-          }
-        ],
-        "config": {
-          "root": "boards/Avnet/ultra96/1.2",
-          "metadata_file": "xitem.json"
-        },
-        "company": "em.avnet.com"
-      },
-      {
         "name": "picozed_7010_fmc2",
         "display": "PicoZed 7010 SOM + FMC Carrier V2",
         "latest_revision": "1.2",
-        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+        "commit_id": "54348f333fefbd74e0403f114a2c5e24a6dfb086",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+            "commit_id": "54348f333fefbd74e0403f114a2c5e24a6dfb086",
             "date": "23-08-2018:16:40:57",
             "history": "Adding picozed_7010_fmc2 e to the XilinxBoardStore"
           }
@@ -404,11 +385,11 @@
         "name": "minized",
         "display": "MiniZed",
         "latest_revision": "1.2",
-        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+        "commit_id": "54348f333fefbd74e0403f114a2c5e24a6dfb086",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+            "commit_id": "54348f333fefbd74e0403f114a2c5e24a6dfb086",
             "date": "28-09-2018:09:09:38",
             "history": "Added MiniZed"
           }
@@ -5510,6 +5491,44 @@
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
+      },
+      {
+        "name": "zedboard",
+        "display": "ZedBoard Zynq Evaluation and Development Kit",
+        "latest_revision": "1.4",
+        "commit_id": "54348f333fefbd74e0403f114a2c5e24a6dfb086",
+        "revisions": [
+          {
+            "revision": "1.4",
+            "commit_id": "54348f333fefbd74e0403f114a2c5e24a6dfb086",
+            "date": "24-04-2021:00:40:48",
+            "history": "Added board ZedBoard Zynq Evaluation and Development Kit v1.4"
+          }
+        ],
+        "config": {
+          "root": "boards/Avnet/zedboard/1.4",
+          "metadata_file": "xitem.json"
+        },
+        "company": "avnet.com"
+      },
+      {
+        "name": "Ultra96v1",
+        "display": "Ultra96-V1 Single Board Computer",
+        "latest_revision": "1.2",
+        "commit_id": "54348f333fefbd74e0403f114a2c5e24a6dfb086",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "54348f333fefbd74e0403f114a2c5e24a6dfb086",
+            "date": "24-04-2021:00:40:48",
+            "history": "Added board Ultra96-V1 Single Board Computer v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Avnet/ultra96v1/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "avnet.com"
       }
     ],
     "categories": [
