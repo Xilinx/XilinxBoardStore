@@ -404,11 +404,11 @@
         "name": "minized",
         "display": "MiniZed",
         "latest_revision": "1.2",
-        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+        "commit_id": "4cc4cdcdab5589c5594ab64e46244ed20aa59649",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+            "commit_id": "4cc4cdcdab5589c5594ab64e46244ed20aa59649",
             "date": "28-09-2018:09:09:38",
             "history": "Added MiniZed"
           }
@@ -2964,6 +2964,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
+      },
+      {
+        "name": "zedboard",
+        "display": "ZedBoard Zynq Evaluation and Development Kit",
+        "latest_revision": "1.4",
+        "commit_id": "4cc4cdcdab5589c5594ab64e46244ed20aa59649",
+        "revisions": [
+          {
+            "revision": "1.4",
+            "commit_id": "4cc4cdcdab5589c5594ab64e46244ed20aa59649",
+            "date": "24-04-2021:00:40:48",
+            "history": "Added board ZedBoard Zynq Evaluation and Development Kit v1.4"
+          }
+        ],
+        "config": {
+          "root": "boards/Avnet/zedboard/1.4",
+          "metadata_file": "xitem.json"
+        },
+        "company": "avnet.com"
       }
     ],
     "categories": [
