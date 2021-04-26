@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<part_info part_name="xczu3eg-sbva484-1-i">
+<pins>
+  
+  <pin index="0" name ="uart2_PL_TX"   iostandard="LVCMOS18" loc="AU15"/>
+  <pin index="1" name ="uart2_PL_RX"   iostandard="LVCMOS18" loc="AT15"/>
+  <pin index="2" name ="IIC0_SCL_MAIN" iostandard="LVCMOS18" loc="AT16"/>
+  <pin index="3" name ="IIC0_SDA_MAIN" iostandard="LVCMOS18" loc="AW16"/>
+  
+  <pin index="4" name ="IIC1_SCL_MAIN" iostandard="LVCMOS12" loc="AV16"/>
+  <pin index="5" name ="IIC1_SDA_MAIN" iostandard="LVCMOS12" loc="AV13"/>
+
+  <pin index="6" name ="RADIO_LED0" iostandard="LVCMOS18" loc="A9"/>
+  <pin index="7" name ="RADIO_LED1" iostandard="LVCMOS18" loc="B9"/>
+    
+  <pin index="8" name ="PL_RADIO_RESET" iostandard="LVCMOS18" loc="A3"/>	
+
+  <pin index="9" name ="HSIC_STR" iostandard="LVCMOS18" loc="A2"/>	
+  
+  <pin index="10" name ="GTR_CLK1_DP_27M_P user_si570_sysclk_p" iostandard="DIFF_SSTL12" loc="J19"/>
+  <pin index="11" name ="GTR_CLK1_DP_27M_N user_si570_sysclk_n" iostandard="DIFF_SSTL12" loc="J18"/>  
+ 
+</pins>
+</part_info>
