@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
-<board schema_version="2.0" vendor="em.avnet.com" name="minized" display_name="MiniZed" url="http://www.minized.org" preset_file="preset.xml" >
+<board schema_version="2.0" vendor="avnet.com" name="minized" display_name="MiniZed" url="http://www.minized.org" preset_file="preset.xml" >
   <images>
     <image name="minized.jpg" display_name="MiniZed" sub_type="board">
       <description>MiniZed Board File Image</description>
@@ -9,6 +9,7 @@
   <revision id="0">1.0</revision>
 </compatible_board_revisions>
 <file_version>1.2</file_version>
+
 <description>MiniZed</description>
 <components>
   <component name="part0" display_name="MiniZed" type="fpga" part_name="xc7z007sclg225-1" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="http://www.minized.org">

@@ -7,7 +7,7 @@
           "display": "MiniZed", 
           "revision": "1.2", 
           "description": "MiniZed", 
-          "company": "em.avnet.com", 
+          "company": "avnet.com", 
           "company_display": "Avnet", 
           "author": "zedhed", 
           "contributors": [
@@ -17,10 +17,10 @@
             }
           ], 
           "category": "Single Part", 
-          "website": "http://www.minized.org", 
+          "website": "http://avnet.me/minized", 
           "search-keywords": [
             "minized", 
-            "em.avnet.com", 
+            "avnet.com", 
             "board", 
             "Single Part"
           ]
