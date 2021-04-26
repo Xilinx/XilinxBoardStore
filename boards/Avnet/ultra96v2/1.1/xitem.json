@@ -3,23 +3,23 @@
     "items": [
       {
         "infra": {
-          "name": "minized", 
-          "display": "MiniZed", 
-          "revision": "1.2", 
-          "description": "MiniZed", 
+          "name": "Ultra96v2", 
+          "display": "Ultra96-V2 Single Board Computer", 
+          "revision": "1.1", 
+          "description": "Ultra96-V2 Single Board Computer", 
           "company": "avnet.com", 
           "company_display": "Avnet", 
-          "author": "zedhed", 
+          "author": "Avnet", 
           "contributors": [
             {
               "group": "Avnet", 
-              "url": "avnet.com"
+              "url": "http://avnet.me/ultra96-v2"
             }
           ], 
           "category": "Single Part", 
-          "website": "http://avnet.me/minized", 
+          "website": "http://avnet.me/ultra96-v2", 
           "search-keywords": [
-            "minized", 
+            "Ultra96", 
             "avnet.com", 
             "board", 
             "Single Part"

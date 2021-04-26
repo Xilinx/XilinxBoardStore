@@ -3,24 +3,24 @@
     "items": [
       {
         "infra": {
-          "name": "Ultra96", 
-          "display": "Ultra96 Evaluation Platform", 
+          "name": "Ultra96v1", 
+          "display": "Ultra96-V1 Single Board Computer", 
           "revision": "1.2", 
-          "description": "Ultra96 Evaluation Platform", 
-          "company": "em.avnet.com", 
+          "description": "Ultra96-V1 Single Board Computer", 
+          "company": "avnet.com", 
           "company_display": "Avnet", 
-          "author": "Vivado_test", 
+          "author": "Avnet", 
           "contributors": [
             {
               "group": "Avnet", 
-              "url": "http://ultra96.org/product/ultra96"
+              "url": "http://avnet.me/ultra96-v1"
             }
           ], 
           "category": "Single Part", 
-          "website": "http://ultra96.org/product/ultra96", 
+          "website": "http://avnet.me/ultra96-v1", 
           "search-keywords": [
             "Ultra96", 
-            "em.avnet.com", 
+            "avnet.com", 
             "board", 
             "Single Part"
           ]
