@@ -5377,6 +5377,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "avnet.com"
+      },
+      {
+        "name": "Ultra96v2",
+        "display": "Ultra96-V2 Single Board Computer",
+        "latest_revision": "1.1",
+        "commit_id": "b98f0b6176b0a1e110b3a09fe1e93f4163739189",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "b98f0b6176b0a1e110b3a09fe1e93f4163739189",
+            "date": "26-04-2021:22:08:45",
+            "history": "Added board Ultra96-V2 Single Board Computer v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Avnet/ultra96v2/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "avnet.com"
       }
     ],
     "categories": [
