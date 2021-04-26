@@ -1,0 +1,33 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "Ultra96v2", 
+          "display": "Ultra96-V2 Single Board Computer", 
+          "revision": "1.1", 
+          "description": "Ultra96-V2 Single Board Computer", 
+          "company": "avnet.com", 
+          "company_display": "Avnet", 
+          "author": "Avnet", 
+          "contributors": [
+            {
+              "group": "Avnet", 
+              "url": "http://avnet.me/ultra96-v2"
+            }
+          ], 
+          "category": "Single Part", 
+          "website": "http://avnet.me/ultra96-v2", 
+          "search-keywords": [
+            "Ultra96", 
+            "avnet.com", 
+            "board", 
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  }, 
+  "_major": 1, 
+  "_minor": 0
+}
