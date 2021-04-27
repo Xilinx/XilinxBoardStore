@@ -5154,11 +5154,11 @@
         "name": "vck190",
         "display": "Versal VCK190 Evaluation Platform",
         "latest_revision": "2.2",
-        "commit_id": "1239c5fac230d2ab32ab73acf2a91c4550017a97",
+        "commit_id": "35944f4ffa83bfccb5737bba042849ee8fd960cc",
         "revisions": [
           {
             "revision": "2.2",
-            "commit_id": "1239c5fac230d2ab32ab73acf2a91c4550017a97",
+            "commit_id": "35944f4ffa83bfccb5737bba042849ee8fd960cc",
             "date": "04-02-2021:09:57:09",
             "history": "Added board Versal VCK190 Evaluation Platform v2.2"
           }
