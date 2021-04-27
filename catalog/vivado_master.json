@@ -5173,11 +5173,11 @@
         "name": "vmk180",
         "display": "Versal VMK180 Evaluation Platform",
         "latest_revision": "2.2",
-        "commit_id": "1239c5fac230d2ab32ab73acf2a91c4550017a97",
+        "commit_id": "9fdc178ee08ea29dd5bd31f14c42b526a443eaad",
         "revisions": [
           {
             "revision": "2.2",
-            "commit_id": "1239c5fac230d2ab32ab73acf2a91c4550017a97",
+            "commit_id": "9fdc178ee08ea29dd5bd31f14c42b526a443eaad",
             "date": "09-02-2021:10:06:44",
             "history": "Added board Versal VMK180 Evaluation Platform v2.2"
           }
