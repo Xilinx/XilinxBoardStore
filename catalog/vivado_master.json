@@ -5396,6 +5396,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "avnet.com"
+      },
+      {
+        "name": "zcu670",
+        "display": "Zynq UltraScale+ ZCU670 Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "238da39ea96cafcd716412a1bf62eb3b972bb2f9",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "238da39ea96cafcd716412a1bf62eb3b972bb2f9",
+            "date": "28-04-2021:15:09:06",
+            "history": "Added board Zynq UltraScale+ ZCU670 Evaluation Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu670/es/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
       }
     ],
     "categories": [
