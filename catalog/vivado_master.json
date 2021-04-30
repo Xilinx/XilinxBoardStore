@@ -2000,11 +2000,11 @@
         "name": "vcu118",
         "display": "Virtex UltraScale+ VCU118 Evaluation Platform",
         "latest_revision": "2.4",
-        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "commit_id": "ad32eaabd066b1aac96c0d55e2227823c5fd3228",
         "revisions": [
           {
             "revision": "2.4",
-            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "commit_id": "ad32eaabd066b1aac96c0d55e2227823c5fd3228",
             "date": "29-10-2020",
             "history": "VCU118 board SGMII-LVDS - DCI_CASECADE, Vref IOSTANDARDs in BoardFlow files"
           }
