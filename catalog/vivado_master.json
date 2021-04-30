@@ -1943,11 +1943,11 @@
         "name": "vcu108",
         "display": "Virtex-UltraScale VCU108 Evaluation Platform",
         "latest_revision": "1.7",
-        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "commit_id": "bc09e457e6e887afc951cd11732d5c471c66d1af",
         "revisions": [
           {
             "revision": "1.7",
-            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "commit_id": "bc09e457e6e887afc951cd11732d5c471c66d1af",
             "date": "25-06-2020",
             "history": "Adding 1.7 with Dual Memory Support"
           }
