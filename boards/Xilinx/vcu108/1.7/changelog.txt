@@ -1,6 +1,6 @@
 ######### VCU108 change log ##############
 1.7
-Added new DDR4 Memory part MT40A256M16LY-062E support
+Added New DDR4 Memory Part MT40A256M16LY-062E support
 1.6
 Added GT location for XDMA IP
 Enabled support for interlaken IP (QSFP interface)
