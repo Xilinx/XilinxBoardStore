@@ -1,6 +1,6 @@
 ######### vcu118 chnage log ##############
 2.4
-Added new DDR4 Memory part MT40A256M16LY-062E support.
+Added New DDR4 Memory Part MT40A256M16LY-062E support.
 
 2.3
 Enabled QSPI board support
