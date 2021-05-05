@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<!--   ** **        **          **  ****      **  **********  ********** ®   
+      **   **        **        **   ** **     **  **              **
+     **     **        **      **    **  **    **  **              **
+    **       **        **    **     **   **   **  *********       **
+   **         **        **  **      **    **  **  **              **
+  **           **        ****       **     ** **  **              **
+ **  .........  **        **        **      ****  **********      **
+    ...........
+                                    Reach Further™
+ Copyright (C) 2021, Avnet Inc - All rights reserved
+ Licensed under the Apache License, Version 2.0 (the "License"). You may
+ not use this file except in compliance with the License. A copy of the
+ License is located at
+     http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ License for the specific language governing permissions and limitations
+ under the License. -->
+ 
+<board 
+	schema_version="2.2" 
+	vendor="avnet.com" 
+	name="Ultra96v2" 
+	display_name="Ultra96-V2 Single Board Computer" 
+	url="http://avnet.me/ultra96-v2" 
+	preset_file="preset.xml">
+
+<images>
+  <image 
+	name="ultra96v2_top.jpg" 
+	display_name="Ultra96v2 Single Board Computer" 
+	sub_type="board">
+	<description>Ultra96-V2 SBC Image</description>
+  </image>
+</images>
+
+<compatible_board_revisions>
+  <revision id="0">Rev 1</revision>
+  <revision id="1">Rev 2</revision>
+</compatible_board_revisions>
+
+<file_version>1.2</file_version>
+
+<description>Ultra96-V2 Single Board Computer</description>
+
+<parameters>
+  <parameter 
+	name="heat_sink_type" 
+	value="medium" 
+	value_type="string"/>
+  <parameter 
+	name="heat_sink_temperature" 
+	value_type="range" 
+	value_min="-40.0" 
+	value_max="85.0"/>
+</parameters>
+
+<jumpers>
+</jumpers>
+
+<components>   
+  <component 
+	name="part0" 
+	display_name="ZU+ MPSoC" 
+	type="fpga" 
+	part_name="xczu3eg-sbva484-1-i" 
+	pin_map_file="part0_pins.xml" 
+	vendor="xilinx" 
+	spec_url="http://avnet.me/ultra96-v2">
+    <description>Zynq UltraScale+ part on the board</description>
+    <interfaces>
+      <interface 
+	mode="master" 
+	name="ps8_fixedio" 
+	type="xilinx.com:zynq_ultra_ps_e:fixedio_rtl:1.0" 
+	of_component="ps8_fixedio" 
+	preset_proc="zynq_ultra_ps_e_preset"> 
+        <preferred_ips>
+           <preferred_ip vendor="xilinx.com" library="ip" name="zynq_ultra_ps_e" order="0"/>
+        </preferred_ips>
+      </interface>
+    </interfaces> 
+  </component>
+   
+  <component name="ps8_fixedio" display_name="PS8 fixed IO" type="chip" sub_type="fixed_io" major_group=""/>
+</components>
+
+<jtag_chains>
+  <jtag_chain name="chain1">
+    <position name="0" component="part0"/>
+  </jtag_chain>
+</jtag_chains>
+
+</board>
+

@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
-<board schema_version="2.1" vendor="avnet.com" name="Ultra96v1" display_name="Ultra96-V1 Single Board Computer" url="http://avnet.me/ultra96-v1" preset_file="preset.xml">
+<!--   ** **        **          **  ****      **  **********  ********** ®   
+      **   **        **        **   ** **     **  **              **
+     **     **        **      **    **  **    **  **              **
+    **       **        **    **     **   **   **  *********       **
+   **         **        **  **      **    **  **  **              **
+  **           **        ****       **     ** **  **              **
+ **  .........  **        **        **      ****  **********      **
+    ...........
+                                    Reach Further™
+ Copyright (C) 2021, Avnet Inc - All rights reserved
+ Licensed under the Apache License, Version 2.0 (the "License"). You may
+ not use this file except in compliance with the License. A copy of the
+ License is located at
+     http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ License for the specific language governing permissions and limitations
+ under the License. -->
+<board schema_version="2.2" vendor="avnet.com" name="Ultra96v1" display_name="Ultra96-V1 Single Board Computer" url="http://avnet.me/ultra96-v1" preset_file="preset.xml">
 <images>
     <image name="ultra96.jpg" display_name="Ultra96v1 Single Board Computer" sub_type="board">
       <description>Ultra96-V1 SBC Image</description>

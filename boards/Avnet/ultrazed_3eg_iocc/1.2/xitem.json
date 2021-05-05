@@ -3,23 +3,24 @@
     "items": [
       {
         "infra": {
-          "name": "Ultra96v1", 
-          "display": "Ultra96-V1 Single Board Computer", 
+          "name": "ultrazed_3eg_iocc", 
+          "display": "UltraZed-EG SOM + IO Carrier", 
           "revision": "1.2", 
-          "description": "Ultra96-V1 Single Board Computer", 
+          "description": "UltraZed-EG SOM + IO Carrier", 
           "company": "avnet.com", 
           "company_display": "Avnet", 
           "author": "Avnet", 
           "contributors": [
             {
               "group": "Avnet", 
-              "url": "http://avnet.me/ultra96-v1"
+              "url": "avnet.com"
             }
           ], 
           "category": "Evaluation Boards", 
-          "website": "http://avnet.me/ultra96-v1", 
+          "website": "http://avnet.me/ultrazed-eg", 
           "search-keywords": [
-            "Ultra96", 
+            "ultrazed_3eg_iocc", 
+            "ultrazed", 
             "avnet.com", 
             "board", 
             "Evaluation Boards"

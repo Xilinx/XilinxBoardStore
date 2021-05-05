@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<!--   ** **        **          **  ****      **  **********  ********** ®   
+      **   **        **        **   ** **     **  **              **
+     **     **        **      **    **  **    **  **              **
+    **       **        **    **     **   **   **  *********       **
+   **         **        **  **      **    **  **  **              **
+  **           **        ****       **     ** **  **              **
+ **  .........  **        **        **      ****  **********      **
+    ...........
+                                    Reach Further™
+ Copyright (C) 2021, Avnet Inc - All rights reserved
+ Licensed under the Apache License, Version 2.0 (the "License"). You may
+ not use this file except in compliance with the License. A copy of the
+ License is located at
+     http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ License for the specific language governing permissions and limitations
+ under the License. -->
+<board schema_version="2.2" vendor="avnet.com" name="picozed_7020_fmc2" display_name="PicoZed 7020 SOM + FMC Carrier V2" url="http://avnet.me/picozed" preset_file="preset.xml" >
+  <images>
+    <image name="picozed_fmc2_carrier_card.jpg" display_name="PicoZed FMC2 Carrier Card" sub_type="board">
+      <description>PicoZed FMC Carrier Card V2 File Image</description>
+    </image>
+  </images>
+<compatible_board_revisions>
+  <revision id="0">e</revision>
+</compatible_board_revisions>
+<file_version>1.3</file_version>
+<description>PicoZed 7020 SOM + FMC Carrier V2</description>
+<components>
+  <component name="part0" display_name="PicoZed 7020 SOM + FMC Carrier V2" type="fpga" part_name="xc7z020clg400-1" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="http://avnet.me/picozed">
+    <interfaces>
+        <interface mode="master" name="pl_pbs_5bits" type="xilinx.com:interface:gpio_rtl:1.0" of_component="pl_pbs_5bits" preset_proc="pl_pbs_5bits_preset">
+        	<description>5 push buttons</description>
+					<preferred_ips>
+						<preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+					</preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_I" physical_port="pl_pbs_5bits_tri_i" dir="in" left="4" right="0"> 
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pl_pbs_5bits_tri_i_0"/> 
+                <pin_map port_index="1" component_pin="pl_pbs_5bits_tri_i_1"/> 
+                <pin_map port_index="2" component_pin="pl_pbs_5bits_tri_i_2"/> 
+                <pin_map port_index="3" component_pin="pl_pbs_5bits_tri_i_3"/> 
+                <pin_map port_index="4" component_pin="pl_pbs_5bits_tri_i_4"/> 
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        <interface mode="master" name="pl_leds_4bits" type="xilinx.com:interface:gpio_rtl:1.0" of_component="pl_leds_4bits" preset_proc="pl_leds_4bits_preset">
+        	<description>4 LEDs</description>
+					<preferred_ips>
+						<preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+					</preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_O" physical_port="pl_leds_4bits_tri_o" dir="out" left="3" right="0"> 
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pl_leds_4bits_tri_o_0"/> 
+                <pin_map port_index="1" component_pin="pl_leds_4bits_tri_o_1"/> 
+                <pin_map port_index="2" component_pin="pl_leds_4bits_tri_o_2"/> 
+                <pin_map port_index="3" component_pin="pl_leds_4bits_tri_o_3"/> 
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+      <interface mode="master" name="ps7_fixedio" type="xilinx.com:display_processing_system7:fixedio_rtl:1.0" of_component="ps7_fixedio" preset_proc="ps7_preset"> 
+      </interface>
+      <interface mode="slave" name="sys_clock" type="xilinx.com:signal:clock_rtl:1.0" of_component="sys_clock">
+        <port_maps>
+          <port_map logical_port="CLK" physical_port="sys_clk" dir="in">
+            <pin_maps>
+              <pin_map port_index="0" component_pin="sys_clk"/> 
+            </pin_maps>
+          </port_map>
+        </port_maps>
+        <parameters>
+          <parameter name="frequency" value="100000000" />
+       </parameters>
+      </interface>
+    </interfaces>
+  </component>
+  <component name="pl_pbs_5bits" display_name="pl_pbs_5bits" type="chip" sub_type="push_button" major_group="gpio"/>
+  <component name="pl_leds_4bits" display_name="pl_leds_4bits" type="chip" sub_type="led" major_group="gpio"/>
+  <component name="ps7_fixedio" display_name="ps7_fixedio" type="chip" sub_type="fixed_io" major_group=""/>
+  <component name="sys_clock" display_name="sys_clock" type="chip" sub_type="system_clock" major_group="clock"/>
+</components>
+<jtag_chains>
+  <jtag_chain name="chain1">
+    <position name="0" component="part0"/>
+  </jtag_chain>
+</jtag_chains>
+<connections>
+    <connection name="part0_pl_pbs_5bits" component1="part0" component2="pl_pbs_5bits">
+      <connection_map name="part0_pl_pbs_5bits_1" c1_st_index="0" c1_end_index="4" c2_st_index="0" c2_end_index="4"/>
+    </connection>
+    <connection name="part0_pl_leds_4bits" component1="part0" component2="pl_leds_4bits">
+      <connection_map name="part0_pl_leds_4bits_1" c1_st_index="5" c1_end_index="8" c2_st_index="0" c2_end_index="3"/>
+    </connection>
+    <connection name="part0_sys_clock" component1="part0" component2="sys_clock">
+      <connection_map name="part0_sys_clock_1" c1_st_index="9" c1_end_index="9" c2_st_index="0" c2_end_index="0"/>
+    </connection>
+</connections>
+</board>
