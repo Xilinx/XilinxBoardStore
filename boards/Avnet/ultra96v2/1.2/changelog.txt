@@ -1,0 +1,11 @@
+1.2
+Updated company URL to avnet.com
+Updated Product URL
+Changed category to Evaluation Boards
+
+1.1
+Removed extraneous code
+
+1.0
+Original version
+

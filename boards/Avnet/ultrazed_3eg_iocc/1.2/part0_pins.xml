@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<!--   ** **        **          **  ****      **  **********  ********** ®   
+      **   **        **        **   ** **     **  **              **
+     **     **        **      **    **  **    **  **              **
+    **       **        **    **     **   **   **  *********       **
+   **         **        **  **      **    **  **  **              **
+  **           **        ****       **     ** **  **              **
+ **  .........  **        **        **      ****  **********      **
+    ...........
+                                    Reach Further™
+ Copyright (C) 2021, Avnet Inc - All rights reserved
+ Licensed under the Apache License, Version 2.0 (the "License"). You may
+ not use this file except in compliance with the License. A copy of the
+ License is located at
+     http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ License for the specific language governing permissions and limitations
+ under the License. -->
+<part_info part_name="xczu3eg-sfva625-1-i">
+<pins>
+  <pin index="0" name ="CPU_RESET" iostandard="LVCMOS18" loc="R2"/>	
+
+  <pin index="1" name ="GPIO_DIP_SW0" iostandard="LVCMOS18" loc="P3"/>
+  <pin index="2" name ="GPIO_DIP_SW1" iostandard="LVCMOS18" loc="P2"/>
+  <pin index="3" name ="GPIO_DIP_SW2" iostandard="LVCMOS18" loc="N1"/>
+  <pin index="4" name ="GPIO_DIP_SW3" iostandard="LVCMOS18" loc="P1"/>
+  <pin index="5" name ="GPIO_DIP_SW4" iostandard="LVCMOS18" loc="J7"/>
+  <pin index="6" name ="GPIO_DIP_SW5" iostandard="LVCMOS18" loc="J6"/>
+  <pin index="7" name ="GPIO_DIP_SW6" iostandard="LVCMOS18" loc="L7"/>
+  <pin index="8" name ="GPIO_DIP_SW7" iostandard="LVCMOS18" loc="K7"/>
+
+  <pin index="9" name ="GPIO_LED_0_LS" iostandard="LVCMOS18" loc="R7"/>
+  <pin index="10" name ="GPIO_LED_1_LS" iostandard="LVCMOS18" loc="T5"/>
+  <pin index="11" name ="GPIO_LED_2_LS" iostandard="LVCMOS18" loc="T7"/>
+  <pin index="12" name ="GPIO_LED_3_LS" iostandard="LVCMOS18" loc="T4"/>
+  <pin index="13" name ="GPIO_LED_4_LS" iostandard="LVCMOS18" loc="T3"/>
+  <pin index="14" name ="GPIO_LED_5_LS" iostandard="LVCMOS18" loc="U2"/>
+  <pin index="15" name ="GPIO_LED_6_LS" iostandard="LVCMOS18" loc="U6"/>
+  <pin index="16" name ="GPIO_LED_7_LS" iostandard="LVCMOS18" loc="U5"/>
+
+  <pin index="17" name ="GPIO_PUSH_SW0" iostandard="LVCMOS18" loc="R1"/>
+  <pin index="18" name ="GPIO_PUSH_SW1" iostandard="LVCMOS18" loc="L2"/>		
+  <pin index="19" name ="GPIO_PUSH_SW2" iostandard="LVCMOS18" loc="K2"/>		
+	
+</pins>
+</part_info>

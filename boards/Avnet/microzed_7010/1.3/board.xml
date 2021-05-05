@@ -18,19 +18,29 @@
  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
  License for the specific language governing permissions and limitations
  under the License. -->
-<part_info part_name="xczu3eg-sbva484-1-e">
-<pins>
-  
-  <pin index="0" name ="uart2_PL_TX"   iostandard="LVCMOS18" loc="AU15"/>
-  <pin index="1" name ="uart2_PL_RX"   iostandard="LVCMOS18" loc="AT15"/>
-  <pin index="2" name ="IIC0_SCL_MAIN" iostandard="LVCMOS18" loc="AT16"/>
-  <pin index="3" name ="IIC0_SDA_MAIN" iostandard="LVCMOS18" loc="AW16"/>
-  
-  <pin index="4" name ="IIC1_SCL_MAIN" iostandard="LVCMOS12" loc="AV16"/>
-  <pin index="5" name ="IIC1_SDA_MAIN" iostandard="LVCMOS12" loc="AV13"/>
-  
-  <pin index="6" name ="user_si570_sysclk_p" iostandard="DIFF_SSTL12" loc="J19"/>
-  <pin index="7" name ="user_si570_sysclk_n" iostandard="DIFF_SSTL12" loc="J18"/>  
-   
-</pins>
-</part_info>
+<board schema_version="2.2" vendor="avnet.com" name="microzed_7010" display_name="MicroZed 7010 Board" url="http://avnet.me/microzed" preset_file="preset.xml" >
+  <images>
+    <image name="microzed_7010.jpg" display_name="MicroZed" sub_type="board">
+      <description>MicroZed 7010 Image File</description>
+    </image>
+  </images>
+<compatible_board_revisions>
+  <revision id="0">g</revision>
+</compatible_board_revisions>
+<file_version>1.3</file_version>
+<description>MicroZed 7010 Board</description>
+<components>
+  <component name="part0" display_name="MicroZed 7010 Board" type="fpga" part_name="xc7z010clg400-1" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="http://avnet.me/microzed">
+    <interfaces>
+      <interface mode="master" name="ps7_fixedio" type="xilinx.com:display_processing_system7:fixedio_rtl:1.0" of_component="ps7_fixedio" preset_proc="ps7_preset"> 
+      </interface>
+    </interfaces>
+  </component>
+  <component name="ps7_fixedio" display_name="ps7_fixedio" type="chip" sub_type="fixed_io" major_group=""/>
+</components>
+<jtag_chains>
+  <jtag_chain name="chain1">
+    <position name="0" component="part0"/>
+  </jtag_chain>
+</jtag_chains>
+</board>
