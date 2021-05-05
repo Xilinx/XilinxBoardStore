@@ -18,19 +18,8 @@
  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
  License for the specific language governing permissions and limitations
  under the License. -->
-<part_info part_name="xczu3eg-sbva484-1-e">
+<part_info part_name="xc7z010clg400-1">
 <pins>
-  
-  <pin index="0" name ="uart2_PL_TX"   iostandard="LVCMOS18" loc="AU15"/>
-  <pin index="1" name ="uart2_PL_RX"   iostandard="LVCMOS18" loc="AT15"/>
-  <pin index="2" name ="IIC0_SCL_MAIN" iostandard="LVCMOS18" loc="AT16"/>
-  <pin index="3" name ="IIC0_SDA_MAIN" iostandard="LVCMOS18" loc="AW16"/>
-  
-  <pin index="4" name ="IIC1_SCL_MAIN" iostandard="LVCMOS12" loc="AV16"/>
-  <pin index="5" name ="IIC1_SDA_MAIN" iostandard="LVCMOS12" loc="AV13"/>
-  
-  <pin index="6" name ="user_si570_sysclk_p" iostandard="DIFF_SSTL12" loc="J19"/>
-  <pin index="7" name ="user_si570_sysclk_n" iostandard="DIFF_SSTL12" loc="J18"/>  
-   
+  <pin index="0" name ="jx1_se_0" iostandard="LVCMOS33" loc="R19"/>
 </pins>
 </part_info>
