@@ -5230,11 +5230,11 @@
         "name": "Ultra96v2",
         "display": "Ultra96-V2 Single Board Computer",
         "latest_revision": "1.1",
-        "commit_id": "e3a5c41cb0dcdc55bb26fb97644575db2334ba5c",
+        "commit_id": "2029b3b5b4af14fdc0ae9ead14225bf010f08186",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "e3a5c41cb0dcdc55bb26fb97644575db2334ba5c",
+            "commit_id": "2029b3b5b4af14fdc0ae9ead14225bf010f08186",
             "date": "26-04-2021:22:10:59",
             "history": "Added board Ultra96-V2 Single Board Computer v1.1"
           }
@@ -5249,17 +5249,226 @@
         "name": "Ultra96v1",
         "display": "Ultra96-V1 Single Board Computer",
         "latest_revision": "1.2",
-        "commit_id": "e3a5c41cb0dcdc55bb26fb97644575db2334ba5c",
+        "commit_id": "2029b3b5b4af14fdc0ae9ead14225bf010f08186",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "e3a5c41cb0dcdc55bb26fb97644575db2334ba5c",
+            "commit_id": "2029b3b5b4af14fdc0ae9ead14225bf010f08186",
             "date": "26-04-2021:22:10:59",
             "history": "Added board Ultra96-V1 Single Board Computer v1.2"
           }
         ],
         "config": {
           "root": "boards/Avnet/ultra96v1/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "avnet.com"
+      },
+      {
+        "name": "microzed_7010",
+        "display": "Microzed 7010",
+        "latest_revision": "1.3",
+        "commit_id": "2029b3b5b4af14fdc0ae9ead14225bf010f08186",
+        "revisions": [
+          {
+            "revision": "1.3",
+            "commit_id": "2029b3b5b4af14fdc0ae9ead14225bf010f08186",
+            "date": "05-05-2021:04:33:25",
+            "history": "Added board Microzed 7010 v1.3"
+          }
+        ],
+        "config": {
+          "root": "boards/Avnet/microzed_7010/1.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "avnet.com"
+      },
+      {
+        "name": "microzed_7020",
+        "display": "Microzed 7020",
+        "latest_revision": "1.3",
+        "commit_id": "2029b3b5b4af14fdc0ae9ead14225bf010f08186",
+        "revisions": [
+          {
+            "revision": "1.3",
+            "commit_id": "2029b3b5b4af14fdc0ae9ead14225bf010f08186",
+            "date": "05-05-2021:04:33:25",
+            "history": "Added board Microzed 7020 v1.3"
+          }
+        ],
+        "config": {
+          "root": "boards/Avnet/microzed_7020/1.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "avnet.com"
+      },
+      {
+        "name": "minized",
+        "display": "MiniZed",
+        "latest_revision": "1.3",
+        "commit_id": "2029b3b5b4af14fdc0ae9ead14225bf010f08186",
+        "revisions": [
+          {
+            "revision": "1.3",
+            "commit_id": "2029b3b5b4af14fdc0ae9ead14225bf010f08186",
+            "date": "05-05-2021:04:33:25",
+            "history": "Added board MiniZed v1.3"
+          }
+        ],
+        "config": {
+          "root": "boards/Avnet/minized/1.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "avnet.com"
+      },
+      {
+        "name": "picozed_7010_fmc2",
+        "display": "PicoZed 7010 SOM + FMC Carrier V2",
+        "latest_revision": "1.3",
+        "commit_id": "2029b3b5b4af14fdc0ae9ead14225bf010f08186",
+        "revisions": [
+          {
+            "revision": "1.3",
+            "commit_id": "2029b3b5b4af14fdc0ae9ead14225bf010f08186",
+            "date": "05-05-2021:04:33:25",
+            "history": "Added board PicoZed 7010 SOM + FMC Carrier V2 v1.3"
+          }
+        ],
+        "config": {
+          "root": "boards/Avnet/picozed_7010_fmc2/1.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "avnet.com"
+      },
+      {
+        "name": "picozed_7015_fmc2",
+        "display": "PicoZed 7015 SOM + FMC Carrier V2",
+        "latest_revision": "1.3",
+        "commit_id": "2029b3b5b4af14fdc0ae9ead14225bf010f08186",
+        "revisions": [
+          {
+            "revision": "1.3",
+            "commit_id": "2029b3b5b4af14fdc0ae9ead14225bf010f08186",
+            "date": "05-05-2021:04:33:25",
+            "history": "Added board PicoZed 7015 SOM + FMC Carrier V2 v1.3"
+          }
+        ],
+        "config": {
+          "root": "boards/Avnet/picozed_7015_fmc2/1.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "avnet.com"
+      },
+      {
+        "name": "picozed_7020_fmc2",
+        "display": "PicoZed 7020 SOM + FMC Carrier V2",
+        "latest_revision": "1.3",
+        "commit_id": "2029b3b5b4af14fdc0ae9ead14225bf010f08186",
+        "revisions": [
+          {
+            "revision": "1.3",
+            "commit_id": "2029b3b5b4af14fdc0ae9ead14225bf010f08186",
+            "date": "05-05-2021:04:33:25",
+            "history": "Added board PicoZed 7020 SOM + FMC Carrier V2 v1.3"
+          }
+        ],
+        "config": {
+          "root": "boards/Avnet/picozed_7020_fmc2/1.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "avnet.com"
+      },
+      {
+        "name": "picozed_7030_fmc2",
+        "display": "PicoZed 7030 SOM + FMC Carrier V2",
+        "latest_revision": "1.3",
+        "commit_id": "2029b3b5b4af14fdc0ae9ead14225bf010f08186",
+        "revisions": [
+          {
+            "revision": "1.3",
+            "commit_id": "2029b3b5b4af14fdc0ae9ead14225bf010f08186",
+            "date": "05-05-2021:04:33:25",
+            "history": "Added board PicoZed 7030 SOM + FMC Carrier V2 v1.3"
+          }
+        ],
+        "config": {
+          "root": "boards/Avnet/picozed_7030_fmc2/1.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "avnet.com"
+      },
+      {
+        "name": "Ultra96v2",
+        "display": "Ultra96-V2 Single Board Computer",
+        "latest_revision": "1.2",
+        "commit_id": "2029b3b5b4af14fdc0ae9ead14225bf010f08186",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "2029b3b5b4af14fdc0ae9ead14225bf010f08186",
+            "date": "05-05-2021:04:33:25",
+            "history": "Added board Ultra96-V2 Single Board Computer v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Avnet/ultra96v2/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "avnet.com"
+      },
+      {
+        "name": "ultrazed_3eg_iocc",
+        "display": "UltraZed-EG SOM + IO Carrier",
+        "latest_revision": "1.2",
+        "commit_id": "2029b3b5b4af14fdc0ae9ead14225bf010f08186",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "2029b3b5b4af14fdc0ae9ead14225bf010f08186",
+            "date": "05-05-2021:04:33:25",
+            "history": "Added board UltraZed-EG SOM + IO Carrier v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Avnet/ultrazed_3eg_iocc/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "avnet.com"
+      },
+      {
+        "name": "ultrazed_3eg_pciecc",
+        "display": "UltraZed-EG SOM + PCIe Carrier",
+        "latest_revision": "1.3",
+        "commit_id": "2029b3b5b4af14fdc0ae9ead14225bf010f08186",
+        "revisions": [
+          {
+            "revision": "1.3",
+            "commit_id": "2029b3b5b4af14fdc0ae9ead14225bf010f08186",
+            "date": "05-05-2021:04:33:25",
+            "history": "Added board UltraZed-EG SOM + PCIe Carrier v1.3"
+          }
+        ],
+        "config": {
+          "root": "boards/Avnet/ultrazed_3eg_pciecc/1.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "avnet.com"
+      },
+      {
+        "name": "ultrazed_7ev_cc",
+        "display": "UltraZed-EV SOM + EV Carrier",
+        "latest_revision": "1.5",
+        "commit_id": "2029b3b5b4af14fdc0ae9ead14225bf010f08186",
+        "revisions": [
+          {
+            "revision": "1.5",
+            "commit_id": "2029b3b5b4af14fdc0ae9ead14225bf010f08186",
+            "date": "05-05-2021:04:33:25",
+            "history": "Added board UltraZed-EV SOM + EV Carrier v1.5"
+          }
+        ],
+        "config": {
+          "root": "boards/Avnet/ultrazed_7ev_cc/1.5",
           "metadata_file": "xitem.json"
         },
         "company": "avnet.com"
