@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<!--   ** **        **          **  ****      **  **********  ********** ®   
+      **   **        **        **   ** **     **  **              **
+     **     **        **      **    **  **    **  **              **
+    **       **        **    **     **   **   **  *********       **
+   **         **        **  **      **    **  **  **              **
+  **           **        ****       **     ** **  **              **
+ **  .........  **        **        **      ****  **********      **
+    ...........
+                                    Reach Further™
+ Copyright (C) 2021, Avnet Inc - All rights reserved
+ Licensed under the Apache License, Version 2.0 (the "License"). You may
+ not use this file except in compliance with the License. A copy of the
+ License is located at
+     http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ License for the specific language governing permissions and limitations
+ under the License. -->
+<board schema_version="2.2" vendor="avnet.com" name="ultrazed_eg_pciecc_production" display_name="Avnet UltraZed-3EG PCIe Carrier Card" url="http://avnet.me/ultrazed-eg" preset_file="preset.xml">
+<images>
+    <image name="ultrazed_eg_pcie_carrier_card.jpg" display_name="UltraZed-3EG PCIe Carrier Card" sub_type="board">
+      <description>UltraZed-3EG PCIe Carrier Card File Image</description>
+    </image>
+  </images>
+  <compatible_board_revisions>
+    <revision id="0">1.0</revision>
+  </compatible_board_revisions>
+  <file_version>1.3</file_version>
+  <description>Avnet UltraZed-3EG PCIe Carrier Card</description>
+
+  <components>
+    <component name="part0" display_name="Zynq chip on board" type="fpga" part_name="xczu3eg-sfva625-1-i" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="http://avnet.me/ultrazed-eg">
+      <description>FPGA part on the board</description>
+      <interfaces>
+
+        <interface mode="master" name="ps8_fixedio" type="xilinx.com:zynq_ultra_ps_e:fixedio_rtl:1.0" of_component="ps8_fixedio" preset_proc="zynq_ultra_ps_e_preset"> 
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="zynq_ultra_ps_e" order="0"/>
+          </preferred_ips>
+        </interface>
+
+
+
+   <interface mode="slave" name="reset" type="xilinx.com:signal:reset_rtl:1.0" of_component="reset">
+          <parameters>
+            <parameter name="rst_polarity" value="1"/>
+          </parameters>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="proc_sys_reset" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="RST" physical_port="reset" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CPU_RESET"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+
+   <interface mode="master" name="dip_switches_8bits" type="xilinx.com:interface:gpio_rtl:1.0" of_component="dip_switches_8bits" preset_proc="dip_switches_8bits_preset">
+          <description>8-position user DIP Switch</description>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_I" physical_port="dip_switches_tri_i" dir="in" left="7" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="GPIO_DIP_SW0"/>
+                <pin_map port_index="1" component_pin="GPIO_DIP_SW1"/>
+                <pin_map port_index="2" component_pin="GPIO_DIP_SW2"/>
+                <pin_map port_index="3" component_pin="GPIO_DIP_SW3"/>
+                <pin_map port_index="4" component_pin="GPIO_DIP_SW4"/>
+                <pin_map port_index="5" component_pin="GPIO_DIP_SW5"/>
+                <pin_map port_index="6" component_pin="GPIO_DIP_SW6"/>
+                <pin_map port_index="7" component_pin="GPIO_DIP_SW7"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+
+   <interface mode="master" name="led_8bits" type="xilinx.com:interface:gpio_rtl:1.0" of_component="led_8bits" preset_proc="led_8bits_preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_O" physical_port="leds_8bits_tri_o" dir="out" left="7" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="GPIO_LED_0_LS"/>
+                <pin_map port_index="1" component_pin="GPIO_LED_1_LS"/>
+                <pin_map port_index="2" component_pin="GPIO_LED_2_LS"/>
+                <pin_map port_index="3" component_pin="GPIO_LED_3_LS"/>
+                <pin_map port_index="4" component_pin="GPIO_LED_4_LS"/>
+                <pin_map port_index="5" component_pin="GPIO_LED_5_LS"/>
+                <pin_map port_index="6" component_pin="GPIO_LED_6_LS"/>
+                <pin_map port_index="7" component_pin="GPIO_LED_7_LS"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+
+   <interface mode="master" name="push_buttons_3bits" type="xilinx.com:interface:gpio_rtl:1.0" of_component="push_buttons_3bits" preset_proc="push_buttons_3bits_preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_I" physical_port="push_buttons_3bits_tri" dir="in" left="2" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="GPIO_PUSH_SW0"/>
+                <pin_map port_index="1" component_pin="GPIO_PUSH_SW1"/>
+                <pin_map port_index="2" component_pin="GPIO_PUSH_SW2"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+       </interfaces>
+
+
+    </component>
+    <component name="ps8_fixedio" display_name="PS8 fixed IO" type="chip" sub_type="fixed_io" major_group=""/>
+
+    <component name="reset" display_name="FPGA Reset" type="chip" sub_type="system_reset" major_group="Reset" part_name="TL3301EP100QG" vendor="ESwitch">
+      <description>CPU Reset Push Button, Active High</description>
+    </component>
+
+
+   <component name="dip_switches_8bits" display_name="DIP switches" type="chip" sub_type="switch" major_group="General Purpose Input or Output" part_name="SDA05H1SBD" vendor="CandK" spec_url="www.ck-components.com">
+      <description>DIP Switches 7 to 0</description>
+    </component>
+
+
+    <component name="led_8bits" display_name="LED" type="chip" sub_type="led" major_group="General Purpose Input or Output">
+      <description>LEDs, 7 to 0, Active High</description>
+    </component>
+
+
+    <component name="push_buttons_3bits" display_name="Push buttons" type="chip" sub_type="push_button" major_group="General Purpose Input or Output" part_name="TL3301EP100QG" vendor="ESwitch">
+      <description>Push Button 2 to 0, Active High</description>
+    </component>
+    </components>
+
+
+  <jtag_chains>
+    <jtag_chain name="chain1">
+      <position name="0" component="part0"/>
+    </jtag_chain>
+  </jtag_chains>
+
+
+
+  <connections>
+    <connection name="part0_reset" component1="part0" component2="reset">
+      <connection_map name="part0_reset_1" typical_delay="5" c1_st_index="0" c1_end_index="0" component2="reset" c2_st_index="0" c2_end_index="0"/>
+    </connection>
+
+
+ <connection name="part0_dip_switches_8bits" component1="part0" component2="dip_switches_8bits">
+      <connection_map name="part0_dip_switches_8bits_1" typical_delay="5" c1_st_index="1" c1_end_index="8" c2_st_index="0" c2_end_index="7"/>
+    </connection>
+
+
+    <connection name="part0_led_8bits" component1="part0" component2="led_8bits">
+      <connection_map name="part0_led_8bits_1" typical_delay="5" c1_st_index="9" c1_end_index="16" c2_st_index="0" c2_end_index="7"/>
+    </connection>
+
+
+    <connection name="part0_push_buttons_3bits" component1="part0" component2="push_buttons_3bits">
+      <connection_map name="part0_push_buttons_3bits_1" typical_delay="5" c1_st_index="17" c1_end_index="19" c2_st_index="0" c2_end_index="2"/>
+    </connection>
+
+  </connections>
+
+</board>
+
