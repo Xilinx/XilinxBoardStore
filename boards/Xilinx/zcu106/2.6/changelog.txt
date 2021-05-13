@@ -1,6 +1,6 @@
 ######### ZCU106 changelog ############
 2.6
-Added new DDR4 Memory part MT40A256M16LY-062E support
+Added New DDR4 Memory Part MT40A256M16LY-062E support
 
 2.5
 Added support for xxv_ethernet IP
