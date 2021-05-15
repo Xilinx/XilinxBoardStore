@@ -2133,11 +2133,11 @@
         "name": "zcu106",
         "display": "Zynq UltraScale+ ZCU106 Evaluation Platform",
         "latest_revision": "2.6",
-        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "commit_id": "32cc8d436ecf5c70af2f27d67bbc4d192727c3b8",
         "revisions": [
           {
             "revision": "2.6",
-            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "commit_id": "32cc8d436ecf5c70af2f27d67bbc4d192727c3b8",
             "date": "25-06-2020",
             "history": "Adding 2.6 with Dual Memory Supportt"
           }
