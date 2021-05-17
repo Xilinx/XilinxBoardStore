@@ -2076,11 +2076,11 @@
         "name": "zcu102",
         "display": "Zynq UltraScale+ ZCU102 Evaluation Board",
         "latest_revision": "3.4",
-        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "commit_id": "fa5e0e14a8c0dd6cd99275b6a8f143bd4d0e2121",
         "revisions": [
           {
             "revision": "3.4",
-            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "commit_id": "fa5e0e14a8c0dd6cd99275b6a8f143bd4d0e2121",
             "date": "25-06-2020",
             "history": "Adding 3.4 with Dual Memory Support"
           }
