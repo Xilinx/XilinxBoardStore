@@ -1,5 +1,5 @@
 3.4
-Added new DDR4 Memory part MT40A256M16LY-062E support
+Added New DDR4 Memory Part MT40A256M16LY-062E support
 
 3.3
 Added PSU_DYNAMIC_DDR_CONFIG_EN to MPSoC preset 
