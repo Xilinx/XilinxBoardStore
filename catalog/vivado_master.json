@@ -2114,11 +2114,11 @@
         "name": "zcu104",
         "display": "Zynq UltraScale+ ZCU104 Evaluation Board",
         "latest_revision": "1.1",
-        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "commit_id": "cd849ce45c3c25a2218242d8e2dce8c77158d5ae",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "commit_id": "cd849ce45c3c25a2218242d8e2dce8c77158d5ae",
             "date": "29-10-2020",
             "history": "Addressed linting issues"
           }
