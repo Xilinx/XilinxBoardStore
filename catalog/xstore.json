@@ -72,11 +72,6 @@
           }, 
           {
             "xitem_catalogue_file": "catalog/vivado_master.json", 
-            "version": "2021.1", 
-            "remote_repo_branch_to_sync": "master"
-          }, 
-          {
-            "xitem_catalogue_file": "catalog/vivado_master.json", 
             "version": "default", 
             "remote_repo_branch_to_sync": "master"
           }, 
