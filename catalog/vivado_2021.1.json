@@ -5567,6 +5567,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "avnet.com"
+      },
+      {
+        "name": "sp701",
+        "display": "Spartan-7 SP701 Evaluation Platform",
+        "latest_revision": "1.1",
+        "commit_id": "838e43bbb4b11536f4b54f601b5c2e05dbac12d5",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "838e43bbb4b11536f4b54f601b5c2e05dbac12d5",
+            "date": "25-05-2021:10:48:46",
+            "history": "Added board Spartan-7 SP701 Evaluation Platform v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/sp701/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
       }
     ],
     "categories": [
