@@ -3,32 +3,33 @@
     "items": [
       {
         "infra": {
-          "name": "te0808_6eg_1i_tebf0808", 
-          "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-*-6BI21-(A,X,D) (4GB DDR) with TEBF0808. *SPRT Module PCB: REV05,REV04.", 
-          "revision": "4.0", 
-          "description": "UltraSOM (ZYNQ-UltraScale+) TE0808-*-6BI21-(A,X,D) (4GB DDR) Board (form factor 5.2x7.6 cm) with 4x 1 GByte DDR4, speed grade -1 and industrial temperature range. *Supported PCB Revisions: REV05,REV04. Board Part is for usage with carrier-board TEBF0808.", 
-          "company": "trenz.biz", 
-          "company_display": "Trenz Electronic GmbH", 
-          "author": "trenz.biz", 
+          "name": "te0808_6eg_1i_tebf0808",
+          "display": "TE0808-*-6BI21-X/-6BI21-D/-6BI21-A (4GB DDR) with TEBF0808. *SPRT Module PCB: REV05,REV04.",
+          "revision": "4.0",
+          "description": "Zynq UltraScale+ MPSoC TE0808-*-6BI21-X/-6BI21-D/-6BI21-A (4GB DDR) Board (form factor 5.2x7.6 cm) with 4x 1 GByte DDR4, speed grade -1 and industrial temperature range. *Supported PCB Revisions: REV05,REV04. Board Part is for usage with carrier-board TEBF0808.",
+          "company": "trenz.biz",
+          "company_display": "Trenz Electronic GmbH",
+          "author": "trenz.biz",
           "contributors": [
             {
-              "group": "Trenz Electronic GmbH", 
+              "group": "Trenz Electronic GmbH",
               "url": "https://www.trenz-electronic.de/"
             }
-          ], 
-          "category": "Single Part", 
-          "website": "trenz.org/te0808-info", 
-          "logo": "te0808_starterkit.png", 
+          ],
+          "category": "Zynq UltraScale+ MPSoC/Module",
+          "website": "trenz.org/te0808-info",
+          "logo": "te0808_starterkit.png",
           "search-keywords": [
-            "te0808_6eg_1i_tebf0808", 
-            "trenz.biz", 
-            "board", 
+            "te0808_6eg_1i_tebf0808",
+            "trenz.biz",
+            "board",
+            "Zynq UltraScale+ MPSoC/Module",
             "Single Part"
           ]
         }
       }
     ]
-  }, 
-  "_major": 1, 
+  },
+  "_major": 1,
   "_minor": 0
 }
