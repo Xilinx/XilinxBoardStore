@@ -404,11 +404,11 @@
         "name": "te0712_100_1i",
         "display": "Artix-7 TE0712_100_1I. SPRT PCB: REV02, REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -423,11 +423,11 @@
         "name": "te0712_100_2c",
         "display": "Artix-7 TE0712_100_2C. SPRT PCB: REV02, REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -442,11 +442,11 @@
         "name": "te0712_100_2c",
         "display": "Artix-7 TE0712_100_2CA. SPRT PCB: REV02",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -461,11 +461,11 @@
         "name": "te0712_200_1i",
         "display": "Artix-7 TE0712_200_1I. SPRT PCB: REV02, REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -480,11 +480,11 @@
         "name": "te0712_200_2c",
         "display": "Artix-7 TE0712_200_2C. SPRT PCB: REV02, REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -499,11 +499,11 @@
         "name": "te0712_200_2i",
         "display": "Artix-7 TE0712_200_2I. SPRT PCB: REV02, REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -518,11 +518,11 @@
         "name": "te0712_35_2i",
         "display": "Artix-7 TE0712_35_2I. SPRT PCB: REV02",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -537,11 +537,11 @@
         "name": "te0720_14s",
         "display": "ZYNQ-7 TE0720_14S. SPRT PCB: REV02, REV03",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -556,11 +556,11 @@
         "name": "te0720_1c",
         "display": "ZYNQ-7 TE0720_1CF(_, A). SPRT PCB: REV02, REV03",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -575,11 +575,11 @@
         "name": "te0720_1c",
         "display": "ZYNQ-7 TE0720_1CR. SPRT PCB: REV02, REV03",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -594,11 +594,11 @@
         "name": "te0720_1il",
         "display": "ZYNQ-7 TE0720_L1IF. SPRT PCB: REV02, REV03",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -613,11 +613,11 @@
         "name": "te0720_1q",
         "display": "ZYNQ-7 TE0720_1QF (_, A). SPRT PCB: REV02, REV03",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -632,11 +632,11 @@
         "name": "te0720_2e",
         "display": "ZYNQ-7 TE0720_2EF. SPRT PCB: REV02, REV03",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -651,11 +651,11 @@
         "name": "te0720_2i",
         "display": "ZYNQ-7 TE0720_2IF (_, C3, C8, A). SPRT PCB: REV02, REV03",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -670,11 +670,11 @@
         "name": "te0722",
         "display": "ZYNQ-7 TE0722. SPRT PCB: REV01, REV02",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -689,11 +689,11 @@
         "name": "te0722_7s",
         "display": "ZYNQ-7S TE0722_07S. SPRT PCB: REV01, REV02",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -708,11 +708,11 @@
         "name": "te0722_i",
         "display": "ZYNQ-7 TE0722_I. SPRT PCB: REV01, REV02",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -727,11 +727,11 @@
         "name": "te0724_10_1i",
         "display": "ZYNQ-7 TE0724_10_1I( : 1GB DDR3L). SPRT PCB: REV02",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -746,11 +746,11 @@
         "name": "te0724_20_1i",
         "display": "ZYNQ-7 TE0724_20_1I( : 1GB DDR3L). SPRT PCB: REV02",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -765,11 +765,11 @@
         "name": "te0725_100_2c",
         "display": "Artix-7 TE0725_100_2C(_, F). SPRT PCB: REV01, REV02, REV03",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -784,11 +784,11 @@
         "name": "te0725_100_2i",
         "display": "Artix-7 TE0725_100_2I9. SPRT PCB: REV01, REV02, REV03",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -803,11 +803,11 @@
         "name": "te0725_15_1c",
         "display": "Artix-7 TE0725_15_1C. SPRT PCB: REV01, REV02, REV03",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -822,11 +822,11 @@
         "name": "te0725_35_2c",
         "display": "Artix-7 TE0725_35_2C. SPRT PCB: REV01, REV02, REV03",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -841,11 +841,11 @@
         "name": "te0726_01",
         "display": "ZYNQ-7 TE0726_01 (64MB DDR). SPRT PCB: REV01.",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -860,11 +860,11 @@
         "name": "te0726_r",
         "display": "ZYNQ-7 TE0726_R (128MB DDR). SPRT PCB: REV03R, REV02.",
         "latest_revision": "2.1",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.1",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -879,11 +879,11 @@
         "name": "te0726_m",
         "display": "ZYNQ-7 TE0726_M (512MB DDR). SPRT PCB: REV03, REV02.",
         "latest_revision": "3.1",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "3.1",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -898,11 +898,11 @@
         "name": "te0726_7s",
         "display": "ZYNQ-7S TE0726_07S (512MB DDR). SPRT PCB: REV03, REV02.",
         "latest_revision": "3.1",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "3.1",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -917,11 +917,11 @@
         "name": "te0729_20_2i",
         "display": "ZYNQ-7 TE0729_20_2I(F). SPRT PCB: REV02, REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -936,11 +936,11 @@
         "name": "te0729_20_2i",
         "display": "ZYNQ-7 TE0729_20_2I(R,RA). SPRT PCB: REV02, REV01",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -955,11 +955,11 @@
         "name": "te0803_2cg_1e",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-2CG-1E(_, A: 2GB DDR). SPRT PCB: REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -974,11 +974,11 @@
         "name": "te0803_2cg_1e_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-2CG-1E(_, A: 2GB DDR) with TEBF0808. SPRT PCB: REV01",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -993,11 +993,11 @@
         "name": "te0803_2eg_1e",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-2EG-1E(_, A: 2GB DDR). SPRT PCB: REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1012,11 +1012,11 @@
         "name": "te0803_2eg_1e_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-2EG-1E(_, A: 2GB DDR) with TEBF0808. SPRT PCB: REV01",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1031,11 +1031,11 @@
         "name": "te0803_3cg_1e",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-3CG-1E(_, A: 2GB DDR). SPRT PCB: REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1050,11 +1050,11 @@
         "name": "te0803_3cg_1e_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-3CG-1E(_, A: 2GB DDR) with TEBF0808. SPRT PCB: REV01",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1069,11 +1069,11 @@
         "name": "te0803_3eg_1e",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-3EG-1E(_, A: 2GB DDR). SPRT PCB: REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1088,11 +1088,11 @@
         "name": "te0803_3eg_1e_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-3EG-1E(_, A: 2GB DDR) with TEBF0808. SPRT PCB: REV01",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1107,11 +1107,11 @@
         "name": "te0803_3eg_1e",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-3EG-1E(B: 4GB DDR). SPRT PCB: REV01",
         "latest_revision": "3.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1126,11 +1126,11 @@
         "name": "te0803_3eg_1e_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-3EG-1E(B: 4GB DDR) with TEBF0808. SPRT PCB: REV01",
         "latest_revision": "4.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "4.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:14",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1145,11 +1145,11 @@
         "name": "te0803_4cg_1e",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-4CG-1E(A: 2GB DDR). SPRT PCB: REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:15",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1164,11 +1164,11 @@
         "name": "te0803_4cg_1e_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-4CG-1E(A: 2GB DDR) with TEBF0808. SPRT PCB: REV01",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:15",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1183,11 +1183,11 @@
         "name": "te0803_4eg_1e",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-4EG-1E(A: 2GB DDR). SPRT PCB: REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:15",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1202,11 +1202,11 @@
         "name": "te0803_4eg_1e_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-4EG-1E(A: 2GB DDR) with TEBF0808. SPRT PCB: REV01",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:15",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1221,11 +1221,11 @@
         "name": "te0803_4ev_1e",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-4EV-1E(A, 3: 2GB DDR). SPRT PCB: REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:15",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1240,11 +1240,11 @@
         "name": "te0803_4ev_1e_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-4EV-1E(A, 3: 2GB DDR) with TEBF0808. SPRT PCB: REV01",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:15",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1259,11 +1259,11 @@
         "name": "te0803_5ev_1e",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-5EV-1E(A: 2GB DDR). SPRT PCB: REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:15",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1278,11 +1278,11 @@
         "name": "te0803_5ev_1e_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-5EV-1E(A: 2GB DDR) with TEBF0808. SPRT PCB: REV01",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:15",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1297,11 +1297,11 @@
         "name": "te0803_5ev_1i",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-5EV-1I(A: 2GB DDR). SPRT PCB: REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:15",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1316,11 +1316,11 @@
         "name": "te0803_5ev_1i_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-5EV-1I(A: 2GB DDR) with TEBF0808. SPRT PCB: REV01",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:15",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1335,11 +1335,11 @@
         "name": "te0808_15eg_1e",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-15EG-1E(B,E: 4GB DDR). SPRT PCB: REV04.",
         "latest_revision": "3.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:15",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1354,11 +1354,11 @@
         "name": "te0808_15eg_1e_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-15EG-1E(B,E: 4GB DDR) with TEBF0808. SPRT Module PCB: REV04.",
         "latest_revision": "4.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "4.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:15",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1373,11 +1373,11 @@
         "name": "te0808_6eg_1e",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-6EG-1E(E,3: 4GB DDR). SPRT PCB: REV04.",
         "latest_revision": "3.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:15",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1392,11 +1392,11 @@
         "name": "te0808_6eg_1e_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-6EG-1E(E,3: 4GB DDR) with TEBF0808. SPRT Module PCB: REV04.",
         "latest_revision": "4.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "4.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:15",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1411,11 +1411,11 @@
         "name": "te0808_9eg_1e",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-9EG-1E(A: 2GB DDR). SPRT PCB: REV04.",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:15",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1430,11 +1430,11 @@
         "name": "te0808_9eg_1e_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-9EG-1E(A: 2GB DDR) with TEBF0808. SPRT Module PCB: REV04.",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:15",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1449,11 +1449,11 @@
         "name": "te0808_9eg_1e",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-9EG-1E(B,D,E,L: 4GB DDR). SPRT PCB: REV04.",
         "latest_revision": "3.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:15",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1468,11 +1468,11 @@
         "name": "te0808_9eg_1e_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-9EG-1E(B,D,E,L: 4GB DDR) with TEBF0808. SPRT Module PCB: REV04.",
         "latest_revision": "4.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "4.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:15",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1487,11 +1487,11 @@
         "name": "te0808_9eg_2i",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-9EG-2I(B,E: 4GB DDR). SPRT PCB: REV04.",
         "latest_revision": "3.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:15",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1506,11 +1506,11 @@
         "name": "te0808_9eg_2i_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-9EG-2I(B,E: 4GB DDR) with TEBF0808. SPRT Module PCB: REV04.",
         "latest_revision": "4.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "4.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:15",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1525,11 +1525,11 @@
         "name": "te0820_2cg_1e",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0820-2CG-1E(_, A  : 1 GB DDR). SPRT PCB: REV02",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:15",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1544,11 +1544,11 @@
         "name": "te0820_2eg_1e",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0820-2EG-1E(_, 3, A, L  : 1 GB DDR). SPRT PCB: REV02",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:15",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1563,11 +1563,11 @@
         "name": "te0820_2eg_1e",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0820-2EG-1E(E : 2 GB DDR). SPRT PCB: REV02",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:15",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1582,11 +1582,11 @@
         "name": "te0820_3cg_1e",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0820-3CG-1E(_, A  : 1 GB DDR). SPRT PCB: REV02",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:15",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1601,11 +1601,11 @@
         "name": "te0820_3eg_1e",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0820-3EG-1E(_, 3, A, L  : 1 GB DDR). SPRT PCB: REV02",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:15",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1620,11 +1620,11 @@
         "name": "te0820_4cg_1e",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0820-4CG-1E(A  : 1 GB DDR). SPRT PCB: REV02",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:15",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1639,11 +1639,11 @@
         "name": "teb0911_9eg_1e",
         "display": "ZYNQ-UltraScale+ TEB0911-09EG-1E. SPRT PCB: REV03,REV02.",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:15",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -1658,11 +1658,11 @@
         "name": "tec0850_15eg_1e",
         "display": "UltraScale+ Zynq TEC0850-15EG-1E. SPRT PCB: REV02",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "28-09-2018:16:20:15",
             "history": "Add Trenz Electronic Board Files"
           }
@@ -2760,11 +2760,11 @@
         "name": "te0710_02_100_2c",
         "display": "Artix-7 TE0710-*-100-2CF (512MB DDR3). *SPRT PCB: REV02",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Artix-7 TE0710-*-100-2CF (512MB DDR3). *SPRT PCB: REV02 v1.0"
           }
@@ -2779,11 +2779,11 @@
         "name": "te0710_02_100_2i",
         "display": "Artix-7 TE0710-*-100-2IF (512MB DDR3). *SPRT PCB: REV02",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Artix-7 TE0710-*-100-2IF (512MB DDR3). *SPRT PCB: REV02 v1.0"
           }
@@ -2798,11 +2798,11 @@
         "name": "te0710_02_35_2c",
         "display": "Artix-7 TE0710-*-35-2CF (512MB DDR3). *SPRT PCB: REV02",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Artix-7 TE0710-*-35-2CF (512MB DDR3). *SPRT PCB: REV02 v1.0"
           }
@@ -2817,11 +2817,11 @@
         "name": "te0710_02_35_2i",
         "display": "Artix-7 TE0710-*-35-2IF (512MB DDR3). *SPRT PCB: REV02",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Artix-7 TE0710-*-35-2IF (512MB DDR3). *SPRT PCB: REV02 v1.0"
           }
@@ -2836,11 +2836,11 @@
         "name": "te0711_100_2c",
         "display": "Artix-7 TE0711-*-100-2C. *SPRT PCB: REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Artix-7 TE0711-*-100-2C. *SPRT PCB: REV01 v1.0"
           }
@@ -2855,11 +2855,11 @@
         "name": "te0711_100_2i",
         "display": "Artix-7 TE0711-*-100-2I. *SPRT PCB: REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Artix-7 TE0711-*-100-2I. *SPRT PCB: REV01 v1.0"
           }
@@ -2874,11 +2874,11 @@
         "name": "te0711_35_2c",
         "display": "Artix-7 TE0711-*-35-2C. *SPRT PCB: REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Artix-7 TE0711-*-35-2C. *SPRT PCB: REV01 v1.0"
           }
@@ -2893,11 +2893,11 @@
         "name": "te0711_35_2i",
         "display": "Artix-7 TE0711-*-35-2I. *SPRT PCB: REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Artix-7 TE0711-*-35-2I. *SPRT PCB: REV01 v1.0"
           }
@@ -2912,11 +2912,11 @@
         "name": "te0713_100_2c",
         "display": "Artix-7 TE0713-*-100-2C (1GB DDR)  *SPRT PCB: REV02, REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Artix-7 TE0713-*-100-2C (1GB DDR)  *SPRT PCB: REV02, REV01 v1.0"
           }
@@ -2931,11 +2931,11 @@
         "name": "te0713_200_2c",
         "display": "Artix-7 TE0713-*-200-2C (1GB DDR) *SPRT PCB: REV02, REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Artix-7 TE0713-*-200-2C (1GB DDR) *SPRT PCB: REV02, REV01 v1.0"
           }
@@ -2950,11 +2950,11 @@
         "name": "te0715_12s_1c",
         "display": "ZYNQ-7S TE0715-*-12S-1C/-12S-1CC (1GB DDR). *SPRT PCB: REV04",
         "latest_revision": "1.1",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-7S TE0715-*-12S-1C/-12S-1CC (1GB DDR). *SPRT PCB: REV04 v1.1"
           }
@@ -2969,11 +2969,11 @@
         "name": "te0715_15_1c",
         "display": "ZYNQ-7 TE0715-*-15-1C (1GB DDR). *SPRT PCB: REV03, REV02, REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-7 TE0715-*-15-1C (1GB DDR). *SPRT PCB: REV03, REV02, REV01 v1.0"
           }
@@ -2988,11 +2988,11 @@
         "name": "te0715_15_1c",
         "display": "ZYNQ-7 TE0715-*-15-1C (1GB DDR). *SPRT PCB: REV04",
         "latest_revision": "1.1",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-7 TE0715-*-15-1C (1GB DDR). *SPRT PCB: REV04 v1.1"
           }
@@ -3007,11 +3007,11 @@
         "name": "te0715_15_1i",
         "display": "ZYNQ-7 TE0715-*-15-1I/-15-1I3 (1GB DDR). *SPRT PCB: REV03, REV02, REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-7 TE0715-*-15-1I/-15-1I3 (1GB DDR). *SPRT PCB: REV03, REV02, REV01 v1.0"
           }
@@ -3026,11 +3026,11 @@
         "name": "te0715_15_1i",
         "display": "ZYNQ-7 TE0715-*-15-1I/-15-1I3/-15-1IC (1GB DDR). *SPRT PCB: REV04",
         "latest_revision": "1.1",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-7 TE0715-*-15-1I/-15-1I3/-15-1IC (1GB DDR). *SPRT PCB: REV04 v1.1"
           }
@@ -3045,11 +3045,11 @@
         "name": "te0715_15_2i",
         "display": "ZYNQ-7 TE0715-*-15-2I (1GB DDR). *SPRT PCB: REV03, REV02, REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-7 TE0715-*-15-2I (1GB DDR). *SPRT PCB: REV03, REV02, REV01 v1.0"
           }
@@ -3064,11 +3064,11 @@
         "name": "te0715_15_2i",
         "display": "ZYNQ-7 TE0715-*-15-2I (1GB DDR). *SPRT PCB: REV04",
         "latest_revision": "1.1",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-7 TE0715-*-15-2I (1GB DDR). *SPRT PCB: REV04 v1.1"
           }
@@ -3083,11 +3083,11 @@
         "name": "te0715_30_1c",
         "display": "ZYNQ-7 TE0715-*-30-1C (1GB DDR). *SPRT PCB: REV03, REV02, REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-7 TE0715-*-30-1C (1GB DDR). *SPRT PCB: REV03, REV02, REV01 v1.0"
           }
@@ -3102,11 +3102,11 @@
         "name": "te0715_30_1c",
         "display": "ZYNQ-7 TE0715-*-30-1C (1GB DDR). *SPRT PCB: REV04",
         "latest_revision": "1.1",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-7 TE0715-*-30-1C (1GB DDR). *SPRT PCB: REV04 v1.1"
           }
@@ -3121,11 +3121,11 @@
         "name": "te0715_30_1i",
         "display": "ZYNQ-7 TE0715-*-30-1I (1GB DDR). *SPRT PCB: REV03, REV02, REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-7 TE0715-*-30-1I (1GB DDR). *SPRT PCB: REV03, REV02, REV01 v1.0"
           }
@@ -3140,11 +3140,11 @@
         "name": "te0715_30_1i",
         "display": "ZYNQ-7 TE0715-*-30-1I/-30-1I3/-30-1IA/-30-1I3C1 (1GB DDR). *SPRT PCB: REV04",
         "latest_revision": "1.1",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-7 TE0715-*-30-1I/-30-1I3/-30-1IA/-30-1I3C1 (1GB DDR). *SPRT PCB: REV04 v1.1"
           }
@@ -3159,11 +3159,11 @@
         "name": "te0715_30_3e",
         "display": "ZYNQ-7 TE0715-*-30-3E (1GB DDR). *SPRT PCB: REV03, REV02, REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-7 TE0715-*-30-3E (1GB DDR). *SPRT PCB: REV03, REV02, REV01 v1.0"
           }
@@ -3178,11 +3178,11 @@
         "name": "te0715_30_3e",
         "display": "ZYNQ-7 TE0715-*-30-3E (1GB DDR). *SPRT PCB: REV04",
         "latest_revision": "1.1",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-7 TE0715-*-30-3E (1GB DDR). *SPRT PCB: REV04 v1.1"
           }
@@ -3197,11 +3197,11 @@
         "name": "te0716_20_1c",
         "display": "ZYNQ-7 TE0716-*(1GB DDR). *SPRT PCB: REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-7 TE0716-*(1GB DDR). *SPRT PCB: REV01 v1.0"
           }
@@ -3216,11 +3216,11 @@
         "name": "te0722_i",
         "display": "ZYNQ-7 TE0722-*IC7 (0GB DDR). *SPRT PCB: REV02",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-7 TE0722-*IC7 (0GB DDR). *SPRT PCB: REV02 v2.0"
           }
@@ -3235,11 +3235,11 @@
         "name": "te0725lp_100_2c",
         "display": "Artix-7 TE0725LP-*-72C-1(T, U, H)/-100-2(C, D, L). *SPRT PCB: REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Artix-7 TE0725LP-*-72C-1(T, U, H)/-100-2(C, D, L). *SPRT PCB: REV01 v1.0"
           }
@@ -3254,11 +3254,11 @@
         "name": "te0725lp_100_2i",
         "display": "Artix-7 TE0725LP-*-72I-1(T, U, H)/-100-2I. *SPRT PCB: REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Artix-7 TE0725LP-*-72I-1(T, U, H)/-100-2I. *SPRT PCB: REV01 v1.0"
           }
@@ -3273,11 +3273,11 @@
         "name": "te0725_35_2i",
         "display": "Artix-7 TE0725-*-35-2I. SPRT PCB: REV03, REV02, REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Artix-7 TE0725-*-35-2I. SPRT PCB: REV03, REV02, REV01 v1.0"
           }
@@ -3292,11 +3292,11 @@
         "name": "te0741_160_2c",
         "display": "Kintex-7 TE0741-*-160-2CF. *SPRT PCB: REV03, REV02",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Kintex-7 TE0741-*-160-2CF. *SPRT PCB: REV03, REV02 v1.0"
           }
@@ -3311,11 +3311,11 @@
         "name": "te0741_160_2c",
         "display": "Kintex-7 TE0741-*-160-2C1. SPRT PCB: REV03, REV02",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Kintex-7 TE0741-*-160-2C1. SPRT PCB: REV03, REV02 v2.0"
           }
@@ -3330,11 +3330,11 @@
         "name": "te0741_160_2i",
         "display": "Kintex-7 TE0741-*-160-2IF. SPRT PCB: REV03, REV02",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Kintex-7 TE0741-*-160-2IF. SPRT PCB: REV03, REV02 v1.0"
           }
@@ -3349,11 +3349,11 @@
         "name": "te0741_160_3e",
         "display": "Kintex-7 TE0741-*-B3E-1-AF. *SPRT PCB: REV03",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Kintex-7 TE0741-*-B3E-1-AF. *SPRT PCB: REV03 v2.0"
           }
@@ -3368,11 +3368,11 @@
         "name": "te0741_325_2c",
         "display": "Kintex-7 TE0741-*-325-2CF. *SPRT PCB: REV03, REV02",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Kintex-7 TE0741-*-325-2CF. *SPRT PCB: REV03, REV02 v1.0"
           }
@@ -3387,11 +3387,11 @@
         "name": "te0741_325_2i",
         "display": "Kintex-7 TE0741-*-325-2IF. *SPRT PCB: REV03, REV02",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Kintex-7 TE0741-*-325-2IF. *SPRT PCB: REV03, REV02 v1.0"
           }
@@ -3406,11 +3406,11 @@
         "name": "te0741_410_2c",
         "display": "Kintex-7 TE0741-*-410-2CF. *SPRT PCB: REV03, REV02",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Kintex-7 TE0741-*-410-2CF. *SPRT PCB: REV03, REV02 v1.0"
           }
@@ -3425,11 +3425,11 @@
         "name": "te0741_410_2i",
         "display": "Kintex-7 TE0741-*-410-2IF. *SPRT PCB: REV03, REV02",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Kintex-7 TE0741-*-410-2IF. *SPRT PCB: REV03, REV02 v1.0"
           }
@@ -3444,11 +3444,11 @@
         "name": "te0741_070_2c",
         "display": "Kintex-7 TE0741-*-070-2CF. *SPRT PCB: REV03, REV02",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Kintex-7 TE0741-*-070-2CF. *SPRT PCB: REV03, REV02 v1.0"
           }
@@ -3463,11 +3463,11 @@
         "name": "te0741_070_2i",
         "display": "Kintex-7 TE0741-*-070-2IF. *SPRT PCB: REV03, REV02",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Kintex-7 TE0741-*-070-2IF. *SPRT PCB: REV03, REV02 v1.0"
           }
@@ -3482,11 +3482,11 @@
         "name": "te0745_30_1i",
         "display": "ZYNQ-7 TE0745-*-71I11-AK/-71I11-A/-30-1I (1GB DDR). *SPRT PCB: REV02, REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-7 TE0745-*-71I11-AK/-71I11-A/-30-1I (1GB DDR). *SPRT PCB: REV02, REV01 v1.0"
           }
@@ -3501,11 +3501,11 @@
         "name": "te0745_30_2i",
         "display": "ZYNQ-7 TE0745-*-72I11-A/-30-2IA (1GB DDR). *SPRT PCB: REV02, REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-7 TE0745-*-72I11-A/-30-2IA (1GB DDR). *SPRT PCB: REV02, REV01 v1.0"
           }
@@ -3520,11 +3520,11 @@
         "name": "te0745_35_1c",
         "display": "ZYNQ-7 TE0745-*-81C11-A/-35-1C (1GB DDR). *SPRT PCB: REV02, REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-7 TE0745-*-81C11-A/-35-1C (1GB DDR). *SPRT PCB: REV02, REV01 v1.0"
           }
@@ -3539,11 +3539,11 @@
         "name": "te0745_45_1c",
         "display": "ZYNQ-7 TE0745-*-91C11-A/-45-1CA/-45-1C (1GB DDR). *SPRT PCB: REV02, REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-7 TE0745-*-91C11-A/-45-1CA/-45-1C (1GB DDR). *SPRT PCB: REV02, REV01 v1.0"
           }
@@ -3558,11 +3558,11 @@
         "name": "te0745_45_2i",
         "display": "ZYNQ-7 TE0745-*-92I11-A/-45-2IA/-45-2I (1GB DDR). *SPRT PCB: REV02, REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-7 TE0745-*-92I11-A/-45-2IA/-45-2I (1GB DDR). *SPRT PCB: REV02, REV01 v1.0"
           }
@@ -3577,11 +3577,11 @@
         "name": "te0745_45_2i",
         "display": "ZYNQ-7 TE0745-*-92I11-F (1GB DDR). *SPRT PCB: REV02",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-7 TE0745-*-92I11-F (1GB DDR). *SPRT PCB: REV02 v2.0"
           }
@@ -3596,11 +3596,11 @@
         "name": "te0745_45_3e",
         "display": "ZYNQ-7 TE0745-*-93E11-A/-45-3EA 1GB DDR). *SPRT PCB: REV02, REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-7 TE0745-*-93E11-A/-45-3EA 1GB DDR). *SPRT PCB: REV02, REV01 v1.0"
           }
@@ -3615,11 +3615,11 @@
         "name": "te0802_2cg_1e",
         "display": "ZYNQ-UltraScale+ TE0802-*-2AEV2-A ( 1GB DDRL K4F8E). SPRT PCB: *REV02",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-UltraScale+ TE0802-*-2AEV2-A ( 1GB DDRL K4F8E). SPRT PCB: *REV02 v1.0"
           }
@@ -3634,11 +3634,11 @@
         "name": "te0802_2cg_1e",
         "display": "ZYNQ-UltraScale+ TE0802-*-2AEU2-A ( 1GB DDRL IS43LQ). SPRT PCB: *REV02",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-UltraScale+ TE0802-*-2AEU2-A ( 1GB DDRL IS43LQ). SPRT PCB: *REV02 v2.0"
           }
@@ -3653,11 +3653,11 @@
         "name": "te0803_3cg_1e",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-3AE10-A (2GB DDR). *SPRT PCB: REV03",
         "latest_revision": "5.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "5.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-3AE10-A (2GB DDR). *SPRT PCB: REV03 v5.0"
           }
@@ -3672,11 +3672,11 @@
         "name": "te0803_3cg_1e_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-3AE10-A (2GB DDR) with TEBF0808. *SPRT PCB: REV03",
         "latest_revision": "6.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "6.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-3AE10-A (2GB DDR) with TEBF0808. *SPRT PCB: REV03 v6.0"
           }
@@ -3691,11 +3691,11 @@
         "name": "te0803_3eg_1e",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-3BE31-A (8GB DDR). *SPRT PCB: REV03",
         "latest_revision": "5.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "5.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-3BE31-A (8GB DDR). *SPRT PCB: REV03 v5.0"
           }
@@ -3710,11 +3710,11 @@
         "name": "te0803_3eg_1e_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-3BE31-A (8GB DDR) with TEBF0808. *SPRT PCB: REV03",
         "latest_revision": "6.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "6.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-3BE31-A (8GB DDR) with TEBF0808. *SPRT PCB: REV03 v6.0"
           }
@@ -3729,11 +3729,11 @@
         "name": "te0803_3eg_1i",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-3BI21-A (4GB DDR). *SPRT PCB: REV03",
         "latest_revision": "3.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-3BI21-A (4GB DDR). *SPRT PCB: REV03 v3.0"
           }
@@ -3748,11 +3748,11 @@
         "name": "te0803_3eg_1i_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-3BI21-A (4GB DDR) with TEBF0808. *SPRT PCB: REV03",
         "latest_revision": "4.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "4.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-3BI21-A (4GB DDR) with TEBF0808. *SPRT PCB: REV03 v4.0"
           }
@@ -3767,11 +3767,11 @@
         "name": "te0803_3eg_1li",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-3RI21-A (4GB DDR). *SPRT PCB: REV03",
         "latest_revision": "3.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-3RI21-A (4GB DDR). *SPRT PCB: REV03 v3.0"
           }
@@ -3786,11 +3786,11 @@
         "name": "te0803_3eg_1li_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-3RI21-A (4GB DDR) with TEBF0808. *SPRT PCB: REV03",
         "latest_revision": "4.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "4.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-3RI21-A (4GB DDR) with TEBF0808. *SPRT PCB: REV03 v4.0"
           }
@@ -3805,11 +3805,11 @@
         "name": "te0803_4eg_1e",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4BE21-L/-04EG-1E3 (4GB DDR). *SPRT PCB: REV03, REV02",
         "latest_revision": "3.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4BE21-L/-04EG-1E3 (4GB DDR). *SPRT PCB: REV03, REV02 v3.0"
           }
@@ -3824,11 +3824,11 @@
         "name": "te0803_4eg_1e_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4BE21-L/-04EG-1E3 (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02",
         "latest_revision": "4.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "4.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4BE21-L/-04EG-1E3 (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02 v4.0"
           }
@@ -3843,11 +3843,11 @@
         "name": "te0803_4eg_1i",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4BI21-A/-4BI21-X (4GB DDR). *SPRT PCB: REV03",
         "latest_revision": "3.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4BI21-A/-4BI21-X (4GB DDR). *SPRT PCB: REV03 v3.0"
           }
@@ -3862,11 +3862,11 @@
         "name": "te0803_4eg_1i_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4BI21-A/-4BI21-X (4GB DDR) with TEBF0808. SPRT PCB: REV03",
         "latest_revision": "4.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "4.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4BI21-A/-4BI21-X (4GB DDR) with TEBF0808. SPRT PCB: REV03 v4.0"
           }
@@ -3881,11 +3881,11 @@
         "name": "te0803_4eg_2e",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GE11-A (2GB DDR). *SPRT PCB: REV03",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GE11-A (2GB DDR). *SPRT PCB: REV03 v1.0"
           }
@@ -3900,11 +3900,11 @@
         "name": "te0803_4eg_2e_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GE11-A (2GB DDR) with TEBF0808. *SPRT PCB: REV03",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GE11-A (2GB DDR) with TEBF0808. *SPRT PCB: REV03 v2.0"
           }
@@ -3919,11 +3919,11 @@
         "name": "te0803_4eg_2e",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GE21-L (4GB DDR). *SPRT PCB: REV03",
         "latest_revision": "3.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GE21-L (4GB DDR). *SPRT PCB: REV03 v3.0"
           }
@@ -3938,11 +3938,11 @@
         "name": "te0803_4eg_2e_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GE21-L (4GB DDR) with TEBF0808. *SPRT PCB: REV03",
         "latest_revision": "4.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "4.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GE21-L (4GB DDR) with TEBF0808. *SPRT PCB: REV03 v4.0"
           }
@@ -3957,11 +3957,11 @@
         "name": "te0803_4eg_2i",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GI11-A (2GB DDR). *SPRT PCB: REV03",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GI11-A (2GB DDR). *SPRT PCB: REV03 v1.0"
           }
@@ -3976,11 +3976,11 @@
         "name": "te0803_4eg_2i_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GI11-A (2GB DDR) with TEBF0808. *SPRT PCB: REV03",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GI11-A (2GB DDR) with TEBF0808. *SPRT PCB: REV03 v2.0"
           }
@@ -3995,11 +3995,11 @@
         "name": "te0803_4eg_2i",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GI21-A (4GB DDR). *SPRT PCB: REV03",
         "latest_revision": "3.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GI21-A (4GB DDR). *SPRT PCB: REV03 v3.0"
           }
@@ -4014,11 +4014,11 @@
         "name": "te0803_4eg_2i_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GI21-A (4GB DDR) with TEBF0808. SPRT PCB: REV03",
         "latest_revision": "4.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "4.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4GI21-A (4GB DDR) with TEBF0808. SPRT PCB: REV03 v4.0"
           }
@@ -4033,11 +4033,11 @@
         "name": "te0803_4ev_1e",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4DE21-L/-04EV-1EB/-04EV-1E3 (4GB DDR). *SPRT PCB: REV03,REV02",
         "latest_revision": "3.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4DE21-L/-04EV-1EB/-04EV-1E3 (4GB DDR). *SPRT PCB: REV03,REV02 v3.0"
           }
@@ -4052,11 +4052,11 @@
         "name": "te0803_4ev_1e_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4DE21-L/-04EV-1EB/-04EV-1E3 (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02",
         "latest_revision": "4.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "4.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4DE21-L/-04EV-1EB/-04EV-1E3 (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02 v4.0"
           }
@@ -4071,11 +4071,11 @@
         "name": "te0803_4ev_1i",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4DI21-L (4GB DDR)  (4GB DDR). *SPRT PCB: REV03,REV02",
         "latest_revision": "3.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4DI21-L (4GB DDR)  (4GB DDR). *SPRT PCB: REV03,REV02 v3.0"
           }
@@ -4090,11 +4090,11 @@
         "name": "te0803_4ev_1i_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4DI21-L (4GB DDR) with TEBF0808. *SPRT PCB: REV03",
         "latest_revision": "4.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "4.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-4DI21-L (4GB DDR) with TEBF0808. *SPRT PCB: REV03 v4.0"
           }
@@ -4109,11 +4109,11 @@
         "name": "te0803_5eg_1e",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-5BE11-A (2GB DDR). *SPRT PCB: REV03",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-5BE11-A (2GB DDR). *SPRT PCB: REV03 v1.0"
           }
@@ -4128,11 +4128,11 @@
         "name": "te0803_5eg_1e_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-5BE11-A (2GB DDR) with TEBF0808. *SPRT PCB: REV03",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-5BE11-A (2GB DDR) with TEBF0808. *SPRT PCB: REV03 v2.0"
           }
@@ -4147,11 +4147,11 @@
         "name": "te0803_5ev_1i",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-5DI21-A/-5DI24-A  (4GB DDR). *SPRT PCB: REV03",
         "latest_revision": "3.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-5DI21-A/-5DI24-A  (4GB DDR). *SPRT PCB: REV03 v3.0"
           }
@@ -4166,11 +4166,11 @@
         "name": "te0803_5ev_1i_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-5DI21-A/-5DI24-A (4GB DDR) with TEBF0808. *SPRT PCB: REV01",
         "latest_revision": "4.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "4.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0803-*-5DI21-A/-5DI24-A (4GB DDR) with TEBF0808. *SPRT PCB: REV01 v4.0"
           }
@@ -4185,11 +4185,11 @@
         "name": "te0807_4cg_1i",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-4AI21-(A,C,X) (4GB DDR). *SPRT PCB: REV03, REV02.",
         "latest_revision": "3.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-4AI21-(A,C,X) (4GB DDR). *SPRT PCB: REV03, REV02. v3.0"
           }
@@ -4204,11 +4204,11 @@
         "name": "te0807_4cg_1i_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-(A,C,X) (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02.",
         "latest_revision": "4.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "4.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-(A,C,X) (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02. v4.0"
           }
@@ -4223,11 +4223,11 @@
         "name": "te0807_4eg_1e",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-4BE21-(A,AK) (4GB DDR). *SPRT PCB: REV03, REV02.",
         "latest_revision": "3.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-4BE21-(A,AK) (4GB DDR). *SPRT PCB: REV03, REV02. v3.0"
           }
@@ -4242,11 +4242,11 @@
         "name": "te0807_4eg_1e_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-4BE21-(A,AK) (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02.",
         "latest_revision": "4.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "4.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-4BE21-(A,AK) (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02. v4.0"
           }
@@ -4261,11 +4261,11 @@
         "name": "te0807_5cg_1i",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-5AI21-A (4GB DDR). *SPRT PCB: REV03, REV02.",
         "latest_revision": "3.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-5AI21-A (4GB DDR). *SPRT PCB: REV03, REV02. v3.0"
           }
@@ -4280,11 +4280,11 @@
         "name": "te0807_5cg_1i_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-5AI21-A (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02.",
         "latest_revision": "4.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "4.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-5AI21-A (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02. v4.0"
           }
@@ -4299,11 +4299,11 @@
         "name": "te0807_5ev_1i",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-5DI21-A (4GB DDR). *SPRT PCB: REV03, REV02.",
         "latest_revision": "3.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-5DI21-A (4GB DDR). *SPRT PCB: REV03, REV02. v3.0"
           }
@@ -4318,11 +4318,11 @@
         "name": "te0807_5ev_1i_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-5DI21-A (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02.",
         "latest_revision": "4.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "4.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-5DI21-A (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02. v4.0"
           }
@@ -4337,11 +4337,11 @@
         "name": "te0807_7cg_1i",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-7AI21-A (4GB DDR). *SPRT PCB: REV03, REV02.",
         "latest_revision": "3.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-7AI21-A (4GB DDR). *SPRT PCB: REV03, REV02. v3.0"
           }
@@ -4356,11 +4356,11 @@
         "name": "te0807_7cg_1i_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-7AI21-A (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02.",
         "latest_revision": "4.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "4.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-7AI21-A (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02. v4.0"
           }
@@ -4375,11 +4375,11 @@
         "name": "te0807_7ev_1e",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-7DE21-(A,AK)/-07EV-1E( ,K) (4GB DDR). *SPRT PCB: REV03, REV02.",
         "latest_revision": "3.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-7DE21-(A,AK)/-07EV-1E( ,K) (4GB DDR). *SPRT PCB: REV03, REV02. v3.0"
           }
@@ -4394,11 +4394,11 @@
         "name": "te0807_7ev_1e_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-7DE21-(A,AK)/-07EV-1E( ,K) (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02.",
         "latest_revision": "4.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "4.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-7DE21-(A,AK)/-07EV-1E( ,K) (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02. v4.0"
           }
@@ -4413,11 +4413,11 @@
         "name": "te0807_7ev_1i",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-7DI21-(A,C)/-7DI24-A (4GB DDR). *SPRT PCB: REV03, REV02.",
         "latest_revision": "3.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-7DI21-(A,C)/-7DI24-A (4GB DDR). *SPRT PCB: REV03, REV02. v3.0"
           }
@@ -4432,11 +4432,11 @@
         "name": "te0807_7ev_1i_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-7DI21-(A,C)/-7DI24-A (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02.",
         "latest_revision": "4.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "4.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-7DI21-(A,C)/-7DI24-A (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02. v4.0"
           }
@@ -4451,11 +4451,11 @@
         "name": "te0807_7ev_3e",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-7NE21-A (4GB DDR). *SPRT PCB: REV03, REV02.",
         "latest_revision": "3.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-7NE21-A (4GB DDR). *SPRT PCB: REV03, REV02. v3.0"
           }
@@ -4470,11 +4470,11 @@
         "name": "te0807_7ev_3e_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0807-*-7NE21-A (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02.",
         "latest_revision": "4.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "4.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0807-*-7NE21-A (4GB DDR) with TEBF0808. *SPRT PCB: REV03, REV02. v4.0"
           }
@@ -4489,11 +4489,11 @@
         "name": "te0808_6eg_1i",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-*-6BI21-(A,X,D) (4GB DDR). *SPRT PCB: REV05,REV04.",
         "latest_revision": "3.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0808-*-6BI21-(A,X,D) (4GB DDR). *SPRT PCB: REV05,REV04. v3.0"
           }
@@ -4508,11 +4508,11 @@
         "name": "te0808_6eg_1i_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-*-6BI21-(A,X,D) (4GB DDR) with TEBF0808. *SPRT Module PCB: REV05,REV04.",
         "latest_revision": "4.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "4.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0808-*-6BI21-(A,X,D) (4GB DDR) with TEBF0808. *SPRT Module PCB: REV05,REV04. v4.0"
           }
@@ -4527,11 +4527,11 @@
         "name": "te0808_6eg_1i",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-*-6BI41-X (8GB DDR). *SPRT PCB: REV05.",
         "latest_revision": "5.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "5.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0808-*-6BI41-X (8GB DDR). *SPRT PCB: REV05. v5.0"
           }
@@ -4546,11 +4546,11 @@
         "name": "te0808_6eg_1i_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-*-6BI41-X (8GB DDR) with TEBF0808. *SPRT Module PCB: REV05.",
         "latest_revision": "6.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "6.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0808-*-6BI41-X (8GB DDR) with TEBF0808. *SPRT Module PCB: REV05. v6.0"
           }
@@ -4565,11 +4565,11 @@
         "name": "te0808_6eg_2i",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-*-6GI21-(A,L) (4GB DDR). *SPRT PCB: REV04.",
         "latest_revision": "3.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0808-*-6GI21-(A,L) (4GB DDR). *SPRT PCB: REV04. v3.0"
           }
@@ -4584,11 +4584,11 @@
         "name": "te0808_6eg_2i_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-*-6GI21-(A,L) (4GB DDR) with TEBF0808. *SPRT Module PCB: REV04.",
         "latest_revision": "4.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "4.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0808-*-6GI21-(A,L) (4GB DDR) with TEBF0808. *SPRT Module PCB: REV04. v4.0"
           }
@@ -4603,11 +4603,11 @@
         "name": "te0808_9eg_1i",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-*-9BI41-X (8GB DDR). *SPRT PCB: REV05.",
         "latest_revision": "5.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "5.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0808-*-9BI41-X (8GB DDR). *SPRT PCB: REV05. v5.0"
           }
@@ -4622,11 +4622,11 @@
         "name": "te0808_9eg_1i_tebf0808",
         "display": "UltraSOM (ZYNQ-UltraScale+) TE0808-*-9BI41-X (8GB DDR) with TEBF0808. *SPRT Module PCB: REV05.",
         "latest_revision": "6.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "6.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board UltraSOM (ZYNQ-UltraScale+) TE0808-*-9BI41-X (8GB DDR) with TEBF0808. *SPRT Module PCB: REV05. v6.0"
           }
@@ -4641,11 +4641,11 @@
         "name": "te0820_2cg_1e",
         "display": "ZYNQ-UltraScale+ TE0820-*-2AE21FA/-2CG-1EA/-2CG-1ED(2 GB DDR). *SPRT PCB: REV03",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-UltraScale+ TE0820-*-2AE21FA/-2CG-1EA/-2CG-1ED(2 GB DDR). *SPRT PCB: REV03 v2.0"
           }
@@ -4660,11 +4660,11 @@
         "name": "te0820_2cg_1i",
         "display": "ZYNQ-UltraScale+ TE0820-*-2AI21FA(2 GB DDR). *SPRT PCB: REV03",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-UltraScale+ TE0820-*-2AI21FA(2 GB DDR). *SPRT PCB: REV03 v2.0"
           }
@@ -4679,11 +4679,11 @@
         "name": "te0820_3cg_1e",
         "display": "ZYNQ-UltraScale+ TE0820-*-3AE21FA/-3CG-1EA (2 GB DDR). *SPRT PCB: REV03",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-UltraScale+ TE0820-*-3AE21FA/-3CG-1EA (2 GB DDR). *SPRT PCB: REV03 v2.0"
           }
@@ -4698,11 +4698,11 @@
         "name": "te0820_3cg_1i",
         "display": "ZYNQ-UltraScale+ TE0820-*-3AI210A/-3AI21FA (2 GB DDR). *SPRT PCB: REV03",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-UltraScale+ TE0820-*-3AI210A/-3AI21FA (2 GB DDR). *SPRT PCB: REV03 v2.0"
           }
@@ -4717,11 +4717,11 @@
         "name": "te0820_3eg_1e",
         "display": "ZYNQ-UltraScale+ TE0820-*-3BE21FL/-3BE21FA/-3EG-1EA/-3EG-1EL (2 GB DDR). *SPRT PCB: REV03",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-UltraScale+ TE0820-*-3BE21FL/-3BE21FA/-3EG-1EA/-3EG-1EL (2 GB DDR). *SPRT PCB: REV03 v2.0"
           }
@@ -4736,11 +4736,11 @@
         "name": "te0820_4cg_1e",
         "display": "ZYNQ-UltraScale+ TE0820-*-4AE21FA/-4CG-1EA (2 GB DDR). *SPRT PCB: REV03",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-UltraScale+ TE0820-*-4AE21FA/-4CG-1EA (2 GB DDR). *SPRT PCB: REV03 v2.0"
           }
@@ -4755,11 +4755,11 @@
         "name": "te0820_4cg_1e",
         "display": "ZYNQ-UltraScale+ TE0820-*-4AE21FI (2 GB DDR). *SPRT PCB: REV03",
         "latest_revision": "3.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-UltraScale+ TE0820-*-4AE21FI (2 GB DDR). *SPRT PCB: REV03 v3.0"
           }
@@ -4774,11 +4774,11 @@
         "name": "te0820_4cg_1i",
         "display": "ZYNQ-UltraScale+ TE0820-*-4AI21FI (2 GB DDR). *SPRT PCB: REV03",
         "latest_revision": "3.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-UltraScale+ TE0820-*-4AI21FI (2 GB DDR). *SPRT PCB: REV03 v3.0"
           }
@@ -4793,11 +4793,11 @@
         "name": "te0820_4ev_1e",
         "display": "ZYNQ-UltraScale+ TE0820-*-4DE21FA/-04EV-1EA (2 GB DDR). *SPRT PCB: REV03",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-UltraScale+ TE0820-*-4DE21FA/-04EV-1EA (2 GB DDR). *SPRT PCB: REV03 v2.0"
           }
@@ -4812,11 +4812,11 @@
         "name": "te0820_4ev_1i",
         "display": "ZYNQ-UltraScale+ TE0820-*-4DI21FA(2 GB DDR). *SPRT PCB: REV03",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-UltraScale+ TE0820-*-4DI21FA(2 GB DDR). *SPRT PCB: REV03 v2.0"
           }
@@ -4831,11 +4831,11 @@
         "name": "te0820_5ev_1q",
         "display": "ZYNQ-UltraScale+ TE0820-*-5DR21FA (2 GB DDR). *SPRT PCB: REV03",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-UltraScale+ TE0820-*-5DR21FA (2 GB DDR). *SPRT PCB: REV03 v2.0"
           }
@@ -4850,11 +4850,11 @@
         "name": "te0821_2cg_1e",
         "display": "ZYNQ-UltraScale+ TE0821-*-2AE31KA(4 GB DDR). *SPRT PCB: REV01",
         "latest_revision": "3.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-UltraScale+ TE0821-*-2AE31KA(4 GB DDR). *SPRT PCB: REV01 v3.0"
           }
@@ -4869,11 +4869,11 @@
         "name": "te0821_3cg_1e",
         "display": "ZYNQ-UltraScale+ TE0821-*-3AE31KA (4 GB DDR). *SPRT PCB: REV01",
         "latest_revision": "3.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-UltraScale+ TE0821-*-3AE31KA (4 GB DDR). *SPRT PCB: REV01 v3.0"
           }
@@ -4888,11 +4888,11 @@
         "name": "te0821_3eg_1e",
         "display": "ZYNQ-UltraScale+ TE0821-*-3BE21FA/-3BE21FL/-3BE21FC (2 GB DDR). *SPRT PCB: REV01",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-UltraScale+ TE0821-*-3BE21FA/-3BE21FL/-3BE21FC (2 GB DDR). *SPRT PCB: REV01 v2.0"
           }
@@ -4907,11 +4907,11 @@
         "name": "te0821_3eg_1i",
         "display": "ZYNQ-UltraScale+ TE0821-*-3BI21FA/-3BI21FL (2 GB DDR). *SPRT PCB: REV01",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-UltraScale+ TE0821-*-3BI21FA/-3BI21FL (2 GB DDR). *SPRT PCB: REV01 v2.0"
           }
@@ -4926,11 +4926,11 @@
         "name": "te0821_4ev_1e",
         "display": "ZYNQ-UltraScale+ TE0821-*-4DE31FL (4 GB DDR). *SPRT PCB: REV01",
         "latest_revision": "3.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-UltraScale+ TE0821-*-4DE31FL (4 GB DDR). *SPRT PCB: REV01 v3.0"
           }
@@ -4945,11 +4945,11 @@
         "name": "te0823_3cg_1li",
         "display": "ZYNQ-UltraScale+ TE0823-*-3PIU1FL (1 GB DDR). *SPRT PCB: REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-UltraScale+ TE0823-*-3PIU1FL (1 GB DDR). *SPRT PCB: REV01 v1.0"
           }
@@ -4964,11 +4964,11 @@
         "name": "te0835_25dr_1e",
         "display": "ZYNQ-UltraScale+ RFSoC TE0835-*-MXE21-A (4GB DDR). *SPRT PCB: REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-UltraScale+ RFSoC TE0835-*-MXE21-A (4GB DDR). *SPRT PCB: REV01 v1.0"
           }
@@ -4983,11 +4983,11 @@
         "name": "te0841_35_1c",
         "display": "Kintex-Ultrascale TE0841-*-035-1C (1GB DDR). *SPRT PCB: REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Kintex-Ultrascale TE0841-*-035-1C (1GB DDR). *SPRT PCB: REV01 v1.0"
           }
@@ -5002,11 +5002,11 @@
         "name": "te0841_35_1c",
         "display": "Kintex-Ultrascale TE0841-*-31C21-A/-035-1C (2GB DDR). *SPRT PCB: REV02",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Kintex-Ultrascale TE0841-*-31C21-A/-035-1C (2GB DDR). *SPRT PCB: REV02 v2.0"
           }
@@ -5021,11 +5021,11 @@
         "name": "te0841_35_1i",
         "display": "Kintex-Ultrascale TE0841-*-035-1I (1GB DDR). *SPRT PCB: REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Kintex-Ultrascale TE0841-*-035-1I (1GB DDR). *SPRT PCB: REV01 v1.0"
           }
@@ -5040,11 +5040,11 @@
         "name": "te0841_35_1i",
         "display": "Kintex-Ultrascale TE0841-*-31I21-A/-035-1I (2GB DDR). *SPRT PCB: REV02",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Kintex-Ultrascale TE0841-*-31I21-A/-035-1I (2GB DDR). *SPRT PCB: REV02 v2.0"
           }
@@ -5059,11 +5059,11 @@
         "name": "te0841_35_2i",
         "display": "Kintex-Ultrascale TE0841-*-035-2I (1GB DDR). *SPRT PCB: REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Kintex-Ultrascale TE0841-*-035-2I (1GB DDR). *SPRT PCB: REV01 v1.0"
           }
@@ -5078,11 +5078,11 @@
         "name": "te0841_35_2i",
         "display": "Kintex-Ultrascale TE0841-*-32I21-A/-035-2I (2GB DDR). *SPRT PCB: REV02",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Kintex-Ultrascale TE0841-*-32I21-A/-035-2I (2GB DDR). *SPRT PCB: REV02 v2.0"
           }
@@ -5097,11 +5097,11 @@
         "name": "te0841_40_1c",
         "display": "Kintex-Ultrascale TE0841-*-040-1C (1GB DDR). *SPRT PCB: REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Kintex-Ultrascale TE0841-*-040-1C (1GB DDR). *SPRT PCB: REV01 v1.0"
           }
@@ -5116,11 +5116,11 @@
         "name": "te0841_40_1c",
         "display": "Kintex-Ultrascale TE0841-*-41C21-A/-040-1C (2GB DDR). *SPRT PCB: REV02",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Kintex-Ultrascale TE0841-*-41C21-A/-040-1C (2GB DDR). *SPRT PCB: REV02 v2.0"
           }
@@ -5135,11 +5135,11 @@
         "name": "te0841_40_1i",
         "display": "Kintex-Ultrascale TE0841-*-040-1I (1GB DDR). *SPRT PCB: REV01",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Kintex-Ultrascale TE0841-*-040-1I (1GB DDR). *SPRT PCB: REV01 v1.0"
           }
@@ -5154,11 +5154,11 @@
         "name": "te0841_40_1i",
         "display": "Kintex-Ultrascale TE0841-*-41I21-L/-41I21-A/-040-1IL/-040-1I (2GB DDR). *SPRT PCB: REV02",
         "latest_revision": "2.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board Kintex-Ultrascale TE0841-*-41I21-L/-41I21-A/-040-1IL/-040-1I (2GB DDR). *SPRT PCB: REV02 v2.0"
           }
@@ -5173,11 +5173,11 @@
         "name": "teb0911_15eg_1e",
         "display": "ZYNQ-UltraScale+ TEB0911-*-BBEX1FA/-15EG-1E/-15EG-1EA (8GB DDR-CT8G4SFS824A). *SPRT PCB: REV04..",
         "latest_revision": "1.0",
-        "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+        "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "8305439a210dd371c2e3499a0d250a7acf0b213c",
+            "commit_id": "0f8a20ff5b550a6e2783620984727a1196980085",
             "date": "19-01-2021:15:17:16",
             "history": "Added board ZYNQ-UltraScale+ TEB0911-*-BBEX1FA/-15EG-1E/-15EG-1EA (8GB DDR-CT8G4SFS824A). *SPRT PCB: REV04.. v1.0"
           }
