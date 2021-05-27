@@ -3,32 +3,33 @@
     "items": [
       {
         "infra": {
-          "name": "te0720_2e", 
-          "display": "ZYNQ-7 TE0720-*-2EF (1GB DDR). *SPRT PCB: REV02, REV03", 
-          "revision": "1.0", 
-          "description": "ZYNQ-7 TE0720-*-2EF (1GB DDR) Board (form factor 4x5 cm) with 1GB DDR, 1GBit Ethernet, Speed Grade -2 and extended temperature grade. *Supported PCB Revisions: REV02, REV03.", 
-          "company": "trenz.biz", 
-          "company_display": "Trenz Electronic GmbH", 
-          "author": "trenz.biz", 
+          "name": "te0720_2e",
+          "display": "TE0720-*-2EF (1GB DDR). *SPRT PCB: REV02, REV03",
+          "revision": "1.0",
+          "description": "Zynq-7000 TE0720-*-2EF (1GB DDR) Board (form factor 4x5 cm) with 1GB DDR, 1GBit Ethernet, Speed Grade -2 and extended temperature grade. *Supported PCB Revisions: REV02, REV03.",
+          "company": "trenz.biz",
+          "company_display": "Trenz Electronic GmbH",
+          "author": "trenz.biz",
           "contributors": [
             {
-              "group": "Trenz Electronic GmbH", 
+              "group": "Trenz Electronic GmbH",
               "url": "https://www.trenz-electronic.de/"
             }
-          ], 
-          "category": "Single Part", 
-          "website": "trenz.org/te0720-info", 
-          "logo": "te0720_board.png", 
+          ],
+          "category": "Zynq-7000/Module",
+          "website": "trenz.org/te0720-info",
+          "logo": "te0720_board.png",
           "search-keywords": [
-            "te0720_2e", 
-            "trenz.biz", 
-            "board", 
+            "te0720_2e",
+            "trenz.biz",
+            "board",
+            "Zynq-7000/Module",
             "Single Part"
           ]
         }
       }
     ]
-  }, 
-  "_major": 1, 
+  },
+  "_major": 1,
   "_minor": 0
 }

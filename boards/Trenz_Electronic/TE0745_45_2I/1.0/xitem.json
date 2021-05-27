@@ -3,32 +3,33 @@
     "items": [
       {
         "infra": {
-          "name": "te0745_45_2i", 
-          "display": "ZYNQ-7 TE0745-*-92I11-A/-45-2IA/-45-2I (1GB DDR). *SPRT PCB: REV02, REV01", 
-          "revision": "1.0", 
-          "description": "ZYNQ-7 TE0745-*-92I11-A/-45-2IA/-45-2I (1GB DDR) Board (form factor 5.2x7.6 cm) with 1GByte DDR3, 1GBit Ethernet, Speed Grade -2 and industrial temperature grade. *Supported PCB: REV02, REV01.", 
-          "company": "trenz.biz", 
-          "company_display": "Trenz Electronic GmbH", 
-          "author": "trenz.biz", 
+          "name": "te0745_45_2i",
+          "display": "TE0745-*-92I11-A/-45-2IA/-45-2I (1GB DDR). *SPRT PCB: REV02, REV01",
+          "revision": "1.0",
+          "description": "Zynq-7000 TE0745-*-92I11-A/-45-2IA/-45-2I (1GB DDR) Board (form factor 5.2x7.6 cm) with 1GByte DDR3, 1GBit Ethernet, Speed Grade -2 and industrial temperature grade. *Supported PCB: REV02, REV01.",
+          "company": "trenz.biz",
+          "company_display": "Trenz Electronic GmbH",
+          "author": "trenz.biz",
           "contributors": [
             {
-              "group": "Trenz Electronic GmbH", 
+              "group": "Trenz Electronic GmbH",
               "url": "https://www.trenz-electronic.de/"
             }
-          ], 
-          "category": "Single Part", 
-          "website": "trenz.org/te0745-info", 
-          "logo": "te0745_board.png", 
+          ],
+          "category": "Zynq-7000/Module",
+          "website": "trenz.org/te0745-info",
+          "logo": "te0745_board.png",
           "search-keywords": [
-            "te0745_45_2i", 
-            "trenz.biz", 
-            "board", 
+            "te0745_45_2i",
+            "trenz.biz",
+            "board",
+            "Zynq-7000/Module",
             "Single Part"
           ]
         }
       }
     ]
-  }, 
-  "_major": 1, 
+  },
+  "_major": 1,
   "_minor": 0
 }

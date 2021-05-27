@@ -3,32 +3,33 @@
     "items": [
       {
         "infra": {
-          "name": "te0715_30_1i", 
-          "display": "ZYNQ-7 TE0715-*-30-1I/-30-1I3/-30-1IA/-30-1I3C1 (1GB DDR). *SPRT PCB: REV04", 
-          "revision": "1.1", 
-          "description": "ZYNQ-7 TE0715-*-30-1I/-30-1I3/-30-1IA/-30-1I3C1 (1GB DDR) Board (form factor 4x5cm) with 1GB Low Power DDR3, 1GBit Ethernet, speed grade -1 and industrial temperature grade. *Supported PCB Revisions: REV04.", 
-          "company": "trenz.biz", 
-          "company_display": "Trenz Electronic GmbH", 
-          "author": "trenz.biz", 
+          "name": "te0715_30_1i",
+          "display": "TE0715-*-71I33-A/-71I33-L/-30-1IA/-30-1I3/-30-1I (1GB DDR). *SPRT PCB: REV04",
+          "revision": "1.1",
+          "description": "Zynq-7000 TE0715-*-71I33-A/-71I33-L/-30-1IA/-30-1I3/-30-1I (1GB DDR) Board (form factor 4x5cm) with 1GB Low Power DDR3, 1GBit Ethernet, speed grade -1 and industrial temperature grade. *Supported PCB Revisions: REV04.",
+          "company": "trenz.biz",
+          "company_display": "Trenz Electronic GmbH",
+          "author": "trenz.biz",
           "contributors": [
             {
-              "group": "Trenz Electronic GmbH", 
+              "group": "Trenz Electronic GmbH",
               "url": "https://www.trenz-electronic.de/"
             }
-          ], 
-          "category": "Single Part", 
-          "website": "trenz.org/te0715-info", 
-          "logo": "te0715_board.png", 
+          ],
+          "category": "Zynq-7000/Module",
+          "website": "trenz.org/te0715-info",
+          "logo": "te0715_board.png",
           "search-keywords": [
-            "te0715_30_1i", 
-            "trenz.biz", 
-            "board", 
+            "te0715_30_1i",
+            "trenz.biz",
+            "board",
+            "Zynq-7000/Module",
             "Single Part"
           ]
         }
       }
     ]
-  }, 
-  "_major": 1, 
+  },
+  "_major": 1,
   "_minor": 0
 }

@@ -2,14 +2,14 @@
 <!-- ##################################################################### -->
 <!-- ##TE File Version:1.2-->
 <!-- ##Vivado Version:2018.2-->
-<!-- ##TE Last Modification:2018.09.24-->
+<!-- ##TE Last Modification:2020.05.27-->
 <!-- ##################################################################### -->
 <!-- ##general board part description-->
 <!-- ##Info: board part name: board_vendor:board_name:part0:file_version  , use all lower case-->
-<board schema_version="2.1" vendor="trenz.biz" name="tec0850_15eg_1e" display_name="UltraScale+ Zynq TEC0850-15EG-1E. SPRT PCB: REV02" url="trenz.org/tec0850-info" preset_file="preset.xml">
+<board schema_version="2.1" vendor="trenz.biz" name="tec0850_15eg_1e" display_name="TEC0850-15EG-1E. SPRT PCB: REV02" url="trenz.org/tec0850-info" preset_file="preset.xml">
   <images>
-    <image name="tec0850_board.png" display_name="TE0C850" sub_type="board">
-      <description>TEC0850 </description>
+    <image name="tec0850_board.png" display_name="TE0C850 Board" sub_type="board">
+      <description>TEC0850 Image</description>
     </image>
   </images>
 <!-- ##################################################################### -->
@@ -25,13 +25,13 @@
   <file_version>1.0</file_version>
 <!-- ##################################################################### -->
 <!-- ##Board descriptions -->
-  <description>UltraScale+ Zynq TEC0850-15EG-1E. Board (form factor 10.0 x 16.2 cm) with DDR with SODIMM (configured for KVR24S17S8/8), 1GBit Ethernet, speed grade -1 and extended temperature grade. Supported PCB Revisions: REV02.</description>
+  <description>Zynq UltraScale+ MPSoC TEC0850-15EG-1E. Board (form factor 10.0 x 16.2 cm) with DDR with SODIMM (configured for KVR24S17S8/8), 1GBit Ethernet, speed grade -1 and extended temperature grade. Supported PCB Revisions: REV02.</description>
 <!-- ##################################################################### -->
 <!-- ##Board components. Special component part0=fpga -->
 <!-- ##set display_name and correct part_name for fpga-->
 <!-- ##add part interfaces and corresponding component here -->
   <components>
-    <component name="part0" display_name="UltraScale+ Zynq TEC0850-15EG-1E" type="fpga" part_name="xczu15eg-ffvb1156-1-e" pin_map_file="part0_pins.xml" vendor="xilinx.com" spec_url="www.xilinx.com">
+    <component name="part0" display_name="TEC0850-15EG-1E" type="fpga" part_name="xczu15eg-ffvb1156-1-e" pin_map_file="part0_pins.xml" vendor="xilinx.com" spec_url="www.xilinx.com">
       <description>FPGA part on the board</description>
       <interfaces>
         <!--insert fpga interfaces here, see ug895 or other board part files-->

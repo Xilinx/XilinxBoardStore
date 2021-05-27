@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!-- ##################################################################### -->
 <!-- ##TE File Version:1.0-->
-<!-- ##TE Last Modification:2019.02.07 -->
+<!-- ##TE Last Modification:2021.01.22 -->
 <!-- ##################################################################### -->
 <ip_presets schema="1.0">
   <!--insert ip presets here, see ug895 or other board part files-->
@@ -13,7 +13,7 @@
         <user_parameter  name="CONFIG.PSU_BANK_1_IO_STANDARD" value="LVCMOS18"/>
         <user_parameter  name="CONFIG.PSU_BANK_2_IO_STANDARD" value="LVCMOS18"/>
         <user_parameter  name="CONFIG.PSU_BANK_3_IO_STANDARD" value="LVCMOS18"/>
-        <user_parameter  name="CONFIG.PSU__PSS_REF_CLK__FREQMHZ" value="33.33333"/>
+        <user_parameter  name="CONFIG.PSU__PSS_REF_CLK__FREQMHZ" value="33.333333"/>
         <user_parameter  name="CONFIG.PSU__QSPI__PERIPHERAL__ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PSU__QSPI__PERIPHERAL__MODE" value="Dual Parallel"/>
         <user_parameter  name="CONFIG.PSU__QSPI__PERIPHERAL__DATA_MODE" value="x4"/>
