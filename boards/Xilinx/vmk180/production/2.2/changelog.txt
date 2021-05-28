@@ -1,6 +1,8 @@
 ######### VMK180 change log ##############
 2.2 - 2021.1
-Added support for CIPS 3.0 
+Added support for CIPS 3.0
+Renamed CIPS board interface to ps_pmc_fixed_io 
+Enabled Inter Processor Interrupts 
 
 2.1 - 2020.3
 Updated speed bin and LPDDR4 frequency for triplet 2 & 4

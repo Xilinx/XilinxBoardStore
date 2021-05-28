@@ -43,7 +43,7 @@
     <interfaces>
   
 
-        <interface mode="master" name="cips_fixed_io" type="xilinx.com:interface:fixed_io_rtl:1.0" of_component="cips_fixed_io" preset_proc="versal_cips_preset"> 
+        <interface mode="master" name="ps_pmc_fixed_io" type="xilinx.com:interface:fixed_io_rtl:1.0" of_component="ps_pmc_fixed_io" preset_proc="ps_pmc_fixed_io_preset"> 
            <parameters>
               <parameter name="presets_special_handling"/>
             </parameters>
@@ -1293,7 +1293,7 @@
 	
     <!-- <component name="cips_fixed_io" display_name="PS8 fixed IO" type="chip" sub_type="fixed_io" major_group=""/>	 -->
 	
-	<component name="cips_fixed_io" display_name="CIPS fixed IO" type="chip" sub_type="fixed_io" major_group="MIO interface" part_name="Versal CIPS" vendor="Xilinx" >
+	<component name="ps_pmc_fixed_io" display_name="PS-PMC Fixed IO" type="chip" sub_type="fixed_io" major_group="MIO interface" part_name="Versal CIPS" vendor="Xilinx" >
       <description>Versal CIPS component </description>
 	</component>
    
