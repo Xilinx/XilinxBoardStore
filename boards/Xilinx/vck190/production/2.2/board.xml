@@ -42,7 +42,7 @@
 	  
     <interfaces>
   
-        <interface mode="master" name="cips_fixed_io" type="xilinx.com:interface:fixed_io_rtl:1.0" of_component="cips_fixed_io" preset_proc="versal_cips_preset"> 
+        <interface mode="master" name="ps_pmc_fixed_io" type="xilinx.com:interface:fixed_io_rtl:1.0" of_component="ps_pmc_fixed_io" preset_proc="ps_pmc_fixed_io_preset"> 
             <parameters>
               <parameter name="presets_special_handling"/>
             </parameters>
@@ -288,12 +288,6 @@
             </port_maps>
         </interface> 
 		
-<!-- 	<interface mode="master" name="LPDDR4_unused" type="xilinx.com:interface:lpddr4_rtl:1.0" of_component="LPDDR4_Controller0" preset_proc="">
-			<description>LPDDR4 board interface helper.</description>
-			  <preferred_ips>
-  				<preferred_ip vendor="xilinx.com" library="ip" name="axi_noc" order="0"/>
-			  </preferred_ips>
-		</interface> -->
 
 		<interface mode="master" name="ch0_lpddr4_c0" type="xilinx.com:interface:lpddr4_rtl:1.0" of_component="LPDDR4_Controller0" preset_proc="LPDDR4_Controller0_preset">
 			<description>LPDDR4 board interface, it can use AXI_NoC IP for connection. </description>
@@ -1290,9 +1284,9 @@
     </component>   
 	
 	
-    <!-- <component name="cips_fixed_io" display_name="PS8 fixed IO" type="chip" sub_type="fixed_io" major_group=""/>	 -->
+    <!-- <component name="ps_pmc_fixed_io" display_name="PS8 fixed IO" type="chip" sub_type="fixed_io" major_group=""/>	 -->
 	
-	<component name="cips_fixed_io" display_name="CIPS fixed IO" type="chip" sub_type="fixed_io" major_group="MIO interface" part_name="Versal CIPS" vendor="Xilinx" >
+	<component name="ps_pmc_fixed_io" display_name="PS-PMC Fixed IO" type="chip" sub_type="fixed_io" major_group="MIO interface" part_name="Versal CIPS" vendor="Xilinx" >
       <description>Versal CIPS component </description>
 	</component>
    
@@ -1401,7 +1395,7 @@
       <description>GPIO DIP Switches</description>
     </component>	
 
-	<component name="gpio_led" display_name="GPIO LED" type="chip" sub_type="led" major_group="General Purpose Input or Output" part_name="SML-LX0603GW-TR" vendor="LUMEX">
+	<component name="gpio_led" display_name="GPIO LED test" type="chip" sub_type="led" major_group="General Purpose Input or Output" part_name="SML-LX0603GW-TR" vendor="LUMEX">
       <description>GPIO LEDs</description>
     </component>	
 			
