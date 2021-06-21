@@ -35,7 +35,6 @@
 				</user_parameter>
 				<user_parameter name="PS_MIO21" value_type="hier" value="">
 					<user_parameter name="AUX_IO" value="0"/>
-					<user_parameter name="DRIVE_STRENGTH" value="8mA"/>
 					<user_parameter name="OUTPUT_DATA" value="high"/>
 					<user_parameter name="PULL" value="disable"/>
 					</user_parameter>
