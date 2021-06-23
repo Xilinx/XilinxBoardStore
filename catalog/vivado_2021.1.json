@@ -5586,6 +5586,44 @@
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
+      },
+      {
+        "name": "zcu208ld",
+        "display": "Zynq UltraScale+ ZCU208-LD Evaluation Platform",
+        "latest_revision": "2.0",
+        "commit_id": "bc097edaac4537c5a3800213c9ec85979e5d8525",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "bc097edaac4537c5a3800213c9ec85979e5d8525",
+            "date": "23-06-2021:10:50:55",
+            "history": "Added board Zynq UltraScale+ ZCU208-LD Evaluation Platform v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu208ld/production/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu216ld",
+        "display": "Zynq UltraScale+ ZCU216-LD Evaluation Platform",
+        "latest_revision": "2.0",
+        "commit_id": "bc097edaac4537c5a3800213c9ec85979e5d8525",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "bc097edaac4537c5a3800213c9ec85979e5d8525",
+            "date": "23-06-2021:10:50:55",
+            "history": "Added board Zynq UltraScale+ ZCU216-LD Evaluation Platform v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu216ld/production/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
       }
     ],
     "categories": [
