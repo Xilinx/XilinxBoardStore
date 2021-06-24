@@ -2893,11 +2893,11 @@
         "name": "k26c",
         "display": "Kria K26C SOM",
         "latest_revision": "1.1",
-        "commit_id": "f12552b043e48b7375cec58be4b808ce9a8252f4",
+        "commit_id": "4df879279710fb6e664f9904414faa22e1618994",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "f12552b043e48b7375cec58be4b808ce9a8252f4",
+            "commit_id": "4df879279710fb6e664f9904414faa22e1618994",
             "date": "20-04-2021:06:30:47",
             "history": "Added board Kria K26C SOM v1.1"
           }
