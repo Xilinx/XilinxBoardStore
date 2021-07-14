@@ -2247,11 +2247,11 @@
         "name": "zcu216",
         "display": "Zynq UltraScale+ ZCU216 Evaluation Platform",
         "latest_revision": "2.0",
-        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
             "date": "29-07-2020",
             "history": "Initial entry for ZCU216 production board files"
           }
@@ -2266,11 +2266,11 @@
         "name": "zcu216_es",
         "display": "Zynq UltraScale+ ZCU216 Evaluation Platform",
         "latest_revision": "1.2",
-        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
             "date": "29-07-2020",
             "history": "Adding sfp interface enabled board files"
           }
@@ -2323,11 +2323,11 @@
         "name": "zcu216ld_es",
         "display": "Zynq UltraScale+ ZCU216-LD Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
             "date": "01-07-2020",
             "history": "Addition of Zynq UltraScale+ ZCU216-LD Evaluation Platform"
           }
@@ -2342,11 +2342,11 @@
         "name": "zcu208",
         "display": "Zynq UltraScale+ ZCU208 Evaluation Platform",
         "latest_revision": "2.0",
-        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
             "date": "24-08-2020",
             "history": "Initial entry for ZCU208 production board files"
           }
@@ -2399,11 +2399,11 @@
         "name": "zcu208ld_es",
         "display": "Zynq UltraScale+ ZCU208-LD Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
             "date": "04-03-2020",
             "history": "Initial board file entry for zcu208-LD board"
           }
@@ -2494,11 +2494,11 @@
         "name": "zcu208_es",
         "display": "Zynq UltraScale+ ZCU208-ES Evaluation Platform",
         "latest_revision": "1.2",
-        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+        "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
+            "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
             "date": "26-11-2020:06:06:57",
             "history": "Added board Zynq UltraScale+ ZCU208-ES Evaluation Platform v1.2"
           }
@@ -5420,11 +5420,11 @@
         "name": "vck190_es",
         "display": "Versal VCK190 ES1 Evaluation Platform",
         "latest_revision": "1.4",
-        "commit_id": "e414e61d86484c46d8cb4671ec6dd9b78a205b43",
+        "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
         "revisions": [
           {
             "revision": "1.4",
-            "commit_id": "e414e61d86484c46d8cb4671ec6dd9b78a205b43",
+            "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
             "date": "08-06-2021:14:00:46",
             "history": "Added board Versal VCK190 ES1 Evaluation Platform v1.4"
           }
@@ -5439,11 +5439,11 @@
         "name": "vck190",
         "display": "Versal VCK190 Evaluation Platform",
         "latest_revision": "2.3",
-        "commit_id": "e414e61d86484c46d8cb4671ec6dd9b78a205b43",
+        "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
         "revisions": [
           {
             "revision": "2.3",
-            "commit_id": "e414e61d86484c46d8cb4671ec6dd9b78a205b43",
+            "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
             "date": "08-06-2021:14:00:46",
             "history": "Added board Versal VCK190 Evaluation Platform v2.3"
           }
@@ -5458,11 +5458,11 @@
         "name": "vmk180_es",
         "display": "Versal VMK180 ES1 Evaluation Platform",
         "latest_revision": "1.4",
-        "commit_id": "e414e61d86484c46d8cb4671ec6dd9b78a205b43",
+        "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
         "revisions": [
           {
             "revision": "1.4",
-            "commit_id": "e414e61d86484c46d8cb4671ec6dd9b78a205b43",
+            "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
             "date": "08-06-2021:14:00:46",
             "history": "Added board Versal VMK180 ES1 Evaluation Platform v1.4"
           }
@@ -5477,11 +5477,11 @@
         "name": "vmk180",
         "display": "Versal VMK180 Evaluation Platform",
         "latest_revision": "2.3",
-        "commit_id": "e414e61d86484c46d8cb4671ec6dd9b78a205b43",
+        "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
         "revisions": [
           {
             "revision": "2.3",
-            "commit_id": "e414e61d86484c46d8cb4671ec6dd9b78a205b43",
+            "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
             "date": "08-06-2021:14:00:46",
             "history": "Added board Versal VMK180 Evaluation Platform v2.3"
           }
@@ -5496,11 +5496,11 @@
         "name": "zcu208ld",
         "display": "Zynq UltraScale+ ZCU208-LD Evaluation Platform",
         "latest_revision": "2.0",
-        "commit_id": "2fba754cca85aecc94e511db2478d24315fc43a1",
+        "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "2fba754cca85aecc94e511db2478d24315fc43a1",
+            "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
             "date": "23-06-2021:11:14:41",
             "history": "Added board Zynq UltraScale+ ZCU208-LD Evaluation Platform v2.0"
           }
@@ -5515,11 +5515,11 @@
         "name": "zcu216ld",
         "display": "Zynq UltraScale+ ZCU216-LD Evaluation Platform",
         "latest_revision": "2.0",
-        "commit_id": "2fba754cca85aecc94e511db2478d24315fc43a1",
+        "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "2fba754cca85aecc94e511db2478d24315fc43a1",
+            "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
             "date": "23-06-2021:11:14:41",
             "history": "Added board Zynq UltraScale+ ZCU216-LD Evaluation Platform v2.0"
           }
