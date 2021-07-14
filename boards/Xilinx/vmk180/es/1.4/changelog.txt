@@ -2,6 +2,7 @@
 2021.2 changes(1.4)
 Modified cips 3.0 preset for better readability
 Disabled Inter Processor Interrupts 
+Enabled PS I2C on PMC_MIO 46 and 47 
 
 2021.1 changes(1.3)
 Added support for CIPS 3.0
