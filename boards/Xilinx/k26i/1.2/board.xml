@@ -850,7 +850,7 @@
 			<connection_map name="part0_som240_2_d56" typical_delay="5" c1_st_index="204" c1_end_index="204" c2_st_index="236" c2_end_index="236"/>
 			<connection_map name="part0_som240_2_d57" typical_delay="5" c1_st_index="205" c1_end_index="205" c2_st_index="237" c2_end_index="237"/>
 			<connection_map name="part0_som240_2_d58" typical_delay="5" c1_st_index="206" c1_end_index="206" c2_st_index="238" c2_end_index="238"/>
-		</connection
+		</connection>
 	
 	</connections>
 
