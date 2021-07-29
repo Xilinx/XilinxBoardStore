@@ -5624,6 +5624,44 @@
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
+      },
+      {
+        "name": "k26c",
+        "display": "Kria K26C SOM",
+        "latest_revision": "1.2",
+        "commit_id": "07764776cdc3d8bf8f3290ae012d87580bfe5421",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "07764776cdc3d8bf8f3290ae012d87580bfe5421",
+            "date": "29-07-2021:04:57:10",
+            "history": "Added board Kria K26C SOM v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/k26c/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "k26i",
+        "display": "Kria K26i SOM",
+        "latest_revision": "1.2",
+        "commit_id": "07764776cdc3d8bf8f3290ae012d87580bfe5421",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "07764776cdc3d8bf8f3290ae012d87580bfe5421",
+            "date": "29-07-2021:04:57:10",
+            "history": "Added board Kria K26i SOM v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/k26i/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
       }
     ],
     "categories": [
