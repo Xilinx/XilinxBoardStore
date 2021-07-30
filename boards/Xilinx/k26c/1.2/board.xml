@@ -558,82 +558,94 @@
 	</jtag_chains>
 
 	<connections>  
-		<connection name="part0_som240_1_connector" component1="part0" component2="som240_1_connector">	
-			<connection_map name="part0_som240_1_connector_IIC" c1_st_index="0" c1_end_index="1" c2_st_index="196" c2_end_index="197" />
-			
-			<connection_map name="part0_som240_1_connector_clk_p_rapi" typical_delay="5" c1_st_index="2" c1_end_index="2" c2_st_index="132" c2_end_index="132"/>
-			<connection_map name="part0_som240_1_connector_clk_n_rapi" typical_delay="5" c1_st_index="3" c1_end_index="3" c2_st_index="133" c2_end_index="133"/>
+		<connection name="part0_som240_1_connector" component1="part0" component2="som240_1_connector">
 
-			<connection_map name="part0_som240_1_connector_data_rxp0_rapi" typical_delay="5" c1_st_index="4" c1_end_index="4" c2_st_index="70" c2_end_index="70"/>
-			<connection_map name="part0_som240_1_connector_data_rxp1_rapi" typical_delay="5" c1_st_index="5" c1_end_index="5" c2_st_index="9" c2_end_index="9"/>
-			
-			<connection_map name="part0_som240_1_connector_data_rxn0_rapi" typical_delay="5" c1_st_index="6" c1_end_index="6" c2_st_index="71" c2_end_index="71"/>
-			<connection_map name="part0_som240_1_connector_data_rxn1_rapi" typical_delay="5" c1_st_index="7" c1_end_index="7" c2_st_index="10" c2_end_index="10"/>	
+			<connection_map name="part0_som240_1_a3"   typical_delay="5"  c1_st_index="1"  c1_end_index="1"  c2_st_index="3"   c2_end_index="3"/>
+			<connection_map name="part0_som240_1_a4"   typical_delay="5"  c1_st_index="2"  c1_end_index="2"  c2_st_index="4"   c2_end_index="4"/>
+
+			<connection_map name="part0_som240_1_a6"   typical_delay="5"  c1_st_index="3"  c1_end_index="3"  c2_st_index="6"   c2_end_index="6"  />
+			<connection_map name="part0_som240_1_a7"   typical_delay="5"  c1_st_index="4"  c1_end_index="4"  c2_st_index="7"   c2_end_index="7"  />
+
+			<connection_map name="part0_som240_1_a9"   typical_delay="5"  c1_st_index="5"  c1_end_index="5"  c2_st_index="9"   c2_end_index="9"/>
+			<connection_map name="part0_som240_1_a10"  typical_delay="5"  c1_st_index="6"  c1_end_index="6"  c2_st_index="10"  c2_end_index="10"/>
+
+			<connection_map name="part0_som240_1_a12"  typical_delay="5"  c1_st_index="7"  c1_end_index="7"  c2_st_index="12"  c2_end_index="12" />
+			<connection_map name="part0_som240_1_a13"  typical_delay="5"  c1_st_index="8"  c1_end_index="8"  c2_st_index="13"  c2_end_index="13" />
+
+			<connection_map name="part0_som240_1_a15"  typical_delay="5"  c1_st_index="9"  c1_end_index="9"  c2_st_index="15"  c2_end_index="15"/>
+			<connection_map name="part0_som240_1_a16"  typical_delay="5"  c1_st_index="10" c1_end_index="10" c2_st_index="16"  c2_end_index="16" />	
+			<connection_map name="part0_som240_1_a17"  typical_delay="5"  c1_st_index="11" c1_end_index="11" c2_st_index="17"  c2_end_index="17" />
 
 	
-			<connection_map name="part0_som240_1_connector_clk_p_ias" typical_delay="5" c1_st_index="8" c1_end_index="8" c2_st_index="61" c2_end_index="61"/>
-			<connection_map name="part0_som240_1_connector_clk_n_ias" typical_delay="5" c1_st_index="9" c1_end_index="9" c2_st_index="62" c2_end_index="62"/>
-
-			<connection_map name="part0_som240_1_connector_data_rxp0_ias" typical_delay="5" c1_st_index="10" c1_end_index="10" c2_st_index="3" c2_end_index="3"/>
-			<connection_map name="part0_som240_1_connector_data_rxp1_ias" typical_delay="5" c1_st_index="11" c1_end_index="11" c2_st_index="67" c2_end_index="67"/>
-			<connection_map name="part0_som240_1_connector_data_rxp2_ias" typical_delay="5" c1_st_index="12" c1_end_index="12" c2_st_index="129" c2_end_index="129"/>
-			<connection_map name="part0_som240_1_connector_data_rxp3_ias" typical_delay="5" c1_st_index="13" c1_end_index="13" c2_st_index="190" c2_end_index="190"/>			
+			<connection_map name="part0_som240_1_b1"  typical_delay="5" c1_st_index="12" c1_end_index="12" c2_st_index="61" c2_end_index="61"/>
+			<connection_map name="part0_som240_1_b2"  typical_delay="5" c1_st_index="13" c1_end_index="13" c2_st_index="62" c2_end_index="62"/>
+													                                                   
+			<connection_map name="part0_som240_1_b4"  typical_delay="5" c1_st_index="14" c1_end_index="14" c2_st_index="64"  c2_end_index="64"/>			
+			<connection_map name="part0_som240_1_b5"  typical_delay="5" c1_st_index="15" c1_end_index="15" c2_st_index="65"  c2_end_index="65"/>
+                                                                                                          
+			<connection_map name="part0_som240_1_b7"  typical_delay="5" c1_st_index="16" c1_end_index="16" c2_st_index="67"  c2_end_index="67"/>
+			<connection_map name="part0_som240_1_b8"  typical_delay="5" c1_st_index="17" c1_end_index="17" c2_st_index="68"  c2_end_index="68"/>
+			                                                                                              
+			<connection_map name="part0_som240_1_b10" typical_delay="5" c1_st_index="18" c1_end_index="18" c2_st_index="70" c2_end_index="70"/>						
+			<connection_map name="part0_som240_1_b11" typical_delay="5" c1_st_index="19" c1_end_index="19" c2_st_index="71" c2_end_index="71"/>
+			                                                                                              
+			<connection_map name="part0_som240_1_b16" typical_delay="5" c1_st_index="20" c1_end_index="20" c2_st_index="76"  c2_end_index="76" />
+			<connection_map name="part0_som240_1_b17" typical_delay="5" c1_st_index="21" c1_end_index="21" c2_st_index="77"  c2_end_index="77"/>
+			<connection_map name="part0_som240_1_b18" typical_delay="5" c1_st_index="22" c1_end_index="22" c2_st_index="78"  c2_end_index="78"/>
+			                                                                                              
+			<connection_map name="part0_som240_1_b20" typical_delay="5" c1_st_index="23" c1_end_index="23" c2_st_index="80"  c2_end_index="80" />
+			<connection_map name="part0_som240_1_b21" typical_delay="5" c1_st_index="24" c1_end_index="24" c2_st_index="81"  c2_end_index="81"/>
+			<connection_map name="part0_som240_1_b22" typical_delay="5" c1_st_index="25" c1_end_index="25" c2_st_index="82"  c2_end_index="82"/>
 			
-			<connection_map name="part0_som240_1_connector_data_rxn0_ias" typical_delay="5" c1_st_index="14" c1_end_index="14" c2_st_index="4" c2_end_index="4"/>
-			<connection_map name="part0_som240_1_connector_data_rxn1_ias" typical_delay="5" c1_st_index="15" c1_end_index="15" c2_st_index="68" c2_end_index="68"/>
-			<connection_map name="part0_som240_1_connector_data_rxn2_ias" typical_delay="5" c1_st_index="16" c1_end_index="16" c2_st_index="130" c2_end_index="130"/>
-			<connection_map name="part0_som240_1_connector_data_rxn3_ias" typical_delay="5" c1_st_index="17" c1_end_index="17" c2_st_index="191" c2_end_index="191"/>			
 
+			<connection_map name="part0_som240_1_c3"  typical_delay="5" c1_st_index="26" c1_end_index="26" c2_st_index="123" c2_end_index="123"/>
+			<connection_map name="part0_som240_1_c4"  typical_delay="5" c1_st_index="27" c1_end_index="27" c2_st_index="124" c2_end_index="124"/>
+													                                                   
+			<connection_map name="part0_som240_1_c6"  typical_delay="5" c1_st_index="28" c1_end_index="28" c2_st_index="126" c2_end_index="126"/>
+			<connection_map name="part0_som240_1_c7"  typical_delay="5" c1_st_index="29" c1_end_index="29" c2_st_index="127" c2_end_index="127"/>
+			                                                                                             
+			<connection_map name="part0_som240_1_c9"  typical_delay="5" c1_st_index="30" c1_end_index="30" c2_st_index="129" c2_end_index="129"/>
+			<connection_map name="part0_som240_1_c10" typical_delay="5" c1_st_index="31" c1_end_index="31" c2_st_index="130" c2_end_index="130"/>
+			                                                                                             
+			<connection_map name="part0_som240_1_c12" typical_delay="5" c1_st_index="32" c1_end_index="32" c2_st_index="132" c2_end_index="132"/>
+			<connection_map name="part0_som240_1_c13" typical_delay="5" c1_st_index="33" c1_end_index="33" c2_st_index="133" c2_end_index="133"/>
+                                                                                                         
+			<connection_map name="part0_som240_1_c18" typical_delay="5" c1_st_index="34" c1_end_index="34" c2_st_index="138" c2_end_index="138"/>		
+			<connection_map name="part0_som240_1_c19" typical_delay="5" c1_st_index="35" c1_end_index="35" c2_st_index="139" c2_end_index="139"/>			
+			<connection_map name="part0_som240_1_c20" typical_delay="5" c1_st_index="36" c1_end_index="36" c2_st_index="140" c2_end_index="140"/>
+			                                                                                             
+			<connection_map name="part0_som240_1_c22" typical_delay="5" c1_st_index="37" c1_end_index="37" c2_st_index="142" c2_end_index="142"/>
+			<connection_map name="part0_som240_1_C23" typical_delay="5" c1_st_index="38" c1_end_index="38" c2_st_index="143" c2_end_index="143"/>
+			<connection_map name="part0_som240_1_C24" typical_delay="5" c1_st_index="39" c1_end_index="39" c2_st_index="144" c2_end_index="144"/>
 
-			<connection_map name="part0_som240_1_connector_clk_p_isp" typical_delay="5" c1_st_index="18" c1_end_index="18" c2_st_index="123" c2_end_index="123"/>
-			<connection_map name="part0_som240_1_connector_clk_n_isp" typical_delay="5" c1_st_index="19" c1_end_index="19" c2_st_index="124" c2_end_index="124"/>
-
-			<connection_map name="part0_som240_1_connector_data_rxp0_isp" typical_delay="5" c1_st_index="20" c1_end_index="20" c2_st_index="187" c2_end_index="187"/>
-			<connection_map name="part0_som240_1_connector_data_rxp1_isp" typical_delay="5" c1_st_index="21" c1_end_index="21" c2_st_index="184" c2_end_index="184"/>
-			<connection_map name="part0_som240_1_connector_data_rxp2_isp" typical_delay="5" c1_st_index="22" c1_end_index="22" c2_st_index="126" c2_end_index="126"/>
-			<connection_map name="part0_som240_1_connector_data_rxp3_isp" typical_delay="5" c1_st_index="23" c1_end_index="23" c2_st_index="64" c2_end_index="64"/>			
 			
-			<connection_map name="part0_som240_1_connector_data_rxn0_isp" typical_delay="5" c1_st_index="24" c1_end_index="24" c2_st_index="188" c2_end_index="188"/>
-			<connection_map name="part0_som240_1_connector_data_rxn1_isp" typical_delay="5" c1_st_index="25" c1_end_index="25" c2_st_index="185" c2_end_index="185"/>
-			<connection_map name="part0_som240_1_connector_data_rxn2_isp" typical_delay="5" c1_st_index="26" c1_end_index="26" c2_st_index="127" c2_end_index="127"/>
-			<connection_map name="part0_som240_1_connector_data_rxn3_isp" typical_delay="5" c1_st_index="27" c1_end_index="27" c2_st_index="65" c2_end_index="65"/>			
+			<connection_map name="part0_som240_1_d4"  typical_delay="5" c1_st_index="40" c1_end_index="40" c2_st_index="184" c2_end_index="184"/>
+			<connection_map name="part0_som240_1_d5"  typical_delay="5" c1_st_index="41" c1_end_index="41" c2_st_index="185" c2_end_index="185"/>
+													                                 	               	
+			<connection_map name="part0_som240_1_d7"  typical_delay="5" c1_st_index="42" c1_end_index="42" c2_st_index="187" c2_end_index="187"/>
+			<connection_map name="part0_som240_1_d8"  typical_delay="5" c1_st_index="43" c1_end_index="43" c2_st_index="188" c2_end_index="188"/>
+			                                                                         	               	
+			<connection_map name="part0_som240_1_d10" typical_delay="5" c1_st_index="44" c1_end_index="44" c2_st_index="190" c2_end_index="190"/>
+			<connection_map name="part0_som240_1_d11" typical_delay="5" c1_st_index="45" c1_end_index="45" c2_st_index="191" c2_end_index="191"/>
+			                                                                         	               	
+			<connection_map name="part0_som240_1_d13" typical_delay="5" c1_st_index="46" c1_end_index="46" c2_st_index="193" c2_end_index="193"/>		
+			<connection_map name="part0_som240_1_d14" typical_delay="5" c1_st_index="47" c1_end_index="47" c2_st_index="194" c2_end_index="194"/>				
+			                                                                         	               	
+			<connection_map name="part0_som240_1_d16" typical_delay="5" c1_st_index="48" c1_end_index="48" c2_st_index="196" c2_end_index="196" />
+			<connection_map name="part0_som240_1_d17" typical_delay="5" c1_st_index="49" c1_end_index="49" c2_st_index="197" c2_end_index="197" />
+			<connection_map name="part0_som240_1_d18" typical_delay="5" c1_st_index="50" c1_end_index="50" c2_st_index="198" c2_end_index="198"/>
+			                                                                         	               	
+			<connection_map name="part0_som240_1_d20" typical_delay="5" c1_st_index="51" c1_end_index="51" c2_st_index="200" c2_end_index="200"/>
+			<connection_map name="part0_som240_1_d21" typical_delay="5" c1_st_index="52" c1_end_index="52" c2_st_index="201" c2_end_index="201"/>
+			<connection_map name="part0_som240_1_d22" typical_delay="5" c1_st_index="53" c1_end_index="53" c2_st_index="202" c2_end_index="202"/>
 
-			<connection_map name="part0_som240_1_connector_bank45_gpio_1" typical_delay="5" c1_st_index="28" c1_end_index="28" c2_st_index="198" c2_end_index="198"/>
-			<connection_map name="part0_som240_1_connector_bank45_gpio_2" typical_delay="5" c1_st_index="29" c1_end_index="29" c2_st_index="77" c2_end_index="77"/>
-			<connection_map name="part0_som240_1_connector_bank45_gpio_3" typical_delay="5" c1_st_index="30" c1_end_index="30" c2_st_index="78" c2_end_index="78"/>
-			<connection_map name="part0_som240_1_connector_bank45_gpio_4" typical_delay="5" c1_st_index="31" c1_end_index="31" c2_st_index="15" c2_end_index="15"/>		
-			<connection_map name="part0_som240_1_connector_bank45_gpio_5" typical_delay="5" c1_st_index="32" c1_end_index="32" c2_st_index="141" c2_end_index="141"/>		
-		
-			<connection_map name="part0_som240_1_connector_i2s_in_0" typical_delay="5" c1_st_index="33" c1_end_index="33" c2_st_index="81" c2_end_index="81"/>
-			<connection_map name="part0_som240_1_connector_i2s_in_1" typical_delay="5" c1_st_index="34" c1_end_index="34" c2_st_index="82" c2_end_index="82"/>
-			<connection_map name="part0_som240_1_connector_i2s_in_2" typical_delay="5" c1_st_index="35" c1_end_index="35" c2_st_index="142" c2_end_index="142"/>	
-
-			<connection_map name="part0_som240_1_connector_i2s_in_0" typical_delay="5" c1_st_index="36" c1_end_index="36" c2_st_index="200" c2_end_index="200"/>
-			<connection_map name="part0_som240_1_connector_i2s_in_1" typical_delay="5" c1_st_index="37" c1_end_index="37" c2_st_index="201" c2_end_index="201"/>
-			<connection_map name="part0_som240_1_connector_i2s_in_2" typical_delay="5" c1_st_index="38" c1_end_index="38" c2_st_index="202" c2_end_index="202"/>		
-
-			<connection_map name="part0_som240_1_connector_non_kv260_1"  typical_delay="5"  c1_st_index="40" c1_end_index="40" c2_st_index="6"   c2_end_index="6"  />
-			<connection_map name="part0_som240_1_connector_non_kv260_2"  typical_delay="5"  c1_st_index="41" c1_end_index="41" c2_st_index="7"   c2_end_index="7"  />
-			<connection_map name="part0_som240_1_connector_non_kv260_3"  typical_delay="5"  c1_st_index="42" c1_end_index="42" c2_st_index="12"  c2_end_index="12" />
-			<connection_map name="part0_som240_1_connector_non_kv260_4"  typical_delay="5"  c1_st_index="43" c1_end_index="43" c2_st_index="13"  c2_end_index="13" />		
-			<connection_map name="part0_som240_1_connector_non_kv260_5"  typical_delay="5"  c1_st_index="44" c1_end_index="44" c2_st_index="16"  c2_end_index="16" />	
-			<connection_map name="part0_som240_1_connector_non_kv260_6"  typical_delay="5"  c1_st_index="45" c1_end_index="45" c2_st_index="17"  c2_end_index="17" />
-			<!-- <connection_map name="part0_som240_1_connector_non_kv260_7"  typical_delay="5"  c1_st_index="46" c1_end_index="46" c2_st_index="76"  c2_end_index="76" /> -->
-			<connection_map name="part0_som240_1_connector_non_kv260_8"  typical_delay="5"  c1_st_index="47" c1_end_index="47" c2_st_index="80"  c2_end_index="80" />
-			<connection_map name="part0_som240_1_connector_non_kv260_9"  typical_delay="5"  c1_st_index="48" c1_end_index="48" c2_st_index="138" c2_end_index="138"/>		
-			<connection_map name="part0_som240_1_connector_non_kv260_10" typical_delay="5"  c1_st_index="49" c1_end_index="49" c2_st_index="139" c2_end_index="139"/>	
-			<connection_map name="part0_som240_1_connector_non_kv260_11" typical_delay="5"  c1_st_index="50" c1_end_index="50" c2_st_index="140" c2_end_index="140"/>
-			<connection_map name="part0_som240_1_connector_non_kv260_12" typical_delay="5"  c1_st_index="51" c1_end_index="51" c2_st_index="143" c2_end_index="143"/>
-			<!-- <connection_map name="part0_som240_1_connector_non_kv260_13" typical_delay="5"  c1_st_index="52" c1_end_index="52" c2_st_index="144" c2_end_index="144"/> -->
-			<connection_map name="part0_som240_1_connector_non_kv260_14" typical_delay="5"  c1_st_index="53" c1_end_index="53" c2_st_index="193" c2_end_index="193"/>		
-			<connection_map name="part0_som240_1_connector_non_kv260_15" typical_delay="5"  c1_st_index="54" c1_end_index="54" c2_st_index="194" c2_end_index="194"/>
-			
 		</connection>
+
 		<connection name="part0_som240_2_connector" component1="part0" component2="som240_2_connector">
 		
 			<connection_map name="part0_som240_2_a3" typical_delay="5" c1_st_index="55" c1_end_index="55" c2_st_index="3" c2_end_index="3" />
 			<connection_map name="part0_som240_2_a4" typical_delay="5" c1_st_index="56" c1_end_index="56" c2_st_index="4" c2_end_index="4"/>
-			                                                                                          
+			
 			<connection_map name="part0_som240_2_a7" typical_delay="5" c1_st_index="57" c1_end_index="57" c2_st_index="7" c2_end_index="7"/>
 			<connection_map name="part0_som240_2_a8" typical_delay="5" c1_st_index="58" c1_end_index="58" c2_st_index="8" c2_end_index="8"/>
 			                                                                        
@@ -686,13 +698,13 @@
 			<connection_map name="part0_som240_2_a59" typical_delay="5" c1_st_index="91" c1_end_index="91" c2_st_index="59" c2_end_index="59"/>
 			<connection_map name="part0_som240_2_a60" typical_delay="5" c1_st_index="92" c1_end_index="92" c2_st_index="60" c2_end_index="60"/>
 
-			<connection_map name="part0_som240_2_b1" typical_delay="5" c1_st_index="93" c1_end_index="93" c2_st_index="61" c2_end_index="61" />
-			<connection_map name="part0_som240_2_b2" typical_delay="5" c1_st_index="94" c1_end_index="94" c2_st_index="62" c2_end_index="62"/>
-			                                                                                       
-			<connection_map name="part0_som240_2_b5" typical_delay="5" c1_st_index="95" c1_end_index="95" c2_st_index="65" c2_end_index="65"/>
-			<connection_map name="part0_som240_2_b6" typical_delay="5" c1_st_index="96" c1_end_index="96" c2_st_index="66" c2_end_index="66"/>
-			                                                                                          
-			<connection_map name="part0_som240_2_b9" typical_delay="5" c1_st_index="97" c1_end_index="97" c2_st_index="69" c2_end_index="69"/>
+			<connection_map name="part0_som240_2_b1"  typical_delay="5" c1_st_index="93" c1_end_index="93" c2_st_index="61" c2_end_index="61" />
+			<connection_map name="part0_som240_2_b2"  typical_delay="5" c1_st_index="94" c1_end_index="94" c2_st_index="62" c2_end_index="62"/>
+			                                                                                        
+			<connection_map name="part0_som240_2_b5"  typical_delay="5" c1_st_index="95" c1_end_index="95" c2_st_index="65" c2_end_index="65"/>
+			<connection_map name="part0_som240_2_b6"  typical_delay="5" c1_st_index="96" c1_end_index="96" c2_st_index="66" c2_end_index="66"/>
+			                                                                                           
+			<connection_map name="part0_som240_2_b9"  typical_delay="5" c1_st_index="97" c1_end_index="97" c2_st_index="69" c2_end_index="69"/>
 			<connection_map name="part0_som240_2_b10" typical_delay="5" c1_st_index="98" c1_end_index="98" c2_st_index="70" c2_end_index="70"/>
 			                                                                                        
 			<connection_map name="part0_som240_2_b12" typical_delay="5" c1_st_index="99" c1_end_index="99" c2_st_index="72" c2_end_index="72"/>	
