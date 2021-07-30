@@ -5629,11 +5629,11 @@
         "name": "k26c",
         "display": "Kria K26C SOM",
         "latest_revision": "1.2",
-        "commit_id": "07764776cdc3d8bf8f3290ae012d87580bfe5421",
+        "commit_id": "b98f3a19561f549095242cb514b638a08f72ee8b",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "07764776cdc3d8bf8f3290ae012d87580bfe5421",
+            "commit_id": "b98f3a19561f549095242cb514b638a08f72ee8b",
             "date": "29-07-2021:04:57:10",
             "history": "Added board Kria K26C SOM v1.2"
           }
@@ -5648,11 +5648,11 @@
         "name": "k26i",
         "display": "Kria K26i SOM",
         "latest_revision": "1.2",
-        "commit_id": "07764776cdc3d8bf8f3290ae012d87580bfe5421",
+        "commit_id": "b98f3a19561f549095242cb514b638a08f72ee8b",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "07764776cdc3d8bf8f3290ae012d87580bfe5421",
+            "commit_id": "b98f3a19561f549095242cb514b638a08f72ee8b",
             "date": "29-07-2021:04:57:10",
             "history": "Added board Kria K26i SOM v1.2"
           }
