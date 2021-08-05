@@ -144,14 +144,14 @@
 				</user_parameter>
 				</user_parameter>
 				<user_parameter name="PMC_REF_CLK_FREQMHZ" value="33.3333"/>
-				<!-- <user_parameter name="PS_GEN_IPI0_ENABLE" value="1"/> -->
-				<!-- <user_parameter name="PS_GEN_IPI0_MASTER" value="A72"/> -->
-				<!-- <user_parameter name="PS_GEN_IPI1_ENABLE" value="1"/> -->
-				<!-- <user_parameter name="PS_GEN_IPI2_ENABLE" value="1"/> -->
-				<!-- <user_parameter name="PS_GEN_IPI3_ENABLE" value="1"/> -->
-				<!-- <user_parameter name="PS_GEN_IPI4_ENABLE" value="1"/> -->
-				<!-- <user_parameter name="PS_GEN_IPI5_ENABLE" value="1"/> -->
-				<!-- <user_parameter name="PS_GEN_IPI6_ENABLE" value="1"/> -->
+				<user_parameter name="PS_GEN_IPI0_ENABLE" value="1"/>
+				<user_parameter name="PS_GEN_IPI0_MASTER" value="A72"/>
+				<user_parameter name="PS_GEN_IPI1_ENABLE" value="1"/>
+				<user_parameter name="PS_GEN_IPI2_ENABLE" value="1"/>
+				<user_parameter name="PS_GEN_IPI3_ENABLE" value="1"/>
+				<user_parameter name="PS_GEN_IPI4_ENABLE" value="1"/>
+				<user_parameter name="PS_GEN_IPI5_ENABLE" value="1"/>
+				<user_parameter name="PS_GEN_IPI6_ENABLE" value="1"/>
 				<user_parameter name="PS_PCIE_RESET" value_type="hier" value="">
 					<user_parameter name="ENABLE" value="1"/>
 					<user_parameter name="IO" value_type="hier" value="">
