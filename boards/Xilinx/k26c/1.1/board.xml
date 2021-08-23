@@ -15,7 +15,7 @@
 
 <images>
     <image name="k26_board.PNG" display_name="Kria K26C SOM" sub_type="board">
-      <description>Kria KV260 Vision AI starter Kit</description>
+      <description>Kria K26C Vision AI starter Kit</description>
     </image>
 </images>
   
