@@ -5132,25 +5132,6 @@
         "company": "xilinx.com"
       },
       {
-        "name": "som240",
-        "display": "Vision AI Starter Kit carrier card",
-        "latest_revision": "1.1",
-        "commit_id": "89808880049025ad7365207010b998956e0d1a30",
-        "revisions": [
-          {
-            "revision": "1.1",
-            "commit_id": "89808880049025ad7365207010b998956e0d1a30",
-            "date": "20-04-2021:12:05:01",
-            "history": "Added board Vision AI Starter Kit carrier card v1.1"
-          }
-        ],
-        "config": {
-          "root": "boards/Xilinx/som240/1.1",
-          "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
-      },
-      {
         "name": "zedboard",
         "display": "ZedBoard Zynq Evaluation and Development Kit",
         "latest_revision": "1.4",
@@ -5564,6 +5545,25 @@
         ],
         "config": {
           "root": "boards/Xilinx/k26i/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "som240",
+        "display": "Vision AI Starter Kit carrier card",
+        "latest_revision": "1.1",
+        "commit_id": "abf964b7423006878caf37ea94dfab96f1f265f9",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "abf964b7423006878caf37ea94dfab96f1f265f9",
+            "date": "26-08-2021:11:34:01",
+            "history": "Added board Vision AI Starter Kit carrier card v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/kv260_carrier/1.1",
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
