@@ -11,11 +11,11 @@
  License for the specific language governing permissions and limitations
  under the License. -->
 
-<board schema_version="2.2" vendor="xilinx.com" name="k26i" display_name="Kria K26I SOM" url="www.xilinx.com" preset_file="preset.xml" supports_ced="false">
+<board schema_version="2.2" vendor="xilinx.com" name="kv260_som" display_name="Kria KV260 Vision AI Starter Kit" url="www.xilinx.com" preset_file="preset_s4.xml" supports_ced="false">
 
 <images>
-    <image name="k26_board.PNG" display_name="Kria K26I SOM" sub_type="board">
-      <description>Kria K26I Vision AI starter Kit</description>
+    <image name="vsom_kit.jpg" display_name="Kria KV260 Vision AI Starter Kit" sub_type="board">
+      <description>Kria KV260 Vision AI starter Kit</description>
     </image>
 </images>
   
@@ -25,7 +25,7 @@
   
   <file_version>1.1</file_version>
   
-  <description>Kria K26I SOM</description>
+  <description>Kria KV260 Vision AI starter Kit</description>
   
   <parameters>
     <parameter name="heat_sink_type" value="medium" value_type="string"/>
@@ -37,7 +37,7 @@
   
 <components>   
   
-	<component name="som240_1_connector" type="connector" sub_type="som" display_name="Connector 1 on K26 SOM">
+	<component name="som240_1_connector" type="connector" sub_type="som" display_name="Connector 1 on kv260">
 		<pins>
 			<pin index="1"  name="som240_1_a1" ></pin> 
 			<pin index="2"  name="som240_1_a2" ></pin> 
@@ -287,7 +287,7 @@
 	
 
   
-    <component name="part0" display_name="VISION SOM Evaluation Platform" type="fpga" part_name="xck26-sfvc784-2LVI-i" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="www.xilinx.com">
+    <component name="part0" display_name="VISION SOM Evaluation Platform" type="fpga" part_name="XCK26-SFVC784-2LV-C" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="www.xilinx.com">
       <description>FPGA part on the board</description>
 	  
       <interfaces>      
@@ -364,23 +364,7 @@
 
 			<connection_map name="part0_som240_1_connector_i2s_in_0" typical_delay="5" c1_st_index="36" c1_end_index="36" c2_st_index="200" c2_end_index="200"/>
 			<connection_map name="part0_som240_1_connector_i2s_in_1" typical_delay="5" c1_st_index="37" c1_end_index="37" c2_st_index="201" c2_end_index="201"/>
-			<connection_map name="part0_som240_1_connector_i2s_in_2" typical_delay="5" c1_st_index="38" c1_end_index="38" c2_st_index="202" c2_end_index="202"/>		
-
-			<connection_map name="part0_som240_1_connector_non_kv260_1"  typical_delay="5"  c1_st_index="40" c1_end_index="40" c2_st_index="6"   c2_end_index="6"  />
-			<connection_map name="part0_som240_1_connector_non_kv260_2"  typical_delay="5"  c1_st_index="41" c1_end_index="41" c2_st_index="7"   c2_end_index="7"  />
-			<connection_map name="part0_som240_1_connector_non_kv260_3"  typical_delay="5"  c1_st_index="42" c1_end_index="42" c2_st_index="12"  c2_end_index="12" />
-			<connection_map name="part0_som240_1_connector_non_kv260_4"  typical_delay="5"  c1_st_index="43" c1_end_index="43" c2_st_index="13"  c2_end_index="13" />		
-			<connection_map name="part0_som240_1_connector_non_kv260_5"  typical_delay="5"  c1_st_index="44" c1_end_index="44" c2_st_index="16"  c2_end_index="16" />	
-			<connection_map name="part0_som240_1_connector_non_kv260_6"  typical_delay="5"  c1_st_index="45" c1_end_index="45" c2_st_index="17"  c2_end_index="17" />
-			<!-- <connection_map name="part0_som240_1_connector_non_kv260_7"  typical_delay="5"  c1_st_index="46" c1_end_index="46" c2_st_index="76"  c2_end_index="76" /> -->
-			<connection_map name="part0_som240_1_connector_non_kv260_8"  typical_delay="5"  c1_st_index="47" c1_end_index="47" c2_st_index="80"  c2_end_index="80" />
-			<connection_map name="part0_som240_1_connector_non_kv260_9"  typical_delay="5"  c1_st_index="48" c1_end_index="48" c2_st_index="138" c2_end_index="138"/>		
-			<connection_map name="part0_som240_1_connector_non_kv260_10" typical_delay="5"  c1_st_index="49" c1_end_index="49" c2_st_index="139" c2_end_index="139"/>	
-			<connection_map name="part0_som240_1_connector_non_kv260_11" typical_delay="5"  c1_st_index="50" c1_end_index="50" c2_st_index="140" c2_end_index="140"/>
-			<connection_map name="part0_som240_1_connector_non_kv260_12" typical_delay="5"  c1_st_index="51" c1_end_index="51" c2_st_index="143" c2_end_index="143"/>
-			<!-- <connection_map name="part0_som240_1_connector_non_kv260_13" typical_delay="5"  c1_st_index="52" c1_end_index="52" c2_st_index="144" c2_end_index="144"/> -->
-			<connection_map name="part0_som240_1_connector_non_kv260_14" typical_delay="5"  c1_st_index="53" c1_end_index="53" c2_st_index="193" c2_end_index="193"/>		
-			<connection_map name="part0_som240_1_connector_non_kv260_15" typical_delay="5"  c1_st_index="54" c1_end_index="54" c2_st_index="194" c2_end_index="194"/>
+			<connection_map name="part0_som240_1_connector_i2s_in_2" typical_delay="5" c1_st_index="38" c1_end_index="38" c2_st_index="202" c2_end_index="202"/>			
 			
 		</connection> 							
 	</connections>

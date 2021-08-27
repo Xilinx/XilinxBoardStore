@@ -1,6 +1,0 @@
-######### Vision SOM changelog ############
-1.1
-Initial release for public
-
-1.0
-Initial release with lounge

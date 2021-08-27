@@ -3,7 +3,7 @@
     "items": [
       {
         "infra": {
-          "name": "kv260", 
+          "name": "kv260_som", 
           "display": "Kria KV260 Vision AI Starter Kit", 
           "revision": "1.1", 
           "description": "Kria KV260 Vision AI Starter Kit", 
