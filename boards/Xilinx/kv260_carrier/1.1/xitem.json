@@ -3,7 +3,7 @@
     "items": [
       {
         "infra": {
-          "name": "som240", 
+          "name": "kv260_carrier", 
           "display": "Vision AI Starter Kit carrier card", 
           "revision": "1.1", 
           "description": "Vision AI Starter Kit carrier card", 
