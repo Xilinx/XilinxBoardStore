@@ -268,6 +268,8 @@
 		<user_parameter name="CONFIG.PSU__CRL_APB__CPU_R5_CTRL__FREQMHZ" value="500"/>
 		<user_parameter name="CONFIG.PSU__CRL_APB__QSPI_REF_CTRL__SRCSEL" value="IOPLL"/>
 		<user_parameter name="CONFIG.PSU__CRL_APB__QSPI_REF_CTRL__FREQMHZ" value="125"/>
+		<user_parameter name="CONFIG.PSU__CRL_APB__SDIO0_REF_CTRL__SRCSEL" value="IOPLL"/>
+		<user_parameter name="CONFIG.PSU__CRL_APB__SDIO0_REF_CTRL__FREQMHZ" value="200"/>
 		<user_parameter name="CONFIG.PSU__CRL_APB__SDIO1_REF_CTRL__SRCSEL" value="IOPLL"/>
 		<user_parameter name="CONFIG.PSU__CRL_APB__SDIO1_REF_CTRL__FREQMHZ" value="200"/>
 		<user_parameter name="CONFIG.PSU__CRL_APB__UART0_REF_CTRL__SRCSEL" value="IOPLL"/>
