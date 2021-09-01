@@ -23,7 +23,7 @@
 	<revision id="0">Rev_B01</revision>
   </compatible_board_revisions>
   
-  <file_version>1.1</file_version>
+  <file_version>1.2</file_version>
   
   <description>Kria KV260 Vision AI starter Kit</description>
   
@@ -356,7 +356,7 @@
 			<connection_map name="part0_som240_1_connector_bank45_gpio_2" typical_delay="5" c1_st_index="29" c1_end_index="29" c2_st_index="77" c2_end_index="77"/>
 			<connection_map name="part0_som240_1_connector_bank45_gpio_3" typical_delay="5" c1_st_index="30" c1_end_index="30" c2_st_index="78" c2_end_index="78"/>
 			<connection_map name="part0_som240_1_connector_bank45_gpio_4" typical_delay="5" c1_st_index="31" c1_end_index="31" c2_st_index="15" c2_end_index="15"/>		
-			<connection_map name="part0_som240_1_connector_bank45_gpio_5" typical_delay="5" c1_st_index="32" c1_end_index="32" c2_st_index="141" c2_end_index="141"/>		
+			<connection_map name="part0_som240_1_connector_bank45_gpio_5" typical_delay="5" c1_st_index="32" c1_end_index="32" c2_st_index="144" c2_end_index="144"/>		
 		
 			<connection_map name="part0_som240_1_connector_i2s_in_0" typical_delay="5" c1_st_index="33" c1_end_index="33" c2_st_index="81" c2_end_index="81"/>
 			<connection_map name="part0_som240_1_connector_i2s_in_1" typical_delay="5" c1_st_index="34" c1_end_index="34" c2_st_index="82" c2_end_index="82"/>

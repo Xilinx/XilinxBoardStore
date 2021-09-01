@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
 <!-- Copyright (C) 2019, Xilinx Inc - All rights reserved
  Licensed under the Apache License, Version 2.0 (the "License"). You may
  not use this file except in compliance with the License. A copy of the
@@ -11,7 +12,7 @@
  under the License. -->
 
 <board schema_version="2.2" vendor="xilinx.com" name="kv260_carrier" display_name="Vision AI Starter Kit carrier card" url="" preset_file="preset.xml" supports_ced="false">
-	<file_version>1.0</file_version> 
+	<file_version>1.2</file_version> 
 	
 	<description>Vision AI Starter Kit carrier card</description>
 	
@@ -25,14 +26,14 @@
 			<pins>
 				<pin index="1"  name="som240_1_a1" ></pin> 
 	    		<pin index="2"  name="som240_1_a2" ></pin> 
-				<pin index="3"  name="som240_1_a3" iostandard="LVCMOS18"  diff_term="TRUE" ></pin> 
-				<pin index="4"  name="som240_1_a4" iostandard="LVCMOS18"  diff_term="TRUE" ></pin> 
+				<pin index="3"  name="som240_1_a3" iostandard="MIPI_DPHY_DCI"  diff_term="TRUE" ></pin> 
+				<pin index="4"  name="som240_1_a4" iostandard="MIPI_DPHY_DCI"  diff_term="TRUE" ></pin> 
 				<pin index="5"  name="som240_1_a5" ></pin> 
 				<pin index="6"  name="som240_1_a6" ></pin> 
 				<pin index="7"  name="som240_1_a7" ></pin> 
 				<pin index="8"  name="som240_1_a8" ></pin> 
-				<pin index="9"  name="som240_1_a9"  iostandard="LVCMOS18"  diff_term="TRUE" ></pin> 
-				<pin index="10" name="som240_1_a10" iostandard="LVCMOS18"  diff_term="TRUE" ></pin> 
+				<pin index="9"  name="som240_1_a9"  iostandard="MIPI_DPHY_DCI"  diff_term="TRUE" ></pin> 
+				<pin index="10" name="som240_1_a10" iostandard="MIPI_DPHY_DCI"  diff_term="TRUE" ></pin> 
 				<pin index="11" name="som240_1_a11" ></pin> 
 				<pin index="12" name="som240_1_a12" ></pin> 
 				<pin index="13" name="som240_1_a13" ></pin> 
@@ -84,17 +85,17 @@
 				<pin index="59" name="som240_1_a59" ></pin> 
 				<pin index="60" name="som240_1_a60" ></pin> 
 				
-				<pin index="61"  name="som240_1_b1" iostandard="LVCMOS18"  diff_term="TRUE" ></pin> 
-	    		<pin index="62"  name="som240_1_b2" iostandard="LVCMOS18"  diff_term="TRUE" ></pin> 
+				<pin index="61"  name="som240_1_b1" iostandard="MIPI_DPHY_DCI"  diff_term="TRUE" ></pin> 
+	    		<pin index="62"  name="som240_1_b2" iostandard="MIPI_DPHY_DCI"  diff_term="TRUE" ></pin> 
 				<pin index="63"  name="som240_1_b3" ></pin> 
-				<pin index="64"  name="som240_1_b4" iostandard="LVCMOS18"  diff_term="TRUE" ></pin> 
-				<pin index="65"  name="som240_1_b5" iostandard="LVCMOS18"  diff_term="TRUE" ></pin> 
+				<pin index="64"  name="som240_1_b4" iostandard="MIPI_DPHY_DCI"  diff_term="TRUE" ></pin> 
+				<pin index="65"  name="som240_1_b5" iostandard="MIPI_DPHY_DCI"  diff_term="TRUE" ></pin> 
 				<pin index="66"  name="som240_1_b6" ></pin> 
-				<pin index="67"  name="som240_1_b7" iostandard="LVCMOS18"  diff_term="TRUE" ></pin> 
-				<pin index="68"  name="som240_1_b8" iostandard="LVCMOS18"  diff_term="TRUE" ></pin> 
+				<pin index="67"  name="som240_1_b7" iostandard="MIPI_DPHY_DCI"  diff_term="TRUE" ></pin> 
+				<pin index="68"  name="som240_1_b8" iostandard="MIPI_DPHY_DCI"  diff_term="TRUE" ></pin> 
 				<pin index="69"  name="som240_1_b9" ></pin> 
-				<pin index="70"  name="som240_1_b10" iostandard="LVCMOS18" diff_term="TRUE" ></pin> 
-				<pin index="71"  name="som240_1_b11" iostandard="LVCMOS18" diff_term="TRUE" ></pin> 
+				<pin index="70"  name="som240_1_b10" iostandard="MIPI_DPHY_DCI" diff_term="TRUE" ></pin> 
+				<pin index="71"  name="som240_1_b11" iostandard="MIPI_DPHY_DCI" diff_term="TRUE" ></pin> 
 				<pin index="72"  name="som240_1_b12" ></pin> 
 				<pin index="73"  name="som240_1_b13" ></pin> 
 				<pin index="74"  name="som240_1_b14" ></pin> 
@@ -147,17 +148,17 @@
 				
 				<pin index="121" name="som240_1_c1" ></pin> 
 	    		<pin index="122" name="som240_1_c2" ></pin> 
-				<pin index="123" name="som240_1_c3" iostandard="LVCMOS18"  diff_term="TRUE" ></pin> 
-				<pin index="124" name="som240_1_c4" iostandard="LVCMOS18"  diff_term="TRUE" ></pin> 
+				<pin index="123" name="som240_1_c3" iostandard="MIPI_DPHY_DCI"  diff_term="TRUE" ></pin> 
+				<pin index="124" name="som240_1_c4" iostandard="MIPI_DPHY_DCI"  diff_term="TRUE" ></pin> 
 				<pin index="125" name="som240_1_c5" ></pin> 
-				<pin index="126" name="som240_1_c6" iostandard="LVCMOS18"  diff_term="TRUE" ></pin> 
-				<pin index="127" name="som240_1_c7" iostandard="LVCMOS18"  diff_term="TRUE" ></pin> 
+				<pin index="126" name="som240_1_c6" iostandard="MIPI_DPHY_DCI"  diff_term="TRUE" ></pin> 
+				<pin index="127" name="som240_1_c7" iostandard="MIPI_DPHY_DCI"  diff_term="TRUE" ></pin> 
 				<pin index="128" name="som240_1_c8" ></pin> 
-				<pin index="129" name="som240_1_c9"  iostandard="LVCMOS18"  diff_term="TRUE" ></pin> 
-				<pin index="130" name="som240_1_c10" iostandard="LVCMOS18"  diff_term="TRUE" ></pin> 
+				<pin index="129" name="som240_1_c9"  iostandard="MIPI_DPHY_DCI"  diff_term="TRUE" ></pin> 
+				<pin index="130" name="som240_1_c10" iostandard="MIPI_DPHY_DCI"  diff_term="TRUE" ></pin> 
 				<pin index="131" name="som240_1_c11" ></pin> 
-				<pin index="132" name="som240_1_c12" iostandard="LVCMOS18"  diff_term="TRUE" ></pin> 
-				<pin index="133" name="som240_1_c13" iostandard="LVCMOS18"  diff_term="TRUE" ></pin> 
+				<pin index="132" name="som240_1_c12" iostandard="MIPI_DPHY_DCI"  diff_term="TRUE" ></pin> 
+				<pin index="133" name="som240_1_c13" iostandard="MIPI_DPHY_DCI"  diff_term="TRUE" ></pin> 
 				<pin index="134" name="som240_1_c14" ></pin> 
 				<pin index="135" name="som240_1_c15" ></pin> 
 				<pin index="136" name="som240_1_c16" ></pin> 
@@ -165,10 +166,10 @@
 				<pin index="138" name="som240_1_c18" ></pin> 
 				<pin index="139" name="som240_1_c19" ></pin> 
 				<pin index="140" name="som240_1_c20" ></pin> 
-				<pin index="141" name="som240_1_c21" iostandard="LVCMOS33" ></pin> 
+				<pin index="141" name="som240_1_c21"  ></pin> 
 				<pin index="142" name="som240_1_c22" iostandard="LVCMOS33" ></pin> 
 				<pin index="143" name="som240_1_c23" ></pin> 
-				<pin index="144" name="som240_1_c24" ></pin> 
+				<pin index="144" name="som240_1_c24" iostandard="LVCMOS33" ></pin> 
 				<pin index="145" name="som240_1_c25" ></pin> 
 				<pin index="146" name="som240_1_c26" ></pin> 
 				<pin index="147" name="som240_1_c27" ></pin> 
@@ -209,14 +210,14 @@
 				<pin index="181" name="som240_1_d1" ></pin> 
 	    		<pin index="182" name="som240_1_d2" ></pin> 
 				<pin index="183" name="som240_1_d3" ></pin> 
-				<pin index="184" name="som240_1_d4" iostandard="LVCMOS18"  diff_term="TRUE" ></pin> 
-				<pin index="185" name="som240_1_d5" iostandard="LVCMOS18"  diff_term="TRUE" ></pin> 
+				<pin index="184" name="som240_1_d4" iostandard="MIPI_DPHY_DCI"  diff_term="TRUE" ></pin> 
+				<pin index="185" name="som240_1_d5" iostandard="MIPI_DPHY_DCI"  diff_term="TRUE" ></pin> 
 				<pin index="186" name="som240_1_d6" ></pin> 
-				<pin index="187" name="som240_1_d7" iostandard="LVCMOS18"  diff_term="TRUE" ></pin> 
-				<pin index="188" name="som240_1_d8" iostandard="LVCMOS18"  diff_term="TRUE" ></pin> 
+				<pin index="187" name="som240_1_d7" iostandard="MIPI_DPHY_DCI"  diff_term="TRUE" ></pin> 
+				<pin index="188" name="som240_1_d8" iostandard="MIPI_DPHY_DCI"  diff_term="TRUE" ></pin> 
 				<pin index="189" name="som240_1_d9" ></pin> 
-				<pin index="190" name="som240_1_d10" iostandard="LVCMOS18"  diff_term="TRUE" ></pin> 
-				<pin index="191" name="som240_1_d11" iostandard="LVCMOS18"  diff_term="TRUE" ></pin> 
+				<pin index="190" name="som240_1_d10" iostandard="MIPI_DPHY_DCI"  diff_term="TRUE" ></pin> 
+				<pin index="191" name="som240_1_d11" iostandard="MIPI_DPHY_DCI"  diff_term="TRUE" ></pin> 
 				<pin index="192" name="som240_1_d12" ></pin> 
 				<pin index="193" name="som240_1_d13" ></pin> 
 				<pin index="194" name="som240_1_d14" ></pin> 
@@ -430,7 +431,7 @@
 								<pin_map port_index="1" component_pin="som240_1_b17"/>
 								<pin_map port_index="2" component_pin="som240_1_b18"/>
 								<pin_map port_index="3" component_pin="som240_1_a15"/>
-								<pin_map port_index="4" component_pin="som240_1_c21"/>
+								<pin_map port_index="4" component_pin="som240_1_c24"/>
 							</pin_maps>
 						</port_map>
 					</port_maps>
@@ -575,7 +576,7 @@
 			<connection_map name="som240_1_connector_bank45_gpio_connection_1" typical_delay="5" c1_st_index="77" c1_end_index="77" c2_st_index="1" c2_end_index="1"/>
 			<connection_map name="som240_1_connector_bank45_gpio_connection_2" typical_delay="5" c1_st_index="78" c1_end_index="78" c2_st_index="2" c2_end_index="2"/>
 			<connection_map name="som240_1_connector_bank45_gpio_connection_3" typical_delay="5" c1_st_index="15" c1_end_index="15" c2_st_index="3" c2_end_index="3"/>
-			<connection_map name="som240_1_connector_bank45_gpio_connection_4" typical_delay="5" c1_st_index="141" c1_end_index="141" c2_st_index="4" c2_end_index="4"/>
+			<connection_map name="som240_1_connector_bank45_gpio_connection_4" typical_delay="5" c1_st_index="144" c1_end_index="144" c2_st_index="4" c2_end_index="4"/>
 		</connection> 	
 
 		<connection name="som240_1_i2s_in_connection" component1="som240_1_connector" component2="i2s_in">
