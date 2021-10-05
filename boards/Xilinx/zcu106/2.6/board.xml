@@ -1143,18 +1143,6 @@
 			<preferred_ip vendor="xilinx.com" library="ip" name="pcie4_uscale_plus" order="2"/>	
           </preferred_ips>
         </component_mode>
-		<component_mode name="pci_express_x8" display_name="pci_express x8 ">
-          <interfaces>
-            <interface name="pci_express_x8"/>
-            <interface name="pcie_perstn" optional="true"/>
-	    <interface name="pcie_refclk" optional="true"/>
-          </interfaces>
-          <preferred_ips>
-            <preferred_ip vendor="xilinx.com" library="ip" name="xdma" order="0"/>
-            <preferred_ip vendor="xilinx.com" library="ip" name="axi_pcie3" order="1"/>
-			<preferred_ip vendor="xilinx.com" library="ip" name="pcie4_uscale_plus" order="2"/>	
-          </preferred_ips>
-        </component_mode>
       </component_modes>
     </component>
 	
