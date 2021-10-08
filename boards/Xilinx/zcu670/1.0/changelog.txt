@@ -1,0 +1,4 @@
+######### ZCU670 change log ############
+
+1.0
+ZCU670 initial board support (Vivado 2021.1_web)
