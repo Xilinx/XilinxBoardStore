@@ -76,7 +76,7 @@
 					<user_parameter name="PMC_MIO" value="26 .. 51"/>
 				</user_parameter>
 				</user_parameter>
-				<user_parameter name="PS_I2C0_PERIPHERAL" value_type="hier" value="">
+				<user_parameter name="PMC_I2CPMC_PERIPHERAL" value_type="hier" value="">
 					<user_parameter name="ENABLE" value="1"/>
 					<user_parameter name="IO" value_type="hier" value="">
 					<user_parameter name="PMC_MIO" value="46 .. 47"/>
