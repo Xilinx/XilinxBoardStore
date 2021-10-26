@@ -1131,7 +1131,7 @@
 		
 
 
-		<interface mode="master" name="uart2_bank306" type="xilinx.com:interface:uart_rtl:1.0" of_component="uart2_bank306" preset_proc="rs232_uart_preset">
+		<interface mode="master" name="uart2_bank306" type="xilinx.com:interface:uart_rtl:1.0" of_component="uart2_bank306" >
 			<preferred_ips>
 			  <preferred_ip vendor="xilinx.com" library="ip" name="axi_uart16550" order="0"/>
 			</preferred_ips>
@@ -1202,7 +1202,7 @@
 
 
 
-		<interface mode="master" name="dc_pl_gpio" type="xilinx.com:interface:gpio_rtl:1.0" of_component="dc_pl_gpio" preset_proc="dc_pl_gpio_preset">
+		<interface mode="master" name="dc_pl_gpio" type="xilinx.com:interface:gpio_rtl:1.0" of_component="dc_pl_gpio" >
 			<preferred_ips>
 				<preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
 			</preferred_ips>
@@ -1238,7 +1238,7 @@
         </interface>
 		
 		
-		<interface mode="master" name="sysctlr_gpio" type="xilinx.com:interface:gpio_rtl:1.0" of_component="sysctlr_gpio" preset_proc="sysctlr_gpio_preset">
+		<interface mode="master" name="sysctlr_gpio" type="xilinx.com:interface:gpio_rtl:1.0" of_component="sysctlr_gpio" >
 			<preferred_ips>
 				<preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
 			</preferred_ips>
@@ -1278,6 +1278,515 @@
 				</port_map>
 			</port_maps>
         </interface>
+
+
+
+         <!-- bank105_gty2_axi_eth -->
+        <interface mode="master" name="bank105_gty2_axi_eth" type="xilinx.com:interface:sgmii_rtl:1.0" of_component="bank105_gty2_axi_eth" preset_proc="axi_eth_preset" >
+          <description>bank105_gty2_axi_eth</description>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_ethernet" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="RXN" physical_port="bank105_gty2_axi_eth_rxn" dir="in" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_rxn_2"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="RXP" physical_port="bank105_gty2_axi_eth_rxp" dir="in" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_rxp_2"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="TXN" physical_port="bank105_gty2_axi_eth_txn" dir="out" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_txn_2"/>
+             </pin_maps>
+            </port_map>
+            <port_map logical_port="TXP" physical_port="bank105_gty2_axi_eth_txp" dir="out" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_txp_2"/>
+              </pin_maps>
+            </port_map>			
+			
+          </port_maps>			  
+          <parameters>
+            <parameter name="is_gt_flow_interface_master" value="true" />
+            <parameter name="gt_endpoint_interface_type" value="xilinx.com:ip:gt_quad_base:1.1" />
+            <parameter name="gt_lanes" value="2" />
+          </parameters>
+        </interface>
+	
+	
+        <interface mode="master" name="bank105_gty2_rx_axi_eth" type="xilinx.com:interface:sgmii_rtl:1.0" of_component="bank105_gty2_rx_axi_eth">
+          <port_maps>
+            <port_map logical_port="RXP" physical_port="bank105_gty2_rx_axi_eth_rxp" dir="in" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_rxp_2"/>
+              </pin_maps>
+            </port_map>
+			
+			<port_map logical_port="RXN" physical_port="bank105_gty2_rx_axi_eth_rxn" dir="in" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_rxn_2"/>
+              </pin_maps>
+            </port_map>			
+          </port_maps>
+		  
+          <parameters>
+            <parameter name="gt_flow_interface_master_name" value="bank105_gty2_axi_eth" />
+            <!-- <parameter name="order" value="0" /> -->
+			<parameter name="interface_type" value="lane2_rx" />
+            <parameter name="gt_inst_name" value="gt_quad_base_bank105" />
+          </parameters>
+        </interface>
+		
+        <interface mode="master" name="bank105_gty2_tx_axi_eth" type="xilinx.com:interface:sgmii_rtl:1.0" of_component="bank105_gty2_tx_axi_eth">
+          <port_maps>
+            <port_map logical_port="TXP" physical_port="bank105_gty2_tx_axi_eth_txp" dir="in" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_txp_2"/>
+              </pin_maps>
+            </port_map>
+			
+			<port_map logical_port="TXN" physical_port="bank105_gty2_tx_axi_eth_txn" dir="in" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_txn_2"/>
+              </pin_maps>
+            </port_map>			
+          </port_maps>
+		  
+          <parameters>
+            <parameter name="gt_flow_interface_master_name" value="bank105_gty2_axi_eth" />
+            <!-- <parameter name="order" value="1" /> -->
+			<parameter name="interface_type" value="lane2_tx" />
+            <parameter name="gt_inst_name" value="gt_quad_base_bank105" />
+          </parameters>
+        </interface>		
+	
+	
+	
+	     <!-- bank105_gty3_axi_eth -->
+
+        <interface mode="master" name="bank105_gty3_axi_eth" type="xilinx.com:interface:sgmii_rtl:1.0" of_component="bank105_gty3_axi_eth" preset_proc="axi_eth_preset" >
+          <description>bank105_gty3_axi_eth</description>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_ethernet" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="RXN" physical_port="bank105_gty3_axi_eth_rxn" dir="in" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_rxn_3"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="RXP" physical_port="bank105_gty3_axi_eth_rxp" dir="in" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_rxp_3"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="TXN" physical_port="bank105_gty3_axi_eth_txn" dir="out" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_txn_3"/>
+             </pin_maps>
+            </port_map>
+            <port_map logical_port="TXP" physical_port="bank105_gty3_axi_eth_txp" dir="out" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_txp_3"/>
+              </pin_maps>
+            </port_map>			
+			
+          </port_maps>			  
+          <parameters>
+            <parameter name="is_gt_flow_interface_master" value="true" />
+            <parameter name="gt_endpoint_interface_type" value="xilinx.com:ip:gt_quad_base:1.1" />
+            <parameter name="gt_lanes" value="3" />
+          </parameters>
+        </interface>
+	
+	
+        <interface mode="master" name="bank105_gty3_rx_axi_eth" type="xilinx.com:interface:sgmii_rtl:1.0" of_component="bank105_gty3_rx_axi_eth">
+          <port_maps>
+            <port_map logical_port="RXP" physical_port="bank105_gty3_rx_axi_eth_rxp" dir="in" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_rxp_3"/>
+              </pin_maps>
+            </port_map>
+			
+			<port_map logical_port="RXN" physical_port="bank105_gty3_rx_axi_eth_rxn" dir="in" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_rxn_3"/>
+              </pin_maps>
+            </port_map>			
+          </port_maps>
+		  
+          <parameters>
+            <parameter name="gt_flow_interface_master_name" value="bank105_gty3_axi_eth" />
+            <parameter name="interface_type" value="lane3_rx" />
+            <parameter name="gt_inst_name" value="gt_quad_base_bank105" />
+          </parameters>
+        </interface>
+		
+        <interface mode="master" name="bank105_gty3_tx_axi_eth" type="xilinx.com:interface:sgmii_rtl:1.0" of_component="bank105_gty3_tx_axi_eth">
+          <port_maps>
+            <port_map logical_port="TXP" physical_port="bank105_gty3_tx_axi_eth_txp" dir="in" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_txp_3"/>
+              </pin_maps>
+            </port_map>
+			
+			<port_map logical_port="TXN" physical_port="bank105_gty3_tx_axi_eth_txn" dir="in" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_txn_3"/>
+              </pin_maps>
+            </port_map>			
+          </port_maps>
+		  
+          <parameters>
+            <parameter name="gt_flow_interface_master_name" value="bank105_gty3_axi_eth" />
+			<parameter name="interface_type" value="lane3_tx" />    
+			<parameter name="gt_inst_name" value="gt_quad_base_bank105" />
+          </parameters>
+        </interface>		
+		
+	
+	  
+		  
+		<!-- bank105_gty2_xxv  -->
+        <interface mode="master" name="bank105_gty2_xxv" type="xilinx.com:interface:gt_rtl:1.0" of_component="bank105_gty2_xxv" preset_proc="xxv_preset" >
+          <description> Four lane GT interface over qsfp1_connector</description>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="GTX_N" physical_port="qsfp1_lane1_gtx_n" dir="out" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_txn_2"/>
+             </pin_maps>
+            </port_map>
+            <port_map logical_port="GTX_P" physical_port="qsfp1_lane1_gtx_p" dir="out" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_txp_2"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="GRX_N" physical_port="qsfp1_lane1_grx_n" dir="in" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_rxn_2"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="GRX_P" physical_port="qsfp1_lane1_grx_p" dir="in" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_rxp_2"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>			  
+          <parameters>
+            <parameter name="is_gt_flow_interface_master" value="true" />
+            <parameter name="gt_endpoint_interface_type" value="xilinx.com:ip:gt_quad_base:1.1" />
+            <parameter name="gt_lanes" value="2" />
+          </parameters>
+        </interface>
+		
+
+        <interface mode="master" name="bank105_gty2_rx_xxv" type="xilinx.com:interface:gt_rtl:1.0" of_component="bank105_gty2_rx_xxv">
+          <port_maps>
+            <port_map logical_port="GRX_P" physical_port="gt_quad_base_rxp0_xxv" dir="in" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_rxp_2"/>
+              </pin_maps>
+            </port_map>
+			
+            <port_map logical_port="GRX_N" physical_port="gt_quad_base_rxn0_xxv" dir="in" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_rxn_2"/>
+              </pin_maps>
+            </port_map>			
+			
+          </port_maps>
+          <parameters>
+            <parameter name="gt_flow_interface_master_name" value="bank105_gty2_xxv" />
+            <parameter name="interface_type" value="lane2_rx" /> 
+            <parameter name="gt_inst_name" value="gt_quad_base_bank105" />
+          </parameters>
+        </interface>
+
+        <interface mode="master" name="bank105_gty2_tx_xxv" type="xilinx.com:interface:gt_rtl:1.0" of_component="bank105_gty2_tx_xxv">
+          <port_maps>
+            <port_map logical_port="GTX_P" physical_port="gt_quad_base_txp0_xxv" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_txp_2"/>
+              </pin_maps>
+            </port_map>
+			
+            <port_map logical_port="GTX_N" physical_port="gt_quad_base_txn0_xxv" dir="in" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_txn_2"/>
+              </pin_maps>
+            </port_map>			
+			
+          </port_maps>
+          <parameters>
+            <parameter name="gt_flow_interface_master_name" value="bank105_gty2_xxv" />
+            <parameter name="interface_type" value="lane2_tx" />
+            <parameter name="gt_inst_name" value="gt_quad_base_bank105" />
+          </parameters>
+        </interface>
+		
+		<!-- bank105_gty3_xxv  -->	
+       <interface mode="master" name="bank105_gty3_xxv" type="xilinx.com:interface:gt_rtl:1.0" of_component="bank105_gty3_xxv" preset_proc="xxv_preset" >
+          <description> Four lane GT interface over qsfp1_connector</description>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="xxv_ethernet" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="GTX_N" physical_port="qsfp1_lane2_gtx_n" dir="out" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_txn_3"/>
+             </pin_maps>
+            </port_map>
+            <port_map logical_port="GTX_P" physical_port="qsfp1_lane2_gtx_p" dir="out" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_txp_3"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="GRX_N" physical_port="qsfp1_lane2_grx_n" dir="in" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_rxn_3"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="GRX_P" physical_port="qsfp1_lane2_grx_p" dir="in" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_rxp_3"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>			  
+          <parameters>
+            <parameter name="is_gt_flow_interface_master" value="true" />
+            <parameter name="gt_endpoint_interface_type" value="xilinx.com:ip:gt_quad_base:1.1" />
+            <parameter name="gt_lanes" value="3" />
+          </parameters>
+        </interface>
+		
+
+        <interface mode="master" name="bank105_gty3_rx_xxv" type="xilinx.com:interface:gt_rtl:1.0" of_component="bank105_gty3_rx_xxv">
+          <port_maps>
+            <port_map logical_port="GRX_P" physical_port="gt_quad_base_rxp1_xxv" dir="in" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_rxp_3"/>
+              </pin_maps>
+            </port_map>
+			
+            <port_map logical_port="GRX_N" physical_port="gt_quad_base_rxn1_xxv" dir="in" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_rxn_3"/>
+              </pin_maps>
+            </port_map>			
+			
+          </port_maps>
+          <parameters>
+            <parameter name="gt_flow_interface_master_name" value="bank105_gty3_xxv" />
+            <parameter name="interface_type" value="lane3_rx" />
+            <parameter name="gt_inst_name" value="gt_quad_base_bank105" />
+          </parameters>
+        </interface>
+
+        <interface mode="master" name="bank105_gty3_tx_xxv" type="xilinx.com:interface:gt_rtl:1.0" of_component="bank105_gty3_tx_xxv">
+          <port_maps>
+            <port_map logical_port="GTX_P" physical_port="gt_quad_base_txp1_xxv" dir="in" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_txp_3"/>
+              </pin_maps>
+            </port_map>
+			
+            <port_map logical_port="GTX_N" physical_port="gt_quad_base_txn1_xxv" dir="in" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_txn_3"/>
+              </pin_maps>
+            </port_map>			
+			
+          </port_maps>
+          <parameters>
+            <parameter name="gt_flow_interface_master_name" value="bank105_gty3_xxv" />
+            <parameter name="interface_type" value="lane3_tx" />
+            <parameter name="gt_inst_name" value="gt_quad_base_bank105" />
+          </parameters>
+        </interface>	
+		
+	
+	    <!-- bank105_gty2gty3_l_eth Interface   -->		
+		
+         <interface mode="master" name="bank105_gty2gty3_l_eth" type="xilinx.com:interface:gt_rtl:1.0" of_component="bank105_gty2gty3_l_eth"  preset_proc="l_ethernet_preset" >
+          <description> Two lane GT interface over qsfp1_connector</description>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="l_ethernet" order="0"/>
+          </preferred_ips>
+
+          <port_maps>
+            <port_map logical_port="GTX_N" physical_port="qsfp1_lane_1_and_2_gtx_n" dir="out" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_txn_2"/>
+                <pin_map port_index="1" component_pin="gt_quad_base_bank105_txn_3"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="GTX_P" physical_port="qsfp1_lane_1_and_2_gtx_p" dir="out" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_txp_2"/>
+                <pin_map port_index="1" component_pin="gt_quad_base_bank105_txp_3"/>		
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="GRX_N" physical_port="qsfp1_lane_1_and_2_grx_n" dir="in" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_rxn_2"/>
+                <pin_map port_index="1" component_pin="gt_quad_base_bank105_rxn_3"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="GRX_P" physical_port="qsfp1_lane_1_and_2_grx_p" dir="in" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_rxp_2"/>
+                <pin_map port_index="1" component_pin="gt_quad_base_bank105_rxp_3"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+		   <parameters>
+            <parameter name="is_gt_flow_interface_master" value="true" />
+            <parameter name="gt_endpoint_interface_type" value="xilinx.com:ip:gt_quad_base:1.1" />
+            <parameter name="gt_lanes" value="2,3" />
+          </parameters>
+		</interface>
+
+
+	  
+        <interface mode="master" name="bank105_gty2_rx_l_eth" type="xilinx.com:interface:gt_rtl:1.0" of_component="bank105_gty2_rx_l_eth">
+          <port_maps>
+            <port_map logical_port="GRX_P" physical_port="gt_quad_base_rxp_intf0" dir="in" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_rxp_2"/>
+              </pin_maps>
+            </port_map>
+			
+			<port_map logical_port="GRX_N" physical_port="gt_quad_base_rxn_intf0" dir="in" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_rxn_2"/>
+              </pin_maps>
+            </port_map>			
+          </port_maps>
+		  
+          <parameters>
+            <parameter name="gt_flow_interface_master_name" value="bank105_gty2gty3_l_eth" />
+            <parameter name="interface_type" value="lane2_rx" />
+            <parameter name="gt_inst_name" value="gt_quad_base_bank105" />
+          </parameters>
+        </interface>
+		
+		
+        <interface mode="master" name="bank105_gty2_tx_l_eth" type="xilinx.com:interface:gt_rtl:1.0" of_component="bank105_gty2_tx_l_eth">
+          <port_maps>
+            <port_map logical_port="GTX_P" physical_port="gt_quad_base_txp_intf0" dir="in" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_txp_2"/>
+              </pin_maps>
+            </port_map>
+			
+			<port_map logical_port="GTX_N" physical_port="gt_quad_base_txn_intf0" dir="in" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_txn_2"/>
+              </pin_maps>
+            </port_map>			
+          </port_maps>
+		  
+          <parameters>
+            <parameter name="gt_flow_interface_master_name" value="bank105_gty2gty3_l_eth" />
+            <parameter name="interface_type" value="lane2_tx" />
+            <parameter name="gt_inst_name" value="gt_quad_base_bank105" />
+          </parameters>
+        </interface>
+
+
+
+        <interface mode="master" name="bank105_gty3_rx_l_eth" type="xilinx.com:interface:gt_rtl:1.0" of_component="bank105_gty3_rx_l_eth">
+          <port_maps>
+            <port_map logical_port="GRX_P" physical_port="gt_quad_base_rxp_intf1" dir="in" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_rxp_3"/>
+              </pin_maps>
+            </port_map>
+			
+			<port_map logical_port="GRX_N" physical_port="gt_quad_base_rxn_intf1" dir="in" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_rxn_3"/>
+              </pin_maps>
+            </port_map>			
+          </port_maps>
+		  
+          <parameters>
+            <parameter name="gt_flow_interface_master_name" value="bank105_gty2gty3_l_eth" />
+            <parameter name="interface_type" value="lane3_rx" />
+            <parameter name="gt_inst_name" value="gt_quad_base_bank105" />
+          </parameters>
+        </interface>
+		
+		
+        <interface mode="master" name="bank105_gty3_tx_l_eth" type="xilinx.com:interface:gt_rtl:1.0" of_component="bank105_gty3_tx_l_eth">
+          <port_maps>
+            <port_map logical_port="GTX_P" physical_port="gt_quad_base_txp_intf1" dir="in" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_txp_3"/>
+              </pin_maps>
+            </port_map>
+			
+			<port_map logical_port="GTX_N" physical_port="gt_quad_base_txn_intf1" dir="in" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gt_quad_base_bank105_txn_3"/>
+              </pin_maps>
+            </port_map>			
+          </port_maps>
+		  
+          <parameters>
+            <parameter name="gt_flow_interface_master_name" value="bank105_gty2gty3_l_eth" />
+            <parameter name="interface_type" value="lane3_tx" />
+            <parameter name="gt_inst_name" value="gt_quad_base_bank105" />
+          </parameters>
+        </interface>		
+				
+				 	
+		
+		<!-- gtrefclk0_bank105 -->
+        <interface mode="master" name="gtrefclk0_bank105" type="xilinx.com:interface:dummy_util_buf_interface:1.0" of_component="gtrefclk0_bank105" >
+          <port_maps>
+            <port_map logical_port="dummy1" physical_port="util_ds_buf_0_ds" dir="in" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gtrefclk0_bank105_IBUF_DS_P"/>
+                <pin_map port_index="1" component_pin="gtrefclk0_bank105_IBUF_DS_N"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+          <parameters>
+            <parameter name="gt_inst_name" value="gt_quad_base_bank105" />
+            <parameter name="order" value="1" />
+            <parameter name="buffer_inst_name" value="gtrefclk0_bank105" />
+			<parameter name="ref_clk_inst" value="GT_REFCLK0" />
+			<parameter name="frequency" value="156250000" />
+          </parameters>
+        </interface>
+		
+		<!-- gtrefclk1_bank105 -->
+	
+<!-- 		 <interface mode="master" name="gtrefclk1_bank105" type="xilinx.com:interface:dummy_util_buf_interface:1.0" of_component="gtrefclk1_bank105">
+          <port_maps>
+            <port_map logical_port="dummy1" physical_port="util_ds_buf_1_ds" dir="in" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="gtrefclk1_bank105_IBUF_DS_P"/>
+                <pin_map port_index="1" component_pin="gtrefclk1_bank105_IBUF_DS_N"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+          <parameters>
+            <parameter name="gt_inst_name" value="gt_quad_base_bank105" />
+            <parameter name="order" value="2" />
+            <parameter name="buffer_inst_name" value="gtrefclk1_bank105" />
+			<parameter name="ref_clk_inst" value="GT_REFCLK1" />
+			<parameter name="frequency" value="156.25" />			
+          </parameters>
+        </interface> -->
  
       </interfaces>
     
@@ -1395,7 +1904,7 @@
       <description>GPIO DIP Switches</description>
     </component>	
 
-	<component name="gpio_led" display_name="GPIO LED test" type="chip" sub_type="led" major_group="General Purpose Input or Output" part_name="SML-LX0603GW-TR" vendor="LUMEX">
+	<component name="gpio_led" display_name="GPIO LED" type="chip" sub_type="led" major_group="General Purpose Input or Output" part_name="SML-LX0603GW-TR" vendor="LUMEX">
       <description>GPIO LEDs</description>
     </component>	
 			
@@ -1405,7 +1914,89 @@
 
 	<component name="sysctlr_gpio" display_name="Sysctlr GPIO" type="chip" sub_type="led" major_group="General Purpose Input or Output" part_name="SML-LX0603GW-TR" vendor="LUMEX">
       <description>System Controller GPIO</description>
-    </component>			
+    </component>	
+	
+
+	<component name="bank105_gty2_axi_eth" display_name="AXI_ethernet on Bank 105 GTY2" type="chip" sub_type="sfp" major_group="Ethernet Configurations" part_name="M88E1111_BAB1C000" vendor="Marvell" spec_url="www.marvell.com">
+      <description>AXI_ethernet on Bank 105 GTY2</description>
+    </component>
+		
+    <component name="bank105_gty2_rx_axi_eth" display_name="AXI_ethernet RX on  Bank 105 GTY2" type="chip" sub_type="sfp" major_group="Ethernet Configurations" part_name="M88E1111_BAB1C000" vendor="Marvell" spec_url="www.marvell.com">
+      <description>AXI_ethernet RX on  Bank 105 GTY2</description>
+    </component>
+
+    <component name="bank105_gty2_tx_axi_eth" display_name="AXI_ethernet TX on Bank 105 GTY2" type="chip" sub_type="sfp" major_group="Ethernet Configurations" part_name="M88E1111_BAB1C000" vendor="Marvell" spec_url="www.marvell.com">
+      <description>AXI_ethernet TX on Bank 105 GTY2</description>
+    </component>
+
+
+	<component name="bank105_gty3_axi_eth" display_name="AXI_ethernet on Bank 105 GTY3" type="chip" sub_type="sfp" major_group="Ethernet Configurations" part_name="M88E1111_BAB1C000" vendor="Marvell" spec_url="www.marvell.com">
+      <description>AXI_ethernet on Bank 105 GTY3</description>
+    </component>
+		
+    <component name="bank105_gty3_rx_axi_eth" display_name="AXI_ethernet RX on  Bank 105 GTY3" type="chip" sub_type="sfp" major_group="Ethernet Configurations" part_name="M88E1111_BAB1C000" vendor="Marvell" spec_url="www.marvell.com">
+      <description>AXI_ethernet RX on  Bank 105 GTY3</description>
+    </component>
+
+    <component name="bank105_gty3_tx_axi_eth" display_name="AXI_ethernet TX on Bank 105 GTY3" type="chip" sub_type="sfp" major_group="Ethernet Configurations" part_name="M88E1111_BAB1C000" vendor="Marvell" spec_url="www.marvell.com">
+      <description>AXI_ethernet TX on Bank 105 GTY3</description>
+    </component>
+
+
+		
+    <component name="bank105_gty2_xxv" display_name="XXV on Bank105 GTY2" type="chip" sub_type="sfp" major_group="Ethernet Configurations" part_name="M88E1111_BAB1C000" vendor="Marvell" spec_url="www.marvell.com">
+      <description>XXV on Bank105 GTY2</description>
+    </component>
+
+    <component name="bank105_gty2_rx_xxv" display_name="XXV RX on Bank105 GTY2" type="chip" sub_type="sfp" major_group="Ethernet Configurations" part_name="M88E1111_BAB1C000" vendor="Marvell" spec_url="www.marvell.com">
+      <description>XXV RX on Bank105 GTY2</description>
+    </component>
+
+    <component name="bank105_gty2_tx_xxv" display_name="XXV TX on Bank105 GTY2" type="chip" sub_type="sfp" major_group="Ethernet Configurations" part_name="M88E1111_BAB1C000" vendor="Marvell" spec_url="www.marvell.com">
+      <description>XXV TX on Bank105 GTY2"</description>
+    </component>
+	
+    <component name="bank105_gty3_xxv" display_name="XXV on Bank105 GTY3" type="chip" sub_type="sfp" major_group="Ethernet Configurations" part_name="M88E1111_BAB1C000" vendor="Marvell" spec_url="www.marvell.com">
+      <description>XXV on Bank105 GTY3</description>
+    </component>
+
+    <component name="bank105_gty3_rx_xxv" display_name="XXV RX on Bank105 GTY3" type="chip" sub_type="sfp" major_group="Ethernet Configurations" part_name="M88E1111_BAB1C000" vendor="Marvell" spec_url="www.marvell.com">
+      <description>XXV RX on Bank105 GTY3</description>
+    </component>
+
+    <component name="bank105_gty3_tx_xxv" display_name="XXV TX on Bank105 GTY3" type="chip" sub_type="sfp" major_group="Ethernet Configurations" part_name="M88E1111_BAB1C000" vendor="Marvell" spec_url="www.marvell.com">
+      <description>XXV TX on Bank105 GTY3</description>
+    </component>	
+	
+	<component name="bank105_gty2gty3_l_eth" display_name="L_Ethernet with 50G on Bank105 GTY2,GTY3" type="chip" sub_type="sfp" major_group="Ethernet Configurations" part_name="M88E1111_BAB1C000" vendor="Marvell" spec_url="www.marvell.com">
+      <description>L_Ethernet with 50G on Bank105 GTY2,GTY3</description>
+    </component>
+			
+    <component name="bank105_gty2_rx_l_eth" display_name="L_Ethernet RX with 50G on Bank105 GTY2" type="chip" sub_type="sfp" major_group="Ethernet Configurations" part_name="M88E1111_BAB1C000" vendor="Marvell" spec_url="www.marvell.com">
+      <description>L_Ethernet RX with 50G on Bank105 GTY2</description>
+    </component>
+
+    <component name="bank105_gty2_tx_l_eth" display_name="L_Ethernet TX with 50G on Bank105 GTY2" type="chip" sub_type="sfp" major_group="Ethernet Configurations" part_name="M88E1111_BAB1C000" vendor="Marvell" spec_url="www.marvell.com">
+      <description>L_Ethernet TX with 50G on Bank105 GTY2</description>
+    </component>
+
+    <component name="bank105_gty3_rx_l_eth" display_name="L_Ethernet RX with 50G on Bank105 GTY3" type="chip" sub_type="sfp" major_group="Ethernet Configurations" part_name="M88E1111_BAB1C000" vendor="Marvell" spec_url="www.marvell.com">
+      <description>L_Ethernet RX with 50G on Bank105 GTY3</description>
+    </component>
+
+    <component name="bank105_gty3_tx_l_eth" display_name="L_Ethernet TX with 50G on Bank105 GTY3" type="chip" sub_type="sfp" major_group="Ethernet Configurations" part_name="M88E1111_BAB1C000" vendor="Marvell" spec_url="www.marvell.com">
+      <description>L_Ethernet TX with 50G on Bank105 GTY3</description>
+    </component>		
+	
+    <component name="gtrefclk0_bank105" display_name="GT REFCLK0 on Bank 105" type="chip" sub_type="mgt_clock" major_group="Ethernet Configurations"  vendor="Marvell" spec_url="www.marvell.com">
+      <description>GT REFCLK0 on Bank 105"</description>
+    </component>
+	
+<!-- 	<component name="gtrefclk1_bank105" display_name="GT REFCLK1 on Bank 105" type="chip" sub_type="mgt_clock" major_group="Ethernet Configurations"  vendor="Marvell" spec_url="www.marvell.com">
+      <description>GT REFCLK1 on Bank 105</description>
+    </component>
+	 -->
+
 		
  </components>
   
@@ -1467,64 +2058,97 @@
 			<connection name="part0_LPDDR4_Controller1" component1="part0" component2="LPDDR4_Controller1">
 			  <connection_map name="part0_ddr4_dimm1_1" typical_delay="5" c1_st_index="500" c1_end_index="633" c2_st_index="0" c2_end_index="133"/>
 			</connection>	
+			
+				<!-- AXI Etherent connection map 			 -->
+			<connection name="part0_qsfp1_lane1_axi_eth" component1="part0" component2="bank105_gty2_axi_eth">
+			  <connection_map name="part0_qsfp1_lane1_axi_eth" typical_delay="5" c1_st_index="1100" c1_end_index="1103" c2_st_index="0" c2_end_index="3"/>
+			</connection>
+			
+			<connection name="part0_qsfp1_rx0_axi_eth" component1="part0" component2="bank105_gty2_rx_axi_eth">
+			  <connection_map name="part0_qsfp1_rx0_axi_eth" typical_delay="5" c1_st_index="1100" c1_end_index="1101" c2_st_index="0" c2_end_index="1"/>
+			</connection>							
+
+			<connection name="part0_qsfp1_tx0_axi_eth" component1="part0" component2="bank105_gty2_tx_axi_eth">
+			  <connection_map name="part0_qsfp1_tx0_axi_eth" typical_delay="5" c1_st_index="1102" c1_end_index="1103" c2_st_index="0" c2_end_index="1"/>
+			</connection>
+			
+			<connection name="part0_bank105_gty3_axi_eth" component1="part0" component2="bank105_gty3_axi_eth">
+			  <connection_map name="part0_bank105_gty3_axi_eth" typical_delay="5" c1_st_index="1104" c1_end_index="1107" c2_st_index="0" c2_end_index="3"/>
+			</connection>
+			
+			<connection name="part0_bank105_gty3_rx_axi_eth" component1="part0" component2="bank105_gty3_rx_axi_eth">
+			  <connection_map name="part0_bank105_gty3_rx_axi_eth" typical_delay="5" c1_st_index="1104" c1_end_index="1105" c2_st_index="0" c2_end_index="1"/>
+			</connection>							
+
+			<connection name="part0_bank105_gty3_tx_axi_eth" component1="part0" component2="bank105_gty3_tx_axi_eth">
+			  <connection_map name="part0_bank105_gty3_tx_axi_eth" typical_delay="5" c1_st_index="1106" c1_end_index="1107" c2_st_index="0" c2_end_index="1"/>
+			</connection>			
+			
+
+			<!-- XXV Lane1 connection map 			 -->
+
+			<connection name="part0_bank105_gty2_xxv" component1="part0" component2="bank105_gty2_xxv">
+			  <connection_map name="part0_bank105_gty2_xxv" typical_delay="5" c1_st_index="1100" c1_end_index="1103" c2_st_index="0" c2_end_index="3"/>
+			</connection>
+
+			<connection name="part0_bank105_gty2_rx_xxv" component1="part0" component2="bank105_gty2_rx_xxv">
+			  <connection_map name="part0_bank105_gty2_rx_xxv" typical_delay="5" c1_st_index="1100" c1_end_index="1101" c2_st_index="0" c2_end_index="1"/>
+			</connection>
+			
+			<connection name="part0_bank105_gty2_tx_xxv" component1="part0" component2="bank105_gty2_tx_xxv">
+			  <connection_map name="part0_bank105_gty2_tx_xxv" typical_delay="5" c1_st_index="1102" c1_end_index="1103" c2_st_index="0" c2_end_index="1"/>
+			</connection>		
+			
+			
+			<!-- XXV Lane2 connection map 			 -->
+	
+			<connection name="part0_bank105_gty3_xxv" component1="part0" component2="bank105_gty3_xxv">
+			  <connection_map name="part0_qsfp1_lane2" typical_delay="5" c1_st_index="1104" c1_end_index="1107" c2_st_index="0" c2_end_index="3"/>
+			</connection>
+
+			<connection name="part0_bank105_gty3_rx_xxv" component1="part0" component2="bank105_gty3_rx_xxv">
+			  <connection_map name="part0_bank105_gty3_rx_xxv" typical_delay="5" c1_st_index="1104" c1_end_index="1105" c2_st_index="0" c2_end_index="1"/>
+			</connection>
+			
+			<connection name="part0_bank105_gty3_tx_xxv" component1="part0" component2="bank105_gty3_tx_xxv">
+			  <connection_map name="part0_bank105_gty3_tx_xxv" typical_delay="5" c1_st_index="1106" c1_end_index="1107" c2_st_index="0" c2_end_index="1"/>
+			</connection>			
+			
+		
+			<!-- GT REFCLK connection map 			 -->		
+
+			<connection name="part0_gtrefclk0_bank105" component1="part0" component2="gtrefclk0_bank105">
+			  <connection_map name="part0_gtrefclk0_bank200" typical_delay="5" c1_st_index="1200" c1_end_index="1201" c2_st_index="0" c2_end_index="1"/>
+			</connection>			
+			
+<!-- 			<connection name="part0_gtrefclk1_bank105" component1="part0" component2="gtrefclk1_bank105">
+			  <connection_map name="part0_gtrefclk0_bank200" typical_delay="5" c1_st_index="1202" c1_end_index="1203" c2_st_index="0" c2_end_index="1"/>
+			</connection> -->
+			
+			<!-- L_Etherent connection map 			 -->	
+						
+			<connection name="part0_bank105_gty2gty3_l_eth" component1="part0" component2="bank105_gty2gty3_l_eth">
+			  <connection_map name="part0_bank105_gty2gty3_l_eth" typical_delay="5" c1_st_index="1100" c1_end_index="1107" c2_st_index="0" c2_end_index="7"/>
+			</connection>
+
+			<connection name="part0_bank105_gty2_rx_l_eth" component1="part0" component2="bank105_gty2_rx_l_eth">
+			  <connection_map name="part0_bank105_gty2_rx_l_eth" typical_delay="5" c1_st_index="1100" c1_end_index="1101" c2_st_index="0" c2_end_index="1"/>
+			</connection>
+
+			<connection name="part0_bank105_gty2_tx_l_eth" component1="part0" component2="bank105_gty2_tx_l_eth">
+			  <connection_map name="part0_bank105_gty2_tx_l_eth" typical_delay="5" c1_st_index="1102" c1_end_index="1103" c2_st_index="0" c2_end_index="1"/>
+			</connection>	
+
+			<connection name="part0_bank105_gty3_rx_l_eth" component1="part0" component2="bank105_gty3_rx_l_eth">
+			  <connection_map name="part0_bank105_gty3_rx_l_eth" typical_delay="5" c1_st_index="1104" c1_end_index="1105" c2_st_index="0" c2_end_index="1"/>
+			</connection>
+
+			<connection name="part0_bank105_gty3_tx_l_eth" component1="part0" component2="bank105_gty3_tx_l_eth">
+			  <connection_map name="part0_bank105_gty3_tx_l_eth" typical_delay="5" c1_st_index="1106" c1_end_index="1107" c2_st_index="0" c2_end_index="1"/>
+			</connection>			
 
 	</connections>
     
-  
-<!-- 	<ip_associated_rules>
-		<ip_associated_rule name="default">
 
-
-			<ip vendor="xilinx.com" library="ip" name="axi_noc" version="*" ip_interface="CH0_LPDDR4_0">
-				<associated_board_interfaces>
-					<associated_board_interface name="ch0_lpddr4_c0" order="0"/> 
-				</associated_board_interfaces>
-			</ip>
-			
-			<ip vendor="xilinx.com" library="ip" name="axi_noc" version="*" ip_interface="CH1_LPDDR4_0">
-				<associated_board_interfaces>
-					<associated_board_interface name="ch1_lpddr4_c0" order="0"/> 
-				</associated_board_interfaces>
-			</ip>	
-
-			<ip vendor="xilinx.com" library="ip" name="axi_noc" version="*" ip_interface="CH0_LPDDR4_1">
-				<associated_board_interfaces>
-					<associated_board_interface name="ch0_lpddr4_c1" order="0"/> 
-				</associated_board_interfaces>
-			</ip>			
-
-			<ip vendor="xilinx.com" library="ip" name="axi_noc" version="*" ip_interface="CH1_LPDDR4_1">
-				<associated_board_interfaces>
-					<associated_board_interface name="ch1_lpddr4_c1" order="0"/> 
-				</associated_board_interfaces>
-			</ip>
-			
-			<ip vendor="xilinx.com" library="ip" name="axi_noc" version="*" ip_interface="CH0_LPDDR4_2">
-				<associated_board_interfaces>
-				  <associated_board_interface name="LPDDR4_unused" order="0"/> 
-				</associated_board_interfaces>
-			</ip>
-	  
-			<ip vendor="xilinx.com" library="ip" name="axi_noc" version="*" ip_interface="CH0_LPDDR4_3">
-				<associated_board_interfaces>
-				  <associated_board_interface name="LPDDR4_unused" order="0"/> 
-				</associated_board_interfaces>
-		    </ip>
-			
-			<ip vendor="xilinx.com" library="ip" name="axi_noc" version="*" ip_interface="CH1_LPDDR4_2">
-				<associated_board_interfaces>
-				  <associated_board_interface name="LPDDR4_unused" order="0"/> 
-				</associated_board_interfaces>
-			</ip>
-		  
-			<ip vendor="xilinx.com" library="ip" name="axi_noc" version="*" ip_interface="CH1_LPDDR4_3">
-				<associated_board_interfaces>
-				  <associated_board_interface name="LPDDR4_unused" order="0"/> 
-				</associated_board_interfaces>
-			</ip>			
-			
-	   
-		</ip_associated_rule>
-	</ip_associated_rules> -->
   
 </board>

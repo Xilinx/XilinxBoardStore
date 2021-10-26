@@ -510,17 +510,32 @@
 	<pin index="1047" name ="pcie_tx7_p"      loc="M41"/>
 	
 
-    <pin index="1064"  name ="pcie_refclk_bank103_p" loc="W39"/>	
-  	<pin index="1065"  name ="pcie_refclk_bank103_n" loc="W40"/>
-    <pin index="1066"  name ="pcie_refclk_bank104_p" loc="R39"/>	
-  	<pin index="1067"  name ="pcie_refclk_bank104_n" loc="R40"/>
+    <pin index="1100"  name ="gt_quad_base_bank105_rxp_2"    loc="K46"/>
+    <pin index="1101"  name ="gt_quad_base_bank105_rxn_2"    loc="K47"/>	
+    <pin index="1102"  name ="gt_quad_base_bank105_txp_2"    loc="H41"/>
+    <pin index="1103"  name ="gt_quad_base_bank105_txn_2"    loc="H42"/>		
+										   
+    <pin index="1104"  name ="gt_quad_base_bank105_rxp_3"    loc="H46"/>
+    <pin index="1105"  name ="gt_quad_base_bank105_rxn_3"    loc="H47"/>	
+    <pin index="1106"  name ="gt_quad_base_bank105_txp_3"    loc="G43"/>
+    <pin index="1107"  name ="gt_quad_base_bank105_txn_3"    loc="G44"/>	
+										   
+<!--     <pin index="1108"  name ="gt_quad_base_rxp_2"    loc="AD2"/>
+    <pin index="1109"  name ="gt_quad_base_rxn_2"    loc="AD1"/>	
+    <pin index="1110"  name ="gt_quad_base_txp_2"    loc="AD7"/>
+    <pin index="1111"  name ="gt_quad_base_txn_2"    loc="AD6"/>		
+										   
+    <pin index="1112"  name ="gt_quad_base_rxp_3"    loc="AC4"/>
+    <pin index="1113"  name ="gt_quad_base_rxn_3"    loc="AC3"/>	
+    <pin index="1114"  name ="gt_quad_base_txp_3"    loc="AC9"/>
+    <pin index="1115"  name ="gt_quad_base_txn_3"    loc="AC8"/> -->
+
+    <pin index="1200"  name ="gtrefclk0_bank105_IBUF_DS_P"    loc="L39"/>
+    <pin index="1201"  name ="gtrefclk0_bank105_IBUF_DS_N"    loc="L40"/>	
 	
-    <pin index="1068"  name ="pcie_refclk_bank105_p" loc="L39"/>	
-  	<pin index="1069"  name ="pcie_refclk_bank105_n" loc="L40"/>	
-    <pin index="1070"  name ="pcie_refclk_bank106_p" loc="G39"/>	
-  	<pin index="1071"  name ="pcie_refclk_bank106_n" loc="G40"/>	
-	
-	<!-- <pin index="1071"  name ="pcie_perstn" loc="G40"/>	 -->
+<!-- 	<pin index="1202"  name ="gtrefclk1_bank105_IBUF_DS_P"    loc="AD11"/>
+    <pin index="1203"  name ="gtrefclk1_bank105_IBUF_DS_N"    loc="AD10"/>	
+	 -->
 
   </pins>
   

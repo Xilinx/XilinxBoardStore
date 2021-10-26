@@ -324,4 +324,54 @@
 			</ip>
 	</ip_preset>
 
+	
+	
+	<ip_preset preset_proc_name="axi_eth_preset"> 
+		<ip vendor="xilinx.com" library="ip" name="axi_ethernet" version="*"> 
+	          <user_parameters>
+	                 <user_parameter name="CONFIG.PHY_TYPE" value="SGMII"/>
+					 <user_parameter name="CONFIG.speed_1_2p5" value="1G"/>
+					 <user_parameter name="CONFIG.gtrefclkrate" value="156.25"/> 	
+	          </user_parameters>
+		</ip>
+		<ip vendor="xilinx.com" library="ip" name="util_ds_buf" version="*"> 
+			<user_parameters>
+				<user_parameter name="CONFIG.FREQ_HZ" value="156250000"/> 
+				<user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDSGTE"/>					
+		   </user_parameters>
+		</ip>
+	</ip_preset>	
+	
+	
+	<ip_preset preset_proc_name="xxv_preset"> 
+		<ip vendor="xilinx.com" library="ip" name="xxv_ethernet" version="*"> 
+			<user_parameters>
+				<user_parameter name="CONFIG.LINE_RATE" value="25"/>
+				<user_parameter name="CONFIG.GT_REF_CLK_FREQ" value="156.25"/>					
+		   </user_parameters>
+		</ip>
+		<ip vendor="xilinx.com" library="ip" name="util_ds_buf" version="*"> 
+			<user_parameters>
+				<user_parameter name="CONFIG.FREQ_HZ" value="156250000"/> 
+				<user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDSGTE"/>					
+		   </user_parameters>
+		</ip>		
+	</ip_preset>			
+	
+	
+	<ip_preset preset_proc_name="l_ethernet_preset"> 
+		<ip vendor="xilinx.com" library="ip" name="l_ethernet" version="*"> 
+			<user_parameters>
+				<user_parameter name="CONFIG.LINE_RATE" value="50"/>
+				<user_parameter name="CONFIG.GT_REF_CLK_FREQ" value="156.25"/>					
+		   </user_parameters>
+		</ip>
+		<ip vendor="xilinx.com" library="ip" name="util_ds_buf" version="*"> 
+			<user_parameters>
+				<user_parameter name="CONFIG.FREQ_HZ" value="156250000"/> 
+				<user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDSGTE"/>					
+		   </user_parameters>
+		</ip>
+	</ip_preset>	
+	
 </ip_presets>

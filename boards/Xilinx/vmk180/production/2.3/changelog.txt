@@ -1,5 +1,7 @@
 ######### VMK180 change log ##############
 2.3 - 2021.2
+Added Board Flow Support For Versal GTs
+IPs : xxv_ethernet, l_ethernet and axi_ethernet
 Modified cips 3.0 preset for better readability
 Enabled Inter Processor Interrupts
 Enabled PS I2C on PMC_MIO 46 and 47 
