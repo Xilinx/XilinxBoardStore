@@ -5363,11 +5363,11 @@
         "name": "vck190",
         "display": "Versal VCK190 Evaluation Platform",
         "latest_revision": "2.3",
-        "commit_id": "18780740c681dadf43622a573ed064ea2e74d4cd",
+        "commit_id": "3ed3584701a70a559e4cb71ca9f5018888440fb5",
         "revisions": [
           {
             "revision": "2.3",
-            "commit_id": "18780740c681dadf43622a573ed064ea2e74d4cd",
+            "commit_id": "3ed3584701a70a559e4cb71ca9f5018888440fb5",
             "date": "08-06-2021:14:00:46",
             "history": "Added board Versal VCK190 Evaluation Platform v2.3"
           }
@@ -5401,11 +5401,11 @@
         "name": "vmk180",
         "display": "Versal VMK180 Evaluation Platform",
         "latest_revision": "2.3",
-        "commit_id": "18780740c681dadf43622a573ed064ea2e74d4cd",
+        "commit_id": "3ed3584701a70a559e4cb71ca9f5018888440fb5",
         "revisions": [
           {
             "revision": "2.3",
-            "commit_id": "18780740c681dadf43622a573ed064ea2e74d4cd",
+            "commit_id": "3ed3584701a70a559e4cb71ca9f5018888440fb5",
             "date": "08-06-2021:14:00:46",
             "history": "Added board Versal VMK180 Evaluation Platform v2.3"
           }
