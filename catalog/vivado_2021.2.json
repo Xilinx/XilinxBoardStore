@@ -5548,6 +5548,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
+      },
+      {
+        "name": "vpk120_es_revb",
+        "display": "Versal VPK120 ES1 Rev B01 Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "661299423f61672e2c416976f0f2adf55441550d",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "661299423f61672e2c416976f0f2adf55441550d",
+            "date": "12-11-2021:07:12:47",
+            "history": "Added board Versal VPK120 ES1 Rev B01 Evaluation Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vpk120_revb/es/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
       }
     ],
     "categories": [
