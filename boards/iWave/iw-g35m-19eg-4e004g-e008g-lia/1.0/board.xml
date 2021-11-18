@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<!-- ********************************************************************** -->
+<!-- 				    iWave Systems Technologies 				            -->
+<!-- ********************************************************************** -->
+<!-- SOM Supported	: iW-PRGBZ-R1.5											-->
+<!-- Date Created	: 07Sep2021												-->
+<!-- ********************************************************************** -->
+
+<board schema_version="2.1" vendor="iwavesystems.com" name="iW-G35-SOM" display_name="iW-G35M-19EG-4E004G-E008G-LIA" url="https://www.iwavesystems.com/product/zu19-zu17-zu11-zynq-ultrascale-mpsocsom" preset_file="preset.xml">
+	
+	<images>
+		<image display_name="iW-G35-SOM" name="iW-G35-SOM.jpeg" sub_type="board">
+			<description>iW-G35-SOM Image</description>
+		</image>
+	</images>
+
+	<compatible_board_revisions>
+		<revision id="0">1.5</revision>
+	</compatible_board_revisions>
+
+	<file_version>1.0</file_version>
+
+	<description>Zynq UltraScale+ MPSoC 19EG-1-I SOM, 4GB PS DDR4, Dual 4GB FPGA DDR4, 8GB eMMC Flash</description>
+
+	<parameters>
+		<parameter name="heat_sink_type" value_type="string" value="medium"/>
+		<parameter name="heat_sink_temperature" value_type="range" value_max="55.0" value_min="20.0"/>
+	</parameters>
+
+	<jumpers> </jumpers>
+
+	<components>
+	
+		<component display_name="Zynq chip on board" name="part0" vendor="xilinx" type="fpga" spec_url="https://www.iwavesystems.com/product/zu19-zu17-zu11-zynq-ultrascale-mpsocsom" pin_map_file="part0_pins.xml" part_name="xczu19eg-ffvc1760-1-i">
+			<description>FPGA part on the board</description>
+			<interfaces>
+			
+				<interface name="ps8_fixedio" type="xilinx.com:zynq_ultra_ps_e:fixedio_rtl:1.0" preset_proc="zynq_ultra_ps_e_preset" of_component="ps8_fixedio" mode="master">
+					<preferred_ips>
+						<preferred_ip name="zynq_ultra_ps_e" vendor="xilinx.com" order="0" library="ip"/>
+					</preferred_ips>
+				</interface>
+
+				<interface mode="master" name="ddr4_1" type="xilinx.com:interface:ddr4_rtl:1.0" of_component="ddr4_1" preset_proc="ddr4_sdram_preset">
+					<description>DDR4 board interface, it can use DDR4 controller IP for connection. </description>
+					<preferred_ips>
+						<preferred_ip vendor="xilinx.com" library="ip" name="ddr4" order="0"/>
+					</preferred_ips>
+					<port_maps>
+						<port_map logical_port="ACT_N" physical_port="ddr4_1_act_n" dir="out">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="ddr4_1_act_n"/>
+							</pin_maps>
+						</port_map>
+						<port_map logical_port="ADR" physical_port="ddr4_1_adr" dir="out" left="16" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="ddr4_1_adr0"/>
+								<pin_map port_index="1" component_pin="ddr4_1_adr1"/>
+								<pin_map port_index="2" component_pin="ddr4_1_adr2"/>
+								<pin_map port_index="3" component_pin="ddr4_1_adr3"/>
+								<pin_map port_index="4" component_pin="ddr4_1_adr4"/>
+								<pin_map port_index="5" component_pin="ddr4_1_adr5"/>
+								<pin_map port_index="6" component_pin="ddr4_1_adr6"/>
+								<pin_map port_index="7" component_pin="ddr4_1_adr7"/>
+								<pin_map port_index="8" component_pin="ddr4_1_adr8"/>
+								<pin_map port_index="9" component_pin="ddr4_1_adr9"/>
+								<pin_map port_index="10" component_pin="ddr4_1_adr10"/>
+								<pin_map port_index="11" component_pin="ddr4_1_adr11"/>
+								<pin_map port_index="12" component_pin="ddr4_1_adr12"/>
+								<pin_map port_index="13" component_pin="ddr4_1_adr13"/>
+								<pin_map port_index="14" component_pin="ddr4_1_adr14"/>
+								<pin_map port_index="15" component_pin="ddr4_1_adr15"/>
+								<pin_map port_index="16" component_pin="ddr4_1_adr16"/>
+							</pin_maps>
+						</port_map>
+						<port_map logical_port="BA" physical_port="ddr4_1_ba" dir="out" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="ddr4_1_ba0"/>
+								<pin_map port_index="1" component_pin="ddr4_1_ba1"/>
+							</pin_maps>
+						</port_map>
+						<port_map logical_port="BG" physical_port="ddr4_1_bg" dir="out">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="ddr4_1_bg"/>
+							</pin_maps>
+						</port_map>
+						<port_map logical_port="CK_C" physical_port="ddr4_1_ck_c" dir="out">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="ddr4_1_ck_c"/>
+							</pin_maps>
+						</port_map>
+						<port_map logical_port="CK_T" physical_port="ddr4_1_ck_t" dir="out">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="ddr4_1_ck_t"/>
+							</pin_maps>
+						</port_map>
+						<port_map logical_port="CKE" physical_port="ddr4_1_cke" dir="out">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="ddr4_1_cke"/>
+							</pin_maps>
+						</port_map>
+						<port_map logical_port="CS_N" physical_port="ddr4_1_cs_n" dir="out">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="ddr4_1_cs_n"/>
+							</pin_maps>
+						</port_map>
+						<port_map logical_port="DM_N" physical_port="ddr4_1_dm_n" dir="inout" left="7" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="ddr4_1_dm_n0"/>
+								<pin_map port_index="1" component_pin="ddr4_1_dm_n1"/>
+								<pin_map port_index="2" component_pin="ddr4_1_dm_n2"/>
+								<pin_map port_index="3" component_pin="ddr4_1_dm_n3"/>
+								<pin_map port_index="4" component_pin="ddr4_1_dm_n4"/>
+								<pin_map port_index="5" component_pin="ddr4_1_dm_n5"/>
+								<pin_map port_index="6" component_pin="ddr4_1_dm_n6"/>
+								<pin_map port_index="7" component_pin="ddr4_1_dm_n7"/>
+							</pin_maps>
+						</port_map>
+						<port_map logical_port="DQ" physical_port="ddr4_1_dq" dir="inout" left="63" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="ddr4_1_dq0"/>
+								<pin_map port_index="1" component_pin="ddr4_1_dq1"/>
+								<pin_map port_index="2" component_pin="ddr4_1_dq2"/>
+								<pin_map port_index="3" component_pin="ddr4_1_dq3"/>
+								<pin_map port_index="4" component_pin="ddr4_1_dq4"/>
+								<pin_map port_index="5" component_pin="ddr4_1_dq5"/>
+								<pin_map port_index="6" component_pin="ddr4_1_dq6"/>
+								<pin_map port_index="7" component_pin="ddr4_1_dq7"/>
+								<pin_map port_index="8" component_pin="ddr4_1_dq8"/>
+								<pin_map port_index="9" component_pin="ddr4_1_dq9"/>
+								<pin_map port_index="10" component_pin="ddr4_1_dq10"/>
+								<pin_map port_index="11" component_pin="ddr4_1_dq11"/>
+								<pin_map port_index="12" component_pin="ddr4_1_dq12"/>
+								<pin_map port_index="13" component_pin="ddr4_1_dq13"/>
+								<pin_map port_index="14" component_pin="ddr4_1_dq14"/>
+								<pin_map port_index="15" component_pin="ddr4_1_dq15"/>
+								<pin_map port_index="16" component_pin="ddr4_1_dq16"/>
+								<pin_map port_index="17" component_pin="ddr4_1_dq17"/>
+								<pin_map port_index="18" component_pin="ddr4_1_dq18"/>
+								<pin_map port_index="19" component_pin="ddr4_1_dq19"/>
+								<pin_map port_index="20" component_pin="ddr4_1_dq20"/>
+								<pin_map port_index="21" component_pin="ddr4_1_dq21"/>
+								<pin_map port_index="22" component_pin="ddr4_1_dq22"/>
+								<pin_map port_index="23" component_pin="ddr4_1_dq23"/>
+								<pin_map port_index="24" component_pin="ddr4_1_dq24"/>
+								<pin_map port_index="25" component_pin="ddr4_1_dq25"/>
+								<pin_map port_index="26" component_pin="ddr4_1_dq26"/>
+								<pin_map port_index="27" component_pin="ddr4_1_dq27"/>
+								<pin_map port_index="28" component_pin="ddr4_1_dq28"/>
+								<pin_map port_index="29" component_pin="ddr4_1_dq29"/>
+								<pin_map port_index="30" component_pin="ddr4_1_dq30"/>
+								<pin_map port_index="31" component_pin="ddr4_1_dq31"/>
+								<pin_map port_index="32" component_pin="ddr4_1_dq32"/>
+								<pin_map port_index="33" component_pin="ddr4_1_dq33"/>
+								<pin_map port_index="34" component_pin="ddr4_1_dq34"/>
+								<pin_map port_index="35" component_pin="ddr4_1_dq35"/>
+								<pin_map port_index="36" component_pin="ddr4_1_dq36"/>
+								<pin_map port_index="37" component_pin="ddr4_1_dq37"/>
+								<pin_map port_index="38" component_pin="ddr4_1_dq38"/>
+								<pin_map port_index="39" component_pin="ddr4_1_dq39"/>
+								<pin_map port_index="40" component_pin="ddr4_1_dq40"/>
+								<pin_map port_index="41" component_pin="ddr4_1_dq41"/>
+								<pin_map port_index="42" component_pin="ddr4_1_dq42"/>
+								<pin_map port_index="43" component_pin="ddr4_1_dq43"/>
+								<pin_map port_index="44" component_pin="ddr4_1_dq44"/>
+								<pin_map port_index="45" component_pin="ddr4_1_dq45"/>
+								<pin_map port_index="46" component_pin="ddr4_1_dq46"/>
+								<pin_map port_index="47" component_pin="ddr4_1_dq47"/>
+								<pin_map port_index="48" component_pin="ddr4_1_dq48"/>
+								<pin_map port_index="49" component_pin="ddr4_1_dq49"/>
+								<pin_map port_index="50" component_pin="ddr4_1_dq50"/>
+								<pin_map port_index="51" component_pin="ddr4_1_dq51"/>
+								<pin_map port_index="52" component_pin="ddr4_1_dq52"/>
+								<pin_map port_index="53" component_pin="ddr4_1_dq53"/>
+								<pin_map port_index="54" component_pin="ddr4_1_dq54"/>
+								<pin_map port_index="55" component_pin="ddr4_1_dq55"/>
+								<pin_map port_index="56" component_pin="ddr4_1_dq56"/>
+								<pin_map port_index="57" component_pin="ddr4_1_dq57"/>
+								<pin_map port_index="58" component_pin="ddr4_1_dq58"/>
+								<pin_map port_index="59" component_pin="ddr4_1_dq59"/>
+								<pin_map port_index="60" component_pin="ddr4_1_dq60"/>
+								<pin_map port_index="61" component_pin="ddr4_1_dq61"/>
+								<pin_map port_index="62" component_pin="ddr4_1_dq62"/>
+								<pin_map port_index="63" component_pin="ddr4_1_dq63"/>
+							</pin_maps>
+						</port_map>
+						<port_map logical_port="DQS_C" physical_port="ddr4_1_dqs_c" dir="inout" left="7" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="ddr4_1_dqs_c0"/>
+								<pin_map port_index="1" component_pin="ddr4_1_dqs_c1"/>
+								<pin_map port_index="2" component_pin="ddr4_1_dqs_c2"/>
+								<pin_map port_index="3" component_pin="ddr4_1_dqs_c3"/>
+								<pin_map port_index="4" component_pin="ddr4_1_dqs_c4"/>
+								<pin_map port_index="5" component_pin="ddr4_1_dqs_c5"/>
+								<pin_map port_index="6" component_pin="ddr4_1_dqs_c6"/>
+								<pin_map port_index="7" component_pin="ddr4_1_dqs_c7"/>
+							</pin_maps>
+						</port_map>
+						<port_map logical_port="DQS_T" physical_port="ddr4_1_dqs_t" dir="inout" left="7" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="ddr4_1_dqs_t0"/>
+								<pin_map port_index="1" component_pin="ddr4_1_dqs_t1"/>
+								<pin_map port_index="2" component_pin="ddr4_1_dqs_t2"/>
+								<pin_map port_index="3" component_pin="ddr4_1_dqs_t3"/>
+								<pin_map port_index="4" component_pin="ddr4_1_dqs_t4"/>
+								<pin_map port_index="5" component_pin="ddr4_1_dqs_t5"/>
+								<pin_map port_index="6" component_pin="ddr4_1_dqs_t6"/>
+								<pin_map port_index="7" component_pin="ddr4_1_dqs_t7"/>
+							</pin_maps>
+						</port_map>
+						<port_map logical_port="ODT" physical_port="ddr4_1_odt" dir="out">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="ddr4_1_odt"/>
+							</pin_maps>
+						</port_map>
+						<port_map logical_port="RESET_N" physical_port="ddr4_1_reset_n" dir="out">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="ddr4_1_reset_n"/>
+							</pin_maps>
+						</port_map>
+					</port_maps>
+				</interface>
+				
+				<interface mode="master" name="ddr4_2" type="xilinx.com:interface:ddr4_rtl:1.0" of_component="ddr4_2" preset_proc="ddr4_sdram_preset">
+					<description>DDR4 board interface, it can use DDR4 controller IP for connection. </description>
+					<preferred_ips>
+						<preferred_ip vendor="xilinx.com" library="ip" name="ddr4" order="0"/>
+					</preferred_ips>
+					<port_maps>
+						<port_map logical_port="ACT_N" physical_port="ddr4_2_act_n" dir="out">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="ddr4_2_act_n"/>
+							</pin_maps>
+						</port_map>
+						<port_map logical_port="ADR" physical_port="ddr4_2_adr" dir="out" left="16" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="ddr4_2_adr0"/>
+								<pin_map port_index="1" component_pin="ddr4_2_adr1"/>
+								<pin_map port_index="2" component_pin="ddr4_2_adr2"/>
+								<pin_map port_index="3" component_pin="ddr4_2_adr3"/>
+								<pin_map port_index="4" component_pin="ddr4_2_adr4"/>
+								<pin_map port_index="5" component_pin="ddr4_2_adr5"/>
+								<pin_map port_index="6" component_pin="ddr4_2_adr6"/>
+								<pin_map port_index="7" component_pin="ddr4_2_adr7"/>
+								<pin_map port_index="8" component_pin="ddr4_2_adr8"/>
+								<pin_map port_index="9" component_pin="ddr4_2_adr9"/>
+								<pin_map port_index="10" component_pin="ddr4_2_adr10"/>
+								<pin_map port_index="11" component_pin="ddr4_2_adr11"/>
+								<pin_map port_index="12" component_pin="ddr4_2_adr12"/>
+								<pin_map port_index="13" component_pin="ddr4_2_adr13"/>
+								<pin_map port_index="14" component_pin="ddr4_2_adr14"/>
+								<pin_map port_index="15" component_pin="ddr4_2_adr15"/>
+								<pin_map port_index="16" component_pin="ddr4_2_adr16"/>
+							</pin_maps>
+						</port_map>
+						<port_map logical_port="BA" physical_port="ddr4_2_ba" dir="out" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="ddr4_2_ba0"/>
+								<pin_map port_index="1" component_pin="ddr4_2_ba1"/>
+							</pin_maps>
+						</port_map>
+						<port_map logical_port="BG" physical_port="ddr4_2_bg" dir="out">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="ddr4_2_bg"/>
+							</pin_maps>
+						</port_map>
+						<port_map logical_port="CK_C" physical_port="ddr4_2_ck_c" dir="out">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="ddr4_2_ck_c"/>
+							</pin_maps>
+						</port_map>
+						<port_map logical_port="CK_T" physical_port="ddr4_2_ck_t" dir="out">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="ddr4_2_ck_t"/>
+							</pin_maps>
+						</port_map>
+						<port_map logical_port="CKE" physical_port="ddr4_2_cke" dir="out">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="ddr4_2_cke"/>
+							</pin_maps>
+						</port_map>
+						<port_map logical_port="CS_N" physical_port="ddr4_2_cs_n" dir="out">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="ddr4_2_cs_n"/>
+							</pin_maps>
+						</port_map>
+						<port_map logical_port="DM_N" physical_port="ddr4_2_dm_n" dir="inout" left="7" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="ddr4_2_dm_n0"/>
+								<pin_map port_index="1" component_pin="ddr4_2_dm_n1"/>
+								<pin_map port_index="2" component_pin="ddr4_2_dm_n2"/>
+								<pin_map port_index="3" component_pin="ddr4_2_dm_n3"/>
+								<pin_map port_index="4" component_pin="ddr4_2_dm_n4"/>
+								<pin_map port_index="5" component_pin="ddr4_2_dm_n5"/>
+								<pin_map port_index="6" component_pin="ddr4_2_dm_n6"/>
+								<pin_map port_index="7" component_pin="ddr4_2_dm_n7"/>
+							</pin_maps>
+						</port_map>
+						<port_map logical_port="DQ" physical_port="ddr4_2_dq" dir="inout" left="63" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="ddr4_2_dq0"/>
+								<pin_map port_index="1" component_pin="ddr4_2_dq1"/>
+								<pin_map port_index="2" component_pin="ddr4_2_dq2"/>
+								<pin_map port_index="3" component_pin="ddr4_2_dq3"/>
+								<pin_map port_index="4" component_pin="ddr4_2_dq4"/>
+								<pin_map port_index="5" component_pin="ddr4_2_dq5"/>
+								<pin_map port_index="6" component_pin="ddr4_2_dq6"/>
+								<pin_map port_index="7" component_pin="ddr4_2_dq7"/>
+								<pin_map port_index="8" component_pin="ddr4_2_dq8"/>
+								<pin_map port_index="9" component_pin="ddr4_2_dq9"/>
+								<pin_map port_index="10" component_pin="ddr4_2_dq10"/>
+								<pin_map port_index="11" component_pin="ddr4_2_dq11"/>
+								<pin_map port_index="12" component_pin="ddr4_2_dq12"/>
+								<pin_map port_index="13" component_pin="ddr4_2_dq13"/>
+								<pin_map port_index="14" component_pin="ddr4_2_dq14"/>
+								<pin_map port_index="15" component_pin="ddr4_2_dq15"/>
+								<pin_map port_index="16" component_pin="ddr4_2_dq16"/>
+								<pin_map port_index="17" component_pin="ddr4_2_dq17"/>
+								<pin_map port_index="18" component_pin="ddr4_2_dq18"/>
+								<pin_map port_index="19" component_pin="ddr4_2_dq19"/>
+								<pin_map port_index="20" component_pin="ddr4_2_dq20"/>
+								<pin_map port_index="21" component_pin="ddr4_2_dq21"/>
+								<pin_map port_index="22" component_pin="ddr4_2_dq22"/>
+								<pin_map port_index="23" component_pin="ddr4_2_dq23"/>
+								<pin_map port_index="24" component_pin="ddr4_2_dq24"/>
+								<pin_map port_index="25" component_pin="ddr4_2_dq25"/>
+								<pin_map port_index="26" component_pin="ddr4_2_dq26"/>
+								<pin_map port_index="27" component_pin="ddr4_2_dq27"/>
+								<pin_map port_index="28" component_pin="ddr4_2_dq28"/>
+								<pin_map port_index="29" component_pin="ddr4_2_dq29"/>
+								<pin_map port_index="30" component_pin="ddr4_2_dq30"/>
+								<pin_map port_index="31" component_pin="ddr4_2_dq31"/>
+								<pin_map port_index="32" component_pin="ddr4_2_dq32"/>
+								<pin_map port_index="33" component_pin="ddr4_2_dq33"/>
+								<pin_map port_index="34" component_pin="ddr4_2_dq34"/>
+								<pin_map port_index="35" component_pin="ddr4_2_dq35"/>
+								<pin_map port_index="36" component_pin="ddr4_2_dq36"/>
+								<pin_map port_index="37" component_pin="ddr4_2_dq37"/>
+								<pin_map port_index="38" component_pin="ddr4_2_dq38"/>
+								<pin_map port_index="39" component_pin="ddr4_2_dq39"/>
+								<pin_map port_index="40" component_pin="ddr4_2_dq40"/>
+								<pin_map port_index="41" component_pin="ddr4_2_dq41"/>
+								<pin_map port_index="42" component_pin="ddr4_2_dq42"/>
+								<pin_map port_index="43" component_pin="ddr4_2_dq43"/>
+								<pin_map port_index="44" component_pin="ddr4_2_dq44"/>
+								<pin_map port_index="45" component_pin="ddr4_2_dq45"/>
+								<pin_map port_index="46" component_pin="ddr4_2_dq46"/>
+								<pin_map port_index="47" component_pin="ddr4_2_dq47"/>
+								<pin_map port_index="48" component_pin="ddr4_2_dq48"/>
+								<pin_map port_index="49" component_pin="ddr4_2_dq49"/>
+								<pin_map port_index="50" component_pin="ddr4_2_dq50"/>
+								<pin_map port_index="51" component_pin="ddr4_2_dq51"/>
+								<pin_map port_index="52" component_pin="ddr4_2_dq52"/>
+								<pin_map port_index="53" component_pin="ddr4_2_dq53"/>
+								<pin_map port_index="54" component_pin="ddr4_2_dq54"/>
+								<pin_map port_index="55" component_pin="ddr4_2_dq55"/>
+								<pin_map port_index="56" component_pin="ddr4_2_dq56"/>
+								<pin_map port_index="57" component_pin="ddr4_2_dq57"/>
+								<pin_map port_index="58" component_pin="ddr4_2_dq58"/>
+								<pin_map port_index="59" component_pin="ddr4_2_dq59"/>
+								<pin_map port_index="60" component_pin="ddr4_2_dq60"/>
+								<pin_map port_index="61" component_pin="ddr4_2_dq61"/>
+								<pin_map port_index="62" component_pin="ddr4_2_dq62"/>
+								<pin_map port_index="63" component_pin="ddr4_2_dq63"/>
+							</pin_maps>
+						</port_map>
+						<port_map logical_port="DQS_C" physical_port="ddr4_2_dqs_c" dir="inout" left="7" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="ddr4_2_dqs_c0"/>
+								<pin_map port_index="1" component_pin="ddr4_2_dqs_c1"/>
+								<pin_map port_index="2" component_pin="ddr4_2_dqs_c2"/>
+								<pin_map port_index="3" component_pin="ddr4_2_dqs_c3"/>
+								<pin_map port_index="4" component_pin="ddr4_2_dqs_c4"/>
+								<pin_map port_index="5" component_pin="ddr4_2_dqs_c5"/>
+								<pin_map port_index="6" component_pin="ddr4_2_dqs_c6"/>
+								<pin_map port_index="7" component_pin="ddr4_2_dqs_c7"/>
+							</pin_maps>
+						</port_map>
+						<port_map logical_port="DQS_T" physical_port="ddr4_2_dqs_t" dir="inout" left="7" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="ddr4_2_dqs_t0"/>
+								<pin_map port_index="1" component_pin="ddr4_2_dqs_t1"/>
+								<pin_map port_index="2" component_pin="ddr4_2_dqs_t2"/>
+								<pin_map port_index="3" component_pin="ddr4_2_dqs_t3"/>
+								<pin_map port_index="4" component_pin="ddr4_2_dqs_t4"/>
+								<pin_map port_index="5" component_pin="ddr4_2_dqs_t5"/>
+								<pin_map port_index="6" component_pin="ddr4_2_dqs_t6"/>
+								<pin_map port_index="7" component_pin="ddr4_2_dqs_t7"/>
+							</pin_maps>
+						</port_map>
+						<port_map logical_port="ODT" physical_port="ddr4_2_odt" dir="out">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="ddr4_2_odt"/>
+							</pin_maps>
+						</port_map>
+						<port_map logical_port="RESET_N" physical_port="ddr4_2_reset_n" dir="out">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="ddr4_2_reset_n"/>
+							</pin_maps>
+						</port_map>
+					</port_maps>
+				</interface>
+
+				<interface mode="slave" name="ddr4_1_sysclk" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="ddr4_1_sysclk">
+					<parameters>
+						<parameter name="frequency" value="300000000"/>
+					</parameters>
+					<preferred_ips>
+						<preferred_ip name="clk_wiz" vendor="xilinx.com" order="0" library="ip"/>
+					</preferred_ips>
+					<port_maps>
+						<port_map logical_port="CLK_P" physical_port="ddr4_1_sysclk_p" dir="in">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="ddr4_1_sysclk_clk_p"/>
+							</pin_maps>
+							</port_map>
+							<port_map logical_port="CLK_N" physical_port="ddr4_1_sysclk_n" dir="in">
+								<pin_maps>
+									<pin_map port_index="0" component_pin="ddr4_1_sysclk_clk_n"/>
+								</pin_maps>
+							</port_map>
+					</port_maps>
+				</interface>
+				
+				<interface mode="slave" name="ddr4_2_sysclk" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="ddr4_2_sysclk">
+					<parameters>
+						<parameter name="frequency" value="300000000"/>
+					</parameters>
+					<preferred_ips>
+						<preferred_ip name="clk_wiz" vendor="xilinx.com" order="0" library="ip"/>
+					</preferred_ips>
+					<port_maps>
+						<port_map logical_port="CLK_P" physical_port="ddr4_2_sysclk_p" dir="in">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="ddr4_2_sysclk_clk_p"/>
+							</pin_maps>
+							</port_map>
+							<port_map logical_port="CLK_N" physical_port="ddr4_2_sysclk_n" dir="in">
+								<pin_maps>
+									<pin_map port_index="0" component_pin="ddr4_2_sysclk_clk_n"/>
+								</pin_maps>
+							</port_map>
+					</port_maps>
+				</interface>
+			
+			</interfaces>
+		</component>
+
+		<component display_name="PS8 fixed IO" name="ps8_fixedio" sub_type="fixed_io" type="chip" major_group=""/>
+
+		<component name="ddr4_1" display_name="DDR4 SDRAM 1" type="chip" sub_type="ddr" major_group="External Memory" part_name="MT40A512M16LY-062E ITE" vendor="Micron" spec_url="https://in.micron.com/products/dram/ddr4-sdram/part-catalog/mt40a512m16ly-062e-it">
+			<description>4GB FPGA DDR4 1</description>
+			<parameters>
+				<parameter name="ddr_type" value="ddr4"/>
+				<parameter name="size" value="4GB"/>
+			</parameters>
+		</component>
+		
+		<component name="ddr4_1_sysclk" display_name="DDR4 1 Reference Clock" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="XUL510300.000000I" vendor="Renesas" spec_url="https://www.renesas.com/us/en/document/dst/xu-family-low-phase-noise-quartz-based-pll-oscillators-datasheet">
+			<description>FPGA DDR4 1 Reference Clock</description>
+			<parameters>
+				<parameter name="frequency" value="300000000"/>
+			</parameters>
+		</component>
+		
+		<component name="ddr4_2" display_name="DDR4 SDRAM 2" type="chip" sub_type="ddr" major_group="External Memory" part_name="MT40A512M16LY-062E ITE" vendor="Micron" spec_url="https://in.micron.com/products/dram/ddr4-sdram/part-catalog/mt40a512m16ly-062e-it">
+			<description>4GB FPGA DDR4 2</description>
+			<parameters>
+				<parameter name="ddr_type" value="ddr4"/>
+				<parameter name="size" value="4GB"/>
+			</parameters>
+		</component>
+		
+		<component name="ddr4_2_sysclk" display_name="DDR4 2 Reference Clock" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="XUL510300.000000I" vendor="Renesas" spec_url="https://www.renesas.com/us/en/document/dst/xu-family-low-phase-noise-quartz-based-pll-oscillators-datasheet">
+			<description>FPGA DDR4 2 Reference Clock</description>
+			<parameters>
+				<parameter name="frequency" value="300000000"/>
+			</parameters>
+		</component>
+	
+	</components>
+
+	<jtag_chains>
+		<jtag_chain name="chain1">
+			<position name="0" component="part0"/>
+		</jtag_chain>
+	</jtag_chains>
+
+	<connections>
+
+	</connections>
+
+	<ip_associated_rules>
+		<ip_associated_rule name="default">
+		    <ip vendor="xilinx.com" library="ip" name="ddr4" version="*" ip_interface="C0_SYS_CLK">
+				<associated_board_interfaces>
+					<associated_board_interface name="ddr4_1_sysclk" order="0"/> 
+					<associated_board_interface name="ddr4_2_sysclk" order="1"/> 
+				</associated_board_interfaces>
+			</ip>
+		</ip_associated_rule>
+	</ip_associated_rules>
+
+</board>
