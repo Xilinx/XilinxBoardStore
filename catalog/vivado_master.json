@@ -5567,6 +5567,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
+      },
+      {
+        "name": "iW-G35M-19EG-4E004G-E008G-LIA",
+        "display": "iW-G35M-19EG-4E004G-E008G-LIA",
+        "latest_revision": "1.5",
+        "commit_id": "90d03d16071706b6d652b956e3cec754031f4ab5",
+        "revisions": [
+          {
+            "revision": "1.5",
+            "commit_id": "90d03d16071706b6d652b956e3cec754031f4ab5",
+            "date": "25-11-2021:17:01:21",
+            "history": "Added board iW-G35M-19EG-4E004G-E008G-LIA v1.5"
+          }
+        ],
+        "config": {
+          "root": "boards/iWave/iw-g35m-19eg-4e004g-e008g-lia/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "iwavesystems.com"
       }
     ],
     "categories": [
