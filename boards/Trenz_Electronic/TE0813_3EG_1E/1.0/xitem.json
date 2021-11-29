@@ -1,0 +1,35 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "te0813_3eg_1e",
+          "display": "TE0813-*-3BE11-A (2GB DDR). *SPRT PCB: REV01",
+          "revision": "1.0",
+          "description": "Zynq UltraScale+ MPSoC TE0813-*-3BE11-A (2GB DDR) Board (form factor 5.2x7.6 cm) with 4x 512 MByte DDR4, speed grade -1 and extended temperature range. *Supported PCB Revisions: REV01. Board Part is only with minimum PS-Setup. Use for own carrier or simple SDK debugging. User must configure B2B MIOs manually, depending on his carrier board connection. Without user PS configuration only JTAG and QSPI boot is possible with this board part file.",
+          "company": "trenz.biz",
+          "company_display": "Trenz Electronic GmbH",
+          "author": "trenz.biz",
+          "contributors": [
+            {
+              "group": "Trenz Electronic GmbH",
+              "url": "https://www.trenz-electronic.de/"
+            }
+          ],
+          "category": "uncategorized",
+          "website": "trenz.org/te0813-info",
+          "logo": "te0813_board.png",
+          "search-keywords": [
+            "te0813_3eg_1e",
+            "trenz.biz",
+            "board",
+            "uncategorized",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

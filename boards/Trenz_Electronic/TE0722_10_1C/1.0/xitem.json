@@ -1,0 +1,35 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "te0722_10_1C",
+          "display": "TE0722-* (0GB DDR). *SPRT PCB: REV02, REV01",
+          "revision": "1.0",
+          "description": "Zynq-7000 TE0722-* (0GB DDR) Board (form factor 1.8 x 5.1 cm) without DDR, speed grade -1 and commercial temperature range. *Supported PCB Revisions: REV02,REV1. Note: Primary boot device is QSPI, SD can be used as secondary boot device only. DDR less Zynq need a modified FSBL!",
+          "company": "trenz.biz",
+          "company_display": "Trenz Electronic GmbH",
+          "author": "trenz.biz",
+          "contributors": [
+            {
+              "group": "Trenz Electronic GmbH",
+              "url": "https://www.trenz-electronic.de/"
+            }
+          ],
+          "category": "Zynq-7000/Standalone Module",
+          "website": "trenz.org/te0722-info",
+          "logo": "te0722_board.png",
+          "search-keywords": [
+            "te0722_10_1C",
+            "trenz.biz",
+            "board",
+            "Zynq-7000/Standalone Module",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

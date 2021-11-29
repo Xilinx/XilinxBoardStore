@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
 <!-- ##################################################################### -->
 <!-- ##TE File Version:1.2-->
-<!-- ##Vivado Version:2019.2-->
-<!-- ##TE Last Modification:2020.06.17-->
+<!-- ##Vivado Version:2020.2-->
+<!-- ##TE Last Modification:2021.11.18-->
 <!-- ##################################################################### -->
 <!-- ##general board part description-->
 <!-- ##Info: board part name: board_vendor:board_name:part0:file_version  , use all lower case-->
-<board schema_version="2.1" vendor="trenz.biz" name="te0713_200_2c" display_name="Artix-7 TE0713-*-200-2C (1GB DDR) *SPRT PCB: REV02, REV01" url="wiki.trenz-electronic.de" preset_file="preset.xml">
+<board schema_version="2.1" vendor="trenz.biz" name="te0713_200_2c" display_name="TE0713-*-200-2C (1GB DDR) *SPRT PCB: REV02, REV01" url="trenz.org/te0713-info" preset_file="preset.xml">
   <images>
     <image name="te0713_board.png" display_name="PCB Series Name" sub_type="board">
       <description>PCB Series Name Board File Image</description>
@@ -32,7 +32,7 @@
 <!-- ##set display_name and correct part_name for fpga-->
 <!-- ##add part interfaces and corresponding component here -->
   <components>
-    <component name="part0" display_name="Artix-7 TE0713_200_2C" type="fpga" part_name="xc7a200tfbg484-2" pin_map_file="part0_pins.xml" vendor="xilinx.com" spec_url="www.xilinx.com">
+    <component name="part0" display_name="TE0713_200_2C" type="fpga" part_name="xc7a200tfbg484-2" pin_map_file="part0_pins.xml" vendor="xilinx.com" spec_url="www.xilinx.com">
       <description>FPGA part on the board</description>
       <interfaces>
         <!--insert fpga interfaces here, see ug895 or other board part files-->
@@ -321,10 +321,9 @@
   </connections>
 <!-- ##################################################################### -->
 <!-- ##Additional IO interface rules-->
-  <ip_associated_rules>
-    <ip_associated_rule name="default">
-      <!--insert interface ip rules here, see ug895 or other board part files-->
-    </ip_associated_rule>
-  </ip_associated_rules>
+  <!-- <ip_associated_rules> -->
+    <!-- <ip_associated_rule name="default"> -->
+    <!-- </ip_associated_rule> -->
+  <!-- </ip_associated_rules> -->
 <!-- ##################################################################### -->
 </board>

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
 <!-- ##################################################################### -->
 <!-- ##TE File Version:1.0-->
-<!-- ##TE Last Modification:2020.04.02-->
+<!-- ##TE Last Modification:2021.04.14-->
 <!-- ##################################################################### -->
 <!-- ## replace part_name with correct FPGA PART from board.xml-->
 <part_info part_name="xczu4eg-sfvc784-2-e">
   <pins>
-    <!--insert ip pin settings and locations here, see ug895 or other board part files-->
+		<!-- ## dummy pin is need otherwhise linder test will failed -->
+		<pin index="0" name="dummy"  loc="W8"/>
   </pins>
 </part_info>

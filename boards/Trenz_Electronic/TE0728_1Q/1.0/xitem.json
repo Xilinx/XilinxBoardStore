@@ -1,0 +1,35 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "te0728_1q",
+          "display": "TE0728-*-1Q (512MB DDR). SPRT PCB: REV03, REV02, REV01.",
+          "revision": "1.0",
+          "description": "Zynq-7000 Automotive TE0728-*-1Q (512MB DDR) Board (form factor 6x6cm) with 512Mbyte DDR3, two 100Mbit Ethernet, speed grade -1 and expanded temperature grade. Attention: MIO Bank1 Voltage Carrier Board depends. Please set correct PS Settings (default 3.3V). Supported PCB Revisions: REV03, REV02, REV01.",
+          "company": "trenz.biz",
+          "company_display": "Trenz Electronic GmbH",
+          "author": "trenz.biz",
+          "contributors": [
+            {
+              "group": "Trenz Electronic GmbH",
+              "url": "https://www.trenz-electronic.de/"
+            }
+          ],
+          "category": "Zynq-7000/Module",
+          "website": "trenz.org/te0728-info",
+          "logo": "te0728_board.png",
+          "search-keywords": [
+            "te0728_1q",
+            "trenz.biz",
+            "board",
+            "Zynq-7000/Module",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

@@ -6,6 +6,7 @@
 <!-- ## replace part_name with correct FPGA PART from board.xml-->
 <part_info part_name="xczu4cg-fbvb900-1-i">
   <pins>
-    <!--insert ip pin settings and locations here, see ug895 or other board part files-->
+		<!-- ## dummy pin is need otherwhise linder test will failed -->
+		<pin index="0" name="dummy"  loc="AB13"/>
   </pins>
 </part_info>

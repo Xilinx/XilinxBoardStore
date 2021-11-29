@@ -1,0 +1,35 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "te0720_20_1q",
+          "display": "TE0720-*-61Q33ML/-61Q33MAY/-61Q33MA/-1QFY/-61Q33FA/-61Q33FL/-61Q86KL/-1QFL/1QFA/1QF (1GB DDR). SPRT PCB: REV02, REV03",
+          "revision": "1.0",
+          "description": "Zynq-7000 TE0720-*-61Q33ML/-61Q33MAY/-61Q33MA/-1QFY/-61Q33FA/-61Q33FL/-61Q86KL/-1QFL/1QFA/1QF (1GB DDR) Board (form factor 4x5 cm) with 1GB DDR, 1GBit Ethernet, Speed Grade -1 and expanded temperature grade (automotive). Supported PCB Revisions: REV02, REV03.",
+          "company": "trenz.biz",
+          "company_display": "Trenz Electronic GmbH",
+          "author": "trenz.biz",
+          "contributors": [
+            {
+              "group": "Trenz Electronic GmbH",
+              "url": "https://www.trenz-electronic.de/"
+            }
+          ],
+          "category": "Zynq-7000/Module",
+          "website": "trenz.org/te0720-info",
+          "logo": "te0720_board.png",
+          "search-keywords": [
+            "te0720_20_1q",
+            "trenz.biz",
+            "board",
+            "Zynq-7000/Module",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

@@ -1,0 +1,35 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "te0726_10_1c",
+          "display": "TE0726-*-41C64-A/-M (512MB DDR). *SPRT PCB: REV03, REV02.",
+          "revision": "3.1",
+          "description": "Zynq-7000 TE0726-*-41C64-A/-M  ZynqBerry Board (form factor like RPI2) with 512MB Memory and 100MBit Ethernet, speed grade -1 and commercial temperature range. *Supported PCB Revisions: REV03 and REV02. Note: primary boot device is QSPI, SD can be used as secondary boot device only.",
+          "company": "trenz.biz",
+          "company_display": "Trenz Electronic GmbH",
+          "author": "trenz.biz",
+          "contributors": [
+            {
+              "group": "Trenz Electronic GmbH",
+              "url": "https://www.trenz-electronic.de/"
+            }
+          ],
+          "category": "Zynq-7000/Standalone Module",
+          "website": "trenz.org/te0726-info",
+          "logo": "te0726_board.png",
+          "search-keywords": [
+            "te0726_10_1c",
+            "trenz.biz",
+            "board",
+            "Zynq-7000/Standalone Module",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}
