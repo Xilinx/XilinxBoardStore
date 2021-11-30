@@ -1,0 +1,35 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "te0720_14s_1c",
+          "display": "TE0720-*-31C33FA/-14S-1C/-31C33MA (1GB DDR). *SPRT PCB: REV02, REV03",
+          "revision": "1.0",
+          "description": "Zynq-7000S TE0720-*-31C33FA/-14S-1C/-31C33MA (1GB DDR) Board (form factor 4x5 cm) with 1GByte DDR3, 1GBit Ethernet, Speed Grade -1 and commercial temperature grade. *Supported PCB Revisions: REV02, REV03.",
+          "company": "trenz.biz",
+          "company_display": "Trenz Electronic GmbH",
+          "author": "trenz.biz",
+          "contributors": [
+            {
+              "group": "Trenz Electronic GmbH",
+              "url": "https://www.trenz-electronic.de/"
+            }
+          ],
+          "category": "Zynq-7000/Module",
+          "website": "trenz.org/te0720-info",
+          "logo": "te0720_board.png",
+          "search-keywords": [
+            "te0720_14s_1c",
+            "trenz.biz",
+            "board",
+            "Zynq-7000/Module",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

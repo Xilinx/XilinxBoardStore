@@ -1,0 +1,35 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "te0720_20_2i",
+          "display": "TE0720-*-62I33NA/-62I33ML/-62I33MAY/-62I33MAN/-62I33MA/-62I33GA/-62I33FL/-62I33FA/-62I330M/-62I320M/-62I12GA/-2IFA/-2IFC8/-2IFC3/-2IF (1GB DDR). *SPRT PCB: REV02, REV03",
+          "revision": "1.0",
+          "description": "Zynq-7000 TE0720-*-62I33NA/-62I33ML/-62I33MAY/-62I33MAN/-62I33MA/-62I33GA/-62I33FL/-62I33FA/-62I330M/-62I320M/-62I12GA/-2IFA/-2IFC8/-2IFC3/-2IF (1GB DDR) Board (form factor 4x5 cm) with 1GB DDR, 1GBit Ethernet, Speed Grade -2 and industrial temperature grade. *Supported PCB Revisions: REV02, REV03.",
+          "company": "trenz.biz",
+          "company_display": "Trenz Electronic GmbH",
+          "author": "trenz.biz",
+          "contributors": [
+            {
+              "group": "Trenz Electronic GmbH",
+              "url": "https://www.trenz-electronic.de/"
+            }
+          ],
+          "category": "Zynq-7000/Module",
+          "website": "trenz.org/te0720-info",
+          "logo": "te0720_board.png",
+          "search-keywords": [
+            "te0720_20_2i",
+            "trenz.biz",
+            "board",
+            "Zynq-7000/Module",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

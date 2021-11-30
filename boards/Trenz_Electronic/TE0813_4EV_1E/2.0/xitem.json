@@ -1,0 +1,35 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "te0813_4ev_1e_tebf0808",
+          "display": "TE0813-*-4DE11-A (2GB DDR) with TEBF0818. *SPRT PCB: REV01",
+          "revision": "2.0",
+          "description": "Zynq UltraScale+ MPSoC TE0813-*-4DE11-A (2GB DDR) Board (form factor 5.2x7.6 cm) with 4x 512 MByte DDR4, speed grade -1 and extended temperature range. *Supported PCB Revisions: REV01. Board Part is for usage with carrier-board TEBF0818.",
+          "company": "trenz.biz",
+          "company_display": "Trenz Electronic GmbH",
+          "author": "trenz.biz",
+          "contributors": [
+            {
+              "group": "Trenz Electronic GmbH",
+              "url": "https://www.trenz-electronic.de/"
+            }
+          ],
+          "category": "Zynq UltraScale+ MPSoC/Module",
+          "website": "trenz.org/te0813-info",
+          "logo": "te0813_starterkit.png",
+          "search-keywords": [
+            "te0813_4ev_1e_tebf0808",
+            "trenz.biz",
+            "board",
+            "Zynq UltraScale+ MPSoC/Module",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
 <!-- ##################################################################### -->
 <!-- ##TE File Version:1.2-->
-<!-- ##Vivado Version:2019.2-->
-<!-- ##TE Last Modification:2020.08.11-->
+<!-- ##Vivado Version:2020.2-->
+<!-- ##TE Last Modification:2021.05.26-->
 <!-- ##################################################################### -->
 <!-- ##general board part description-->
 <!-- ##Info: board part name: board_vendor:board_name:part0:file_version  , use all lower case-->
-<board schema_version="2.1" vendor="trenz.biz" name="te0741_325_2c" display_name="Kintex-7 TE0741-*-325-2CF. *SPRT PCB: REV03, REV02" url="trenz.org/te0741-info" preset_file="preset.xml">
+<board schema_version="2.1" vendor="trenz.biz" name="te0741_325_2c" display_name="TE0741-*-325-2CF. *SPRT PCB: REV03, REV02" url="trenz.org/te0741-info" preset_file="preset.xml">
   <images>
     <image name="te0741_board.png" display_name="TE0741 BOARD" sub_type="board">
       <description>TE0741 Board File Image</description>
@@ -32,7 +32,7 @@
 <!-- ##set display_name and correct part_name for fpga-->
 <!-- ##add part interfaces and corresponding component here -->
   <components>
-    <component name="part0" display_name="Kintex-7 TE0741" type="fpga" part_name="xc7k325tfbg676-2" pin_map_file="part0_pins.xml" vendor="xilinx.com" spec_url="www.xilinx.com">
+    <component name="part0" display_name="TE0741" type="fpga" part_name="xc7k325tfbg676-2" pin_map_file="part0_pins.xml" vendor="xilinx.com" spec_url="www.xilinx.com">
       <description>FPGA part on the board</description>
       <interfaces>
         <!--insert fpga interfaces here, see ug895 or other board part files-->
@@ -1595,10 +1595,9 @@
   </connections>
 <!-- ##################################################################### -->
 <!-- ##Additional IO interface rules-->
-  <ip_associated_rules>
-    <!--insert interface ip rules here, see ug895 or other board part files-->
-    <ip_associated_rule name="default">
-    </ip_associated_rule>
-  </ip_associated_rules>
+  <!-- <ip_associated_rules> -->
+    <!-- <ip_associated_rule name="default"> -->
+    <!-- </ip_associated_rule> -->
+  <!-- </ip_associated_rules> -->
 <!-- ##################################################################### -->
 </board>

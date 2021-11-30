@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
 <!-- ##################################################################### -->
 <!-- ##TE File Version:1.2-->
-<!-- ##Vivado Version:2019.2-->
-<!-- ##TE Last Modification:2020.12.16-->
+<!-- ##Vivado Version:2020.2-->
+<!-- ##TE Last Modification:2021.04.22-->
 <!-- ##################################################################### -->
 <!-- ##general board part description-->
 <!-- ##Info: board part name: board_vendor:board_name:part0:file_version  , use all lower case-->
-<board schema_version="2.1" vendor="trenz.biz" name="te0715_12s_1c" display_name="ZYNQ-7S TE0715-*-12S-1C/-12S-1CC (1GB DDR). *SPRT PCB: REV04" url="trenz.org/te0715-info" preset_file="preset.xml">
+<board schema_version="2.1" vendor="trenz.biz" name="te0715_12s_1c" display_name="TE0715-*-21C33-A/-12S-1C (1GB DDR). *SPRT PCB: REV04" url="trenz.org/te0715-info" preset_file="preset.xml">
   <images>
-    <image name="te0715_board.png" display_name="ZYNQ-7 TE0715 BOARD" sub_type="board">
-      <description>ZYNQ-7 TE0715 Board File Image</description>
+    <image name="te0715_board.png" display_name="TE0715 BOARD" sub_type="board">
+      <description>TE0715 Board File Image</description>
     </image>
   </images>
 <!-- ##################################################################### -->
@@ -25,13 +25,13 @@
   <file_version>1.1</file_version>
 <!-- ##################################################################### -->
 <!-- ##Board descriptions -->
-  <description>ZYNQ-7S TE0715-*-12S-1C/-12S-1CC (1GB DDR Board (form factor 4x5cm) with single ARM Cortex-A9, 1GB Low Power DDR3, 1GBit Ethernet, speed grade -1 and commercial temperature grade. *Supported PCB Revisions: REV04.</description>
+  <description>Zynq-7000S TE0715-*-21C33-A/-12S-1C (1GB DDR Board (form factor 4x5cm) with single ARM Cortex-A9, 1GB Low Power DDR3, 1GBit Ethernet, speed grade -1 and commercial temperature grade. *Supported PCB Revisions: REV04.</description>
 <!-- ##################################################################### -->
 <!-- ##Board components. Special component part0=fpga -->
 <!-- ##set display_name and correct part_name for fpga-->
 <!-- ##add part interfaces and corresponding component here -->
   <components>
-    <component name="part0" display_name="ZYNQ-7 TE0715_12S" type="fpga" part_name="xc7z012sclg485-1" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="www.xilinx.com">
+    <component name="part0" display_name="TE0715_12S" type="fpga" part_name="xc7z012sclg485-1" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="www.xilinx.com">
       <description>FPGA part on the board</description>
       <interfaces>
         <!--insert fpga interfaces here, see ug895 or other board part files-->
@@ -1079,10 +1079,9 @@
   </connections>
 <!-- ##################################################################### -->
 <!-- ##Additional IO interface rules-->
-  <ip_associated_rules>
-    <ip_associated_rule name="default">
-      <!--insert interface ip rules here, see ug895 or other board part files-->
-    </ip_associated_rule>
-  </ip_associated_rules>
+  <!-- <ip_associated_rules> -->
+    <!-- <ip_associated_rule name="default"> -->
+    <!-- </ip_associated_rule> -->
+  <!-- </ip_associated_rules> -->
 <!-- ##################################################################### -->
 </board>
