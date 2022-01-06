@@ -5531,25 +5531,6 @@
         "company": "xilinx.com"
       },
       {
-        "name": "zcu670",
-        "display": "Zynq UltraScale+ ZCU670 Evaluation Platform",
-        "latest_revision": "1.0",
-        "commit_id": "278ba0922864f07032aaeeb133841e5a00f57333",
-        "revisions": [
-          {
-            "revision": "1.0",
-            "commit_id": "278ba0922864f07032aaeeb133841e5a00f57333",
-            "date": "08-10-2021:08:22:55",
-            "history": "Added board Zynq UltraScale+ ZCU670 Evaluation Platform v1.0"
-          }
-        ],
-        "config": {
-          "root": "boards/Xilinx/zcu670/1.0",
-          "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
-      },
-      {
         "name": "vpk120_es_revb",
         "display": "Versal VPK120 ES1 Rev B01 Evaluation Platform",
         "latest_revision": "1.0",
