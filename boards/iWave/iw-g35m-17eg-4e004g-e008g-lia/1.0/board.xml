@@ -2,11 +2,11 @@
 <!-- ********************************************************************** -->
 <!-- 				    iWave Systems Technologies 				            -->
 <!-- ********************************************************************** -->
-<!-- SOM Supported	: iW-PRGBZ-R1.5											-->
-<!-- Date Created	: 07Sep2021												-->
+<!-- SOM Supported	: iW-PRGBZ-R1.1											-->
+<!-- Date Created	: 09Dec2021												-->
 <!-- ********************************************************************** -->
 
-<board schema_version="2.1" vendor="iwavesystems.com" name="iW-G35M-19EG-4E004G-E008G-LIA" display_name="iW-G35M-19EG-4E004G-E008G-LIA" url="https://www.iwavesystems.com/product/zu19-zu17-zu11-zynq-ultrascale-mpsocsom" preset_file="preset.xml">
+<board schema_version="2.1" vendor="iwavesystems.com" name="iW-G35M-17EG-4E004G-E008G-LIA" display_name="iW-G35M-17EG-4E004G-E008G-LIA" url="https://www.iwavesystems.com/product/zu19-zu17-zu11-zynq-ultrascale-mpsocsom" preset_file="preset.xml">
 	
 	<images>
 		<image display_name="iW-G35-SOM" name="iW-G35-SOM.jpeg" sub_type="board">
@@ -20,7 +20,7 @@
 
 	<file_version>1.0</file_version>
 
-	<description>Zynq UltraScale+ MPSoC 19EG-1-I SOM, 4GB PS DDR4, Dual 4GB FPGA DDR4, 8GB eMMC Flash</description>
+	<description>Zynq UltraScale+ MPSoC 17EG-1-I SOM, 4GB PS DDR4, Dual 4GB FPGA DDR4, 8GB eMMC Flash</description>
 
 	<parameters>
 		<parameter name="heat_sink_type" value_type="string" value="medium"/>
@@ -31,7 +31,7 @@
 
 	<components>
 	
-		<component display_name="Zynq chip on board" name="part0" vendor="xilinx" type="fpga" spec_url="https://www.iwavesystems.com/product/zu19-zu17-zu11-zynq-ultrascale-mpsocsom" pin_map_file="part0_pins.xml" part_name="xczu19eg-ffvc1760-1-i">
+		<component display_name="Zynq chip on board" name="part0" vendor="xilinx" type="fpga" spec_url="https://www.iwavesystems.com/product/zu19-zu17-zu11-zynq-ultrascale-mpsocsom" pin_map_file="part0_pins.xml" part_name="xczu17eg-ffvc1760-1-i">
 			<description>FPGA part on the board</description>
 			<interfaces>
 			
