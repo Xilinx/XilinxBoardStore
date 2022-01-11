@@ -5,7 +5,7 @@
         "infra": {
           "name": "zcu670", 
           "display": "Zynq UltraScale+ ZCU670 Evaluation Platform", 
-          "revision": "1.0", 
+          "revision": "2.0", 
           "description": "Zynq UltraScale+ ZCU670 Evaluation Platform", 
           "company": "xilinx.com", 
           "company_display": "Xilinx", 

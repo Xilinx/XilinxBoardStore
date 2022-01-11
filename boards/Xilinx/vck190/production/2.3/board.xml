@@ -54,7 +54,29 @@
 		  </port_maps>
         </interface>  
 		
+        <interface mode="master" name="ps_pmc_fixed_io_OSPI" type="xilinx.com:interface:fixed_io_rtl:1.0" of_component="ps_pmc_fixed_io" preset_proc="ps_pmc_fixed_io_OSPI_preset"> 
+            <parameters>
+              <parameter name="presets_special_handling"/>
+            </parameters>
+		  <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="versal_cips" order="0"/>
+          </preferred_ips>
+		  <port_maps>
+				<port_map logical_port="dummy" physical_port="dummy" dir="out" />
+		  </port_maps>
+        </interface> 
  
+        <interface mode="master" name="ps_pmc_fixed_io_eMMC" type="xilinx.com:interface:fixed_io_rtl:1.0" of_component="ps_pmc_fixed_io" preset_proc="ps_pmc_fixed_io_eMMC_preset"> 
+            <parameters>
+              <parameter name="presets_special_handling"/>
+            </parameters>
+		  <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="versal_cips" order="0"/>
+          </preferred_ips>
+		  <port_maps>
+				<port_map logical_port="dummy" physical_port="dummy" dir="out" />
+		  </port_maps>
+        </interface>
         <interface mode="master" name="ddr4_dimm1" type="xilinx.com:interface:ddr4_rtl:1.0" of_component="ddr4_dimm1" preset_proc="ddr4_c0_preset">
             <description>DDR4 board interface, it can use DDR4 IP for connection. </description>
             <parameters>
@@ -1797,6 +1819,25 @@
 	
 	<component name="ps_pmc_fixed_io" display_name="PS-PMC Fixed IO" type="chip" sub_type="fixed_io" major_group="MIO interface" part_name="Versal CIPS" vendor="Xilinx" >
       <description>Versal CIPS component </description>
+	 <component_modes>
+	   <component_mode name="ps_pmc_fixed_io" display_name="ps_pmc_fixed_io">
+          <interfaces>
+            <interface name="ps_pmc_fixed_io"/>
+          </interfaces>
+        </component_mode>
+		
+		<component_mode name="ps_pmc_fixed_io_OSPI" display_name="ps_pmc_fixed_io_OSPI">
+          <interfaces>
+            <interface name="ps_pmc_fixed_io_OSPI"/>
+          </interfaces>
+        </component_mode>
+		
+		<component_mode name="ps_pmc_fixed_io_eMMC" display_name="ps_pmc_fixed_io_eMMC">
+          <interfaces>
+            <interface name="ps_pmc_fixed_io_eMMC"/>
+          </interfaces>
+        </component_mode>		
+	  </component_modes>
 	</component>
    
 	<component name="ddr4_dimm1" display_name="DDR4 DIMM1" type="chip" sub_type="ddr" major_group="External Memory" part_name="MTA9ADF1G72AZ-3G2E1" vendor="Micron" spec_url="https://www.micron.com/">

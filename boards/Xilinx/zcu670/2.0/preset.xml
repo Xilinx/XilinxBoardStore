@@ -68,16 +68,21 @@
 		<user_parameter name="CONFIG.PSU__QSPI__PERIPHERAL__DATA_MODE" value="x4"/>
 		<user_parameter name="CONFIG.PSU__QSPI__PERIPHERAL__IO" value="MIO 0 .. 12"/>
 		<user_parameter name="CONFIG.PSU__QSPI__PERIPHERAL__MODE" value="Dual Parallel"/>
-		
+
+		<user_parameter name="CONFIG.PSU__SD1__PERIPHERAL__ENABLE" value="1"/>		
 		<user_parameter name="CONFIG.PSU__SD1__GRP_CD__ENABLE" value="1"/>
 		<user_parameter name="CONFIG.PSU__SD1__GRP_CD__IO" value="MIO 45"/>
 		<user_parameter name="CONFIG.PSU__SD1__GRP_POW__ENABLE" value="0"/>
-		<user_parameter name="CONFIG.PSU__SD1__GRP_WP__ENABLE" value="0"/>
-		<user_parameter name="CONFIG.PSU__SD1__PERIPHERAL__ENABLE" value="1"/>
-		<user_parameter name="CONFIG.PSU__SD1__DATA_TRANSFER_MODE" value="8Bit"/> 
-		<user_parameter name="CONFIG.PSU__SD1__PERIPHERAL__IO" value="MIO 39 .. 51"/>
-		<user_parameter name="CONFIG.PSU__SD1__SLOT_TYPE" value="SD 3.0"/>
+		<user_parameter name="CONFIG.PSU__SD1__GRP_WP__ENABLE" value="0"/>		
 		
+		<!-- <user_parameter name="CONFIG.PSU__SD1__DATA_TRANSFER_MODE" value="8Bit"/>  -->
+		
+<!-- 		<user_parameter name="CONFIG.PSU__SD1__PERIPHERAL__IO" value="MIO 39 .. 51"/>
+		<user_parameter name="CONFIG.PSU__SD1__SLOT_TYPE" value="SD 3.0"/> -->
+		
+		<user_parameter name="CONFIG.PSU__SD1__PERIPHERAL__IO" value="MIO 39 46 .. 51"/>
+		<user_parameter name="CONFIG.PSU__SD1__SLOT_TYPE" value="SD 3.0 AUTODIR"/>		 
+
 		<user_parameter name="CONFIG.PSU__UART0__PERIPHERAL__ENABLE" value="1"/>
 		<user_parameter name="CONFIG.PSU__UART0__PERIPHERAL__IO" value="MIO 18 .. 19"/>
 		<user_parameter name="CONFIG.PSU__USB0__PERIPHERAL__ENABLE" value="1"/>
