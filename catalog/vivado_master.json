@@ -5686,17 +5686,93 @@
         "name": "iW-G36S-4EV1-4E002G-E008G-BEE",
         "display": "iW-G36S-4EV1-4E002G-E008G-BEE",
         "latest_revision": "2.0",
-        "commit_id": "4c25bc5d54e4b6c20b8fd099e9c5ade87035f331",
+        "commit_id": "fda3dbc7d96395044bd177745a019adebb94da71",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "4c25bc5d54e4b6c20b8fd099e9c5ade87035f331",
+            "commit_id": "fda3dbc7d96395044bd177745a019adebb94da71",
             "date": "10-01-2022:16:10:52",
             "history": "Added board iW-G36S-4EV1-4E002G-E008G-BEE v2.0"
           }
         ],
         "config": {
           "root": "boards/iWave/iw-g36s-4ev1-4e002g-e008g-bee/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "iwavesystems.com"
+      },
+      {
+        "name": "iW-G36S-2CG1-4E002G-E008G-BEE",
+        "display": "iW-G36S-2CG1-4E002G-E008G-BEE",
+        "latest_revision": "2.2",
+        "commit_id": "fda3dbc7d96395044bd177745a019adebb94da71",
+        "revisions": [
+          {
+            "revision": "2.2",
+            "commit_id": "fda3dbc7d96395044bd177745a019adebb94da71",
+            "date": "11-01-2022:15:19:00",
+            "history": "Added board iW-G36S-2CG1-4E002G-E008G-BEE v2.2"
+          }
+        ],
+        "config": {
+          "root": "boards/iWave/iw-g36s-2cg1-4e002g-e008g-bee/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "iwavesystems.com"
+      },
+      {
+        "name": "iW-G36S-3EG1-4E002G-E008G-BEE",
+        "display": "iW-G36S-3EG1-4E002G-E008G-BEE",
+        "latest_revision": "2.1",
+        "commit_id": "fda3dbc7d96395044bd177745a019adebb94da71",
+        "revisions": [
+          {
+            "revision": "2.1",
+            "commit_id": "fda3dbc7d96395044bd177745a019adebb94da71",
+            "date": "11-01-2022:15:19:00",
+            "history": "Added board iW-G36S-3EG1-4E002G-E008G-BEE v2.1"
+          }
+        ],
+        "config": {
+          "root": "boards/iWave/iw-g36s-3eg1-4e002g-e008g-bee/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "iwavesystems.com"
+      },
+      {
+        "name": "iW-G36S-5EV1-4E002G-E008G-BED",
+        "display": "iW-G36S-5EV1-4E002G-E008G-BED",
+        "latest_revision": "2.4",
+        "commit_id": "fda3dbc7d96395044bd177745a019adebb94da71",
+        "revisions": [
+          {
+            "revision": "2.4",
+            "commit_id": "fda3dbc7d96395044bd177745a019adebb94da71",
+            "date": "11-01-2022:15:19:00",
+            "history": "Added board iW-G36S-5EV1-4E002G-E008G-BED v2.4"
+          }
+        ],
+        "config": {
+          "root": "boards/iWave/iw-g36s-5ev1-4e002g-e008g-bed/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "iwavesystems.com"
+      },
+      {
+        "name": "iW-G36S-5EV1-4E002G-E008G-BEE",
+        "display": "iW-G36S-5EV1-4E002G-E008G-BEE",
+        "latest_revision": "2.3",
+        "commit_id": "fda3dbc7d96395044bd177745a019adebb94da71",
+        "revisions": [
+          {
+            "revision": "2.3",
+            "commit_id": "fda3dbc7d96395044bd177745a019adebb94da71",
+            "date": "11-01-2022:15:19:00",
+            "history": "Added board iW-G36S-5EV1-4E002G-E008G-BEE v2.3"
+          }
+        ],
+        "config": {
+          "root": "boards/iWave/iw-g36s-5ev1-4e002g-e008g-bee/1.0",
           "metadata_file": "xitem.json"
         },
         "company": "iwavesystems.com"
