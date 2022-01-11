@@ -2,8 +2,8 @@
 <!-- ********************************************************************** -->
 <!-- 				    iWave Systems Technologies 				            -->
 <!-- ********************************************************************** -->
-<!-- SOM Supported	: iW-PRGGG-R2.0											-->
-<!-- Date Created	: 29Nov2021												-->
+<!-- SOM Supported	: iW-PRGGG-R2.3											-->
+<!-- Date Created	: 21Dec2021												-->
 <!-- ********************************************************************** -->
 
 <ip_presets schema="1.0">
@@ -41,8 +41,6 @@
 				<user_parameter name="CONFIG.PSU__SD1__SLOT_TYPE" value="SD 2.0"/>
 				<user_parameter name="CONFIG.PSU__UART0__PERIPHERAL__ENABLE" value="1"/>
 				<user_parameter name="CONFIG.PSU__UART0__PERIPHERAL__IO" value="MIO 6 .. 7"/>
-				<user_parameter name="CONFIG.PSU__UART1__PERIPHERAL__ENABLE" value="1"/>
-				<user_parameter name="CONFIG.PSU__UART1__PERIPHERAL__IO" value="MIO 8 .. 9"/>
 				<user_parameter name="CONFIG.PSU__ENET0__GRP_MDIO__ENABLE" value="1"/>
 				<user_parameter name="CONFIG.PSU__ENET0__GRP_MDIO__IO" value="MIO 76 .. 77"/>
 				<user_parameter name="CONFIG.PSU__ENET0__PERIPHERAL__ENABLE" value="1"/>

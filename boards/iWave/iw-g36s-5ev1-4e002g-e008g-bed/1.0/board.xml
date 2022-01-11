@@ -2,11 +2,11 @@
 <!-- ********************************************************************** -->
 <!-- 				    iWave Systems Technologies 				            -->
 <!-- ********************************************************************** -->
-<!-- SOM Supported	: iW-PRGGG-R2.0											-->
-<!-- Date Created	: 29Nov2021												-->
+<!-- SOM Supported	: iW-PRGGG-R2.4											-->
+<!-- Date Created	: 21Dec2021												-->
 <!-- ********************************************************************** -->
 
-<board schema_version="2.1" vendor="iwavesystems.com" name="iW-G36S-4EV1-4E002G-E008G-BEE" display_name="iW-G36S-4EV1-4E002G-E008G-BEE" url="https://www.iwavesystems.com/product/zu5-zu4-zu3-zu2-zynq-ultrascale-mpsoc-sbc/" preset_file="preset.xml">
+<board schema_version="2.1" vendor="iwavesystems.com" name="iW-G36S-5EV1-4E002G-E008G-BED" display_name="iW-G36S-5EV1-4E002G-E008G-BED" url="https://www.iwavesystems.com/product/zu5-zu4-zu3-zu2-zynq-ultrascale-mpsoc-sbc/" preset_file="preset.xml">
 	
 	<images>
 		<image display_name="iW-G36-SBC" name="iW-G36-SBC.jpg" sub_type="board">
@@ -15,12 +15,12 @@
 	</images>
 
 	<compatible_board_revisions>
-		<revision id="0">2.0</revision>
+		<revision id="0">2.4</revision>
 	</compatible_board_revisions>
 
 	<file_version>1.0</file_version>
 
-	<description>Zynq UltraScale+ MPSoC 4EV-1-E SBC, 2GB PS DDR4, 1GB FPGA DDR4, HDMI IN, HDMI OUT, VCU, SFP+, WIFI-BT, 8GB eMMC Flash</description>
+	<description>Zynq UltraScale+ MPSoC 5EV-1-E SBC, 2GB PS DDR4, 1GB FPGA DDR4, HDMI OUT, SDI IN, SDI OUT, VCU, SFP+, WIFI-BT, 8GB eMMC Flash</description>
 
 	<parameters>
 		<parameter name="heat_sink_type" value_type="string" value="medium"/>
@@ -31,7 +31,7 @@
 
 	<components>
 	
-		<component display_name="Zynq chip on board" name="part0" vendor="xilinx" type="fpga" spec_url="https://www.iwavesystems.com/product/zu5-zu4-zu3-zu2-zynq-ultrascale-mpsoc-sbc/" pin_map_file="part0_pins.xml" part_name="xczu4ev-sfvc784-1-e">
+		<component display_name="Zynq chip on board" name="part0" vendor="xilinx" type="fpga" spec_url="https://www.iwavesystems.com/product/zu5-zu4-zu3-zu2-zynq-ultrascale-mpsoc-sbc/" pin_map_file="part0_pins.xml" part_name="xczu5ev-sfvc784-1-e">
 			<description>FPGA part on the board</description>
 			<interfaces>
 			

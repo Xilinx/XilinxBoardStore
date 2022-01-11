@@ -2,26 +2,12 @@
 <!-- ********************************************************************** -->
 <!-- 				    iWave Systems Technologies 				            -->
 <!-- ********************************************************************** -->
-<!-- SOM Supported	: iW-PRGGG-R2.0											-->
-<!-- Date Created	: 29Nov2021												-->
+<!-- SOM Supported	: iW-PRGGG-R2.1											-->
+<!-- Date Created	: 21Dec2021												-->
 <!-- ********************************************************************** -->
 
 <ip_presets schema="1.0">
 
-	<ip_preset preset_proc_name="ddr4_sdram_preset">
-		<ip vendor="xilinx.com" library="ip" name="ddr4">
-			<user_parameters>
-				<user_parameter name="CONFIG.C0.DDR4_TimePeriod" value="938"/>
-				<user_parameter name="CONFIG.C0.DDR4_InputClockPeriod" value="3336"/>
-				<user_parameter name="CONFIG.C0.DDR4_CasLatency" value="15" />
-				<user_parameter name="CONFIG.C0.DDR4_CasWriteLatency" value="14" />
-				<user_parameter name="CONFIG.C0.DDR4_DataWidth" value="32" />
-				<user_parameter name="CONFIG.C0.DDR4_MemoryPart" value="MT40A256M16GE-083E" />
-				<user_parameter name="CONFIG.C0.DDR4_Mem_Add_Map" value="ROW_COLUMN_BANK" />
-			</user_parameters>
-		</ip>
-	</ip_preset>
-	
 	<ip_preset preset_proc_name="zynq_ultra_ps_e_preset">
 		<ip name="zynq_ultra_ps_e" library="ip" vendor="xilinx.com" version="*">
 			<user_parameters>
