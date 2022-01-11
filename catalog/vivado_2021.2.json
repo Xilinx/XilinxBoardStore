@@ -6180,11 +6180,11 @@
         "name": "zcu670",
         "display": "Zynq UltraScale+ ZCU670 Evaluation Platform",
         "latest_revision": "2.0",
-        "commit_id": "d90c5bbe466c134d88a9c4eba921827b07e8dafc",
+        "commit_id": "b3be73b1195227603bc81e5da0567df269a1ec01",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "d90c5bbe466c134d88a9c4eba921827b07e8dafc",
+            "commit_id": "b3be73b1195227603bc81e5da0567df269a1ec01",
             "date": "05-01-2022:05:18:39",
             "history": "Added board Zynq UltraScale+ ZCU670 Evaluation Platform v2.0"
           }
