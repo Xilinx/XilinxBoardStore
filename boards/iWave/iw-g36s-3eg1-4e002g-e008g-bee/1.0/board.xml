@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<!-- ********************************************************************** -->
+<!-- 				    iWave Systems Technologies 				            -->
+<!-- ********************************************************************** -->
+<!-- SOM Supported	: iW-PRGGG-R2.1											-->
+<!-- Date Created	: 21Dec2021												-->
+<!-- ********************************************************************** -->
+
+<board schema_version="2.1" vendor="iwavesystems.com" name="iW-G36S-3EG1-4E002G-E008G-BEE" display_name="iW-G36S-3EG1-4E002G-E008G-BEE" url="https://www.iwavesystems.com/product/zu5-zu4-zu3-zu2-zynq-ultrascale-mpsoc-sbc/" preset_file="preset.xml">
+	
+	<images>
+		<image display_name="iW-G36-SBC" name="iW-G36-SBC.jpg" sub_type="board">
+			<description>iW-G36-SBC Image</description>
+		</image>
+	</images>
+
+	<compatible_board_revisions>
+		<revision id="0">2.1</revision>
+	</compatible_board_revisions>
+
+	<file_version>1.0</file_version>
+
+	<description>Zynq UltraScale+ MPSoC 3EG-1-E SBC, 2GB PS DDR4, WIFI-BT, 8GB eMMC Flash</description>
+
+	<parameters>
+		<parameter name="heat_sink_type" value_type="string" value="medium"/>
+		<parameter name="heat_sink_temperature" value_type="range" value_max="55.0" value_min="20.0"/>
+	</parameters>
+
+	<jumpers> </jumpers>
+
+	<components>
+	
+		<component display_name="Zynq chip on board" name="part0" vendor="xilinx" type="fpga" spec_url="https://www.iwavesystems.com/product/zu5-zu4-zu3-zu2-zynq-ultrascale-mpsoc-sbc/" pin_map_file="" part_name="xczu3eg-sfvc784-1-e">
+			<description>FPGA part on the board</description>
+			<interfaces>
+			
+				<interface name="ps8_fixedio" type="xilinx.com:zynq_ultra_ps_e:fixedio_rtl:1.0" preset_proc="zynq_ultra_ps_e_preset" of_component="ps8_fixedio" mode="master">
+					<preferred_ips>
+						<preferred_ip name="zynq_ultra_ps_e" vendor="xilinx.com" order="0" library="ip"/>
+					</preferred_ips>
+				</interface>
+			</interfaces>
+		</component>
+
+		<component display_name="PS8 fixed IO" name="ps8_fixedio" sub_type="fixed_io" type="chip" major_group=""/>	
+	</components>
+
+	<jtag_chains>
+		<jtag_chain name="chain1">
+			<position name="0" component="part0"/>
+		</jtag_chain>
+	</jtag_chains>
+
+	<connections>
+
+	</connections>
+
+	<ip_associated_rules>
+		<ip_associated_rule name="default">
+		</ip_associated_rule>
+	</ip_associated_rules>
+
+</board>
