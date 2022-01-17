@@ -5776,6 +5776,44 @@
           "metadata_file": "xitem.json"
         },
         "company": "iwavesystems.com"
+      },
+      {
+        "name": "vck190_newl",
+        "display": "Versal VCK190 Evaluation Platform with New SD Level Shifter",
+        "latest_revision": "1.0",
+        "commit_id": "32a273b6bd382bc648db656c3e77c6c5cb9cf68f",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "32a273b6bd382bc648db656c3e77c6c5cb9cf68f",
+            "date": "17-01-2022:11:45:07",
+            "history": "Added board Versal VCK190 Evaluation Platform with New SD Level Shifter v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vck190_newl/production/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vmk180_newl",
+        "display": "Versal VMK180 Evaluation Platform with New SD Level Shifter",
+        "latest_revision": "1.0",
+        "commit_id": "32a273b6bd382bc648db656c3e77c6c5cb9cf68f",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "32a273b6bd382bc648db656c3e77c6c5cb9cf68f",
+            "date": "17-01-2022:11:45:07",
+            "history": "Added board Versal VMK180 Evaluation Platform with New SD Level Shifter v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vmk180_newl/production/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
       }
     ],
     "categories": [
