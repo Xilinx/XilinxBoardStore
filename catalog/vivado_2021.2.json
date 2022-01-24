@@ -6194,6 +6194,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
+      },
+      {
+        "name": "zcu670ld",
+        "display": "Zynq UltraScale+ ZCU670-LD Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "c9cd4c88bffd757baff88c56684c04c0ef377c5a",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "c9cd4c88bffd757baff88c56684c04c0ef377c5a",
+            "date": "24-01-2022:04:39:32",
+            "history": "Added board Zynq UltraScale+ ZCU670-LD Evaluation Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu670ld/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
       }
     ],
     "categories": [
