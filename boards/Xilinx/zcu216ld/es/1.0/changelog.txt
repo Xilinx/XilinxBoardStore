@@ -1,5 +1,0 @@
-######### ZCU216-LD change log ############
-
-1.0
-ZCU216-LD initial board support for Rev A (Vivado 2020.1)
-
