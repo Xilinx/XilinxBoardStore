@@ -2263,82 +2263,6 @@
         "company": "xilinx.com"
       },
       {
-        "name": "zcu216_es",
-        "display": "Zynq UltraScale+ ZCU216 Evaluation Platform",
-        "latest_revision": "1.2",
-        "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
-        "revisions": [
-          {
-            "revision": "1.2",
-            "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
-            "date": "29-07-2020",
-            "history": "Adding sfp interface enabled board files"
-          }
-        ],
-        "config": {
-          "root": "boards/Xilinx/zcu216/es/1.2",
-          "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
-      },
-      {
-        "name": "zcu216_es",
-        "display": "Zynq UltraScale+ ZCU216 Evaluation Platform",
-        "latest_revision": "1.1",
-        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
-        "revisions": [
-          {
-            "revision": "1.1",
-            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
-            "date": "08-07-2020",
-            "history": "Enabled PL-DDR4 interface"
-          }
-        ],
-        "config": {
-          "root": "boards/Xilinx/zcu216/es/1.1",
-          "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
-      },
-      {
-        "name": "zcu216_es",
-        "display": "Zynq UltraScale+ ZCU216 Evaluation Platform",
-        "latest_revision": "1.0",
-        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
-        "revisions": [
-          {
-            "revision": "1.0",
-            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
-            "date": "03-03-2020",
-            "history": "Addition of logo field in xitem.json"
-          }
-        ],
-        "config": {
-          "root": "boards/Xilinx/zcu216/es/1.0",
-          "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
-      },
-      {
-        "name": "zcu216ld_es",
-        "display": "Zynq UltraScale+ ZCU216-LD Evaluation Platform",
-        "latest_revision": "1.0",
-        "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
-        "revisions": [
-          {
-            "revision": "1.0",
-            "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
-            "date": "01-07-2020",
-            "history": "Addition of Zynq UltraScale+ ZCU216-LD Evaluation Platform"
-          }
-        ],
-        "config": {
-          "root": "boards/Xilinx/zcu216ld/es/1.0",
-          "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
-      },
-      {
         "name": "zcu208",
         "display": "Zynq UltraScale+ ZCU208 Evaluation Platform",
         "latest_revision": "2.0",
@@ -2353,63 +2277,6 @@
         ],
         "config": {
           "root": "boards/Xilinx/zcu208/production/2.0",
-          "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
-      },
-      {
-        "name": "zcu208_es",
-        "display": "Zynq UltraScale+ ZCU208 Evaluation Platform",
-        "latest_revision": "1.1",
-        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
-        "revisions": [
-          {
-            "revision": "1.1",
-            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
-            "date": "29-07-2020",
-            "history": "Adding sfp interface enabled board files"
-          }
-        ],
-        "config": {
-          "root": "boards/Xilinx/zcu208/es/1.1",
-          "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
-      },
-      {
-        "name": "zcu208_es",
-        "display": "Zynq UltraScale+ ZCU208 Evaluation Platform",
-        "latest_revision": "1.0",
-        "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
-        "revisions": [
-          {
-            "revision": "1.0",
-            "commit_id": "3c11b5ae217a2d311ed1990bfecdc77ec98e9754",
-            "date": "10-02-2020",
-            "history": "Initial board file entry for zcu208 board"
-          }
-        ],
-        "config": {
-          "root": "boards/Xilinx/zcu208/es/1.0",
-          "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
-      },
-      {
-        "name": "zcu208ld_es",
-        "display": "Zynq UltraScale+ ZCU208-LD Evaluation Platform",
-        "latest_revision": "1.0",
-        "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
-        "revisions": [
-          {
-            "revision": "1.0",
-            "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
-            "date": "04-03-2020",
-            "history": "Initial board file entry for zcu208-LD board"
-          }
-        ],
-        "config": {
-          "root": "boards/Xilinx/zcu208ld/es/1.0",
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
@@ -2486,25 +2353,6 @@
         ],
         "config": {
           "root": "boards/Xilinx/vermeo_t1_rfsoc/1.0",
-          "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
-      },
-      {
-        "name": "zcu208_es",
-        "display": "Zynq UltraScale+ ZCU208-ES Evaluation Platform",
-        "latest_revision": "1.2",
-        "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
-        "revisions": [
-          {
-            "revision": "1.2",
-            "commit_id": "188131f05adaa55949afc6d440b5d599fb9dcba3",
-            "date": "26-11-2020:06:06:57",
-            "history": "Added board Zynq UltraScale+ ZCU208-ES Evaluation Platform v1.2"
-          }
-        ],
-        "config": {
-          "root": "boards/Xilinx/zcu208/es/1.2",
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
