@@ -5154,11 +5154,11 @@
         "name": "vck190",
         "display": "Versal VCK190 Evaluation Platform",
         "latest_revision": "2.3",
-        "commit_id": "ac83b636bde8d9b1faf4e7dcd098ceb00f0ec2f5",
+        "commit_id": "133be3ea619648bdb2457eed7837013e845c0dd2",
         "revisions": [
           {
             "revision": "2.3",
-            "commit_id": "ac83b636bde8d9b1faf4e7dcd098ceb00f0ec2f5",
+            "commit_id": "133be3ea619648bdb2457eed7837013e845c0dd2",
             "date": "08-06-2021:14:00:46",
             "history": "Added board Versal VCK190 Evaluation Platform v2.3"
           }
@@ -5173,11 +5173,11 @@
         "name": "vmk180",
         "display": "Versal VMK180 Evaluation Platform",
         "latest_revision": "2.3",
-        "commit_id": "ac83b636bde8d9b1faf4e7dcd098ceb00f0ec2f5",
+        "commit_id": "133be3ea619648bdb2457eed7837013e845c0dd2",
         "revisions": [
           {
             "revision": "2.3",
-            "commit_id": "ac83b636bde8d9b1faf4e7dcd098ceb00f0ec2f5",
+            "commit_id": "133be3ea619648bdb2457eed7837013e845c0dd2",
             "date": "08-06-2021:14:00:46",
             "history": "Added board Versal VMK180 Evaluation Platform v2.3"
           }
@@ -5629,11 +5629,11 @@
         "name": "vck190_newl",
         "display": "Versal VCK190 Evaluation Platform with New SD Level Shifter",
         "latest_revision": "1.0",
-        "commit_id": "32a273b6bd382bc648db656c3e77c6c5cb9cf68f",
+        "commit_id": "133be3ea619648bdb2457eed7837013e845c0dd2",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "32a273b6bd382bc648db656c3e77c6c5cb9cf68f",
+            "commit_id": "133be3ea619648bdb2457eed7837013e845c0dd2",
             "date": "17-01-2022:11:45:07",
             "history": "Added board Versal VCK190 Evaluation Platform with New SD Level Shifter v1.0"
           }
@@ -5648,11 +5648,11 @@
         "name": "vmk180_newl",
         "display": "Versal VMK180 Evaluation Platform with New SD Level Shifter",
         "latest_revision": "1.0",
-        "commit_id": "32a273b6bd382bc648db656c3e77c6c5cb9cf68f",
+        "commit_id": "133be3ea619648bdb2457eed7837013e845c0dd2",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "32a273b6bd382bc648db656c3e77c6c5cb9cf68f",
+            "commit_id": "133be3ea619648bdb2457eed7837013e845c0dd2",
             "date": "17-01-2022:11:45:07",
             "history": "Added board Versal VMK180 Evaluation Platform with New SD Level Shifter v1.0"
           }
