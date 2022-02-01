@@ -394,6 +394,12 @@
 					<user_parameter name="OUTPUT_DATA" value="high"/>
 					<user_parameter name="USAGE" value="GPIO"/>
 				</user_parameter>
+				<user_parameter name="PMC_SD0_PERIPHERAL" value_type="hier" value="">
+				<user_parameter name="ENABLE" value="0"/>
+				<user_parameter name="IO" value_type="hier" value="">
+				<user_parameter name="PMC_MIO" value="13 .. 25"/>
+				</user_parameter>
+				</user_parameter>
 				<user_parameter name="PMC_SD1" value_type="hier" value="">
 					<user_parameter name="CD_ENABLE" value="0"/>
 					<user_parameter name="CD_IO" value_type="hier" value="">
