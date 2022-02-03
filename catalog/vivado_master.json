@@ -5306,11 +5306,11 @@
         "name": "kv260_carrier",
         "display": "Vision AI Starter Kit carrier card",
         "latest_revision": "1.2",
-        "commit_id": "d1cce2aad2c558a0b3d8c843dce5e866685bb6a4",
+        "commit_id": "f5eced70d8df93ab8655c78ce5358c010b1640db",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "d1cce2aad2c558a0b3d8c843dce5e866685bb6a4",
+            "commit_id": "f5eced70d8df93ab8655c78ce5358c010b1640db",
             "date": "01-09-2021:13:56:25",
             "history": "Added board Vision AI Starter Kit carrier card v1.2"
           }
@@ -5325,11 +5325,11 @@
         "name": "kv260_som",
         "display": "Kria KV260 Vision AI Starter Kit",
         "latest_revision": "1.2",
-        "commit_id": "d1cce2aad2c558a0b3d8c843dce5e866685bb6a4",
+        "commit_id": "f5eced70d8df93ab8655c78ce5358c010b1640db",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "d1cce2aad2c558a0b3d8c843dce5e866685bb6a4",
+            "commit_id": "f5eced70d8df93ab8655c78ce5358c010b1640db",
             "date": "01-09-2021:13:56:25",
             "history": "Added board Kria KV260 Vision AI Starter Kit v1.2"
           }
