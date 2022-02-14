@@ -3,7 +3,7 @@
     "items": [
       {
         "infra": {
-          "name": "SZG_PCIEX4 Peripheral",
+          "name": "SZG_PCIEX4",
           "display": "SZG_PCIEX4 Peripheral",
           "revision": "1.0",
           "description": "SZG_PCIEX4 Peripheral",

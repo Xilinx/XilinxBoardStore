@@ -3,7 +3,7 @@
     "items": [
       {
         "infra": {
-          "name": "SZG_ENET1G Peripheral",
+          "name": "SZG_ENET1G",
           "display": "SZG_ENET1G Peripheral",
           "revision": "1.0",
           "description": "SZG_ENET1G Peripheral",
