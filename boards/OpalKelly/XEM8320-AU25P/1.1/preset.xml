@@ -10,7 +10,6 @@
                 <user_parameter name="CONFIG.C0.DDR4_CasLatency" value="19"/>
                 <user_parameter name="CONFIG.C0.DDR4_InputClockPeriod" value="10000"/>
                 <user_parameter name="CONFIG.C0.DDR4_MemoryPart" value="MT40A512M16LY-075"/>
-                <user_parameter name="CONFIG.C0.DDR4_AxiSelection" value="false"/>
             </user_parameters>
         </ip>
     </ip_preset>

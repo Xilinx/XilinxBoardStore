@@ -1,0 +1,7 @@
+######### SZG-PCIeX4 changelog ############
+
+1.0
+- Initial release
+- PCIe RefClk not supported
+- Automatic Pin constraints for lanes not 
+  supported. Must constrain these at the top level.

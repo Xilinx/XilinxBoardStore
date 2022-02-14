@@ -5,9 +5,9 @@
         "infra": {
           "name": "XEM8320-AU25P",
           "display": "XEM8320-AU25P Development Platform",
-          "revision": "1.0",
+          "revision": "1.1",
           "description": "XEM8320-AU25P Development Platform",
-          "company": "OpalKelly.com",
+          "company": "opalkelly.com",
           "company_display": "Opal Kelly",
           "author": "Opal Kelly",
           "contributors": [
@@ -21,7 +21,7 @@
           "logo": "XEM8320-AU25P-Top.jpg",
           "search-keywords": [
             "XEM8320-AU25P",
-            "OpalKelly.com",
+            "opalkelly.com",
             "board",
             "AU25P",
             "Opal Kelly",
