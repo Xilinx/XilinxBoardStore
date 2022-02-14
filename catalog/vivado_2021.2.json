@@ -6215,23 +6215,80 @@
         "company": "xilinx.com"
       },
       {
-        "name": "XEM8320-AU25P",
-        "display": "XEM8320-AU25P Development Platform",
+        "name": "SZG_ENET1G Peripheral",
+        "display": "SZG_ENET1G Peripheral",
         "latest_revision": "1.0",
-        "commit_id": "50aef0f691d9c7882ea653a7da854c8e5b17b6fe",
+        "commit_id": "b30e267592700dd6f8d01399a9cc8f905a736fed",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "50aef0f691d9c7882ea653a7da854c8e5b17b6fe",
-            "date": "14-02-2022:16:50:44",
-            "history": "Added board XEM8320-AU25P Development Platform v1.0"
+            "commit_id": "b30e267592700dd6f8d01399a9cc8f905a736fed",
+            "date": "14-02-2022:21:55:10",
+            "history": "Added board SZG_ENET1G Peripheral v1.0"
           }
         ],
         "config": {
-          "root": "boards/OpalKelly/XEM8320-AU25P/1.0",
+          "root": "boards/OpalKelly/SZG-ENET1G/1.0",
           "metadata_file": "xitem.json"
         },
-        "company": "OpalKelly.com"
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "SZG_MIPI_8320 Peripheral",
+        "display": "SZG_MIPI_8320 Peripheral",
+        "latest_revision": "1.0",
+        "commit_id": "b30e267592700dd6f8d01399a9cc8f905a736fed",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "b30e267592700dd6f8d01399a9cc8f905a736fed",
+            "date": "14-02-2022:21:55:10",
+            "history": "Added board SZG_MIPI_8320 Peripheral v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/SZG-MIPI-8320/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "SZG_PCIEX4 Peripheral",
+        "display": "SZG_PCIEX4 Peripheral",
+        "latest_revision": "1.0",
+        "commit_id": "b30e267592700dd6f8d01399a9cc8f905a736fed",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "b30e267592700dd6f8d01399a9cc8f905a736fed",
+            "date": "14-02-2022:21:55:10",
+            "history": "Added board SZG_PCIEX4 Peripheral v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/SZG-PCIEX4/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "XEM8320-AU25P",
+        "display": "XEM8320-AU25P Development Platform",
+        "latest_revision": "1.1",
+        "commit_id": "b30e267592700dd6f8d01399a9cc8f905a736fed",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "b30e267592700dd6f8d01399a9cc8f905a736fed",
+            "date": "14-02-2022:21:55:10",
+            "history": "Added board XEM8320-AU25P Development Platform v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/XEM8320-AU25P/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
       }
     ],
     "categories": [
