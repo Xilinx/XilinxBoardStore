@@ -1,0 +1,4 @@
+######### XEM8320 Change log ##############
+
+1.0
+Initial creation (LED, DDR4, Diff Clks)
