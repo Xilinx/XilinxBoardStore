@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
 <!-- ##################################################################### -->
 <!-- ##TE File Version:1.2-->
-<!-- ##Vivado Version:2019.2-->
-<!-- ##TE Last Modification:2019.12.12-->
+<!-- ##Vivado Version:2020.2-->
+<!-- ##TE Last Modification:2021.04.23-->
 <!-- ##################################################################### -->
 <!-- ##general board part description-->
 <!-- ##Info: board part name: board_vendor:board_name:part0:file_version  , use all lower case-->
-<board schema_version="2.1" vendor="trenz.biz" name="te0712_100_1i" display_name="Artix-7 TE0712-*-100-1I (1GB DDR). *SPRT PCB: REV02, REV01" url="trenz.org/te0712-info" preset_file="preset.xml">
+<board schema_version="2.1" vendor="trenz.biz" name="te0712_100_1i" display_name="TE0712-*-71I36-A/-100-1I. *SPRT PCB: REV02, REV01" url="trenz.org/te0712-info" preset_file="preset.xml">
   <images>
     <image name="te0712_board.png" display_name="TE0712 BOARD" sub_type="board">
       <description>TE0712 Board File Image</description>
@@ -26,13 +26,13 @@
   <file_version>1.0</file_version>
 <!-- ##################################################################### -->
 <!-- ##Board descriptions -->
-  <description>Artix-7 TE0712-*-100-1I (1GB DDR) Board (form factor 4x5cm) with 1GB DDR3, 100MBit Ethernet, speed grade -1 and industrial temperature grade. *Supported PCB Revisions: REV02, REV01.</description>
+  <description>Artix-7 TE0712-*-71I36-A/-100-1I (1GB DDR) Board (form factor 4x5cm) with 1GB DDR3, 100MBit Ethernet, speed grade -1 and industrial temperature grade. *Supported PCB Revisions: REV02, REV01.</description>
 <!-- ##################################################################### -->
 <!-- ##Board components. Special component part0=fpga -->
 <!-- ##set display_name and correct part_name for fpga-->
 <!-- ##add part interfaces and corresponding component here -->
   <components>
-    <component name="part0" display_name="Artix-7 TE0712" type="fpga" part_name="xc7a100tfgg484-1" pin_map_file="part0_pins.xml" vendor="xilinx.com" spec_url="www.xilinx.com">
+    <component name="part0" display_name="TE0712" type="fpga" part_name="xc7a100tfgg484-1" pin_map_file="part0_pins.xml" vendor="xilinx.com" spec_url="www.xilinx.com">
       <description>FPGA part on the board</description>
       <interfaces>
         <!--insert fpga interfaces here, see ug895 or other board part files-->
@@ -1796,10 +1796,9 @@
   </connections>
 <!-- ##################################################################### -->
 <!-- ##Additional IO interface rules-->
-  <ip_associated_rules>
-    <ip_associated_rule name="default">
-    <!--insert interface ip rules here, see ug895 or other board part files-->
-    </ip_associated_rule>
-  </ip_associated_rules>
+  <!-- <ip_associated_rules> -->
+    <!-- <ip_associated_rule name="default"> -->
+    <!-- </ip_associated_rule> -->
+  <!-- </ip_associated_rules> -->
 <!-- ##################################################################### -->
 </board>

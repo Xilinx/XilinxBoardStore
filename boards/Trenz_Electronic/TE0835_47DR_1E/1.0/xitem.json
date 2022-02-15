@@ -1,0 +1,35 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "te0835_47dr_1e",
+          "display": "TE0835-*-TXE21-A (4GB DDR). *SPRT PCB: REV02",
+          "revision": "1.0",
+          "description": "Zynq UltraScale+ RFSoC TE0835-*-TXE21-A (4GB DDR) Board (form factor 6.5 x 9cm) with 4GB DDR, 1GBit Ethernet PHY, 1x USB 2 PHY, speed grade -1 and extended temperature grade. *Supported PCB Revisions: REV02.",
+          "company": "trenz.biz",
+          "company_display": "Trenz Electronic GmbH",
+          "author": "trenz.biz",
+          "contributors": [
+            {
+              "group": "Trenz Electronic GmbH",
+              "url": "https://www.trenz-electronic.de/"
+            }
+          ],
+          "category": "Zynq UltraScale+ RFSoC/Module",
+          "website": "trenz.org/te0835-info",
+          "logo": "te0835_board.png",
+          "search-keywords": [
+            "te0835_47dr_1e",
+            "trenz.biz",
+            "board",
+            "Zynq UltraScale+ RFSoC/Module",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

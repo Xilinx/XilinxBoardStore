@@ -3,32 +3,33 @@
     "items": [
       {
         "infra": {
-          "name": "te0803_4eg_1e", 
-          "display": "UltraSOM (ZYNQ-UltraScale+) TE0803-*-4BE21-L/-04EG-1E3 (4GB DDR). *SPRT PCB: REV03, REV02", 
-          "revision": "3.0", 
-          "description": "Zynq UltraScale+ TE0803-*-4BE21-L/-04EG-1E3 (4GB DDR) Board (form factor 5.2x7.6 cm) with 4x 1 GByte DDR4, speed grade -1 and extended temperature range. *Supported PCB Revisions: REV03, REV02. Board Part is only with minimum PS-Setup. Use for own carrier or simple SDK debugging. User must configure B2B MIOs manually, depending on his carrier board connection. Without user PS configuration only JTAG and QSPI boot is possible with this board part file.", 
-          "company": "trenz.biz", 
-          "company_display": "Trenz Electronic GmbH", 
-          "author": "trenz.biz", 
+          "name": "te0803_4eg_1e",
+          "display": "TE0803-*-4BE21-L/-04EG-1E3 (4GB DDR). *SPRT PCB: REV04, REV03, REV02",
+          "revision": "3.0",
+          "description": "Zynq UltraScale+ MPSoC TE0803-*-4BE21-L/-04EG-1E3 (4GB DDR) Board (form factor 5.2x7.6 cm) with 4x 1 GByte DDR4, speed grade -1 and extended temperature range. *Supported PCB Revisions: REV04, REV03, REV02. Board Part is only with minimum PS-Setup. Use for own carrier or simple SDK debugging. User must configure B2B MIOs manually, depending on his carrier board connection. Without user PS configuration only JTAG and QSPI boot is possible with this board part file.",
+          "company": "trenz.biz",
+          "company_display": "Trenz Electronic GmbH",
+          "author": "trenz.biz",
           "contributors": [
             {
-              "group": "Trenz Electronic GmbH", 
+              "group": "Trenz Electronic GmbH",
               "url": "https://www.trenz-electronic.de/"
             }
-          ], 
-          "category": "Single Part", 
-          "website": "trenz.org/te0803-info", 
-          "logo": "te0803_board.png", 
+          ],
+          "category": "Zynq UltraScale+ MPSoC/Module",
+          "website": "trenz.org/te0803-info",
+          "logo": "te0803_board.png",
           "search-keywords": [
-            "te0803_4eg_1e", 
-            "trenz.biz", 
-            "board", 
+            "te0803_4eg_1e",
+            "trenz.biz",
+            "board",
+            "Zynq UltraScale+ MPSoC/Module",
             "Single Part"
           ]
         }
       }
     ]
-  }, 
-  "_major": 1, 
+  },
+  "_major": 1,
   "_minor": 0
 }

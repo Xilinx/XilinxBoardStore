@@ -1,0 +1,35 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "am0010_4ev_1e",
+          "display": "AM0010-*-4DE21MA (4GB DDR) for AMB0010. *SPRT PCB: REV01",
+          "revision": "1.0",
+          "description": "AM0010-*-4DE21MA (4GB DDR) for AMB0010 (form factor 4x5,64cm) with 5x 1GB DDR4, speed grade -1 and industrial temperature grade. *Supported PCB Revisions: REV01. Important: Board Files are Prepared for  V_IO_CFG=3.3V!",
+          "company": "trenz.biz",
+          "company_display": "Trenz Electronic GmbH",
+          "author": "trenz.biz",
+          "contributors": [
+            {
+              "group": "Trenz Electronic GmbH",
+              "url": "https://www.trenz-electronic.de/"
+            }
+          ],
+          "category": "Zynq UltraScale+ MPSoC/Module",
+          "website": "trenz.org/",
+          "logo": "am0010_board.png",
+          "search-keywords": [
+            "am0010_4ev_1e",
+            "trenz.biz",
+            "board",
+            "Zynq UltraScale+ MPSoC/Module",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

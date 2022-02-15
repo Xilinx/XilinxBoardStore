@@ -3,32 +3,33 @@
     "items": [
       {
         "infra": {
-          "name": "te0841_35_2i", 
-          "display": "Kintex-Ultrascale TE0841-*-035-2I (1GB DDR). *SPRT PCB: REV01", 
-          "revision": "1.0", 
-          "description": "Kintex-Ultrascale TE0841-*-035-2I Board (form factor 4x5 cm) with 2x512 MByte DDR4, Speed Grade -2 and industrial temperature range. *Supported PCB Revisions: REV01.", 
-          "company": "trenz.biz", 
-          "company_display": "Trenz Electronic GmbH", 
-          "author": "trenz.biz", 
+          "name": "te0841_35_2i",
+          "display": "TE0841-*-035-2I (1GB DDR). *SPRT PCB: REV01",
+          "revision": "1.0",
+          "description": "Kintex Ultrascale TE0841-*-035-2I Board (form factor 4x5 cm) with 2x512 MByte DDR4, Speed Grade -2 and industrial temperature range. *Supported PCB Revisions: REV01.",
+          "company": "trenz.biz",
+          "company_display": "Trenz Electronic GmbH",
+          "author": "trenz.biz",
           "contributors": [
             {
-              "group": "Trenz Electronic GmbH", 
+              "group": "Trenz Electronic GmbH",
               "url": "https://www.trenz-electronic.de/"
             }
-          ], 
-          "category": "Single Part", 
-          "website": "trenz.org/te0841-info", 
-          "logo": "TE0841_board.png", 
+          ],
+          "category": "Kintex UltraScale/Module",
+          "website": "trenz.org/te0841-info",
+          "logo": "TE0841_board.png",
           "search-keywords": [
-            "te0841_35_2i", 
-            "trenz.biz", 
-            "board", 
+            "te0841_35_2i",
+            "trenz.biz",
+            "board",
+            "Kintex UltraScale/Module",
             "Single Part"
           ]
         }
       }
     ]
-  }, 
-  "_major": 1, 
+  },
+  "_major": 1,
   "_minor": 0
 }

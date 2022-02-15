@@ -3,32 +3,33 @@
     "items": [
       {
         "infra": {
-          "name": "te0710_02_35_2i", 
-          "display": "Artix-7 TE0710-*-35-2IF (512MB DDR3). *SPRT PCB: REV02", 
-          "revision": "1.0", 
-          "description": "Artix-7 TE0710-*-35-2IF (512MB DDR3) Board (form factor 4x5cm) with 512MB DDR3, 2x100MBit Ethernet, speed grade -2 and industrial temperature grade. *Supported PCB Revisions: REV02.", 
-          "company": "trenz.biz", 
-          "company_display": "Trenz Electronic GmbH", 
-          "author": "trenz.biz", 
+          "name": "te0710_02_35_2i",
+          "display": "TE0710-*-35-2IF (512MB DDR3). *SPRT PCB: REV02",
+          "revision": "1.0",
+          "description": "Artix-7 TE0710-*-35-2IF (512MB DDR3) Board (form factor 4x5cm) with 512MB DDR3, 2x100MBit Ethernet, speed grade -2 and industrial temperature grade. *Supported PCB Revisions: REV02.",
+          "company": "trenz.biz",
+          "company_display": "Trenz Electronic GmbH",
+          "author": "trenz.biz",
           "contributors": [
             {
-              "group": "Trenz Electronic GmbH", 
+              "group": "Trenz Electronic GmbH",
               "url": "https://www.trenz-electronic.de/"
             }
-          ], 
-          "category": "Single Part", 
-          "website": "trenz.org/te0710-info", 
-          "logo": "te0710_board.png", 
+          ],
+          "category": "Artix 7/Module",
+          "website": "trenz.org/te0710-info",
+          "logo": "te0710_board.png",
           "search-keywords": [
-            "te0710_02_35_2i", 
-            "trenz.biz", 
-            "board", 
+            "te0710_02_35_2i",
+            "trenz.biz",
+            "board",
+            "Artix 7/Module",
             "Single Part"
           ]
         }
       }
     ]
-  }, 
-  "_major": 1, 
+  },
+  "_major": 1,
   "_minor": 0
 }
