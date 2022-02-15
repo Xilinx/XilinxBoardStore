@@ -3,21 +3,21 @@
     "items": [
       {
         "infra": {
-          "name": "SZG_MIPI_8320 Peripheral",
-          "display": "SZG_MIPI_8320 Peripheral",
-          "revision": "1.0",
-          "description": "SZG_MIPI_8320 Peripheral",
-          "company": "opalkelly.com",
-          "company_display": "Opal Kelly",
-          "author": "Opal Kelly",
+          "name": "SZG_MIPI_8320", 
+          "display": "SZG_MIPI_8320 Peripheral", 
+          "revision": "1.0", 
+          "description": "SZG_MIPI_8320 Peripheral", 
+          "company": "opalkelly.com", 
+          "company_display": "Opal Kelly", 
+          "author": "Opal Kelly", 
           "contributors": [
             {
-              "group": "Opal Kelly",
+              "group": "Opal Kelly", 
               "url": "https://opalkelly.com/"
             }
-          ],
-          "category": "FMCs & Accessories",
-          "website": "https://opalkelly.com/",
+          ], 
+          "category": "FMCs & Accessories", 
+          "website": "https://docs.opalkelly.com/syzygy-peripherals/szg-mipi-8320/", 
           "logo": "",
           "search-keywords": [
             "XEM8320-AU25P",

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<board schema_version="2.2" vendor="opalkelly.com" name="szg_enet1g" display_name="SZG_ENET1G" url="https://docs.opalkelly.com/syzygy-peripherals/szg-enet1g/" preset_file="preset.xml" supports_ced="false">
+<board schema_version="2.2" vendor="opalkelly.com" name="SZG_ENET1G" display_name="SZG_ENET1G Peripheral" url="https://docs.opalkelly.com/syzygy-peripherals/szg-enet1g/" preset_file="preset.xml" supports_ced="false">
     <file_version>1.0</file_version> 
     
     <description>SZG_ENET1G Peripheral</description>

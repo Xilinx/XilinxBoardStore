@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<board schema_version="2.2" vendor="opalkelly.com" name="szg_mipi_8320" display_name="SZG_MIPI_8320" url="https://docs.opalkelly.com/syzygy-peripherals/szg-mipi-8320/" preset_file="preset.xml" supports_ced="false">
+<board schema_version="2.2" vendor="opalkelly.com" name="SZG_MIPI_8320" display_name="SZG_MIPI_8320 Peripheral" url="https://docs.opalkelly.com/syzygy-peripherals/szg-mipi-8320/" preset_file="preset.xml" supports_ced="false">
     <file_version>1.0</file_version> 
     
     <description>SZG_MIPI_8320 Peripheral</description>

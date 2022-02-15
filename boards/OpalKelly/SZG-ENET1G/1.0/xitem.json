@@ -3,21 +3,21 @@
     "items": [
       {
         "infra": {
-          "name": "SZG_ENET1G Peripheral",
-          "display": "SZG_ENET1G Peripheral",
-          "revision": "1.0",
-          "description": "SZG_ENET1G Peripheral",
-          "company": "opalkelly.com",
-          "company_display": "Opal Kelly",
-          "author": "Opal Kelly",
+          "name": "SZG_ENET1G", 
+          "display": "SZG_ENET1G Peripheral", 
+          "revision": "1.0", 
+          "description": "SZG_ENET1G Peripheral", 
+          "company": "opalkelly.com", 
+          "company_display": "Opal Kelly", 
+          "author": "Opal Kelly", 
           "contributors": [
             {
-              "group": "Opal Kelly",
+              "group": "Opal Kelly", 
               "url": "https://opalkelly.com/"
             }
-          ],
-          "category": "FMCs & Accessories",
-          "website": "https://opalkelly.com/",
+          ], 
+          "category": "FMCs & Accessories", 
+          "website": "https://docs.opalkelly.com/syzygy-peripherals/szg-enet1g/", 
           "logo": "",
           "search-keywords": [
             "XEM8320-AU25P",
