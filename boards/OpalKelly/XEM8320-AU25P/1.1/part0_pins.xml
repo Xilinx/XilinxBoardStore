@@ -2,8 +2,8 @@
 <part_info part_name="xcau25p-ffvb676-2-e">
 <pins>
  
-  <pin index="0" name ="PL_DDR4_REFCLKP" iostandard="DIFF_SSTL12" diff_term="FALSE" loc="AD20"/>
-  <pin index="1" name ="PL_DDR4_REFCLKN" iostandard="DIFF_SSTL12" diff_term="FALSE" loc="AE20"/>
+  <pin index="0" name ="PL_DDR4_REFCLKP" iostandard="DIFF_SSTL12" loc="AD20"/>
+  <pin index="1" name ="PL_DDR4_REFCLKN" iostandard="DIFF_SSTL12" loc="AE20"/>
   
   <pin index="2" name ="c0_ddr4_act_n" iostandard="SSTL12_DCI" loc="Y18" output_impedance="RDRV_40_40" slew="FAST"/>
   <pin index="3" name ="c0_ddr4_adr0" iostandard="SSTL12_DCI" loc="AD18" output_impedance="RDRV_40_40" slew="FAST"/>
