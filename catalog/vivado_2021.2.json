@@ -6218,11 +6218,11 @@
         "name": "XEM8320-AU25P",
         "display": "XEM8320-AU25P Development Platform",
         "latest_revision": "1.1",
-        "commit_id": "b30e267592700dd6f8d01399a9cc8f905a736fed",
+        "commit_id": "a172ac7d38f47ba7c74e754a5b726914d0a27b9f",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "b30e267592700dd6f8d01399a9cc8f905a736fed",
+            "commit_id": "a172ac7d38f47ba7c74e754a5b726914d0a27b9f",
             "date": "14-02-2022:21:55:10",
             "history": "Added board XEM8320-AU25P Development Platform v1.1"
           }
