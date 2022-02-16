@@ -6289,6 +6289,63 @@
           "metadata_file": "xitem.json"
         },
         "company": "opalkelly.com"
+      },
+      {
+        "name": "SZG_ENET1G",
+        "display": "SZG_ENET1G Peripheral",
+        "latest_revision": "1.0",
+        "commit_id": "5ba4dfc47294c92aec32e043c7c0d57e97648710",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "5ba4dfc47294c92aec32e043c7c0d57e97648710",
+            "date": "16-02-2022:02:26:41",
+            "history": "Added board SZG_ENET1G Peripheral v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/SZG-ENET1G/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "SZG_MIPI_8320",
+        "display": "SZG_MIPI_8320 Peripheral",
+        "latest_revision": "1.0",
+        "commit_id": "5ba4dfc47294c92aec32e043c7c0d57e97648710",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "5ba4dfc47294c92aec32e043c7c0d57e97648710",
+            "date": "16-02-2022:02:26:41",
+            "history": "Added board SZG_MIPI_8320 Peripheral v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/SZG-MIPI-8320/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "SZG_PCIEX4",
+        "display": "SZG_PCIEX4 Peripheral",
+        "latest_revision": "1.0",
+        "commit_id": "5ba4dfc47294c92aec32e043c7c0d57e97648710",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "5ba4dfc47294c92aec32e043c7c0d57e97648710",
+            "date": "16-02-2022:02:26:41",
+            "history": "Added board SZG_PCIEX4 Peripheral v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/SZG-PCIEX4/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
       }
     ],
     "categories": [
