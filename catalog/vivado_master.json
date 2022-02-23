@@ -4866,44 +4866,6 @@
         "company": "avnet.com"
       },
       {
-        "name": "vck190",
-        "display": "Versal VCK190 Evaluation Platform",
-        "latest_revision": "2.3",
-        "commit_id": "133be3ea619648bdb2457eed7837013e845c0dd2",
-        "revisions": [
-          {
-            "revision": "2.3",
-            "commit_id": "133be3ea619648bdb2457eed7837013e845c0dd2",
-            "date": "08-06-2021:14:00:46",
-            "history": "Added board Versal VCK190 Evaluation Platform v2.3"
-          }
-        ],
-        "config": {
-          "root": "boards/Xilinx/vck190/production/2.3",
-          "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
-      },
-      {
-        "name": "vmk180",
-        "display": "Versal VMK180 Evaluation Platform",
-        "latest_revision": "2.3",
-        "commit_id": "133be3ea619648bdb2457eed7837013e845c0dd2",
-        "revisions": [
-          {
-            "revision": "2.3",
-            "commit_id": "133be3ea619648bdb2457eed7837013e845c0dd2",
-            "date": "08-06-2021:14:00:46",
-            "history": "Added board Versal VMK180 Evaluation Platform v2.3"
-          }
-        ],
-        "config": {
-          "root": "boards/Xilinx/vmk180/production/2.3",
-          "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
-      },
-      {
         "name": "zcu208ld",
         "display": "Zynq UltraScale+ ZCU208-LD Evaluation Platform",
         "latest_revision": "2.0",
@@ -6270,6 +6232,44 @@
           "metadata_file": "xitem.json"
         },
         "company": "trenz.biz"
+      },
+      {
+        "name": "vck190",
+        "display": "Versal VCK190 Evaluation Platform",
+        "latest_revision": "3.0",
+        "commit_id": "365df9ce54b780aeda9be4eabfe0c0b97ef1e079",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "365df9ce54b780aeda9be4eabfe0c0b97ef1e079",
+            "date": "23-02-2022:07:11:08",
+            "history": "Added board Versal VCK190 Evaluation Platform v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vck190/production/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vmk180",
+        "display": "Versal VMK180 Evaluation Platform",
+        "latest_revision": "3.0",
+        "commit_id": "365df9ce54b780aeda9be4eabfe0c0b97ef1e079",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "365df9ce54b780aeda9be4eabfe0c0b97ef1e079",
+            "date": "23-02-2022:07:11:08",
+            "history": "Added board Versal VMK180 Evaluation Platform v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vmk180/production/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
       }
     ],
     "categories": [
