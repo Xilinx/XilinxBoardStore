@@ -3,10 +3,10 @@
     "items": [
       {
         "infra": {
-          "name": "vmk180", 
-          "display": "Versal VMK180 Evaluation Platform", 
-          "revision": "2.3", 
-          "description": "Versal VMK180 Evaluation Platform", 
+          "name": "vck190", 
+          "display": "Versal VCK190 Evaluation Platform", 
+          "revision": "3.0", 
+          "description": "Versal VCK190 Evaluation Platform", 
           "company": "xilinx.com", 
           "company_display": "Xilinx", 
           "author": "Vanitha", 
@@ -17,9 +17,9 @@
             }
           ], 
           "category": "Evaluation Boards", 
-          "website": "www.xilinx.com/vmk180", 
+          "website": "www.xilinx.com/vck190", 
           "search-keywords": [
-            "vmk180", 
+            "vck190", 
             "xilinx.com", 
             "board", 
             "Single Part"

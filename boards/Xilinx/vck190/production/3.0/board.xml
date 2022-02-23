@@ -10,11 +10,11 @@
  License for the specific language governing permissions and limitations
  under the License. -->
  
-<board schema_version="2.2" vendor="xilinx.com" name="vmk180" display_name="Versal VMK180 Evaluation Platform" url="http://www.xilinx.com/VMK180" preset_file="preset.xml" supports_ced="true"> 
+<board schema_version="2.2" vendor="xilinx.com" name="vck190" display_name="Versal VCK190 Evaluation Platform" url="http://www.xilinx.com/vck190" preset_file="preset.xml" supports_ced="true"> 
 			
   <images>
-    <image name="vmk180_image.jpg" display_name="Versal VMK180 Evaluation Platform" sub_type="board" resolution="high">
-      <description>Versal VMK180 Evaluation Platform"</description>
+    <image name="vck190_image.jpg" display_name="Versal VCK190 Evaluation Platform" sub_type="board" resolution="high">
+      <description>Versal VCK190 Evaluation Platform"</description>
     </image>
   </images>
   
@@ -22,9 +22,9 @@
     <revision id="0">Rev B02</revision>
   </compatible_board_revisions>
   
-  <file_version>2.3</file_version>
+  <file_version>3.0</file_version>
   
-  <description>Versal VMK180 Evaluation Platform</description>
+  <description>Versal VCK190 Evaluation Platform</description>
   
   <parameters>
     <parameter name="heat_sink_type" value="medium" value_type="string"/>
@@ -37,13 +37,13 @@
   <components>
   
  
-  <component name="part0" display_name="xcvm1802 FPGA" type="fpga" part_name="xcvm1802-vsva2197-2MP-e-S" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="http://www.xilinx.com/vmk180">
-      <description>xcvm1802 FPGA</description> 
+  <component name="part0" display_name="xcvc1902 FPGA" type="fpga" part_name="xcvc1902-vsva2197-2MP-e-S" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="http://www.xilinx.com/vck190">
+      <description>xcvc1902 FPGA</description> 
 	  
     <interfaces>
-
+  
         <interface mode="master" name="ps_pmc_fixed_io" type="xilinx.com:interface:fixed_io_rtl:1.0" of_component="ps_pmc_fixed_io" preset_proc="ps_pmc_fixed_io_preset"> 
-           <parameters>
+            <parameters>
               <parameter name="presets_special_handling"/>
             </parameters>
 		  <preferred_ips>
@@ -53,9 +53,9 @@
 				<port_map logical_port="dummy" physical_port="dummy" dir="out" />
 		  </port_maps>
         </interface>  
- 
+		
         <interface mode="master" name="ps_pmc_fixed_io_OSPI" type="xilinx.com:interface:fixed_io_rtl:1.0" of_component="ps_pmc_fixed_io" preset_proc="ps_pmc_fixed_io_OSPI_preset"> 
-           <parameters>
+            <parameters>
               <parameter name="presets_special_handling"/>
             </parameters>
 		  <preferred_ips>
@@ -65,9 +65,9 @@
 				<port_map logical_port="dummy" physical_port="dummy" dir="out" />
 		  </port_maps>
         </interface> 
-		
+ 
         <interface mode="master" name="ps_pmc_fixed_io_eMMC" type="xilinx.com:interface:fixed_io_rtl:1.0" of_component="ps_pmc_fixed_io" preset_proc="ps_pmc_fixed_io_eMMC_preset"> 
-           <parameters>
+            <parameters>
               <parameter name="presets_special_handling"/>
             </parameters>
 		  <preferred_ips>
@@ -310,12 +310,6 @@
             </port_maps>
         </interface> 
 		
-<!-- 	<interface mode="master" name="LPDDR4_unused" type="xilinx.com:interface:lpddr4_rtl:1.0" of_component="LPDDR4_Controller0" preset_proc="">
-			<description>LPDDR4 board interface helper.</description>
-			  <preferred_ips>
-  				<preferred_ip vendor="xilinx.com" library="ip" name="axi_noc" order="0"/>
-			  </preferred_ips>
-		</interface> -->
 
 		<interface mode="master" name="ch0_lpddr4_c0" type="xilinx.com:interface:lpddr4_rtl:1.0" of_component="LPDDR4_Controller0" preset_proc="LPDDR4_Controller0_preset">
 			<description>LPDDR4 board interface, it can use AXI_NoC IP for connection. </description>
@@ -1159,7 +1153,7 @@
 		
 
 
-		<interface mode="master" name="uart2_bank306" type="xilinx.com:interface:uart_rtl:1.0" of_component="uart2_bank306" preset_proc="rs232_uart_preset">
+		<interface mode="master" name="uart2_bank306" type="xilinx.com:interface:uart_rtl:1.0" of_component="uart2_bank306" >
 			<preferred_ips>
 			  <preferred_ip vendor="xilinx.com" library="ip" name="axi_uart16550" order="0"/>
 			</preferred_ips>
@@ -1230,7 +1224,7 @@
 
 
 
-		<interface mode="master" name="dc_pl_gpio" type="xilinx.com:interface:gpio_rtl:1.0" of_component="dc_pl_gpio" preset_proc="dc_pl_gpio_preset">
+		<interface mode="master" name="dc_pl_gpio" type="xilinx.com:interface:gpio_rtl:1.0" of_component="dc_pl_gpio" >
 			<preferred_ips>
 				<preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
 			</preferred_ips>
@@ -1266,7 +1260,7 @@
         </interface>
 		
 		
-		<interface mode="master" name="sysctlr_gpio" type="xilinx.com:interface:gpio_rtl:1.0" of_component="sysctlr_gpio" preset_proc="sysctlr_gpio_preset">
+		<interface mode="master" name="sysctlr_gpio" type="xilinx.com:interface:gpio_rtl:1.0" of_component="sysctlr_gpio" >
 			<preferred_ips>
 				<preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
 			</preferred_ips>
@@ -1306,6 +1300,8 @@
 				</port_map>
 			</port_maps>
         </interface>
+
+
 
          <!-- bank105_gty2_axi_eth -->
         <interface mode="master" name="bank105_gty2_axi_eth" type="xilinx.com:interface:sgmii_rtl:1.0" of_component="bank105_gty2_axi_eth" preset_proc="axi_eth_preset" >
@@ -1389,7 +1385,9 @@
             <parameter name="gt_inst_name" value="gt_quad_base_bank105" />
           </parameters>
         </interface>		
-
+	
+	
+	
 	     <!-- bank105_gty3_axi_eth -->
 
         <interface mode="master" name="bank105_gty3_axi_eth" type="xilinx.com:interface:sgmii_rtl:1.0" of_component="bank105_gty3_axi_eth" preset_proc="axi_eth_preset" >
@@ -1471,7 +1469,10 @@
 			<parameter name="gt_inst_name" value="gt_quad_base_bank105" />
           </parameters>
         </interface>		
-
+		
+	
+	  
+		  
 		<!-- bank105_gty2_xxv  -->
         <interface mode="master" name="bank105_gty2_xxv" type="xilinx.com:interface:gt_rtl:1.0" of_component="bank105_gty2_xxv" preset_proc="xxv_preset" >
           <description> Four lane GT interface over qsfp1_connector</description>
@@ -1631,8 +1632,10 @@
             <parameter name="gt_inst_name" value="gt_quad_base_bank105" />
           </parameters>
         </interface>	
-			
+		
+	
 	    <!-- bank105_gty2gty3_l_eth Interface   -->		
+		
          <interface mode="master" name="bank105_gty2gty3_l_eth" type="xilinx.com:interface:gt_rtl:1.0" of_component="bank105_gty2gty3_l_eth"  preset_proc="l_ethernet_preset" >
           <description> Two lane GT interface over qsfp1_connector</description>
           <preferred_ips>
@@ -1672,6 +1675,8 @@
           </parameters>
 		</interface>
 
+
+	  
         <interface mode="master" name="bank105_gty2_rx_l_eth" type="xilinx.com:interface:gt_rtl:1.0" of_component="bank105_gty2_rx_l_eth">
           <port_maps>
             <port_map logical_port="GRX_P" physical_port="gt_quad_base_rxp_intf0" dir="in" >
@@ -1693,7 +1698,8 @@
             <parameter name="gt_inst_name" value="gt_quad_base_bank105" />
           </parameters>
         </interface>
-			
+		
+		
         <interface mode="master" name="bank105_gty2_tx_l_eth" type="xilinx.com:interface:gt_rtl:1.0" of_component="bank105_gty2_tx_l_eth">
           <port_maps>
             <port_map logical_port="GTX_P" physical_port="gt_quad_base_txp_intf0" dir="in" >
@@ -1717,6 +1723,7 @@
         </interface>
 
 
+
         <interface mode="master" name="bank105_gty3_rx_l_eth" type="xilinx.com:interface:gt_rtl:1.0" of_component="bank105_gty3_rx_l_eth">
           <port_maps>
             <port_map logical_port="GRX_P" physical_port="gt_quad_base_rxp_intf1" dir="in" >
@@ -1738,7 +1745,8 @@
             <parameter name="gt_inst_name" value="gt_quad_base_bank105" />
           </parameters>
         </interface>
-
+		
+		
         <interface mode="master" name="bank105_gty3_tx_l_eth" type="xilinx.com:interface:gt_rtl:1.0" of_component="bank105_gty3_tx_l_eth">
           <port_maps>
             <port_map logical_port="GTX_P" physical_port="gt_quad_base_txp_intf1" dir="in" >
@@ -1759,8 +1767,10 @@
             <parameter name="interface_type" value="lane3_tx" />
             <parameter name="gt_inst_name" value="gt_quad_base_bank105" />
           </parameters>
-        </interface>				
-
+        </interface>		
+				
+				 	
+		
 		<!-- gtrefclk0_bank105 -->
         <interface mode="master" name="gtrefclk0_bank105" type="xilinx.com:interface:dummy_util_buf_interface:1.0" of_component="gtrefclk0_bank105" >
           <port_maps>
@@ -1799,16 +1809,16 @@
 			<parameter name="frequency" value="156.25" />			
           </parameters>
         </interface> -->
+ 
       </interfaces>
     
     </component>   
 	
 	
-    <!-- <component name="cips_fixed_io" display_name="PS8 fixed IO" type="chip" sub_type="fixed_io" major_group=""/>	 -->
+    <!-- <component name="ps_pmc_fixed_io" display_name="PS8 fixed IO" type="chip" sub_type="fixed_io" major_group=""/>	 -->
 	
 	<component name="ps_pmc_fixed_io" display_name="PS-PMC Fixed IO" type="chip" sub_type="fixed_io" major_group="MIO interface" part_name="Versal CIPS" vendor="Xilinx" >
       <description>Versal CIPS component </description>
-
 	 <component_modes>
 	   <component_mode name="ps_pmc_fixed_io" display_name="ps_pmc_fixed_io">
           <interfaces>
@@ -1827,8 +1837,7 @@
             <interface name="ps_pmc_fixed_io_eMMC"/>
           </interfaces>
         </component_mode>		
-	  </component_modes> 
-
+	  </component_modes>
 	</component>
    
 	<component name="ddr4_dimm1" display_name="DDR4 DIMM1" type="chip" sub_type="ddr" major_group="External Memory" part_name="MTA9ADF1G72AZ-3G2E1" vendor="Micron" spec_url="https://www.micron.com/">
@@ -1947,6 +1956,7 @@
 	<component name="sysctlr_gpio" display_name="Sysctlr GPIO" type="chip" sub_type="led" major_group="General Purpose Input or Output" part_name="SML-LX0603GW-TR" vendor="LUMEX">
       <description>System Controller GPIO</description>
     </component>	
+	
 
 	<component name="bank105_gty2_axi_eth" display_name="AXI_ethernet on Bank 105 GTY2" type="chip" sub_type="sfp" major_group="Ethernet Configurations" part_name="M88E1111_BAB1C000" vendor="Marvell" spec_url="www.marvell.com">
       <description>AXI_ethernet on Bank 105 GTY2</description>
@@ -2027,6 +2037,7 @@
       <description>GT REFCLK1 on Bank 105</description>
     </component>
 	 -->
+
 		
  </components>
   
@@ -2178,4 +2189,7 @@
 			</connection>			
 
 	</connections>
+    
+
+  
 </board>

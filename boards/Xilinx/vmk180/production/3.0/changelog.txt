@@ -1,5 +1,5 @@
 ######### VMK180 change log ##############
-2.3 - 2021.2
+3.0 - 2022.1
 Added OSPI and eMMC Boot Mode presets to Board Interface
 Added Board Flow Support For Versal GTs
 IPs : xxv_ethernet, l_ethernet and axi_ethernet
