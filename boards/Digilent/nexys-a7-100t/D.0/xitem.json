@@ -1,0 +1,33 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "nexys-a7-100t",
+          "display": "Nexys A7-100T",
+          "revision": "1.2",
+          "description": "Nexys A7-100T",
+          "company": "digilentinc.com",
+          "company_display": "Digilent Inc",
+          "author": "ArtVVB",
+          "contributors": [
+            {
+              "group": "Digilent Inc",
+              "url": "digilent.com"
+            }
+          ],
+          "category": "Single Part",
+          "website": "https://digilent.com/reference/programmable-logic/nexys-a7/start",
+          "search-keywords": [
+            "nexys-a7-100t",
+            "digilentinc.com",
+            "board",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

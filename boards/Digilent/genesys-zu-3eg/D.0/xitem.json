@@ -1,0 +1,33 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "gzu_3eg",
+          "display": "Genesys ZU-3EG",
+          "revision": "1.1",
+          "description": "Genesys ZU-3EG",
+          "company": "digilentinc.com",
+          "company_display": "Digilent Inc",
+          "author": "ArtVVB",
+          "contributors": [
+            {
+              "group": "Digilent Inc",
+              "url": "digilent.com"
+            }
+          ],
+          "category": "Single Part",
+          "website": "https://digilent.com/reference/programmable-logic/genesys-zu/start",
+          "search-keywords": [
+            "gzu_3eg",
+            "digilentinc.com",
+            "board",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}
