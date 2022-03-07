@@ -1,0 +1,33 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "eclypse-z7",
+          "display": "Eclypse Z7",
+          "revision": "1.1",
+          "description": "Eclypse Z7",
+          "company": "digilentinc.com",
+          "company_display": "Digilent Inc",
+          "author": "ArtVVB",
+          "contributors": [
+            {
+              "group": "Digilent Inc",
+              "url": "digilent.com"
+            }
+          ],
+          "category": "Single Part",
+          "website": "https://digilent.com/reference/programmable-logic/eclypse-z7/start",
+          "search-keywords": [
+            "eclypse-z7",
+            "digilentinc.com",
+            "board",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

@@ -1,0 +1,33 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "zybo-z7-20",
+          "display": "Zybo Z7-20",
+          "revision": "1.1",
+          "description": "Zybo Z7-20",
+          "company": "digilentinc.com",
+          "company_display": "Digilent Inc",
+          "author": "ArtVVB",
+          "contributors": [
+            {
+              "group": "Digilent Inc",
+              "url": "digilent.com"
+            }
+          ],
+          "category": "Single Part",
+          "website": "https://digilent.com/reference/programmable-logic/zybo-z7/start",
+          "search-keywords": [
+            "zybo-z7-20",
+            "digilentinc.com",
+            "board",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

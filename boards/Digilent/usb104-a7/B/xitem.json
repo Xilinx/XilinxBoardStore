@@ -1,0 +1,33 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "usb104-a7",
+          "display": "USB104 A7",
+          "revision": "1.3",
+          "description": "USB104 A7",
+          "company": "digilentinc.com",
+          "company_display": "Digilent Inc",
+          "author": "ArtVVB",
+          "contributors": [
+            {
+              "group": "Digilent Inc",
+              "url": "digilent.com"
+            }
+          ],
+          "category": "Single Part",
+          "website": "https://digilent.com/reference/programmable-logic/usb104a7/start",
+          "search-keywords": [
+            "usb104-a7",
+            "digilentinc.com",
+            "board",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

@@ -1,0 +1,2 @@
+1.1 Fixed PSU__DDRC__DDR4_ADDR_MAPPING appearing twice and with conflicting values that was causing a silent FSBL failure in the boot process.
+1.0. Genesys ZU-ZU5EV initial board support for rev C. 
