@@ -6270,6 +6270,443 @@
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
+      },
+      {
+        "name": "arty-a7-100",
+        "display": "Arty A7-100",
+        "latest_revision": "1.1",
+        "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+            "date": "08-03-2022:21:39:07",
+            "history": "Added board Arty A7-100 v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/arty-a7-100/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "arty-a7-35",
+        "display": "Arty A7-35",
+        "latest_revision": "1.1",
+        "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+            "date": "08-03-2022:21:39:07",
+            "history": "Added board Arty A7-35 v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/arty-a7-35/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "arty-s7-25",
+        "display": "Arty S7-25",
+        "latest_revision": "1.1",
+        "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+            "date": "08-03-2022:21:39:07",
+            "history": "Added board Arty S7-25 v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/arty-s7-25/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "arty-s7-50",
+        "display": "Arty S7-50",
+        "latest_revision": "1.1",
+        "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+            "date": "08-03-2022:21:39:07",
+            "history": "Added board Arty S7-50 v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/arty-s7-50/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "arty-z7-10",
+        "display": "Arty Z7-10",
+        "latest_revision": "1.1",
+        "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+            "date": "08-03-2022:21:39:07",
+            "history": "Added board Arty Z7-10 v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/arty-z7-10/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "arty-z7-20",
+        "display": "Arty Z7-20",
+        "latest_revision": "1.1",
+        "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+            "date": "08-03-2022:21:39:07",
+            "history": "Added board Arty Z7-20 v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/arty-z7-20/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "basys3",
+        "display": "Basys3",
+        "latest_revision": "1.2",
+        "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+            "date": "08-03-2022:21:39:07",
+            "history": "Added board Basys3 v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/basys3/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "cmod-s7-25",
+        "display": "Cmod S7-25",
+        "latest_revision": "1.0",
+        "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+            "date": "08-03-2022:21:39:07",
+            "history": "Added board Cmod S7-25 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/cmod-s7-25/B.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "cmod_a7-15t",
+        "display": "Cmod A7-15t",
+        "latest_revision": "1.2",
+        "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+            "date": "08-03-2022:21:39:07",
+            "history": "Added board Cmod A7-15t v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/cmod_a7-15t/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "cmod_a7-35t",
+        "display": "Cmod A7-35t",
+        "latest_revision": "1.2",
+        "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+            "date": "08-03-2022:21:39:07",
+            "history": "Added board Cmod A7-35t v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/cmod_a7-35t/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "cora-z7-07s",
+        "display": "Cora Z7-07S",
+        "latest_revision": "1.1",
+        "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+            "date": "08-03-2022:21:39:07",
+            "history": "Added board Cora Z7-07S v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/cora-z7-07s/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "cora-z7-10",
+        "display": "Cora Z7-10",
+        "latest_revision": "1.1",
+        "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+            "date": "08-03-2022:21:39:07",
+            "history": "Added board Cora Z7-10 v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/cora-z7-10/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "eclypse-z7",
+        "display": "Eclypse Z7",
+        "latest_revision": "1.1",
+        "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+            "date": "08-03-2022:21:39:07",
+            "history": "Added board Eclypse Z7 v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/eclypse-z7/B.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "gzu_3eg",
+        "display": "Genesys ZU-3EG",
+        "latest_revision": "1.0",
+        "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+            "date": "08-03-2022:21:39:07",
+            "history": "Added board Genesys ZU-3EG v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/genesys-zu-3eg/B.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "gzu_3eg",
+        "display": "Genesys ZU-3EG",
+        "latest_revision": "1.1",
+        "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+            "date": "08-03-2022:21:39:07",
+            "history": "Added board Genesys ZU-3EG v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/genesys-zu-3eg/D.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "gzu_5ev",
+        "display": "Genesys ZU-5EV",
+        "latest_revision": "1.1",
+        "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+            "date": "08-03-2022:21:39:07",
+            "history": "Added board Genesys ZU-5EV v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/genesys-zu-5ev/C.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "nexys-a7-100t",
+        "display": "Nexys A7-100T",
+        "latest_revision": "1.2",
+        "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+            "date": "08-03-2022:21:39:07",
+            "history": "Added board Nexys A7-100T v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/nexys-a7-100t/D.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "nexys-a7-50t",
+        "display": "Nexys A7-50T",
+        "latest_revision": "1.2",
+        "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+            "date": "08-03-2022:21:39:07",
+            "history": "Added board Nexys A7-50T v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/nexys-a7-50t/D.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "nexys_video",
+        "display": "Nexys Video",
+        "latest_revision": "1.2",
+        "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+            "date": "08-03-2022:21:39:07",
+            "history": "Added board Nexys Video v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/nexys_video/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "usb104-a7",
+        "display": "USB104 A7",
+        "latest_revision": "1.3",
+        "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+        "revisions": [
+          {
+            "revision": "1.3",
+            "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+            "date": "08-03-2022:21:39:07",
+            "history": "Added board USB104 A7 v1.3"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/usb104-a7/B",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "zedboard",
+        "display": "Zedboard",
+        "latest_revision": "1.0",
+        "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+            "date": "08-03-2022:21:39:07",
+            "history": "Added board Zedboard v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/zedboard/1.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "zybo-z7-10",
+        "display": "Zybo Z7-10",
+        "latest_revision": "1.1",
+        "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+            "date": "08-03-2022:21:39:07",
+            "history": "Added board Zybo Z7-10 v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/zybo-z7-10/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "zybo-z7-20",
+        "display": "Zybo Z7-20",
+        "latest_revision": "1.1",
+        "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+            "date": "08-03-2022:21:39:07",
+            "history": "Added board Zybo Z7-20 v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/zybo-z7-20/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
       }
     ],
     "categories": [
