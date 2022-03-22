@@ -6707,6 +6707,139 @@
           "metadata_file": "xitem.json"
         },
         "company": "digilentinc.com"
+      },
+      {
+        "name": "BRK1900-7CG",
+        "display": "ECM1900-7CG W/ BRK1900",
+        "latest_revision": "1.0",
+        "commit_id": "e2229c0ba9e967af3a3fcf806dbedb796ed7bdb3",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "e2229c0ba9e967af3a3fcf806dbedb796ed7bdb3",
+            "date": "22-03-2022:22:46:53",
+            "history": "Added board ECM1900-7CG W/ BRK1900 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/BRK1900-7CG/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "BRK1900-7EG",
+        "display": "ECM1900-7EG W/ BRK1900",
+        "latest_revision": "1.0",
+        "commit_id": "e2229c0ba9e967af3a3fcf806dbedb796ed7bdb3",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "e2229c0ba9e967af3a3fcf806dbedb796ed7bdb3",
+            "date": "22-03-2022:22:46:53",
+            "history": "Added board ECM1900-7EG W/ BRK1900 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/BRK1900-7EG/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "BRK1900-7EV",
+        "display": "ECM1900-7EV W/ BRK1900",
+        "latest_revision": "1.0",
+        "commit_id": "e2229c0ba9e967af3a3fcf806dbedb796ed7bdb3",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "e2229c0ba9e967af3a3fcf806dbedb796ed7bdb3",
+            "date": "22-03-2022:22:46:53",
+            "history": "Added board ECM1900-7EV W/ BRK1900 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/BRK1900-7EV/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "SZG_ENET1G",
+        "display": "SZG_ENET1G Peripheral",
+        "latest_revision": "1.0",
+        "commit_id": "e2229c0ba9e967af3a3fcf806dbedb796ed7bdb3",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "e2229c0ba9e967af3a3fcf806dbedb796ed7bdb3",
+            "date": "22-03-2022:22:46:53",
+            "history": "Added board SZG_ENET1G Peripheral v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/SZG-ENET1G/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "SZG_MIPI_8320",
+        "display": "SZG_MIPI_8320 Peripheral",
+        "latest_revision": "1.0",
+        "commit_id": "e2229c0ba9e967af3a3fcf806dbedb796ed7bdb3",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "e2229c0ba9e967af3a3fcf806dbedb796ed7bdb3",
+            "date": "22-03-2022:22:46:53",
+            "history": "Added board SZG_MIPI_8320 Peripheral v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/SZG-MIPI-8320/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "SZG_PCIEX4",
+        "display": "SZG_PCIEX4 Peripheral",
+        "latest_revision": "1.0",
+        "commit_id": "e2229c0ba9e967af3a3fcf806dbedb796ed7bdb3",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "e2229c0ba9e967af3a3fcf806dbedb796ed7bdb3",
+            "date": "22-03-2022:22:46:53",
+            "history": "Added board SZG_PCIEX4 Peripheral v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/SZG-PCIEX4/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "XEM8320-AU25P",
+        "display": "XEM8320-AU25P Development Platform",
+        "latest_revision": "1.1",
+        "commit_id": "e2229c0ba9e967af3a3fcf806dbedb796ed7bdb3",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "e2229c0ba9e967af3a3fcf806dbedb796ed7bdb3",
+            "date": "22-03-2022:22:46:53",
+            "history": "Added board XEM8320-AU25P Development Platform v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/XEM8320-AU25P/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
       }
     ],
     "categories": [
