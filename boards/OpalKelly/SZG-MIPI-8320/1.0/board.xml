@@ -1,431 +1,392 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <board schema_version="2.2" vendor="opalkelly.com" name="SZG_MIPI_8320" display_name="SZG_MIPI_8320 Peripheral" url="https://docs.opalkelly.com/syzygy-peripherals/szg-mipi-8320/" preset_file="preset.xml" supports_ced="false">
-    <file_version>1.0</file_version> 
-    
-    <description>SZG_MIPI_8320 Peripheral</description>
-    
-        <compatible_board_revisions>
-           <revision id="0">RevA</revision>
-        </compatible_board_revisions>
-    
-    <components>
-    
-        <component name="szg_port_std" type="connector" sub_type="som" display_name="SZG_MIPI_8320 (STD) (Port A ONLY)">
-            <pins>
-                <pin index="0"  name="CAM1_CLK_P" iostandard="MIPI_DPHY_DCI"></pin> 
-                <pin index="1"  name="CAM2_LANE0_P" iostandard="MIPI_DPHY_DCI"></pin> 
-                <pin index="2"  name="CAM1_CLK_N" iostandard="MIPI_DPHY_DCI"></pin> 
-                <pin index="3"  name="CAM2_LANE0_N" iostandard="MIPI_DPHY_DCI"></pin> 
-                <pin index="4"  name="CAM1_LANE0_P" iostandard="MIPI_DPHY_DCI"></pin> 
-                <pin index="5"  name="CAM3_CLK_P" iostandard="MIPI_DPHY_DCI"></pin> 
-                <pin index="6"  name="CAM1_LANE0_N" iostandard="MIPI_DPHY_DCI"></pin> 
-                <pin index="7"  name="CAM3_CLK_N" iostandard="MIPI_DPHY_DCI"></pin> 
-                <pin index="8"  name="CAM1_LANE1_P" iostandard="MIPI_DPHY_DCI"></pin> 
-                <pin index="9"  name="CAM2_LANE1_P" iostandard="MIPI_DPHY_DCI"></pin> 
-                <pin index="10" name="CAM1_LANE1_N"  iostandard="MIPI_DPHY_DCI"></pin> 
-                <pin index="11" name="CAM2_LANE1_N" iostandard="MIPI_DPHY_DCI"></pin> 
-                <pin index="12" name="CAM2_CLK_P" iostandard="MIPI_DPHY_DCI"></pin> 
-                <pin index="13" name="CAM3_LANE0_P" iostandard="MIPI_DPHY_DCI"></pin> 
-                <pin index="14" name="CAM2_CLK_N" iostandard="MIPI_DPHY_DCI"></pin> 
-                <pin index="15" name="CAM3_LANE0_N" iostandard="MIPI_DPHY_DCI"></pin> 
-                <pin index="16" name="CAM1_GPIO0_VIO" iostandard="LVCMOS12"></pin> 
-                <pin index="17" name="CAM1_SCL_VIO" iostandard="LVCMOS12"></pin> 
-                <pin index="18" name="CAM1_GPIO1_VIO" iostandard="LVCMOS12"></pin> 
-                <pin index="19" name="CAM1_SDA_VIO" iostandard="LVCMOS12"></pin> 
-                <pin index="20" name="CAM2_GPIO0_VIO" iostandard="LVCMOS12"></pin> 
-                <pin index="21" name="CAM2_SCL_VIO" iostandard="LVCMOS12"></pin> 
-                <pin index="22" name="CAM2_GPIO1_VIO" iostandard="LVCMOS12"></pin> 
-                <pin index="23" name="CAM2_SDA_VIO" iostandard="LVCMOS12"></pin> 
-                <pin index="24" name="CAM3_GPIO0_VIO" iostandard="LVCMOS12"></pin> 
-                <pin index="25" name="CAM3_SCL_VIO" iostandard="LVCMOS12"></pin> 
-                <pin index="26" name="CAM3_GPIO1_VIO" iostandard="LVCMOS12"></pin> 
-                <pin index="27" name="CAM3_SDA_VIO" iostandard="LVCMOS12"></pin> 
-                <pin index="28" name="CAM3_LANE1_P" iostandard="MIPI_DPHY_DCI"></pin> 
-                <pin index="29" name="GPIO1_DIR" iostandard="LVCMOS12"></pin> 
-                <pin index="30" name="CAM3_LANE1_N" iostandard="MIPI_DPHY_DCI"></pin> 
-                <pin index="31" name="unconnected" ></pin> 
-            </pins>
-            <interfaces>
-                <interface mode="slave" name="rxcsi_cam1" type="xilinx.com:interface:mipi_phy_rtl:1.0" of_component="rxcsi_cam1" preset_proc="rxcsi_preset_cam_1">
-                    <preferred_ips>
-                        <preferred_ip vendor="xilinx.com" library="ip" name="mipi_csi2_rx_subsystem" order="0"/>
-                        <preferred_ip vendor="xilinx.com" library="ip" name="mipi_dphy" order="1"/>
-                    </preferred_ips>
-                    <port_maps>
-                        <port_map logical_port="CLK_P" physical_port="clk_rxpx2_cam1" dir="in" >
-                            <pin_maps>
-                                <pin_map port_index="0" component_pin="CAM1_CLK_P"/>
-                            </pin_maps>
-                        </port_map>
-                        <port_map logical_port="CLK_N" physical_port="clk_rxnx2_cam1" dir="in" >
-                            <pin_maps>
-                                <pin_map port_index="0" component_pin="CAM1_CLK_N"/>
-                            </pin_maps>
-                        </port_map>
-                        <port_map logical_port="DATA_P" physical_port="data_rxpx2_cam1" dir="in" left="1" right="0">
-                            <pin_maps>
-                                <pin_map port_index="0" component_pin="CAM1_LANE0_P"/>
-                                <pin_map port_index="1" component_pin="CAM1_LANE1_P"/>
-                            </pin_maps>
-                        </port_map>
-                        <port_map logical_port="DATA_N" physical_port="data_rxnx2_cam1" dir="in" left="1" right="0">
-                            <pin_maps>
-                                <pin_map port_index="0" component_pin="CAM1_LANE0_N"/>
-                                <pin_map port_index="1" component_pin="CAM1_LANE1_N"/>
-                            </pin_maps>
-                        </port_map>
-                    </port_maps>
-                </interface>
-                
-                <interface mode="slave" name="rxcsi_cam2" type="xilinx.com:interface:mipi_phy_rtl:1.0" of_component="rxcsi_cam2" preset_proc="rxcsi_preset_cam_2">
-                    <preferred_ips>
-                        <preferred_ip vendor="xilinx.com" library="ip" name="mipi_csi2_rx_subsystem" order="0"/>
-                        <preferred_ip vendor="xilinx.com" library="ip" name="mipi_dphy" order="1"/>
-                    </preferred_ips>
-                    <port_maps>
-                        <port_map logical_port="CLK_P" physical_port="clk_rxpx2_cam2" dir="in" >
-                            <pin_maps>
-                                <pin_map port_index="0" component_pin="CAM2_CLK_P"/>
-                            </pin_maps>
-                        </port_map>
-                        <port_map logical_port="CLK_N" physical_port="clk_rxnx2_cam2" dir="in" >
-                            <pin_maps>
-                                <pin_map port_index="0" component_pin="CAM2_CLK_N"/>
-                            </pin_maps>
-                        </port_map>
-                        <port_map logical_port="DATA_P" physical_port="data_rxpx2_cam2" dir="in" left="1" right="0">
-                            <pin_maps>
-                                <pin_map port_index="0" component_pin="CAM2_LANE0_P"/>
-                                <pin_map port_index="1" component_pin="CAM2_LANE1_P"/>
-                            </pin_maps>
-                        </port_map>
-                        <port_map logical_port="DATA_N" physical_port="data_rxnx2_cam2" dir="in" left="1" right="0">
-                            <pin_maps>
-                                <pin_map port_index="0" component_pin="CAM2_LANE0_N"/>
-                                <pin_map port_index="1" component_pin="CAM2_LANE1_N"/>
-                            </pin_maps>
-                        </port_map>
-                    </port_maps>
-                </interface>
-                
-                <interface mode="slave" name="rxcsi_cam3" type="xilinx.com:interface:mipi_phy_rtl:1.0" of_component="rxcsi_cam3" preset_proc="rxcsi_preset_cam_3">
-                    <preferred_ips>
-                        <preferred_ip vendor="xilinx.com" library="ip" name="mipi_csi2_rx_subsystem" order="0"/>
-                        <preferred_ip vendor="xilinx.com" library="ip" name="mipi_dphy" order="1"/>
-                    </preferred_ips>
-                    <port_maps>
-                        <port_map logical_port="CLK_P" physical_port="clk_rxpx2_cam3" dir="in" >
-                            <pin_maps>
-                                <pin_map port_index="0" component_pin="CAM3_CLK_P"/>
-                            </pin_maps>
-                        </port_map>
-                        <port_map logical_port="CLK_N" physical_port="clk_rxnx2_cam3" dir="in" >
-                            <pin_maps>
-                                <pin_map port_index="0" component_pin="CAM3_CLK_N"/>
-                            </pin_maps>
-                        </port_map>
-                        <port_map logical_port="DATA_P" physical_port="data_rxpx2_cam3" dir="in" left="1" right="0">
-                            <pin_maps>
-                                <pin_map port_index="0" component_pin="CAM3_LANE0_P"/>
-                                <pin_map port_index="1" component_pin="CAM3_LANE1_P"/>
-                            </pin_maps>
-                        </port_map>
-                        <port_map logical_port="DATA_N" physical_port="data_rxnx2_cam3" dir="in" left="1" right="0">
-                            <pin_maps>
-                                <pin_map port_index="0" component_pin="CAM3_LANE0_N"/>
-                                <pin_map port_index="1" component_pin="CAM3_LANE1_N"/>
-                            </pin_maps>
-                        </port_map>
-                    </port_maps>
-                </interface>
-                
-                
-                <interface mode="master" name="cam1_reset" type="xilinx.com:interface:gpio_rtl:1.0" of_component="cam1_reset" preset_proc="mipi_rst_Preset_1">
-                  <preferred_ips>
-                    <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
-                  </preferred_ips>
-                  <port_maps>
-                    <port_map logical_port="TRI_O" physical_port="leds_1bits_tri_o_cam1" dir="out">
-                      <pin_maps>
-                        <pin_map port_index="0" component_pin="CAM1_GPIO0_VIO"/>
-                      </pin_maps>
-                    </port_map>
-                  </port_maps>
-                </interface>
-                
-                <interface mode="master" name="cam2_reset" type="xilinx.com:interface:gpio_rtl:1.0" of_component="cam2_reset" preset_proc="mipi_rst_Preset_1">
-                  <preferred_ips>
-                    <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
-                  </preferred_ips>
-                  <port_maps>
-                    <port_map logical_port="TRI_O" physical_port="leds_1bits_tri_o_cam2" dir="out">
-                      <pin_maps>
-                        <pin_map port_index="0" component_pin="CAM2_GPIO0_VIO"/>
-                      </pin_maps>
-                    </port_map>
-                  </port_maps>
-                </interface>
-                
-                <interface mode="master" name="cam3_reset" type="xilinx.com:interface:gpio_rtl:1.0" of_component="cam3_reset" preset_proc="mipi_rst_Preset_1">
-                  <preferred_ips>
-                    <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
-                  </preferred_ips>
-                  <port_maps>
-                    <port_map logical_port="TRI_O" physical_port="leds_1bits_tri_o_cam3" dir="out">
-                      <pin_maps>
-                        <pin_map port_index="0" component_pin="CAM3_GPIO0_VIO"/>
-                      </pin_maps>
-                    </port_map>
-                  </port_maps>
-                </interface>
-                    
-                
-                <interface mode="master" name="cam1_iic" type="xilinx.com:interface:iic_rtl:1.0" of_component="cam1_iic">
-                  <preferred_ips>
-                    <preferred_ip vendor="xilinx.com" library="ip" name="axi_iic" order="0"/>
-                  </preferred_ips>
-                  <port_maps>
-                    <port_map logical_port="SDA_I" physical_port="iic0_main_sda_i_cam1" dir="inout">
-                      <pin_maps>
-                        <pin_map port_index="0" component_pin="CAM1_SDA_VIO"/>
-                      </pin_maps>
-                    </port_map>
-                    <port_map logical_port="SDA_O" physical_port="iic0_main_sda_o_cam1" dir="inout">
-                      <pin_maps>
-                        <pin_map port_index="0" component_pin="CAM1_SDA_VIO"/>
-                      </pin_maps>
-                    </port_map>
-                    <port_map logical_port="SDA_T" physical_port="iic0_main_sda_t_cam1" dir="inout">
-                      <pin_maps>
-                        <pin_map port_index="0" component_pin="CAM1_SDA_VIO"/>
-                      </pin_maps>
-                    </port_map>
-                    <port_map logical_port="SCL_I" physical_port="iic0_main_scl_i_cam1" dir="inout">
-                      <pin_maps>
-                        <pin_map port_index="0" component_pin="CAM1_SCL_VIO"/>
-                      </pin_maps>
-                    </port_map>
-                    <port_map logical_port="SCL_O" physical_port="iic0_main_scl_o_cam1" dir="inout">
-                      <pin_maps>
-                        <pin_map port_index="0" component_pin="CAM1_SCL_VIO"/>
-                      </pin_maps>
-                    </port_map>
-                    <port_map logical_port="SCL_T" physical_port="iic0_main_scl_t_cam1" dir="inout">
-                      <pin_maps>
-                        <pin_map port_index="0" component_pin="CAM1_SCL_VIO"/>
-                      </pin_maps>
-                    </port_map>
-                  </port_maps>
-                </interface>
-                
-                <interface mode="master" name="cam2_iic" type="xilinx.com:interface:iic_rtl:1.0" of_component="cam2_iic">
-                  <preferred_ips>
-                    <preferred_ip vendor="xilinx.com" library="ip" name="axi_iic" order="0"/>
-                  </preferred_ips>
-                  <port_maps>
-                    <port_map logical_port="SDA_I" physical_port="iic0_main_sda_i_cam2" dir="inout">
-                      <pin_maps>
-                        <pin_map port_index="0" component_pin="CAM2_SDA_VIO"/>
-                      </pin_maps>
-                    </port_map>
-                    <port_map logical_port="SDA_O" physical_port="iic0_main_sda_o_cam2" dir="inout">
-                      <pin_maps>
-                        <pin_map port_index="0" component_pin="CAM2_SDA_VIO"/>
-                      </pin_maps>
-                    </port_map>
-                    <port_map logical_port="SDA_T" physical_port="iic0_main_sda_t_cam2" dir="inout">
-                      <pin_maps>
-                        <pin_map port_index="0" component_pin="CAM2_SDA_VIO"/>
-                      </pin_maps>
-                    </port_map>
-                    <port_map logical_port="SCL_I" physical_port="iic0_main_scl_i_cam2" dir="inout">
-                      <pin_maps>
-                        <pin_map port_index="0" component_pin="CAM2_SCL_VIO"/>
-                      </pin_maps>
-                    </port_map>
-                    <port_map logical_port="SCL_O" physical_port="iic0_main_scl_o_cam2" dir="inout">
-                      <pin_maps>
-                        <pin_map port_index="0" component_pin="CAM2_SCL_VIO"/>
-                      </pin_maps>
-                    </port_map>
-                    <port_map logical_port="SCL_T" physical_port="iic0_main_scl_t_cam2" dir="inout">
-                      <pin_maps>
-                        <pin_map port_index="0" component_pin="CAM2_SCL_VIO"/>
-                      </pin_maps>
-                    </port_map>
-                  </port_maps>
-                </interface>
-                
-                <interface mode="master" name="cam3_iic" type="xilinx.com:interface:iic_rtl:1.0" of_component="cam3_iic">
-                  <preferred_ips>
-                    <preferred_ip vendor="xilinx.com" library="ip" name="axi_iic" order="0"/>
-                  </preferred_ips>
-                  <port_maps>
-                    <port_map logical_port="SDA_I" physical_port="iic0_main_sda_i_cam3" dir="inout">
-                      <pin_maps>
-                        <pin_map port_index="0" component_pin="CAM3_SDA_VIO"/>
-                      </pin_maps>
-                    </port_map>
-                    <port_map logical_port="SDA_O" physical_port="iic0_main_sda_o_cam3" dir="inout">
-                      <pin_maps>
-                        <pin_map port_index="0" component_pin="CAM3_SDA_VIO"/>
-                      </pin_maps>
-                    </port_map>
-                    <port_map logical_port="SDA_T" physical_port="iic0_main_sda_t_cam3" dir="inout">
-                      <pin_maps>
-                        <pin_map port_index="0" component_pin="CAM3_SDA_VIO"/>
-                      </pin_maps>
-                    </port_map>
-                    <port_map logical_port="SCL_I" physical_port="iic0_main_scl_i_cam3" dir="inout">
-                      <pin_maps>
-                        <pin_map port_index="0" component_pin="CAM3_SCL_VIO"/>
-                      </pin_maps>
-                    </port_map>
-                    <port_map logical_port="SCL_O" physical_port="iic0_main_scl_o_cam3" dir="inout">
-                      <pin_maps>
-                        <pin_map port_index="0" component_pin="CAM3_SCL_VIO"/>
-                      </pin_maps>
-                    </port_map>
-                    <port_map logical_port="SCL_T" physical_port="iic0_main_scl_t_cam3" dir="inout">
-                      <pin_maps>
-                        <pin_map port_index="0" component_pin="CAM3_SCL_VIO"/>
-                      </pin_maps>
-                    </port_map>
-                  </port_maps>
-                </interface>
-                
-            </interfaces>
-        </component>
-            
-        <component name="cam1_iic" display_name="Cam1 I2C Control" type="chip" sub_type="mux" major_group="Miscellaneous">
-          <description>Cam1 I2C Control</description>
-        </component>
-        
-        <component name="cam2_iic" display_name="Cam2 I2C Control" type="chip" sub_type="mux" major_group="Miscellaneous">
-          <description>Cam2 I2C Control</description>
-        </component>
-        
-        <component name="cam3_iic" display_name="Cam3 I2C Control" type="chip" sub_type="mux" major_group="Miscellaneous">
-          <description>Cam3 I2C Control</description>
-        </component>
-            
-        <component name="cam1_reset" display_name="Cam1 Reset" type="chip" sub_type="led" major_group="General Purpose Input or Output">
-          <description>Reset for Cam1</description>
-        </component>
-        
-        <component name="cam2_reset" display_name="Cam2 Reset" type="chip" sub_type="led" major_group="General Purpose Input or Output">
-          <description>Reset for Cam2</description>
-        </component>
-        
-        <component name="cam3_reset" display_name="Cam3 Reset" type="chip" sub_type="led" major_group="General Purpose Input or Output">
-          <description>Reset for Cam3</description>
-        </component>
-            
-        <component name="rxcsi_cam1" display_name="Camera 1" type="chip" sub_type="chip" major_group="Miscellaneous">
-          <description>MIPI CSI-2 Rx Subsystem to connect to Cam1 on SZG-MIPI-8320 port A</description>
-          <component_modes>
-            <component_mode name="CAM_1_EV_CSI2Rx_l2" display_name="Lanes 2">
-              <interfaces>
-                <interface name="rxcsi_cam1"/>
-              </interfaces>
-              <preferred_ips>
-                <preferred_ip vendor="xilinx.com" library="ip" name="mipi_csi2_rx_subsystem" order="0"/>
-                <preferred_ip vendor="xilinx.com" library="ip" name="mipi_dphy" order="1"/>
-              </preferred_ips>
-            </component_mode>
-          </component_modes>
-        </component>  
-
-        <component name="rxcsi_cam2" display_name="Camera 2" type="chip" sub_type="chip" major_group="Miscellaneous">
-          <description>MIPI CSI-2 Rx Subsystem to connect to Cam2 on SZG-MIPI-8320 port A</description>
-          <component_modes>
-            <component_mode name="CAM_2_EV_CSI2Rx_l2" display_name="Lanes 2">
-              <interfaces>
-                <interface name="rxcsi_cam2"/>
-              </interfaces>
-              <preferred_ips>
-                <preferred_ip vendor="xilinx.com" library="ip" name="mipi_csi2_rx_subsystem" order="0"/>
-                <preferred_ip vendor="xilinx.com" library="ip" name="mipi_dphy" order="1"/>
-              </preferred_ips>
-            </component_mode>
-          </component_modes>
-        </component>    
-
-        <component name="rxcsi_cam3" display_name="Camera 3" type="chip" sub_type="chip" major_group="Miscellaneous">
-          <description>MIPI CSI-2 Rx Subsystem to connect to Cam3 on SZG-MIPI-8320 port A</description>
-          <component_modes>
-            <component_mode name="CAM_2_EV_CSI2Rx_l2" display_name="Lanes 2">
-              <interfaces>
-                <interface name="rxcsi_cam3"/>
-              </interfaces>
-              <preferred_ips>
-                <preferred_ip vendor="xilinx.com" library="ip" name="mipi_csi2_rx_subsystem" order="0"/>
-                <preferred_ip vendor="xilinx.com" library="ip" name="mipi_dphy" order="1"/>
-              </preferred_ips>
-            </component_mode>
-          </component_modes>
-        </component>             
-    </components>
-    
-    
-    
-    <connections>
-    
-        <connection name="szg_port_std_rxcsi_cam1" component1="szg_port_std" component2="rxcsi_cam1">
-            <connection_map name="cam1_clk_p" c1_st_index="0" c1_end_index="0" c2_st_index="0" c2_end_index="0"/>
-            <connection_map name="cam1_clk_n" c1_st_index="2" c1_end_index="2" c2_st_index="1" c2_end_index="1"/>
-            <connection_map name="cam1_lane0_p" c1_st_index="4" c1_end_index="4" c2_st_index="2" c2_end_index="2"/>
-            <connection_map name="cam1_lane1_p" c1_st_index="8" c1_end_index="8" c2_st_index="3" c2_end_index="3"/>
-            <connection_map name="cam1_lane0_n" c1_st_index="6" c1_end_index="6" c2_st_index="4" c2_end_index="4"/>
-            <connection_map name="cam1_lane1_n" c1_st_index="10" c1_end_index="10" c2_st_index="5" c2_end_index="5"/>
-        </connection>
-        
-        <connection name="szg_port_std_rxcsi_cam2" component1="szg_port_std" component2="rxcsi_cam2">
-            <connection_map name="cam2_clk_p" c1_st_index="12" c1_end_index="12" c2_st_index="0" c2_end_index="0"/>
-            <connection_map name="cam2_clk_n" c1_st_index="14" c1_end_index="14" c2_st_index="1" c2_end_index="1"/>
-            <connection_map name="cam2_lane0_p" c1_st_index="1" c1_end_index="1" c2_st_index="2" c2_end_index="2"/>
-            <connection_map name="cam2_lane1_p" c1_st_index="9" c1_end_index="9" c2_st_index="3" c2_end_index="3"/>
-            <connection_map name="cam2_lane0_n" c1_st_index="3" c1_end_index="3" c2_st_index="4" c2_end_index="4"/>
-            <connection_map name="cam2_lane1_n" c1_st_index="11" c1_end_index="11" c2_st_index="5" c2_end_index="5"/>
-        </connection>
-        
-        <connection name="szg_port_std_rxcsi_cam3" component1="szg_port_std" component2="rxcsi_cam3">
-            <connection_map name="cam3_clk_p" c1_st_index="5" c1_end_index="5" c2_st_index="0" c2_end_index="0"/>
-            <connection_map name="cam3_clk_n" c1_st_index="7" c1_end_index="7" c2_st_index="1" c2_end_index="1"/>
-            <connection_map name="cam3_lane0_p" c1_st_index="13" c1_end_index="13" c2_st_index="2" c2_end_index="2"/>
-            <connection_map name="cam3_lane1_p" c1_st_index="28" c1_end_index="28" c2_st_index="3" c2_end_index="3"/>
-            <connection_map name="cam3_lane0_n" c1_st_index="15" c1_end_index="15" c2_st_index="4" c2_end_index="4"/>
-            <connection_map name="cam3_lane1_n" c1_st_index="30" c1_end_index="30" c2_st_index="5" c2_end_index="5"/>
-        </connection>
-        
-        <connection name="szg_port_std_cam1_reset" component1="szg_port_std" component2="cam1_reset">
-          <connection_map name="cam1_reset" typical_delay="5" c1_st_index="16" c1_end_index="16" c2_st_index="0" c2_end_index="0"/>
-        </connection>   
-        
-        <connection name="szg_port_std_cam2_reset" component1="szg_port_std" component2="cam2_reset">
-          <connection_map name="cam2_reset" typical_delay="5" c1_st_index="20" c1_end_index="20" c2_st_index="0" c2_end_index="0"/>
-        </connection>   
-        
-        <connection name="szg_port_std_cam3_reset" component1="szg_port_std" component2="cam3_reset">
-          <connection_map name="cam3_reset" typical_delay="5" c1_st_index="24" c1_end_index="24" c2_st_index="0" c2_end_index="0"/>
-        </connection>
-
-        <connection name="szg_port_std_cam1_iic" component1="szg_port_std" component2="cam1_iic">
-          <connection_map name="szg_port_std_cam1_sclk" typical_delay="5" c1_st_index="19" c1_end_index="19" c2_st_index="0" c2_end_index="0"/>
-          <connection_map name="szg_port_std_cam1_sda" typical_delay="5" c1_st_index="17" c1_end_index="17" c2_st_index="1" c2_end_index="1"/>
-        </connection>
-        
-        <connection name="szg_port_std_cam2_iic" component1="szg_port_std" component2="cam2_iic">
-          <connection_map name="szg_port_std_cam2_sclk" typical_delay="5" c1_st_index="23" c1_end_index="23" c2_st_index="0" c2_end_index="0"/>
-          <connection_map name="szg_port_std_cam2_sda" typical_delay="5" c1_st_index="21" c1_end_index="21" c2_st_index="1" c2_end_index="1"/>
-        </connection>
-        
-        <connection name="szg_port_std_cam3_iic" component1="szg_port_std" component2="cam3_iic">
-          <connection_map name="szg_port_std_cam3_sclk" typical_delay="5" c1_st_index="27" c1_end_index="27" c2_st_index="0" c2_end_index="0"/>
-          <connection_map name="szg_port_std_cam3_sda" typical_delay="5" c1_st_index="25" c1_end_index="25" c2_st_index="1" c2_end_index="1"/>
-        </connection>
-    
-    </connections> 
-    
+  <file_version>1.0</file_version>
+  <description>SZG_MIPI_8320 Peripheral</description>
+  <compatible_board_revisions>
+    <revision id="0">RevA</revision>
+  </compatible_board_revisions>
+  <components>
+    <component name="szg_port_std" type="connector" sub_type="som" display_name="SZG_MIPI_8320 (STD) (Port A ONLY)">
+      <pins>
+        <pin index="0" name="CAM1_CLK_P" iostandard="MIPI_DPHY_DCI" />
+        <pin index="1" name="CAM2_LANE0_P" iostandard="MIPI_DPHY_DCI" />
+        <pin index="2" name="CAM1_CLK_N" iostandard="MIPI_DPHY_DCI" />
+        <pin index="3" name="CAM2_LANE0_N" iostandard="MIPI_DPHY_DCI" />
+        <pin index="4" name="CAM1_LANE0_P" iostandard="MIPI_DPHY_DCI" />
+        <pin index="5" name="CAM3_CLK_P" iostandard="MIPI_DPHY_DCI" />
+        <pin index="6" name="CAM1_LANE0_N" iostandard="MIPI_DPHY_DCI" />
+        <pin index="7" name="CAM3_CLK_N" iostandard="MIPI_DPHY_DCI" />
+        <pin index="8" name="CAM1_LANE1_P" iostandard="MIPI_DPHY_DCI" />
+        <pin index="9" name="CAM2_LANE1_P" iostandard="MIPI_DPHY_DCI" />
+        <pin index="10" name="CAM1_LANE1_N" iostandard="MIPI_DPHY_DCI" />
+        <pin index="11" name="CAM2_LANE1_N" iostandard="MIPI_DPHY_DCI" />
+        <pin index="12" name="CAM2_CLK_P" iostandard="MIPI_DPHY_DCI" />
+        <pin index="13" name="CAM3_LANE0_P" iostandard="MIPI_DPHY_DCI" />
+        <pin index="14" name="CAM2_CLK_N" iostandard="MIPI_DPHY_DCI" />
+        <pin index="15" name="CAM3_LANE0_N" iostandard="MIPI_DPHY_DCI" />
+        <pin index="16" name="CAM1_GPIO0_VIO" iostandard="LVCMOS12" />
+        <pin index="17" name="CAM1_SCL_VIO" iostandard="LVCMOS12" />
+        <pin index="18" name="CAM1_GPIO1_VIO" iostandard="LVCMOS12" />
+        <pin index="19" name="CAM1_SDA_VIO" iostandard="LVCMOS12" />
+        <pin index="20" name="CAM2_GPIO0_VIO" iostandard="LVCMOS12" />
+        <pin index="21" name="CAM2_SCL_VIO" iostandard="LVCMOS12" />
+        <pin index="22" name="CAM2_GPIO1_VIO" iostandard="LVCMOS12" />
+        <pin index="23" name="CAM2_SDA_VIO" iostandard="LVCMOS12" />
+        <pin index="24" name="CAM3_GPIO0_VIO" iostandard="LVCMOS12" />
+        <pin index="25" name="CAM3_SCL_VIO" iostandard="LVCMOS12" />
+        <pin index="26" name="CAM3_GPIO1_VIO" iostandard="LVCMOS12" />
+        <pin index="27" name="CAM3_SDA_VIO" iostandard="LVCMOS12" />
+        <pin index="28" name="CAM3_LANE1_P" iostandard="MIPI_DPHY_DCI" />
+        <pin index="29" name="GPIO1_DIR" iostandard="LVCMOS12" />
+        <pin index="30" name="CAM3_LANE1_N" iostandard="MIPI_DPHY_DCI" />
+        <pin index="31" name="unconnected" />
+      </pins>
+      <interfaces>
+        <interface mode="slave" name="rxcsi_cam1" type="xilinx.com:interface:mipi_phy_rtl:1.0" of_component="rxcsi_cam1" preset_proc="rxcsi_preset_cam_1">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="mipi_csi2_rx_subsystem" order="0" />
+            <preferred_ip vendor="xilinx.com" library="ip" name="mipi_dphy" order="1" />
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="clk_rxpx2_cam1" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM1_CLK_P" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CLK_N" physical_port="clk_rxnx2_cam1" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM1_CLK_N" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="DATA_P" physical_port="data_rxpx2_cam1" dir="in" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM1_LANE0_P" />
+                <pin_map port_index="1" component_pin="CAM1_LANE1_P" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="DATA_N" physical_port="data_rxnx2_cam1" dir="in" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM1_LANE0_N" />
+                <pin_map port_index="1" component_pin="CAM1_LANE1_N" />
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        <interface mode="slave" name="rxcsi_cam2" type="xilinx.com:interface:mipi_phy_rtl:1.0" of_component="rxcsi_cam2" preset_proc="rxcsi_preset_cam_2">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="mipi_csi2_rx_subsystem" order="0" />
+            <preferred_ip vendor="xilinx.com" library="ip" name="mipi_dphy" order="1" />
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="clk_rxpx2_cam2" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM2_CLK_P" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CLK_N" physical_port="clk_rxnx2_cam2" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM2_CLK_N" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="DATA_P" physical_port="data_rxpx2_cam2" dir="in" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM2_LANE0_P" />
+                <pin_map port_index="1" component_pin="CAM2_LANE1_P" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="DATA_N" physical_port="data_rxnx2_cam2" dir="in" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM2_LANE0_N" />
+                <pin_map port_index="1" component_pin="CAM2_LANE1_N" />
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        <interface mode="slave" name="rxcsi_cam3" type="xilinx.com:interface:mipi_phy_rtl:1.0" of_component="rxcsi_cam3" preset_proc="rxcsi_preset_cam_3">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="mipi_csi2_rx_subsystem" order="0" />
+            <preferred_ip vendor="xilinx.com" library="ip" name="mipi_dphy" order="1" />
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="clk_rxpx2_cam3" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM3_CLK_P" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CLK_N" physical_port="clk_rxnx2_cam3" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM3_CLK_N" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="DATA_P" physical_port="data_rxpx2_cam3" dir="in" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM3_LANE0_P" />
+                <pin_map port_index="1" component_pin="CAM3_LANE1_P" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="DATA_N" physical_port="data_rxnx2_cam3" dir="in" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM3_LANE0_N" />
+                <pin_map port_index="1" component_pin="CAM3_LANE1_N" />
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        <interface mode="master" name="cam1_reset" type="xilinx.com:interface:gpio_rtl:1.0" of_component="cam1_reset" preset_proc="mipi_rst_Preset_1">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0" />
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_O" physical_port="leds_1bits_tri_o_cam1" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM1_GPIO0_VIO" />
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        <interface mode="master" name="cam2_reset" type="xilinx.com:interface:gpio_rtl:1.0" of_component="cam2_reset" preset_proc="mipi_rst_Preset_1">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0" />
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_O" physical_port="leds_1bits_tri_o_cam2" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM2_GPIO0_VIO" />
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        <interface mode="master" name="cam3_reset" type="xilinx.com:interface:gpio_rtl:1.0" of_component="cam3_reset" preset_proc="mipi_rst_Preset_1">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0" />
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_O" physical_port="leds_1bits_tri_o_cam3" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM3_GPIO0_VIO" />
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        <interface mode="master" name="cam1_iic" type="xilinx.com:interface:iic_rtl:1.0" of_component="cam1_iic">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_iic" order="0" />
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="SDA_I" physical_port="iic0_main_sda_i_cam1" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM1_SDA_VIO" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SDA_O" physical_port="iic0_main_sda_o_cam1" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM1_SDA_VIO" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SDA_T" physical_port="iic0_main_sda_t_cam1" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM1_SDA_VIO" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SCL_I" physical_port="iic0_main_scl_i_cam1" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM1_SCL_VIO" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SCL_O" physical_port="iic0_main_scl_o_cam1" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM1_SCL_VIO" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SCL_T" physical_port="iic0_main_scl_t_cam1" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM1_SCL_VIO" />
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        <interface mode="master" name="cam2_iic" type="xilinx.com:interface:iic_rtl:1.0" of_component="cam2_iic">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_iic" order="0" />
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="SDA_I" physical_port="iic0_main_sda_i_cam2" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM2_SDA_VIO" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SDA_O" physical_port="iic0_main_sda_o_cam2" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM2_SDA_VIO" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SDA_T" physical_port="iic0_main_sda_t_cam2" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM2_SDA_VIO" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SCL_I" physical_port="iic0_main_scl_i_cam2" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM2_SCL_VIO" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SCL_O" physical_port="iic0_main_scl_o_cam2" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM2_SCL_VIO" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SCL_T" physical_port="iic0_main_scl_t_cam2" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM2_SCL_VIO" />
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        <interface mode="master" name="cam3_iic" type="xilinx.com:interface:iic_rtl:1.0" of_component="cam3_iic">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_iic" order="0" />
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="SDA_I" physical_port="iic0_main_sda_i_cam3" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM3_SDA_VIO" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SDA_O" physical_port="iic0_main_sda_o_cam3" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM3_SDA_VIO" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SDA_T" physical_port="iic0_main_sda_t_cam3" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM3_SDA_VIO" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SCL_I" physical_port="iic0_main_scl_i_cam3" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM3_SCL_VIO" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SCL_O" physical_port="iic0_main_scl_o_cam3" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM3_SCL_VIO" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SCL_T" physical_port="iic0_main_scl_t_cam3" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CAM3_SCL_VIO" />
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+      </interfaces>
+    </component>
+    <component name="cam1_iic" display_name="Cam1 I2C Control" type="chip" sub_type="mux" major_group="Miscellaneous">
+      <description>Cam1 I2C Control</description>
+    </component>
+    <component name="cam2_iic" display_name="Cam2 I2C Control" type="chip" sub_type="mux" major_group="Miscellaneous">
+      <description>Cam2 I2C Control</description>
+    </component>
+    <component name="cam3_iic" display_name="Cam3 I2C Control" type="chip" sub_type="mux" major_group="Miscellaneous">
+      <description>Cam3 I2C Control</description>
+    </component>
+    <component name="cam1_reset" display_name="Cam1 Reset" type="chip" sub_type="led" major_group="General Purpose Input or Output">
+      <description>Reset for Cam1</description>
+    </component>
+    <component name="cam2_reset" display_name="Cam2 Reset" type="chip" sub_type="led" major_group="General Purpose Input or Output">
+      <description>Reset for Cam2</description>
+    </component>
+    <component name="cam3_reset" display_name="Cam3 Reset" type="chip" sub_type="led" major_group="General Purpose Input or Output">
+      <description>Reset for Cam3</description>
+    </component>
+    <component name="rxcsi_cam1" display_name="Camera 1" type="chip" sub_type="chip" major_group="Miscellaneous">
+      <description>MIPI CSI-2 Rx Subsystem to connect to Cam1 on SZG-MIPI-8320 port A</description>
+      <component_modes>
+        <component_mode name="CAM_1_EV_CSI2Rx_l2" display_name="Lanes 2">
+          <interfaces>
+            <interface name="rxcsi_cam1" />
+          </interfaces>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="mipi_csi2_rx_subsystem" order="0" />
+            <preferred_ip vendor="xilinx.com" library="ip" name="mipi_dphy" order="1" />
+          </preferred_ips>
+        </component_mode>
+      </component_modes>
+    </component>
+    <component name="rxcsi_cam2" display_name="Camera 2" type="chip" sub_type="chip" major_group="Miscellaneous">
+      <description>MIPI CSI-2 Rx Subsystem to connect to Cam2 on SZG-MIPI-8320 port A</description>
+      <component_modes>
+        <component_mode name="CAM_2_EV_CSI2Rx_l2" display_name="Lanes 2">
+          <interfaces>
+            <interface name="rxcsi_cam2" />
+          </interfaces>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="mipi_csi2_rx_subsystem" order="0" />
+            <preferred_ip vendor="xilinx.com" library="ip" name="mipi_dphy" order="1" />
+          </preferred_ips>
+        </component_mode>
+      </component_modes>
+    </component>
+    <component name="rxcsi_cam3" display_name="Camera 3" type="chip" sub_type="chip" major_group="Miscellaneous">
+      <description>MIPI CSI-2 Rx Subsystem to connect to Cam3 on SZG-MIPI-8320 port A</description>
+      <component_modes>
+        <component_mode name="CAM_2_EV_CSI2Rx_l2" display_name="Lanes 2">
+          <interfaces>
+            <interface name="rxcsi_cam3" />
+          </interfaces>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="mipi_csi2_rx_subsystem" order="0" />
+            <preferred_ip vendor="xilinx.com" library="ip" name="mipi_dphy" order="1" />
+          </preferred_ips>
+        </component_mode>
+      </component_modes>
+    </component>
+  </components>
+  <connections>
+    <connection name="szg_port_std_rxcsi_cam1" component1="szg_port_std" component2="rxcsi_cam1">
+      <connection_map name="cam1_clk_p" c1_st_index="0" c1_end_index="0" c2_st_index="0" c2_end_index="0" />
+      <connection_map name="cam1_clk_n" c1_st_index="2" c1_end_index="2" c2_st_index="1" c2_end_index="1" />
+      <connection_map name="cam1_lane0_p" c1_st_index="4" c1_end_index="4" c2_st_index="2" c2_end_index="2" />
+      <connection_map name="cam1_lane1_p" c1_st_index="8" c1_end_index="8" c2_st_index="3" c2_end_index="3" />
+      <connection_map name="cam1_lane0_n" c1_st_index="6" c1_end_index="6" c2_st_index="4" c2_end_index="4" />
+      <connection_map name="cam1_lane1_n" c1_st_index="10" c1_end_index="10" c2_st_index="5" c2_end_index="5" />
+    </connection>
+    <connection name="szg_port_std_rxcsi_cam2" component1="szg_port_std" component2="rxcsi_cam2">
+      <connection_map name="cam2_clk_p" c1_st_index="12" c1_end_index="12" c2_st_index="0" c2_end_index="0" />
+      <connection_map name="cam2_clk_n" c1_st_index="14" c1_end_index="14" c2_st_index="1" c2_end_index="1" />
+      <connection_map name="cam2_lane0_p" c1_st_index="1" c1_end_index="1" c2_st_index="2" c2_end_index="2" />
+      <connection_map name="cam2_lane1_p" c1_st_index="9" c1_end_index="9" c2_st_index="3" c2_end_index="3" />
+      <connection_map name="cam2_lane0_n" c1_st_index="3" c1_end_index="3" c2_st_index="4" c2_end_index="4" />
+      <connection_map name="cam2_lane1_n" c1_st_index="11" c1_end_index="11" c2_st_index="5" c2_end_index="5" />
+    </connection>
+    <connection name="szg_port_std_rxcsi_cam3" component1="szg_port_std" component2="rxcsi_cam3">
+      <connection_map name="cam3_clk_p" c1_st_index="5" c1_end_index="5" c2_st_index="0" c2_end_index="0" />
+      <connection_map name="cam3_clk_n" c1_st_index="7" c1_end_index="7" c2_st_index="1" c2_end_index="1" />
+      <connection_map name="cam3_lane0_p" c1_st_index="13" c1_end_index="13" c2_st_index="2" c2_end_index="2" />
+      <connection_map name="cam3_lane1_p" c1_st_index="28" c1_end_index="28" c2_st_index="3" c2_end_index="3" />
+      <connection_map name="cam3_lane0_n" c1_st_index="15" c1_end_index="15" c2_st_index="4" c2_end_index="4" />
+      <connection_map name="cam3_lane1_n" c1_st_index="30" c1_end_index="30" c2_st_index="5" c2_end_index="5" />
+    </connection>
+    <connection name="szg_port_std_cam1_reset" component1="szg_port_std" component2="cam1_reset">
+      <connection_map name="cam1_reset" typical_delay="5" c1_st_index="16" c1_end_index="16" c2_st_index="0" c2_end_index="0" />
+    </connection>
+    <connection name="szg_port_std_cam2_reset" component1="szg_port_std" component2="cam2_reset">
+      <connection_map name="cam2_reset" typical_delay="5" c1_st_index="20" c1_end_index="20" c2_st_index="0" c2_end_index="0" />
+    </connection>
+    <connection name="szg_port_std_cam3_reset" component1="szg_port_std" component2="cam3_reset">
+      <connection_map name="cam3_reset" typical_delay="5" c1_st_index="24" c1_end_index="24" c2_st_index="0" c2_end_index="0" />
+    </connection>
+    <connection name="szg_port_std_cam1_iic" component1="szg_port_std" component2="cam1_iic">
+      <connection_map name="szg_port_std_cam1_sclk" typical_delay="5" c1_st_index="19" c1_end_index="19" c2_st_index="0" c2_end_index="0" />
+      <connection_map name="szg_port_std_cam1_sda" typical_delay="5" c1_st_index="17" c1_end_index="17" c2_st_index="1" c2_end_index="1" />
+    </connection>
+    <connection name="szg_port_std_cam2_iic" component1="szg_port_std" component2="cam2_iic">
+      <connection_map name="szg_port_std_cam2_sclk" typical_delay="5" c1_st_index="23" c1_end_index="23" c2_st_index="0" c2_end_index="0" />
+      <connection_map name="szg_port_std_cam2_sda" typical_delay="5" c1_st_index="21" c1_end_index="21" c2_st_index="1" c2_end_index="1" />
+    </connection>
+    <connection name="szg_port_std_cam3_iic" component1="szg_port_std" component2="cam3_iic">
+      <connection_map name="szg_port_std_cam3_sclk" typical_delay="5" c1_st_index="27" c1_end_index="27" c2_st_index="0" c2_end_index="0" />
+      <connection_map name="szg_port_std_cam3_sda" typical_delay="5" c1_st_index="25" c1_end_index="25" c2_st_index="1" c2_end_index="1" />
+    </connection>
+  </connections>
 </board>
