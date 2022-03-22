@@ -1,0 +1,4 @@
+######### SZG-MIPI-8320 ############
+
+1.0
+Initial release
