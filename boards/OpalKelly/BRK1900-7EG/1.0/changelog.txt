@@ -1,0 +1,6 @@
+######### ECM1900-7EG W/ BRK1900 change log ############
+
+1.0
+ECM1900-7EG W/ BRK1900 initial board support
+
+
