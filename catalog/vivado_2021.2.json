@@ -6218,11 +6218,11 @@
         "name": "XEM8320-AU25P",
         "display": "XEM8320-AU25P Development Platform",
         "latest_revision": "1.1",
-        "commit_id": "a172ac7d38f47ba7c74e754a5b726914d0a27b9f",
+        "commit_id": "b4a7bfc1b0a5dfe78a65d01b4ddc73d0df0f14fd",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "a172ac7d38f47ba7c74e754a5b726914d0a27b9f",
+            "commit_id": "b4a7bfc1b0a5dfe78a65d01b4ddc73d0df0f14fd",
             "date": "14-02-2022:21:55:10",
             "history": "Added board XEM8320-AU25P Development Platform v1.1"
           }
@@ -6237,11 +6237,11 @@
         "name": "SZG_ENET1G",
         "display": "SZG_ENET1G Peripheral",
         "latest_revision": "1.0",
-        "commit_id": "5ba4dfc47294c92aec32e043c7c0d57e97648710",
+        "commit_id": "b4a7bfc1b0a5dfe78a65d01b4ddc73d0df0f14fd",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "5ba4dfc47294c92aec32e043c7c0d57e97648710",
+            "commit_id": "b4a7bfc1b0a5dfe78a65d01b4ddc73d0df0f14fd",
             "date": "16-02-2022:02:26:41",
             "history": "Added board SZG_ENET1G Peripheral v1.0"
           }
@@ -6256,11 +6256,11 @@
         "name": "SZG_MIPI_8320",
         "display": "SZG_MIPI_8320 Peripheral",
         "latest_revision": "1.0",
-        "commit_id": "5ba4dfc47294c92aec32e043c7c0d57e97648710",
+        "commit_id": "b4a7bfc1b0a5dfe78a65d01b4ddc73d0df0f14fd",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "5ba4dfc47294c92aec32e043c7c0d57e97648710",
+            "commit_id": "b4a7bfc1b0a5dfe78a65d01b4ddc73d0df0f14fd",
             "date": "16-02-2022:02:26:41",
             "history": "Added board SZG_MIPI_8320 Peripheral v1.0"
           }
@@ -6275,17 +6275,74 @@
         "name": "SZG_PCIEX4",
         "display": "SZG_PCIEX4 Peripheral",
         "latest_revision": "1.0",
-        "commit_id": "5ba4dfc47294c92aec32e043c7c0d57e97648710",
+        "commit_id": "b4a7bfc1b0a5dfe78a65d01b4ddc73d0df0f14fd",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "5ba4dfc47294c92aec32e043c7c0d57e97648710",
+            "commit_id": "b4a7bfc1b0a5dfe78a65d01b4ddc73d0df0f14fd",
             "date": "16-02-2022:02:26:41",
             "history": "Added board SZG_PCIEX4 Peripheral v1.0"
           }
         ],
         "config": {
           "root": "boards/OpalKelly/SZG-PCIEX4/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "BRK1900-7CG",
+        "display": "ECM1900-7CG W/ BRK1900",
+        "latest_revision": "1.0",
+        "commit_id": "b4a7bfc1b0a5dfe78a65d01b4ddc73d0df0f14fd",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "b4a7bfc1b0a5dfe78a65d01b4ddc73d0df0f14fd",
+            "date": "22-03-2022:22:48:07",
+            "history": "Added board ECM1900-7CG W/ BRK1900 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/BRK1900-7CG/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "BRK1900-7EG",
+        "display": "ECM1900-7EG W/ BRK1900",
+        "latest_revision": "1.0",
+        "commit_id": "b4a7bfc1b0a5dfe78a65d01b4ddc73d0df0f14fd",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "b4a7bfc1b0a5dfe78a65d01b4ddc73d0df0f14fd",
+            "date": "22-03-2022:22:48:07",
+            "history": "Added board ECM1900-7EG W/ BRK1900 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/BRK1900-7EG/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "BRK1900-7EV",
+        "display": "ECM1900-7EV W/ BRK1900",
+        "latest_revision": "1.0",
+        "commit_id": "b4a7bfc1b0a5dfe78a65d01b4ddc73d0df0f14fd",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "b4a7bfc1b0a5dfe78a65d01b4ddc73d0df0f14fd",
+            "date": "22-03-2022:22:48:07",
+            "history": "Added board ECM1900-7EV W/ BRK1900 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/BRK1900-7EV/1.0",
           "metadata_file": "xitem.json"
         },
         "company": "opalkelly.com"
