@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<board schema_version="2.2" vendor="opalkelly.com" name="XEM8320-AU25P" display_name="XEM8320-AU25P Development Platform" url="https://opalkelly.com/" preset_file="preset.xml" supports_ced="false">
+  <images>
+    <image name="XEM8320-AU25P-Top.jpg" display_name="XEM8320-AU25P-Top" sub_type="board">
+      <description>XEM8320-AU25P Board File Image</description>
+    </image>
+  </images>
+  <compatible_board_revisions>
+    <revision id="0">RevB</revision>
+  </compatible_board_revisions>
+  <file_version>1.1</file_version>
+  <description>XEM8320-AU25P Development Platform</description>
+  <components>
+    <component name="szg_port_a" type="connector" sub_type="som" display_name="Port A (STD)">
+      <pins>
+        <pin index="0" name="szg_porta_s0_d0p" />
+        <pin index="1" name="szg_porta_s1_d1p" />
+        <pin index="2" name="szg_porta_s2_d0n" />
+        <pin index="3" name="szg_porta_s3_d1n" />
+        <pin index="4" name="szg_porta_s4_d2p" />
+        <pin index="5" name="szg_porta_s5_d3p" />
+        <pin index="6" name="szg_porta_s6_d2n" />
+        <pin index="7" name="szg_porta_s7_d3n" />
+        <pin index="8" name="szg_porta_s8_d4p" />
+        <pin index="9" name="szg_porta_s9_d5p" />
+        <pin index="10" name="szg_porta_s10_d4n" />
+        <pin index="11" name="szg_porta_s11_d5n" />
+        <pin index="12" name="szg_porta_s12_d6p" />
+        <pin index="13" name="szg_porta_s13_d7p" />
+        <pin index="14" name="szg_porta_s14_d6n" />
+        <pin index="15" name="szg_porta_s15_d7n" />
+        <pin index="16" name="szg_porta_s16" />
+        <pin index="17" name="szg_porta_s17" />
+        <pin index="18" name="szg_porta_s18" />
+        <pin index="19" name="szg_porta_s19" />
+        <pin index="20" name="szg_porta_s20" />
+        <pin index="21" name="szg_porta_s21" />
+        <pin index="22" name="szg_porta_s22" />
+        <pin index="23" name="szg_porta_s23" />
+        <pin index="24" name="szg_porta_s24" />
+        <pin index="25" name="szg_porta_s25" />
+        <pin index="26" name="szg_porta_s26" />
+        <pin index="27" name="szg_porta_s27" />
+        <pin index="28" name="szg_porta_p2c_clkp" />
+        <pin index="29" name="szg_porta_c2p_clkp" />
+        <pin index="30" name="szg_porta_p2c_clkn" />
+        <pin index="31" name="szg_porta_c2p_clkn" />
+      </pins>
+    </component>
+    <component name="szg_port_b" type="connector" sub_type="som" display_name="Port B (STD)">
+      <pins>
+        <pin index="0" name="szg_portb_s0_d0p" />
+        <pin index="1" name="szg_portb_s1_d1p" />
+        <pin index="2" name="szg_portb_s2_d0n" />
+        <pin index="3" name="szg_portb_s3_d1n" />
+        <pin index="4" name="szg_portb_s4_d2p" />
+        <pin index="5" name="szg_portb_s5_d3p" />
+        <pin index="6" name="szg_portb_s6_d2n" />
+        <pin index="7" name="szg_portb_s7_d3n" />
+        <pin index="8" name="szg_portb_s8_d4p" />
+        <pin index="9" name="szg_portb_s9_d5p" />
+        <pin index="10" name="szg_portb_s10_d4n" />
+        <pin index="11" name="szg_portb_s11_d5n" />
+        <pin index="12" name="szg_portb_s12_d6p" />
+        <pin index="13" name="szg_portb_s13_d7p" />
+        <pin index="14" name="szg_portb_s14_d6n" />
+        <pin index="15" name="szg_portb_s15_d7n" />
+        <pin index="16" name="szg_portb_s16" />
+        <pin index="17" name="szg_portb_s17" />
+        <pin index="18" name="szg_portb_s18" />
+        <pin index="19" name="szg_portb_s19" />
+        <pin index="20" name="szg_portb_s20" />
+        <pin index="21" name="szg_portb_s21" />
+        <pin index="22" name="szg_portb_s22" />
+        <pin index="23" name="szg_portb_s23" />
+        <pin index="24" name="szg_portb_s24" />
+        <pin index="25" name="szg_portb_s25" />
+        <pin index="26" name="szg_portb_s26" />
+        <pin index="27" name="szg_portb_s27" />
+        <pin index="28" name="szg_portb_p2c_clkp" />
+        <pin index="29" name="szg_portb_c2p_clkp" />
+        <pin index="30" name="szg_portb_p2c_clkn" />
+        <pin index="31" name="szg_portb_c2p_clkn" />
+      </pins>
+    </component>
+    <component name="szg_port_c" type="connector" sub_type="som" display_name="Port C (STD)">
+      <pins>
+        <pin index="0" name="szg_portc_s0_d0p" />
+        <pin index="1" name="szg_portc_s1_d1p" />
+        <pin index="2" name="szg_portc_s2_d0n" />
+        <pin index="3" name="szg_portc_s3_d1n" />
+        <pin index="4" name="szg_portc_s4_d2p" />
+        <pin index="5" name="szg_portc_s5_d3p" />
+        <pin index="6" name="szg_portc_s6_d2n" />
+        <pin index="7" name="szg_portc_s7_d3n" />
+        <pin index="8" name="szg_portc_s8_d4p" />
+        <pin index="9" name="szg_portc_s9_d5p" />
+        <pin index="10" name="szg_portc_s10_d4n" />
+        <pin index="11" name="szg_portc_s11_d5n" />
+        <pin index="12" name="szg_portc_s12_d6p" />
+        <pin index="13" name="szg_portc_s13_d7p" />
+        <pin index="14" name="szg_portc_s14_d6n" />
+        <pin index="15" name="szg_portc_s15_d7n" />
+        <pin index="16" name="szg_portc_s16" />
+        <pin index="17" name="szg_portc_s17" />
+        <pin index="18" name="szg_portc_s18" />
+        <pin index="19" name="szg_portc_s19" />
+        <pin index="20" name="szg_portc_s20" />
+        <pin index="21" name="szg_portc_s21" />
+        <pin index="22" name="szg_portc_s22" />
+        <pin index="23" name="szg_portc_s23" />
+        <pin index="24" name="szg_portc_s24" />
+        <pin index="25" name="szg_portc_s25" />
+        <pin index="26" name="szg_portc_s26" />
+        <pin index="27" name="szg_portc_s27" />
+        <pin index="28" name="szg_portc_p2c_clkp" />
+        <pin index="29" name="szg_portc_c2p_clkp" />
+        <pin index="30" name="szg_portc_p2c_clkn" />
+        <pin index="31" name="szg_portc_c2p_clkn" />
+      </pins>
+    </component>
+    <component name="szg_port_d" type="connector" sub_type="som" display_name="Port D (STD)">
+      <pins>
+        <pin index="0" name="szg_portd_s0_d0p" />
+        <pin index="1" name="szg_portd_s1_d1p" />
+        <pin index="2" name="szg_portd_s2_d0n" />
+        <pin index="3" name="szg_portd_s3_d1n" />
+        <pin index="4" name="szg_portd_s4_d2p" />
+        <pin index="5" name="szg_portd_s5_d3p" />
+        <pin index="6" name="szg_portd_s6_d2n" />
+        <pin index="7" name="szg_portd_s7_d3n" />
+        <pin index="8" name="szg_portd_s8_d4p" />
+        <pin index="9" name="szg_portd_s9_d5p" />
+        <pin index="10" name="szg_portd_s10_d4n" />
+        <pin index="11" name="szg_portd_s11_d5n" />
+        <pin index="12" name="szg_portd_s12_d6p" />
+        <pin index="13" name="szg_portd_s13_d7p" />
+        <pin index="14" name="szg_portd_s14_d6n" />
+        <pin index="15" name="szg_portd_s15_d7n" />
+        <pin index="16" name="szg_portd_s16" />
+        <pin index="17" name="szg_portd_s17" />
+        <pin index="18" name="szg_portd_s18" />
+        <pin index="19" name="szg_portd_s19" />
+        <pin index="20" name="szg_portd_s20" />
+        <pin index="21" name="szg_portd_s21" />
+        <pin index="22" name="szg_portd_s22" />
+        <pin index="23" name="szg_portd_s23" />
+        <pin index="24" name="szg_portd_s24" />
+        <pin index="25" name="szg_portd_s25" />
+        <pin index="26" name="szg_portd_s26" />
+        <pin index="27" name="szg_portd_s27" />
+        <pin index="28" name="szg_portd_p2c_clkp" />
+        <pin index="29" name="szg_portd_c2p_clkp" />
+        <pin index="30" name="szg_portd_p2c_clkn" />
+        <pin index="31" name="szg_portd_c2p_clkn" />
+      </pins>
+    </component>
+    <component name="szg_port_e" type="connector" sub_type="som" display_name="Port E (TXR4)">
+      <pins>
+        <pin index="0" name="szg_porte_rx0p" />
+        <pin index="1" name="szg_porte_rx0n" />
+        <pin index="2" name="szg_porte_rx1p" />
+        <pin index="3" name="szg_porte_rx1n" />
+        <pin index="4" name="szg_porte_rx2p" />
+        <pin index="5" name="szg_porte_rx2n" />
+        <pin index="6" name="szg_porte_rx3p" />
+        <pin index="7" name="szg_porte_rx3n" />
+        <pin index="8" name="szg_porte_tx0p" />
+        <pin index="9" name="szg_porte_tx0n" />
+        <pin index="10" name="szg_porte_tx1p" />
+        <pin index="11" name="szg_porte_tx1n" />
+        <pin index="12" name="szg_porte_tx2p" />
+        <pin index="13" name="szg_porte_tx2n" />
+        <pin index="14" name="szg_porte_tx3p" />
+        <pin index="15" name="szg_porte_tx3n" />
+        <pin index="16" name="szg_porte_refclkp" />
+        <pin index="17" name="szg_porte_refclkn" />
+        <pin index="18" name="szg_porte_s0" />
+        <pin index="19" name="szg_porte_s1" />
+        <pin index="20" name="szg_porte_s2" />
+        <pin index="21" name="szg_porte_s3" />
+        <pin index="22" name="szg_porte_s4" />
+        <pin index="23" name="szg_porte_s5" />
+        <pin index="24" name="szg_porte_s6" />
+        <pin index="25" name="szg_porte_s7" />
+        <pin index="26" name="szg_porte_s8" />
+        <pin index="27" name="szg_porte_s9" />
+        <pin index="28" name="szg_porte_p2c_clkp" />
+        <pin index="29" name="szg_porte_c2p_clkp" />
+        <pin index="30" name="szg_porte_p2c_clkn" />
+        <pin index="31" name="szg_porte_c2p_clkn" />
+      </pins>
+    </component>
+    <component name="szg_port_f" type="connector" sub_type="som" display_name="Port F (TXR4)">
+      <pins>
+        <pin index="0" name="szg_portf_rx0p" />
+        <pin index="1" name="szg_portf_rx0n" />
+        <pin index="2" name="szg_portf_rx1p" />
+        <pin index="3" name="szg_portf_rx1n" />
+        <pin index="4" name="szg_portf_rx2p" />
+        <pin index="5" name="szg_portf_rx2n" />
+        <pin index="6" name="szg_portf_rx3p" />
+        <pin index="7" name="szg_portf_rx3n" />
+        <pin index="8" name="szg_portf_tx0p" />
+        <pin index="9" name="szg_portf_tx0n" />
+        <pin index="10" name="szg_portf_tx1p" />
+        <pin index="11" name="szg_portf_tx1n" />
+        <pin index="12" name="szg_portf_tx2p" />
+        <pin index="13" name="szg_portf_tx2n" />
+        <pin index="14" name="szg_portf_tx3p" />
+        <pin index="15" name="szg_portf_tx3n" />
+        <pin index="16" name="szg_portf_refclkp" />
+        <pin index="17" name="szg_portf_refclkn" />
+        <pin index="18" name="szg_portf_s0" />
+        <pin index="19" name="szg_portf_s1" />
+        <pin index="20" name="szg_portf_s2" />
+        <pin index="21" name="szg_portf_s3" />
+        <pin index="22" name="szg_portf_s4" />
+        <pin index="23" name="szg_portf_s5" />
+        <pin index="24" name="szg_portf_s6" />
+        <pin index="25" name="szg_portf_s7" />
+        <pin index="26" name="szg_portf_s8" />
+        <pin index="27" name="szg_portf_s9" />
+        <pin index="28" name="szg_portf_p2c_clkp" />
+        <pin index="29" name="szg_portf_c2p_clkp" />
+        <pin index="30" name="szg_portf_p2c_clkn" />
+        <pin index="31" name="szg_portf_c2p_clkn" />
+      </pins>
+    </component>
+    <component name="part0" display_name="Artix UltraScale+ chip on board" type="fpga" part_name="xcau25p-ffvb676-2-e" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="https://opalkelly.com/products/xem8320/">
+      <description>FPGA part on the board</description>
+      <interfaces>
+        <interface mode="slave" name="fabric_100mhz" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="fabric_100mhz">
+          <parameters>
+            <parameter name="frequency" value="100000000" />
+          </parameters>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="clk_wiz" order="0" />
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="CLK_100_P" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="PL_FABRICP" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CLK_N" physical_port="CLK_100_N" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="PL_FABRICN" />
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        <interface mode="slave" name="ddr4_100mhz" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="ddr4_100mhz">
+          <parameters>
+            <parameter name="frequency" value="100000000" />
+          </parameters>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="ddr4" order="0" />
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="c0_sys_clk_p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="PL_DDR4_REFCLKP" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CLK_N" physical_port="c0_sys_clk_n" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="PL_DDR4_REFCLKN" />
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        <interface mode="master" name="led_6bits" type="xilinx.com:interface:gpio_rtl:1.0" of_component="led_6bits" preset_proc="LED_6Bits_Preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0" />
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_O" physical_port="leds_8bits_tri_o" dir="out" left="5" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="GPIO_LED_0_LS" />
+                <pin_map port_index="1" component_pin="GPIO_LED_1_LS" />
+                <pin_map port_index="2" component_pin="GPIO_LED_2_LS" />
+                <pin_map port_index="3" component_pin="GPIO_LED_3_LS" />
+                <pin_map port_index="4" component_pin="GPIO_LED_4_LS" />
+                <pin_map port_index="5" component_pin="GPIO_LED_5_LS" />
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        <interface mode="master" name="ddr4_sdram" type="xilinx.com:interface:ddr4_rtl:1.0" of_component="ddr4_sdram" preset_proc="DDR4_SDRAM_Preset">
+          <description>DDR4 board interface, it can use DDR4 controller IP for connection.</description>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="ddr4" order="0" />
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="ACT_N" physical_port="c0_ddr4_act_n" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr4_act_n" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="ADR" physical_port="c0_ddr4_adr" dir="out" left="16" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr4_adr0" />
+                <pin_map port_index="1" component_pin="c0_ddr4_adr1" />
+                <pin_map port_index="2" component_pin="c0_ddr4_adr2" />
+                <pin_map port_index="3" component_pin="c0_ddr4_adr3" />
+                <pin_map port_index="4" component_pin="c0_ddr4_adr4" />
+                <pin_map port_index="5" component_pin="c0_ddr4_adr5" />
+                <pin_map port_index="6" component_pin="c0_ddr4_adr6" />
+                <pin_map port_index="7" component_pin="c0_ddr4_adr7" />
+                <pin_map port_index="8" component_pin="c0_ddr4_adr8" />
+                <pin_map port_index="9" component_pin="c0_ddr4_adr9" />
+                <pin_map port_index="10" component_pin="c0_ddr4_adr10" />
+                <pin_map port_index="11" component_pin="c0_ddr4_adr11" />
+                <pin_map port_index="12" component_pin="c0_ddr4_adr12" />
+                <pin_map port_index="13" component_pin="c0_ddr4_adr13" />
+                <pin_map port_index="14" component_pin="c0_ddr4_adr14" />
+                <pin_map port_index="15" component_pin="c0_ddr4_adr15" />
+                <pin_map port_index="16" component_pin="c0_ddr4_adr16" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="BA" physical_port="c0_ddr4_ba" dir="out" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr4_ba0" />
+                <pin_map port_index="1" component_pin="c0_ddr4_ba1" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="BG" physical_port="c0_ddr4_bg" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr4_bg0" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CK_C" physical_port="c0_ddr4_ck_c" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr4_ck0_c" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CK_T" physical_port="c0_ddr4_ck_t" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr4_ck0_t" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CKE" physical_port="c0_ddr4_cke" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr4_cke0" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CS_N" physical_port="c0_ddr4_cs_n" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr4_cs0_n" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="DM_N" physical_port="c0_ddr4_dm_dbi_n" dir="inout" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr4_dm_dbi_n0" />
+                <pin_map port_index="1" component_pin="c0_ddr4_dm_dbi_n1" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="DQ" physical_port="c0_ddr4_dq" dir="inout" left="15" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr4_dq0" />
+                <pin_map port_index="1" component_pin="c0_ddr4_dq1" />
+                <pin_map port_index="2" component_pin="c0_ddr4_dq2" />
+                <pin_map port_index="3" component_pin="c0_ddr4_dq3" />
+                <pin_map port_index="4" component_pin="c0_ddr4_dq4" />
+                <pin_map port_index="5" component_pin="c0_ddr4_dq5" />
+                <pin_map port_index="6" component_pin="c0_ddr4_dq6" />
+                <pin_map port_index="7" component_pin="c0_ddr4_dq7" />
+                <pin_map port_index="8" component_pin="c0_ddr4_dq8" />
+                <pin_map port_index="9" component_pin="c0_ddr4_dq9" />
+                <pin_map port_index="10" component_pin="c0_ddr4_dq10" />
+                <pin_map port_index="11" component_pin="c0_ddr4_dq11" />
+                <pin_map port_index="12" component_pin="c0_ddr4_dq12" />
+                <pin_map port_index="13" component_pin="c0_ddr4_dq13" />
+                <pin_map port_index="14" component_pin="c0_ddr4_dq14" />
+                <pin_map port_index="15" component_pin="c0_ddr4_dq15" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="DQS_C" physical_port="c0_ddr4_dqs_c" dir="inout" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr4_dqs0_c" />
+                <pin_map port_index="1" component_pin="c0_ddr4_dqs1_c" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="DQS_T" physical_port="c0_ddr4_dqs_t" dir="out" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr4_dqs0_t" />
+                <pin_map port_index="1" component_pin="c0_ddr4_dqs1_t" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="ODT" physical_port="c0_ddr4_odt" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr4_odt0" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="RESET_N" physical_port="c0_ddr4_reset_n" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr4_reset_n" />
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+      </interfaces>
+    </component>
+    <component name="ddr4_sdram" display_name="DDR4 SDRAM" type="chip" sub_type="ddr" major_group="External Memory" part_name="MT40A512M16LY-075" vendor="Micron" spec_url="https://www.micron.com/parts/dram/ddr4-sdram/mt40a256m16ge-075e">
+      <description>8Gb DDR4 Memory</description>
+      <component_modes>
+        <component_mode name="ddr4mig_with_ddr4_refclk" display_name="ddr4 mig using ddr4_100mhz">
+          <interfaces>
+            <interface name="ddr4_100mhz" />
+            <interface name="ddr4_sdram" />
+          </interfaces>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="ddr4" order="0" />
+          </preferred_ips>
+        </component_mode>
+      </component_modes>
+      <parameters>
+        <parameter name="ddr_type" value="ddr4" />
+        <parameter name="size" value="1GB" />
+      </parameters>
+    </component>
+    <component name="ddr4_100mhz" display_name="DDR4 MIG REFCLK (100MHz)" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="ASDMPLV-100.000MHZ-LR-T" vendor="Abracon LLC" spec_url="https://abracon.com/">
+      <description>100MHZ fixed-frequency clock oscillator used for MIG refclk</description>
+      <component_modes>
+        <component_mode name="ddr4_refclk_with_ddr4mig" display_name="ddr4_100mhz used with ddr4 mig">
+          <interfaces>
+            <interface name="ddr4_100mhz" />
+            <interface name="ddr4_sdram" />
+          </interfaces>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="ddr4" order="0" />
+          </preferred_ips>
+        </component_mode>
+      </component_modes>
+      <parameters>
+        <parameter name="frequency" value="100000000" />
+      </parameters>
+    </component>
+    <component name="fabric_100mhz" display_name="Fabric Fixed-Frequency Clock Oscillator (100MHz)" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="ASDMPLV-100.000MHZ-LR-T" vendor="Abracon LLC" spec_url="https://abracon.com/">
+      <description>100MHZ fixed-frequency clock oscillator</description>
+      <parameters>
+        <parameter name="frequency" value="100000000" />
+      </parameters>
+    </component>
+    <component name="led_6bits" display_name="LED" type="chip" sub_type="led" major_group="General Purpose Input or Output">
+      <description>LEDs, 5 to 0</description>
+    </component>
+  </components>
+  <connections>
+    <connection name="Part0_DDR4_SDRAM" component1="part0" component2="ddr4_sdram">
+      <connection_map name="Part0_DDR4_SDRAM_1" typical_delay="5" c1_st_index="2" c1_end_index="50" c2_st_index="0" c2_end_index="48" />
+    </connection>
+    <connection name="Part0_led_6bits" component1="part0" component2="led_6bits">
+      <connection_map name="Part0_led_6bits_1" typical_delay="5" c1_st_index="51" c1_end_index="56" c2_st_index="0" c2_end_index="5" />
+    </connection>
+    <connection name="Part0_DDR4_REFCLK_100MZ" component1="part0" component2="ddr4_100mhz">
+      <connection_map name="Part0_DDR4_REFCLK_100MZ_1" typical_delay="5" c1_st_index="0" c1_end_index="1" c2_st_index="0" c2_end_index="1" />
+    </connection>
+    <connection name="Part0_FABRIC_100MZ" component1="part0" component2="fabric_100mhz">
+      <connection_map name="Part0_FABRIC_100MZ_1" typical_delay="5" c1_st_index="57" c1_end_index="58" c2_st_index="0" c2_end_index="1" />
+    </connection>
+    <connection name="part0_szg_port_a_connector" component1="part0" component2="szg_port_a">
+      <connection_map name="part0_szg_porta_map" typical_delay="5" c1_st_index="59" c1_end_index="90" c2_st_index="0" c2_end_index="31" />
+    </connection>
+    <connection name="part0_szg_port_b_connector" component1="part0" component2="szg_port_b">
+      <connection_map name="part0_szg_portb_map" typical_delay="5" c1_st_index="91" c1_end_index="122" c2_st_index="0" c2_end_index="31" />
+    </connection>
+    <connection name="part0_szg_port_c_connector" component1="part0" component2="szg_port_c">
+      <connection_map name="part0_szg_portc_map" typical_delay="5" c1_st_index="123" c1_end_index="154" c2_st_index="0" c2_end_index="31" />
+    </connection>
+    <connection name="part0_szg_port_d_connector" component1="part0" component2="szg_port_d">
+      <connection_map name="part0_szg_portd_map" typical_delay="5" c1_st_index="155" c1_end_index="186" c2_st_index="0" c2_end_index="31" />
+    </connection>
+    <connection name="part0_szg_port_e_connector" component1="part0" component2="szg_port_e">
+      <connection_map name="part0_szg_porte_map" typical_delay="5" c1_st_index="187" c1_end_index="218" c2_st_index="0" c2_end_index="31" />
+    </connection>
+    <connection name="part0_szg_port_f_connector" component1="part0" component2="szg_port_f">
+      <connection_map name="part0_szg_portf_map" typical_delay="5" c1_st_index="219" c1_end_index="250" c2_st_index="0" c2_end_index="31" />
+    </connection>
+  </connections>
+</board>
