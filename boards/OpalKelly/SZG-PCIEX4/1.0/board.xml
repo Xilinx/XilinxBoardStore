@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<board schema_version="2.2" vendor="opalkelly.com" name="SZG_PCIEX4" display_name="SZG_PCIEX4 Peripheral" url="https://docs.opalkelly.com/syzygy-peripherals/szg-pciex4/" preset_file="preset.xml" supports_ced="false">
+    <file_version>1.0</file_version> 
+    
+    <description>SZG_PCIEX4 Peripheral</description>
+    
+        <compatible_board_revisions>
+           <revision id="0">RevB</revision>
+        </compatible_board_revisions>
+    
+    <components>
+    
+        <component name="szg_port_txr4" type="connector" sub_type="som" display_name="SZG_PCIEX4 (TXR4)">
+            <pins>
+                <pin index="0"  name="PCIE_RX0p" ></pin> 
+                <pin index="1"  name="PCIE_RX0n" ></pin> 
+                <pin index="2"  name="PCIE_RX1p" ></pin> 
+                <pin index="3"  name="PCIE_RX1n" ></pin> 
+                <pin index="4"  name="PCIE_RX2p" ></pin> 
+                <pin index="5"  name="PCIE_RX2n" ></pin> 
+                <pin index="6"  name="PCIE_RX3p" ></pin> 
+                <pin index="7"  name="PCIE_RX3n" ></pin> 
+                <pin index="8"  name="PCIE_TX0p" ></pin> 
+                <pin index="9"  name="PCIE_TX0n" ></pin> 
+                <pin index="10" name="PCIE_TX1p"  ></pin> 
+                <pin index="11" name="PCIE_TX1n" ></pin> 
+                <pin index="12" name="PCIE_TX2p" ></pin> 
+                <pin index="13" name="PCIE_TX2n" ></pin> 
+                <pin index="14" name="PCIE_TX3p" ></pin> 
+                <pin index="15" name="PCIE_TX3n" ></pin> 
+                <pin index="16" name="PCIE_REFCLKp" ></pin> 
+                <pin index="17" name="PCIE_REFCLKn" ></pin> 
+                <pin index="18" name="PCIE_SMCLK_VIO" ></pin> 
+                <pin index="19" name="PCIE_SMDAT_VIO" ></pin> 
+                <pin index="20" name="PCIE_PERST_B_VIO" ></pin> 
+                <pin index="21" name="PCIE_WAKE_B_VIO" ></pin> 
+                <pin index="22" name="unconnected" ></pin> 
+                <pin index="23" name="unconnected" ></pin> 
+                <pin index="24" name="unconnected" ></pin> 
+                <pin index="25" name="unconnected" ></pin> 
+                <pin index="26" name="unconnected" ></pin> 
+                <pin index="27" name="unconnected" ></pin> 
+                <pin index="28" name="unconnected" ></pin> 
+                <pin index="29" name="unconnected" ></pin> 
+                <pin index="30" name="unconnected" ></pin> 
+                <pin index="31" name="unconnected" ></pin> 
+            </pins>
+            <interfaces>
+            
+                <interface mode="master" name="pci_express_x4" type="xilinx.com:interface:pcie_7x_mgt_rtl:1.0" of_component="pci_express" preset_proc="pciex4_preset">
+                  <preferred_ips>
+                    <preferred_ip vendor="xilinx.com" library="ip" name="xdma" order="0"/>
+                    <preferred_ip vendor="xilinx.com" library="ip" name="qdma" order="1"/>
+                    <preferred_ip vendor="xilinx.com" library="ip" name="pcie4_uscale_plus" order="2"/>
+                  </preferred_ips>
+                  <port_maps>
+                    <port_map logical_port="txn" physical_port="pcie_tx0_nx4" dir="out" left="3" right="0">
+                      <pin_maps>
+                        <pin_map port_index="0" component_pin="PCIE_TX0n"/>
+                        <pin_map port_index="1" component_pin="PCIE_TX1n"/>
+                        <pin_map port_index="2" component_pin="PCIE_TX2n"/>
+                        <pin_map port_index="3" component_pin="PCIE_TX3n"/>
+                      </pin_maps>
+                    </port_map>
+                    <port_map logical_port="rxn" physical_port="pcie_rx0_nx4" dir="in" left="3" right="0">
+                      <pin_maps>
+                        <pin_map port_index="0" component_pin="PCIE_RX0n"/> 
+                        <pin_map port_index="1" component_pin="PCIE_RX1n"/>
+                        <pin_map port_index="2" component_pin="PCIE_RX2n"/>
+                        <pin_map port_index="3" component_pin="PCIE_RX3n"/>
+                      </pin_maps>
+                    </port_map>
+                    <port_map logical_port="txp" physical_port="pcie_tx0_px4" dir="out" left="3" right="0">
+                      <pin_maps>
+                        <pin_map port_index="0" component_pin="PCIE_TX0p"/>
+                        <pin_map port_index="1" component_pin="PCIE_TX1p"/>
+                        <pin_map port_index="2" component_pin="PCIE_TX2p"/>
+                        <pin_map port_index="3" component_pin="PCIE_TX3p"/>
+                      </pin_maps>
+                    </port_map>
+                    <port_map logical_port="rxp" physical_port="pcie_rx0_px4" dir="in" left="3" right="0">
+                      <pin_maps>
+                        <pin_map port_index="0" component_pin="PCIE_RX0p"/> 
+                        <pin_map port_index="1" component_pin="PCIE_RX1p"/>
+                        <pin_map port_index="2" component_pin="PCIE_RX2p"/>
+                        <pin_map port_index="3" component_pin="PCIE_RX3p"/>
+                      </pin_maps>
+                    </port_map>
+                  </port_maps>
+                  <parameters>
+                    <parameter name="block_location" value="X0Y0" />
+                  </parameters>
+                </interface>
+                
+                
+                <interface mode="slave" name="pcie_perstn" type="xilinx.com:signal:reset_rtl:1.0" of_component="pci_express">
+                  <preferred_ips>
+                    <preferred_ip vendor="xilinx.com" library="ip" name="xdma" order="0"/>
+                    <preferred_ip vendor="xilinx.com" library="ip" name="pcie4_uscale_plus" order="1"/>
+                  </preferred_ips>
+                  <port_maps>
+                    <port_map logical_port="RST" physical_port="pcie_perstn_rst" dir="in">
+                      <pin_maps>
+                        <pin_map port_index="0" component_pin="PCIE_PERST_B_VIO"/> 
+                      </pin_maps>
+                    </port_map>
+                  </port_maps>
+                  <parameters>
+                    <parameter name="rst_polarity" value="0" />
+                    <parameter name="type" value="PCIE_PERST" />
+                  </parameters>
+                </interface>
+                
+                <!--
+                <interface mode="slave" name="pcie_refclk" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="pcie_refclk" preset_proc="pcie_refclk_preset">
+                  <parameters>
+                    <parameter name="frequency" value="100000000"/>
+                  </parameters>
+                  <preferred_ips>
+                    <preferred_ip vendor="xilinx.com" library="ip" name="util_ds_buf" order="0"/>
+                  </preferred_ips>
+                  <port_maps>
+                    <port_map logical_port="CLK_P" physical_port="pcie_mgt_clkp" dir="in">
+                      <pin_maps>
+                    <pin_map port_index="0" component_pin="PCIE_REFCLKp"/>
+                      </pin_maps>
+                    </port_map>
+                    <port_map logical_port="CLK_N" physical_port="pcie_mgt_clkn" dir="in">
+                      <pin_maps>
+                    <pin_map port_index="0" component_pin="PCIE_REFCLKn"/>
+                      </pin_maps>
+                    </port_map>
+                  </port_maps>
+                </interface>
+                -->
+            </interfaces>
+        </component>
+        
+        <component name="pci_express" display_name="PCI Express" type="chip" sub_type="chip" major_group="Miscellaneous">
+          <description>PCI Express</description>
+          <component_modes>
+            <component_mode name="pci_express_x4" display_name="pci_express x4 ">
+              <interfaces>
+                <interface name="pci_express_x4"/>
+                <interface name="pcie_perstn" optional="true"/>
+                <interface name="pcie_refclk" optional="true"/>
+              </interfaces>
+              <preferred_ips>
+                <preferred_ip vendor="xilinx.com" library="ip" name="xdma" order="0"/>
+                <preferred_ip vendor="xilinx.com" library="ip" name="qdma" order="1"/>
+                <preferred_ip vendor="xilinx.com" library="ip" name="pcie4_uscale_plus" order="2"/>
+              </preferred_ips>
+            </component_mode>
+          </component_modes>
+        </component>
+    
+        <!--
+        <component name="pcie_refclk" display_name="PCIe MGT reference Clock" type="chip" sub_type="mgt_clock" major_group="Clock Sources" part_name="pcie_4lane_edge" vendor="Clock" spec_url="">
+          <description>Clock input from PCI Express edge connector</description>
+          <parameters>
+            <parameter name="frequency" value="100000000"/>
+          </parameters>
+        </component>
+        -->
+                
+    </components>
+    
+    
+    
+    <connections>
+        <!--
+        <connection name="szg_port_txr4_pcie_refclk" component1="szg_port_txr4" component2="pcie_refclk">
+          <connection_map name="szg_port_txr4_pcie_refclk_1" typical_delay="5" c1_st_index="16" c1_end_index="17" c2_st_index="0" c2_end_index="1"/>
+        </connection>
+        -->
+        <connection name="szg_port_txr4_pci_express" component1="szg_port_txr4" component2="pci_express">
+          <connection_map name="szg_port_txr4_pcie_express_1" c1_st_index="0" c1_end_index="15" c2_st_index="0" c2_end_index="15"/>
+        </connection>
+        <connection name="szg_port_txr4_pcie_perstn" component1="szg_port_txr4" component2="pcie_perstn">
+          <connection_map name="szg_port_txr4_pcie_perstn_1" c1_st_index="20" c1_end_index="20" c2_st_index="0" c2_end_index="0"/>
+        </connection>
+    
+    </connections> 
+    
+</board>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<ip_presets schema="1.0">
+
+    <!--
+    <ip_preset preset_proc_name="pcie_refclk_preset">
+        <ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+            <user_parameters>
+                <user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDSGTE" />
+                <user_parameter name="CONFIG.C_SIZE" value="1" />
+            </user_parameters>
+        </ip>
+    </ip_preset>
+	-->
+     
+    <ip_preset preset_proc_name="pciex4_preset">
+        <ip vendor="xilinx.com" library="ip" name="xdma">
+          <user_parameters>
+            <user_parameter name="CONFIG.pl_link_cap_max_link_width" value="X4" />
+            <user_parameter name="CONFIG.mode_selection" value="Advanced" />
+            <user_parameter name="CONFIG.disable_gt_loc" value="true" />
+          </user_parameters>
+        </ip>
+        <ip vendor="xilinx.com" library="ip" name="qdma">
+          <user_parameters>
+            <user_parameter name="CONFIG.pl_link_cap_max_link_width" value="X4" />
+            <user_parameter name="CONFIG.mode_selection" value="Advanced" />
+            <user_parameter name="CONFIG.disable_gt_loc" value="true" />
+          </user_parameters>
+        </ip>
+        
+        <ip vendor="xilinx.com" library="ip" name="pcie4_uscale_plus">
+          <user_parameters>
+            <user_parameter name="CONFIG.pl_link_cap_max_link_width" value="X4" />
+            <user_parameter name="CONFIG.mode_selection" value="Advanced" />
+            <user_parameter name="CONFIG.disable_gt_loc" value="true" />
+          </user_parameters>
+        </ip>
+    </ip_preset>
+	
+
+</ip_presets>
