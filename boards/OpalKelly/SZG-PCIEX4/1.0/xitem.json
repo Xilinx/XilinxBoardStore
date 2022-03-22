@@ -1,0 +1,39 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "SZG_PCIEX4", 
+          "display": "SZG_PCIEX4 Peripheral", 
+          "revision": "1.0", 
+          "description": "SZG_PCIEX4 Peripheral", 
+          "company": "opalkelly.com", 
+          "company_display": "Opal Kelly", 
+          "author": "Opal Kelly", 
+          "contributors": [
+            {
+              "group": "Opal Kelly", 
+              "url": "https://opalkelly.com/"
+            }
+          ], 
+          "category": "FMCs & Accessories", 
+          "website": "https://docs.opalkelly.com/syzygy-peripherals/szg-pciex4/", 
+          "logo": "",
+          "search-keywords": [
+            "XEM8320-AU25P",
+            "SZG_PCIEX4",
+            "PCIe",
+            "opalkelly.com",
+            "board",
+            "AU25P",
+            "Opal Kelly",
+            "FrontPanel",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ip_presets schema="1.0">
+  <ip_preset preset_proc_name="rxcsi_preset_cam_1">
+    <ip vendor="xilinx.com" library="ip" name="mipi_csi2_rx_subsystem" ip_interface="mipi_phy_if">
+      <user_parameters>
+        <user_parameter name="CONFIG.CMN_NUM_LANES" value="2" />
+        <user_parameter name="CONFIG.DPY_LINE_RATE" value="420" />
+        <user_parameter name="CONFIG.CMN_NUM_PIXELS" value="4" />
+        <user_parameter name="CONFIG.CMN_INC_IIC" value="false" />
+        <user_parameter name="CONFIG.HP_IO_BANK_SELECTION" value="66" />
+        <user_parameter name="CONFIG.CLK_LANE_IO_LOC" value="L18" />
+        <user_parameter name="CONFIG.DATA_LANE0_IO_LOC" value="M20" />
+        <user_parameter name="CONFIG.DATA_LANE1_IO_LOC" value="J19" />
+        <user_parameter name="CONFIG.CMN_INC_VFB" value="true" />
+        <user_parameter name="CONFIG.CMN_PXL_FORMAT" value="RAW10" />
+        <user_parameter name="CONFIG.SupportLevel" value="1" />
+        <user_parameter name="CONFIG.C_CSI_FILTER_USERDATATYPE" value="true" />
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="mipi_dphy" ip_interface="rx_mipi_phy_if">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_DPHY_MODE" value="SLAVE" />
+        <user_parameter name="CONFIG.C_DPHY_LANES" value="2" />
+        <user_parameter name="CONFIG.C_HS_LINE_RATE" value="420" />
+        <user_parameter name="CONFIG.HP_IO_BANK_SELECTION" value="66" />
+        <user_parameter name="CONFIG.CLK_LANE_IO_LOC" value="L18" />
+        <user_parameter name="CONFIG.DATA_LANE0_IO_LOC" value="M20" />
+        <user_parameter name="CONFIG.DATA_LANE1_IO_LOC" value="J19" />
+        <user_parameter name="CONFIG.SupportLevel" value="1" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+  <ip_preset preset_proc_name="rxcsi_preset_cam_2">
+    <ip vendor="xilinx.com" library="ip" name="mipi_csi2_rx_subsystem" ip_interface="mipi_phy_if">
+      <user_parameters>
+        <user_parameter name="CONFIG.CMN_NUM_LANES" value="2" />
+        <user_parameter name="CONFIG.DPY_LINE_RATE" value="420" />
+        <user_parameter name="CONFIG.CMN_NUM_PIXELS" value="4" />
+        <user_parameter name="CONFIG.CMN_INC_IIC" value="false" />
+        <user_parameter name="CONFIG.HP_IO_BANK_SELECTION" value="66" />
+        <user_parameter name="CONFIG.CLK_LANE_IO_LOC" value="L22" />
+        <user_parameter name="CONFIG.DATA_LANE0_IO_LOC" value="M25" />
+        <user_parameter name="CONFIG.DATA_LANE1_IO_LOC" value="K25" />
+        <user_parameter name="CONFIG.CMN_INC_VFB" value="true" />
+        <user_parameter name="CONFIG.CMN_PXL_FORMAT" value="RAW10" />
+        <user_parameter name="CONFIG.SupportLevel" value="1" />
+        <user_parameter name="CONFIG.C_CSI_FILTER_USERDATATYPE" value="true" />
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="mipi_dphy" ip_interface="rx_mipi_phy_if">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_DPHY_MODE" value="SLAVE" />
+        <user_parameter name="CONFIG.C_DPHY_LANES" value="2" />
+        <user_parameter name="CONFIG.C_HS_LINE_RATE" value="420" />
+        <user_parameter name="CONFIG.HP_IO_BANK_SELECTION" value="66" />
+        <user_parameter name="CONFIG.CLK_LANE_IO_LOC" value="L22" />
+        <user_parameter name="CONFIG.DATA_LANE0_IO_LOC" value="M25" />
+        <user_parameter name="CONFIG.DATA_LANE1_IO_LOC" value="K25" />
+        <user_parameter name="CONFIG.SupportLevel" value="1" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+  <ip_preset preset_proc_name="rxcsi_preset_cam_3">
+    <ip vendor="xilinx.com" library="ip" name="mipi_csi2_rx_subsystem" ip_interface="mipi_phy_if">
+      <user_parameters>
+        <user_parameter name="CONFIG.CMN_NUM_LANES" value="2" />
+        <user_parameter name="CONFIG.DPY_LINE_RATE" value="420" />
+        <user_parameter name="CONFIG.CMN_NUM_PIXELS" value="4" />
+        <user_parameter name="CONFIG.CMN_INC_IIC" value="false" />
+        <user_parameter name="CONFIG.HP_IO_BANK_SELECTION" value="66" />
+        <user_parameter name="CONFIG.CLK_LANE_IO_LOC" value="L24" />
+        <user_parameter name="CONFIG.DATA_LANE0_IO_LOC" value="K22" />
+        <user_parameter name="CONFIG.DATA_LANE1_IO_LOC" value="J23" />
+        <user_parameter name="CONFIG.CMN_INC_VFB" value="true" />
+        <user_parameter name="CONFIG.CMN_PXL_FORMAT" value="RAW10" />
+        <user_parameter name="CONFIG.SupportLevel" value="1" />
+        <user_parameter name="CONFIG.C_CSI_FILTER_USERDATATYPE" value="true" />
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="mipi_dphy" ip_interface="rx_mipi_phy_if">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_DPHY_MODE" value="SLAVE" />
+        <user_parameter name="CONFIG.C_DPHY_LANES" value="2" />
+        <user_parameter name="CONFIG.C_HS_LINE_RATE" value="420" />
+        <user_parameter name="CONFIG.HP_IO_BANK_SELECTION" value="66" />
+        <user_parameter name="CONFIG.CLK_LANE_IO_LOC" value="L24" />
+        <user_parameter name="CONFIG.DATA_LANE0_IO_LOC" value="K22" />
+        <user_parameter name="CONFIG.DATA_LANE1_IO_LOC" value="J23" />
+        <user_parameter name="CONFIG.SupportLevel" value="1" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+  <ip_preset preset_proc_name="mipi_rst_Preset_1">
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_GPIO_WIDTH" value="1" />
+        <user_parameter name="CONFIG.C_ALL_OUTPUTS" value="1" />
+        <user_parameter name="CONFIG.C_ALL_INPUTS" value="0" />
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_IS_DUAL" value="1" />
+        <user_parameter name="CONFIG.C_GPIO2_WIDTH" value="1" />
+        <user_parameter name="CONFIG.C_ALL_OUTPUTS_2" value="1" />
+        <user_parameter name="CONFIG.C_ALL_INPUTS_2" value="0" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+</ip_presets>
