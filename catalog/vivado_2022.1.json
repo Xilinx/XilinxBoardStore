@@ -5059,11 +5059,11 @@
         "name": "vpk120_es_revb",
         "display": "Versal VPK120 ES1 Rev B01 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "3794f20b56a29fa2d53921b25a8c9cafb4c24a0e",
+        "commit_id": "3c14b2f065e9f874a8ab81811d274bed28b59072",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "3794f20b56a29fa2d53921b25a8c9cafb4c24a0e",
+            "commit_id": "3c14b2f065e9f874a8ab81811d274bed28b59072",
             "date": "12-11-2021:06:50:51",
             "history": "Added board Versal VPK120 ES1 Rev B01 Evaluation Platform v1.0"
           }
