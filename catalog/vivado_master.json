@@ -6845,11 +6845,11 @@
         "name": "vpk180_es",
         "display": "Versal VPK180 ES1 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "ba2ce09884438926348c1f3a873fe1933c2bfbea",
+        "commit_id": "3774e92c75b40174ecbe4fe75f6e9f4064f31c2d",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "ba2ce09884438926348c1f3a873fe1933c2bfbea",
+            "commit_id": "3774e92c75b40174ecbe4fe75f6e9f4064f31c2d",
             "date": "05-04-2022:05:52:38",
             "history": "Added board Versal VPK180 ES1 Evaluation Platform v1.0"
           }
