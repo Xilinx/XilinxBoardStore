@@ -198,9 +198,10 @@
 				<user_parameter name="CONFIG.MC_DQS_WIDTH" value="4"/>
 				<user_parameter name="CONFIG.MC_DM_WIDTH" value="4"/>
 				<user_parameter name="CONFIG.MC_COMPONENT_WIDTH" value="x32"/> 
-				<user_parameter name="CONFIG.MC_INPUTCLK0_PERIOD" value="4992"/>		
-				<user_parameter name="CONFIG.MC_STACKHEIGHT" value="1"/>
-               	<user_parameter name="CONFIG.MC_MEMORY_TIMEPERIOD0" value="512"/>
+				<user_parameter name="CONFIG.MC_FREQ_SEL" value="MEMORY_CLK_FROM_SYS_CLK"/>				
+				<user_parameter name="CONFIG.MC_IP_TIMEPERIOD0_FOR_OP" value="5000"/>				
+				<user_parameter name="CONFIG.MC_STACKHEIGHT" value="1"/>    
+				<user_parameter name="CONFIG.MC_MEMORY_TIMEPERIOD0" value="513"/>								           	
 				<user_parameter name="CONFIG.MC0_FLIPPED_PINOUT" value="true"/>
 				<user_parameter name="CONFIG.MC1_FLIPPED_PINOUT" value="true"/>
 				<user_parameter name="CONFIG.MC_MEMORY_DEVICETYPE" value="Components"/>
@@ -220,9 +221,10 @@
 				<user_parameter name="CONFIG.MC_DQS_WIDTH" value="4"/>
 				<user_parameter name="CONFIG.MC_DM_WIDTH" value="4"/>
 				<user_parameter name="CONFIG.MC_COMPONENT_WIDTH" value="x32"/> 
-				<user_parameter name="CONFIG.MC_INPUTCLK0_PERIOD" value="4992"/>		
-				<user_parameter name="CONFIG.MC_STACKHEIGHT" value="1"/>
-               	<user_parameter name="CONFIG.MC_MEMORY_TIMEPERIOD0" value="512"/>
+				<user_parameter name="CONFIG.MC_FREQ_SEL" value="MEMORY_CLK_FROM_SYS_CLK"/>				
+				<user_parameter name="CONFIG.MC_IP_TIMEPERIOD0_FOR_OP" value="5000"/>				
+				<user_parameter name="CONFIG.MC_STACKHEIGHT" value="1"/>    
+				<user_parameter name="CONFIG.MC_MEMORY_TIMEPERIOD0" value="513"/>								           	
 				<user_parameter name="CONFIG.MC0_FLIPPED_PINOUT" value="true"/>
 				<user_parameter name="CONFIG.MC1_FLIPPED_PINOUT" value="true"/>
 				<user_parameter name="CONFIG.MC_MEMORY_DEVICETYPE" value="Components"/>
