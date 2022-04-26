@@ -11,7 +11,7 @@
  License for the specific language governing permissions and limitations
  under the License. -->
 
-<board schema_version="2.2" vendor="xilinx.com" name="kv260_carrier" display_name="Vision AI Starter Kit carrier card" url="" preset_file="preset.xml" supports_ced="false">
+<board schema_version="2.2" vendor="xilinx.com" name="kv260_carrier" display_name="Vision AI Starter Kit carrier card" url="" preset_file="preset.xml" supports_ced="true">
 	<file_version>1.3</file_version> 
 	
 	<description>Vision AI Starter Kit carrier card</description>

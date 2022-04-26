@@ -11,7 +11,7 @@
  License for the specific language governing permissions and limitations
  under the License. -->
 
-<board schema_version="2.2" vendor="xilinx.com" name="kv260_som" display_name="Kria KV260 Vision AI Starter Kit" url="www.xilinx.com" preset_file="preset_s4.xml" supports_ced="false">
+<board schema_version="2.2" vendor="xilinx.com" name="kv260_som" display_name="Kria KV260 Vision AI Starter Kit" url="www.xilinx.com" preset_file="preset_s4.xml" supports_ced="true">
 
 <images>
     <image name="vsom_kit.jpg" display_name="Kria KV260 Vision AI Starter Kit" sub_type="board">
@@ -287,7 +287,7 @@
 	
 
   
-    <component name="part0" display_name="VISION SOM Evaluation Platform" type="fpga" part_name="XCK26-SFVC784-2LV-C" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="www.xilinx.com">
+    <component name="part0" display_name="VISION SOM Evaluation Platform" type="fpga" part_name="xck26-sfvc784-2LV-c" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="www.xilinx.com">
       <description>FPGA part on the board</description>
 	  
       <interfaces>      
