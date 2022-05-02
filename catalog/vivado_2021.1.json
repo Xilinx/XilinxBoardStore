@@ -6004,6 +6004,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "opalkelly.com"
+      },
+      {
+        "name": "iW-G36S-5EV1-4E002G-E008G-BEG",
+        "display": "iW-G36S-5EV1-4E002G-E008G-BEG",
+        "latest_revision": "2.5",
+        "commit_id": "704f5b030955299615a9a13acc4c39cc63cf5ee8",
+        "revisions": [
+          {
+            "revision": "2.5",
+            "commit_id": "704f5b030955299615a9a13acc4c39cc63cf5ee8",
+            "date": "02-05-2022:14:59:02",
+            "history": "Added board iW-G36S-5EV1-4E002G-E008G-BEG v2.5"
+          }
+        ],
+        "config": {
+          "root": "boards/iWave/iw-g36s-5ev1-4e002g-e008g-beg/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "iwavesystems.com"
       }
     ],
     "categories": [
