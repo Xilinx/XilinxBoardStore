@@ -6897,6 +6897,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
+      },
+      {
+        "name": "vpk120",
+        "display": "Versal VPK120 Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "ea6ffb8c9399c092f135d988e65d74899c746203",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "ea6ffb8c9399c092f135d988e65d74899c746203",
+            "date": "09-05-2022:05:18:44",
+            "history": "Added board Versal VPK120 Evaluation Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vpk120/production/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
       }
     ],
     "categories": [
