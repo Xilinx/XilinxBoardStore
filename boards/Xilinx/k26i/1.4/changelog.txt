@@ -1,0 +1,16 @@
+######### Vision SOM changelog ############
+1.4(2022.2)
+Display port enabled, SD,eMMC is be mapped to MIO13-22 and GPIO1 is disabled
+
+1.3(2021.2)
+IO Trace length delays added
+
+1.2(2021.1)
+Added second connector (SOM240_2)
+
+1.1
+Initial release for public (2020.2.2_web)
+Same version went into 2021.1
+
+1.0 
+Initial release with lounge
