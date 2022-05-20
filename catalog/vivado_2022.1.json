@@ -6840,6 +6840,44 @@
           "metadata_file": "xitem.json"
         },
         "company": "opalkelly.com"
+      },
+      {
+        "name": "kr260",
+        "display": "Robotics Starter Kit carrier card",
+        "latest_revision": "1.0",
+        "commit_id": "684c67ca1f01bcdf30d4341e7681a1660b2f086c",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "684c67ca1f01bcdf30d4341e7681a1660b2f086c",
+            "date": "20-05-2022:04:50:48",
+            "history": "Added board Robotics Starter Kit carrier card v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/kr260_carrier/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "kr260_som",
+        "display": "Kria KR260 Robotics Starter Kit",
+        "latest_revision": "1.0",
+        "commit_id": "684c67ca1f01bcdf30d4341e7681a1660b2f086c",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "684c67ca1f01bcdf30d4341e7681a1660b2f086c",
+            "date": "20-05-2022:04:50:48",
+            "history": "Added board Kria KR260 Robotics Starter Kit v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/kr260_som/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
       }
     ],
     "categories": [
