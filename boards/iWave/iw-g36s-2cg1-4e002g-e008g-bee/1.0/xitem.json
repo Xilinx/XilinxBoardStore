@@ -1,0 +1,36 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "iW-G36S-2CG1-4E002G-E008G-BEE", 
+          "display": "iW-G36S-2CG1-4E002G-E008G-BEE", 
+          "revision": "2.2", 
+          "description": "Zynq UltraScale+ MPSoC 2CG-1-E SBC, 2GB PS DDR4, WIFI-BT, 8GB eMMC Flash", 
+          "company": "iwavesystems.com", 
+          "company_display": "iWave Systems Technologies", 
+          "author": "iwavesystems.com", 
+          "contributors": [
+            {
+              "group": "iWave Systems Technologies", 
+              "url": "https://www.iwavesystems.com/"
+            }
+          ], 
+          "category": "Single Board Computer", 
+          "website": "https://www.iwavesystems.com/product/zu5-zu4-zu3-zu2-zynq-ultrascale-mpsoc-sbc/", 
+          "logo": "iW-G36-SBC.jpeg", 
+          "search-keywords": [
+            "iW-G36S-2CG1-4E002G-E008G-BEE", 
+            "iwavesystems.com", 
+			"board",
+			"iW-G36-SBC",
+            "Single Board Computer",
+			"SBC"
+          ]
+        }
+      }
+    ]
+  }, 
+  "_major": 1, 
+  "_minor": 0
+}
