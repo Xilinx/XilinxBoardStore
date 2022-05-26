@@ -1,0 +1,36 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "iW-G36S-5EV1-4E002G-E008G-BEG", 
+          "display": "iW-G36S-5EV1-4E002G-E008G-BEG", 
+          "revision": "2.5",
+          "description": "Zynq UltraScale+ MPSoC 5EV-1-E SBC, 2GB PS DDR4, 1GB FPGA DDR4, HDMI IN, HDMI OUT, VCU, SFP+, 8GB eMMC Flash, Micro SD", 
+          "company": "iwavesystems.com", 
+          "company_display": "iWave Systems Technologies", 
+          "author": "iwavesystems.com", 
+          "contributors": [
+            {
+              "group": "iWave Systems Technologies", 
+              "url": "https://www.iwavesystems.com/"
+            }
+          ], 
+          "category": "Single Board Computer", 
+          "website": "https://www.iwavesystems.com/product/zu5-zu4-zu3-zu2-zynq-ultrascale-mpsoc-sbc/", 
+          "logo": "iW-G36-SBC.jpg", 
+          "search-keywords": [
+            "iW-G36S-5EV1-4E002G-E008G-BEG", 
+            "iwavesystems.com", 
+			"board",
+			"iW-G36-SBC",
+            "Single Board Computer",
+			"SBC"
+          ]
+        }
+      }
+    ]
+  }, 
+  "_major": 1, 
+  "_minor": 0
+}
