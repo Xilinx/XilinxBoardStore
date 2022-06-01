@@ -1253,7 +1253,7 @@
 		
 		<interface mode="slave" name="lpddr4_clk1" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="lpddr4_clk1" preset_proc="sysclk0_preset">
 		  <parameters>
-            <parameter name="frequency" value="200321000"/>
+            <parameter name="frequency" value="200000000"/>
           </parameters>
 		  		  
             <preferred_ips>
@@ -1279,7 +1279,7 @@
 		
 		<interface mode="slave" name="lpddr4_clk2" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="lpddr4_clk2" preset_proc="sysclk0_preset">
 		  <parameters>
-            <parameter name="frequency" value="200321000"/>
+            <parameter name="frequency" value="200000000"/>
           </parameters>
 		  		  
             <preferred_ips>
@@ -1305,7 +1305,7 @@
 
 		<interface mode="slave" name="lpddr4_clk3" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="lpddr4_clk3" preset_proc="sysclk0_preset">
 		  <parameters>
-            <parameter name="frequency" value="200321000"/>
+            <parameter name="frequency" value="200000000"/>
           </parameters>
 		  		  
             <preferred_ips>
@@ -1623,7 +1623,7 @@
 	<component name="lpddr4_clk1" display_name="LPDDR4 Clock 1" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="Si5332ED10480-GM1" vendor="Silicon Labs" spec_url="www.silabs.com">
       <description>LVDS differential oscillator used for LPDDR4 Controller</description>
       <parameters>
-        <parameter name="frequency" value="200321000"/>
+        <parameter name="frequency" value="200000000"/>
       </parameters>
     </component>	
 	
@@ -1631,14 +1631,14 @@
 	<component name="lpddr4_clk2" display_name="LPDDR4 Clock 2" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="Si5332ED10480-GM1" vendor="Silicon Labs" spec_url="www.silabs.com">
       <description>LVDS differential oscillator used for LPDDR4 Controller</description>
       <parameters>
-        <parameter name="frequency" value="200321000"/>
+        <parameter name="frequency" value="200000000"/>
       </parameters>
     </component>	
 
 	<component name="lpddr4_clk3" display_name="LPDDR4 Clock 3" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="Si5332ED10480-GM1" vendor="Silicon Labs" spec_url="www.silabs.com">
       <description>LVDS differential oscillator used for LPDDR4 Controller</description>
       <parameters>
-        <parameter name="frequency" value="200321000"/>
+        <parameter name="frequency" value="200000000"/>
       </parameters>
     </component>		
 
