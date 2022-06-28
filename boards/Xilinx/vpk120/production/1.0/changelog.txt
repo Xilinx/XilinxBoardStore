@@ -1,7 +1,0 @@
-######### VPK120 change log ##############
-1.0
-
-Initial board file for vpk120 pre-production and production (2022.1_web)
-
-
-

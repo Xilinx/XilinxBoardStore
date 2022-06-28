@@ -1,5 +1,0 @@
-######### ZCU208-LD change log ############
-
-2.0
-ZCU208-LD Production board support for Rev A (2020.2)
-

@@ -1,3 +1,0 @@
-######### Robotics Carrier card changelog ############
-1.0 (2022.1)
-Initial release 

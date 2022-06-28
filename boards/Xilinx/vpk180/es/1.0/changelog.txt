@@ -1,7 +1,0 @@
-######### VPK180 change log ##############
-1.0
-
-Initial board file support - vpk180 (2022.1)
-
-
-

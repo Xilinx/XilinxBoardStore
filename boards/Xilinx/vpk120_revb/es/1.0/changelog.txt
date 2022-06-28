@@ -1,7 +1,0 @@
-######### VPK120 change log ##############
-1.0
-Made board file compatible for RevB_01 board revision
-Changes - CIPS preset and UART addition
-
-
-

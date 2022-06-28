@@ -1,6 +1,0 @@
-######### ZCU216-LD change log ############
-
-2.0
-ZCU216-LD production board support for Rev A (Vivado 2020.2)
-
-
