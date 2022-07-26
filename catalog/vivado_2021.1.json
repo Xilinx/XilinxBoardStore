@@ -6023,6 +6023,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "iwavesystems.com"
+      },
+      {
+        "name": "ZUBoard_1CG",
+        "display": "ZUBoard 1CG Development Board",
+        "latest_revision": "1.0",
+        "commit_id": "a6ebd5e6afab3e4dc5594d7075fc4acc8880974a",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "a6ebd5e6afab3e4dc5594d7075fc4acc8880974a",
+            "date": "26-07-2022:17:01:39",
+            "history": "Added board ZUBoard 1CG Development Board v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Avnet/zub1cg/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "avnet.com"
       }
     ],
     "categories": [
