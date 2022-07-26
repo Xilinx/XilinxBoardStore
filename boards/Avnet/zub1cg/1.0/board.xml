@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<!--<!DOCTYPE board SYSTEM "C:/Xilinx/Vivado/2021.2/data/boards/board_schemas/current/board.dtd">-->
+<!-- -->
+<!--   ** **        **          **  ****      **  **********  ********** ®   
+      **   **        **        **   ** **     **  **              **
+     **     **        **      **    **  **    **  **              **
+    **       **        **    **     **   **   **  *********       **
+   **         **        **  **      **    **  **  **              **
+  **           **        ****       **     ** **  **              **
+ **  .........  **        **        **      ****  **********      **
+    ...........
+                                    Reach Further™
+ Copyright (C) 2022, Avnet Inc - All rights reserved
+ Licensed under the Apache License, Version 2.0 (the "License"). You may
+ not use this file except in compliance with the License. A copy of the
+ License is located at
+     http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ License for the specific language governing permissions and limitations
+ under the License. -->
+ 
+<board 
+   schema_version="2.2" 
+   vendor="avnet.com" 
+   name="ZUBoard_1CG" 
+   display_name="ZUBoard 1CG Development Board" 
+   url="http://avnet.me/ZUBoard-1CG" 
+   preset_file="preset.xml">
+
+   <images>
+      <image 
+         name="zub1cg_top.png" 
+         display_name="ZUBoard 1CG Development Board" 
+         sub_type="board">
+         <description>ZUBoard 1CG DK Image</description>
+      </image>
+   </images>
+
+   <compatible_board_revisions>
+      <revision id="0">Rev 1</revision>
+   </compatible_board_revisions>
+
+   <file_version>1.0</file_version>
+
+   <description>ZUBoard 1CG Development Board</description>
+
+   <parameters>
+   </parameters>
+
+   <jumpers>
+   </jumpers>
+     
+   <data_properties>
+      <data_property_group name="OPERATING_CONDITIONS">
+        <data_property_group name="SUPPLY_CURRENT_BUDGET">
+          <data_property name="VCCINT"     value="3"/>
+		  <!--
+          <data_property name="VCCINT_IO"  value="7.38"/>
+          <data_property name="VCCBRAM"    value="1.62"/>
+          <data_property name="VCCAUX"     value="1.19"/>
+          <data_property name="VCCAUX_IO"  value="0.056"/>
+          <data_property name="VCCO18"     value="0.014"/>
+          <data_property name="VCC_IO_HBM" value="3.84"/>
+          <data_property name="VCC_HBM"    value="4.16"/>
+          <data_property name="VCCAUX_HBM" value="0.2"/>
+          <data_property name="MGTYVCCAUX" value="0.144"/>
+          <data_property name="MGTYAVCC"   value="1.4"/>
+          <data_property name="MGTYAVTT"   value="3.6"/>
+          <data_property name="VCCADC"     value="0.02"/>
+		  -->
+        </data_property_group>
+        <data_property name="THETAJA"             value="0.75"/>
+        <data_property name="AMBIENT_TEMP"        value="25"/>
+        <data_property name="DESIGN_POWER_BUDGET" value="45"/>
+        <data_property name="HEATSINK"            value="medium"/>
+        <data_property name="BOARD_TEMP"          value="40"/>
+        <data_property name="BOARD_LAYERS"        value="8to11"/>
+    </data_property_group>
+  </data_properties>
+
+   <components>   
+
+      <!-- ZU+ MPSoC -->
+      <component name="part0" display_name="ZU+ MPSoC" type="fpga" part_name="xczu1cg-sbva484-1-e" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="http://avnet.me/ZUBoard-1CG">
+         <description>Zynq UltraScale+ part on the board</description>
+         <interfaces>
+
+            <!-- ZU+ PS Fixed I/O -->
+            <interface mode="master" name="ps8_fixedio" type="xilinx.com:zynq_ultra_ps_e:fixedio_rtl:1.0" of_component="ps8_fixedio" preset_proc="zynq_ultra_ps_e_preset"> 
+               <preferred_ips>
+                  <preferred_ip vendor="xilinx.com" library="ip" name="zynq_ultra_ps_e" order="0"/>
+               </preferred_ips>
+            </interface>
+
+            <!-- MikroE Click I2C -->
+             <interface mode="master" name="click_i2c_pl" type="xilinx.com:interface:iic_rtl:1.0" of_component="click_i2c_pl">
+              <preferred_ips>
+                <preferred_ip vendor="xilinx.com" library="ip" name="axi_iic" order="0"/>
+              </preferred_ips>
+              <port_maps>
+                <port_map logical_port="SCL_I" physical_port="click_i2c_main_scl_i" dir="inout">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_CLICK_SCL_1V8"/>
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="SCL_O" physical_port="click_i2c_main_scl_o" dir="inout">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_CLICK_SCL_1V8"/>
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="SCL_T" physical_port="click_i2c_main_scl_t" dir="inout">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_CLICK_SCL_1V8"/>
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="SDA_I" physical_port="click_i2c_main_sda_i" dir="inout">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_CLICK_SDA_1V8"/>
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="SDA_O" physical_port="click_i2c_main_sda_o" dir="inout">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_CLICK_SDA_1V8"/>
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="SDA_T" physical_port="click_i2c_main_sda_t" dir="inout">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_CLICK_SDA_1V8"/>
+                  </pin_maps>
+                </port_map>
+              </port_maps>
+            </interface>
+    
+            <!-- MikroE Click Interrupt -->
+
+            <!-- MikroE Click PWM -->
+
+            <!-- MikroE Click Reset Output from ZU and Input to Click-->
+            <interface mode="master" name="click_reset_pl"   type="xilinx.com:interface:gpio_rtl:1.0" of_component="click_reset_pl"   preset_proc="click_reset_pl_preset">
+            <description>Click Reset</description>
+              <preferred_ips>
+                <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+              </preferred_ips>
+              <port_maps>
+                <port_map logical_port="TRI_O" physical_port="click_reset_pl_tri_o" dir="out">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_CLICK_RST_1V8"/>
+                  </pin_maps>
+                </port_map>
+              </port_maps>
+            </interface>
+               
+            <!-- MikroE Click SPI -->
+            <interface mode="master" name="click_spi_pl" type="xilinx.com:interface:spi_rtl:1.0" of_component="click_spi_pl" preset_proc="click_spi_pl_preset">
+              <preferred_ips>
+                  <preferred_ip vendor="xilinx.com" library="ip" name="axi_quad_spi" order="0"/>
+              </preferred_ips>
+              <port_maps>
+                <port_map logical_port="IO0_I" physical_port="HD_CLICK_MOSI_1V8" dir="in">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_CLICK_MOSI_1V8"/> 
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="IO0_O" physical_port="spi_mosi_o" dir="out">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_CLICK_MOSI_1V8"/> 
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="IO0_T" physical_port="spi_mosi_t" dir="out">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_CLICK_MOSI_1V8"/> 
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="IO1_I" physical_port="HD_CLICK_MISO_1V8" dir="in">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_CLICK_MISO_1V8"/> 
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="IO1_O" physical_port="spi_miso_o" dir="out">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_CLICK_MISO_1V8"/> 
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="IO1_T" physical_port="spi_miso_t" dir="out">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_CLICK_MISO_1V8"/> 
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="SCK_I" physical_port="HD_CLICK_SCK_1V8" dir="in">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_CLICK_SCK_1V8"/> 
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="SCK_O" physical_port="spi_sclk_o" dir="out">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_CLICK_SCK_1V8"/> 
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="SCK_T" physical_port="spi_sclk_t" dir="out">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_CLICK_SCK_1V8"/> 
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="SS_I" physical_port="spi_ss_i" dir="in" left="1" right="0">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_CLICK_CS0_1V8"/> 
+                    <pin_map port_index="1" component_pin="HD_CLICK_CS1_AN_1V8"/> 
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="SS_O" physical_port="spi_ss_o" dir="out" left="1" right="0">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_CLICK_CS0_1V8"/> 
+                    <pin_map port_index="1" component_pin="HD_CLICK_CS1_AN_1V8"/> 
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="SS_T" physical_port="spi_ss_t" dir="out">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_CLICK_CS0_1V8"/> 
+                  </pin_maps>
+                </port_map>
+              </port_maps>
+            </interface>      
+
+            <!-- MikroE Click UART -->
+            <interface mode="master" name="click_uart_pl" type="xilinx.com:interface:uart_rtl:1.0" of_component="click_uart_pl">
+              <preferred_ips>
+               <preferred_ip vendor="xilinx.com" library="ip" name="axi_uartlite" order="0"/>
+              </preferred_ips>
+               <port_maps>
+                 <port_map logical_port="TxD" physical_port="rs232_uart_txd" dir="out">
+                  <pin_maps>
+                     <pin_map port_index="0" component_pin="HD_CLICK_TX_1V8"/>
+                  </pin_maps>
+                 </port_map>
+                 <port_map logical_port="RxD" physical_port="rs232_uart_rxd" dir="in">
+                   <pin_maps>
+                      <pin_map port_index="0" component_pin="HD_CLICK_RX_1V8"/>
+                   </pin_maps>
+                 </port_map>
+               </port_maps>
+            </interface>
+
+            <!-- PUSH BUTTON -->
+            <interface mode="master" name="push_button_1bit" type="xilinx.com:interface:gpio_rtl:1.0" of_component="push_button_1bit" preset_proc="push_button_1bit_preset">
+              <description>PL Push Button</description>
+              <preferred_ips>
+                <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+              </preferred_ips>
+              <port_maps>
+                <port_map logical_port="TRI_I" physical_port="push_button_1bit_tri_i" dir="in">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_GPIO_PB1"/>
+                  </pin_maps>
+                </port_map>
+              </port_maps>
+            </interface>
+
+            <!-- TRI-COLOR LEDS -->
+            <interface mode="master" name="rgb1_led_3bits"   type="xilinx.com:interface:gpio_rtl:1.0" of_component="rgb1_led_3bits"   preset_proc="rgb1_led_3bits_preset">
+            <description>PL RGB LED 1</description>
+              <preferred_ips>
+                <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+              </preferred_ips>
+              <port_maps>
+                <port_map logical_port="TRI_O" physical_port="rgb1_led_3bits_tri_o" dir="out" left="2" right="0">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_GPIO_RGB1_B"/>
+                    <pin_map port_index="1" component_pin="HD_GPIO_RGB1_G"/>
+                    <pin_map port_index="2" component_pin="HD_GPIO_RGB1_R"/>
+                  </pin_maps>
+                </port_map>
+              </port_maps>
+            </interface>
+            <interface mode="master" name="rgb2_led_3bits"   type="xilinx.com:interface:gpio_rtl:1.0" of_component="rgb2_led_3bits"   preset_proc="rgb2_led_3bits_preset">
+            <description>PL RGB LED 2</description>
+              <preferred_ips>
+                <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+              </preferred_ips>
+              <port_maps>
+                <port_map logical_port="TRI_O" physical_port="rgb2_led_3bits_tri_o" dir="out" left="2" right="0">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HP_GPIO_RGB2_B"/>
+                    <pin_map port_index="1" component_pin="HP_GPIO_RGB2_G"/>
+                    <pin_map port_index="2" component_pin="HP_GPIO_RGB2_R"/>
+                  </pin_maps>
+                </port_map>
+              </port_maps>
+            </interface>
+
+            <!-- TEMPERATURE SENSOR I2C -->
+             <interface mode="master" name="tempsensor_i2c_pl" type="xilinx.com:interface:iic_rtl:1.0" of_component="tempsensor_i2c_pl">
+              <preferred_ips>
+                <preferred_ip vendor="xilinx.com" library="ip" name="axi_iic" order="0"/>
+              </preferred_ips>
+              <port_maps>
+                <port_map logical_port="SCL_I" physical_port="TempSensor_i2c_main_scl_i" dir="inout">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_SENSOR_I2C_SCL"/>
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="SCL_O" physical_port="TempSensor_i2c_main_scl_o" dir="inout">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_SENSOR_I2C_SCL"/>
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="SCL_T" physical_port="TempSensor_i2c_main_scl_t" dir="inout">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_SENSOR_I2C_SCL"/>
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="SDA_I" physical_port="TempSensor_i2c_main_sda_i" dir="inout">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_SENSOR_I2C_SDA"/>
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="SDA_O" physical_port="TempSensor_i2c_main_sda_o" dir="inout">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_SENSOR_I2C_SDA"/>
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="SDA_T" physical_port="TempSensor_i2c_main_sda_t" dir="inout">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_SENSOR_I2C_SDA"/>
+                  </pin_maps>
+                </port_map>
+              </port_maps>
+            </interface>
+
+            <!-- SYZYGY DNA I2C -->
+            <interface mode="master" name="syzygydna_i2c_pl" type="xilinx.com:interface:iic_rtl:1.0" of_component="syzygydna_i2c_pl">
+              <preferred_ips>
+                <preferred_ip vendor="xilinx.com" library="ip" name="axi_iic" order="0"/>
+              </preferred_ips>
+              <port_maps>
+                <port_map logical_port="SCL_I" physical_port="SyzygyDNA_i2c_main_scl_i" dir="inout">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_SYZYGY_SCL_1V8"/>
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="SCL_O" physical_port="SyzygyDNA_i2c_main_scl_o" dir="inout">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_SYZYGY_SCL_1V8"/>
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="SCL_T" physical_port="SyzygyDNA_i2c_main_scl_t" dir="inout">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_SYZYGY_SCL_1V8"/>
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="SDA_I" physical_port="SyzygyDNA_i2c_main_sda_i" dir="inout">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_SYZYGY_SDA_1V8"/>
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="SDA_O" physical_port="SyzygyDNA_i2c_main_sda_o" dir="inout">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_SYZYGY_SDA_1V8"/>
+                  </pin_maps>
+                </port_map>
+                <port_map logical_port="SDA_T" physical_port="SyzygyDNA_i2c_main_sda_t" dir="inout">
+                  <pin_maps>
+                    <pin_map port_index="0" component_pin="HD_SYZYGY_SDA_1V8"/>
+                  </pin_maps>
+                </port_map>
+              </port_maps>
+            </interface>
+            <!-- SYZYGY STD PL (J6) -->
+            <!-- SYZYGY TXR2 PL (J1) -->
+            <!-- SYZYGY TXR2 MIO (J2) -->
+         </interfaces> 
+      </component>
+
+      <!-- ZU+ PS Fixed I/O -->
+      <component name="ps8_fixedio" display_name="PS8 fixed IO" type="chip" sub_type="fixed_io" major_group=""/>
+
+      <!-- MikroE Click I2C -->
+      <component name="click_i2c_pl" display_name="PL Click I2C" type="chip" sub_type="mux" major_group="Click" part_name="Click" vendor="MikroE">
+        <description>PL Click I2C</description>
+      </component>
+
+      <!-- MikroE Click Interrupt -->
+
+      <!-- MikroE Click PWM -->
+
+      <!-- MikroE Click Reset -->
+      <component name="click_reset_pl" display_name="PL Click Reset" type="chip" sub_type="reset" major_group="Click" part_name="Click" vendor="MikroE">
+        <description>PL Click Reset Input</description>
+      </component>
+
+      <!-- MikroE Click SPI -->
+      <component name="click_spi_pl" display_name="PL Click SPI" type="chip" sub_type="mux" major_group="Click" part_name="Click" vendor="MikroE">
+          <description>PL Click SPI</description>
+      </component>
+
+      <!-- MikroE Click UART -->
+      <component name="click_uart_pl" display_name="PL Click UART" type="chip" sub_type="uart" major_group="Click" part_name="Click" vendor="MikroE">
+        <description>PL Click UART</description>
+      </component>
+
+      <!-- PUSH BUTTON -->
+      <component name="push_button_1bit" display_name="PL Push Button" type="chip" sub_type="switch" major_group="GPIO" part_name="PTS810SJG250SMTRLFS" vendor="CandK" spec_url="www.ck-components.com">
+        <description>PL Push Button</description>
+      </component>
+
+      <!-- TRI-COLOR LEDS -->
+      <component name="rgb1_led_3bits" display_name="PL RGB1 LED" type="chip" sub_type="led" major_group="GPIO" part_name="LRTBGVSR-U4V2-JW+A6BB-D8+S2U2-7Z-20-S" vendor="Osram" spec_url="www.osram.com">
+        <description>PL RGB LED, 2 to 0, Active High</description>
+      </component>
+      <component name="rgb2_led_3bits" display_name="PL RGB2 LED" type="chip" sub_type="led" major_group="GPIO" part_name="LRTBGVSR-U4V2-JW+A6BB-D8+S2U2-7Z-20-S" vendor="Osram" spec_url="www.osram.com">
+        <description>PL RGB LED, 2 to 0, Active High</description>
+      </component>
+
+      <!-- TEMPERATURE SENSOR I2C -->
+      <component name="tempsensor_i2c_pl" display_name="PL TempSensor I2C" type="chip" sub_type="mux" major_group="Sensors" part_name="STTS22HTR" vendor="STMicro" spec_url="www.st.com">
+        <description>PL Temp Sensor I2C</description>
+      </component>
+
+      <!-- SYZYGY DNA I2C -->
+      <component name="syzygydna_i2c_pl" display_name="PL SyzygyDNA I2C" type="chip" sub_type="mux" major_group="Syzygy" part_name="ATTINY44A-MMH" vendor="Microchip" spec_url="www.microchip.com">
+        <description>Syzygy DNA I2C</description>
+      </component>
+
+      <!-- SYZYGY STD PL (J6) -->
+      <component name="szg_std_J6" type="connector" sub_type="som" display_name="Syzygy PL J6 (STD)">
+        <pins>
+          <pin index="0"  name="szg_std_J6_s0_d0p"   ></pin> 
+          <pin index="1"  name="szg_std_J6_s1_d1p"   ></pin> 
+          <pin index="2"  name="szg_std_J6_s2_d0n"   ></pin> 
+          <pin index="3"  name="szg_std_J6_s3_d1n"   ></pin> 
+          <pin index="4"  name="szg_std_J6_s4_d2p"   ></pin> 
+          <pin index="5"  name="szg_std_J6_s5_d3p"   ></pin> 
+          <pin index="6"  name="szg_std_J6_s6_d2n"   ></pin> 
+          <pin index="7"  name="szg_std_J6_s7_d3n"   ></pin> 
+          <pin index="8"  name="szg_std_J6_s8_d4p"   ></pin> 
+          <pin index="9"  name="szg_std_J6_s9_d5p"   ></pin> 
+          <pin index="10" name="szg_std_J6_s10_d4n"  ></pin> 
+          <pin index="11" name="szg_std_J6_s11_d5n"  ></pin> 
+          <pin index="12" name="szg_std_J6_s12_d6p"  ></pin> 
+          <pin index="13" name="szg_std_J6_s13_d7p"  ></pin> 
+          <pin index="14" name="szg_std_J6_s14_d6n"  ></pin> 
+          <pin index="15" name="szg_std_J6_s15_d7n"  ></pin> 
+          <pin index="16" name="szg_std_J6_s16_d8p"  ></pin> 
+          <pin index="17" name="szg_std_J6_s17_d9p"  ></pin> 
+          <pin index="18" name="szg_std_J6_s18_d8n"  ></pin> 
+          <pin index="19" name="szg_std_J6_s19_d9n"  ></pin> 
+          <pin index="20" name="szg_std_J6_s20_d10p" ></pin> 
+          <pin index="21" name="szg_std_J6_s21_d11p" ></pin> 
+          <pin index="22" name="szg_std_J6_s22_d10n" ></pin> 
+          <pin index="23" name="szg_std_J6_s23_d11n" ></pin> 
+          <pin index="24" name="szg_std_J6_s24_d12p" ></pin> 
+          <pin index="25" name="szg_std_J6_s25_d13p" ></pin> 
+          <pin index="26" name="szg_std_J6_s26_d12n" ></pin> 
+          <pin index="27" name="szg_std_J6_s27_d13n" ></pin> 
+          <pin index="28" name="szg_std_J6_p2c_clkp" ></pin> 
+          <pin index="29" name="szg_std_J6_c2p_clkp" ></pin> 
+          <pin index="30" name="szg_std_J6_p2c_clkn" ></pin> 
+          <pin index="31" name="szg_std_J6_c2p_clkn" ></pin> 
+        </pins>
+      </component>
+       
+      <!-- SYZYGY TXR2 PL (J1) -->
+      <component name="szg_txr2_pl_J1" type="connector" sub_type="som" display_name="Syzygy PL J1 (TXR2)">
+        <pins>
+          <pin index="0"  name="szg_txr2_pl_J1_s0_d0p"   ></pin> 
+          <pin index="2"  name="szg_txr2_pl_J1_s1_d0n"   ></pin> 
+          <pin index="1"  name="szg_txr2_pl_J1_s2_d1p"   ></pin> 
+          <pin index="5"  name="szg_txr2_pl_J1_s3_d2p"   ></pin> 
+          <pin index="6"  name="szg_txr2_pl_J1_s4_d1n"   ></pin> 
+          <pin index="7"  name="szg_txr2_pl_J1_s5_d2n"   ></pin> 
+          <pin index="8"  name="szg_txr2_pl_J1_s6_d3p"   ></pin> 
+          <pin index="9"  name="szg_txr2_pl_J1_s7_d4p"   ></pin> 
+          <pin index="10" name="szg_txr2_pl_J1_s8_d3n"   ></pin> 
+          <pin index="11" name="szg_txr2_pl_J1_s9_d4n"   ></pin> 
+          <pin index="12" name="szg_txr2_pl_J1_s10_d5p"  ></pin> 
+          <pin index="13" name="szg_txr2_pl_J1_s11_d6p"  ></pin> 
+          <pin index="14" name="szg_txr2_pl_J1_s12_d5n"  ></pin> 
+          <pin index="15" name="szg_txr2_pl_J1_s13_d6n"  ></pin> 
+          <pin index="16" name="szg_txr2_pl_J1_s14_d7p"  ></pin> 
+          <pin index="17" name="szg_txr2_pl_J1_s15_d8p"  ></pin> 
+          <pin index="18" name="szg_txr2_pl_J1_s16_d7n"  ></pin> 
+          <pin index="18" name="szg_txr2_pl_J1_s17_d8n"  ></pin> 
+          <pin index="19" name="szg_txr2_pl_J1_p2c_clkp" ></pin> 
+          <pin index="20" name="szg_txr2_pl_J1_c2p_clkp" ></pin> 
+          <pin index="21" name="szg_txr2_pl_J1_p2c_clkn" ></pin> 
+          <pin index="22" name="szg_txr2_pl_J1_c2p_clkn" ></pin> 
+        </pins>
+      </component>
+       
+       <!-- SYZYGY TXR2 MIO (J2) -->
+      <component name="szg_txr2_mio_J2" type="connector" sub_type="som" display_name="Syzygy MIO J2 (TXR2)">
+        <pins>
+          <pin index="0"  name="szg_txr2_mio_J2_p2c_clkp" ></pin> 
+          <pin index="1"  name="szg_txr2_mio_J2_c2p_clkp" ></pin> 
+          <pin index="2"  name="szg_txr2_mio_J2_p2c_clkn" ></pin> 
+          <pin index="3"  name="szg_txr2_mio_J2_c2p_clkn" ></pin> 
+        </pins>
+      </component>
+   </components>
+
+   <jtag_chains>
+      <jtag_chain name="chain1">
+          <position name="0" component="part0"/>
+      </jtag_chain>
+   </jtag_chains>
+     
+   <connections>
+     <!-- MikroE Click I2C -->
+     <connection name="part0_click_i2c_pl" component1="part0" component2="click_i2c_pl">
+       <connection_map name="part0_click_i2c_pl" typical_delay="5" c1_st_index="0" c1_end_index="1" c2_st_index="0" c2_end_index="1"/>
+     </connection>
+   
+     <!-- MikroE Click Interrupt -->
+   
+     <!-- MikroE Click PWM -->
+   
+     <!-- MikroE Click Reset -->
+     <connection name="part0_click_reset_pl" component1="part0" component2="click_reset_pl">
+       <connection_map name="part0_click_reset_pl" typical_delay="5" c1_st_index="4" c1_end_index="4" component2="click_reset_pl" c2_st_index="0" c2_end_index="0"/>
+     </connection>
+   
+     <!-- MikroE Click SPI -->
+     <connection name="part0_click_spi_pl" component1="part0" component2="click_spi_pl">
+       <connection_map name="part0_click_spi_pl_1" c1_st_index="5" c1_end_index="9" c2_st_index="0" c2_end_index="4"/>
+     </connection>
+   
+     <!-- MikroE Click UART -->
+     <connection name="part0_click_uart_pl" component1="part0" component2="click_uart_pl">
+        <connection_map name="part0_click_uart_pl" typical_delay="5" c1_st_index="10" c1_end_index="11" c2_st_index="0" c2_end_index="1"/>
+     </connection>
+   
+     <!-- PUSH BUTTON -->
+     <connection name="part0_push_button_1bit" component1="part0" component2="push_button_1bit">
+       <connection_map name="part0_push_button_1bit_1" typical_delay="5" c1_st_index="12" c1_end_index="12" c2_st_index="0" c2_end_index="0"/>
+     </connection>
+   
+     <!-- TRI-COLOR LEDS -->
+     <connection name="part0_rgb1_led_3bits" component1="part0" component2="rgb1_led_3bits">
+       <connection_map name="part0_rgb1_led_3bits" typical_delay="5" c1_st_index="13" c1_end_index="15" c2_st_index="0" c2_end_index="2"/>
+     </connection>
+     <connection name="part0_rgb2_led_3bits" component1="part0" component2="rgb2_led_3bits">
+       <connection_map name="part0_rgb2_led_3bits" typical_delay="5" c1_st_index="16" c1_end_index="18" c2_st_index="0" c2_end_index="2"/>
+     </connection>
+   
+     <!-- TEMPERATURE SENSOR I2C -->
+     <connection name="part0_tempsensor_i2c_pl" component1="part0" component2="tempsensor_i2c_pl">
+       <connection_map name="part0_tempsensor_i2c_pl" typical_delay="5" c1_st_index="19" c1_end_index="20" c2_st_index="0" c2_end_index="1"/>
+     </connection>
+   
+     <!-- SYZYGY DNA I2C -->
+     <connection name="part0_syzygydna_i2c_pl" component1="part0" component2="syzygydna_i2c_pl">
+       <connection_map name="part0_syzygydna_i2c_pl" typical_delay="5" c1_st_index="21" c1_end_index="22" c2_st_index="0" c2_end_index="1"/>
+     </connection>
+   
+     <!-- SYZYGY STD PL (J6) -->
+     <connection name="part0_szg_std_J6_connector" component1="part0" component2="szg_std_J6">   
+       <connection_map name="part0_szg_std_J6_map" typical_delay="5" c1_st_index="23" c1_end_index="54" c2_st_index="0" c2_end_index="31" />
+     </connection> 
+     
+     <!-- SYZYGY TXR2 PL (J1) -->
+     <connection name="part0_szg_txr2_pl_J1_connector" component1="part0" component2="szg_txr2_pl_J1">   
+       <connection_map name="part0_szg_txr2_pl_J1_map" typical_delay="5" c1_st_index="55" c1_end_index="76" c2_st_index="0" c2_end_index="21" />
+     </connection> 
+   
+     <!-- SYZYGY TXR2 MIO (J2) -->
+     <connection name="part0_szg_txr2_mio_J2_connector" component1="part0" component2="szg_txr2_mio_J2">   
+       <connection_map name="part0_szg_txr2_mio_J2_map" typical_delay="5" c1_st_index="77" c1_end_index="80" c2_st_index="0" c2_end_index="3" />
+     </connection> 
+
+   </connections> 
+   
+ <!-- 
+  <ip_associated_rules>
+    <ip_associated_rule name="default">
+    </ip_associated_rule>
+  </ip_associated_rules>
+ -->
+ 
+</board>
