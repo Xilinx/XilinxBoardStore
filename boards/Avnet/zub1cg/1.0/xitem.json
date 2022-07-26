@@ -1,0 +1,36 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "ZUBoard_1CG", 
+          "display": "ZUBoard 1CG Development Board", 
+          "revision": "1.0", 
+          "description": "ZUBoard 1CG Development Board", 
+          "company": "avnet.com", 
+          "company_display": "Avnet", 
+          "author": "Avnet", 
+          "contributors": [
+            {
+              "group": "Avnet", 
+              "url": "http://avnet.me/ZUBoard-1CG"
+            }
+          ], 
+          "category": "Evaluation Boards", 
+          "website": "http://avnet.me/ZUBoard-1CG", 
+          "search-keywords": [
+            "zuboard", 
+            "zu1", 
+            "1cg", 
+            "devkit", 
+            "avnet.com", 
+            "board", 
+            "Evaluation Boards"
+          ]
+        }
+      }
+    ]
+  }, 
+  "_major": 1, 
+  "_minor": 0
+}
