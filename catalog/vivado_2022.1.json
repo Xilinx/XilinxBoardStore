@@ -6935,6 +6935,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "avnet.com"
+      },
+      {
+        "name": "vhk158_es",
+        "display": "Versal VHK158-ES Evaluation Platform",
+        "latest_revision": "3.0",
+        "commit_id": "4dc02bf9bf343e02feb5ce696e8d780f00e9b5c3",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "4dc02bf9bf343e02feb5ce696e8d780f00e9b5c3",
+            "date": "28-07-2022:15:34:45",
+            "history": "Added board Versal VHK158-ES Evaluation Platform v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vhk158/es/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
       }
     ],
     "categories": [
