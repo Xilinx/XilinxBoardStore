@@ -169,7 +169,7 @@
 					</user_hier_parameter>
 				
 					<user_parameter name="SMON_INTERFACE_TO_USE" value="I2C"/>
-					<user_parameter name="PMC_REF_CLK_FREQMHZ" value="33.3333"/>
+					<user_parameter name="PMC_REF_CLK_FREQMHZ" value="33.333"/>
 					<user_parameter name="PS_GEN_IPI0_ENABLE" value="1"/>
 					<user_parameter name="PS_GEN_IPI0_MASTER" value="A72"/>
 					<user_parameter name="PS_GEN_IPI1_ENABLE" value="1"/>
