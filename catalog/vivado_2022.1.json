@@ -6940,11 +6940,11 @@
         "name": "vhk158_es",
         "display": "Versal VHK158-ES Evaluation Platform",
         "latest_revision": "3.0",
-        "commit_id": "4dc02bf9bf343e02feb5ce696e8d780f00e9b5c3",
+        "commit_id": "59a6f69cfc935cd957f1dda270a7aeceeacacefa",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "4dc02bf9bf343e02feb5ce696e8d780f00e9b5c3",
+            "commit_id": "59a6f69cfc935cd957f1dda270a7aeceeacacefa",
             "date": "28-07-2022:15:34:45",
             "history": "Added board Versal VHK158-ES Evaluation Platform v3.0"
           }
