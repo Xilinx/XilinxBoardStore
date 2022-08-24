@@ -6954,6 +6954,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
+      },
+      {
+        "name": "pynq-z2",
+        "display": "pynq-z2",
+        "latest_revision": "1.0",
+        "commit_id": "e8e924c1af428f1dd63a14cf07d8963dc6e0897d",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "e8e924c1af428f1dd63a14cf07d8963dc6e0897d",
+            "date": "24-08-2022:15:33:04",
+            "history": "Added board pynq-z2 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/TUL/pynq-z2/A.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "tulembedded.com"
       }
     ],
     "categories": [
