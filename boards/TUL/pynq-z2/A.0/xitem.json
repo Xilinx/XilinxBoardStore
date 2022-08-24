@@ -1,0 +1,34 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "pynq-z2",
+          "display": "pynq-z2",
+          "revision": "1.0",
+          "description": "pynq-z2",
+          "company": "tulembedded.com",
+          "company_display": "TUL",
+          "author": "TUL",
+          "contributors": [
+            {
+              "group": "TUL",
+              "url": "https://www.tulembedded.com/FPGA/ProductsPYNQ-Z2.html"
+            }
+          ],
+          "category": "Single Part",
+          "website": "http://www.tulembedded.com",
+          "logo": "pynq_z2.jpg",
+          "search-keywords": [
+            "pynq-z2",
+            "tulembedded.com",
+            "board",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}
