@@ -1,0 +1,4 @@
+######### XEM7350-K70T Change log ##############
+
+1.0
+Initial creation (LEDs, DDR3, Diff Clk, Flash, FrontPanel)
