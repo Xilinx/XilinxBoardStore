@@ -1,0 +1,14 @@
+######### SZG-ENET1G ############
+
+1.1
+- Replace mdio_io interface with mdio_rtl to allow use
+  of both axi_ethernet and tri_mode_ethernet_mac IPs
+- Remove RGMII CONFIG.Physical_Interface IP preset
+  as this is infered by the interface type rgmii_rtl
+- Add reset_rtl board interface for connection to axi_ethernet 
+  reset_rtl interface
+- Add component_mode to support connection to both
+  axi_ethernet and tri_mode_ethernet_mac IPs
+
+1.0
+- Initial release

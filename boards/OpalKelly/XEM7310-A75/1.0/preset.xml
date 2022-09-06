@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ip_presets schema="1.0">
+  <ip_preset preset_proc_name="ddr3_preset">
+    <ip vendor="xilinx.com" library="ip" name="mig_7series">
+      <user_parameters>
+        <user_parameter name="CONFIG.XML_INPUT_FILE" value="mig.prj" value_type="file"/> 
+      </user_parameters>
+    </ip>
+  </ip_preset>
+  <ip_preset preset_proc_name="qspi_flash_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_quad_spi">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_SPI_MEMORY" value="2"/> 
+          <user_parameter name="CONFIG.C_USE_STARTUP" value="0"/> 
+          <user_parameter name="CONFIG.C_USE_STARTUP_INT" value="0"/> 
+          <user_parameter name="CONFIG.C_SPI_MODE" value="2"/> 
+          <user_parameter name="CONFIG.C_NUM_SS_BITS" value="1"/> 
+          <user_parameter name="CONFIG.C_SCK_RATIO" value="2"/> 
+          <user_parameter name="CONFIG.C_XIP_MODE" value="0"/> 
+          <user_parameter name="CONFIG.C_TYPE_OF_AXI4_INTERFACE" value="0"/> 
+          <user_parameter name="CONFIG.Async_Clk" value="0"/> 
+        </user_parameters>
+    </ip>
+  </ip_preset>
+  <ip_preset preset_proc_name="frontpanel_preset">
+    <ip vendor="opalkelly.com" library="ip" name="frontpanel" ip_interface="host_interface">
+      <user_parameters>
+        <!--
+        See FrontPanel Subsystem Vivado IP Core documentation for more information.
+        Enter custom user IP configuration below, i.e.:
+        <user_parameter name="CONFIG.WO.COUNT" value="1" />
+        <user_parameter name="CONFIG.WO.ADDR_0" value="0x3f" />
+        -->
+
+      </user_parameters>
+    </ip>
+  </ip_preset>
+</ip_presets>

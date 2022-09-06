@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<board schema_version="2.2" vendor="opalkelly.com" name="SZG_PCIEX4" display_name="SZG_PCIEX4 Peripheral" url="https://docs.opalkelly.com/syzygy-peripherals/szg-pciex4/" preset_file="preset.xml" supports_ced="false">
+<board schema_version="2.2" vendor="opalkelly.com" name="SZG_PCIEX4" display_name="SZG_PCIEX4 Peripheral" url="https://opalkelly.com/products/szg-pciex4/" preset_file="preset.xml" supports_ced="false">
   <file_version>1.0</file_version>
   <description>SZG_PCIEX4 Peripheral</description>
   <compatible_board_revisions>
