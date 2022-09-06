@@ -1,0 +1,4 @@
+######### XEM8310-AU25P Change log ##############
+
+1.0
+Initial creation (LEDs, DDR4, Diff Clks, Flash, FrontPanel)

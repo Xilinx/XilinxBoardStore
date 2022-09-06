@@ -1,0 +1,12 @@
+######### XEM8320 Change log ##############
+
+1.2
+- Add FrontPanel component
+- Change MIG preset for DDR4-2400
+- Add SFP cages 1 and 2
+
+1.1
+Add SYZYGY ports A-F
+
+1.0
+Initial creation (LED, DDR4, Diff Clks)

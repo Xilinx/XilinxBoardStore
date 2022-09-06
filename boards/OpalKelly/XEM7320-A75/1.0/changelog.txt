@@ -1,0 +1,4 @@
+######### XEM7320-A75 Change log ##############
+
+1.0
+Initial creation (LEDs, DDR4, Diff Clk, Flash, FrontPanel, SYZYGY ports)
