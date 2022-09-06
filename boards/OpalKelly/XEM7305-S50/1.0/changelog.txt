@@ -1,0 +1,4 @@
+######### XEM7305-S50 Change log ##############
+
+1.0
+Initial creation (LEDs, DDR3, Diff Clk, FrontPanel)

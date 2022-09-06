@@ -1,0 +1,37 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "XEM8310-AU25P",
+          "display": "XEM8310-AU25P Integration Platform",
+          "revision": "1.0",
+          "description": "XEM8310-AU25P Integration Platform",
+          "company": "opalkelly.com",
+          "company_display": "Opal Kelly",
+          "author": "Opal Kelly",
+          "contributors": [
+            {
+              "group": "Opal Kelly",
+              "url": "https://opalkelly.com/"
+            }
+          ],
+          "category": "Single Part",
+          "website": "https://opalkelly.com/products/XEM8310/",
+          "logo": "XEM8310-Top.jpg",
+          "search-keywords": [
+            "XEM8310-AU25P",
+            "opalkelly.com",
+            "board",
+            "AU25P",
+            "Opal Kelly",
+            "FrontPanel",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}
