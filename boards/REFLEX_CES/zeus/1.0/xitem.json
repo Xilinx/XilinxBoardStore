@@ -1,0 +1,34 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "ZEUS",
+          "display": "Zynq UltraScale+ ZEUS SoM",
+          "revision": "1.0",
+          "description": "Zynq UltraScale+ ZEUS SoM",
+          "company": "reflexces.com",
+          "company_display": "REFLEXCES",
+          "author": "RXC",
+          "contributors": [
+            {
+              "group": "REFLEX CES",
+              "url": "www.reflexces.com"
+            }
+          ],
+          "category": "Single Part",
+          "website": "https://www.reflexces.com/modules/xilinx-zynq-ultrascale-mpsoc",
+          "logo": "Zeusv1.jpg",
+          "search-keywords": [
+            "ZEUS",
+            "reflexces.com",
+            "board",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

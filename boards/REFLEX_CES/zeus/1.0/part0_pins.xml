@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Copyright (C) 2021, REFLEX CES - All rights reserved
+-->
+<part_info part_name="xczu11eg-ffvc1760-1-i">
+<pins>
+    <pin index="0" name="clk_pl_25mhz" iostandard="LVCMOS12" loc="AM13"/>
+    <pin index="1" name="clk_user0" iostandard="LVCMOS12" loc="AN13"/>
+    <pin index="2" name="clk_user1" iostandard="LVCMOS12" loc="B25"/>
+    <pin index="3" name="ddr4_pl_0_dqs_t0" iostandard="DIFF_POD12_DCI" loc="H23"/>
+    <pin index="4" name="ddr4_pl_0_dqs_c0" iostandard="DIFF_POD12_DCI" loc="G23"/>
+    <pin index="5" name="ddr4_pl_0_dqs_t1" iostandard="DIFF_POD12_DCI" loc="E26"/>
+    <pin index="6" name="ddr4_pl_0_dqs_c1" iostandard="DIFF_POD12_DCI" loc="E27"/>
+    <pin index="7" name="ddr4_pl_0_dqs_t2" iostandard="DIFF_POD12_DCI" loc="A39"/>
+    <pin index="8" name="ddr4_pl_0_dqs_c2" iostandard="DIFF_POD12_DCI" loc="A40"/>
+    <pin index="9" name="ddr4_pl_0_dqs_t3" iostandard="DIFF_POD12_DCI" loc="L24"/>
+    <pin index="10" name="ddr4_pl_0_dqs_c3" iostandard="DIFF_POD12_DCI" loc="K24"/>
+    <pin index="11" name="ddr4_pl_0_sys_clk_p" iostandard="DIFF_SSTL12" loc="E31"/>
+    <pin index="12" name="ddr4_pl_0_sys_clk_n" iostandard="DIFF_SSTL12" loc="D31"/>
+    <pin index="13" name="ddr4_pl_0_ck_c0" iostandard="DIFF_SSTL12_DCI" loc="A34"/>
+    <pin index="14" name="ddr4_pl_0_ck_t0" iostandard="DIFF_SSTL12_DCI" loc="A33"/>
+    <pin index="15" name="ddr4_pl_0_reset_n" iostandard="LVCMOS12" loc="B35"/>
+    <pin index="16" name="ddr4_pl_0_dm_dbi_n0" iostandard="POD12_DCI" loc="K27"/>
+    <pin index="17" name="ddr4_pl_0_dm_dbi_n1" iostandard="POD12_DCI" loc="G26"/>
+    <pin index="18" name="ddr4_pl_0_dm_dbi_n2" iostandard="POD12_DCI" loc="C36"/>
+    <pin index="19" name="ddr4_pl_0_dm_dbi_n3" iostandard="POD12_DCI" loc="P26"/>
+    <pin index="20" name="ddr4_pl_0_dq0" iostandard="POD12_DCI" loc="K26"/>
+    <pin index="21" name="ddr4_pl_0_dq1" iostandard="POD12_DCI" loc="H24"/>
+    <pin index="22" name="ddr4_pl_0_dq2" iostandard="POD12_DCI" loc="H25"/>
+    <pin index="23" name="ddr4_pl_0_dq3" iostandard="POD12_DCI" loc="G25"/>
+    <pin index="24" name="ddr4_pl_0_dq4" iostandard="POD12_DCI" loc="J26"/>
+    <pin index="25" name="ddr4_pl_0_dq5" iostandard="POD12_DCI" loc="J24"/>
+    <pin index="26" name="ddr4_pl_0_dq6" iostandard="POD12_DCI" loc="H26"/>
+    <pin index="27" name="ddr4_pl_0_dq7" iostandard="POD12_DCI" loc="J23"/>
+    <pin index="28" name="ddr4_pl_0_dq8" iostandard="POD12_DCI" loc="D28"/>
+    <pin index="29" name="ddr4_pl_0_dq9" iostandard="POD12_DCI" loc="F24"/>
+    <pin index="30" name="ddr4_pl_0_dq10" iostandard="POD12_DCI" loc="F27"/>
+    <pin index="31" name="ddr4_pl_0_dq11" iostandard="POD12_DCI" loc="F25"/>
+    <pin index="32" name="ddr4_pl_0_dq12" iostandard="POD12_DCI" loc="F28"/>
+    <pin index="33" name="ddr4_pl_0_dq13" iostandard="POD12_DCI" loc="E24"/>
+    <pin index="34" name="ddr4_pl_0_dq14" iostandard="POD12_DCI" loc="D27"/>
+    <pin index="35" name="ddr4_pl_0_dq15" iostandard="POD12_DCI" loc="E25"/>
+    <pin index="36" name="ddr4_pl_0_dq16" iostandard="POD12_DCI" loc="B40"/>
+    <pin index="37" name="ddr4_pl_0_dq17" iostandard="POD12_DCI" loc="B37"/>
+    <pin index="38" name="ddr4_pl_0_dq18" iostandard="POD12_DCI" loc="B42"/>
+    <pin index="39" name="ddr4_pl_0_dq19" iostandard="POD12_DCI" loc="B36"/>
+    <pin index="40" name="ddr4_pl_0_dq20" iostandard="POD12_DCI" loc="B41"/>
+    <pin index="41" name="ddr4_pl_0_dq21" iostandard="POD12_DCI" loc="A37"/>
+    <pin index="42" name="ddr4_pl_0_dq22" iostandard="POD12_DCI" loc="C42"/>
+    <pin index="43" name="ddr4_pl_0_dq23" iostandard="POD12_DCI" loc="A38"/>
+    <pin index="44" name="ddr4_pl_0_dq24" iostandard="POD12_DCI" loc="N23"/>
+    <pin index="45" name="ddr4_pl_0_dq25" iostandard="POD12_DCI" loc="M23"/>
+    <pin index="46" name="ddr4_pl_0_dq26" iostandard="POD12_DCI" loc="N24"/>
+    <pin index="47" name="ddr4_pl_0_dq27" iostandard="POD12_DCI" loc="L25"/>
+    <pin index="48" name="ddr4_pl_0_dq28" iostandard="POD12_DCI" loc="P23"/>
+    <pin index="49" name="ddr4_pl_0_dq29" iostandard="POD12_DCI" loc="L23"/>
+    <pin index="50" name="ddr4_pl_0_dq30" iostandard="POD12_DCI" loc="N25"/>
+    <pin index="51" name="ddr4_pl_0_dq31" iostandard="POD12_DCI" loc="M25"/>
+    <pin index="52" name="ddr4_pl_0_act_n" iostandard="SSTL12_DCI" loc="F30"/>
+    <pin index="53" name="ddr4_pl_0_adr0" iostandard="SSTL12_DCI" loc="E32"/>
+    <pin index="54" name="ddr4_pl_0_adr1" iostandard="SSTL12_DCI" loc="E29"/>
+    <pin index="55" name="ddr4_pl_0_adr2" iostandard="SSTL12_DCI" loc="D32"/>
+    <pin index="56" name="ddr4_pl_0_adr3" iostandard="SSTL12_DCI" loc="F29"/>
+    <pin index="57" name="ddr4_pl_0_adr4" iostandard="SSTL12_DCI" loc="F32"/>
+    <pin index="58" name="ddr4_pl_0_adr5" iostandard="SSTL12_DCI" loc="D29"/>
+    <pin index="59" name="ddr4_pl_0_adr6" iostandard="SSTL12_DCI" loc="A35"/>
+    <pin index="60" name="ddr4_pl_0_adr7" iostandard="SSTL12_DCI" loc="C29"/>
+    <pin index="61" name="ddr4_pl_0_adr8" iostandard="SSTL12_DCI" loc="C33"/>
+    <pin index="62" name="ddr4_pl_0_adr9" iostandard="SSTL12_DCI" loc="B30"/>
+    <pin index="63" name="ddr4_pl_0_adr10" iostandard="SSTL12_DCI" loc="F31"/>
+    <pin index="64" name="ddr4_pl_0_adr11" iostandard="SSTL12_DCI" loc="B33"/>
+    <pin index="65" name="ddr4_pl_0_adr12" iostandard="SSTL12_DCI" loc="J29"/>
+    <pin index="66" name="ddr4_pl_0_adr13" iostandard="SSTL12_DCI" loc="A29"/>
+    <pin index="67" name="ddr4_pl_0_adr14" iostandard="SSTL12_DCI" loc="D34"/>
+    <pin index="68" name="ddr4_pl_0_adr15" iostandard="SSTL12_DCI" loc="J28"/>
+    <pin index="69" name="ddr4_pl_0_adr16" iostandard="SSTL12_DCI" loc="K29"/>
+    <pin index="70" name="ddr4_pl_0_ba0" iostandard="SSTL12_DCI" loc="C35"/>
+    <pin index="71" name="ddr4_pl_0_ba1" iostandard="SSTL12_DCI" loc="H28"/>
+    <pin index="72" name="ddr4_pl_0_bg0" iostandard="SSTL12_DCI" loc="C34"/>
+    <pin index="73" name="ddr4_pl_0_cke0" iostandard="SSTL12_DCI" loc="D33"/>
+    <pin index="74" name="ddr4_pl_0_cs_n0" iostandard="SSTL12_DCI" loc="J30"/>
+    <pin index="75" name="ddr4_pl_0_odt0" iostandard="SSTL12_DCI" loc="G30"/>
+    <pin index="76" name="ddr4_pl_0_ten" iostandard="LVCMOS12" loc="G28"/>
+    <pin index="77" name="ddr4_pl_0_par" iostandard="LVCMOS12" loc="B32"/>
+    <pin index="78" name="ddr4_pl_1_dqs_t0" iostandard="DIFF_POD12_DCI" loc="AJ17"/>
+    <pin index="79" name="ddr4_pl_1_dqs_c0" iostandard="DIFF_POD12_DCI" loc="AK17"/>
+    <pin index="80" name="ddr4_pl_1_dqs_t1" iostandard="DIFF_POD12_DCI" loc="AN12"/>
+    <pin index="81" name="ddr4_pl_1_dqs_c1" iostandard="DIFF_POD12_DCI" loc="AP12"/>
+    <pin index="82" name="ddr4_pl_1_dqs_t2" iostandard="DIFF_POD12_DCI" loc="AV9"/>
+    <pin index="83" name="ddr4_pl_1_dqs_c2" iostandard="DIFF_POD12_DCI" loc="AV8"/>
+    <pin index="84" name="ddr4_pl_1_dqs_t3" iostandard="DIFF_POD12_DCI" loc="BA8"/>
+    <pin index="85" name="ddr4_pl_1_dqs_c3" iostandard="DIFF_POD12_DCI" loc="BA7"/>
+    <pin index="86" name="ddr4_pl_1_sys_clk_p" iostandard="DIFF_SSTL12" loc="AW15"/>
+    <pin index="87" name="ddr4_pl_1_sys_clk_n" iostandard="DIFF_SSTL12" loc="AW14"/>
+    <pin index="88" name="ddr4_pl_1_ck_c0" iostandard="DIFF_SSTL12_DCI" loc="AU16"/>
+    <pin index="89" name="ddr4_pl_1_ck_t0" iostandard="DIFF_SSTL12_DCI" loc="AT16"/>
+    <pin index="90" name="ddr4_pl_1_reset_n" iostandard="LVCMOS12" loc="AU15"/>
+    <pin index="91" name="ddr4_pl_1_dm_dbi_n0" iostandard="POD12_DCI" loc="AJ18"/>
+    <pin index="92" name="ddr4_pl_1_dm_dbi_n1" iostandard="POD12_DCI" loc="AR13"/>
+    <pin index="93" name="ddr4_pl_1_dm_dbi_n2" iostandard="POD12_DCI" loc="AV12"/>
+    <pin index="94" name="ddr4_pl_1_dm_dbi_n3" iostandard="POD12_DCI" loc="AW9"/>
+    <pin index="95" name="ddr4_pl_1_dq0" iostandard="POD12_DCI" loc="AM16"/>
+    <pin index="96" name="ddr4_pl_1_dq1" iostandard="POD12_DCI" loc="AM18"/>
+    <pin index="97" name="ddr4_pl_1_dq2" iostandard="POD12_DCI" loc="AP16"/>
+    <pin index="98" name="ddr4_pl_1_dq3" iostandard="POD12_DCI" loc="AN18"/>
+    <pin index="99" name="ddr4_pl_1_dq4" iostandard="POD12_DCI" loc="AL16"/>
+    <pin index="100" name="ddr4_pl_1_dq5" iostandard="POD12_DCI" loc="AL18"/>
+    <pin index="101" name="ddr4_pl_1_dq6" iostandard="POD12_DCI" loc="AN16"/>
+    <pin index="102" name="ddr4_pl_1_dq7" iostandard="POD12_DCI" loc="AN17"/>
+    <pin index="103" name="ddr4_pl_1_dq8" iostandard="POD12_DCI" loc="AN10"/>
+    <pin index="104" name="ddr4_pl_1_dq9" iostandard="POD12_DCI" loc="AR15"/>
+    <pin index="105" name="ddr4_pl_1_dq10" iostandard="POD12_DCI" loc="AM10"/>
+    <pin index="106" name="ddr4_pl_1_dq11" iostandard="POD12_DCI" loc="AR14"/>
+    <pin index="107" name="ddr4_pl_1_dq12" iostandard="POD12_DCI" loc="AP10"/>
+    <pin index="108" name="ddr4_pl_1_dq13" iostandard="POD12_DCI" loc="AM11"/>
+    <pin index="109" name="ddr4_pl_1_dq14" iostandard="POD12_DCI" loc="AR10"/>
+    <pin index="110" name="ddr4_pl_1_dq15" iostandard="POD12_DCI" loc="AN11"/>
+    <pin index="111" name="ddr4_pl_1_dq16" iostandard="POD12_DCI" loc="AT10"/>
+    <pin index="112" name="ddr4_pl_1_dq17" iostandard="POD12_DCI" loc="AV11"/>
+    <pin index="113" name="ddr4_pl_1_dq18" iostandard="POD12_DCI" loc="AW10"/>
+    <pin index="114" name="ddr4_pl_1_dq19" iostandard="POD12_DCI" loc="AU11"/>
+    <pin index="115" name="ddr4_pl_1_dq20" iostandard="POD12_DCI" loc="AT11"/>
+    <pin index="116" name="ddr4_pl_1_dq21" iostandard="POD12_DCI" loc="AT12"/>
+    <pin index="117" name="ddr4_pl_1_dq22" iostandard="POD12_DCI" loc="AW11"/>
+    <pin index="118" name="ddr4_pl_1_dq23" iostandard="POD12_DCI" loc="AT13"/>
+    <pin index="119" name="ddr4_pl_1_dq24" iostandard="POD12_DCI" loc="BA6"/>
+    <pin index="120" name="ddr4_pl_1_dq25" iostandard="POD12_DCI" loc="BB8"/>
+    <pin index="121" name="ddr4_pl_1_dq26" iostandard="POD12_DCI" loc="BB5"/>
+    <pin index="122" name="ddr4_pl_1_dq27" iostandard="POD12_DCI" loc="BB9"/>
+    <pin index="123" name="ddr4_pl_1_dq28" iostandard="POD12_DCI" loc="BB4"/>
+    <pin index="124" name="ddr4_pl_1_dq29" iostandard="POD12_DCI" loc="AW8"/>
+    <pin index="125" name="ddr4_pl_1_dq30" iostandard="POD12_DCI" loc="BB6"/>
+    <pin index="126" name="ddr4_pl_1_dq31" iostandard="POD12_DCI" loc="AY8"/>
+    <pin index="127" name="ddr4_pl_1_act_n" iostandard="SSTL12_DCI" loc="BA11"/>
+    <pin index="128" name="ddr4_pl_1_adr0" iostandard="SSTL12_DCI" loc="BB14"/>
+    <pin index="129" name="ddr4_pl_1_adr1" iostandard="SSTL12_DCI" loc="AW16"/>
+    <pin index="130" name="ddr4_pl_1_adr2" iostandard="SSTL12_DCI" loc="BA15"/>
+    <pin index="131" name="ddr4_pl_1_adr3" iostandard="SSTL12_DCI" loc="AV16"/>
+    <pin index="132" name="ddr4_pl_1_adr4" iostandard="SSTL12_DCI" loc="AY14"/>
+    <pin index="133" name="ddr4_pl_1_adr5" iostandard="SSTL12_DCI" loc="BA16"/>
+    <pin index="134" name="ddr4_pl_1_adr6" iostandard="SSTL12_DCI" loc="BB13"/>
+    <pin index="135" name="ddr4_pl_1_adr7" iostandard="SSTL12_DCI" loc="AW17"/>
+    <pin index="136" name="ddr4_pl_1_adr8" iostandard="SSTL12_DCI" loc="AY15"/>
+    <pin index="137" name="ddr4_pl_1_adr9" iostandard="SSTL12_DCI" loc="AV17"/>
+    <pin index="138" name="ddr4_pl_1_adr10" iostandard="SSTL12_DCI" loc="BA13"/>
+    <pin index="139" name="ddr4_pl_1_adr11" iostandard="SSTL12_DCI" loc="BB15"/>
+    <pin index="140" name="ddr4_pl_1_adr12" iostandard="SSTL12_DCI" loc="AT17"/>
+    <pin index="141" name="ddr4_pl_1_adr13" iostandard="SSTL12_DCI" loc="AV18"/>
+    <pin index="142" name="ddr4_pl_1_adr14" iostandard="SSTL12_DCI" loc="AY12"/>
+    <pin index="143" name="ddr4_pl_1_adr15" iostandard="SSTL12_DCI" loc="AU18"/>
+    <pin index="144" name="ddr4_pl_1_adr16" iostandard="SSTL12_DCI" loc="AP17"/>
+    <pin index="145" name="ddr4_pl_1_ba0" iostandard="SSTL12_DCI" loc="BB11"/>
+    <pin index="146" name="ddr4_pl_1_ba1" iostandard="SSTL12_DCI" loc="AT18"/>
+    <pin index="147" name="ddr4_pl_1_bg0" iostandard="SSTL12_DCI" loc="BA12"/>
+    <pin index="148" name="ddr4_pl_1_cke0" iostandard="SSTL12_DCI" loc="AT15"/>
+    <pin index="149" name="ddr4_pl_1_cs_n0" iostandard="SSTL12_DCI" loc="AR17"/>
+    <pin index="150" name="ddr4_pl_1_odt0" iostandard="SSTL12_DCI" loc="BA10"/>
+    <pin index="151" name="ddr4_pl_1_ten" iostandard="LVCMOS12" loc="BA17"/>
+    <pin index="152" name="ddr4_pl_1_par" iostandard="LVCMOS12" loc="BB16"/>
+    <pin index="153" name="gth_231_refclk0p" loc="T12"/>
+    <pin index="154" name="gth_231_refclk0n" loc="T11"/>
+    <pin index="155" name="gth_231_refclk1p" loc="R10"/>
+    <pin index="156" name="gth_231_refclk1n" loc="R9"/>
+    <pin index="157" name="gth_230_refclk0p" loc="V12"/>
+    <pin index="158" name="gth_230_refclk0n" loc="V11"/>
+    <pin index="159" name="gth_230_refclk1p" loc="U10"/>
+    <pin index="160" name="gth_230_refclk1n" loc="U9"/>
+    <pin index="161" name="gth_229_refclk0p" loc="Y12"/>
+    <pin index="162" name="gth_229_refclk0n" loc="Y11"/>
+    <pin index="163" name="gth_229_refclk1p" loc="W10"/>
+    <pin index="164" name="gth_229_refclk1n" loc="W9"/>
+    <pin index="165" name="gth_228_refclk0p" loc="AB12"/>
+    <pin index="166" name="gth_228_refclk0n" loc="AB11"/>
+    <pin index="167" name="gth_228_refclk1p" loc="AA10"/>
+    <pin index="168" name="gth_228_refclk1n" loc="AA9"/>
+    <pin index="169" name="gth_227_refclk0p" loc="AD12"/>
+    <pin index="170" name="gth_227_refclk0n" loc="AD11"/>
+    <pin index="171" name="gth_227_refclk1p" loc="AC10"/>
+    <pin index="172" name="gth_227_refclk1n" loc="AC9"/>
+    <pin index="173" name="gth_226_refclk0p" loc="AF12"/>
+    <pin index="174" name="gth_226_refclk0n" loc="AF11"/>
+    <pin index="175" name="gth_226_refclk1p" loc="AE10"/>
+    <pin index="176" name="gth_226_refclk1n" loc="AE9"/>
+    <pin index="177" name="gth_225_refclk0p" loc="AH12"/>
+    <pin index="178" name="gth_225_refclk0n" loc="AH11"/>
+    <pin index="179" name="gth_225_refclk1p" loc="AG10"/>
+    <pin index="180" name="gth_225_refclk1n" loc="AG9"/>
+    <pin index="181" name="gth_224_refclk0p" loc="AK12"/>
+    <pin index="182" name="gth_224_refclk0n" loc="AK11"/>
+    <pin index="183" name="gth_224_refclk1p" loc="AJ10"/>
+    <pin index="184" name="gth_224_refclk1n" loc="AJ9"/>
+    <pin index="185" name="gth_231_rxp3" loc="G2"/>
+    <pin index="186" name="gth_231_rxn3" loc="G1"/>
+    <pin index="187" name="gth_231_rxp2" loc="J2"/>
+    <pin index="188" name="gth_231_rxn2" loc="J1"/>
+    <pin index="189" name="gth_231_rxp1" loc="L2"/>
+    <pin index="190" name="gth_231_rxn1" loc="L1"/>
+    <pin index="191" name="gth_231_rxp0" loc="M4"/>
+    <pin index="192" name="gth_231_rxn0" loc="M3"/>
+    <pin index="193" name="gth_230_rxp3" loc="N2"/>
+    <pin index="194" name="gth_230_rxn3" loc="N1"/>
+    <pin index="195" name="gth_230_rxp2" loc="P4"/>
+    <pin index="196" name="gth_230_rxn2" loc="P3"/>
+    <pin index="197" name="gth_230_rxp1" loc="R2"/>
+    <pin index="198" name="gth_230_rxn1" loc="R1"/>
+    <pin index="199" name="gth_230_rxp0" loc="T4"/>
+    <pin index="200" name="gth_230_rxn0" loc="T3"/>
+    <pin index="201" name="gth_229_rxp3" loc="U2"/>
+    <pin index="202" name="gth_229_rxn3" loc="U1"/>
+    <pin index="203" name="gth_229_rxp2" loc="V4"/>
+    <pin index="204" name="gth_229_rxn2" loc="V3"/>
+    <pin index="205" name="gth_229_rxp1" loc="W2"/>
+    <pin index="206" name="gth_229_rxn1" loc="W1"/>
+    <pin index="207" name="gth_229_rxp0" loc="Y4"/>
+    <pin index="208" name="gth_229_rxn0" loc="Y3"/>
+    <pin index="209" name="gth_228_rxp3" loc="AA2"/>
+    <pin index="210" name="gth_228_rxn3" loc="AA1"/>
+    <pin index="211" name="gth_228_rxp2" loc="AB4"/>
+    <pin index="212" name="gth_228_rxn2" loc="AB3"/>
+    <pin index="213" name="gth_228_rxp1" loc="AC2"/>
+    <pin index="214" name="gth_228_rxn1" loc="AC1"/>
+    <pin index="215" name="gth_228_rxp0" loc="AD4"/>
+    <pin index="216" name="gth_228_rxn0" loc="AD3"/>
+    <pin index="217" name="gth_227_rxp3" loc="AE2"/>
+    <pin index="218" name="gth_227_rxn3" loc="AE1"/>
+    <pin index="219" name="gth_227_rxp2" loc="AF4"/>
+    <pin index="220" name="gth_227_rxn2" loc="AF3"/>
+    <pin index="221" name="gth_227_rxp1" loc="AG2"/>
+    <pin index="222" name="gth_227_rxn1" loc="AG1"/>
+    <pin index="223" name="gth_227_rxp0" loc="AH4"/>
+    <pin index="224" name="gth_227_rxn0" loc="AH3"/>
+    <pin index="225" name="gth_226_rxp3" loc="AJ2"/>
+    <pin index="226" name="gth_226_rxn3" loc="AJ1"/>
+    <pin index="227" name="gth_226_rxp2" loc="AK4"/>
+    <pin index="228" name="gth_226_rxn2" loc="AK3"/>
+    <pin index="229" name="gth_226_rxp1" loc="AL2"/>
+    <pin index="230" name="gth_226_rxn1" loc="AL1"/>
+    <pin index="231" name="gth_226_rxp0" loc="AM4"/>
+    <pin index="232" name="gth_226_rxn0" loc="AM3"/>
+    <pin index="233" name="gth_225_rxp3" loc="AN2"/>
+    <pin index="234" name="gth_225_rxn3" loc="AN1"/>
+    <pin index="235" name="gth_225_rxp2" loc="AP4"/>
+    <pin index="236" name="gth_225_rxn2" loc="AP3"/>
+    <pin index="237" name="gth_225_rxp1" loc="AR2"/>
+    <pin index="238" name="gth_225_rxn1" loc="AR1"/>
+    <pin index="239" name="gth_225_rxp0" loc="AT4"/>
+    <pin index="240" name="gth_225_rxn0" loc="AT3"/>
+    <pin index="241" name="gth_224_rxp3" loc="AU2"/>
+    <pin index="242" name="gth_224_rxn3" loc="AU1"/>
+    <pin index="243" name="gth_224_rxp2" loc="AV4"/>
+    <pin index="244" name="gth_224_rxn2" loc="AV3"/>
+    <pin index="245" name="gth_224_rxp1" loc="AW2"/>
+    <pin index="246" name="gth_224_rxn1" loc="AW1"/>
+    <pin index="247" name="gth_224_rxp0" loc="BA2"/>
+    <pin index="248" name="gth_224_rxn0" loc="BA1"/>
+    <pin index="249" name="gth_231_txp3" loc="H4"/>
+    <pin index="250" name="gth_231_txn3" loc="H3"/>
+    <pin index="251" name="gth_231_txp2" loc="J6"/>
+    <pin index="252" name="gth_231_txn2" loc="J5"/>
+    <pin index="253" name="gth_231_txp1" loc="K4"/>
+    <pin index="254" name="gth_231_txn1" loc="K3"/>
+    <pin index="255" name="gth_231_txp0" loc="L6"/>
+    <pin index="256" name="gth_231_txn0" loc="L5"/>
+    <pin index="257" name="gth_230_txp3" loc="M8"/>
+    <pin index="258" name="gth_230_txn3" loc="M7"/>
+    <pin index="259" name="gth_230_txp2" loc="N6"/>
+    <pin index="260" name="gth_230_txn2" loc="N5"/>
+    <pin index="261" name="gth_230_txp1" loc="P8"/>
+    <pin index="262" name="gth_230_txn1" loc="P7"/>
+    <pin index="263" name="gth_230_txp0" loc="R6"/>
+    <pin index="264" name="gth_230_txn0" loc="R5"/>
+    <pin index="265" name="gth_229_txp3" loc="T8"/>
+    <pin index="266" name="gth_229_txn3" loc="T7"/>
+    <pin index="267" name="gth_229_txp2" loc="U6"/>
+    <pin index="268" name="gth_229_txn2" loc="U5"/>
+    <pin index="269" name="gth_229_txp1" loc="V8"/>
+    <pin index="270" name="gth_229_txn1" loc="V7"/>
+    <pin index="271" name="gth_229_txp0" loc="W6"/>
+    <pin index="272" name="gth_229_txn0" loc="W5"/>
+    <pin index="273" name="gth_228_txp3" loc="Y8"/>
+    <pin index="274" name="gth_228_txn3" loc="Y7"/>
+    <pin index="275" name="gth_228_txp2" loc="AA6"/>
+    <pin index="276" name="gth_228_txn2" loc="AA5"/>
+    <pin index="277" name="gth_228_txp1" loc="AB8"/>
+    <pin index="278" name="gth_228_txn1" loc="AB7"/>
+    <pin index="279" name="gth_228_txp0" loc="AC6"/>
+    <pin index="280" name="gth_228_txn0" loc="AC5"/>
+    <pin index="281" name="gth_227_txp3" loc="AD8"/>
+    <pin index="282" name="gth_227_txn3" loc="AD7"/>
+    <pin index="283" name="gth_227_txp2" loc="AE6"/>
+    <pin index="284" name="gth_227_txn2" loc="AE5"/>
+    <pin index="285" name="gth_227_txp1" loc="AF8"/>
+    <pin index="286" name="gth_227_txn1" loc="AF7"/>
+    <pin index="287" name="gth_227_txp0" loc="AG6"/>
+    <pin index="288" name="gth_227_txn0" loc="AG5"/>
+    <pin index="289" name="gth_226_txp3" loc="AH8"/>
+    <pin index="290" name="gth_226_txn3" loc="AH7"/>
+    <pin index="291" name="gth_226_txp2" loc="AJ6"/>
+    <pin index="292" name="gth_226_txn2" loc="AJ5"/>
+    <pin index="293" name="gth_226_txp1" loc="AK8"/>
+    <pin index="294" name="gth_226_txn1" loc="AK7"/>
+    <pin index="295" name="gth_226_txp0" loc="AL6"/>
+    <pin index="296" name="gth_226_txn0" loc="AL5"/>
+    <pin index="297" name="gth_225_txp3" loc="AM8"/>
+    <pin index="298" name="gth_225_txn3" loc="AM7"/>
+    <pin index="299" name="gth_225_txp2" loc="AN6"/>
+    <pin index="300" name="gth_225_txn2" loc="AN5"/>
+    <pin index="301" name="gth_225_txn1" loc="AP7"/>
+    <pin index="302" name="gth_225_txp1" loc="AP8"/>
+    <pin index="303" name="gth_225_txp0" loc="AR6"/>
+    <pin index="304" name="gth_225_txn0" loc="AR5"/>
+    <pin index="305" name="gth_224_txp3" loc="AT8"/>
+    <pin index="306" name="gth_224_txn3" loc="AT7"/>
+    <pin index="307" name="gth_224_txp2" loc="AU6"/>
+    <pin index="308" name="gth_224_txn2" loc="AU5"/>
+    <pin index="309" name="gth_224_txp1" loc="AW6"/>
+    <pin index="310" name="gth_224_txn1" loc="AW5"/>
+    <pin index="311" name="gth_224_txp0" loc="AY4"/>
+    <pin index="312" name="gth_224_txn0" loc="AY3"/>
+    <pin index="313" name="gty_131_refclk0p" loc="L32"/>
+    <pin index="314" name="gty_131_refclk0n" loc="L33"/>
+    <pin index="315" name="gty_131_refclk1p" loc="J32"/>
+    <pin index="316" name="gty_131_refclk1n" loc="J33"/>
+    <pin index="317" name="gty_130_refclk0p" loc="R32"/>
+    <pin index="318" name="gty_130_refclk0n" loc="R33"/>
+    <pin index="319" name="gty_130_refclk1p" loc="N32"/>
+    <pin index="320" name="gty_130_refclk1n" loc="N33"/>
+    <pin index="321" name="gty_129_refclk0p" loc="W32"/>
+    <pin index="322" name="gty_129_refclk0n" loc="W33"/>
+    <pin index="323" name="gty_129_refclk1p" loc="U32"/>
+    <pin index="324" name="gty_129_refclk1n" loc="U33"/>
+    <pin index="325" name="gty_128_refclk0p" loc="AB34"/>
+    <pin index="326" name="gty_128_refclk0n" loc="AB35"/>
+    <pin index="327" name="gty_128_refclk1p" loc="AA32"/>
+    <pin index="328" name="gty_128_refclk1n" loc="AA33"/>
+    <pin index="329" name="gty_131_rxp3" loc="D39"/>
+    <pin index="330" name="gty_131_rxn3" loc="D40"/>
+    <pin index="331" name="gty_131_rxp2" loc="E41"/>
+    <pin index="332" name="gty_131_rxn2" loc="E42"/>
+    <pin index="333" name="gty_131_rxp1" loc="F39"/>
+    <pin index="334" name="gty_131_rxn1" loc="F40"/>
+    <pin index="335" name="gty_131_rxp0" loc="G41"/>
+    <pin index="336" name="gty_131_rxn0" loc="G42"/>
+    <pin index="337" name="gty_130_rxp3" loc="H39"/>
+    <pin index="338" name="gty_130_rxn3" loc="H40"/>
+    <pin index="339" name="gty_130_rxp2" loc="J41"/>
+    <pin index="340" name="gty_130_rxn2" loc="J42"/>
+    <pin index="341" name="gty_130_rxp1" loc="K39"/>
+    <pin index="342" name="gty_130_rxn1" loc="K40"/>
+    <pin index="343" name="gty_130_rxp0" loc="L41"/>
+    <pin index="344" name="gty_130_rxn0" loc="L42"/>
+    <pin index="345" name="gty_129_rxp3" loc="M39"/>
+    <pin index="346" name="gty_129_rxn3" loc="M40"/>
+    <pin index="347" name="gty_129_rxp2" loc="N41"/>
+    <pin index="348" name="gty_129_rxn2" loc="N42"/>
+    <pin index="349" name="gty_129_rxp1" loc="P39"/>
+    <pin index="350" name="gty_129_rxn1" loc="P40"/>
+    <pin index="351" name="gty_129_rxp0" loc="R41"/>
+    <pin index="352" name="gty_129_rxn0" loc="R42"/>
+    <pin index="353" name="gty_128_rxp3" loc="T39"/>
+    <pin index="354" name="gty_128_rxn3" loc="T40"/>
+    <pin index="355" name="gty_128_rxp2" loc="U41"/>
+    <pin index="356" name="gty_128_rxn2" loc="U42"/>
+    <pin index="357" name="gty_128_rxp1" loc="V39"/>
+    <pin index="358" name="gty_128_rxn1" loc="V40"/>
+    <pin index="359" name="gty_128_rxp0" loc="W41"/>
+    <pin index="360" name="gty_128_rxn0" loc="W42"/>
+    <pin index="361" name="gty_131_txp3" loc="E36"/>
+    <pin index="362" name="gty_131_txn3" loc="E37"/>
+    <pin index="363" name="gty_131_txp2" loc="F34"/>
+    <pin index="364" name="gty_131_txn2" loc="F35"/>
+    <pin index="365" name="gty_131_txp1" loc="G36"/>
+    <pin index="366" name="gty_131_txn1" loc="G37"/>
+    <pin index="367" name="gty_131_txp0" loc="H34"/>
+    <pin index="368" name="gty_131_txn0" loc="H35"/>
+    <pin index="369" name="gty_130_txp3" loc="J36"/>
+    <pin index="370" name="gty_130_txn3" loc="J37"/>
+    <pin index="371" name="gty_130_txp2" loc="K34"/>
+    <pin index="372" name="gty_130_txn2" loc="K35"/>
+    <pin index="373" name="gty_130_txp1" loc="L36"/>
+    <pin index="374" name="gty_130_txn1" loc="L37"/>
+    <pin index="375" name="gty_130_txp0" loc="M34"/>
+    <pin index="376" name="gty_130_txn0" loc="M35"/>
+    <pin index="377" name="gty_129_txp3" loc="N36"/>
+    <pin index="378" name="gty_129_txn3" loc="N37"/>
+    <pin index="379" name="gty_129_txp2" loc="P34"/>
+    <pin index="380" name="gty_129_txn2" loc="P35"/>
+    <pin index="381" name="gty_129_txp1" loc="R36"/>
+    <pin index="382" name="gty_129_txn1" loc="R37"/>
+    <pin index="383" name="gty_129_txp0" loc="T34"/>
+    <pin index="384" name="gty_129_txn0" loc="T35"/>
+    <pin index="385" name="gty_128_txp3" loc="U36"/>
+    <pin index="386" name="gty_128_txn3" loc="U37"/>
+    <pin index="387" name="gty_128_txp2" loc="V34"/>
+    <pin index="388" name="gty_128_txn2" loc="V35"/>
+    <pin index="389" name="gty_128_txp1" loc="W36"/>
+    <pin index="390" name="gty_128_txn1" loc="W37"/>
+    <pin index="391" name="gty_128_txp0" loc="Y34"/>
+    <pin index="392" name="gty_128_txn0" loc="Y35"/>
+    <pin index="393" name="hp_bank64_bg0_pin0_p" iostandard="LVDS" loc="BA23"/>
+    <pin index="394" name="hp_bank64_bg0_pin1_n" iostandard="LVDS" loc="BB23"/>
+    <pin index="395" name="hp_bank64_bg0_pin2_p" iostandard="LVDS" loc="AY23"/>
+    <pin index="396" name="hp_bank64_bg0_pin3_n" iostandard="LVDS" loc="AY22"/>
+    <pin index="397" name="hp_bank64_bg0_pin4_p" iostandard="LVDS" loc="BA22"/>
+    <pin index="398" name="hp_bank64_bg0_pin5_n" iostandard="LVDS" loc="BA21"/>
+    <pin index="399" name="hp_bank64_bg0_pin6_p" iostandard="LVDS" loc="AY20"/>
+    <pin index="400" name="hp_bank64_bg0_pin7_n" iostandard="LVDS" loc="BA20"/>
+    <pin index="401" name="hp_bank64_bg0_pin8_p" iostandard="LVDS" loc="BB20"/>
+    <pin index="402" name="hp_bank64_bg0_pin9_n" iostandard="LVDS" loc="BB19"/>
+    <pin index="403" name="hp_bank64_bg0_pin10_p" iostandard="LVDS" loc="BA18"/>
+    <pin index="404" name="hp_bank64_bg0_pin11_n" iostandard="LVDS" loc="BB18"/>
+    <pin index="405" name="hp_bank64_bg0_pin12_se" iostandard="LVCMOS18" loc="BB21"/>
+    <pin index="406" name="hp_bank64_bg1_pin0_p" iostandard="LVDS" loc="AU23"/>
+    <pin index="407" name="hp_bank64_bg1_pin1_n" iostandard="LVDS" loc="AV23"/>
+    <pin index="408" name="hp_bank64_bg1_pin2_p" iostandard="LVDS" loc="AV22"/>
+    <pin index="409" name="hp_bank64_bg1_pin3_n" iostandard="LVDS" loc="AW22"/>
+    <pin index="410" name="hp_bank64_bg1_pin4_p" iostandard="LVDS" loc="AW20"/>
+    <pin index="411" name="hp_bank64_bg1_pin5_n" iostandard="LVDS" loc="AW19"/>
+    <pin index="412" name="hp_bank64_bg1_pin6_p" iostandard="LVDS" loc="AY19"/>
+    <pin index="413" name="hp_bank64_bg1_pin7_n" iostandard="LVDS" loc="AY18"/>
+    <pin index="414" name="hp_bank64_bg1_pin8_p" iostandard="LVDS" loc="AU21"/>
+    <pin index="415" name="hp_bank64_bg1_pin9_n" iostandard="LVDS" loc="AV21"/>
+    <pin index="416" name="hp_bank64_bg1_pin10_p" iostandard="LVDS" loc="AU20"/>
+    <pin index="417" name="hp_bank64_bg1_pin11_n" iostandard="LVDS" loc="AV19"/>
+    <pin index="418" name="hp_bank64_bg1_pin12_se" iostandard="LVCMOS18" loc="AW21"/>
+    <pin index="419" name="hp_bank64_clk_p" iostandard="LVDS" loc="AT22"/>
+    <pin index="420" name="hp_bank64_clk_n" iostandard="LVDS" loc="AT21"/>
+    <pin index="421" name="hp_bank64_bg2_pin2_p" iostandard="LVDS" loc="AT20"/>
+    <pin index="422" name="hp_bank64_bg2_pin3_n" iostandard="LVDS" loc="AU19"/>
+    <pin index="423" name="hp_bank64_bg2_pin4_p" iostandard="LVDS" loc="AN22"/>
+    <pin index="424" name="hp_bank64_bg2_pin5_n" iostandard="LVDS" loc="AP22"/>
+    <pin index="425" name="hp_bank64_bg2_pin6_p" iostandard="LVDS" loc="AN21"/>
+    <pin index="426" name="hp_bank64_bg2_pin7_n" iostandard="LVDS" loc="AP21"/>
+    <pin index="427" name="hp_bank64_bg2_pin8_p" iostandard="LVDS" loc="AP20"/>
+    <pin index="428" name="hp_bank64_bg2_pin9_n" iostandard="LVDS" loc="AR20"/>
+    <pin index="429" name="hp_bank64_bg2_pin10_p" iostandard="LVDS" loc="AP19"/>
+    <pin index="430" name="hp_bank64_bg2_pin11_n" iostandard="LVDS" loc="AR19"/>
+    <pin index="431" name="hp_bank64_bg2_pin12_se" iostandard="LVCMOS18" loc="AR22"/>
+    <pin index="432" name="hp_bank64_bg3_pin0_p" iostandard="LVDS" loc="AM19"/>
+    <pin index="433" name="hp_bank64_bg3_pin1_n" iostandard="LVDS" loc="AN19"/>
+    <pin index="434" name="hp_bank64_bg3_pin2_p" iostandard="LVDS" loc="AM21"/>
+    <pin index="435" name="hp_bank64_bg3_pin3_n" iostandard="LVDS" loc="AM20"/>
+    <pin index="436" name="hp_bank64_bg3_pin4_p" iostandard="LVDS" loc="AL22"/>
+    <pin index="437" name="hp_bank64_bg3_pin5_n" iostandard="LVDS" loc="AL21"/>
+    <pin index="438" name="hp_bank64_bg3_pin6_p" iostandard="LVDS" loc="AK20"/>
+    <pin index="439" name="hp_bank64_bg3_pin7_n" iostandard="LVDS" loc="AK19"/>
+    <pin index="440" name="hp_bank64_bg3_pin8_p" iostandard="LVDS" loc="AJ21"/>
+    <pin index="441" name="hp_bank64_bg3_pin9_n" iostandard="LVDS" loc="AJ20"/>
+    <pin index="442" name="hp_bank64_bg3_pin10_p" iostandard="LVDS" loc="AJ22"/>
+    <pin index="443" name="hp_bank64_bg3_pin11_n" iostandard="LVDS" loc="AK22"/>
+    <pin index="444" name="hp_bank64_bg3_pin12_se" iostandard="LVCMOS18" loc="AL20"/>
+    <pin index="445" name="hp_bank65_bg0_pin0_p" iostandard="LVDS" loc="AW24"/>
+    <pin index="446" name="hp_bank65_bg0_pin1_n" iostandard="LVDS" loc="AY24"/>
+    <pin index="447" name="hp_bank65_bg0_pin2_p" iostandard="LVDS" loc="BB24"/>
+    <pin index="448" name="hp_bank65_bg0_pin3_n" iostandard="LVDS" loc="BB25"/>
+    <pin index="449" name="hp_bank65_bg0_pin4_p" iostandard="LVDS" loc="AY25"/>
+    <pin index="450" name="hp_bank65_bg0_pin5_n" iostandard="LVDS" loc="BA25"/>
+    <pin index="451" name="hp_bank65_bg0_pin6_p" iostandard="LVDS" loc="BA26"/>
+    <pin index="452" name="hp_bank65_bg0_pin7_n" iostandard="LVDS" loc="BB26"/>
+    <pin index="453" name="hp_bank65_bg0_pin8_p" iostandard="LVDS" loc="AY27"/>
+    <pin index="454" name="hp_bank65_bg0_pin9_n" iostandard="LVDS" loc="AY28"/>
+    <pin index="455" name="hp_bank65_bg0_pin10_p" iostandard="LVDS" loc="BA28"/>
+    <pin index="456" name="hp_bank65_bg0_pin11_n" iostandard="LVDS" loc="BB28"/>
+    <pin index="457" name="hp_bank65_bg0_pin12_se" iostandard="LVCMOS18" loc="BA27"/>
+    <pin index="458" name="hp_bank65_bg1_pin0_p" iostandard="LVDS" loc="AU24"/>
+    <pin index="459" name="hp_bank65_bg1_pin1_n" iostandard="LVDS" loc="AV24"/>
+    <pin index="460" name="hp_bank65_bg1_pin2_p" iostandard="LVDS" loc="AV26"/>
+    <pin index="461" name="hp_bank65_bg1_pin3_n" iostandard="LVDS" loc="AW26"/>
+    <pin index="462" name="hp_bank65_bg1_pin4_p" iostandard="LVDS" loc="AV27"/>
+    <pin index="463" name="hp_bank65_bg1_pin5_n" iostandard="LVDS" loc="AW27"/>
+    <pin index="464" name="hp_bank65_bg1_pin6_p" iostandard="LVDS" loc="AU28"/>
+    <pin index="465" name="hp_bank65_bg1_pin7_n" iostandard="LVDS" loc="AV28"/>
+    <pin index="466" name="hp_bank65_bg1_pin8_p" iostandard="LVDS" loc="AU25"/>
+    <pin index="467" name="hp_bank65_bg1_pin9_n" iostandard="LVDS" loc="AU26"/>
+    <pin index="468" name="hp_bank65_bg1_pin10_p" iostandard="LVDS" loc="AT25"/>
+    <pin index="469" name="hp_bank65_bg1_pin11_n" iostandard="LVDS" loc="AT26"/>
+    <pin index="470" name="hp_bank65_bg1_pin12_se" iostandard="LVCMOS18" loc="AW25"/>
+    <pin index="471" name="hp_bank65_clk_p" iostandard="LVDS" loc="AR27"/>
+    <pin index="472" name="hp_bank65_clk_n" iostandard="LVDS" loc="AT27"/>
+    <pin index="473" name="hp_bank65_bg2_pin2_p" iostandard="LVDS" loc="AR24"/>
+    <pin index="474" name="hp_bank65_bg2_pin3_n" iostandard="LVDS" loc="AR25"/>
+    <pin index="475" name="hp_bank65_bg2_pin4_p" iostandard="LVDS" loc="AM26"/>
+    <pin index="476" name="hp_bank65_bg2_pin5_n" iostandard="LVDS" loc="AN26"/>
+    <pin index="477" name="hp_bank65_bg2_pin6_p" iostandard="LVDS" loc="AN27"/>
+    <pin index="478" name="hp_bank65_bg2_pin7_n" iostandard="LVDS" loc="AP27"/>
+    <pin index="479" name="hp_bank65_bg2_pin8_p" iostandard="LVDS" loc="AM28"/>
+    <pin index="480" name="hp_bank65_bg2_pin9_n" iostandard="LVDS" loc="AN28"/>
+    <pin index="481" name="hp_bank65_bg2_pin10_p" iostandard="LVDS" loc="AR28"/>
+    <pin index="482" name="hp_bank65_bg2_pin11_n" iostandard="LVDS" loc="AT28"/>
+    <pin index="483" name="hp_bank65_bg2_pin12_se" iostandard="LVCMOS18" loc="AP26"/>
+    <pin index="484" name="hp_bank65_bg3_pin0_p" iostandard="LVDS" loc="AR23"/>
+    <pin index="485" name="hp_bank65_bg3_pin1_n" iostandard="LVDS" loc="AT23"/>
+    <pin index="486" name="hp_bank65_bg3_pin2_p" iostandard="LVDS" loc="AP24"/>
+    <pin index="487" name="hp_bank65_bg3_pin3_n" iostandard="LVDS" loc="AP25"/>
+    <pin index="488" name="hp_bank65_bg3_pin4_p" iostandard="LVDS" loc="AM24"/>
+    <pin index="489" name="hp_bank65_bg3_pin5_n" iostandard="LVDS" loc="AN24"/>
+    <pin index="490" name="hp_bank65_bg3_pin6_p" iostandard="LVDS" loc="AM23"/>
+    <pin index="491" name="hp_bank65_bg3_pin7_n" iostandard="LVDS" loc="AN23"/>
+    <pin index="492" name="hp_bank65_bg3_pin8_p" iostandard="LVDS" loc="AK23"/>
+    <pin index="493" name="hp_bank65_bg3_pin9_n" iostandard="LVDS" loc="AL23"/>
+    <pin index="494" name="hp_bank65_bg3_pin10_p" iostandard="LVDS" loc="AJ24"/>
+    <pin index="495" name="hp_bank65_bg3_pin11_n" iostandard="LVDS" loc="AK24"/>
+    <pin index="496" name="hp_bank65_bg3_pin12_se" iostandard="LVCMOS18" loc="AM25"/>
+    <pin index="497" name="hp_bank68_bg0_pin0_p" iostandard="LVDS" loc="P15"/>
+    <pin index="498" name="hp_bank68_bg0_pin1_n" iostandard="LVDS" loc="N15"/>
+    <pin index="499" name="hp_bank68_bg0_pin2_p" iostandard="LVDS" loc="P16"/>
+    <pin index="500" name="hp_bank68_bg0_pin3_n" iostandard="LVDS" loc="N16"/>
+    <pin index="501" name="hp_bank68_bg0_pin4_p" iostandard="LVDS" loc="M17"/>
+    <pin index="502" name="hp_bank68_bg0_pin5_n" iostandard="LVDS" loc="M16"/>
+    <pin index="503" name="hp_bank68_bg0_pin6_p" iostandard="LVDS" loc="M15"/>
+    <pin index="504" name="hp_bank68_bg0_pin7_n" iostandard="LVDS" loc="L15"/>
+    <pin index="505" name="hp_bank68_bg0_pin8_p" iostandard="LVDS" loc="K16"/>
+    <pin index="506" name="hp_bank68_bg0_pin9_n" iostandard="LVDS" loc="K15"/>
+    <pin index="507" name="hp_bank68_bg0_pin10_p" iostandard="LVDS" loc="L17"/>
+    <pin index="508" name="hp_bank68_bg0_pin11_n" iostandard="LVDS" loc="K17"/>
+    <pin index="509" name="hp_bank68_bg0_pin12_se" iostandard="LVCMOS18" loc="R15"/>
+    <pin index="510" name="hp_bank68_bg1_pin0_p" iostandard="LVDS" loc="H15"/>
+    <pin index="511" name="hp_bank68_bg1_pin1_n" iostandard="LVDS" loc="G15"/>
+    <pin index="512" name="hp_bank68_bg1_pin2_p" iostandard="LVDS" loc="J16"/>
+    <pin index="513" name="hp_bank68_bg1_pin3_n" iostandard="LVDS" loc="H16"/>
+    <pin index="514" name="hp_bank68_bg1_pin4_p" iostandard="LVDS" loc="J18"/>
+    <pin index="515" name="hp_bank68_bg1_pin5_n" iostandard="LVDS" loc="H18"/>
+    <pin index="516" name="hp_bank68_bg1_pin6_p" iostandard="LVDS" loc="G18"/>
+    <pin index="517" name="hp_bank68_bg1_pin7_n" iostandard="LVDS" loc="F18"/>
+    <pin index="518" name="hp_bank68_bg1_pin8_p" iostandard="LVDS" loc="G17"/>
+    <pin index="519" name="hp_bank68_bg1_pin9_n" iostandard="LVDS" loc="F17"/>
+    <pin index="520" name="hp_bank68_bg1_pin10_p" iostandard="LVDS" loc="G16"/>
+    <pin index="521" name="hp_bank68_bg1_pin11_n" iostandard="LVDS" loc="F15"/>
+    <pin index="522" name="hp_bank68_bg1_pin12_se" iostandard="LVCMOS18" loc="J17"/>
+    <pin index="523" name="hp_bank68_clk_p" iostandard="LVDS" loc="F14"/>
+    <pin index="524" name="hp_bank68_clk_n" iostandard="LVDS" loc="E14"/>
+    <pin index="525" name="hp_bank68_bg2_pin2_p" iostandard="LVDS" loc="E15"/>
+    <pin index="526" name="hp_bank68_bg2_pin3_n" iostandard="LVDS" loc="D14"/>
+    <pin index="527" name="hp_bank68_bg2_pin4_p" iostandard="LVDS" loc="D13"/>
+    <pin index="528" name="hp_bank68_bg2_pin5_n" iostandard="LVDS" loc="C13"/>
+    <pin index="529" name="hp_bank68_bg2_pin6_p" iostandard="LVDS" loc="B13"/>
+    <pin index="530" name="hp_bank68_bg2_pin7_n" iostandard="LVDS" loc="A12"/>
+    <pin index="531" name="hp_bank68_bg2_pin8_p" iostandard="LVDS" loc="A14"/>
+    <pin index="532" name="hp_bank68_bg2_pin9_n" iostandard="LVDS" loc="A13"/>
+    <pin index="533" name="hp_bank68_bg2_pin10_p" iostandard="LVDS" loc="C15"/>
+    <pin index="534" name="hp_bank68_bg2_pin11_n" iostandard="LVDS" loc="B15"/>
+    <pin index="535" name="hp_bank68_bg2_pin12_se" iostandard="LVCMOS18" loc="C14"/>
+    <pin index="536" name="hp_bank68_bg3_pin0_p" iostandard="LVDS" loc="E16"/>
+    <pin index="537" name="hp_bank68_bg3_pin1_n" iostandard="LVDS" loc="D16"/>
+    <pin index="538" name="hp_bank68_bg3_pin2_p" iostandard="LVDS" loc="C16"/>
+    <pin index="539" name="hp_bank68_bg3_pin3_n" iostandard="LVDS" loc="B16"/>
+    <pin index="540" name="hp_bank68_bg3_pin4_p" iostandard="LVDS" loc="E17"/>
+    <pin index="541" name="hp_bank68_bg3_pin5_n" iostandard="LVDS" loc="D17"/>
+    <pin index="542" name="hp_bank68_bg3_pin6_p" iostandard="LVDS" loc="B17"/>
+    <pin index="543" name="hp_bank68_bg3_pin7_n" iostandard="LVDS" loc="A17"/>
+    <pin index="544" name="hp_bank68_bg3_pin8_p" iostandard="LVDS" loc="D18"/>
+    <pin index="545" name="hp_bank68_bg3_pin9_n" iostandard="LVDS" loc="C18"/>
+    <pin index="546" name="hp_bank68_bg3_pin10_p" iostandard="LVDS" loc="B18"/>
+    <pin index="547" name="hp_bank68_bg3_pin11_n" iostandard="LVDS" loc="A18"/>
+    <pin index="548" name="hp_bank68_bg3_pin12_se" iostandard="LVCMOS18" loc="A15"/>
+    <pin index="549" name="hp_bank71_bg0_pin0_p" iostandard="LVDS" loc="P18"/>
+    <pin index="550" name="hp_bank71_bg0_pin1_n" iostandard="LVDS" loc="N18"/>
+    <pin index="551" name="hp_bank71_bg0_pin2_p" iostandard="LVDS" loc="M18"/>
+    <pin index="552" name="hp_bank71_bg0_pin3_n" iostandard="LVDS" loc="L18"/>
+    <pin index="553" name="hp_bank71_bg0_pin4_p" iostandard="LVDS" loc="M20"/>
+    <pin index="554" name="hp_bank71_bg0_pin5_n" iostandard="LVDS" loc="L19"/>
+    <pin index="555" name="hp_bank71_bg0_pin6_p" iostandard="LVDS" loc="N20"/>
+    <pin index="556" name="hp_bank71_bg0_pin7_n" iostandard="LVDS" loc="N19"/>
+    <pin index="557" name="hp_bank71_bg0_pin8_p" iostandard="LVDS" loc="P21"/>
+    <pin index="558" name="hp_bank71_bg0_pin9_n" iostandard="LVDS" loc="N21"/>
+    <pin index="559" name="hp_bank71_bg0_pin10_p" iostandard="LVDS" loc="M22"/>
+    <pin index="560" name="hp_bank71_bg0_pin11_n" iostandard="LVDS" loc="M21"/>
+    <pin index="561" name="hp_bank71_bg0_pin12_se" iostandard="LVCMOS18" loc="P22"/>
+    <pin index="562" name="hp_bank71_bg1_pin0_p" iostandard="LVDS" loc="K19"/>
+    <pin index="563" name="hp_bank71_bg1_pin1_n" iostandard="LVDS" loc="J19"/>
+    <pin index="564" name="hp_bank71_bg1_pin2_p" iostandard="LVDS" loc="L20"/>
+    <pin index="565" name="hp_bank71_bg1_pin3_n" iostandard="LVDS" loc="K20"/>
+    <pin index="566" name="hp_bank71_bg1_pin4_p" iostandard="LVDS" loc="K21"/>
+    <pin index="567" name="hp_bank71_bg1_pin5_n" iostandard="LVDS" loc="J21"/>
+    <pin index="568" name="hp_bank71_bg1_pin6_p" iostandard="LVDS" loc="K22"/>
+    <pin index="569" name="hp_bank71_bg1_pin7_n" iostandard="LVDS" loc="J22"/>
+    <pin index="570" name="hp_bank71_bg1_pin8_p" iostandard="LVDS" loc="H20"/>
+    <pin index="571" name="hp_bank71_bg1_pin9_n" iostandard="LVDS" loc="H19"/>
+    <pin index="572" name="hp_bank71_bg1_pin10_p" iostandard="LVDS" loc="H21"/>
+    <pin index="573" name="hp_bank71_bg1_pin11_n" iostandard="LVDS" loc="G20"/>
+    <pin index="574" name="hp_bank71_bg1_pin12_se" iostandard="LVCMOS18" loc="L22"/>
+    <pin index="575" name="hp_bank71_clk_p" iostandard="LVDS" loc="G22"/>
+    <pin index="576" name="hp_bank71_clk_n" iostandard="LVDS" loc="G21"/>
+    <pin index="577" name="hp_bank71_bg2_pin2_p" iostandard="LVDS" loc="F23"/>
+    <pin index="578" name="hp_bank71_bg2_pin3_n" iostandard="LVDS" loc="F22"/>
+    <pin index="579" name="hp_bank71_bg2_pin4_p" iostandard="LVDS" loc="F19"/>
+    <pin index="580" name="hp_bank71_bg2_pin5_n" iostandard="LVDS" loc="E19"/>
+    <pin index="581" name="hp_bank71_bg2_pin6_p" iostandard="LVDS" loc="F20"/>
+    <pin index="582" name="hp_bank71_bg2_pin7_n" iostandard="LVDS" loc="E20"/>
+    <pin index="583" name="hp_bank71_bg2_pin8_p" iostandard="LVDS" loc="E21"/>
+    <pin index="584" name="hp_bank71_bg2_pin9_n" iostandard="LVDS" loc="D21"/>
+    <pin index="585" name="hp_bank71_bg2_pin10_p" iostandard="LVDS" loc="E22"/>
+    <pin index="586" name="hp_bank71_bg2_pin11_n" iostandard="LVDS" loc="D22"/>
+    <pin index="587" name="hp_bank71_bg2_pin12_se" iostandard="LVCMOS18" loc="D23"/>
+    <pin index="588" name="hp_bank71_bg3_pin0_p" iostandard="LVDS" loc="D19"/>
+    <pin index="589" name="hp_bank71_bg3_pin1_n" iostandard="LVDS" loc="C19"/>
+    <pin index="590" name="hp_bank71_bg3_pin2_p" iostandard="LVDS" loc="C20"/>
+    <pin index="591" name="hp_bank71_bg3_pin3_n" iostandard="LVDS" loc="B20"/>
+    <pin index="592" name="hp_bank71_bg3_pin4_p" iostandard="LVDS" loc="A20"/>
+    <pin index="593" name="hp_bank71_bg3_pin5_n" iostandard="LVDS" loc="A19"/>
+    <pin index="594" name="hp_bank71_bg3_pin6_p" iostandard="LVDS" loc="C21"/>
+    <pin index="595" name="hp_bank71_bg3_pin7_n" iostandard="LVDS" loc="B21"/>
+    <pin index="596" name="hp_bank71_bg3_pin8_p" iostandard="LVDS" loc="B22"/>
+    <pin index="597" name="hp_bank71_bg3_pin9_n" iostandard="LVDS" loc="A22"/>
+    <pin index="598" name="hp_bank71_bg3_pin10_p" iostandard="LVDS" loc="B23"/>
+    <pin index="599" name="hp_bank71_bg3_pin11_n" iostandard="LVDS" loc="A23"/>
+    <pin index="600" name="hp_bank71_bg3_pin12_se" iostandard="LVCMOS18" loc="C23"/>
+    <pin index="601" name="hd_bank88_l1_p" iostandard="LVCMOS18" loc="N11"/>
+    <pin index="602" name="hd_bank88_l1_n" iostandard="LVCMOS18" loc="N10"/>
+    <pin index="603" name="hd_bank88_l2_p" iostandard="LVCMOS18" loc="P12"/>
+    <pin index="604" name="hd_bank88_l2_n" iostandard="LVCMOS18" loc="N12"/>
+    <pin index="605" name="hd_bank88_l3_p" iostandard="LVCMOS18" loc="R14"/>
+    <pin index="606" name="hd_bank88_l3_n" iostandard="LVCMOS18" loc="P13"/>
+    <pin index="607" name="hd_bank88_l4_p" iostandard="LVCMOS18" loc="P14"/>
+    <pin index="608" name="hd_bank88_l4_n" iostandard="LVCMOS18" loc="N14"/>
+    <pin index="609" name="hd_bank88_l5_p" iostandard="LVCMOS18" loc="N13"/>
+    <pin index="610" name="hd_bank88_l5_n" iostandard="LVCMOS18" loc="M13"/>
+    <pin index="611" name="hd_bank88_l6_p" iostandard="LVCMOS18" loc="M12"/>
+    <pin index="612" name="hd_bank88_l6_n" iostandard="LVCMOS18" loc="M11"/>
+    <pin index="613" name="hd_bank88_l7_p" iostandard="LVCMOS18" loc="L12"/>
+    <pin index="614" name="hd_bank88_l7_n" iostandard="LVCMOS18" loc="K12"/>
+    <pin index="615" name="hd_bank88_l8_p" iostandard="LVCMOS18" loc="L14"/>
+    <pin index="616" name="hd_bank88_l8_n" iostandard="LVCMOS18" loc="L13"/>
+    <pin index="617" name="hd_bank88_l9_p" iostandard="LVCMOS18" loc="M10"/>
+    <pin index="618" name="hd_bank88_l9_n" iostandard="LVCMOS18" loc="L10"/>
+    <pin index="619" name="hd_bank88_l10_p" iostandard="LVCMOS18" loc="K11"/>
+    <pin index="620" name="hd_bank88_l10_n" iostandard="LVCMOS18" loc="K10"/>
+    <pin index="621" name="hd_bank88_l11_p" iostandard="LVCMOS18" loc="K14"/>
+    <pin index="622" name="hd_bank88_l11_n" iostandard="LVCMOS18" loc="J14"/>
+    <pin index="623" name="hd_bank88_l12_p" iostandard="LVCMOS18" loc="J13"/>
+    <pin index="624" name="hd_bank88_l12_n" iostandard="LVCMOS18" loc="J12"/>
+    <pin index="625" name="hd_bank89_l1_p" iostandard="LVCMOS18" loc="J11"/>
+    <pin index="626" name="hd_bank89_l1_n" iostandard="LVCMOS18" loc="H10"/>
+    <pin index="627" name="hd_bank89_l2_p" iostandard="LVCMOS18" loc="H11"/>
+    <pin index="628" name="hd_bank89_l2_n" iostandard="LVCMOS18" loc="G11"/>
+    <pin index="629" name="hd_bank89_l3_p" iostandard="LVCMOS18" loc="H13"/>
+    <pin index="630" name="hd_bank89_l3_n" iostandard="LVCMOS18" loc="G12"/>
+    <pin index="631" name="hd_bank89_l4_p" iostandard="LVCMOS18" loc="H14"/>
+    <pin index="632" name="hd_bank89_l4_n" iostandard="LVCMOS18" loc="G13"/>
+    <pin index="633" name="hd_bank89_l5_p" iostandard="LVCMOS18" loc="G10"/>
+    <pin index="634" name="hd_bank89_l5_n" iostandard="LVCMOS18" loc="F10"/>
+    <pin index="635" name="hd_bank89_l6_p" iostandard="LVCMOS18" loc="F13"/>
+    <pin index="636" name="hd_bank89_l6_n" iostandard="LVCMOS18" loc="F12"/>
+    <pin index="637" name="hd_bank89_l7_p" iostandard="LVCMOS18" loc="E11"/>
+    <pin index="638" name="hd_bank89_l7_n" iostandard="LVCMOS18" loc="E10"/>
+    <pin index="639" name="hd_bank89_l8_p" iostandard="LVCMOS18" loc="E12"/>
+    <pin index="640" name="hd_bank89_l8_n" iostandard="LVCMOS18" loc="D12"/>
+    <pin index="641" name="hd_bank89_l9_p" iostandard="LVCMOS18" loc="D11"/>
+    <pin index="642" name="hd_bank89_l9_n" iostandard="LVCMOS18" loc="C11"/>
+    <pin index="643" name="hd_bank89_l10_p" iostandard="LVCMOS18" loc="C10"/>
+    <pin index="644" name="hd_bank89_l10_n" iostandard="LVCMOS18" loc="B10"/>
+    <pin index="645" name="hd_bank89_l11_p" iostandard="LVCMOS18" loc="B12"/>
+    <pin index="646" name="hd_bank89_l11_n" iostandard="LVCMOS18" loc="B11"/>
+    <pin index="647" name="hd_bank89_l12_p" iostandard="LVCMOS18" loc="A10"/>
+    <pin index="648" name="hd_bank89_l12_n" iostandard="LVCMOS18" loc="A9"/>
+    <pin index="649" name="hd_bank90_l1_p" iostandard="LVCMOS18" loc="G6"/>
+    <pin index="650" name="hd_bank90_l1_n" iostandard="LVCMOS18" loc="F6"/>
+    <pin index="651" name="hd_bank90_l2_p" iostandard="LVCMOS18" loc="J8"/>
+    <pin index="652" name="hd_bank90_l2_n" iostandard="LVCMOS18" loc="H8"/>
+    <pin index="653" name="hd_bank90_l3_p" iostandard="LVCMOS18" loc="J9"/>
+    <pin index="654" name="hd_bank90_l3_n" iostandard="LVCMOS18" loc="H9"/>
+    <pin index="655" name="hd_bank90_l4_p" iostandard="LVCMOS18" loc="F9"/>
+    <pin index="656" name="hd_bank90_l4_n" iostandard="LVCMOS18" loc="E9"/>
+    <pin index="657" name="hd_bank90_l5_p" iostandard="LVCMOS18" loc="G7"/>
+    <pin index="658" name="hd_bank90_l5_n" iostandard="LVCMOS18" loc="F7"/>
+    <pin index="659" name="hd_bank90_l6_p" iostandard="LVCMOS18" loc="G8"/>
+    <pin index="660" name="hd_bank90_l6_n" iostandard="LVCMOS18" loc="F8"/>
+    <pin index="661" name="hd_bank90_l7_p" iostandard="LVCMOS18" loc="E7"/>
+    <pin index="662" name="hd_bank90_l7_n" iostandard="LVCMOS18" loc="D7"/>
+    <pin index="663" name="hd_bank90_l8_p" iostandard="LVCMOS18" loc="D8"/>
+    <pin index="664" name="hd_bank90_l8_n" iostandard="LVCMOS18" loc="C8"/>
+    <pin index="665" name="hd_bank90_l9_p" iostandard="LVCMOS18" loc="E6"/>
+    <pin index="666" name="hd_bank90_l9_n" iostandard="LVCMOS18" loc="D6"/>
+    <pin index="667" name="hd_bank90_l10_p" iostandard="LVCMOS18" loc="B7"/>
+    <pin index="668" name="hd_bank90_l10_n" iostandard="LVCMOS18" loc="A7"/>
+    <pin index="669" name="hd_bank90_l11_p" iostandard="LVCMOS18" loc="B8"/>
+    <pin index="670" name="hd_bank90_l11_n" iostandard="LVCMOS18" loc="A8"/>
+    <pin index="671" name="hd_bank90_l12_p" iostandard="LVCMOS18" loc="D9"/>
+    <pin index="672" name="hd_bank90_l12_n" iostandard="LVCMOS18" loc="C9"/>
+    <pin index="673" name="hd_bank91_l1_p" iostandard="LVCMOS18" loc="F5"/>
+    <pin index="674" name="hd_bank91_l1_n" iostandard="LVCMOS18" loc="F4"/>
+    <pin index="675" name="hd_bank91_l2_p" iostandard="LVCMOS18" loc="E5"/>
+    <pin index="676" name="hd_bank91_l2_n" iostandard="LVCMOS18" loc="E4"/>
+    <pin index="677" name="hd_bank91_l3_p" iostandard="LVCMOS18" loc="E3"/>
+    <pin index="678" name="hd_bank91_l3_n" iostandard="LVCMOS18" loc="E2"/>
+    <pin index="679" name="hd_bank91_l4_p" iostandard="LVCMOS18" loc="E1"/>
+    <pin index="680" name="hd_bank91_l4_n" iostandard="LVCMOS18" loc="D1"/>
+    <pin index="681" name="hd_bank91_l5_p" iostandard="LVCMOS18" loc="D4"/>
+    <pin index="682" name="hd_bank91_l5_n" iostandard="LVCMOS18" loc="D3"/>
+    <pin index="683" name="hd_bank91_l6_p" iostandard="LVCMOS18" loc="D2"/>
+    <pin index="684" name="hd_bank91_l6_n" iostandard="LVCMOS18" loc="C1"/>
+    <pin index="685" name="hd_bank91_l7_p" iostandard="LVCMOS18" loc="C6"/>
+    <pin index="686" name="hd_bank91_l7_n" iostandard="LVCMOS18" loc="C5"/>
+    <pin index="687" name="hd_bank91_l8_p" iostandard="LVCMOS18" loc="C4"/>
+    <pin index="688" name="hd_bank91_l8_n" iostandard="LVCMOS18" loc="C3"/>
+    <pin index="689" name="hd_bank91_l9_p" iostandard="LVCMOS18" loc="B2"/>
+    <pin index="690" name="hd_bank91_l9_n" iostandard="LVCMOS18" loc="B1"/>
+    <pin index="691" name="hd_bank91_l10_p" iostandard="LVCMOS18" loc="B3"/>
+    <pin index="692" name="hd_bank91_l10_n" iostandard="LVCMOS18" loc="A3"/>
+    <pin index="693" name="hd_bank91_l11_p" iostandard="LVCMOS18" loc="B6"/>
+    <pin index="694" name="hd_bank91_l11_n" iostandard="LVCMOS18" loc="B5"/>
+    <pin index="695" name="hd_bank91_l12_p" iostandard="LVCMOS18" loc="A5"/>
+    <pin index="696" name="hd_bank91_l12_n" iostandard="LVCMOS18" loc="A4"/>
+    <pin index="697" name="fpga_user_led_grn_n" iostandard="LVCMOS12" loc="AV14"/>
+    <pin index="698" name="fpga_user_led_orng_n" iostandard="LVCMOS12" loc="A32"/>
+    <pin index="699" name="fpga_i2c_req_1v2" iostandard="LVCMOS12" loc="B28"/>
+    <pin index="700" name="fpga_uart_rx_1v2" iostandard="LVCMOS12" loc="AK14"/>
+    <pin index="701" name="fpga_uart_tx_1v2" iostandard="LVCMOS12" loc="AP15"/>
+    <pin index="702" name="fpga_i2c_ack_1v2" iostandard="LVCMOS12" loc="C28"/>
+    <pin index="703" name="pll_fpga_dspll_sel0_1V2" iostandard="LVCMOS12" loc="AL15"/>
+    <pin index="704" name="pll_fpga_dspll_sel1_1V2" iostandard="LVCMOS12" loc="AM15"/>
+    <pin index="705" name="pll_fpga_fdec_1V2" iostandard="LVCMOS12" loc="AJ15"/>
+    <pin index="706" name="pll_fpga_finc_1V2" iostandard="LVCMOS12" loc="AK15"/>
+    <pin index="707" name="pll_gth_dspll_sel0_1V2" iostandard="LVCMOS12" loc="AL14"/>
+    <pin index="708" name="pll_gth_dspll_sel1_1V2" iostandard="LVCMOS12" loc="AM14"/>
+    <pin index="709" name="pll_gth_fdec_1V2" iostandard="LVCMOS12" loc="AN14"/>
+    <pin index="710" name="pll_gth_finc_1V2" iostandard="LVCMOS12" loc="AP14"/>
+    <pin index="711" name="pll_gth_reset_n_1V2" iostandard="LVCMOS12" loc="BB10"/>
+    <pin index="712" name="pll_fpga_reset_n_1V2" iostandard="LVCMOS12" loc="AV13"/>
+    <pin index="713" name="pll_fpga_i2c_scl_1V2" iostandard="LVCMOS12" loc="AU13"/>
+    <pin index="714" name="pll_fpga_i2c_sda_1V2" iostandard="LVCMOS12" loc="AU14"/>
+</pins>
+</part_info>
