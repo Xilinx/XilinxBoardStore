@@ -5472,6 +5472,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "avnet.com"
+      },
+      {
+        "name": "ZEUS",
+        "display": "Zynq UltraScale+ ZEUS SoM",
+        "latest_revision": "1.0",
+        "commit_id": "1d82dee84a47511a868fe70f2db65c6c33839288",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "1d82dee84a47511a868fe70f2db65c6c33839288",
+            "date": "13-09-2022:16:00:36",
+            "history": "Added board Zynq UltraScale+ ZEUS SoM v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/REFLEX_CES/zeus/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "reflexces.com"
       }
     ],
     "categories": [
