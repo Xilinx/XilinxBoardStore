@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<board schema_version="2.2" vendor="OpalKelly.com" name="XEM8350-KU060" display_name="XEM8350-KU060 Integration Module" url="https://opalkelly.com/products/xem8350/" preset_file="preset.xml">
+<board schema_version="2.2" vendor="opalkelly.com" name="XEM8350-KU060" display_name="XEM8350-KU060 Integration Module" url="https://opalkelly.com/products/xem8350/" preset_file="preset.xml">
   <images>
     <image name="XEM8350-Top.jpg" display_name="XEM8350-KU060" sub_type="board">
       <description>XEM8350-KU060 Board File Image</description>
