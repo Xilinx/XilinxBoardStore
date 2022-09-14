@@ -1,4 +1,0 @@
-######### SZG-ENET1G ############
-
-1.0
-Initial release

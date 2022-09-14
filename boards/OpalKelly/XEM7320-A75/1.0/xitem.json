@@ -1,0 +1,37 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "XEM7320-A75",
+          "display": "XEM7320-A75 Development Platform",
+          "revision": "1.0",
+          "description": "XEM7320-A75 Development Platform",
+          "company": "opalkelly.com",
+          "company_display": "Opal Kelly",
+          "author": "Opal Kelly",
+          "contributors": [
+            {
+              "group": "Opal Kelly",
+              "url": "https://opalkelly.com/"
+            }
+          ],
+          "category": "Single Part",
+          "website": "https://opalkelly.com/products/xem7320/",
+          "logo": "XEM7320-Top.jpg",
+          "search-keywords": [
+            "XEM7320-A75",
+            "opalkelly.com",
+            "board",
+            "A75",
+            "Opal Kelly",
+            "FrontPanel",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

@@ -1,0 +1,37 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "XEM7360-K160T-3E",
+          "display": "XEM7360-K160T-3E Integration Platform",
+          "revision": "1.0",
+          "description": "XEM7360-K160T-3E Integration Platform",
+          "company": "opalkelly.com",
+          "company_display": "Opal Kelly",
+          "author": "Opal Kelly",
+          "contributors": [
+            {
+              "group": "Opal Kelly",
+              "url": "https://opalkelly.com/"
+            }
+          ],
+          "category": "Single Part",
+          "website": "https://opalkelly.com/products/xem7360/",
+          "logo": "XEM7360-Perspective.jpg",
+          "search-keywords": [
+            "XEM7360-K160T-3E",
+            "opalkelly.com",
+            "board",
+            "K160T-3E",
+            "Opal Kelly",
+            "FrontPanel",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

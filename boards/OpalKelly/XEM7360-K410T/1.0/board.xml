@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<board schema_version="2.2" vendor="opalkelly.com" name="XEM7360-K410T" display_name="XEM7360-K410T Integration Platform" url="https://opalkelly.com/products/xem7360/" preset_file="preset.xml" supports_ced="false">
+  <images>
+    <image name="XEM7360-Perspective.jpg" display_name="XEM7360-Perspective" sub_type="board">
+      <description>XEM7360-K410T Board File Image</description>
+    </image>
+  </images>
+  <compatible_board_revisions>
+    <revision id="0">RevE</revision>
+  </compatible_board_revisions>
+  <file_version>1.0</file_version>
+  <description>XEM7360-K410T Integration Platform</description>
+  <components>
+    <component name="part0" display_name="Kintex-7 FPGA chip on board" type="fpga" part_name="xc7k410tffg676-1" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="https://opalkelly.com/products/xem7360/">
+      <description>FPGA part on the board</description>
+      <interfaces>
+        <interface mode="slave" name="host_interface" type="opalkelly.com:interface:host_interface_rtl:1.0" of_component="frontpanel" preset_proc="frontpanel_preset">
+          <preferred_ips>
+            <preferred_ip vendor="opalkelly.com" library="ip" name="frontpanel" order="0" />
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="okHU" physical_port="host_interface_okhu" dir="in" left="2" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="okHU_0" />
+                <pin_map port_index="1" component_pin="okHU_1" />
+                <pin_map port_index="2" component_pin="okHU_2" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="okUH" physical_port="host_interface_okuh" dir="out" left="4" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="okUH_0" />
+                <pin_map port_index="1" component_pin="okUH_1" />
+                <pin_map port_index="2" component_pin="okUH_2" />
+                <pin_map port_index="3" component_pin="okUH_3" />
+                <pin_map port_index="4" component_pin="okUH_4" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="okUHU" physical_port="host_interface_okuhu" dir="inout" left="31" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="okUHU_0" />
+                <pin_map port_index="1" component_pin="okUHU_1" />
+                <pin_map port_index="2" component_pin="okUHU_2" />
+                <pin_map port_index="3" component_pin="okUHU_3" />
+                <pin_map port_index="4" component_pin="okUHU_4" />
+                <pin_map port_index="5" component_pin="okUHU_5" />
+                <pin_map port_index="6" component_pin="okUHU_6" />
+                <pin_map port_index="7" component_pin="okUHU_7" />
+                <pin_map port_index="8" component_pin="okUHU_8" />
+                <pin_map port_index="9" component_pin="okUHU_9" />
+                <pin_map port_index="10" component_pin="okUHU_10" />
+                <pin_map port_index="11" component_pin="okUHU_11" />
+                <pin_map port_index="12" component_pin="okUHU_12" />
+                <pin_map port_index="13" component_pin="okUHU_13" />
+                <pin_map port_index="14" component_pin="okUHU_14" />
+                <pin_map port_index="15" component_pin="okUHU_15" />
+                <pin_map port_index="16" component_pin="okUHU_16" />
+                <pin_map port_index="17" component_pin="okUHU_17" />
+                <pin_map port_index="18" component_pin="okUHU_18" />
+                <pin_map port_index="19" component_pin="okUHU_19" />
+                <pin_map port_index="20" component_pin="okUHU_20" />
+                <pin_map port_index="21" component_pin="okUHU_21" />
+                <pin_map port_index="22" component_pin="okUHU_22" />
+                <pin_map port_index="23" component_pin="okUHU_23" />
+                <pin_map port_index="24" component_pin="okUHU_24" />
+                <pin_map port_index="25" component_pin="okUHU_25" />
+                <pin_map port_index="26" component_pin="okUHU_26" />
+                <pin_map port_index="27" component_pin="okUHU_27" />
+                <pin_map port_index="28" component_pin="okUHU_28" />
+                <pin_map port_index="29" component_pin="okUHU_29" />
+                <pin_map port_index="30" component_pin="okUHU_30" />
+                <pin_map port_index="31" component_pin="okUHU_31" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="okAA" physical_port="host_interface_okaa" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="okAA" />
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        <interface mode="slave" name="fixed_200mhz" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="fixed_200mhz">
+          <parameters>
+            <parameter name="frequency" value="200000000" />
+          </parameters>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="clk_wiz" order="0" />
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="fixed_200mhz_clk_p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="fixed_200mhz_clk_p" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CLK_N" physical_port="fixed_200mhz_clk_n" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="fixed_200mhz_clk_n" />
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        <interface mode="slave" name="fixed_gt_100mhz" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="fixed_gt_100mhz">
+          <parameters>
+            <parameter name="frequency" value="100000000" />
+          </parameters>
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="fixed_gt_100mhz_clk_p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="fixed_gt_100mhz_clk_p" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CLK_N" physical_port="fixed_gt_100mhz_clk_n" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="fixed_gt_100mhz_clk_n" />
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        <interface mode="master" name="ddr3" type="xilinx.com:interface:ddrx_rtl:1.0" of_component="ddr3" preset_proc="ddr3_preset"> 
+          <description>DDR3 Board Interface.</description>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="mig_7series" order="0"/>
+          </preferred_ips>
+        </interface>
+        <interface mode="master" name="board_leds" type="opalkelly.com:interface:led_rtl:1.0" of_component="board_leds">
+          <preferred_ips>
+            <preferred_ip vendor="opalkelly.com" library="ip" name="leds" order="0" />
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="LED_OUT" physical_port="board_leds_led_out" dir="out" left="3" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="led_1" />
+                <pin_map port_index="1" component_pin="led_2" />
+                <pin_map port_index="2" component_pin="led_3" />
+                <pin_map port_index="3" component_pin="led_4" />
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        <interface mode="master" name="qspi_flash" type="xilinx.com:interface:spi_rtl:1.0" of_component="qspi_flash" preset_proc="qspi_flash_preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_quad_spi" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="IO0_I" physical_port="qspi_flash_io0_i" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="flash_d0"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO0_O" physical_port="qspi_flash_io0_o" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="flash_d0"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO0_T" physical_port="qspi_flash_io0_t" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="flash_d0"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO1_I" physical_port="qspi_flash_io1_i" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="flash_d1"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO1_O" physical_port="qspi_flash_io1_o" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="flash_d1"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO1_T" physical_port="qspi_flash_io1_t" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="flash_d1"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO2_I" physical_port="qspi_flash_io2_i" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="flash_d2"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO2_O" physical_port="qspi_flash_io2_o" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="flash_d2"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO2_T" physical_port="qspi_flash_io2_t" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="flash_d2"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO3_I" physical_port="qspi_flash_io3_i" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="flash_d3"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO3_O" physical_port="qspi_flash_io3_o" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="flash_d3"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="IO3_T" physical_port="qspi_flash_io3_t" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="flash_d3"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SS_I" physical_port="qspi_flash_ss_i" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="fpga_fcs"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SS_O" physical_port="qspi_flash_ss_o" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="fpga_fcs"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SS_T" physical_port="qspi_flash_ss_t" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="fpga_fcs"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SCK_I" physical_port="qspi_flash_sck_i" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="fpga_cclk"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SCK_O" physical_port="qspi_flash_sck_o" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="fpga_cclk"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SCK_T" physical_port="qspi_flash_sck_t" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="fpga_cclk"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+      </interfaces>
+    </component>
+    <component name="frontpanel" display_name="FrontPanel" type="chip" sub_type="chip" major_group="Miscellaneous">
+      <description>This component MUST be used with the Opal Kelly FrontPanel Subsystem IP that is provided through our downloads page at https://pins.opalkelly.com/downloads. Add IPs to the project through Settings->IP->Repository</description>
+    </component>
+    <component name="ddr3" display_name="DDR3" type="chip" sub_type="ddr" major_group="External Memory" part_name="MT41K256M16XX-125" vendor="Micron" spec_url="www.micron.com/memory">
+      <description>512-MiByte DDR3 memory SODIMM </description>
+      <parameters>
+        <parameter name="ddr_type" value="ddr3"/>
+        <parameter name="size" value="512MiB"/>
+      </parameters>
+    </component>
+    <component name="fixed_200mhz" display_name="Fixed-Frequency Clock Oscillator (200MHz)" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="SIT9120AI-2D3-33E200.000000X" vendor="SiTime" spec_url="https://abracon.com/">
+      <description>200MHZ fixed-frequency clock oscillator. Cannot be used if using the DDR3 component as the DDR3's `mig.prj` config file constrains the `SYS_CLK` to this clock. Warnings will present later in the build process regarding this. Instead, use the MIG configuration wizard to generate up to 5 addtional clocks to be used in fabric logic.</description>
+      <parameters>
+        <parameter name="frequency" value="200000000" />
+      </parameters>
+    </component>
+    <component name="fixed_gt_100mhz" display_name="Transceiver Fixed-Frequency Clock Oscillator (100MHz)" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="BF-100.000MBE-T" vendor="TXC Corporation" spec_url="https://abracon.com/">
+      <description>100MHZ fixed-frequency clock oscillator connected to RefClk 1 of transceiver bank 115. </description>
+      <parameters>
+        <parameter name="frequency" value="100000000" />
+      </parameters>
+    </component>
+    <component name="board_leds" display_name="LEDs" type="chip" sub_type="led" major_group="General Purpose Input or Output">
+      <description>4 onboard LEDs. This component MUST be used with the Opal Kelly LEDs IP that is provided through our downloads page at https://pins.opalkelly.com/downloads. Add IPs to the project through Settings->IP->Repository</description>
+    </component>
+    <component name="qspi_flash" display_name="QSPI flash" type="chip" sub_type="memory_flash_qspi" major_group="External Memory" part_name="N25Q128A11B1240E" vendor="Micron">
+      <description>16-MiB flash provides non-volatile storage for use by the FPGA.  It may not be used for FPGA configuration storage.</description>
+    </component>
+  </components>
+  <connections>
+    <connection name="part0_frontpanel" component1="part0" component2="frontpanel">
+      <connection_map name="part0_frontpanel_map" typical_delay="5" c1_st_index="0" c1_end_index="40" c2_st_index="0" c2_end_index="40" />
+    </connection>
+    <connection name="part0_board_leds" component1="part0" component2="board_leds">
+      <connection_map name="part0_board_leds_map" typical_delay="5" c1_st_index="41" c1_end_index="48" c2_st_index="0" c2_end_index="7" />
+    </connection>
+    <connection name="part0_fixed_200mhz" component1="part0" component2="fixed_200mhz">
+      <connection_map name="part0_fixed_200mhz_map" typical_delay="5" c1_st_index="49" c1_end_index="50" c2_st_index="0" c2_end_index="1" />
+    </connection>
+    <connection name="part0_qspi_flash" component1="part0" component2="qspi_flash">
+      <connection_map name="part0_qspi_flash_map" typical_delay="5" c1_st_index="51" c1_end_index="56" c2_st_index="0" c2_end_index="5" />
+    </connection>
+    <connection name="part0_fixed_gt_100mhz" component1="part0" component2="fixed_gt_100mhz">
+      <connection_map name="part0_fixed_gt_100mhz_map" typical_delay="5" c1_st_index="57" c1_end_index="58" c2_st_index="0" c2_end_index="1" />
+    </connection>
+  </connections>
+</board>

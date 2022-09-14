@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<part_info part_name="xc7s50csga324-1">
+  <pins>  
+    <pin index="0" name="okHU_0" loc="T14" />
+    <pin index="1" name="okHU_1" loc="V14" />
+    <pin index="2" name="okHU_2" loc="T13" />
+    <pin index="3" name="okUH_0" loc="N15" />
+    <pin index="4" name="okUH_1" loc="R16" />
+    <pin index="5" name="okUH_2" loc="U15" />
+    <pin index="6" name="okUH_3" loc="V17" />
+    <pin index="7" name="okUH_4" loc="M13" />
+    <pin index="8" name="okUHU_0" loc="T18" />
+    <pin index="9" name="okUHU_1" loc="R18" />
+    <pin index="10" name="okUHU_2" loc="P18" />
+    <pin index="11" name="okUHU_3" loc="N18" />
+    <pin index="12" name="okUHU_4" loc="M18" />
+    <pin index="13" name="okUHU_5" loc="M17" />
+    <pin index="14" name="okUHU_6" loc="M16" />
+    <pin index="15" name="okUHU_7" loc="N13" />
+    <pin index="16" name="okUHU_8" loc="N14" />
+    <pin index="17" name="okUHU_9" loc="M14" />
+    <pin index="18" name="okUHU_10" loc="L18" />
+    <pin index="19" name="okUHU_11" loc="L17" />
+    <pin index="20" name="okUHU_12" loc="M15" />
+    <pin index="21" name="okUHU_13" loc="L14" />
+    <pin index="22" name="okUHU_14" loc="K18" />
+    <pin index="23" name="okUHU_15" loc="K17" />
+    <pin index="24" name="okUHU_16" loc="R13" />
+    <pin index="25" name="okUHU_17" loc="P16" />
+    <pin index="26" name="okUHU_18" loc="P17" />
+    <pin index="27" name="okUHU_19" loc="V13" />
+    <pin index="28" name="okUHU_20" loc="P14" />
+    <pin index="29" name="okUHU_21" loc="U12" />
+    <pin index="30" name="okUHU_22" loc="T11" />
+    <pin index="31" name="okUHU_23" loc="P15" />
+    <pin index="32" name="okUHU_24" loc="U11" />
+    <pin index="33" name="okUHU_25" loc="V15" />
+    <pin index="34" name="okUHU_26" loc="R17" />
+    <pin index="35" name="okUHU_27" loc="U18" />
+    <pin index="36" name="okUHU_28" loc="T12" />
+    <pin index="37" name="okUHU_29" loc="L16" />
+    <pin index="38" name="okUHU_30" loc="V16" />
+    <pin index="39" name="okUHU_31" loc="T15" />
+    <pin index="40" name="okAA" loc="R11" />
+    <pin index="41" name="led_1" loc="J5" />
+    <pin index="42" name="led_2" loc="G6" />
+    <pin index="43" name="led_3" loc="R12" />
+    <pin index="44" name="led_4" loc="L13" />
+    <pin index="45" name="fixed_200mhz_clk_p" iostandard="LVDS" diff_term="FALSE" loc="R2" />
+    <pin index="46" name="fixed_200mhz_clk_n" iostandard="LVDS" diff_term="FALSE" loc="R1" />
+  </pins>
+</part_info>
