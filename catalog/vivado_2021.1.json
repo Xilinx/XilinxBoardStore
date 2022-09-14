@@ -5876,11 +5876,11 @@
         "name": "BRK1900-7CG",
         "display": "ECM1900-7CG W/ BRK1900",
         "latest_revision": "1.0",
-        "commit_id": "572004c5744e823853e84033dc29d71970c0a807",
+        "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "572004c5744e823853e84033dc29d71970c0a807",
+            "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
             "date": "22-03-2022:22:49:30",
             "history": "Added board ECM1900-7CG W/ BRK1900 v1.0"
           }
@@ -5895,11 +5895,11 @@
         "name": "BRK1900-7EG",
         "display": "ECM1900-7EG W/ BRK1900",
         "latest_revision": "1.0",
-        "commit_id": "572004c5744e823853e84033dc29d71970c0a807",
+        "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "572004c5744e823853e84033dc29d71970c0a807",
+            "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
             "date": "22-03-2022:22:49:30",
             "history": "Added board ECM1900-7EG W/ BRK1900 v1.0"
           }
@@ -5914,11 +5914,11 @@
         "name": "BRK1900-7EV",
         "display": "ECM1900-7EV W/ BRK1900",
         "latest_revision": "1.0",
-        "commit_id": "572004c5744e823853e84033dc29d71970c0a807",
+        "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "572004c5744e823853e84033dc29d71970c0a807",
+            "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
             "date": "22-03-2022:22:49:30",
             "history": "Added board ECM1900-7EV W/ BRK1900 v1.0"
           }
@@ -5930,33 +5930,14 @@
         "company": "opalkelly.com"
       },
       {
-        "name": "SZG_ENET1G",
-        "display": "SZG_ENET1G Peripheral",
-        "latest_revision": "1.0",
-        "commit_id": "572004c5744e823853e84033dc29d71970c0a807",
-        "revisions": [
-          {
-            "revision": "1.0",
-            "commit_id": "572004c5744e823853e84033dc29d71970c0a807",
-            "date": "22-03-2022:22:49:30",
-            "history": "Added board SZG_ENET1G Peripheral v1.0"
-          }
-        ],
-        "config": {
-          "root": "boards/OpalKelly/SZG-ENET1G/1.0",
-          "metadata_file": "xitem.json"
-        },
-        "company": "opalkelly.com"
-      },
-      {
         "name": "SZG_MIPI_8320",
         "display": "SZG_MIPI_8320 Peripheral",
         "latest_revision": "1.0",
-        "commit_id": "572004c5744e823853e84033dc29d71970c0a807",
+        "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "572004c5744e823853e84033dc29d71970c0a807",
+            "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
             "date": "22-03-2022:22:49:30",
             "history": "Added board SZG_MIPI_8320 Peripheral v1.0"
           }
@@ -5971,36 +5952,17 @@
         "name": "SZG_PCIEX4",
         "display": "SZG_PCIEX4 Peripheral",
         "latest_revision": "1.0",
-        "commit_id": "572004c5744e823853e84033dc29d71970c0a807",
+        "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "572004c5744e823853e84033dc29d71970c0a807",
+            "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
             "date": "22-03-2022:22:49:30",
             "history": "Added board SZG_PCIEX4 Peripheral v1.0"
           }
         ],
         "config": {
           "root": "boards/OpalKelly/SZG-PCIEX4/1.0",
-          "metadata_file": "xitem.json"
-        },
-        "company": "opalkelly.com"
-      },
-      {
-        "name": "XEM8320-AU25P",
-        "display": "XEM8320-AU25P Development Platform",
-        "latest_revision": "1.1",
-        "commit_id": "572004c5744e823853e84033dc29d71970c0a807",
-        "revisions": [
-          {
-            "revision": "1.1",
-            "commit_id": "572004c5744e823853e84033dc29d71970c0a807",
-            "date": "22-03-2022:22:49:30",
-            "history": "Added board XEM8320-AU25P Development Platform v1.1"
-          }
-        ],
-        "config": {
-          "root": "boards/OpalKelly/XEM8320-AU25P/1.1",
           "metadata_file": "xitem.json"
         },
         "company": "opalkelly.com"
@@ -6042,6 +6004,386 @@
           "metadata_file": "xitem.json"
         },
         "company": "avnet.com"
+      },
+      {
+        "name": "SZG_ENET1G",
+        "display": "SZG_ENET1G Peripheral",
+        "latest_revision": "1.1",
+        "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+            "date": "14-09-2022:06:10:43",
+            "history": "Added board SZG_ENET1G Peripheral v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/SZG-ENET1G/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "XEM7305-S50",
+        "display": "XEM7305-S50 Integration Platform",
+        "latest_revision": "1.0",
+        "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+            "date": "14-09-2022:06:10:43",
+            "history": "Added board XEM7305-S50 Integration Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/XEM7305-S50/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "XEM7310-A200",
+        "display": "XEM7310-A200 Integration Platform",
+        "latest_revision": "1.0",
+        "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+            "date": "14-09-2022:06:10:43",
+            "history": "Added board XEM7310-A200 Integration Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/XEM7310-A200/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "XEM7310-A75",
+        "display": "XEM7310-A75 Integration Platform",
+        "latest_revision": "1.0",
+        "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+            "date": "14-09-2022:06:10:43",
+            "history": "Added board XEM7310-A75 Integration Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/XEM7310-A75/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "XEM7310MT-A200",
+        "display": "XEM7310MT-A200 Integration Platform",
+        "latest_revision": "1.0",
+        "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+            "date": "14-09-2022:06:10:43",
+            "history": "Added board XEM7310MT-A200 Integration Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/XEM7310MT-A200/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "XEM7310MT-A75",
+        "display": "XEM7310MT-A75 Integration Platform",
+        "latest_revision": "1.0",
+        "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+            "date": "14-09-2022:06:10:43",
+            "history": "Added board XEM7310MT-A75 Integration Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/XEM7310MT-A75/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "XEM7320-A200",
+        "display": "XEM7320-A200 Development Platform",
+        "latest_revision": "1.0",
+        "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+            "date": "14-09-2022:06:10:43",
+            "history": "Added board XEM7320-A200 Development Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/XEM7320-A200/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "XEM7320-A75",
+        "display": "XEM7320-A75 Development Platform",
+        "latest_revision": "1.0",
+        "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+            "date": "14-09-2022:06:10:43",
+            "history": "Added board XEM7320-A75 Development Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/XEM7320-A75/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "XEM7350-K160T",
+        "display": "XEM7350-K160T Integration Platform",
+        "latest_revision": "1.0",
+        "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+            "date": "14-09-2022:06:10:43",
+            "history": "Added board XEM7350-K160T Integration Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/XEM7350-K160T/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "XEM7350-K410T-3E",
+        "display": "XEM7350-K410T-3E Integration Platform",
+        "latest_revision": "1.0",
+        "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+            "date": "14-09-2022:06:10:43",
+            "history": "Added board XEM7350-K410T-3E Integration Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/XEM7350-K410T-3E/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "XEM7350-K410T",
+        "display": "XEM7350-K410T Integration Platform",
+        "latest_revision": "1.0",
+        "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+            "date": "14-09-2022:06:10:43",
+            "history": "Added board XEM7350-K410T Integration Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/XEM7350-K410T/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "XEM7350-K70T",
+        "display": "XEM7350-K70T Integration Platform",
+        "latest_revision": "1.0",
+        "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+            "date": "14-09-2022:06:10:43",
+            "history": "Added board XEM7350-K70T Integration Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/XEM7350-K70T/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "XEM7360-K160T-3E",
+        "display": "XEM7360-K160T-3E Integration Platform",
+        "latest_revision": "1.0",
+        "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+            "date": "14-09-2022:06:10:43",
+            "history": "Added board XEM7360-K160T-3E Integration Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/XEM7360-K160T-3E/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "XEM7360-K160T",
+        "display": "XEM7360-K160T Integration Platform",
+        "latest_revision": "1.0",
+        "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+            "date": "14-09-2022:06:10:43",
+            "history": "Added board XEM7360-K160T Integration Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/XEM7360-K160T/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "XEM7360-K410T-3E",
+        "display": "XEM7360-K410T-3E Integration Platform",
+        "latest_revision": "1.0",
+        "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+            "date": "14-09-2022:06:10:43",
+            "history": "Added board XEM7360-K410T-3E Integration Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/XEM7360-K410T-3E/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "XEM7360-K410T",
+        "display": "XEM7360-K410T Integration Platform",
+        "latest_revision": "1.0",
+        "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+            "date": "14-09-2022:06:10:43",
+            "history": "Added board XEM7360-K410T Integration Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/XEM7360-K410T/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "XEM8310-AU25P",
+        "display": "XEM8310-AU25P Integration Platform",
+        "latest_revision": "1.0",
+        "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+            "date": "14-09-2022:06:10:43",
+            "history": "Added board XEM8310-AU25P Integration Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/XEM8310-AU25P/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "XEM8320-AU25P",
+        "display": "XEM8320-AU25P Development Platform",
+        "latest_revision": "1.2",
+        "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+            "date": "14-09-2022:06:10:43",
+            "history": "Added board XEM8320-AU25P Development Platform v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/XEM8320-AU25P/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "XEM8350-KU060",
+        "display": "XEM8350-KU060 Integration Platform",
+        "latest_revision": "1.0",
+        "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+            "date": "14-09-2022:06:10:43",
+            "history": "Added board XEM8350-KU060 Integration Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/XEM8350-KU060/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "OpalKelly.com"
+      },
+      {
+        "name": "XEM8350-KU060-3E",
+        "display": "XEM8350-KU060-3E Integration Platform",
+        "latest_revision": "1.0",
+        "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "19cb16097cdcbf682c52e1799f43af3427f69df7",
+            "date": "14-09-2022:06:10:43",
+            "history": "Added board XEM8350-KU060-3E Integration Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/XEM8350-KU060-3E/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "OpalKelly.com"
       }
     ],
     "categories": [
