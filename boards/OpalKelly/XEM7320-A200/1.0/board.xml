@@ -373,7 +373,7 @@
       <connection_map name="part0_szg_portc_map" typical_delay="5" c1_st_index="80" c1_end_index="111" c2_st_index="0" c2_end_index="31" />
     </connection>
     <connection name="part0_frontpanel" component1="part0" component2="frontpanel">
-      <connection_map name="part0_frontpanel_map" typical_delay="5" c1_st_index="0" c1_end_index="40" c2_st_index="0" c2_end_index="40" />
-    </connection
+      <connection_map name="part0_frontpanel_map" typical_delay="5" c1_st_index="112" c1_end_index="152" c2_st_index="0" c2_end_index="40" />
+    </connection>
   </connections>
 </board>
