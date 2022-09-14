@@ -6902,11 +6902,11 @@
         "name": "XEM8350-KU060",
         "display": "XEM8350-KU060 Integration Platform",
         "latest_revision": "1.0",
-        "commit_id": "4bcd44bd7ca155bbfe5a3b721f34474198e3292f",
+        "commit_id": "fe566c287301d01713049fd17b5cdb91b5b7f513",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "4bcd44bd7ca155bbfe5a3b721f34474198e3292f",
+            "commit_id": "fe566c287301d01713049fd17b5cdb91b5b7f513",
             "date": "14-09-2022:06:03:29",
             "history": "Added board XEM8350-KU060 Integration Platform v1.0"
           }
@@ -6921,11 +6921,11 @@
         "name": "XEM8350-KU060-3E",
         "display": "XEM8350-KU060-3E Integration Platform",
         "latest_revision": "1.0",
-        "commit_id": "4bcd44bd7ca155bbfe5a3b721f34474198e3292f",
+        "commit_id": "fe566c287301d01713049fd17b5cdb91b5b7f513",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "4bcd44bd7ca155bbfe5a3b721f34474198e3292f",
+            "commit_id": "fe566c287301d01713049fd17b5cdb91b5b7f513",
             "date": "14-09-2022:06:03:29",
             "history": "Added board XEM8350-KU060-3E Integration Platform v1.0"
           }
