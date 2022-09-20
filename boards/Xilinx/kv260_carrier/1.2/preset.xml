@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<!-- Copyright (C) 2019, Xilinx Inc - All rights reserved
+ Licensed under the Apache License, Version 2.0 (the "License"). You may
+ not use this file except in compliance with the License. A copy of the
+ License is located at
+     http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ License for the specific language governing permissions and limitations
+ under the License. -->
+ 
+<ip_presets schema="1.0">
+
+
+ <ip_preset preset_proc_name="mpsoc_preset_som240_1"> 
+  <ip vendor="xilinx.com" library="ip" name="zynq_ultra_ps_e" version="*"> 
+    <user_parameters>
+	
+		<user_parameter name="CONFIG.PSU__UART1__PERIPHERAL__ENABLE" value="1"/>
+		<user_parameter name="CONFIG.PSU__UART1__PERIPHERAL__IO" value="MIO 36 .. 37"/>
+		
+		<user_parameter name="CONFIG.PSU__USB0__PERIPHERAL__ENABLE" value="1"/>
+		<user_parameter name="CONFIG.PSU__USB0__PERIPHERAL__IO" value="MIO 52 .. 63"/>
+		
+		<!-- <user_parameter name="CONFIG.PSU__USB__RESET__MODE" value="Shared MIO Pin"/>	 -->
+		<user_parameter name="CONFIG.PSU__USB__RESET__MODE" value="Boot Pin"/>		
+		<user_parameter name="CONFIG.PSU__USB0__RESET__ENABLE" value="1"/>			 
+		<!-- <user_parameter name="CONFIG.PSU__USB0__RESET__IO" value="MIO 44"/> -->
+	
+		<user_parameter name="CONFIG.PSU__ENET3__PERIPHERAL__ENABLE" value="1"/>
+		<user_parameter name="CONFIG.PSU__ENET3__PERIPHERAL__IO" value="MIO 64 .. 75"/>
+	
+		<user_parameter name="CONFIG.PSU__ENET3__GRP_MDIO__ENABLE" value="1"/>
+		<user_parameter name="CONFIG.PSU__ENET3__GRP_MDIO__IO" value="MIO 76 .. 77"/>		
+		
+		<user_parameter name="CONFIG.PSU_MIO_71_PULLUPDOWN" value="disable"/>
+		<user_parameter name="CONFIG.PSU_MIO_73_PULLUPDOWN" value="disable"/>
+		<user_parameter name="CONFIG.PSU_MIO_75_PULLUPDOWN" value="disable"/>
+		
+		<user_parameter name="CONFIG.PSU__SD1__GRP_CD__ENABLE" value="1"/>
+		<user_parameter name="CONFIG.PSU__SD1__GRP_CD__IO" value="MIO 45"/>
+		
+		<user_parameter name="CONFIG.PSU__SD1__PERIPHERAL__ENABLE" value="1"/>
+		<user_parameter name="CONFIG.PSU__SD1__DATA_TRANSFER_MODE" value="8Bit"/> 
+		<user_parameter name="CONFIG.PSU__SD1__PERIPHERAL__IO" value="MIO 39 .. 51"/>
+		<user_parameter name="CONFIG.PSU__SD1__SLOT_TYPE" value="SD 3.0"/>	
+
+		<user_parameter name="CONFIG.PSU__SD1__GRP_POW__ENABLE" value="1"/>		
+		<user_parameter name="CONFIG.PSU__SD1__GRP_POW__IO" value="MIO 43"/>		
+		
+<!-- 		<user_parameter name="CONFIG.PSU__SATA__PERIPHERAL__ENABLE" value="1"/>
+		<user_parameter name="CONFIG.PSU__SATA__LANE1__ENABLE" value="1"/>
+		<user_parameter name="CONFIG.PSU__SATA__LANE1__IO" value="GT Lane3"/> -->
+		
+		<user_parameter name="CONFIG.PSU__USB3_0__PERIPHERAL__ENABLE" value="1"/>
+		<user_parameter name="CONFIG.PSU__USB3_0__PERIPHERAL__IO" value="GT Lane2"/>
+
+		<user_parameter name="CONFIG.PSU__DISPLAYPORT__LANE0__ENABLE" value="1"/>
+		<user_parameter name="CONFIG.PSU__DISPLAYPORT__LANE0__IO" value="GT Lane1"/>
+		<user_parameter name="CONFIG.PSU__DISPLAYPORT__LANE1__ENABLE" value="1"/>
+		<user_parameter name="CONFIG.PSU__DISPLAYPORT__LANE1__IO" value="GT Lane0"/>
+		<user_parameter name="CONFIG.PSU__DISPLAYPORT__PERIPHERAL__ENABLE" value="1"/>
+		<user_parameter name="CONFIG.PSU__DPAUX__PERIPHERAL__ENABLE" value="1"/>
+		<user_parameter name="CONFIG.PSU__DPAUX__PERIPHERAL__IO" value="MIO 27 .. 30"/>
+		<user_parameter name="CONFIG.PSU__DP__LANE_SEL" value="Dual Lower"/>
+
+
+	</user_parameters>
+   </ip>
+   </ip_preset>
+   
+   
+	<ip_preset preset_proc_name="bank45_gpio_preset">
+		<ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+			<user_parameters>
+			  <user_parameter name="CONFIG.C_GPIO_WIDTH" value="5"/> 
+			  <user_parameter name="CONFIG.C_ALL_INPUTS" value="0"/> 
+			  <user_parameter name="CONFIG.C_ALL_OUTPUTS" value="1"/>
+			</user_parameters>
+		</ip>
+	</ip_preset>
+
+
+	<ip_preset preset_proc_name="hda_iic_switch_preset">
+		<ip vendor="xilinx.com" library="ip" name="axi_iic" ip_interface="IIC">
+		  <user_parameters>
+			  <user_parameter name="CONFIG.TEN_BIT_ADR" value="7_bit"/> 
+		  <user_parameter name="CONFIG.IIC_FREQ_KHZ" value="100"/>
+		  </user_parameters>
+		</ip>
+	</ip_preset>
+
+
+	<ip_preset preset_proc_name="push_buttons_preset">
+	<ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+		<user_parameters>
+		  <user_parameter name="CONFIG.C_GPIO_WIDTH" value="4"/> 
+		  <user_parameter name="CONFIG.C_ALL_INPUTS" value="1"/> 
+		  <user_parameter name="CONFIG.C_ALL_OUTPUTS" value="0"/>
+		</user_parameters>
+	</ip>
+	</ip_preset>
+	
+	
+	  <ip_preset preset_proc_name="mipi_csi_raspi_preset">
+		<ip vendor="xilinx.com" library="ip" name="mipi_csi2_rx_subsystem" ip_interface="mipi_phy_if">
+		<user_parameters>
+			<user_parameter name="CONFIG.CMN_NUM_LANES" value="2"/> 
+			<user_parameter name="CONFIG.CMN_PXL_FORMAT" value="RAW10"/> 
+			<user_parameter name="CONFIG.HP_IO_BANK_SELECTION" value="66"/> 
+			<user_parameter name="CONFIG.CLK_LANE_IO_LOC" value="D7"/> 
+			<user_parameter name="CONFIG.DATA_LANE0_IO_LOC" value="E5"/> 
+			<user_parameter name="CONFIG.DATA_LANE1_IO_LOC" value="G6"/> 
+			<user_parameter name="CONFIG.DPY_LINE_RATE" value="912"/> 			
+		</user_parameters>
+		</ip>
+<!-- 		<ip vendor="xilinx.com" library="ip" name="mipi_dphy" ip_interface="rx_mipi_phy_if">
+		<user_parameters>
+			<user_parameter name="CONFIG.C_DPHY_MODE"  value="SLAVE"/>
+			<user_parameter name="CONFIG.C_DPHY_LANES"  value="2"/>
+			<user_parameter name="CONFIG.HP_IO_BANK_SELECTION" value="66"/> 
+			<user_parameter name="CONFIG.CLK_LANE_IO_LOC" value="D7"/> 
+			<user_parameter name="CONFIG.DATA_LANE0_IO_LOC" value="E5"/> 
+			<user_parameter name="CONFIG.DATA_LANE1_IO_LOC" value="G6"/> 
+			<user_parameter name="CONFIG.C_HS_LINE_RATE" value="912"/>
+		 </user_parameters>
+		</ip> -->
+	  </ip_preset>
+	  
+	  
+	  <ip_preset preset_proc_name="mipi_csi_ias_preset">
+		<ip vendor="xilinx.com" library="ip" name="mipi_csi2_rx_subsystem" ip_interface="mipi_phy_if">
+		<user_parameters>
+			<user_parameter name="CONFIG.CMN_NUM_LANES" value="4"/> 
+			<user_parameter name="CONFIG.CMN_PXL_FORMAT" value="RAW10"/> 
+			<user_parameter name="CONFIG.HP_IO_BANK_SELECTION" value="66"/> 
+			<user_parameter name="CONFIG.CLK_LANE_IO_LOC" value="C1"/> 
+			<user_parameter name="CONFIG.DATA_LANE0_IO_LOC" value="A2"/> 
+			<user_parameter name="CONFIG.DATA_LANE1_IO_LOC" value="B3"/> 	
+			<user_parameter name="CONFIG.DATA_LANE2_IO_LOC" value="B4"/> 
+			<user_parameter name="CONFIG.DATA_LANE3_IO_LOC" value="D4"/> 	
+			<user_parameter name="CONFIG.DPY_LINE_RATE" value="880"/> 			
+	     </user_parameters>
+		</ip>
+<!-- 		<ip vendor="xilinx.com" library="ip" name="mipi_dphy" ip_interface="rx_mipi_phy_if">
+		<user_parameters>
+			<user_parameter name="CONFIG.C_DPHY_MODE"  value="SLAVE"/>
+			<user_parameter name="CONFIG.C_DPHY_LANES"  value="4"/>
+			<user_parameter name="CONFIG.HP_IO_BANK_SELECTION" value="66"/> 
+			<user_parameter name="CONFIG.CLK_LANE_IO_LOC" value="C1"/> 
+			<user_parameter name="CONFIG.DATA_LANE0_IO_LOC" value="A2"/> 
+			<user_parameter name="CONFIG.DATA_LANE1_IO_LOC" value="B3"/> 
+			<user_parameter name="CONFIG.DATA_LANE2_IO_LOC" value="B4"/> 
+			<user_parameter name="CONFIG.DATA_LANE3_IO_LOC" value="D4"/> 	
+			<user_parameter name="CONFIG.C_HS_LINE_RATE" value="880"/>			
+		</user_parameters>
+		</ip> -->
+	  </ip_preset>	
+
+	  <ip_preset preset_proc_name="mipi_csi_isp_preset">
+		<ip vendor="xilinx.com" library="ip" name="mipi_csi2_rx_subsystem" ip_interface="mipi_phy_if">
+			<user_parameters>
+				<user_parameter name="CONFIG.CMN_NUM_LANES" value="4"/> 					
+				<user_parameter name="CONFIG.HP_IO_BANK_SELECTION" value="66"/> 
+				<user_parameter name="CONFIG.CLK_LANE_IO_LOC" value="G1"/> 
+				<user_parameter name="CONFIG.DATA_LANE0_IO_LOC" value="E1"/> 
+				<user_parameter name="CONFIG.DATA_LANE1_IO_LOC" value="F2"/> 	
+				<user_parameter name="CONFIG.DATA_LANE2_IO_LOC" value="G3"/> 
+				<user_parameter name="CONFIG.DATA_LANE3_IO_LOC" value="E4"/> 	
+				<user_parameter name="CONFIG.DPY_LINE_RATE" value="1200"/> 
+				<user_parameter name="CONFIG.CMN_PXL_FORMAT" value="YUV420_8bit"/> 
+				<user_parameter name="CONFIG.YUV420_BUF_DPTH" value="4096"/>				
+			 </user_parameters>
+		</ip>
+<!-- 		<ip vendor="xilinx.com" library="ip" name="mipi_dphy" ip_interface="rx_mipi_phy_if">
+			<user_parameters>
+				<user_parameter name="CONFIG.C_DPHY_MODE"  value="SLAVE"/>
+				<user_parameter name="CONFIG.C_DPHY_LANES"  value="4"/>
+				<user_parameter name="CONFIG.HP_IO_BANK_SELECTION" value="66"/> 
+				<user_parameter name="CONFIG.CLK_LANE_IO_LOC" value="G1"/> 
+				<user_parameter name="CONFIG.DATA_LANE0_IO_LOC" value="E1"/> 
+				<user_parameter name="CONFIG.DATA_LANE1_IO_LOC" value="F2"/> 
+				<user_parameter name="CONFIG.DATA_LANE2_IO_LOC" value="G3"/> 
+				<user_parameter name="CONFIG.DATA_LANE3_IO_LOC" value="E4"/> 	
+				<user_parameter name="CONFIG.C_HS_LINE_RATE" value="1200"/>			
+			</user_parameters>
+		</ip>	 -->	
+	  </ip_preset>	  
+	  
+	  
+	  <ip_preset preset_proc_name="i2s_in_preset">
+		<ip vendor="xilinx.com" library="ip" name="i2s_receiver" ip_interface="i2s_in">
+			<user_parameters>
+				<user_parameter name="CONFIG.C_NUM_CHANNELS"  value="2"/>
+				<user_parameter name="CONFIG.C_DWIDTH"  value="24"/>
+			</user_parameters>
+		</ip>
+	 </ip_preset>	
+	 
+	 
+	 <ip_preset preset_proc_name="i2s_out_preset">
+		<ip vendor="xilinx.com" library="ip" name="i2s_transmitter" ip_interface="i2s_out">
+			<user_parameters>
+				<user_parameter name="CONFIG.C_NUM_CHANNELS"  value="2"/>
+				<user_parameter name="CONFIG.C_DWIDTH"  value="24"/>
+			</user_parameters>
+		</ip>
+	</ip_preset>	
+	
+
+</ip_presets>
