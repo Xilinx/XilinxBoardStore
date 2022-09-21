@@ -167,7 +167,8 @@
 							<user_parameter name="PMC_MIO" value="39 .. 40"/>
 						</user_hier_parameter>
 					</user_hier_parameter>
-				
+					<user_parameter name="DEVICE_INTEGRITY_MODE" value="{Sysmon temperature voltage and external IO monitoring}"/>
+					<user_parameter name="SMON_PMBUS_ADDRESS" value="0x18"/>				
 					<user_parameter name="SMON_INTERFACE_TO_USE" value="I2C"/>
 					<user_parameter name="PMC_REF_CLK_FREQMHZ" value="33.3333"/>
 					<user_parameter name="PS_GEN_IPI0_ENABLE" value="1"/>
