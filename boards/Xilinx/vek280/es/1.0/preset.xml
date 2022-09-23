@@ -186,6 +186,7 @@
 				<user_parameter name="CONFIG.MC_FREQ_SEL" value="MEMORY_CLK_FROM_SYS_CLK"/>					
 				<user_parameter name="CONFIG.MC_IP_TIMEPERIOD0_FOR_OP" value="5000"/>				
 				<user_parameter name="CONFIG.MC_OP_TIMEPERIOD0" value="541"/>
+				<user_parameter name="CONFIG.MC_LP4_OVERWRITE_IO_PROP" value="true"/>
 			</user_parameters>
 		</ip>
 	</ip_preset>
@@ -202,6 +203,7 @@
 				<user_parameter name="CONFIG.MC_FREQ_SEL" value="MEMORY_CLK_FROM_SYS_CLK"/>					
 				<user_parameter name="CONFIG.MC_IP_TIMEPERIOD0_FOR_OP" value="5000"/>				
 				<user_parameter name="CONFIG.MC_OP_TIMEPERIOD0" value="541"/>
+				<user_parameter name="CONFIG.MC_LP4_OVERWRITE_IO_PROP" value="true"/>
 			</user_parameters>
 		</ip>
 	</ip_preset>
@@ -218,7 +220,8 @@
 				<user_parameter name="CONFIG.MC_FREQ_SEL" value="MEMORY_CLK_FROM_SYS_CLK"/>					
 				<user_parameter name="CONFIG.MC_IP_TIMEPERIOD0_FOR_OP" value="5000"/>				
 				<user_parameter name="CONFIG.MC_OP_TIMEPERIOD0" value="541"/>
-				<user_parameter name="CONFIG.MC2_FLIPPED_PINOUT " value="true"/> 
+				<user_parameter name="CONFIG.MC2_FLIPPED_PINOUT " value="true"/>
+				<user_parameter name="CONFIG.MC_LP4_OVERWRITE_IO_PROP" value="true"/>
 			</user_parameters>
 		</ip>
 	</ip_preset>

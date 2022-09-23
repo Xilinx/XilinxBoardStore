@@ -13,14 +13,14 @@
 
   <pins>
 
-    <pin index="0"  name ="lpddr4_clk1_p" loc="AU11" />
-    <pin index="1"  name ="lpddr4_clk1_n" loc="AV11" />
+    <pin index="0"  name ="lpddr4_clk1_p" iostandard="DIFF_SSTL15" loc="AU11"/> 
+    <pin index="1"  name ="lpddr4_clk1_n" iostandard="DIFF_SSTL15" loc="AV11"/>
 										   
-    <pin index="2"  name ="lpddr4_clk2_p" loc="AV31" />
-    <pin index="3"  name ="lpddr4_clk2_n" loc="AV32" />	
-										   
-    <pin index="4"  name ="lpddr4_clk3_p" loc="AU38" />
-    <pin index="5"  name ="lpddr4_clk3_n" loc="AU39" />	 
+    <pin index="2"  name ="lpddr4_clk2_p" iostandard="DIFF_SSTL15" loc="AV31"/>
+    <pin index="3"  name ="lpddr4_clk2_n" iostandard="DIFF_SSTL15" loc="AV32"/>	
+																			    
+    <pin index="4"  name ="lpddr4_clk3_p" iostandard="DIFF_SSTL15" loc="AU38"/>
+    <pin index="5"  name ="lpddr4_clk3_n" iostandard="DIFF_SSTL15" loc="AU39"/>	 
 		
     <pin index="6"  name ="uart1_bank401_tx" iostandard="LVCMOS33" loc="F31" />
     <pin index="7"  name ="uart1_bank401_rx" iostandard="LVCMOS33" loc="E31" />
@@ -269,7 +269,7 @@
     <pin index="363"  name ="lpddr4_0_dmi1"      loc="AH6"/>	
 	<pin index="364"  name ="lpddr4_0_dmi2"      loc="AG4"/>
     <pin index="365"  name ="lpddr4_0_dmi3"      loc="AG1"/>	
-	<pin index="366"  name ="lpddr4_0_reset_n"   loc="AV13"/>
+	<pin index="366"  name ="lpddr4_0_reset_n" iostandard="LVCMOS15" loc="AV13"/>
 	
     <pin index="367"  name ="lpddr4_1_dq0"       loc="AU3"/>
     <pin index="368"  name ="lpddr4_1_dq1"       loc="AR4"/>
@@ -341,7 +341,7 @@
     <pin index="430"  name ="lpddr4_1_dmi1"       loc="AV2" />	
     <pin index="431"  name ="lpddr4_1_dmi2"       loc="AT6" />
     <pin index="432"  name ="lpddr4_1_dmi3"       loc="BA6" />		
-    <pin index="433"  name ="lpddr4_1_reset_n"    loc="AV12"/>
+    <pin index="433"  name ="lpddr4_1_reset_n" iostandard="LVCMOS15" loc="AV12"/>
 
 	<pin index="500"  name ="lpddr4_2_dq0"       loc="AL23"/>
     <pin index="501"  name ="lpddr4_2_dq1"       loc="AP23"/>
@@ -413,7 +413,7 @@
     <pin index="563"  name ="lpddr4_2_dmi1"      loc="AR19"/>	
 	<pin index="564"  name ="lpddr4_2_dmi2"      loc="AV17"/>
     <pin index="565"  name ="lpddr4_2_dmi3"      loc="BA16"/>	
-	<pin index="566"  name ="lpddr4_2_reset_n"   loc="AU33"/>
+	<pin index="566"  name ="lpddr4_2_reset_n" iostandard="LVCMOS15" loc="AU33"/>
 
     <pin index="567"  name ="lpddr4_3_dq0"       loc="AK25"/>
     <pin index="568"  name ="lpddr4_3_dq1"       loc="AL26"/>
@@ -485,7 +485,7 @@
     <pin index="630"  name ="lpddr4_3_dmi1"       loc="AW23" />	
     <pin index="631"  name ="lpddr4_3_dmi2"       loc="AM28" />
     <pin index="632"  name ="lpddr4_3_dmi3"       loc="AY26" />		
-    <pin index="633"  name ="lpddr4_3_reset_n"    loc="AT33"/>
+    <pin index="633"  name ="lpddr4_3_reset_n" iostandard="LVCMOS15" loc="AT33"/>
 
 	<pin index="700"  name ="lpddr4_4_dq0"       loc="AB41"/>
     <pin index="701"  name ="lpddr4_4_dq1"       loc="Y42"/>
@@ -557,9 +557,9 @@
     <pin index="763"  name ="lpddr4_4_dmi1"      loc="AF42"/>	
 	<pin index="764"  name ="lpddr4_4_dmi2"      loc="AC37"/>
     <pin index="765"  name ="lpddr4_4_dmi3"      loc="Y36"/>	
-	<pin index="766"  name ="lpddr4_4_reset_n"   loc="AV40"/>
+	<pin index="766"  name ="lpddr4_4_reset_n" iostandard="LVCMOS15" loc="AV40"/>
 
-	<pin index="767"  name ="lpddr4_5_dq0"       loc="AF38"/>
+    <pin index="767"  name ="lpddr4_5_dq0"       loc="AF38"/>
     <pin index="768"  name ="lpddr4_5_dq1"       loc="AF37"/>
     <pin index="769"  name ="lpddr4_5_dq2"       loc="AG39" />
     <pin index="770"  name ="lpddr4_5_dq3"       loc="AF41" />
@@ -629,7 +629,7 @@
     <pin index="830"  name ="lpddr4_5_dmi1"      loc="AH33"/>	
 	<pin index="831"  name ="lpddr4_5_dmi2"      loc="AL37"/>
     <pin index="832"  name ="lpddr4_5_dmi3"      loc="AL30"/>	
-	<pin index="833"  name ="lpddr4_5_reset_n"   loc="AU40"/>
+	<pin index="833"  name ="lpddr4_5_reset_n" iostandard="LVCMOS15" loc="AU40"/>
 
     <!-- <pin index="1000" name ="pcie_rx0_n"      loc="AB47"/> -->
     <!-- <pin index="1001" name ="pcie_rx0_p"      loc="AB46"/> -->
