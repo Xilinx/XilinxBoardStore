@@ -6845,11 +6845,11 @@
         "name": "vek280_es",
         "display": "Versal VEK280 ES1 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "1ab1c3f13f997e4e5726644cfd8bf6a68f03102a",
+        "commit_id": "544164471ba0f5330a9825a8ea022dee0311698b",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "1ab1c3f13f997e4e5726644cfd8bf6a68f03102a",
+            "commit_id": "544164471ba0f5330a9825a8ea022dee0311698b",
             "date": "20-09-2022:07:53:56",
             "history": "Added board Versal VEK280 ES1 Evaluation Platform v1.0"
           }
@@ -6902,11 +6902,11 @@
         "name": "vhk158_es",
         "display": "Versal VHK158-ES Evaluation Platform",
         "latest_revision": "3.0",
-        "commit_id": "1ab1c3f13f997e4e5726644cfd8bf6a68f03102a",
+        "commit_id": "544164471ba0f5330a9825a8ea022dee0311698b",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "1ab1c3f13f997e4e5726644cfd8bf6a68f03102a",
+            "commit_id": "544164471ba0f5330a9825a8ea022dee0311698b",
             "date": "20-09-2022:07:53:56",
             "history": "Added board Versal VHK158-ES Evaluation Platform v3.0"
           }
