@@ -6845,11 +6845,11 @@
         "name": "vek280_es",
         "display": "Versal VEK280 ES1 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "544164471ba0f5330a9825a8ea022dee0311698b",
+        "commit_id": "69eb6cb218cc3eb13b38eae218e458b44571aa58",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "544164471ba0f5330a9825a8ea022dee0311698b",
+            "commit_id": "69eb6cb218cc3eb13b38eae218e458b44571aa58",
             "date": "20-09-2022:07:53:56",
             "history": "Added board Versal VEK280 ES1 Evaluation Platform v1.0"
           }
