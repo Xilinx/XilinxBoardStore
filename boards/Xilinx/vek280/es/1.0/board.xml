@@ -1240,7 +1240,7 @@
 		
 		<interface mode="slave" name="lpddr4_clk1" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="LPDDR4_Controller0_TRIP1" preset_proc="sysclk0_preset">
 		  <parameters>
-            <parameter name="frequency" value="200200200"/>
+            <parameter name="frequency" value="200000000"/>
           </parameters>
 		  		  
             <preferred_ips>
@@ -1266,7 +1266,7 @@
 		
 		<interface mode="slave" name="lpddr4_clk2" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="LPDDR4_Controller1_TRIP2" preset_proc="sysclk0_preset">
 		  <parameters>
-            <parameter name="frequency" value="200200200"/>
+            <parameter name="frequency" value="200000000"/>
           </parameters>
 		  		  
             <preferred_ips>
@@ -1292,7 +1292,7 @@
 
 		<interface mode="slave" name="lpddr4_clk3" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="LPDDR4_Controller2_TRIP3" preset_proc="sysclk0_preset">
 		  <parameters>
-            <parameter name="frequency" value="200200200"/>
+            <parameter name="frequency" value="200000000"/>
           </parameters>
 		  		  
             <preferred_ips>
