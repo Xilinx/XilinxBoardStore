@@ -6935,6 +6935,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "OpalKelly.com"
+      },
+      {
+        "name": "XEM8350-KU115",
+        "display": "XEM8350-KU115 Integration Platform",
+        "latest_revision": "1.0",
+        "commit_id": "68f258cd385267c9c399c1001a2c15d3375f980e",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "68f258cd385267c9c399c1001a2c15d3375f980e",
+            "date": "25-10-2022:22:20:40",
+            "history": "Added board XEM8350-KU115 Integration Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/XEM8350-KU115/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
       }
     ],
     "categories": [
