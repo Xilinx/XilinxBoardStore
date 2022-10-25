@@ -1,0 +1,37 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "XEM8350-KU115",
+          "display": "XEM8350-KU115 Integration Platform",
+          "revision": "1.0",
+          "description": "XEM8350-KU115 Integration Platform",
+          "company": "opalkelly.com",
+          "company_display": "Opal Kelly",
+          "author": "Opal Kelly",
+          "contributors": [
+            {
+              "group": "Opal Kelly",
+              "url": "https://opalkelly.com/"
+            }
+          ],
+          "category": "Single Part",
+          "website": "https://opalkelly.com/products/xem8350/",
+          "logo": "XEM8350-Top.jpg",
+          "search-keywords": [
+            "XEM8350-KU115",
+            "opalkelly.com",
+            "board",
+            "KU115",
+            "Opal Kelly",
+            "FrontPanel",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}
