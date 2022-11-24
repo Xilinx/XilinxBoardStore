@@ -1,0 +1,9 @@
+######### Vision SOM changelog ############
+1.2 (2022.2)
+Changing base board name from kr260_som to kr26_som
+
+1.1(2022.2)
+PMU GIOs (MIO32, MIO33, MIO34) Disabled
+
+1.0 (2022.1)
+Initial release

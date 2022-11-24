@@ -1,0 +1,6 @@
+######### Robotics Carrier card changelog ############
+1.1 (2022.2)
+Changing carrier card name to make it base board independent
+
+1.0 (2022.1)
+Initial release 
