@@ -6842,25 +6842,6 @@
         "company": "xilinx.com"
       },
       {
-        "name": "vek280_es",
-        "display": "Versal VEK280 ES1 Evaluation Platform",
-        "latest_revision": "1.0",
-        "commit_id": "69eb6cb218cc3eb13b38eae218e458b44571aa58",
-        "revisions": [
-          {
-            "revision": "1.0",
-            "commit_id": "69eb6cb218cc3eb13b38eae218e458b44571aa58",
-            "date": "20-09-2022:07:53:56",
-            "history": "Added board Versal VEK280 ES1 Evaluation Platform v1.0"
-          }
-        ],
-        "config": {
-          "root": "boards/Xilinx/vek280/es/1.0",
-          "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
-      },
-      {
         "name": "vermeo_t1_mpsoc",
         "display": "Zynq Ultrascale+ MPSoC T1 Development Board",
         "latest_revision": "1.0",
@@ -7467,6 +7448,44 @@
           "metadata_file": "xitem.json"
         },
         "company": "opalkelly.com"
+      },
+      {
+        "name": "vek280_es",
+        "display": "Versal VEK280 ES1 Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "fcfb535b075edc7987258d690c57828927a52ea7",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "fcfb535b075edc7987258d690c57828927a52ea7",
+            "date": "09-01-2023:10:31:06",
+            "history": "Added board Versal VEK280 ES1 Evaluation Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vek280/es/rev_a/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vek280_es_revb",
+        "display": "Versal VEK280 ES1 Rev B01 Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "fcfb535b075edc7987258d690c57828927a52ea7",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "fcfb535b075edc7987258d690c57828927a52ea7",
+            "date": "09-01-2023:10:31:06",
+            "history": "Added board Versal VEK280 ES1 Rev B01 Evaluation Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vek280/es/rev_b/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
       }
     ],
     "categories": [
