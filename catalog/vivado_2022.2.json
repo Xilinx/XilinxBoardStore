@@ -7486,6 +7486,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
+      },
+      {
+        "name": "admpa100_2ms",
+        "display": "ADM-PA100/2MS",
+        "latest_revision": "1.0",
+        "commit_id": "8a950e803e2e031019b3165c82360f75c297e02e",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "8a950e803e2e031019b3165c82360f75c297e02e",
+            "date": "12-01-2023:10:01:12",
+            "history": "Added board ADM-PA100/2MS v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/AlphaData/admpa100_2ms/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "alpha-data.com"
       }
     ],
     "categories": [
