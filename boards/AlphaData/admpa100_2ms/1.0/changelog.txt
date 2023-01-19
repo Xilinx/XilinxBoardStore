@@ -1,0 +1,4 @@
+######### ADM-PA100/2MS change log ##############
+
+1.0 - Vivado 2021.x
+ADM-PA100 Initial board support
