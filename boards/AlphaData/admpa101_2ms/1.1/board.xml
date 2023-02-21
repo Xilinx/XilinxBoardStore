@@ -18,7 +18,7 @@
   
   <description>ADM-PA101/2MS PCI Express Reconfigurable Computing Card</description>
   
-  <parameters>3
+  <parameters>
     <!-- 
     <parameter name="heat_sink_type" value="medium" value_type="string"/>
     <parameter name="heat_sink_temperature" value_type="range" value_min="20.0" value_max="30.0"/>
