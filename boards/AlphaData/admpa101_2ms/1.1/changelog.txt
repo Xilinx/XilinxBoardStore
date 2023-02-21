@@ -1,0 +1,8 @@
+######### ADM-PA101/2MS change log ##############
+
+1.0 - Vivado 2021.x
+ADM-PA101 Initial board support
+
+1.1
+Changed CIPS IP block automation preset to only configure peripherals, PS reference clock & MIO I/O standards.
+Added CIPS IP presets for (a) Linux-capable configuration and (b) minimal configuration for booting the ACAP without peripherals.
