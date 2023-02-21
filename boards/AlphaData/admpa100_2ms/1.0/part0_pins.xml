@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<part_info part_name="xcvc1902-vsva2197-2MP-e-S">
+  <pins>
+    <!-- I/O Bank 306 (PL) !-->
+    <pin index="20"   name="perst_pl_l"              loc="M37" iostandard="LVCMOS18"/>
+    <pin index="21"   name="fan_fail_l"              loc="L37" iostandard="LVCMOS18"/>
+    <!-- <pin index="22"   name="?"                       loc="N34" iostandard="LVCMOS18"/> !-->
+    <!-- <pin index="23"   name="?"                       loc="M34" iostandard="LVCMOS18"/> !-->
+    <!-- <pin index="24"   name="?"                       loc="M35" iostandard="LVCMOS18"/> !-->
+    <!-- <pin index="25"   name="?"                       loc="M36" iostandard="LVCMOS18"/> !-->
+    <!-- <pin index="26"   name="?"                       loc="L33" iostandard="LVCMOS18"/> !-->
+    <pin index="27"   name="spare_scl"               loc="K33" iostandard="LVCMOS18" pullup="true"/>
+    <pin index="28"   name="spare_sda"               loc="K37" iostandard="LVCMOS18" pullup="true"/>
+    <pin index="29"   name="spare_wp"                loc="J36" iostandard="LVCMOS18"/>
+    <!-- <pin index="30"   name="?"                       loc="L34" iostandard="LVCMOS18"/> !-->
+    <!-- <pin index="31"   name="?"                       loc="K35" iostandard="LVCMOS18"/> !-->
+    <!-- <pin index="32"   name="?"                       loc="L35" iostandard="LVCMOS18"/> !-->
+    <!-- <pin index="33"   name="?"                       loc="K36" iostandard="LVCMOS18"/> !-->
+    <!-- <pin index="34"   name="?"                       loc="J33" iostandard="LVCMOS18"/> !-->
+    <!-- <pin index="35"   name="?"                       loc="H34" iostandard="LVCMOS18"/> !-->
+    <!-- <pin index="36"   name="?"                       loc="H36" iostandard="LVCMOS18"/> !-->
+    <!-- <pin index="37"   name="?"                       loc="H37" iostandard="LVCMOS18"/> !-->
+    <pin index="38"   name="pl_scl"                  loc="J34" iostandard="LVCMOS18" pullup="true"/>
+    <pin index="39"   name="pl_sda"                  loc="J35" iostandard="LVCMOS18" pullup="true"/>
+    <pin index="40"   name="usr_sw_0"                loc="G36" iostandard="LVCMOS18"/>
+    <pin index="41"   name="usr_sw_1"                loc="G37" iostandard="LVCMOS18"/>
+
+    <!-- I/O Bank 406 (PL) !-->
+    <pin index="50"   name="user_led_g_l0"           loc="M20" iostandard="LVCMOS33"/>
+    <pin index="51"   name="user_led_g_l1"           loc="M21" iostandard="LVCMOS33"/>
+    <pin index="52"   name="avr_b2u"                 loc="M17" iostandard="LVCMOS33"/>
+    <pin index="53"   name="avr_u2b"                 loc="L17" iostandard="LVCMOS33"/>
+    <pin index="54"   name="avr_mon_clk"             loc="M19" iostandard="LVCMOS33"/>
+    <pin index="55"   name="pmod_io1"                loc="L19" iostandard="LVCMOS33"/>
+    <pin index="56"   name="pmod_io2"                loc="L18" iostandard="LVCMOS33"/>
+    <pin index="57"   name="pmod_io3"                loc="K17" iostandard="LVCMOS33"/>
+    <pin index="58"   name="pmod_io4"                loc="L20" iostandard="LVCMOS33"/>
+    <pin index="59"   name="pmod_io5"                loc="K21" iostandard="LVCMOS33"/>
+    <pin index="60"   name="pmod_io6"                loc="K18" iostandard="LVCMOS33"/>
+    <pin index="61"   name="pmod_io7"                loc="J18" iostandard="LVCMOS33"/>
+    <pin index="62"   name="pmod_io8"                loc="K20" iostandard="LVCMOS33"/>
+    <pin index="63"   name="firefly_modprs_l"        loc="J19" iostandard="LVCMOS33" pullup="true"/>
+    <pin index="64"   name="firefly_int_l"           loc="H17" iostandard="LVCMOS33" pullup="true"/>
+    <pin index="65"   name="firefly_rst_l"           loc="H18" iostandard="LVCMOS33"/>
+    <pin index="66"   name="firefly_sda"             loc="J20" iostandard="LVCMOS33" pullup="true"/>
+    <pin index="67"   name="firefly_scl"             loc="J21" iostandard="LVCMOS33" pullup="true"/>
+    <pin index="68"   name="srvc_md_l"               loc="H19" iostandard="LVCMOS33"/>
+    <pin index="69"   name="fmc_clk_dir"             loc="G20" iostandard="LVCMOS33"/>
+    <pin index="70"   name="fmc_prsnt_l"             loc="H21" iostandard="LVCMOS33"/>
+    <pin index="71"   name="hspc_prsnt_l"            loc="G21" iostandard="LVCMOS33"/>
+
+    <!-- I/O banks 700 - 702 (PL) DDR4 SDRAM bank 0 !-->
+    <pin index="100"  name="c0_ddr4_act_n"           loc="AF37"/>
+    <pin index="101"  name="c0_ddr4_adr0"            loc="AE38"/>
+    <pin index="102"  name="c0_ddr4_adr1"            loc="AD41"/>
+    <pin index="103"  name="c0_ddr4_adr2"            loc="AE40"/>
+    <pin index="104"  name="c0_ddr4_adr3"            loc="AG37"/>
+    <pin index="105"  name="c0_ddr4_adr4"            loc="AF39"/>
+    <pin index="106"  name="c0_ddr4_adr5"            loc="AF42"/>
+    <pin index="107"  name="c0_ddr4_adr6"            loc="AE42"/>
+    <pin index="108"  name="c0_ddr4_adr7"            loc="AG44"/>
+    <pin index="109"  name="c0_ddr4_adr8"            loc="AD43"/>
+    <pin index="110"  name="c0_ddr4_adr9"            loc="AC37"/>
+    <pin index="111"  name="c0_ddr4_adr10"           loc="AF38"/>
+    <pin index="112"  name="c0_ddr4_adr11"           loc="AD42"/>
+    <pin index="113"  name="c0_ddr4_adr12"           loc="AF46"/>
+    <pin index="114"  name="c0_ddr4_adr13"           loc="AF43"/>
+    <pin index="115"  name="c0_ddr4_adr14"           loc="AJ40"/>
+    <pin index="116"  name="c0_ddr4_adr15"           loc="AH41"/>
+    <pin index="117"  name="c0_ddr4_adr16"           loc="AD37"/>
+    <pin index="118"  name="c0_ddr4_ba0"             loc="AH38"/>
+    <pin index="119"  name="c0_ddr4_ba1"             loc="AF40"/>
+    <pin index="120"  name="c0_ddr4_bg0"             loc="AG39"/>
+    <pin index="122"  name="c0_ddr4_ck_c0"           loc="AF41"/>
+    <pin index="123"  name="c0_ddr4_ck_t0"           loc="AG41"/>
+    <pin index="126"  name="c0_ddr4_cke0"            loc="AD38"/>
+    <pin index="128"  name="c0_ddr4_cs0_n"           loc="AH40"/>
+    <pin index="130"  name="c0_ddr4_dq0"             loc="AJ45"/>
+    <pin index="131"  name="c0_ddr4_dq1"             loc="AE44"/>
+    <pin index="132"  name="c0_ddr4_dq2"             loc="AJ44"/>
+    <pin index="133"  name="c0_ddr4_dq3"             loc="AD44"/>
+    <pin index="134"  name="c0_ddr4_dq4"             loc="AK44"/>
+    <pin index="135"  name="c0_ddr4_dq5"             loc="AE45"/>
+    <pin index="136"  name="c0_ddr4_dq6"             loc="AK45"/>
+    <pin index="137"  name="c0_ddr4_dq7"             loc="AF44"/>
+    <pin index="138"  name="c0_ddr4_dq8"             loc="AJ47"/>
+    <pin index="139"  name="c0_ddr4_dq9"             loc="AE46"/>
+    <pin index="140"  name="c0_ddr4_dq10"            loc="AH47"/>
+    <pin index="141"  name="c0_ddr4_dq11"            loc="AD45"/>
+    <pin index="142"  name="c0_ddr4_dq12"            loc="AK46"/>
+    <pin index="143"  name="c0_ddr4_dq13"            loc="AD47"/>
+    <pin index="144"  name="c0_ddr4_dq14"            loc="AK47"/>
+    <pin index="145"  name="c0_ddr4_dq15"            loc="AE47"/>
+    <pin index="146"  name="c0_ddr4_dq16"            loc="AK38"/>
+    <pin index="147"  name="c0_ddr4_dq17"            loc="AM41"/>
+    <pin index="148"  name="c0_ddr4_dq18"            loc="AL37"/>
+    <pin index="149"  name="c0_ddr4_dq19"            loc="AM40"/>
+    <pin index="150"  name="c0_ddr4_dq20"            loc="AK37"/>
+    <pin index="151"  name="c0_ddr4_dq21"            loc="AL41"/>
+    <pin index="152"  name="c0_ddr4_dq22"            loc="AM39"/>
+    <pin index="153"  name="c0_ddr4_dq23"            loc="AM38"/>
+    <pin index="154"  name="c0_ddr4_dq24"            loc="AL46"/>
+    <pin index="155"  name="c0_ddr4_dq25"            loc="AN47"/>
+    <pin index="156"  name="c0_ddr4_dq26"            loc="AL47"/>
+    <pin index="157"  name="c0_ddr4_dq27"            loc="AM46"/>
+    <pin index="158"  name="c0_ddr4_dq28"            loc="AL44"/>
+    <pin index="159"  name="c0_ddr4_dq29"            loc="AM45"/>
+    <pin index="160"  name="c0_ddr4_dq30"            loc="AL43"/>
+    <pin index="161"  name="c0_ddr4_dq31"            loc="AM44"/>
+    <pin index="162"  name="c0_ddr4_dq32"            loc="AR44"/>
+    <pin index="163"  name="c0_ddr4_dq33"            loc="AT44"/>
+    <pin index="164"  name="c0_ddr4_dq34"            loc="AU44"/>
+    <pin index="165"  name="c0_ddr4_dq35"            loc="AP44"/>
+    <pin index="166"  name="c0_ddr4_dq36"            loc="AR45"/>
+    <pin index="167"  name="c0_ddr4_dq37"            loc="AP43"/>
+    <pin index="168"  name="c0_ddr4_dq38"            loc="AU46"/>
+    <pin index="169"  name="c0_ddr4_dq39"            loc="AU45"/>
+    <pin index="170"  name="c0_ddr4_dq40"            loc="AT40"/>
+    <pin index="171"  name="c0_ddr4_dq41"            loc="AR39"/>
+    <pin index="172"  name="c0_ddr4_dq42"            loc="AT41"/>
+    <pin index="173"  name="c0_ddr4_dq43"            loc="AT39"/>
+    <pin index="174"  name="c0_ddr4_dq44"            loc="AN38"/>
+    <pin index="175"  name="c0_ddr4_dq45"            loc="AN40"/>
+    <pin index="176"  name="c0_ddr4_dq46"            loc="AM37"/>
+    <pin index="177"  name="c0_ddr4_dq47"            loc="AP39"/>
+    <pin index="178"  name="c0_ddr4_dq48"            loc="BC46"/>
+    <pin index="179"  name="c0_ddr4_dq49"            loc="AV46"/>
+    <pin index="180"  name="c0_ddr4_dq50"            loc="BC47"/>
+    <pin index="181"  name="c0_ddr4_dq51"            loc="AW47"/>
+    <pin index="182"  name="c0_ddr4_dq52"            loc="BD47"/>
+    <pin index="183"  name="c0_ddr4_dq53"            loc="AV47"/>
+    <pin index="184"  name="c0_ddr4_dq54"            loc="BE46"/>
+    <pin index="185"  name="c0_ddr4_dq55"            loc="AY46"/>
+    <pin index="186"  name="c0_ddr4_dq56"            loc="BD45"/>
+    <pin index="187"  name="c0_ddr4_dq57"            loc="AW44"/>
+    <pin index="188"  name="c0_ddr4_dq58"            loc="BC45"/>
+    <pin index="189"  name="c0_ddr4_dq59"            loc="AY44"/>
+    <pin index="190"  name="c0_ddr4_dq60"            loc="BE45"/>
+    <pin index="191"  name="c0_ddr4_dq61"            loc="AW45"/>
+    <pin index="192"  name="c0_ddr4_dq62"            loc="BD44"/>
+    <pin index="193"  name="c0_ddr4_dq63"            loc="AV45"/>
+    <pin index="194"  name="c0_ddr4_dq64"            loc="BC42"/>
+    <pin index="195"  name="c0_ddr4_dq65"            loc="AW43"/>
+    <pin index="196"  name="c0_ddr4_dq66"            loc="BC43"/>
+    <pin index="197"  name="c0_ddr4_dq67"            loc="AW42"/>
+    <pin index="198"  name="c0_ddr4_dq68"            loc="BD42"/>
+    <pin index="199"  name="c0_ddr4_dq69"            loc="AV42"/>
+    <pin index="200"  name="c0_ddr4_dq70"            loc="BE42"/>
+    <pin index="201"  name="c0_ddr4_dq71"            loc="AV43"/>
+    <pin index="202"  name="c0_ddr4_dqs_c0"          loc="AG45"/>
+    <pin index="203"  name="c0_ddr4_dqs_c1"          loc="AG46"/>
+    <pin index="204"  name="c0_ddr4_dqs_c2"          loc="AK39"/>
+    <pin index="205"  name="c0_ddr4_dqs_c3"          loc="AN45"/>
+    <pin index="206"  name="c0_ddr4_dqs_c4"          loc="AT46"/>
+    <pin index="207"  name="c0_ddr4_dqs_c5"          loc="AR41"/>
+    <pin index="208"  name="c0_ddr4_dqs_c6"          loc="BA46"/>
+    <pin index="209"  name="c0_ddr4_dqs_c7"          loc="BB45"/>
+    <pin index="210"  name="c0_ddr4_dqs_c8"          loc="BA42"/>
+    <pin index="211"  name="c0_ddr4_dqs_t0"          loc="AH45"/>
+    <pin index="212"  name="c0_ddr4_dqs_t1"          loc="AH46"/>
+    <pin index="213"  name="c0_ddr4_dqs_t2"          loc="AL39"/>
+    <pin index="214"  name="c0_ddr4_dqs_t3"          loc="AP45"/>
+    <pin index="215"  name="c0_ddr4_dqs_t4"          loc="AR46"/>
+    <pin index="216"  name="c0_ddr4_dqs_t5"          loc="AR42"/>
+    <pin index="217"  name="c0_ddr4_dqs_t6"          loc="AY47"/>
+    <pin index="218"  name="c0_ddr4_dqs_t7"          loc="BB44"/>
+    <pin index="219"  name="c0_ddr4_dqs_t8"          loc="BB43"/>
+    <pin index="220"  name="c0_ddr4_dm_dbi_n0"       loc="AH43"/>
+    <pin index="221"  name="c0_ddr4_dm_dbi_n1"       loc="AF47"/>
+    <pin index="222"  name="c0_ddr4_dm_dbi_n2"       loc="AK40"/>
+    <pin index="223"  name="c0_ddr4_dm_dbi_n3"       loc="AN46"/>
+    <pin index="224"  name="c0_ddr4_dm_dbi_n4"       loc="AT47"/>
+    <pin index="225"  name="c0_ddr4_dm_dbi_n5"       loc="AP40"/>
+    <pin index="226"  name="c0_ddr4_dm_dbi_n6"       loc="BB46"/>
+    <pin index="227"  name="c0_ddr4_dm_dbi_n7"       loc="AY45"/>
+    <pin index="228"  name="c0_ddr4_dm_dbi_n8"       loc="AY42"/>
+    <pin index="229"  name="c0_ddr4_odt0"            loc="AD39"/>
+    <pin index="231"  name="c0_ddr4_reset_n"         loc="AK42"/>
+    <pin index="232"  name="c0_ddr4_parity"          loc="AD40"/>
+    <pin index="233"  name="c0_ddr4_alert_n"         loc="AL42"/>
+    <pin index="250"  name="c0_sys_clk_clk_p"        loc="AM43" iostandard="LVDS15"/>
+    <pin index="251"  name="c0_sys_clk_clk_n"        loc="AN43" iostandard="LVDS15"/>
+
+
+    <!-- I/O banks 703 - 705 (PL) DDR4 SDRAM bank 1 !-->
+    <pin index="300"  name="c1_ddr4_act_n"           loc="BF28"/>
+    <pin index="301"  name="c1_ddr4_adr0"            loc="BE27"/>
+    <pin index="302"  name="c1_ddr4_adr1"            loc="BC26"/>
+    <pin index="303"  name="c1_ddr4_adr2"            loc="BB26"/>
+    <pin index="304"  name="c1_ddr4_adr3"            loc="BG30"/>
+    <pin index="305"  name="c1_ddr4_adr4"            loc="BD27"/>
+    <pin index="306"  name="c1_ddr4_adr5"            loc="AW25"/>
+    <pin index="307"  name="c1_ddr4_adr6"            loc="AW27"/>
+    <pin index="308"  name="c1_ddr4_adr7"            loc="AU27"/>
+    <pin index="309"  name="c1_ddr4_adr8"            loc="AW28"/>
+    <pin index="310"  name="c1_ddr4_adr9"            loc="BF26"/>
+    <pin index="311"  name="c1_ddr4_adr10"           loc="BG28"/>
+    <pin index="312"  name="c1_ddr4_adr11"           loc="AV29"/>
+    <pin index="313"  name="c1_ddr4_adr12"           loc="AP27"/>
+    <pin index="314"  name="c1_ddr4_adr13"           loc="AY27"/>
+    <pin index="315"  name="c1_ddr4_adr14"           loc="BB28"/>
+    <pin index="316"  name="c1_ddr4_adr15"           loc="BD29"/>
+    <pin index="317"  name="c1_ddr4_adr16"           loc="BG26"/>
+    <pin index="318"  name="c1_ddr4_ba0"             loc="BG29"/>
+    <pin index="319"  name="c1_ddr4_ba1"             loc="BC27"/>
+    <pin index="320"  name="c1_ddr4_bg0"             loc="BF29"/>
+    <pin index="322"  name="c1_ddr4_ck_c0"           loc="BD28"/>
+    <pin index="323"  name="c1_ddr4_ck_t0"           loc="BC28"/>
+    <pin index="326"  name="c1_ddr4_cke0"            loc="BE26"/>
+    <pin index="328"  name="c1_ddr4_cs0_n"           loc="BD30"/>
+    <pin index="330"  name="c1_ddr4_dq0"             loc="AT28"/>
+    <pin index="331"  name="c1_ddr4_dq1"             loc="AV25"/>
+    <pin index="332"  name="c1_ddr4_dq2"             loc="AR29"/>
+    <pin index="333"  name="c1_ddr4_dq3"             loc="AU25"/>
+    <pin index="334"  name="c1_ddr4_dq4"             loc="AT29"/>
+    <pin index="335"  name="c1_ddr4_dq5"             loc="AT25"/>
+    <pin index="336"  name="c1_ddr4_dq6"             loc="AU29"/>
+    <pin index="337"  name="c1_ddr4_dq7"             loc="AT26"/>
+    <pin index="338"  name="c1_ddr4_dq8"             loc="AN28"/>
+    <pin index="339"  name="c1_ddr4_dq9"             loc="AP25"/>
+    <pin index="340"  name="c1_ddr4_dq10"            loc="AM27"/>
+    <pin index="341"  name="c1_ddr4_dq11"            loc="AN25"/>
+    <pin index="342"  name="c1_ddr4_dq12"            loc="AM29"/>
+    <pin index="343"  name="c1_ddr4_dq13"            loc="AM26"/>
+    <pin index="344"  name="c1_ddr4_dq14"            loc="AN29"/>
+    <pin index="345"  name="c1_ddr4_dq15"            loc="AN26"/>
+    <pin index="346"  name="c1_ddr4_dq16"            loc="BG31"/>
+    <pin index="347"  name="c1_ddr4_dq17"            loc="BC32"/>
+    <pin index="348"  name="c1_ddr4_dq18"            loc="BE32"/>
+    <pin index="349"  name="c1_ddr4_dq19"            loc="BB30"/>
+    <pin index="350"  name="c1_ddr4_dq20"            loc="BF31"/>
+    <pin index="351"  name="c1_ddr4_dq21"            loc="BB33"/>
+    <pin index="352"  name="c1_ddr4_dq22"            loc="BB31"/>
+    <pin index="353"  name="c1_ddr4_dq23"            loc="BF32"/>
+    <pin index="354"  name="c1_ddr4_dq24"            loc="AT31"/>
+    <pin index="355"  name="c1_ddr4_dq25"            loc="AV30"/>
+    <pin index="356"  name="c1_ddr4_dq26"            loc="AU31"/>
+    <pin index="357"  name="c1_ddr4_dq27"            loc="AV31"/>
+    <pin index="358"  name="c1_ddr4_dq28"            loc="AM32"/>
+    <pin index="359"  name="c1_ddr4_dq29"            loc="AN31"/>
+    <pin index="360"  name="c1_ddr4_dq30"            loc="AM33"/>
+    <pin index="361"  name="c1_ddr4_dq31"            loc="AM30"/>
+    <pin index="362"  name="c1_ddr4_dq32"            loc="AU33"/>
+    <pin index="363"  name="c1_ddr4_dq33"            loc="AP33"/>
+    <pin index="364"  name="c1_ddr4_dq34"            loc="AR32"/>
+    <pin index="365"  name="c1_ddr4_dq35"            loc="AW33"/>
+    <pin index="366"  name="c1_ddr4_dq36"            loc="AV34"/>
+    <pin index="367"  name="c1_ddr4_dq37"            loc="AV33"/>
+    <pin index="368"  name="c1_ddr4_dq38"            loc="AP34"/>
+    <pin index="369"  name="c1_ddr4_dq39"            loc="AN34"/>
+    <pin index="370"  name="c1_ddr4_dq40"            loc="BE35"/>
+    <pin index="371"  name="c1_ddr4_dq41"            loc="BG35"/>
+    <pin index="372"  name="c1_ddr4_dq42"            loc="BF34"/>
+    <pin index="373"  name="c1_ddr4_dq43"            loc="BG34"/>
+    <pin index="374"  name="c1_ddr4_dq44"            loc="BC33"/>
+    <pin index="375"  name="c1_ddr4_dq45"            loc="BD34"/>
+    <pin index="376"  name="c1_ddr4_dq46"            loc="BB34"/>
+    <pin index="377"  name="c1_ddr4_dq47"            loc="BD35"/>
+    <pin index="378"  name="c1_ddr4_dq48"            loc="AP38"/>
+    <pin index="379"  name="c1_ddr4_dq49"            loc="AN35"/>
+    <pin index="380"  name="c1_ddr4_dq50"            loc="AR37"/>
+    <pin index="381"  name="c1_ddr4_dq51"            loc="AT35"/>
+    <pin index="382"  name="c1_ddr4_dq52"            loc="AM35"/>
+    <pin index="383"  name="c1_ddr4_dq53"            loc="AP36"/>
+    <pin index="384"  name="c1_ddr4_dq54"            loc="AM36"/>
+    <pin index="385"  name="c1_ddr4_dq55"            loc="AR35"/>
+    <pin index="386"  name="c1_ddr4_dq56"            loc="AU36"/>
+    <pin index="387"  name="c1_ddr4_dq57"            loc="AU35"/>
+    <pin index="388"  name="c1_ddr4_dq58"            loc="AU37"/>
+    <pin index="389"  name="c1_ddr4_dq59"            loc="AW35"/>
+    <pin index="390"  name="c1_ddr4_dq60"            loc="AY39"/>
+    <pin index="391"  name="c1_ddr4_dq61"            loc="AY35"/>
+    <pin index="392"  name="c1_ddr4_dq62"            loc="AW39"/>
+    <pin index="393"  name="c1_ddr4_dq63"            loc="AV35"/>
+    <pin index="394"  name="c1_ddr4_dq64"            loc="BB38"/>
+    <pin index="395"  name="c1_ddr4_dq65"            loc="BC36"/>
+    <pin index="396"  name="c1_ddr4_dq66"            loc="BC38"/>
+    <pin index="397"  name="c1_ddr4_dq67"            loc="BB36"/>
+    <pin index="398"  name="c1_ddr4_dq68"            loc="BC40"/>
+    <pin index="399"  name="c1_ddr4_dq69"            loc="BB35"/>
+    <pin index="400"  name="c1_ddr4_dq70"            loc="BD40"/>
+    <pin index="401"  name="c1_ddr4_dq71"            loc="BC35"/>
+    <pin index="402"  name="c1_ddr4_dqs_c0"          loc="AV27"/>
+    <pin index="403"  name="c1_ddr4_dqs_c1"          loc="AR27"/>
+    <pin index="404"  name="c1_ddr4_dqs_c2"          loc="BC30"/>
+    <pin index="405"  name="c1_ddr4_dqs_c3"          loc="AP31"/>
+    <pin index="406"  name="c1_ddr4_dqs_c4"          loc="AT32"/>
+    <pin index="407"  name="c1_ddr4_dqs_c5"          loc="BG33"/>
+    <pin index="408"  name="c1_ddr4_dqs_c6"          loc="AP37"/>
+    <pin index="409"  name="c1_ddr4_dqs_c7"          loc="AW37"/>
+    <pin index="410"  name="c1_ddr4_dqs_c8"          loc="BD38"/>
+    <pin index="411"  name="c1_ddr4_dqs_t0"          loc="AU28"/>
+    <pin index="412"  name="c1_ddr4_dqs_t1"          loc="AP28"/>
+    <pin index="413"  name="c1_ddr4_dqs_t2"          loc="BC31"/>
+    <pin index="414"  name="c1_ddr4_dqs_t3"          loc="AN32"/>
+    <pin index="415"  name="c1_ddr4_dqs_t4"          loc="AU32"/>
+    <pin index="416"  name="c1_ddr4_dqs_t5"          loc="BF33"/>
+    <pin index="417"  name="c1_ddr4_dqs_t6"          loc="AR36"/>
+    <pin index="418"  name="c1_ddr4_dqs_t7"          loc="AV38"/>
+    <pin index="419"  name="c1_ddr4_dqs_t8"          loc="BD39"/>
+    <pin index="420"  name="c1_ddr4_dm_dbi_n0"       loc="AV26"/>
+    <pin index="421"  name="c1_ddr4_dm_dbi_n1"       loc="AR26"/>
+    <pin index="422"  name="c1_ddr4_dm_dbi_n2"       loc="BE31"/>
+    <pin index="423"  name="c1_ddr4_dm_dbi_n3"       loc="AR30"/>
+    <pin index="424"  name="c1_ddr4_dm_dbi_n4"       loc="AR33"/>
+    <pin index="425"  name="c1_ddr4_dm_dbi_n5"       loc="BD33"/>
+    <pin index="426"  name="c1_ddr4_dm_dbi_n6"       loc="AT38"/>
+    <pin index="427"  name="c1_ddr4_dm_dbi_n7"       loc="AW36"/>
+    <pin index="428"  name="c1_ddr4_dm_dbi_n8"       loc="BD37"/>
+    <pin index="429"  name="c1_ddr4_odt0"            loc="BF27"/>
+    <pin index="431"  name="c1_ddr4_reset_n"         loc="BA33"/>
+    <pin index="432"  name="c1_ddr4_parity"          loc="BA27"/>
+    <pin index="433"  name="c1_ddr4_alert_n"         loc="BA32"/>
+    <pin index="450"  name="c1_sys_clk_clk_p"        loc="AY31" iostandard="LVDS15"/>
+    <pin index="451"  name="c1_sys_clk_clk_n"        loc="BA31" iostandard="LVDS15"/>
+
+    
+    <!-- I/O Bank 706 (PL XPIO) !-->
+    <pin index="600" name="la29_p"                   loc="BF23" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="601" name="la29_n"                   loc="BE22" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="602" name="la32_p"                   loc="BG25" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="603" name="la32_n"                   loc="BG24" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="604" name="la30_p"                   loc="BF21" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="605" name="la30_n"                   loc="BG20" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="606" name="la28_p"                   loc="BG21" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="607" name="la28_n"                   loc="BF22" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="608" name="la25_p"                   loc="BE21" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="609" name="la25_n"                   loc="BE20" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="610" name="la33_p"                   loc="BF24" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="611" name="la33_n"                   loc="BG23" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <!-- <pin index="612" name="?"                        loc="BD23" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="613" name="?"                        loc="BD24" iostandard="LVDS"/> !--> <!-- NC !-->
+    <pin index="614" name="la27_p"                   loc="BE25" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="615" name="la27_n"                   loc="BE24" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <!-- <pin index="616" name="?"                        loc="BC22" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="617" name="?"                        loc="BC21" iostandard="LVDS"/> !--> <!-- NC !-->
+    <pin index="618" name="clk2_bidir_p"             loc="BC23" iostandard="LVDS"/> <!-- FMC LVDS clock !-->
+    <pin index="619" name="clk2_bidir_n"             loc="BD22" iostandard="LVDS"/> <!-- FMC LVDS clock !-->
+    <!-- <pin index="620" name="?"                        loc="BC20" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="621" name="?"                        loc="BD20" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="622" name="?"                        loc="BC25" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="623" name="?"                        loc="BD25" iostandard="LVDS"/> !--> <!-- NC !-->
+    <pin index="624" name="clk3_bidir_p"             loc="AV23" iostandard="LVDS"/> <!-- FMC LVDS clock !-->
+    <pin index="625" name="clk3_bidir_n"             loc="AW23" iostandard="LVDS"/> <!-- FMC LVDS clock !-->
+    <!-- <pin index="626" name="?"                        loc="AU24" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="627" name="?"                        loc="AU23" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="628" name="?"                        loc="AV22" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="629" name="?"                        loc="AW21" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="630" name="?"                        loc="AY22" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="631" name="?"                        loc="AY23" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="632" name="?"                        loc="AU21" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="633" name="?"                        loc="AV21" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="634" name="?"                        loc="AW24" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="635" name="?"                        loc="AY25" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="636" name="?"                        loc="AT23" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="637" name="?"                        loc="AR23" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="638" name="?"                        loc="AM24" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="639" name="?"                        loc="AM23" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="640" name="?"                        loc="AP22" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="641" name="?"                        loc="AP21" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="642" name="?"                        loc="AR21" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="643" name="?"                        loc="AT22" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="644" name="?"                        loc="AN23" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="645" name="?"                        loc="AN22" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="646" name="?"                        loc="AP24" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="647" name="?"                        loc="AR24" iostandard="LVDS"/> !--> <!-- NC !-->
+    <pin index="648" name="clk0_m2c_p"               loc="BA24" iostandard="LVDS"/> <!-- FMC LVDS clock !-->
+    <pin index="649" name="clk0_m2c_n"               loc="BB24" iostandard="LVDS"/> <!-- FMC LVDS clock !-->
+    <!-- <pin index="650" name="?"                        loc="BA25" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="651" name="?"                        loc="BB25" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="652" name="?"                        loc="BA23" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="653" name="?"                        loc="BB23" iostandard="LVDS"/> !--> <!-- NC !-->
+
+    <!-- I/O Bank 707 (PL XPIO) !-->
+    <pin index="700" name="la21_p"                   loc="BE19" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="701" name="la21_n"                   loc="BD19" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="702" name="la15_p"                   loc="BB20" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="703" name="la15_n"                   loc="BB19" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="704" name="la04_p"                   loc="BF19" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="705" name="la04_n"                   loc="BG19" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="706" name="la23_p"                   loc="BC18" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="707" name="la23_n"                   loc="BD18" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="708" name="la31_p"                   loc="BF18" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="709" name="la31_n"                   loc="BG18" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="710" name="la20_p"                   loc="BA20" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="711" name="la20_n"                   loc="BA19" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="712" name="la17_cc_p"                loc="BB16" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="713" name="la17_cc_n"                loc="BC16" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="714" name="la19_p"                   loc="BA17" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="715" name="la19_n"                   loc="BA16" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="716" name="la26_p"                   loc="BE16" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="717" name="la26_n"                   loc="BF17" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="718" name="la18_cc_p"                loc="BE17" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="719" name="la18_cc_n"                loc="BD17" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="720" name="la24_p"                   loc="BF16" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="721" name="la24_n"                   loc="BG16" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="722" name="la22_p"                   loc="BB18" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="723" name="la22_n"                   loc="BC17" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="724" name="la01_cc_p"                loc="AP19" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="725" name="la01_cc_n"                loc="AP18" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="726" name="la02_p"                   loc="AM21" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="727" name="la02_n"                   loc="AM20" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="728" name="la12_p"                   loc="AR18" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="729" name="la12_n"                   loc="AT19" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="730" name="la06_p"                   loc="AT20" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="731" name="la06_n"                   loc="AR20" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="732" name="la13_p"                   loc="AU20" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="733" name="la13_n"                   loc="AU19" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="734" name="la03_p"                   loc="AN20" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="735" name="la03_n"                   loc="AN19" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="736" name="la10_p"                   loc="AT16" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="737" name="la10_n"                   loc="AR17" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="738" name="la09_p"                   loc="AM18" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="739" name="la09_n"                   loc="AN17" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="740" name="la14_p"                   loc="AU17" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="741" name="la14_n"                   loc="AV17" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="742" name="la11_p"                   loc="AN16" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="743" name="la11_n"                   loc="AP16" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="744" name="la08_p"                   loc="AT17" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="745" name="la08_n"                   loc="AU16" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="746" name="la05_p"                   loc="AL16" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="747" name="la05_n"                   loc="AM17" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="748" name="la00_cc_p"                loc="AW19" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="749" name="la00_cc_n"                loc="AY18" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="750" name="la16_p"                   loc="AW20" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="751" name="la16_n"                   loc="AY19" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="752" name="la07_p"                   loc="AV19" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="753" name="la07_n"                   loc="AV18" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+
+    <!-- I/O Bank 708 (PL XPIO) !-->
+    <pin index="800" name="ha22_p"                   loc="BF14" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="801" name="ha22_n"                   loc="BG13" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="802" name="ha15_p"                   loc="BE15" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="803" name="ha15_n"                   loc="BE14" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="804" name="ha14_p"                   loc="BE11" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="805" name="ha14_n"                   loc="BF12" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="806" name="ha21_p"                   loc="BE12" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="807" name="ha21_n"                   loc="BF13" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="808" name="ha20_p"                   loc="BF11" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="809" name="ha20_n"                   loc="BG11" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="810" name="ha23_p"                   loc="BG15" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="811" name="ha23_n"                   loc="BG14" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="812" name="ha17_cc_p"                loc="BB14" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="813" name="ha17_cc_n"                loc="BB13" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="814" name="ha18_p"                   loc="BB15" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="815" name="ha18_n"                   loc="BC15" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="816" name="ha16_p"                   loc="BC12" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="817" name="ha16_n"                   loc="BD12" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="818" name="ha01_cc_p"                loc="BC13" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="819" name="ha01_cc_n"                loc="BD13" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="820" name="ha11_p"                   loc="BB11" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="821" name="ha11_n"                   loc="BC11" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="822" name="ha19_p"                   loc="BD15" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="823" name="ha19_n"                   loc="BD14" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="824" name="ha00_cc_p"                loc="AU13" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="825" name="ha00_cc_n"                loc="AV13" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="826" name="ha02_p"                   loc="AT14" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="827" name="ha02_n"                   loc="AU15" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="828" name="ha07_p"                   loc="AU12" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="829" name="ha07_n"                   loc="AU11" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="830" name="ha12_p"                   loc="AW12" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="831" name="ha12_n"                   loc="AW13" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="832" name="ha13_p"                   loc="AV11" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="833" name="ha13_n"                   loc="AW11" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="834" name="ha10_p"                   loc="AV15" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="835" name="ha10_n"                   loc="AV14" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="836" name="ha06_p"                   loc="AR14" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="837" name="ha06_n"                   loc="AT13" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="838" name="ha08_p"                   loc="AP15" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="839" name="ha08_n"                   loc="AR15" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="840" name="ha05_p"                   loc="AP11" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="841" name="ha05_n"                   loc="AR12" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="842" name="ha03_p"                   loc="AP12" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="843" name="ha03_n"                   loc="AN13" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="844" name="ha04_p"                   loc="AR11" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="845" name="ha04_n"                   loc="AT11" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="846" name="ha09_p"                   loc="AN14" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="847" name="ha09_n"                   loc="AP13" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="848" name="clk1_m2c_p"               loc="AY13" iostandard="LVDS"/> <!-- FMC LVDS clock !-->
+    <pin index="849" name="clk1_m2c_n"               loc="BA12" iostandard="LVDS"/> <!-- FMC LVDS clock !-->
+    <!-- <pin index="850" name="?"                        loc="AY14" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="851" name="?"                        loc="BA13" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="852" name="?"                        loc="AY11" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="853" name="?"                        loc="BA11" iostandard="LVDS"/> !--> <!-- NC !-->
+    
+    <!-- I/O Bank 709 (PL XPIO) !-->
+    <pin index="900" name="hb10_p"                   loc="BC2"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="901" name="hb10_n"                   loc="BC1"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="902" name="hb15_p"                   loc="BF3"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="903" name="hb15_n"                   loc="BE2"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="904" name="hb02_p"                   loc="BA3"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="905" name="hb02_n"                   loc="BA2"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="906" name="hb04_p"                   loc="BA1"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="907" name="hb04_n"                   loc="BB1"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="908" name="hb01_p"                   loc="AY2"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="909" name="hb01_n"                   loc="AY1"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="910" name="hb09_p"                   loc="BD3"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="911" name="hb09_n"                   loc="BD2"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="912" name="hb06_cc_p"                loc="BD4"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="913" name="hb06_cc_n"                loc="BC3"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="914" name="hb14_p"                   loc="BG5"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="915" name="hb14_n"                   loc="BG4"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="916" name="hb05_p"                   loc="BB5"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="917" name="hb05_n"                   loc="BA4"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="918" name="hb00_cc_p"                loc="BB3"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="919" name="hb00_cc_n"                loc="BB4"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="920" name="hb03_p"                   loc="AY5"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="921" name="hb03_n"                   loc="AY4"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="922" name="hb08_p"                   loc="BF4"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="923" name="hb08_n"                   loc="BE4"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="924" name="hb17_cc_p"                loc="BD7"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="925" name="hb17_cc_n"                loc="BC6"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="926" name="hb20_p"                   loc="BF8"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="927" name="hb20_n"                   loc="BF7"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="928" name="hb19_p"                   loc="BB8"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="929" name="hb19_n"                   loc="BA8"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="930" name="hb16_p"                   loc="BC8"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="931" name="hb16_n"                   loc="BC7"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="932" name="hb12_p"                   loc="AY7"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="933" name="hb12_n"                   loc="AY6"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="934" name="hb21_p"                   loc="BD8"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="935" name="hb21_n"                   loc="BE7"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="936" name="hb11_p"                   loc="BE9"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="937" name="hb11_n"                   loc="BE10" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="938" name="hb18_p"                   loc="BG9"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="939" name="hb18_n"                   loc="BG8"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="940" name="hb13_p"                   loc="BC10" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="941" name="hb13_n"                   loc="BB9"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="942" name="hb07_p"                   loc="BD10" iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <pin index="943" name="hb07_n"                   loc="BD9"  iostandard="LVDS"/> <!-- FMC LVDS GPIO !-->
+    <!-- <pin index="944" name="?"                        loc="BB10" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="945" name="?"                        loc="BA9"  iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="946" name="?"                        loc="BG10" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="947" name="?"                        loc="BF9"  iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="948" name="?"                        loc="BE6"  iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="949" name="?"                        loc="BE5"  iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="950" name="?"                        loc="BG6"  iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="951" name="?"                        loc="BF6"  iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="952" name="?"                        loc="BD5"  iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="953" name="?"                        loc="BC5"  iostandard="LVDS"/> !--> <!-- NC !-->
+
+    <!-- I/O Bank 710 (PL XPIO) !-->
+    <pin index="1000" name="si5328_sda"              loc="AT2" iostandard="LVCMOS15" pullup="true"/>
+    <pin index="1001" name="si5328_scl"              loc="AT1" iostandard="LVCMOS15" pullup="true"/>
+    <pin index="1002" name="si5328_rst_l"            loc="AW2" iostandard="LVCMOS15"/>
+    <pin index="1003" name="si5328_int_c1b"          loc="AV2" iostandard="LVCMOS15"/>
+    <pin index="1004" name="si5328_c2b"              loc="AW3" iostandard="LVCMOS15"/>
+    <pin index="1005" name="si5328_rate0"            loc="AV3" iostandard="LVCMOS15"/>
+    <pin index="1006" name="si5328_rate1"            loc="AT3" iostandard="LVCMOS15"/>
+    <pin index="1007" name="si5328_lol"              loc="AU3" iostandard="LVCMOS15"/>
+    <!-- <pin index="1008" name="?"                       loc="AW5" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1009" name="?"                       loc="AW4" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1010" name="?"                       loc="AV1" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1011" name="?"                       loc="AU1" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1012" name="?"                       loc="AN3" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1013" name="?"                       loc="AM3" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1014" name="?"                       loc="AT4" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1015" name="?"                       loc="AR4" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1016" name="?"                       loc="AP2" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1017" name="?"                       loc="AN1" iostandard="LVDS"/> !--> <!-- NC !-->
+    <pin index="1018" name="fabric_clk_clk_p"        loc="AR2" iostandard="LVDS15" diff_term_adv="TERM_100"/>
+    <pin index="1019" name="fabric_clk_clk_n"        loc="AR1" iostandard="LVDS15" diff_term_adv="TERM_100"/>
+    <!-- <pin index="1020" name="?"                       loc="AN2" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1021" name="?"                       loc="AM1" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1022" name="?"                       loc="AP4" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1023" name="?"                       loc="AP3" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1024" name="?"                       loc="AV9" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1025" name="?"                       loc="AW8" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1026" name="?"                       loc="AV10 iostandard="LVDS""/> !--> <!-- NC !-->
+    <!-- <pin index="1027" name="?"                       loc="AW9" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1028" name="?"                       loc="AW7" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1029" name="?"                       loc="AV7" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1030" name="?"                       loc="AU8" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1031" name="?"                       loc="AU9" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1032" name="?"                       loc="AV6" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1033" name="?"                       loc="AU6" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1034" name="?"                       loc="AY10 iostandard="LVDS""/> !--> <!-- NC !-->
+    <!-- <pin index="1035" name="?"                       loc="AY9" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1036" name="?"                       loc="AT8" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1037" name="?"                       loc="AT7" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1038" name="?"                       loc="AP10 iostandard="LVDS""/> !--> <!-- NC !-->
+    <!-- <pin index="1039" name="?"                       loc="AN10 iostandard="LVDS""/> !--> <!-- NC !-->
+    <!-- <pin index="1040" name="?"                       loc="AP8" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1041" name="?"                       loc="AR7" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1042" name="?"                       loc="AP9" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1043" name="?"                       loc="AR9" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1044" name="?"                       loc="AN8" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1045" name="?"                       loc="AP7" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1046" name="?"                       loc="AT10 iostandard="LVDS""/> !--> <!-- NC !-->
+    <!-- <pin index="1047" name="?"                       loc="AT9" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1048" name="?"                       loc="AR5" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1049" name="?"                       loc="AP5" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1050" name="?"                       loc="AT6" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1051" name="?"                       loc="AR6" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1052" name="?"                       loc="AN6" iostandard="LVDS"/> !--> <!-- NC !-->
+    <!-- <pin index="1053" name="?"                       loc="AN5" iostandard="LVDS"/> !--> <!-- NC !-->
+    
+    <!-- I/O Bank 100 (PL) !-->
+    <pin index="1200" name="pcie0_gtx0_p"            loc="AB41"/> <!-- PCIe edge !-->
+    <pin index="1201" name="pcie0_gtx0_n"            loc="AB42"/> <!-- PCIe edge !-->
+    <pin index="1202" name="pcie0_grx0_p"            loc="AB46"/> <!-- PCIe edge !-->
+    <pin index="1203" name="pcie0_grx0_n"            loc="AB47"/> <!-- PCIe edge !-->
+    <pin index="1204" name="pcie0_gtx1_p"            loc="Y41"/> <!-- PCIe edge !-->
+    <pin index="1205" name="pcie0_gtx1_n"            loc="Y42"/> <!-- PCIe edge !-->
+    <pin index="1206" name="pcie0_grx1_p"            loc="AA44"/> <!-- PCIe edge !-->
+    <pin index="1207" name="pcie0_grx1_n"            loc="AA45"/> <!-- PCIe edge !-->
+    <pin index="1208" name="pcie0_gtx2_p"            loc="V41"/> <!-- PCIe edge !-->
+    <pin index="1209" name="pcie0_gtx2_n"            loc="V42"/> <!-- PCIe edge !-->
+    <pin index="1210" name="pcie0_grx2_p"            loc="Y46"/> <!-- PCIe edge !-->
+    <pin index="1211" name="pcie0_grx2_n"            loc="Y47"/> <!-- PCIe edge !-->
+    <pin index="1212" name="pcie0_gtx3_p"            loc="U43"/> <!-- PCIe edge !-->
+    <pin index="1213" name="pcie0_gtx3_n"            loc="U44"/> <!-- PCIe edge !-->
+    <pin index="1214" name="pcie0_grx3_p"            loc="W44"/> <!-- PCIe edge !-->
+    <pin index="1215" name="pcie0_grx3_n"            loc="W45"/> <!-- PCIe edge !-->
+    <pin index="1216" name="pcie0_gtx4_p"            loc="T41"/> <!-- PCIe edge !-->
+    <pin index="1217" name="pcie0_gtx4_n"            loc="T42"/> <!-- PCIe edge !-->
+    <pin index="1218" name="pcie0_grx4_p"            loc="V46"/> <!-- PCIe edge !-->
+    <pin index="1219" name="pcie0_grx4_n"            loc="V47"/> <!-- PCIe edge !-->
+    <pin index="1220" name="pcie0_gtx5_p"            loc="R43"/> <!-- PCIe edge !-->
+    <pin index="1221" name="pcie0_gtx5_n"            loc="R44"/> <!-- PCIe edge !-->
+    <pin index="1222" name="pcie0_grx5_p"            loc="T46"/> <!-- PCIe edge !-->
+    <pin index="1223" name="pcie0_grx5_n"            loc="T47"/> <!-- PCIe edge !-->
+    <pin index="1224" name="pcie0_gtx6_p"            loc="P41"/> <!-- PCIe edge !-->
+    <pin index="1225" name="pcie0_gtx6_n"            loc="P42"/> <!-- PCIe edge !-->
+    <pin index="1226" name="pcie0_grx6_p"            loc="P46"/> <!-- PCIe edge !-->
+    <pin index="1227" name="pcie0_grx6_n"            loc="P47"/> <!-- PCIe edge !-->
+    <pin index="1228" name="pcie0_gtx7_p"            loc="M41"/> <!-- PCIe edge !-->
+    <pin index="1229" name="pcie0_gtx7_n"            loc="M42"/> <!-- PCIe edge !-->
+    <pin index="1230" name="pcie0_grx7_p"            loc="N44"/> <!-- PCIe edge !-->
+    <pin index="1231" name="pcie0_grx7_n"            loc="N45"/> <!-- PCIe edge !-->
+    <pin index="1232" name="pcie0_gtx8_p"            loc="K41"/> <!-- PCIe edge !-->
+    <pin index="1233" name="pcie0_gtx8_n"            loc="K42"/> <!-- PCIe edge !-->
+    <pin index="1234" name="pcie0_grx8_p"            loc="M46"/> <!-- PCIe edge !-->
+    <pin index="1235" name="pcie0_grx8_n"            loc="M47"/> <!-- PCIe edge !-->
+    <pin index="1236" name="pcie0_gtx9_p"            loc="J43"/> <!-- PCIe edge !-->
+    <pin index="1237" name="pcie0_gtx9_n"            loc="J44"/> <!-- PCIe edge !-->
+    <pin index="1238" name="pcie0_grx9_p"            loc="L44"/> <!-- PCIe edge !-->
+    <pin index="1239" name="pcie0_grx9_n"            loc="L45"/> <!-- PCIe edge !-->
+    <pin index="1240" name="pcie0_gtx10_p"           loc="H41"/> <!-- PCIe edge !-->
+    <pin index="1241" name="pcie0_gtx10_n"           loc="H42"/> <!-- PCIe edge !-->
+    <pin index="1242" name="pcie0_grx10_p"           loc="K46"/> <!-- PCIe edge !-->
+    <pin index="1243" name="pcie0_grx10_n"           loc="K47"/> <!-- PCIe edge !-->
+    <pin index="1244" name="pcie0_gtx11_p"           loc="G43"/> <!-- PCIe edge !-->
+    <pin index="1245" name="pcie0_gtx11_n"           loc="G44"/> <!-- PCIe edge !-->
+    <pin index="1246" name="pcie0_grx11_p"           loc="H46"/> <!-- PCIe edge !-->
+    <pin index="1247" name="pcie0_grx11_n"           loc="H47"/> <!-- PCIe edge !-->
+    <pin index="1248" name="pcie0_gtx12_p"           loc="F41"/> <!-- PCIe edge !-->
+    <pin index="1249" name="pcie0_gtx12_n"           loc="F42"/> <!-- PCIe edge !-->
+    <pin index="1250" name="pcie0_grx12_p"           loc="F46"/> <!-- PCIe edge !-->
+    <pin index="1251" name="pcie0_grx12_n"           loc="F47"/> <!-- PCIe edge !-->
+    <pin index="1252" name="pcie0_gtx13_p"           loc="D41"/> <!-- PCIe edge !-->
+    <pin index="1253" name="pcie0_gtx13_n"           loc="D42"/> <!-- PCIe edge !-->
+    <pin index="1254" name="pcie0_grx13_p"           loc="E44"/> <!-- PCIe edge !-->
+    <pin index="1255" name="pcie0_grx13_n"           loc="E45"/> <!-- PCIe edge !-->
+    <pin index="1256" name="pcie0_gtx14_p"           loc="B41"/> <!-- PCIe edge !-->
+    <pin index="1257" name="pcie0_gtx14_n"           loc="B42"/> <!-- PCIe edge !-->
+    <pin index="1258" name="pcie0_grx14_p"           loc="D46"/> <!-- PCIe edge !-->
+    <pin index="1259" name="pcie0_grx14_n"           loc="D47"/> <!-- PCIe edge !-->
+    <pin index="1260" name="pcie0_gtx15_p"           loc="A43"/> <!-- PCIe edge !-->
+    <pin index="1261" name="pcie0_gtx15_n"           loc="A44"/> <!-- PCIe edge !-->
+    <pin index="1262" name="pcie0_grx15_p"           loc="C44"/> <!-- PCIe edge !-->
+    <pin index="1263" name="pcie0_grx15_n"           loc="C45"/> <!-- PCIe edge !-->
+    
+    <pin index="1280" name="pcie_refclk_0_p"         loc="W39"/> <!-- PCIe edge !-->
+    <pin index="1281" name="pcie_refclk_0_n"         loc="W40"/> <!-- PCIe edge !-->
+    <!-- <pin index="1282" name="?"                       loc="U39"/> !--> <!-- NC !-->
+    <!-- <pin index="1283" name="?"                       loc="U40"/> !--> <!-- NC !-->
+    <pin index="1284" name="pcie_lcl_refclk_p"       loc="R39"/> <!-- PCIe edge !-->
+    <pin index="1285" name="pcie_lcl_refclk_n"       loc="R40"/> <!-- PCIe edge !-->
+    <!-- <pin index="1286" name="?"                       loc="N39"/> !--> <!-- NC !-->
+    <!-- <pin index="1287" name="?"                       loc="N40"/> !--> <!-- NC !-->
+    <pin index="1288" name="pcie_refclk_1_p"         loc="L39"/> <!-- PCIe edge !-->
+    <pin index="1289" name="pcie_refclk_1_n"         loc="L40"/> <!-- PCIe edge !-->
+    <!-- <pin index="1290" name="?"                       loc="J39"/> !--> <!-- NC !-->
+    <!-- <pin index="1291" name="?"                       loc="J40"/> !--> <!-- NC !-->
+    <!-- <pin index="1292" name="?"                       loc="G39"/> !--> <!-- NC !-->
+    <!-- <pin index="1293" name="?"                       loc="G40"/> !--> <!-- NC !-->
+    <!-- <pin index="1294" name="?"                       loc="E39"/> !--> <!-- NC !-->
+    <!-- <pin index="1295" name="?"                       loc="E40"/> !--> <!-- NC !-->
+    
+    <!-- I/O Bank 500 (PMC MIO) !-->
+    <pin index="1300" name="qspi0_clk"               loc="F34"/> <!-- Boot QSPI !-->
+    <pin index="1301" name="qspi0_io1"               loc="G34"/> <!-- Boot QSPI !-->
+    <pin index="1302" name="qspi0_io2"               loc="H33"/> <!-- Boot QSPI !-->
+    <pin index="1303" name="qspi0_io3"               loc="F33"/> <!-- Boot QSPI !-->
+    <pin index="1304" name="qspi0_io0"               loc="E33"/> <!-- Boot QSPI !-->
+    <pin index="1305" name="qspi0_cs_n"              loc="F32"/> <!-- Boot QSPI !-->
+    <!-- <pin index="1306" name="?"                       loc="G32"/> !--> <!-- NC !-->
+    <pin index="1307" name="qspi1_cs_n"              loc="H32"/> <!-- Boot QSPI !-->
+    <pin index="1308" name="qspi0_io0"               loc="K32"/> <!-- Boot QSPI !-->
+    <pin index="1309" name="qspi0_io1"               loc="L32"/> <!-- Boot QSPI !-->
+    <pin index="1310" name="qspi0_io2"               loc="M32"/> <!-- Boot QSPI !-->
+    <pin index="1311" name="qspi0_io3"               loc="N32"/> <!-- Boot QSPI !-->
+    <pin index="1312" name="qspi1_clk"               loc="N31"/> <!-- Boot QSPI !-->
+    <pin index="1313" name="usb_ulpi_rst"            loc="M31"/> <!-- PS USB !-->
+    <pin index="1314" name="usb_ulpi_data0"          loc="K31"/> <!-- PS USB !-->
+    <pin index="1315" name="usb_ulpi_data1"          loc="J31"/> <!-- PS USB !-->
+    <pin index="1316" name="usb_ulpi_data2"          loc="H31"/> <!-- PS USB !-->
+    <pin index="1317" name="usb_ulpi_data3"          loc="G31"/> <!-- PS USB !-->
+    <pin index="1318" name="usb_ulpi_clk"            loc="F30"/> <!-- PS USB !-->
+    <pin index="1319" name="usb_ulpi_data4"          loc="G30"/> <!-- PS USB !-->
+    <pin index="1320" name="usb_ulpi_data5"          loc="J30"/> <!-- PS USB !-->
+    <pin index="1321" name="usb_ulpi_data6"          loc="K30"/> <!-- PS USB !-->
+    <pin index="1322" name="usb_ulpi_data7"          loc="L30"/> <!-- PS USB !-->
+    <pin index="1323" name="usb_ulpi_dir"            loc="M30"/> <!-- PS USB !-->
+    <pin index="1324" name="usb_ulpi_stp"            loc="M29"/> <!-- PS USB !-->
+    <pin index="1325" name="usb_ulpi_nxt"            loc="L29"/> <!-- PS USB !-->
+    
+    <!-- I/O Bank 501 (PMC MIO) !-->
+    <pin index="1350" name="sdio_clk"                loc="B21"/> <!-- uSD Card !-->
+    <!-- <pin index="1351" name="?"                       loc="C21"/> !--> <!-- NC !-->
+    <pin index="1352" name="sdio_detect"             loc="D21"/> <!-- uSD Card !-->
+    <pin index="1353" name="sdio_cmd"                loc="E21"/> <!-- uSD Card !-->
+    <pin index="1354" name="sdio_dat0"               loc="F20"/> <!-- uSD Card !-->
+    <pin index="1355" name="sdio_dat1"               loc="E20"/> <!-- uSD Card !-->
+    <pin index="1356" name="sdio_dat2"               loc="D20"/> <!-- uSD Card !-->
+    <pin index="1357" name="sdio_dat3"               loc="B20"/> <!-- uSD Card !-->
+    <pin index="1358" name="sdio_sel"                loc="A20"/> <!-- uSD Card !-->
+    <!-- <pin index="1359" name="?"                       loc="A19"/> !--> <!-- NC !-->
+    <!-- <pin index="1360" name="?"                       loc="B19"/> !--> <!-- NC !-->
+    <pin index="1361" name="gem0_rst_l"              loc="C19"/> <!-- PS Ethernet !-->
+    <!-- F19 is NC on board 3 rev or below !-->
+    <!-- D19 & F19 are connected to same PCIe reset signal on board rev 4 or higher !-->
+    <pin index="1362" name="pcie_rst_l"              loc="D19"/> <!-- CPM PCIe !-->
+    <pin index="1363" name="pcie_rst_l"              loc="F19"/> <!-- CPM PCIe (reset for upper CPM when bifurcated) !-->
+    <!-- G19 is EN_VCC_INT_MIO on board rev 1 only, NC in board rev 2 or higher !-->
+    <!-- <pin index="1364" name="?"                       loc="G19"/> !--> <!-- NC !-->
+    <!-- <pin index="1365" name="?"                       loc="F18"/> !--> <!-- NC !-->
+    <pin index="1366" name="uart0_rxd"               loc="E18"/> <!-- PS UART0 !-->
+    <pin index="1367" name="uart0_txd"               loc="D18"/> <!-- PS UART0 !-->
+    <pin index="1368" name="fpga_sysmon_scl"         loc="C18"/> <!-- PS I2C to system monitor !-->
+    <pin index="1369" name="fpga_sysmon_sda"         loc="A18"/> <!-- PS I2C to system monitor !-->
+    <pin index="1370" name="uart1_rxd"               loc="A17"/> <!-- PS UART1 !-->
+    <pin index="1371" name="uart1_txd"               loc="B17"/> <!-- PS UART1 !-->
+    <!-- <pin index="1372" name="?"                       loc="C17"/> !--> <!-- NC !-->
+    <!-- <pin index="1373" name="?"                       loc="E17"/> !--> <!-- NC !-->
+    <pin index="1374" name="pmc_i2c_scl"             loc="F17"/> <!-- PMC I2C to system monitor !-->
+    <pin index="1375" name="pmc_i2c_sda"             loc="G17"/> <!-- PMC I2C to system monitor !-->
+    
+    <!-- I/O Bank 502 (LPD MIO) !-->
+    <pin index="1400" name="gem0_tx_clk"             loc="A39"/> <!-- PS Ethernet !-->
+    <pin index="1401" name="gem0_txd_0"              loc="B39"/> <!-- PS Ethernet !-->
+    <pin index="1402" name="gem0_txd_1"              loc="C39"/> <!-- PS Ethernet !-->
+    <pin index="1403" name="gem0_txd_2"              loc="C38"/> <!-- PS Ethernet !-->
+    <pin index="1404" name="gem0_txd_3"              loc="A38"/> <!-- PS Ethernet !-->
+    <pin index="1405" name="gem0_tx_ctrl"            loc="A37"/> <!-- PS Ethernet !-->
+    <pin index="1406" name="gem0_rx_clk"             loc="B37"/> <!-- PS Ethernet !-->
+    <pin index="1407" name="gem0_rxd_0"              loc="C37"/> <!-- PS Ethernet !-->
+    <pin index="1408" name="gem0_rxd_1"              loc="E37"/> <!-- PS Ethernet !-->
+    <pin index="1409" name="gem0_rxd_2"              loc="F37"/> <!-- PS Ethernet !-->
+    <pin index="1410" name="gem0_rxd_3"              loc="E36"/> <!-- PS Ethernet !-->
+    <pin index="1411" name="gem0_rx_ctrl"            loc="D36"/> <!-- PS Ethernet !-->
+    <pin index="1412" name="lpd_mio12"               loc="C36"/> <!-- LPD general purpose I/O !-->
+    <pin index="1413" name="lpd_mio13"               loc="B36"/> <!-- LPD general purpose I/O !-->
+    <pin index="1414" name="lpd_mio14"               loc="A35"/> <!-- LPD general purpose I/O !-->
+    <pin index="1415" name="lpd_mio15"               loc="B35"/> <!-- LPD general purpose I/O !-->
+    <pin index="1416" name="lpd_mio16"               loc="D35"/> <!-- LPD general purpose I/O !-->
+    <pin index="1417" name="lpd_mio17"               loc="E35"/> <!-- LPD general purpose I/O !-->
+    <pin index="1418" name="lpd_mio18"               loc="F35"/> <!-- LPD general purpose I/O !-->
+    <pin index="1419" name="lpd_mio19"               loc="G35"/> <!-- LPD general purpose I/O !-->
+    <pin index="1420" name="lpd_mio20"               loc="D34"/> <!-- LPD general purpose I/O !-->
+    <pin index="1421" name="lpd_mio21"               loc="C34"/> <!-- LPD general purpose I/O !-->
+    <pin index="1422" name="lpd_mio22"               loc="B34"/> <!-- LPD general purpose I/O !-->
+    <pin index="1423" name="lpd_mio23"               loc="A34"/> <!-- LPD general purpose I/O !-->
+    <pin index="1424" name="gem0_mdc"                loc="C33"/> <!-- PS Ethernet !-->
+    <pin index="1425" name="gem0_mdio"               loc="D33"/> <!-- PS Ethernet !-->
+    
+    <!-- I/O Bank 200 (PL) !-->
+    <pin index="2000" name="dp0_c2m_p"               loc="AF7"/> <!-- FMC HSIO !-->
+    <pin index="2001" name="dp0_c2m_n"               loc="AF6"/> <!-- FMC HSIO !-->
+    <pin index="2002" name="dp0_m2c_p"               loc="AF2"/> <!-- FMC HSIO !-->
+    <pin index="2003" name="dp0_m2c_n"               loc="AF1"/> <!-- FMC HSIO !-->
+    <pin index="2004" name="dp1_c2m_p"               loc="AE9"/> <!-- FMC HSIO !-->
+    <pin index="2005" name="dp1_c2m_n"               loc="AE8"/> <!-- FMC HSIO !-->
+    <pin index="2006" name="dp1_m2c_p"               loc="AE4"/> <!-- FMC HSIO !-->
+    <pin index="2007" name="dp1_m2c_n"               loc="AE3"/> <!-- FMC HSIO !-->
+    <pin index="2008" name="dp2_c2m_p"               loc="AD7"/> <!-- FMC HSIO !-->
+    <pin index="2009" name="dp2_c2m_n"               loc="AD6"/> <!-- FMC HSIO !-->
+    <pin index="2010" name="dp2_m2c_p"               loc="AD2"/> <!-- FMC HSIO !-->
+    <pin index="2011" name="dp2_m2c_n"               loc="AD1"/> <!-- FMC HSIO !-->
+    <pin index="2012" name="dp3_c2m_p"               loc="AC9"/> <!-- FMC HSIO !-->
+    <pin index="2013" name="dp3_c2m_n"               loc="AC8"/> <!-- FMC HSIO !-->
+    <pin index="2014" name="dp3_m2c_p"               loc="AC4"/> <!-- FMC HSIO !-->
+    <pin index="2015" name="dp3_m2c_n"               loc="AC3"/> <!-- FMC HSIO !-->
+    <pin index="2016" name="mgt_progclk_0_clk_p"     loc="AF11"/> <!-- MGTREFCLK0P_200 !-->
+    <pin index="2017" name="mgt_progclk_0_clk_n"     loc="AF10"/> <!-- MGTREFCLK0N_200 !-->
+    <pin index="2018" name="si5328_refclk_in_clk_p"  loc="AD11"/> <!-- MGTREFCLK1P_200 !-->
+    <pin index="2019" name="si5328_refclk_in_clk_n"  loc="AD10"/> <!-- MGTREFCLK1N_200 !-->
+
+    <!-- I/O Bank 201 (PL) !-->
+    <pin index="2020" name="dp4_c2m_p"               loc="AB7"/> <!-- FMC HSIO !-->
+    <pin index="2021" name="dp4_c2m_n"               loc="AB6"/> <!-- FMC HSIO !-->
+    <pin index="2022" name="dp4_m2c_p"               loc="AB2"/> <!-- FMC HSIO !-->
+    <pin index="2023" name="dp4_m2c_n"               loc="AB1"/> <!-- FMC HSIO !-->
+    <pin index="2024" name="dp5_c2m_p"               loc="AA9"/> <!-- FMC HSIO !-->
+    <pin index="2025" name="dp5_c2m_n"               loc="AA8"/> <!-- FMC HSIO !-->
+    <pin index="2026" name="dp5_m2c_p"               loc="AA4"/> <!-- FMC HSIO !-->
+    <pin index="2027" name="dp5_m2c_n"               loc="AA3"/> <!-- FMC HSIO !-->
+    <pin index="2028" name="dp6_c2m_p"               loc="Y7"/> <!-- FMC HSIO !-->
+    <pin index="2029" name="dp6_c2m_n"               loc="Y6"/> <!-- FMC HSIO !-->
+    <pin index="2030" name="dp6_m2c_p"               loc="Y2"/> <!-- FMC HSIO !-->
+    <pin index="2031" name="dp6_m2c_n"               loc="Y1"/> <!-- FMC HSIO !-->
+    <pin index="2032" name="dp7_c2m_p"               loc="W9"/> <!-- FMC HSIO !-->
+    <pin index="2033" name="dp7_c2m_n"               loc="W8"/> <!-- FMC HSIO !-->
+    <pin index="2034" name="dp7_m2c_p"               loc="W4"/> <!-- FMC HSIO !-->
+    <pin index="2035" name="dp7_m2c_n"               loc="W3"/> <!-- FMC HSIO !-->
+    <pin index="2036" name="mgt_progclk_1_clk_p"     loc="AB11"/> <!-- MGTREFCLK0P_201 !-->
+    <pin index="2037" name="mgt_progclk_1_clk_n"     loc="AB10"/> <!-- MGTREFCLK0N_201 !-->
+    <pin index="2038" name="si5328_out_0_clk_p"      loc="M15"/> <!-- MGTREFCLK1P_201 !-->
+    <pin index="2039" name="si5328_out_0_clk_n"      loc="M14"/> <!-- MGTREFCLK1N_201 !-->
+
+    <!-- I/O Bank 202 (PL) !-->
+    <pin index="2040" name="dp8_c2m_p"               loc="V7"/> <!-- FMC HSIO !-->
+    <pin index="2041" name="dp8_c2m_n"               loc="V6"/> <!-- FMC HSIO !-->
+    <pin index="2042" name="dp8_m2c_p"               loc="V2"/> <!-- FMC HSIO !-->
+    <pin index="2043" name="dp8_m2c_n"               loc="V1"/> <!-- FMC HSIO !-->
+    <pin index="2044" name="dp9_c2m_p"               loc="U9"/> <!-- FMC HSIO !-->
+    <pin index="2045" name="dp9_c2m_n"               loc="U8"/> <!-- FMC HSIO !-->
+    <pin index="2046" name="dp9_m2c_p"               loc="U4"/> <!-- FMC HSIO !-->
+    <pin index="2047" name="dp9_m2c_n"               loc="U3"/> <!-- FMC HSIO !-->
+    <pin index="2048" name="dp10_c2m_p"              loc="T7"/> <!-- FMC HSIO !-->
+    <pin index="2049" name="dp10_c2m_n"              loc="T6"/> <!-- FMC HSIO !-->
+    <pin index="2050" name="dp10_m2c_p"              loc="T2"/> <!-- FMC HSIO !-->
+    <pin index="2051" name="dp10_m2c_n"              loc="T1"/> <!-- FMC HSIO !-->
+    <pin index="2052" name="dp11_c2m_p"              loc="R9"/> <!-- FMC HSIO !-->
+    <pin index="2053" name="dp11_c2m_n"              loc="R8"/> <!-- FMC HSIO !-->
+    <pin index="2054" name="dp11_m2c_p"              loc="R4"/> <!-- FMC HSIO !-->
+    <pin index="2055" name="dp11_m2c_n"              loc="R3"/> <!-- FMC HSIO !-->
+    <pin index="2056" name="mgt_progclk_2_clk_p"     loc="L13"/> <!-- MGTREFCLK0P_202 !-->
+    <pin index="2057" name="mgt_progclk_2_clk_n"     loc="L12"/> <!-- MGTREFCLK0N_202 !-->
+    <pin index="2058" name="gbtclk2_clk_p"           loc="K15"/> <!-- MGTREFCLK1P_202 !-->
+    <pin index="2059" name="gbtclk2_clk_n"           loc="K14"/> <!-- MGTREFCLK1N_202 !-->
+
+    <!-- I/O Bank 203 (PL) !-->
+    <pin index="2060" name="dp12_c2m_p"              loc="P7"/> <!-- FMC HSIO !-->
+    <pin index="2061" name="dp12_c2m_n"              loc="P6"/> <!-- FMC HSIO !-->
+    <pin index="2062" name="dp12_m2c_p"              loc="P2"/> <!-- FMC HSIO !-->
+    <pin index="2063" name="dp12_m2c_n"              loc="P1"/> <!-- FMC HSIO !-->
+    <pin index="2064" name="dp13_c2m_p"              loc="N9"/> <!-- FMC HSIO !-->
+    <pin index="2065" name="dp13_c2m_n"              loc="N8"/> <!-- FMC HSIO !-->
+    <pin index="2066" name="dp13_m2c_p"              loc="N4"/> <!-- FMC HSIO !-->
+    <pin index="2067" name="dp13_m2c_n"              loc="N3"/> <!-- FMC HSIO !-->
+    <pin index="2068" name="dp14_c2m_p"              loc="M7"/> <!-- FMC HSIO !-->
+    <pin index="2069" name="dp14_c2m_n"              loc="M6"/> <!-- FMC HSIO !-->
+    <pin index="2070" name="dp14_m2c_p"              loc="M2"/> <!-- FMC HSIO !-->
+    <pin index="2071" name="dp14_m2c_n"              loc="M1"/> <!-- FMC HSIO !-->
+    <pin index="2072" name="dp15_c2m_p"              loc="L9"/> <!-- FMC HSIO !-->
+    <pin index="2073" name="dp15_c2m_n"              loc="L8"/> <!-- FMC HSIO !-->
+    <pin index="2074" name="dp15_m2c_p"              loc="L4"/> <!-- FMC HSIO !-->
+    <pin index="2075" name="dp15_m2c_n"              loc="L3"/> <!-- FMC HSIO !-->
+    <pin index="2076" name="mgt_progclk_3_clk_p"     loc="J13"/> <!-- MGTREFCLK0P_203 !-->
+    <pin index="2077" name="mgt_progclk_3_clk_n"     loc="J12"/> <!-- MGTREFCLK0N_203 !-->
+    <pin index="2078" name="gbtclk3_clk_p"           loc="H15"/> <!-- MGTREFCLK1P_203 !-->
+    <pin index="2079" name="gbtclk3_clk_n"           loc="H14"/> <!-- MGTREFCLK1N_203 !-->
+
+    <!-- I/O Bank 204 (PL) !-->
+    <pin index="2080" name="dp16_c2m_p"              loc="K7"/> <!-- FMC HSIO !-->
+    <pin index="2081" name="dp16_c2m_n"              loc="K6"/> <!-- FMC HSIO !-->
+    <pin index="2082" name="dp16_m2c_p"              loc="K2"/> <!-- FMC HSIO !-->
+    <pin index="2083" name="dp16_m2c_n"              loc="K1"/> <!-- FMC HSIO !-->
+    <pin index="2084" name="dp17_c2m_p"              loc="K11"/> <!-- FMC HSIO !-->
+    <pin index="2085" name="dp17_c2m_n"              loc="K10"/> <!-- FMC HSIO !-->
+    <pin index="2086" name="dp17_m2c_p"              loc="J4"/> <!-- FMC HSIO !-->
+    <pin index="2087" name="dp17_m2c_n"              loc="J3"/> <!-- FMC HSIO !-->
+    <pin index="2088" name="dp18_c2m_p"              loc="J9"/> <!-- FMC HSIO !-->
+    <pin index="2089" name="dp18_c2m_n"              loc="J8"/> <!-- FMC HSIO !-->
+    <pin index="2090" name="dp18_m2c_p"              loc="H2"/> <!-- FMC HSIO !-->
+    <pin index="2091" name="dp18_m2c_n"              loc="H1"/> <!-- FMC HSIO !-->
+    <pin index="2092" name="dp19_c2m_p"              loc="H11"/> <!-- FMC HSIO !-->
+    <pin index="2093" name="dp19_c2m_n"              loc="H10"/> <!-- FMC HSIO !-->
+    <pin index="2094" name="dp19_m2c_p"              loc="H6"/> <!-- FMC HSIO !-->
+    <pin index="2095" name="dp19_m2c_n"              loc="H5"/> <!-- FMC HSIO !-->
+    <pin index="2096" name="mgt_progclk_4_clk_p"     loc="G13"/> <!-- MGTREFCLK0P_204 !-->
+    <pin index="2097" name="mgt_progclk_4_clk_n"     loc="G12"/> <!-- MGTREFCLK0N_204 !-->
+    <pin index="2098" name="si5328_out_1_clk_p"      loc="F15"/> <!-- MGTREFCLK1P_204 !-->
+    <pin index="2099" name="si5328_out_1_clk_n"      loc="F14"/> <!-- MGTREFCLK1N_204 !-->
+
+    <!-- I/O Bank 205 (PL) !-->
+    <pin index="2100" name="dp20_c2m_p"              loc="G9"/> <!-- FMC HSIO !-->
+    <pin index="2101" name="dp20_c2m_n"              loc="G8"/> <!-- FMC HSIO !-->
+    <pin index="2102" name="dp20_m2c_p"              loc="G4"/> <!-- FMC HSIO !-->
+    <pin index="2103" name="dp20_m2c_n"              loc="G3"/> <!-- FMC HSIO !-->
+    <pin index="2104" name="dp21_c2m_p"              loc="F11"/> <!-- FMC HSIO !-->
+    <pin index="2105" name="dp21_c2m_n"              loc="F10"/> <!-- FMC HSIO !-->
+    <pin index="2106" name="dp21_m2c_p"              loc="F2"/> <!-- FMC HSIO !-->
+    <pin index="2107" name="dp21_m2c_n"              loc="F1"/> <!-- FMC HSIO !-->
+    <pin index="2108" name="dp22_c2m_p"              loc="E9"/> <!-- FMC HSIO !-->
+    <pin index="2109" name="dp22_c2m_n"              loc="E8"/> <!-- FMC HSIO !-->
+    <pin index="2110" name="dp22_m2c_p"              loc="F6"/> <!-- FMC HSIO !-->
+    <pin index="2111" name="dp22_m2c_n"              loc="F5"/> <!-- FMC HSIO !-->
+    <pin index="2112" name="dp23_c2m_p"              loc="D11"/> <!-- FMC HSIO !-->
+    <pin index="2113" name="dp23_c2m_n"              loc="D10"/> <!-- FMC HSIO !-->
+    <pin index="2114" name="dp23_m2c_p"              loc="E4"/> <!-- FMC HSIO !-->
+    <pin index="2115" name="dp23_m2c_n"              loc="E3"/> <!-- FMC HSIO !-->
+    <pin index="2116" name="mgt_progclk_5_clk_p"     loc="E13"/> <!-- MGTREFCLK0P_205 !-->
+    <pin index="2117" name="mgt_progclk_5_clk_n"     loc="E12"/> <!-- MGTREFCLK0N_205 !-->
+    <pin index="2118" name="gbtclk5_clk_p"           loc="D15"/> <!-- MGTREFCLK1P_205 !-->
+    <pin index="2119" name="gbtclk5_clk_n"           loc="D14"/> <!-- MGTREFCLK1N_205 !-->
+
+    <!-- I/O Bank 206 (PL) !-->
+    <pin index="2120" name="firefly_tx0_p"           loc="C9"/> <!-- FireFly HSIO !-->
+    <pin index="2121" name="firefly_tx0_n"           loc="C8"/> <!-- FireFly HSIO !-->
+    <pin index="2122" name="firefly_rx0_p"           loc="D2"/> <!-- FireFly HSIO !-->
+    <pin index="2123" name="firefly_rx0_n"           loc="D1"/> <!-- FireFly HSIO !-->
+    <pin index="2124" name="firefly_tx1_p"           loc="B11"/> <!-- FireFly HSIO !-->
+    <pin index="2125" name="firefly_tx1_n"           loc="B10"/> <!-- FireFly HSIO !-->
+    <pin index="2126" name="firefly_rx1_p"           loc="D6"/> <!-- FireFly HSIO !-->
+    <pin index="2127" name="firefly_rx1_n"           loc="D5"/> <!-- FireFly HSIO !-->
+    <pin index="2128" name="firefly_tx2_p"           loc="A9"/> <!-- FireFly HSIO !-->
+    <pin index="2129" name="firefly_tx2_n"           loc="A8"/> <!-- FireFly HSIO !-->
+    <pin index="2130" name="firefly_rx2_p"           loc="C4"/> <!-- FireFly HSIO !-->
+    <pin index="2131" name="firefly_rx2_n"           loc="C3"/> <!-- FireFly HSIO !-->
+    <pin index="2132" name="firefly_tx3_p"           loc="A13"/> <!-- FireFly HSIO !-->
+    <pin index="2133" name="firefly_tx3_n"           loc="A12"/> <!-- FireFly HSIO !-->
+    <pin index="2134" name="firefly_rx3_p"           loc="B6"/> <!-- FireFly HSIO !-->
+    <pin index="2135" name="firefly_rx3_n"           loc="B5"/> <!-- FireFly HSIO !-->
+    <pin index="2136" name="firefly_clk_clk_p"       loc="C13"/> <!-- MGTREFCLK1P_206 !-->
+    <pin index="2137" name="firefly_clk_clk_n"       loc="C12"/> <!-- MGTREFCLK1N_206 !-->
+    <pin index="2138" name="mgt_progclk_7_clk_p"     loc="B15"/> <!-- MGTREFCLK0P_206 !-->
+    <pin index="2139" name="mgt_progclk_7_clk_n"     loc="B14"/> <!-- MGTREFCLK0N_206 !-->
+  </pins>
+
+</part_info>
