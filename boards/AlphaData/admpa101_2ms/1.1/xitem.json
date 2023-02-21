@@ -1,0 +1,34 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "admpa101_2ms",
+          "display": "ADM-PA101/2MS",
+          "revision": "1.1",
+          "description": "ADM-PA101/2MS PCI Express Reconfigurable Computing Card",
+          "company": "alpha-data.com",
+          "company_display": "Alpha Data",
+          "author": "adps",
+          "contributors": [
+            {
+              "group": "Alpha Data",
+              "url": "www.alpha-data.com"
+            }
+          ],
+          "category": "Single Part",
+          "website": "https://www.alpha-data.com/product/adm-pa101/",
+          "logo": "admpa101_image.jpg",
+          "search-keywords": [
+            "admpa101_2ms",
+            "alpha-data.com",
+            "board",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}
