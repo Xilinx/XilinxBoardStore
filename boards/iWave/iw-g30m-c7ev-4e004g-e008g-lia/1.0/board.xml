@@ -2,8 +2,8 @@
 <!-- ********************************************************************** -->
 <!-- 				    iWave Systems Technologies 				            -->
 <!-- ********************************************************************** -->
-<!-- SOM Supported	: iW-PRFUZ-R2.B										-->
-<!-- Date Created	: 23Jan2023												-->
+<!-- SOM Supported	: iW-PRFUZ-R2.B											-->
+<!-- Date Created	: 21Feb2023												-->
 <!-- ********************************************************************** -->
 
 <board schema_version="2.1" vendor="iwavesystems.com" name="iW-G30M-C7EV-4E004G-E008G-LIA" display_name="iW-G30M-C7EV-4E004G-E008G-LIA" url="https://www.iwavesystems.com/product/zu7-zu5-zu4-zynq-ultrascale-mpsocsom" preset_file="preset.xml">
@@ -15,7 +15,7 @@
 	</images>
 
 	<compatible_board_revisions>
-		<revision id="0">2.B/revision>
+		<revision id="0">2.B</revision>
 	</compatible_board_revisions>
 
 	<file_version>1.0</file_version>
@@ -30,7 +30,7 @@
 	<jumpers> </jumpers>
 
 	<components>
-		<component display_name="Zynq chip on board" name="part0" vendor="xilinx" type="fpga" spec_url="https://www.iwavesystems.com/product/zu7-zu5-zu4-zynq-ultrascale-mpsocsom" pin_map_file="part0_pins.xml" part_name="xczu7ev-fbvb900-1-e">
+		<component display_name="Zynq chip on board" name="part0" vendor="xilinx" type="fpga" spec_url="https://www.iwavesystems.com/product/zu7-zu5-zu4-zynq-ultrascale-mpsocsom" pin_map_file="part0_pins.xml" part_name="xczu7ev-fbvb900-1-i">
 			<description>FPGA part on the board</description>
 			<interfaces>
 				<interface name="ps8_fixedio" type="xilinx.com:zynq_ultra_ps_e:fixedio_rtl:1.0" preset_proc="zynq_ultra_ps_e_preset" of_component="ps8_fixedio" mode="master">
