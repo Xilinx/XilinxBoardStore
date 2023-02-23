@@ -3,7 +3,7 @@
 <!-- 				    iWave Systems Technologies 				            -->
 <!-- ********************************************************************** -->
 <!-- SOM Supported	: iW-PRFUZ-R2.1											-->
-<!-- Date Created	: 17Jan2023												-->
+<!-- Date Created	: 21Feb2023												-->
 <!-- ********************************************************************** -->
 
 <board schema_version="2.1" vendor="iwavesystems.com" name="iW-G30M-C7CG-4E004G-E008G-LIA" display_name="iW-G30M-C7CG-4E004G-E008G-LIA" url="https://www.iwavesystems.com/product/zu7-zu5-zu4-zynq-ultrascale-mpsocsom" preset_file="preset.xml">
@@ -15,7 +15,7 @@
 	</images>
 
 	<compatible_board_revisions>
-		<revision id="0">2.0</revision>
+		<revision id="0">2.1</revision>
 	</compatible_board_revisions>
 
 	<file_version>1.0</file_version>
