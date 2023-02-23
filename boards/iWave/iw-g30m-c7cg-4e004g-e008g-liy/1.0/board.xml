@@ -2,8 +2,8 @@
 <!-- ********************************************************************** -->
 <!-- 				    iWave Systems Technologies 				            -->
 <!-- ********************************************************************** -->
-<!-- SOM Supported	: iW-PRFUZ-R2.H										-->
-<!-- Date Created	: 24Jan2023												-->
+<!-- SOM Supported	: iW-PRFUZ-R2.H											-->
+<!-- Date Created	: 23Jan2023												-->
 <!-- ********************************************************************** -->
 
 <board schema_version="2.1" vendor="iwavesystems.com" name="iW-G30M-C7CG-4E004G-E008G-LIY" display_name="iW-G30M-C7CG-4E004G-E008G-LIY" url="https://www.iwavesystems.com/product/zu7-zu5-zu4-zynq-ultrascale-mpsocsom" preset_file="preset.xml">
@@ -20,7 +20,7 @@
 
 	<file_version>1.0</file_version>
 
-	<description>Zynq UltraScale+ MPSoC 7CG-1-I SOM, 4GB PS DDR4,  2GB FPGA DDR4, 8GB eMMC Flash</description>
+	<description>Zynq UltraScale+ MPSoC 7CG-1-I SOM, 4GB PS DDR4, 2 GB FPGA DDR4, 8GB eMMC Flash</description>
 
 	<parameters>
 		<parameter name="heat_sink_type" value_type="string" value="medium"/>
@@ -179,7 +179,7 @@
 		
 		<component display_name="PS8 fixed IO" name="ps8_fixedio" sub_type="fixed_io" type="chip" major_group=""/>
 		
-		<component name="ddr4" display_name="DDR4 SDRAM" type="chip" sub_type="ddr" major_group="External Memory" part_name="MT40A1G16RC-062E ITB" vendor="Micron" spec_url="https://in.micron.com/products/dram/ddr4-sdram/part-catalog/mt40a512m16jy-083e-it">
+		<component name="ddr4" display_name="DDR4 SDRAM" type="chip" sub_type="ddr" major_group="External Memory" part_name="MT40A1G16RC-062E ITB" vendor="Micron" spec_url="https://in.micron.com/products/dram/ddr4-sdram/part-catalog/mt40a1g16rc-062e-it">
 			<description>2GB FPGA DDR4</description>
 			<parameters>
 				<parameter name="ddr_type" value="ddr4"/>

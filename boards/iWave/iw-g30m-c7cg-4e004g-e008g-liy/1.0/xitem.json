@@ -6,7 +6,7 @@
           "name": "iW-G30M-C7CG-4E004G-E008G-LIY", 
           "display": "iW-G30M-C7CG-4E004G-E008G-LIY", 
           "revision": "2.H", 
-          "description": "Zynq UltraScale+ MPSoC 7CG-1-I SOM, 4GB PS DDR4, 2GB FPGA DDR4, 8GB eMMC Flash", 
+          "description": "Zynq UltraScale+ MPSoC 7CG-1-I SOM, 4GB PS DDR4, 2 GB FPGA DDR4, 8GB eMMC Flash", 
           "company": "iwavesystems.com", 
           "company_display": "iWave Systems Technologies", 
           "author": "iwavesystems.com", 
