@@ -7353,6 +7353,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "alpha-data.com"
+      },
+      {
+        "name": "admpa101_2ms",
+        "display": "ADM-PA101/2MS",
+        "latest_revision": "1.1",
+        "commit_id": "ff20e912b64149b14f05e36e471f6960f8692b26",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "ff20e912b64149b14f05e36e471f6960f8692b26",
+            "date": "27-02-2023:15:14:04",
+            "history": "Added board ADM-PA101/2MS v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/AlphaData/admpa101_2ms/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "alpha-data.com"
       }
     ],
     "categories": [
