@@ -89,11 +89,16 @@
             "xitem_catalogue_file": "catalog/vivado_2022.1.json", 
             "version": "2022.1", 
             "remote_repo_branch_to_sync": "2022.1"
-          },
+          }, 
           {
             "xitem_catalogue_file": "catalog/vivado_2022.2.json", 
             "version": "2022.2", 
             "remote_repo_branch_to_sync": "2022.2"
+          }, 
+          {
+            "xitem_catalogue_file": "catalog/vivado_2023.1.json", 
+            "version": "2023.1", 
+            "remote_repo_branch_to_sync": "2023.1"
           }
         ]
       }
