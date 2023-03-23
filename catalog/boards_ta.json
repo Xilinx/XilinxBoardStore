@@ -4,6 +4,6 @@
         "name": "tenzing",
         "repo_path": "Xilinx/tenzing",
 		"Exclude_from_REL": "true"
-      }   
+      }  
 ]
 }

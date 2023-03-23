@@ -1,0 +1,11 @@
+######### VPK120 Rev B change log ##############
+1.1 - 2023.1
+Added support for additional FPGA part - xcvp1202-vsva2785-2MHP-e-S-es1
+Corrected the format of PCIe reset pins for CIPS preset
+
+1.0 - 2022.2_web
+Made board file compatible for RevB_01 board revision
+Changes - CIPS preset and UART addition
+
+
+
