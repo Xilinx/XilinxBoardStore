@@ -1,0 +1,1732 @@
+{
+  "catalog": {
+    "items": [
+      {
+        "name": "vhk158_es",
+        "display": "Versal VHK158-ES Evaluation Platform",
+        "latest_revision": "3.0",
+        "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+            "date": "12-04-2022:10:26:24",
+            "history": "Added board Versal VHK158-ES Evaluation Platform v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vhk158/es/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "ac701",
+        "display": "Artix-7 AC701 Evaluation Platform",
+        "latest_revision": "1.4",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.4",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Artix-7 AC701 Evaluation Platform v1.4"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/ac701/1.4",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "k26c",
+        "display": "Kria K26C SOM",
+        "latest_revision": "1.2",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Kria K26C SOM v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/k26c/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "k26c",
+        "display": "Kria K26C SOM",
+        "latest_revision": "1.3",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.3",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Kria K26C SOM v1.3"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/k26c/1.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "k26c",
+        "display": "Kria K26C SOM",
+        "latest_revision": "1.4",
+        "commit_id": "bcca45c1cbc620074dbafa896b642354ee407fa8",
+        "revisions": [
+          {
+            "revision": "1.4",
+            "commit_id": "bcca45c1cbc620074dbafa896b642354ee407fa8",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Kria K26C SOM v1.4"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/k26c/1.4",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "k26i",
+        "display": "Kria K26i SOM",
+        "latest_revision": "1.2",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Kria K26i SOM v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/k26i/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "k26i",
+        "display": "Kria K26i SOM",
+        "latest_revision": "1.3",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.3",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Kria K26i SOM v1.3"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/k26i/1.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "k26i",
+        "display": "Kria K26i SOM",
+        "latest_revision": "1.4",
+        "commit_id": "bcca45c1cbc620074dbafa896b642354ee407fa8",
+        "revisions": [
+          {
+            "revision": "1.4",
+            "commit_id": "bcca45c1cbc620074dbafa896b642354ee407fa8",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Kria K26i SOM v1.4"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/k26i/1.4",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "kc705",
+        "display": "Kintex-7 KC705 Evaluation Platform",
+        "latest_revision": "1.6",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.6",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Kintex-7 KC705 Evaluation Platform v1.6"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/kc705/1.6",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "kcu105",
+        "display": "Kintex-UltraScale KCU105 Evaluation Platform",
+        "latest_revision": "1.6",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.6",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Kintex-UltraScale KCU105 Evaluation Platform v1.6"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/kcu105/1.6",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "kcu105",
+        "display": "Kintex-UltraScale KCU105 Evaluation Platform",
+        "latest_revision": "1.7",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.7",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Kintex-UltraScale KCU105 Evaluation Platform v1.7"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/kcu105/1.7",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "kcu116",
+        "display": "Kintex UltraScale+ KCU116 Evaluation Platform",
+        "latest_revision": "1.4",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.4",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Kintex UltraScale+ KCU116 Evaluation Platform v1.4"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/kcu116/1.4",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "kcu116",
+        "display": "Kintex UltraScale+ KCU116 Evaluation Platform",
+        "latest_revision": "1.5",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.5",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Kintex UltraScale+ KCU116 Evaluation Platform v1.5"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/kcu116/1.5",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "kcu1500",
+        "display": "Kintex UltraScale KCU1500 Acceleration Development Board",
+        "latest_revision": "1.2",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Kintex UltraScale KCU1500 Acceleration Development Board v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/kcu1500/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "LI-IMX274MIPI-FMC",
+        "display": "FMC XM105 Debug Card",
+        "latest_revision": "1.0",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board FMC XM105 Debug Card v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/li-imx274-mipi/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "Leopardimaging"
+      },
+      {
+        "name": "sp701",
+        "display": "Spartan-7 SP701 Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Spartan-7 SP701 Evaluation Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/sp701/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "sp701",
+        "display": "Spartan-7 SP701 Evaluation Platform",
+        "latest_revision": "1.1",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Spartan-7 SP701 Evaluation Platform v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/sp701/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vc707",
+        "display": "Virtex-7 VC707 Evaluation Platform",
+        "latest_revision": "1.4",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.4",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Virtex-7 VC707 Evaluation Platform v1.4"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vc707/1.4",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vc709",
+        "display": "Virtex-7 VC709 Evaluation Platform",
+        "latest_revision": "1.8",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.8",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Virtex-7 VC709 Evaluation Platform v1.8"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vc709/1.8",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vck190",
+        "display": "Versal VCK190 Evaluation Platform",
+        "latest_revision": "2.2",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "2.2",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Versal VCK190 Evaluation Platform v2.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vck190/production/2.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vck190",
+        "display": "Versal VCK190 Evaluation Platform",
+        "latest_revision": "3.0",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Versal VCK190 Evaluation Platform v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vck190/production/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vck190",
+        "display": "Versal VCK190 Evaluation Platform",
+        "latest_revision": "3.1",
+        "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+        "revisions": [
+          {
+            "revision": "3.1",
+            "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Versal VCK190 Evaluation Platform v3.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vck190/production/3.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vck190_newl",
+        "display": "Versal VCK190 Evaluation Platform with New SD Level Shifter",
+        "latest_revision": "1.0",
+        "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Versal VCK190 Evaluation Platform with New SD Level Shifter v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vck190_newl/production/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vcu108",
+        "display": "Virtex-UltraScale VCU108 Evaluation Platform",
+        "latest_revision": "1.6",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.6",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Virtex-UltraScale VCU108 Evaluation Platform v1.6"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vcu108/1.6",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vcu108",
+        "display": "Virtex-UltraScale VCU108 Evaluation Platform",
+        "latest_revision": "1.7",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.7",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Virtex-UltraScale VCU108 Evaluation Platform v1.7"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vcu108/1.7",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vcu110",
+        "display": "Virtex-UltraScale VCU110 Evaluation Platform",
+        "latest_revision": "1.4",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.4",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Virtex-UltraScale VCU110 Evaluation Platform v1.4"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vcu110/1.4",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vcu118",
+        "display": "Virtex UltraScale+ VCU118 Evaluation Platform",
+        "latest_revision": "2.0",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Virtex UltraScale+ VCU118 Evaluation Platform v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vcu118/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vcu118",
+        "display": "Virtex UltraScale+ VCU118 Evaluation Platform",
+        "latest_revision": "2.3",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "2.3",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Virtex UltraScale+ VCU118 Evaluation Platform v2.3"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vcu118/2.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vcu118",
+        "display": "Virtex UltraScale+ VCU118 Evaluation Platform",
+        "latest_revision": "2.4",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "2.4",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Virtex UltraScale+ VCU118 Evaluation Platform v2.4"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vcu118/2.4",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vcu128",
+        "display": "Virtex Ultrascale+ HBM VCU128 Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Virtex Ultrascale+ HBM VCU128 Evaluation Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vcu128/production/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vcu129",
+        "display": "Virtex Ultrascale+ 56G VCU129 Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Virtex Ultrascale+ 56G VCU129 Evaluation Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vcu129/production/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vcu1525",
+        "display": "Virtex UltraScale+ VCU1525 Acceleration Development Board",
+        "latest_revision": "1.3",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.3",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Virtex UltraScale+ VCU1525 Acceleration Development Board v1.3"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vcu1525/1.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vermeo_t1_mpsoc",
+        "display": "Zynq Ultrascale+ MPSoC T1 Development Board",
+        "latest_revision": "1.0",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Zynq Ultrascale+ MPSoC T1 Development Board v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vermeo_t1_mpsoc/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vermeo_t1_rfsoc",
+        "display": "Zynq Ultrascale+ RFSoC T1 Development Board",
+        "latest_revision": "1.0",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Zynq Ultrascale+ RFSoC T1 Development Board v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vermeo_t1_rfsoc/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vmk180",
+        "display": "Versal VMK180 Evaluation Platform",
+        "latest_revision": "2.2",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "2.2",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Versal VMK180 Evaluation Platform v2.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vmk180/production/2.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vmk180",
+        "display": "Versal VMK180 Evaluation Platform",
+        "latest_revision": "3.0",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Versal VMK180 Evaluation Platform v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vmk180/production/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vmk180",
+        "display": "Versal VMK180 Evaluation Platform",
+        "latest_revision": "3.1",
+        "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+        "revisions": [
+          {
+            "revision": "3.1",
+            "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Versal VMK180 Evaluation Platform v3.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vmk180/production/3.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vmk180_newl",
+        "display": "Versal VMK180 Evaluation Platform with New SD Level Shifter",
+        "latest_revision": "1.0",
+        "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Versal VMK180 Evaluation Platform with New SD Level Shifter v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vmk180_newl/production/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vpk120_es",
+        "display": "Versal VPK120 ES1 Evaluation Platform",
+        "latest_revision": "1.2",
+        "commit_id": "b7f8bf72a203a60bdd79916ec0b07525185ba7b6",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "b7f8bf72a203a60bdd79916ec0b07525185ba7b6",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Versal VPK120 ES1 Evaluation Platform v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vpk120/es/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vpk120",
+        "display": "Versal VPK120 Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Versal VPK120 Evaluation Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vpk120/production/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vpk120_es_revb",
+        "display": "Versal VPK120 ES1 Rev B01 Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Versal VPK120 ES1 Rev B01 Evaluation Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vpk120_revb/es/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vpk180_es",
+        "display": "Versal VPK180 ES1 Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Versal VPK180 ES1 Evaluation Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vpk180/es/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "xm105",
+        "display": "FMC XM105 Debug Card",
+        "latest_revision": "1.0",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board FMC XM105 Debug Card v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/xm105/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zc702",
+        "display": "ZYNQ-7 ZC702 Evaluation Board",
+        "latest_revision": "1.4",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.4",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board ZYNQ-7 ZC702 Evaluation Board v1.4"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zc702/1.4",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zc706",
+        "display": "ZYNQ-7 zc706 Evaluation Board",
+        "latest_revision": "1.4",
+        "commit_id": "98bd8cd9f43bf3acf15669f0f59015a745a0bdf6",
+        "revisions": [
+          {
+            "revision": "1.4",
+            "commit_id": "98bd8cd9f43bf3acf15669f0f59015a745a0bdf6",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board ZYNQ-7 zc706 Evaluation Board v1.4"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zc706/1.4",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu102",
+        "display": "Zynq UltraScale+ ZCU102 Evaluation Board",
+        "latest_revision": "3.3",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "3.3",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Zynq UltraScale+ ZCU102 Evaluation Board v3.3"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu102/3.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu102",
+        "display": "Zynq UltraScale+ ZCU102 Evaluation Board",
+        "latest_revision": "3.4",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "3.4",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Zynq UltraScale+ ZCU102 Evaluation Board v3.4"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu102/3.4",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu104",
+        "display": "Zynq UltraScale+ ZCU104 Evaluation Board",
+        "latest_revision": "1.1",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Zynq UltraScale+ ZCU104 Evaluation Board v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu104/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu106",
+        "display": "Zynq UltraScale+ ZCU106 Evaluation Platform",
+        "latest_revision": "2.4",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "2.4",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Zynq UltraScale+ ZCU106 Evaluation Platform v2.4"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu106/2.4",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu106",
+        "display": "Zynq UltraScale+ ZCU106 Evaluation Platform",
+        "latest_revision": "2.5",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "2.5",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Zynq UltraScale+ ZCU106 Evaluation Platform v2.5"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu106/2.5",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu106",
+        "display": "Zynq UltraScale+ ZCU106 Evaluation Platform",
+        "latest_revision": "2.6",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "2.6",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Zynq UltraScale+ ZCU106 Evaluation Platform v2.6"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu106/2.6",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu111",
+        "display": "Zynq UltraScale+ ZCU111 Evaluation Platform",
+        "latest_revision": "1.2",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Zynq UltraScale+ ZCU111 Evaluation Platform v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu111/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu111",
+        "display": "Zynq UltraScale+ ZCU111 Evaluation Platform",
+        "latest_revision": "1.3",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.3",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Zynq UltraScale+ ZCU111 Evaluation Platform v1.3"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu111/1.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu111",
+        "display": "Zynq UltraScale+ ZCU111 Evaluation Platform",
+        "latest_revision": "1.4",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.4",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Zynq UltraScale+ ZCU111 Evaluation Platform v1.4"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu111/1.4",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu1275",
+        "display": "Xilinx Zynq UltraScale+ RFSoC ZCU1275 Characterization Kit",
+        "latest_revision": "1.0",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Xilinx Zynq UltraScale+ RFSoC ZCU1275 Characterization Kit v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu1275/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu1285",
+        "display": "Xilinx Zynq UltraScale+ RFSoC ZCU1285 Characterization Kit",
+        "latest_revision": "1.0",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Xilinx Zynq UltraScale+ RFSoC ZCU1285 Characterization Kit v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu1285/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu208",
+        "display": "Zynq UltraScale+ ZCU208 Evaluation Platform",
+        "latest_revision": "2.0",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Zynq UltraScale+ ZCU208 Evaluation Platform v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu208/production/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu208ld",
+        "display": "Zynq UltraScale+ ZCU208-LD Evaluation Platform",
+        "latest_revision": "2.0",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Zynq UltraScale+ ZCU208-LD Evaluation Platform v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu208ld/production/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu216",
+        "display": "Zynq UltraScale+ ZCU216 Evaluation Platform",
+        "latest_revision": "2.0",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Zynq UltraScale+ ZCU216 Evaluation Platform v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu216/production/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu216ld",
+        "display": "Zynq UltraScale+ ZCU216-LD Evaluation Platform",
+        "latest_revision": "2.0",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Zynq UltraScale+ ZCU216-LD Evaluation Platform v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu216ld/production/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu670",
+        "display": "Zynq UltraScale+ ZCU670 Evaluation Platform",
+        "latest_revision": "2.0",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Zynq UltraScale+ ZCU670 Evaluation Platform v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu670/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "zcu670ld",
+        "display": "Zynq UltraScale+ ZCU670-LD Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "28-06-2022:17:43:00",
+            "history": "Added board Zynq UltraScale+ ZCU670-LD Evaluation Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zcu670ld/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "ZC706",
+        "display": "Zynq 7000 ZC706 Evaluation Board",
+        "latest_revision": "1.4",
+        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "revisions": [
+          {
+            "revision": "1.4",
+            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "date": "06-09-2022:12:01:34",
+            "history": "Added board Zynq 7000 ZC706 Evaluation Board v1.4"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/zc706/1.4",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vpk180",
+        "display": "Versal VPK180 Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+            "date": "15-11-2022:06:21:46",
+            "history": "Added board Versal VPK180 Evaluation Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vpk180/production/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "kr260",
+        "display": "Robotics Starter Kit carrier card",
+        "latest_revision": "1.0",
+        "commit_id": "215afcf96801474333bd672cef972f1cc5fcdc5e",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "215afcf96801474333bd672cef972f1cc5fcdc5e",
+            "date": "06-12-2022:04:44:08",
+            "history": "Added board Robotics Starter Kit carrier card v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/kr260_carrier/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "kr260_som",
+        "display": "Kria KR260 Robotics Starter Kit SOM",
+        "latest_revision": "1.0",
+        "commit_id": "215afcf96801474333bd672cef972f1cc5fcdc5e",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "215afcf96801474333bd672cef972f1cc5fcdc5e",
+            "date": "06-12-2022:04:44:08",
+            "history": "Added board Kria KR260 Robotics Starter Kit SOM v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/kr260_som/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "kr260_som",
+        "display": "Kria KR260 Robotics Starter Kit SOM",
+        "latest_revision": "1.1",
+        "commit_id": "215afcf96801474333bd672cef972f1cc5fcdc5e",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "215afcf96801474333bd672cef972f1cc5fcdc5e",
+            "date": "06-12-2022:04:44:08",
+            "history": "Added board Kria KR260 Robotics Starter Kit SOM v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/kr260_som/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "kv260_carrier",
+        "display": "Vision AI Starter Kit carrier card",
+        "latest_revision": "1.2",
+        "commit_id": "215afcf96801474333bd672cef972f1cc5fcdc5e",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "215afcf96801474333bd672cef972f1cc5fcdc5e",
+            "date": "06-12-2022:04:44:08",
+            "history": "Added board Vision AI Starter Kit carrier card v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/kv260_carrier/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "kv260_carrier",
+        "display": "Vision AI Starter Kit carrier card",
+        "latest_revision": "1.3",
+        "commit_id": "215afcf96801474333bd672cef972f1cc5fcdc5e",
+        "revisions": [
+          {
+            "revision": "1.3",
+            "commit_id": "215afcf96801474333bd672cef972f1cc5fcdc5e",
+            "date": "06-12-2022:04:44:08",
+            "history": "Added board Vision AI Starter Kit carrier card v1.3"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/kv260_carrier/1.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "kv260_som",
+        "display": "Kria KV260 Vision AI Starter Kit SOM",
+        "latest_revision": "1.2",
+        "commit_id": "215afcf96801474333bd672cef972f1cc5fcdc5e",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "215afcf96801474333bd672cef972f1cc5fcdc5e",
+            "date": "06-12-2022:04:44:08",
+            "history": "Added board Kria KV260 Vision AI Starter Kit SOM v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/kv260_som/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "kv260_som",
+        "display": "Kria KV260 Vision AI Starter Kit SOM",
+        "latest_revision": "1.3",
+        "commit_id": "215afcf96801474333bd672cef972f1cc5fcdc5e",
+        "revisions": [
+          {
+            "revision": "1.3",
+            "commit_id": "215afcf96801474333bd672cef972f1cc5fcdc5e",
+            "date": "06-12-2022:04:44:08",
+            "history": "Added board Kria KV260 Vision AI Starter Kit SOM v1.3"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/kv260_som/1.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "kv260_som",
+        "display": "Kria KV260 Vision AI Starter Kit SOM",
+        "latest_revision": "1.4",
+        "commit_id": "215afcf96801474333bd672cef972f1cc5fcdc5e",
+        "revisions": [
+          {
+            "revision": "1.4",
+            "commit_id": "215afcf96801474333bd672cef972f1cc5fcdc5e",
+            "date": "06-12-2022:04:44:08",
+            "history": "Added board Kria KV260 Vision AI Starter Kit SOM v1.4"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/kv260_som/1.4",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vek280_es",
+        "display": "Versal VEK280 ES1 Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+            "date": "06-01-2023:04:59:08",
+            "history": "Added board Versal VEK280 ES1 Evaluation Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vek280/es/rev_a/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vek280_es_revb",
+        "display": "Versal VEK280 ES1 Rev B01 Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+            "date": "06-01-2023:04:59:08",
+            "history": "Added board Versal VEK280 ES1 Rev B01 Evaluation Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vek280/es/rev_b/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vpk120_es_revb",
+        "display": "Versal VPK120 ES1 Rev B01 Evaluation Platform",
+        "latest_revision": "1.1",
+        "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "ffe332cb48dcfebda44abee58b97614adafb1b31",
+            "date": "11-01-2023:10:50:13",
+            "history": "Added board Versal VPK120 ES1 Rev B01 Evaluation Platform v1.0"
+          },
+          {
+            "revision": "1.1",
+            "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+            "date": "25-01-2023:08:05:13",
+            "history": "Added board Versal VPK120 ES1 Rev B01 Evaluation Platform v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vpk120_revb/es/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vek280_es",
+        "display": "Versal VEK280 ES1 Rev B01 Evaluation Platform",
+        "latest_revision": "1.1",
+        "commit_id": "cd1bb90fd13abbd659e8f14a50339fe59bc1525e",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "cd1bb90fd13abbd659e8f14a50339fe59bc1525e",
+            "date": "18-01-2023:11:12:17",
+            "history": "Added board Versal VEK280 ES1 Rev B01 Evaluation Platform v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vek280/es/rev_b/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vek280_es_revb",
+        "display": "Versal VEK280 ES1 Evaluation Platform with FMC Connector",
+        "latest_revision": "1.1",
+        "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+            "date": "18-01-2023:11:12:17",
+            "history": "Added board Versal VEK280 ES1 Evaluation Platform with FMC Connector v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vek280/es/rev_b/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vhk158",
+        "display": "Versal VHK158 Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+            "date": "18-01-2023:11:47:56",
+            "history": "Added board Versal VHK158 Evaluation Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vhk158/production/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "LI-IMX274MIPI-FMC-Versal",
+        "display": "FMC XM105 Debug Card",
+        "latest_revision": "1.0",
+        "commit_id": "c06da8885f2ce399bb601bcf2a20d9f88205b85d",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "c06da8885f2ce399bb601bcf2a20d9f88205b85d",
+            "date": "02-02-2023:06:02:24",
+            "history": "Added board FMC XM105 Debug Card v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/li-imx274-mipi-versal/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "Leopardimaging"
+      },
+      {
+        "name": "vpk120_es",
+        "display": "Versal VPK120 ES1 Evaluation Platform",
+        "latest_revision": "1.3",
+        "commit_id": "b7f8bf72a203a60bdd79916ec0b07525185ba7b6",
+        "revisions": [
+          {
+            "revision": "1.3",
+            "commit_id": "b7f8bf72a203a60bdd79916ec0b07525185ba7b6",
+            "date": "15-03-2023:09:27:02",
+            "history": "Added board Versal VPK120 ES1 Evaluation Platform v1.3"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vpk120/es/1.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vck190",
+        "display": "Versal VCK190 Evaluation Platform",
+        "latest_revision": "3.2",
+        "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+        "revisions": [
+          {
+            "revision": "3.2",
+            "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+            "date": "23-03-2023:08:31:25",
+            "history": "Added board Versal VCK190 Evaluation Platform v3.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vck190/production/3.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vck190_newl",
+        "display": "Versal VCK190 Evaluation Platform with New SD Level Shifter",
+        "latest_revision": "1.1",
+        "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+            "date": "23-03-2023:08:31:25",
+            "history": "Added board Versal VCK190 Evaluation Platform with New SD Level Shifter v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vck190_newl/production/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vek280_es",
+        "display": "Versal VEK280 ES1 Evaluation Platform",
+        "latest_revision": "1.1",
+        "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+            "date": "23-03-2023:08:31:25",
+            "history": "Added board Versal VEK280 ES1 Evaluation Platform v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vek280/es/rev_a/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vhk158_es",
+        "display": "Versal VHK158-ES Evaluation Platform",
+        "latest_revision": "1.1",
+        "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+            "date": "23-03-2023:08:31:25",
+            "history": "Added board Versal VHK158-ES Evaluation Platform v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vhk158/es/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vmk180",
+        "display": "Versal VMK180 Evaluation Platform",
+        "latest_revision": "3.2",
+        "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+        "revisions": [
+          {
+            "revision": "3.2",
+            "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+            "date": "23-03-2023:08:31:25",
+            "history": "Added board Versal VMK180 Evaluation Platform v3.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vmk180/production/3.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vmk180_newl",
+        "display": "Versal VMK180 Evaluation Platform with New SD Level Shifter",
+        "latest_revision": "1.1",
+        "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+            "date": "23-03-2023:08:31:25",
+            "history": "Added board Versal VMK180 Evaluation Platform with New SD Level Shifter v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vmk180_newl/production/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vpk120",
+        "display": "Versal VPK120 Evaluation Platform",
+        "latest_revision": "1.1",
+        "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+            "date": "23-03-2023:08:31:25",
+            "history": "Added board Versal VPK120 Evaluation Platform v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vpk120/production/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vpk180_es",
+        "display": "Versal VPK180 ES1 Evaluation Platform",
+        "latest_revision": "1.1",
+        "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+            "date": "23-03-2023:08:31:25",
+            "history": "Added board Versal VPK180 ES1 Evaluation Platform v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vpk180/es/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vpk180",
+        "display": "Versal VPK180 Evaluation Platform",
+        "latest_revision": "1.1",
+        "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "0068b165f173c7a26e055158f5dad6421d2a0c07",
+            "date": "23-03-2023:08:31:25",
+            "history": "Added board Versal VPK180 Evaluation Platform v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vpk180/production/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      }
+    ],
+    "categories": [
+      {
+        "name": "single_part",
+        "display_name": "Single Part",
+        "description": "This category represents all the boards which have single part",
+        "parent": ""
+      },
+      {
+        "name": "multi_part",
+        "display_name": "Multi Part",
+        "description": "This category represents all the boards which have multi part",
+        "parent": ""
+      },
+      {
+        "name": "daughter_card",
+        "display_name": "Daughter Card",
+        "description": "This category represents all the boards which are daughter cards",
+        "parent": ""
+      },
+      {
+        "name": "misc",
+        "display_name": "Misc",
+        "description": "This category represents miscellaneous variety of boards",
+        "default": true,
+        "parent": ""
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}
