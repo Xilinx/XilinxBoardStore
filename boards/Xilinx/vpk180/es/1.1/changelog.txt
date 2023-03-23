@@ -1,0 +1,9 @@
+######### VPK180 change log ##############
+1.1 - 2023.1
+Corrected the format of PCIe reset pins for CIPS preset
+
+1.0
+Initial board file support - vpk180 (2022.1)
+
+
+
