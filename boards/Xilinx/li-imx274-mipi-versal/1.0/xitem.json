@@ -4,9 +4,9 @@
       {
         "infra": {
           "name": "LI-IMX274MIPI-FMC-Versal", 
-          "display": "FMC XM105 Debug Card", 
+          "display": "LI-IMX274MIPI-FMC Versal", 
           "revision": "1.0", 
-          "description": "FMC XM105 Debug Card", 
+          "description": "LI-IMX274MIPI-FMC Versal", 
           "company": "Leopardimaging", 
           "company_display": "Leopardimaging", 
           "author": "KondalRao", 
@@ -18,7 +18,7 @@
           ], 
           "category": "FMCs & Accessories",
           "logo": "",
-          "website": "www.xilinx.com/SOM", 
+          "website": "https://leopardimaging.com/product/li-imx274mipi-fmc/", 
           "search-keywords": [
             "FMC", 
             "xilinx.com", 

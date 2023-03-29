@@ -48,10 +48,10 @@
 		
 		<component name="txdsi" display_name="MIPI DSI Tx" type="chip" sub_type="chip" major_group="FMC">
 			<description>MIPI DSI Tx Subsystem to connect to LI-IMX274MIPI-FMC V1.0 FMC placed on ZCU102 HPC0 FMC Slot only</description>
-			<!-- <preferred_ips> -->
-			<!-- <preferred_ip vendor="xilinx.com" library="ip" name="mipi_dsi_tx_subsystem" order="0"/> -->
-			<!-- <preferred_ip vendor="xilinx.com" library="ip" name="mipi_dphy" order="1"/> -->
-			<!-- </preferred_ips> -->
+			<preferred_ips>
+			<preferred_ip vendor="xilinx.com" library="ip" name="mipi_dsi_tx_subsystem" order="0"/>
+			<preferred_ip vendor="xilinx.com" library="ip" name="mipi_dphy" order="1"/>
+			</preferred_ips>
 		</component>
 		
 		<component name="mipi_csi2_iic" display_name="MIPI CSI-2 IIC" type="chip" sub_type="chip" major_group="FMC">
@@ -218,8 +218,8 @@
 				<pin index="143" name=""/><!-- D23 -->
 				<pin index="144" name=""/><!-- D24 -->
 				<pin index="145" name=""/><!-- D25 -->
-				<pin index="146" name="fmc_hpc0_la26_p" iostandard="HSUL_12_DCI"/><!-- D26 -->
-				<pin index="147" name="fmc_hpc0_la26_n" iostandard="HSUL_12_DCI"></pin><!-- D27 -->
+				<pin index="146" name="fmc_hpc0_la26_p" iostandard="LVCMOS12"/><!-- D26 -->
+				<pin index="147" name="fmc_hpc0_la26_n" iostandard="LVCMOS12"></pin><!-- D27 -->
 				<pin index="148" name=""/><!-- D28 -->
 				<pin index="149" name=""/><!-- D29 -->
 				<pin index="150" name=""/><!-- D30 -->
