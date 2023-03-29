@@ -271,11 +271,11 @@
         "name": "LI-IMX274MIPI-FMC",
         "display": "FMC XM105 Debug Card",
         "latest_revision": "1.0",
-        "commit_id": "aee70be5a22a4b0d798583360383ca149163d5fb",
+        "commit_id": "d26d6799127dba875350157db35e4de5e128bc17",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "aee70be5a22a4b0d798583360383ca149163d5fb",
+            "commit_id": "d26d6799127dba875350157db35e4de5e128bc17",
             "date": "28-06-2022:17:43:00",
             "history": "Added board FMC XM105 Debug Card v1.0"
           }
@@ -1455,11 +1455,11 @@
         "name": "vek280_es_revb",
         "display": "Versal VEK280 ES1 Evaluation Platform with FMC Connector",
         "latest_revision": "1.1",
-        "commit_id": "aee70be5a22a4b0d798583360383ca149163d5fb",
+        "commit_id": "d26d6799127dba875350157db35e4de5e128bc17",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "aee70be5a22a4b0d798583360383ca149163d5fb",
+            "commit_id": "d26d6799127dba875350157db35e4de5e128bc17",
             "date": "18-01-2023:11:12:17",
             "history": "Added board Versal VEK280 ES1 Evaluation Platform with FMC Connector v1.1"
           }
@@ -1493,11 +1493,11 @@
         "name": "LI-IMX274MIPI-FMC-Versal",
         "display": "FMC XM105 Debug Card",
         "latest_revision": "1.0",
-        "commit_id": "aee70be5a22a4b0d798583360383ca149163d5fb",
+        "commit_id": "d26d6799127dba875350157db35e4de5e128bc17",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "aee70be5a22a4b0d798583360383ca149163d5fb",
+            "commit_id": "d26d6799127dba875350157db35e4de5e128bc17",
             "date": "02-02-2023:06:02:24",
             "history": "Added board FMC XM105 Debug Card v1.0"
           }
