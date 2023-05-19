@@ -46,7 +46,7 @@
   <pin index="42" name ="arduino_a0_a13_tri_i_7" iostandard="LVCMOS33" loc="U17"/>
   <pin index="43" name ="arduino_a0_a13_tri_i_8" iostandard="LVCMOS33" loc="V17"/>
   <pin index="44" name ="arduino_a0_a13_tri_i_9" iostandard="LVCMOS33" loc="V18"/>
-  <pin index="45" name ="arduino_a0_a13_tri_i_10" iostandard="LVCMOS33" loc="F16"/>
+  <pin index="45" name ="arduino_a0_a13_tri_i_10" iostandard="LVCMOS33" loc="T16"/>
   <pin index="46" name ="arduino_a0_a13_tri_i_11" iostandard="LVCMOS33" loc="R17"/>
   <pin index="47" name ="arduino_a0_a13_tri_i_12" iostandard="LVCMOS33" loc="P18"/>
   <pin index="48" name ="arduino_a0_a13_tri_i_13" iostandard="LVCMOS33" loc="N17"/>
@@ -80,7 +80,7 @@
   <pin index="74" name ="spi_miso_i" iostandard="LVCMOS33" loc="W15"/>
   <pin index="75" name ="spi_mosi_i" iostandard="LVCMOS33" loc="T12"/>
   <pin index="76" name ="spi_sclk_i" iostandard="LVCMOS33" loc="H15"/>
-  <pin index="77" name ="spi_ss_i" iostandard="LVCMOS33" loc="T16"/>
+  <pin index="77" name ="spi_ss_i" iostandard="LVCMOS33" loc="F16"/>
   
   <pin index="78" name ="hdmi_rx_hpd" iostandard="LVCMOS33" loc="T19"/>  
   <pin index="79" name ="TMDS_IN_clk_p" iostandard="TMDS_33" loc="N18"/>
