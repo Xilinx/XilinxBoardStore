@@ -12336,11 +12336,11 @@
         "name": "k26c",
         "display": "Kria K26C SOM",
         "latest_revision": "1.2",
-        "commit_id": "4a8cc15a3c894840a9ca9ab1d7097865a9339401",
+        "commit_id": "4ffb74a880493790308ac51156e664569eb3901a",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "4a8cc15a3c894840a9ca9ab1d7097865a9339401",
+            "commit_id": "4ffb74a880493790308ac51156e664569eb3901a",
             "date": "31-03-2023:13:31:11",
             "history": "Added board Kria K26C SOM v1.2"
           }
@@ -12355,11 +12355,11 @@
         "name": "k26c",
         "display": "Kria K26C SOM",
         "latest_revision": "1.3",
-        "commit_id": "4a8cc15a3c894840a9ca9ab1d7097865a9339401",
+        "commit_id": "4ffb74a880493790308ac51156e664569eb3901a",
         "revisions": [
           {
             "revision": "1.3",
-            "commit_id": "4a8cc15a3c894840a9ca9ab1d7097865a9339401",
+            "commit_id": "4ffb74a880493790308ac51156e664569eb3901a",
             "date": "31-03-2023:13:31:11",
             "history": "Added board Kria K26C SOM v1.3"
           }
@@ -12374,11 +12374,11 @@
         "name": "k26c",
         "display": "Kria K26C SOM",
         "latest_revision": "1.4",
-        "commit_id": "4a8cc15a3c894840a9ca9ab1d7097865a9339401",
+        "commit_id": "4ffb74a880493790308ac51156e664569eb3901a",
         "revisions": [
           {
             "revision": "1.4",
-            "commit_id": "4a8cc15a3c894840a9ca9ab1d7097865a9339401",
+            "commit_id": "4ffb74a880493790308ac51156e664569eb3901a",
             "date": "31-03-2023:13:31:11",
             "history": "Added board Kria K26C SOM v1.4"
           }
@@ -12393,11 +12393,11 @@
         "name": "k26i",
         "display": "Kria K26i SOM",
         "latest_revision": "1.2",
-        "commit_id": "4a8cc15a3c894840a9ca9ab1d7097865a9339401",
+        "commit_id": "4ffb74a880493790308ac51156e664569eb3901a",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "4a8cc15a3c894840a9ca9ab1d7097865a9339401",
+            "commit_id": "4ffb74a880493790308ac51156e664569eb3901a",
             "date": "31-03-2023:13:31:11",
             "history": "Added board Kria K26i SOM v1.2"
           }
@@ -12412,11 +12412,11 @@
         "name": "k26i",
         "display": "Kria K26i SOM",
         "latest_revision": "1.3",
-        "commit_id": "4a8cc15a3c894840a9ca9ab1d7097865a9339401",
+        "commit_id": "4ffb74a880493790308ac51156e664569eb3901a",
         "revisions": [
           {
             "revision": "1.3",
-            "commit_id": "4a8cc15a3c894840a9ca9ab1d7097865a9339401",
+            "commit_id": "4ffb74a880493790308ac51156e664569eb3901a",
             "date": "31-03-2023:13:31:11",
             "history": "Added board Kria K26i SOM v1.3"
           }
@@ -12431,11 +12431,11 @@
         "name": "k26i",
         "display": "Kria K26i SOM",
         "latest_revision": "1.4",
-        "commit_id": "4a8cc15a3c894840a9ca9ab1d7097865a9339401",
+        "commit_id": "4ffb74a880493790308ac51156e664569eb3901a",
         "revisions": [
           {
             "revision": "1.4",
-            "commit_id": "4a8cc15a3c894840a9ca9ab1d7097865a9339401",
+            "commit_id": "4ffb74a880493790308ac51156e664569eb3901a",
             "date": "31-03-2023:13:31:11",
             "history": "Added board Kria K26i SOM v1.4"
           }
@@ -12564,11 +12564,11 @@
         "name": "kr260",
         "display": "Robotics Starter Kit carrier card",
         "latest_revision": "1.0",
-        "commit_id": "4a8cc15a3c894840a9ca9ab1d7097865a9339401",
+        "commit_id": "4ffb74a880493790308ac51156e664569eb3901a",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "4a8cc15a3c894840a9ca9ab1d7097865a9339401",
+            "commit_id": "4ffb74a880493790308ac51156e664569eb3901a",
             "date": "31-03-2023:13:31:11",
             "history": "Added board Robotics Starter Kit carrier card v1.0"
           }
@@ -12583,11 +12583,11 @@
         "name": "kr260_som",
         "display": "Kria KR260 Robotics Starter Kit SOM",
         "latest_revision": "1.0",
-        "commit_id": "4a8cc15a3c894840a9ca9ab1d7097865a9339401",
+        "commit_id": "4ffb74a880493790308ac51156e664569eb3901a",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "4a8cc15a3c894840a9ca9ab1d7097865a9339401",
+            "commit_id": "4ffb74a880493790308ac51156e664569eb3901a",
             "date": "31-03-2023:13:31:11",
             "history": "Added board Kria KR260 Robotics Starter Kit SOM v1.0"
           }
@@ -12602,11 +12602,11 @@
         "name": "kr260_som",
         "display": "Kria KR260 Robotics Starter Kit SOM",
         "latest_revision": "1.1",
-        "commit_id": "4a8cc15a3c894840a9ca9ab1d7097865a9339401",
+        "commit_id": "4ffb74a880493790308ac51156e664569eb3901a",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "4a8cc15a3c894840a9ca9ab1d7097865a9339401",
+            "commit_id": "4ffb74a880493790308ac51156e664569eb3901a",
             "date": "31-03-2023:13:31:11",
             "history": "Added board Kria KR260 Robotics Starter Kit SOM v1.1"
           }
@@ -12621,11 +12621,11 @@
         "name": "kv260_carrier",
         "display": "Vision AI Starter Kit carrier card",
         "latest_revision": "1.2",
-        "commit_id": "4a8cc15a3c894840a9ca9ab1d7097865a9339401",
+        "commit_id": "4ffb74a880493790308ac51156e664569eb3901a",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "4a8cc15a3c894840a9ca9ab1d7097865a9339401",
+            "commit_id": "4ffb74a880493790308ac51156e664569eb3901a",
             "date": "31-03-2023:13:31:11",
             "history": "Added board Vision AI Starter Kit carrier card v1.2"
           }
@@ -12640,11 +12640,11 @@
         "name": "kv260_carrier",
         "display": "Vision AI Starter Kit carrier card",
         "latest_revision": "1.3",
-        "commit_id": "4a8cc15a3c894840a9ca9ab1d7097865a9339401",
+        "commit_id": "4ffb74a880493790308ac51156e664569eb3901a",
         "revisions": [
           {
             "revision": "1.3",
-            "commit_id": "4a8cc15a3c894840a9ca9ab1d7097865a9339401",
+            "commit_id": "4ffb74a880493790308ac51156e664569eb3901a",
             "date": "31-03-2023:13:31:11",
             "history": "Added board Vision AI Starter Kit carrier card v1.3"
           }
@@ -12659,11 +12659,11 @@
         "name": "kv260_som",
         "display": "Kria KV260 Vision AI Starter Kit SOM",
         "latest_revision": "1.2",
-        "commit_id": "4a8cc15a3c894840a9ca9ab1d7097865a9339401",
+        "commit_id": "4ffb74a880493790308ac51156e664569eb3901a",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "4a8cc15a3c894840a9ca9ab1d7097865a9339401",
+            "commit_id": "4ffb74a880493790308ac51156e664569eb3901a",
             "date": "31-03-2023:13:31:11",
             "history": "Added board Kria KV260 Vision AI Starter Kit SOM v1.2"
           }
@@ -12678,11 +12678,11 @@
         "name": "kv260_som",
         "display": "Kria KV260 Vision AI Starter Kit SOM",
         "latest_revision": "1.3",
-        "commit_id": "4a8cc15a3c894840a9ca9ab1d7097865a9339401",
+        "commit_id": "4ffb74a880493790308ac51156e664569eb3901a",
         "revisions": [
           {
             "revision": "1.3",
-            "commit_id": "4a8cc15a3c894840a9ca9ab1d7097865a9339401",
+            "commit_id": "4ffb74a880493790308ac51156e664569eb3901a",
             "date": "31-03-2023:13:31:11",
             "history": "Added board Kria KV260 Vision AI Starter Kit SOM v1.3"
           }
@@ -12697,11 +12697,11 @@
         "name": "kv260_som",
         "display": "Kria KV260 Vision AI Starter Kit SOM",
         "latest_revision": "1.4",
-        "commit_id": "4a8cc15a3c894840a9ca9ab1d7097865a9339401",
+        "commit_id": "4ffb74a880493790308ac51156e664569eb3901a",
         "revisions": [
           {
             "revision": "1.4",
-            "commit_id": "4a8cc15a3c894840a9ca9ab1d7097865a9339401",
+            "commit_id": "4ffb74a880493790308ac51156e664569eb3901a",
             "date": "31-03-2023:13:31:11",
             "history": "Added board Kria KV260 Vision AI Starter Kit SOM v1.4"
           }
