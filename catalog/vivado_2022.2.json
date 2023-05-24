@@ -5705,11 +5705,11 @@
         "name": "pynq-z2",
         "display": "pynq-z2",
         "latest_revision": "1.0",
-        "commit_id": "d3b0cfd8f3b760daab9d99947524d915bda70e77",
+        "commit_id": "d94c63f675a2e65724cf6d7ab5447d1565ea3e2f",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "d3b0cfd8f3b760daab9d99947524d915bda70e77",
+            "commit_id": "d94c63f675a2e65724cf6d7ab5447d1565ea3e2f",
             "date": "06-09-2022:15:58:09",
             "history": "Added board pynq-z2 v1.0"
           }
