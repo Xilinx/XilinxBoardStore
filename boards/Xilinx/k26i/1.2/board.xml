@@ -11,7 +11,7 @@
  License for the specific language governing permissions and limitations
  under the License. -->
 
-<board schema_version="2.2" vendor="xilinx.com" name="k26i" display_name="Kria K26I SOM" url="www.xilinx.com" preset_file="preset.xml" supports_ced="false">
+<board schema_version="2.2" vendor="xilinx.com" name="k26i" display_name="Kria K26I SOM" url="www.xilinx.com/k26i" preset_file="preset.xml" supports_ced="false">
 
 <images>
     <image name="k26_board.PNG" display_name="Kria K26I SOM" sub_type="board">

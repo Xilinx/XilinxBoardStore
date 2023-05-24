@@ -11,7 +11,7 @@
  License for the specific language governing permissions and limitations
  under the License. -->
 
-<board schema_version="2.2" vendor="xilinx.com" name="kr260_som" display_name="Kria KR260 Robotics Starter Kit SOM" url="www.xilinx.com" preset_file="preset.xml">
+<board schema_version="2.2" vendor="xilinx.com" name="kr260_som" display_name="Kria KR260 Robotics Starter Kit SOM" url="www.xilinx.com/kr260" preset_file="preset.xml">
 
 <images>
     <image name="kr260_board.png" display_name="Kria KR260 Robotics Starter Kit Board" sub_type="board">

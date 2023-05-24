@@ -10,7 +10,7 @@
  License for the specific language governing permissions and limitations
  under the License. -->
 
-<board schema_version="2.2" vendor="xilinx.com" name="kr260_carrier" display_name="Robotics Starter Kit Carrier" url="" preset_file="preset.xml">
+<board schema_version="2.2" vendor="xilinx.com" name="kr260_carrier" display_name="Robotics Starter Kit Carrier" url="www.xilinx.com/kr260" preset_file="preset.xml">
 	<file_version>1.0</file_version> 
 	
 	<description>Robotics Starter Kit Carrier</description>
