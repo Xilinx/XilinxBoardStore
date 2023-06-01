@@ -13965,6 +13965,44 @@
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
+      },
+      {
+        "name": "admpa100_2ms",
+        "display": "ADM-PA100/2MS",
+        "latest_revision": "1.2",
+        "commit_id": "e021841baa23c9b0da52980b60d15b06e91c5585",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "e021841baa23c9b0da52980b60d15b06e91c5585",
+            "date": "01-06-2023:17:22:55",
+            "history": "Added board ADM-PA100/2MS v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/AlphaData/admpa100_2ms/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "alpha-data.com"
+      },
+      {
+        "name": "admpa101_2ms",
+        "display": "ADM-PA101/2MS",
+        "latest_revision": "1.2",
+        "commit_id": "e021841baa23c9b0da52980b60d15b06e91c5585",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "e021841baa23c9b0da52980b60d15b06e91c5585",
+            "date": "01-06-2023:17:22:55",
+            "history": "Added board ADM-PA101/2MS v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/AlphaData/admpa101_2ms/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "alpha-data.com"
       }
     ],
     "categories": [
