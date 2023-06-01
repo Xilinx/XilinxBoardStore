@@ -1,0 +1,2643 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<!--<!DOCTYPE board SYSTEM "D:/Xilinx/Vivado/2021.1/data/boards/board_schemas/current/board.dtd">!-->
+
+<board schema_version="2.2" vendor="alpha-data.com" name="admpa100_2ms" display_name="ADM-PA100/2MS" url="https://www.alpha-data.com/product/adm-pa100/" preset_file="preset.xml" supports_ced="true"> 
+  <images>
+    <image name="admpa100_image.jpg" display_name="ADM-PA100" sub_type="board" resolution="high">
+      <description>ADM-PA100 PCI Express Reconfigurable Computing Card"</description>
+    </image>
+  </images>
+
+  <compatible_board_revisions>
+    <!-- This board file is compatible with board revision 1 and later !-->
+    <revision id="0">1</revision>
+  </compatible_board_revisions>
+  
+  <file_version>1.2</file_version>
+  
+  <description>ADM-PA100/2MS PCI Express Reconfigurable Computing Card</description>
+  
+  <parameters>
+    <!-- 
+    <parameter name="heat_sink_type" value="medium" value_type="string"/>
+    <parameter name="heat_sink_temperature" value_type="range" value_min="20.0" value_max="30.0"/>
+    !-->
+  </parameters>
+  
+  <jumpers>
+  </jumpers>
+  
+  <components>
+    <component name="part0" display_name="XCVC1902 ACAP" type="fpga" part_name="xcvc1902-vsva2197-2MP-e-S" pin_map_file="part0_pins.xml" vendor="alpha-data.com" spec_url="https://www.alpha-data.com/product/adm-pa100/">
+      <description>The XCVC1902 ACAP.</description> 
+
+      <interfaces>
+        <interface mode="master" name="ps_pmc_fixed_io" type="xilinx.com:interface:fixed_io_rtl:1.0" of_component="ps_pmc_fixed_io" preset_proc="ps_pmc_fixed_io_preset"> 
+          <parameters>
+            <parameter name="presets_special_handling"/>
+          </parameters>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="versal_cips" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="dummy" physical_port="dummy" dir="out" />
+          </port_maps>
+        </interface>
+      
+        <interface mode="master" name="ps_pmc_linux" type="xilinx.com:interface:fixed_io_rtl:1.0" of_component="ps_pmc_fixed_io" preset_proc="ps_pmc_linux_preset"> 
+          <parameters>
+            <parameter name="presets_special_handling"/>
+          </parameters>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="versal_cips" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="dummy" physical_port="dummy" dir="out" />
+          </port_maps>
+        </interface>
+      
+        <interface mode="master" name="ps_pmc_minimal" type="xilinx.com:interface:fixed_io_rtl:1.0" of_component="ps_pmc_fixed_io" preset_proc="ps_pmc_minimal_preset"> 
+          <parameters>
+            <parameter name="presets_special_handling"/>
+          </parameters>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="versal_cips" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="dummy" physical_port="dummy" dir="out" />
+          </port_maps>
+        </interface>
+      
+        <interface mode="master" name="ddr4_bank0" type="xilinx.com:interface:ddr4_rtl:1.0" of_component="ddr4_bank0" preset_proc="ddr4_c0_preset">
+          <description>DDR4 SDRAM bank 0 interface</description>
+          <parameters>
+            <parameter name="TYPE" value="CH0_DDR4"/>
+            <parameter name="presets_special_handling"/>
+          </parameters>
+
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_noc" order="0"/>
+          </preferred_ips>
+
+          <port_maps>
+            <port_map logical_port="ACT_N" physical_port="c0_ddr4_act_n" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr4_act_n"/>
+              </pin_maps>
+            </port_map>
+
+            <port_map logical_port="ALERT_N" physical_port="c0_ddr4_alert_n" dir="in">
+              <pin_maps>
+                  <pin_map port_index="0" component_pin="c0_ddr4_alert_n"/>
+              </pin_maps>
+            </port_map>
+
+            <port_map logical_port="PAR" physical_port="c0_ddr4_parity" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr4_parity"/>
+              </pin_maps>
+            </port_map>
+
+            <port_map logical_port="ADR" physical_port="c0_ddr4_adr" dir="out" left="16" right="0">
+              <pin_maps>
+                 <pin_map port_index="0"  component_pin="c0_ddr4_adr0"/>
+                 <pin_map port_index="1"  component_pin="c0_ddr4_adr1"/>
+                 <pin_map port_index="2"  component_pin="c0_ddr4_adr2"/>
+                 <pin_map port_index="3"  component_pin="c0_ddr4_adr3"/>
+                 <pin_map port_index="4"  component_pin="c0_ddr4_adr4"/>
+                 <pin_map port_index="5"  component_pin="c0_ddr4_adr5"/>
+                 <pin_map port_index="6"  component_pin="c0_ddr4_adr6"/>
+                 <pin_map port_index="7"  component_pin="c0_ddr4_adr7"/>
+                 <pin_map port_index="8"  component_pin="c0_ddr4_adr8"/>
+                 <pin_map port_index="9"  component_pin="c0_ddr4_adr9"/>
+                 <pin_map port_index="10" component_pin="c0_ddr4_adr10"/>
+                 <pin_map port_index="11" component_pin="c0_ddr4_adr11"/>
+                 <pin_map port_index="12" component_pin="c0_ddr4_adr12"/>
+                 <pin_map port_index="13" component_pin="c0_ddr4_adr13"/>
+                 <pin_map port_index="14" component_pin="c0_ddr4_adr14"/>
+                 <pin_map port_index="15" component_pin="c0_ddr4_adr15"/>
+                 <pin_map port_index="16" component_pin="c0_ddr4_adr16"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="BA" physical_port="c0_ddr4_ba" dir="out" left="1" right="0">
+              <pin_maps>
+                 <pin_map port_index="0" component_pin="c0_ddr4_ba0"/>
+                 <pin_map port_index="1" component_pin="c0_ddr4_ba1"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="BG" physical_port="c0_ddr4_bg" dir="out">
+              <pin_maps>
+                 <pin_map port_index="0" component_pin="c0_ddr4_bg0"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="CK_C" physical_port="c0_ddr4_ck_c" dir="out">  
+              <pin_maps>
+                 <pin_map port_index="0" component_pin="c0_ddr4_ck_c0"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="CK_T" physical_port="c0_ddr4_ck_t" dir="out" >
+              <pin_maps>
+                 <pin_map port_index="0" component_pin="c0_ddr4_ck_t0"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="CKE" physical_port="c0_ddr4_cke" dir="out" >
+              <pin_maps>
+               <pin_map port_index="0" component_pin="c0_ddr4_cke0"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="CS_N" physical_port="c0_ddr4_cs_n" dir="out" > 
+              <pin_maps>
+                 <pin_map port_index="0" component_pin="c0_ddr4_cs0_n"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="DQ" physical_port="c0_ddr4_dq" dir="inout" left="71" right="0">
+              <pin_maps>
+                <pin_map port_index="0"  component_pin="c0_ddr4_dq0"/>
+                <pin_map port_index="1"  component_pin="c0_ddr4_dq1"/>
+                <pin_map port_index="2"  component_pin="c0_ddr4_dq2"/>
+                <pin_map port_index="3"  component_pin="c0_ddr4_dq3"/>
+                <pin_map port_index="4"  component_pin="c0_ddr4_dq4"/>
+                <pin_map port_index="5"  component_pin="c0_ddr4_dq5"/>
+                <pin_map port_index="6"  component_pin="c0_ddr4_dq6"/>
+                <pin_map port_index="7"  component_pin="c0_ddr4_dq7"/>
+                <pin_map port_index="8"  component_pin="c0_ddr4_dq8"/>
+                <pin_map port_index="9"  component_pin="c0_ddr4_dq9"/>
+                <pin_map port_index="10" component_pin="c0_ddr4_dq10"/>
+                <pin_map port_index="11" component_pin="c0_ddr4_dq11"/>
+                <pin_map port_index="12" component_pin="c0_ddr4_dq12"/>
+                <pin_map port_index="13" component_pin="c0_ddr4_dq13"/>
+                <pin_map port_index="14" component_pin="c0_ddr4_dq14"/>
+                <pin_map port_index="15" component_pin="c0_ddr4_dq15"/>
+                <pin_map port_index="16" component_pin="c0_ddr4_dq16"/>
+                <pin_map port_index="17" component_pin="c0_ddr4_dq17"/>
+                <pin_map port_index="18" component_pin="c0_ddr4_dq18"/>
+                <pin_map port_index="19" component_pin="c0_ddr4_dq19"/>
+                <pin_map port_index="20" component_pin="c0_ddr4_dq20"/>
+                <pin_map port_index="21" component_pin="c0_ddr4_dq21"/>
+                <pin_map port_index="22" component_pin="c0_ddr4_dq22"/>
+                <pin_map port_index="23" component_pin="c0_ddr4_dq23"/>
+                <pin_map port_index="24" component_pin="c0_ddr4_dq24"/>
+                <pin_map port_index="25" component_pin="c0_ddr4_dq25"/>
+                <pin_map port_index="26" component_pin="c0_ddr4_dq26"/>
+                <pin_map port_index="27" component_pin="c0_ddr4_dq27"/>
+                <pin_map port_index="28" component_pin="c0_ddr4_dq28"/>
+                <pin_map port_index="29" component_pin="c0_ddr4_dq29"/>
+                <pin_map port_index="30" component_pin="c0_ddr4_dq30"/>
+                <pin_map port_index="31" component_pin="c0_ddr4_dq31"/>
+                <pin_map port_index="32" component_pin="c0_ddr4_dq32"/>
+                <pin_map port_index="33" component_pin="c0_ddr4_dq33"/>
+                <pin_map port_index="34" component_pin="c0_ddr4_dq34"/>
+                <pin_map port_index="35" component_pin="c0_ddr4_dq35"/>
+                <pin_map port_index="36" component_pin="c0_ddr4_dq36"/>
+                <pin_map port_index="37" component_pin="c0_ddr4_dq37"/>
+                <pin_map port_index="38" component_pin="c0_ddr4_dq38"/>
+                <pin_map port_index="39" component_pin="c0_ddr4_dq39"/>
+                <pin_map port_index="40" component_pin="c0_ddr4_dq40"/>
+                <pin_map port_index="41" component_pin="c0_ddr4_dq41"/>
+                <pin_map port_index="42" component_pin="c0_ddr4_dq42"/>
+                <pin_map port_index="43" component_pin="c0_ddr4_dq43"/>
+                <pin_map port_index="44" component_pin="c0_ddr4_dq44"/>
+                <pin_map port_index="45" component_pin="c0_ddr4_dq45"/>
+                <pin_map port_index="46" component_pin="c0_ddr4_dq46"/>
+                <pin_map port_index="47" component_pin="c0_ddr4_dq47"/>
+                <pin_map port_index="48" component_pin="c0_ddr4_dq48"/>
+                <pin_map port_index="49" component_pin="c0_ddr4_dq49"/>
+                <pin_map port_index="50" component_pin="c0_ddr4_dq50"/>
+                <pin_map port_index="51" component_pin="c0_ddr4_dq51"/>
+                <pin_map port_index="52" component_pin="c0_ddr4_dq52"/>
+                <pin_map port_index="53" component_pin="c0_ddr4_dq53"/>
+                <pin_map port_index="54" component_pin="c0_ddr4_dq54"/>
+                <pin_map port_index="55" component_pin="c0_ddr4_dq55"/>
+                <pin_map port_index="56" component_pin="c0_ddr4_dq56"/>
+                <pin_map port_index="57" component_pin="c0_ddr4_dq57"/>
+                <pin_map port_index="58" component_pin="c0_ddr4_dq58"/>
+                <pin_map port_index="59" component_pin="c0_ddr4_dq59"/>
+                <pin_map port_index="60" component_pin="c0_ddr4_dq60"/>
+                <pin_map port_index="61" component_pin="c0_ddr4_dq61"/>
+                <pin_map port_index="62" component_pin="c0_ddr4_dq62"/>
+                <pin_map port_index="63" component_pin="c0_ddr4_dq63"/>
+                <pin_map port_index="64" component_pin="c0_ddr4_dq64"/>
+                <pin_map port_index="65" component_pin="c0_ddr4_dq65"/>
+                <pin_map port_index="66" component_pin="c0_ddr4_dq66"/>
+                <pin_map port_index="67" component_pin="c0_ddr4_dq67"/>
+                <pin_map port_index="68" component_pin="c0_ddr4_dq68"/>
+                <pin_map port_index="69" component_pin="c0_ddr4_dq69"/>
+                <pin_map port_index="70" component_pin="c0_ddr4_dq70"/>
+                <pin_map port_index="71" component_pin="c0_ddr4_dq71"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="DQS_C" physical_port="c0_ddr4_dqs_c" dir="inout" left="8" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr4_dqs_c0"/>
+                <pin_map port_index="1" component_pin="c0_ddr4_dqs_c1"/>
+                <pin_map port_index="2" component_pin="c0_ddr4_dqs_c2"/>
+                <pin_map port_index="3" component_pin="c0_ddr4_dqs_c3"/>
+                <pin_map port_index="4" component_pin="c0_ddr4_dqs_c4"/>
+                <pin_map port_index="5" component_pin="c0_ddr4_dqs_c5"/>
+                <pin_map port_index="6" component_pin="c0_ddr4_dqs_c6"/>
+                <pin_map port_index="7" component_pin="c0_ddr4_dqs_c7"/>
+                <pin_map port_index="8" component_pin="c0_ddr4_dqs_c8"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="DQS_T" physical_port="c0_ddr4_dqs_t" dir="out" left="8" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr4_dqs_t0"/>
+                <pin_map port_index="1" component_pin="c0_ddr4_dqs_t1"/>
+                <pin_map port_index="2" component_pin="c0_ddr4_dqs_t2"/>
+                <pin_map port_index="3" component_pin="c0_ddr4_dqs_t3"/>
+                <pin_map port_index="4" component_pin="c0_ddr4_dqs_t4"/>
+                <pin_map port_index="5" component_pin="c0_ddr4_dqs_t5"/>
+                <pin_map port_index="6" component_pin="c0_ddr4_dqs_t6"/>
+                <pin_map port_index="7" component_pin="c0_ddr4_dqs_t7"/>
+                <pin_map port_index="8" component_pin="c0_ddr4_dqs_t8"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="DM_N" physical_port="c0_ddr4_dm_dbi_n" dir="inout" left="8" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr4_dm_dbi_n0"/>
+                <pin_map port_index="1" component_pin="c0_ddr4_dm_dbi_n1"/>
+                <pin_map port_index="2" component_pin="c0_ddr4_dm_dbi_n2"/>
+                <pin_map port_index="3" component_pin="c0_ddr4_dm_dbi_n3"/>
+                <pin_map port_index="4" component_pin="c0_ddr4_dm_dbi_n4"/>
+                <pin_map port_index="5" component_pin="c0_ddr4_dm_dbi_n5"/>
+                <pin_map port_index="6" component_pin="c0_ddr4_dm_dbi_n6"/>
+                <pin_map port_index="7" component_pin="c0_ddr4_dm_dbi_n7"/>
+                <pin_map port_index="8" component_pin="c0_ddr4_dm_dbi_n8"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="ODT" physical_port="c0_ddr4_odt" dir="out" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr4_odt0"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="RESET_N" physical_port="c0_ddr4_reset_n" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_ddr4_reset_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        
+        <interface mode="slave" name="ddr4_bank0_sys_clk" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="ddr4_bank0_sys_clk" preset_proc="sysclk0_preset">
+          <parameters>
+            <parameter name="frequency" value="300000000"/>
+          </parameters>
+          
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_noc" order="0"/>
+            <preferred_ip vendor="xilinx.com" library="ip" name="clk_wizard" order="1"/>
+            <preferred_ip vendor="xilinx.com" library="ip" name="util_ds_buf" order="2"/>
+          </preferred_ips>
+          
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="c0_sys_clk_clk_p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_sys_clk_clk_p"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="CLK_N" physical_port="c0_sys_clk_clk_n" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c0_sys_clk_clk_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+        <interface mode="master" name="ddr4_bank1" type="xilinx.com:interface:ddr4_rtl:1.0" of_component="ddr4_bank1" preset_proc="ddr4_c1_preset">
+          <description>DDR4 SDRAM bank 1 interface</description>
+
+          <parameters>
+            <parameter name="TYPE" value="CH0_DDR4"/>
+            <parameter name="presets_special_handling"/>
+          </parameters>
+
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_noc" order="0"/>
+          </preferred_ips>
+
+          <port_maps>
+            <port_map logical_port="ACT_N" physical_port="c1_ddr4_act_n" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr4_act_n"/>
+              </pin_maps>
+            </port_map>
+
+            <port_map logical_port="ALERT_N" physical_port="c1_ddr4_alert_n" dir="in">
+              <pin_maps>
+                  <pin_map port_index="0" component_pin="c1_ddr4_alert_n"/>
+              </pin_maps>
+            </port_map>
+
+            <port_map logical_port="PAR" physical_port="c1_ddr4_parity" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr4_parity"/>
+              </pin_maps>
+            </port_map>
+
+            <port_map logical_port="ADR" physical_port="c1_ddr4_adr" dir="out" left="16" right="0">
+              <pin_maps>
+                 <pin_map port_index="0"  component_pin="c1_ddr4_adr0"/>
+                 <pin_map port_index="1"  component_pin="c1_ddr4_adr1"/>
+                 <pin_map port_index="2"  component_pin="c1_ddr4_adr2"/>
+                 <pin_map port_index="3"  component_pin="c1_ddr4_adr3"/>
+                 <pin_map port_index="4"  component_pin="c1_ddr4_adr4"/>
+                 <pin_map port_index="5"  component_pin="c1_ddr4_adr5"/>
+                 <pin_map port_index="6"  component_pin="c1_ddr4_adr6"/>
+                 <pin_map port_index="7"  component_pin="c1_ddr4_adr7"/>
+                 <pin_map port_index="8"  component_pin="c1_ddr4_adr8"/>
+                 <pin_map port_index="9"  component_pin="c1_ddr4_adr9"/>
+                 <pin_map port_index="10" component_pin="c1_ddr4_adr10"/>
+                 <pin_map port_index="11" component_pin="c1_ddr4_adr11"/>
+                 <pin_map port_index="12" component_pin="c1_ddr4_adr12"/>
+                 <pin_map port_index="13" component_pin="c1_ddr4_adr13"/>
+                 <pin_map port_index="14" component_pin="c1_ddr4_adr14"/>
+                 <pin_map port_index="15" component_pin="c1_ddr4_adr15"/>
+                 <pin_map port_index="16" component_pin="c1_ddr4_adr16"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="BA" physical_port="c1_ddr4_ba" dir="out" left="1" right="0">
+              <pin_maps>
+                 <pin_map port_index="0" component_pin="c1_ddr4_ba0"/>
+                 <pin_map port_index="1" component_pin="c1_ddr4_ba1"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="BG" physical_port="c1_ddr4_bg" dir="out">
+              <pin_maps>
+                 <pin_map port_index="0" component_pin="c1_ddr4_bg0"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="CK_C" physical_port="c1_ddr4_ck_c" dir="out">  
+              <pin_maps>
+                 <pin_map port_index="0" component_pin="c1_ddr4_ck_c0"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="CK_T" physical_port="c1_ddr4_ck_t" dir="out" >
+              <pin_maps>
+                 <pin_map port_index="0" component_pin="c1_ddr4_ck_t0"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="CKE" physical_port="c1_ddr4_cke" dir="out" >
+              <pin_maps>
+               <pin_map port_index="0" component_pin="c1_ddr4_cke0"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="CS_N" physical_port="c1_ddr4_cs_n" dir="out" > 
+              <pin_maps>
+                 <pin_map port_index="0" component_pin="c1_ddr4_cs0_n"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="DQ" physical_port="c1_ddr4_dq" dir="inout" left="71" right="0">
+              <pin_maps>
+                <pin_map port_index="0"  component_pin="c1_ddr4_dq0"/>
+                <pin_map port_index="1"  component_pin="c1_ddr4_dq1"/>
+                <pin_map port_index="2"  component_pin="c1_ddr4_dq2"/>
+                <pin_map port_index="3"  component_pin="c1_ddr4_dq3"/>
+                <pin_map port_index="4"  component_pin="c1_ddr4_dq4"/>
+                <pin_map port_index="5"  component_pin="c1_ddr4_dq5"/>
+                <pin_map port_index="6"  component_pin="c1_ddr4_dq6"/>
+                <pin_map port_index="7"  component_pin="c1_ddr4_dq7"/>
+                <pin_map port_index="8"  component_pin="c1_ddr4_dq8"/>
+                <pin_map port_index="9"  component_pin="c1_ddr4_dq9"/>
+                <pin_map port_index="10" component_pin="c1_ddr4_dq10"/>
+                <pin_map port_index="11" component_pin="c1_ddr4_dq11"/>
+                <pin_map port_index="12" component_pin="c1_ddr4_dq12"/>
+                <pin_map port_index="13" component_pin="c1_ddr4_dq13"/>
+                <pin_map port_index="14" component_pin="c1_ddr4_dq14"/>
+                <pin_map port_index="15" component_pin="c1_ddr4_dq15"/>
+                <pin_map port_index="16" component_pin="c1_ddr4_dq16"/>
+                <pin_map port_index="17" component_pin="c1_ddr4_dq17"/>
+                <pin_map port_index="18" component_pin="c1_ddr4_dq18"/>
+                <pin_map port_index="19" component_pin="c1_ddr4_dq19"/>
+                <pin_map port_index="20" component_pin="c1_ddr4_dq20"/>
+                <pin_map port_index="21" component_pin="c1_ddr4_dq21"/>
+                <pin_map port_index="22" component_pin="c1_ddr4_dq22"/>
+                <pin_map port_index="23" component_pin="c1_ddr4_dq23"/>
+                <pin_map port_index="24" component_pin="c1_ddr4_dq24"/>
+                <pin_map port_index="25" component_pin="c1_ddr4_dq25"/>
+                <pin_map port_index="26" component_pin="c1_ddr4_dq26"/>
+                <pin_map port_index="27" component_pin="c1_ddr4_dq27"/>
+                <pin_map port_index="28" component_pin="c1_ddr4_dq28"/>
+                <pin_map port_index="29" component_pin="c1_ddr4_dq29"/>
+                <pin_map port_index="30" component_pin="c1_ddr4_dq30"/>
+                <pin_map port_index="31" component_pin="c1_ddr4_dq31"/>
+                <pin_map port_index="32" component_pin="c1_ddr4_dq32"/>
+                <pin_map port_index="33" component_pin="c1_ddr4_dq33"/>
+                <pin_map port_index="34" component_pin="c1_ddr4_dq34"/>
+                <pin_map port_index="35" component_pin="c1_ddr4_dq35"/>
+                <pin_map port_index="36" component_pin="c1_ddr4_dq36"/>
+                <pin_map port_index="37" component_pin="c1_ddr4_dq37"/>
+                <pin_map port_index="38" component_pin="c1_ddr4_dq38"/>
+                <pin_map port_index="39" component_pin="c1_ddr4_dq39"/>
+                <pin_map port_index="40" component_pin="c1_ddr4_dq40"/>
+                <pin_map port_index="41" component_pin="c1_ddr4_dq41"/>
+                <pin_map port_index="42" component_pin="c1_ddr4_dq42"/>
+                <pin_map port_index="43" component_pin="c1_ddr4_dq43"/>
+                <pin_map port_index="44" component_pin="c1_ddr4_dq44"/>
+                <pin_map port_index="45" component_pin="c1_ddr4_dq45"/>
+                <pin_map port_index="46" component_pin="c1_ddr4_dq46"/>
+                <pin_map port_index="47" component_pin="c1_ddr4_dq47"/>
+                <pin_map port_index="48" component_pin="c1_ddr4_dq48"/>
+                <pin_map port_index="49" component_pin="c1_ddr4_dq49"/>
+                <pin_map port_index="50" component_pin="c1_ddr4_dq50"/>
+                <pin_map port_index="51" component_pin="c1_ddr4_dq51"/>
+                <pin_map port_index="52" component_pin="c1_ddr4_dq52"/>
+                <pin_map port_index="53" component_pin="c1_ddr4_dq53"/>
+                <pin_map port_index="54" component_pin="c1_ddr4_dq54"/>
+                <pin_map port_index="55" component_pin="c1_ddr4_dq55"/>
+                <pin_map port_index="56" component_pin="c1_ddr4_dq56"/>
+                <pin_map port_index="57" component_pin="c1_ddr4_dq57"/>
+                <pin_map port_index="58" component_pin="c1_ddr4_dq58"/>
+                <pin_map port_index="59" component_pin="c1_ddr4_dq59"/>
+                <pin_map port_index="60" component_pin="c1_ddr4_dq60"/>
+                <pin_map port_index="61" component_pin="c1_ddr4_dq61"/>
+                <pin_map port_index="62" component_pin="c1_ddr4_dq62"/>
+                <pin_map port_index="63" component_pin="c1_ddr4_dq63"/>
+                <pin_map port_index="64" component_pin="c1_ddr4_dq64"/>
+                <pin_map port_index="65" component_pin="c1_ddr4_dq65"/>
+                <pin_map port_index="66" component_pin="c1_ddr4_dq66"/>
+                <pin_map port_index="67" component_pin="c1_ddr4_dq67"/>
+                <pin_map port_index="68" component_pin="c1_ddr4_dq68"/>
+                <pin_map port_index="69" component_pin="c1_ddr4_dq69"/>
+                <pin_map port_index="70" component_pin="c1_ddr4_dq70"/>
+                <pin_map port_index="71" component_pin="c1_ddr4_dq71"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="DQS_C" physical_port="c1_ddr4_dqs_c" dir="inout" left="8" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr4_dqs_c0"/>
+                <pin_map port_index="1" component_pin="c1_ddr4_dqs_c1"/>
+                <pin_map port_index="2" component_pin="c1_ddr4_dqs_c2"/>
+                <pin_map port_index="3" component_pin="c1_ddr4_dqs_c3"/>
+                <pin_map port_index="4" component_pin="c1_ddr4_dqs_c4"/>
+                <pin_map port_index="5" component_pin="c1_ddr4_dqs_c5"/>
+                <pin_map port_index="6" component_pin="c1_ddr4_dqs_c6"/>
+                <pin_map port_index="7" component_pin="c1_ddr4_dqs_c7"/>
+                <pin_map port_index="8" component_pin="c1_ddr4_dqs_c8"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="DQS_T" physical_port="c1_ddr4_dqs_t" dir="out" left="8" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr4_dqs_t0"/>
+                <pin_map port_index="1" component_pin="c1_ddr4_dqs_t1"/>
+                <pin_map port_index="2" component_pin="c1_ddr4_dqs_t2"/>
+                <pin_map port_index="3" component_pin="c1_ddr4_dqs_t3"/>
+                <pin_map port_index="4" component_pin="c1_ddr4_dqs_t4"/>
+                <pin_map port_index="5" component_pin="c1_ddr4_dqs_t5"/>
+                <pin_map port_index="6" component_pin="c1_ddr4_dqs_t6"/>
+                <pin_map port_index="7" component_pin="c1_ddr4_dqs_t7"/>
+                <pin_map port_index="8" component_pin="c1_ddr4_dqs_t8"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="DM_N" physical_port="c1_ddr4_dm_dbi_n" dir="inout" left="8" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr4_dm_dbi_n0"/>
+                <pin_map port_index="1" component_pin="c1_ddr4_dm_dbi_n1"/>
+                <pin_map port_index="2" component_pin="c1_ddr4_dm_dbi_n2"/>
+                <pin_map port_index="3" component_pin="c1_ddr4_dm_dbi_n3"/>
+                <pin_map port_index="4" component_pin="c1_ddr4_dm_dbi_n4"/>
+                <pin_map port_index="5" component_pin="c1_ddr4_dm_dbi_n5"/>
+                <pin_map port_index="6" component_pin="c1_ddr4_dm_dbi_n6"/>
+                <pin_map port_index="7" component_pin="c1_ddr4_dm_dbi_n7"/>
+                <pin_map port_index="8" component_pin="c1_ddr4_dm_dbi_n8"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="ODT" physical_port="c1_ddr4_odt" dir="out" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr4_odt0"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="RESET_N" physical_port="c1_ddr4_reset_n" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr4_reset_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        
+        <!-- Provided for backwards compatibilty; use ddr4_bank1 interface instead in new designs !-->
+        <interface mode="master" name="ddr4_bank1_non_ilv" type="xilinx.com:interface:ddr4_rtl:1.0" of_component="ddr4_bank1" preset_proc="ddr4_c1_preset">
+          <description>DDR4 SDRAM bank 1 interface (non-interleaved)</description>
+
+          <parameters>
+            <parameter name="TYPE" value="CH0_DDR4"/>
+            <parameter name="presets_special_handling"/>
+          </parameters>
+
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_noc" order="0"/>
+          </preferred_ips>
+
+          <port_maps>
+            <port_map logical_port="ACT_N" physical_port="c1_ddr4_act_n" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr4_act_n"/>
+              </pin_maps>
+            </port_map>
+
+            <port_map logical_port="ALERT_N" physical_port="c1_ddr4_alert_n" dir="in">
+              <pin_maps>
+                  <pin_map port_index="0" component_pin="c1_ddr4_alert_n"/>
+              </pin_maps>
+            </port_map>
+
+            <port_map logical_port="PAR" physical_port="c1_ddr4_parity" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr4_parity"/>
+              </pin_maps>
+            </port_map>
+
+            <port_map logical_port="ADR" physical_port="c1_ddr4_adr" dir="out" left="16" right="0">
+              <pin_maps>
+                 <pin_map port_index="0"  component_pin="c1_ddr4_adr0"/>
+                 <pin_map port_index="1"  component_pin="c1_ddr4_adr1"/>
+                 <pin_map port_index="2"  component_pin="c1_ddr4_adr2"/>
+                 <pin_map port_index="3"  component_pin="c1_ddr4_adr3"/>
+                 <pin_map port_index="4"  component_pin="c1_ddr4_adr4"/>
+                 <pin_map port_index="5"  component_pin="c1_ddr4_adr5"/>
+                 <pin_map port_index="6"  component_pin="c1_ddr4_adr6"/>
+                 <pin_map port_index="7"  component_pin="c1_ddr4_adr7"/>
+                 <pin_map port_index="8"  component_pin="c1_ddr4_adr8"/>
+                 <pin_map port_index="9"  component_pin="c1_ddr4_adr9"/>
+                 <pin_map port_index="10" component_pin="c1_ddr4_adr10"/>
+                 <pin_map port_index="11" component_pin="c1_ddr4_adr11"/>
+                 <pin_map port_index="12" component_pin="c1_ddr4_adr12"/>
+                 <pin_map port_index="13" component_pin="c1_ddr4_adr13"/>
+                 <pin_map port_index="14" component_pin="c1_ddr4_adr14"/>
+                 <pin_map port_index="15" component_pin="c1_ddr4_adr15"/>
+                 <pin_map port_index="16" component_pin="c1_ddr4_adr16"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="BA" physical_port="c1_ddr4_ba" dir="out" left="1" right="0">
+              <pin_maps>
+                 <pin_map port_index="0" component_pin="c1_ddr4_ba0"/>
+                 <pin_map port_index="1" component_pin="c1_ddr4_ba1"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="BG" physical_port="c1_ddr4_bg" dir="out">
+              <pin_maps>
+                 <pin_map port_index="0" component_pin="c1_ddr4_bg0"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="CK_C" physical_port="c1_ddr4_ck_c" dir="out">  
+              <pin_maps>
+                 <pin_map port_index="0" component_pin="c1_ddr4_ck_c0"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="CK_T" physical_port="c1_ddr4_ck_t" dir="out" >
+              <pin_maps>
+                 <pin_map port_index="0" component_pin="c1_ddr4_ck_t0"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="CKE" physical_port="c1_ddr4_cke" dir="out" >
+              <pin_maps>
+               <pin_map port_index="0" component_pin="c1_ddr4_cke0"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="CS_N" physical_port="c1_ddr4_cs_n" dir="out" > 
+              <pin_maps>
+                 <pin_map port_index="0" component_pin="c1_ddr4_cs0_n"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="DQ" physical_port="c1_ddr4_dq" dir="inout" left="71" right="0">
+              <pin_maps>
+                <pin_map port_index="0"  component_pin="c1_ddr4_dq0"/>
+                <pin_map port_index="1"  component_pin="c1_ddr4_dq1"/>
+                <pin_map port_index="2"  component_pin="c1_ddr4_dq2"/>
+                <pin_map port_index="3"  component_pin="c1_ddr4_dq3"/>
+                <pin_map port_index="4"  component_pin="c1_ddr4_dq4"/>
+                <pin_map port_index="5"  component_pin="c1_ddr4_dq5"/>
+                <pin_map port_index="6"  component_pin="c1_ddr4_dq6"/>
+                <pin_map port_index="7"  component_pin="c1_ddr4_dq7"/>
+                <pin_map port_index="8"  component_pin="c1_ddr4_dq8"/>
+                <pin_map port_index="9"  component_pin="c1_ddr4_dq9"/>
+                <pin_map port_index="10" component_pin="c1_ddr4_dq10"/>
+                <pin_map port_index="11" component_pin="c1_ddr4_dq11"/>
+                <pin_map port_index="12" component_pin="c1_ddr4_dq12"/>
+                <pin_map port_index="13" component_pin="c1_ddr4_dq13"/>
+                <pin_map port_index="14" component_pin="c1_ddr4_dq14"/>
+                <pin_map port_index="15" component_pin="c1_ddr4_dq15"/>
+                <pin_map port_index="16" component_pin="c1_ddr4_dq16"/>
+                <pin_map port_index="17" component_pin="c1_ddr4_dq17"/>
+                <pin_map port_index="18" component_pin="c1_ddr4_dq18"/>
+                <pin_map port_index="19" component_pin="c1_ddr4_dq19"/>
+                <pin_map port_index="20" component_pin="c1_ddr4_dq20"/>
+                <pin_map port_index="21" component_pin="c1_ddr4_dq21"/>
+                <pin_map port_index="22" component_pin="c1_ddr4_dq22"/>
+                <pin_map port_index="23" component_pin="c1_ddr4_dq23"/>
+                <pin_map port_index="24" component_pin="c1_ddr4_dq24"/>
+                <pin_map port_index="25" component_pin="c1_ddr4_dq25"/>
+                <pin_map port_index="26" component_pin="c1_ddr4_dq26"/>
+                <pin_map port_index="27" component_pin="c1_ddr4_dq27"/>
+                <pin_map port_index="28" component_pin="c1_ddr4_dq28"/>
+                <pin_map port_index="29" component_pin="c1_ddr4_dq29"/>
+                <pin_map port_index="30" component_pin="c1_ddr4_dq30"/>
+                <pin_map port_index="31" component_pin="c1_ddr4_dq31"/>
+                <pin_map port_index="32" component_pin="c1_ddr4_dq32"/>
+                <pin_map port_index="33" component_pin="c1_ddr4_dq33"/>
+                <pin_map port_index="34" component_pin="c1_ddr4_dq34"/>
+                <pin_map port_index="35" component_pin="c1_ddr4_dq35"/>
+                <pin_map port_index="36" component_pin="c1_ddr4_dq36"/>
+                <pin_map port_index="37" component_pin="c1_ddr4_dq37"/>
+                <pin_map port_index="38" component_pin="c1_ddr4_dq38"/>
+                <pin_map port_index="39" component_pin="c1_ddr4_dq39"/>
+                <pin_map port_index="40" component_pin="c1_ddr4_dq40"/>
+                <pin_map port_index="41" component_pin="c1_ddr4_dq41"/>
+                <pin_map port_index="42" component_pin="c1_ddr4_dq42"/>
+                <pin_map port_index="43" component_pin="c1_ddr4_dq43"/>
+                <pin_map port_index="44" component_pin="c1_ddr4_dq44"/>
+                <pin_map port_index="45" component_pin="c1_ddr4_dq45"/>
+                <pin_map port_index="46" component_pin="c1_ddr4_dq46"/>
+                <pin_map port_index="47" component_pin="c1_ddr4_dq47"/>
+                <pin_map port_index="48" component_pin="c1_ddr4_dq48"/>
+                <pin_map port_index="49" component_pin="c1_ddr4_dq49"/>
+                <pin_map port_index="50" component_pin="c1_ddr4_dq50"/>
+                <pin_map port_index="51" component_pin="c1_ddr4_dq51"/>
+                <pin_map port_index="52" component_pin="c1_ddr4_dq52"/>
+                <pin_map port_index="53" component_pin="c1_ddr4_dq53"/>
+                <pin_map port_index="54" component_pin="c1_ddr4_dq54"/>
+                <pin_map port_index="55" component_pin="c1_ddr4_dq55"/>
+                <pin_map port_index="56" component_pin="c1_ddr4_dq56"/>
+                <pin_map port_index="57" component_pin="c1_ddr4_dq57"/>
+                <pin_map port_index="58" component_pin="c1_ddr4_dq58"/>
+                <pin_map port_index="59" component_pin="c1_ddr4_dq59"/>
+                <pin_map port_index="60" component_pin="c1_ddr4_dq60"/>
+                <pin_map port_index="61" component_pin="c1_ddr4_dq61"/>
+                <pin_map port_index="62" component_pin="c1_ddr4_dq62"/>
+                <pin_map port_index="63" component_pin="c1_ddr4_dq63"/>
+                <pin_map port_index="64" component_pin="c1_ddr4_dq64"/>
+                <pin_map port_index="65" component_pin="c1_ddr4_dq65"/>
+                <pin_map port_index="66" component_pin="c1_ddr4_dq66"/>
+                <pin_map port_index="67" component_pin="c1_ddr4_dq67"/>
+                <pin_map port_index="68" component_pin="c1_ddr4_dq68"/>
+                <pin_map port_index="69" component_pin="c1_ddr4_dq69"/>
+                <pin_map port_index="70" component_pin="c1_ddr4_dq70"/>
+                <pin_map port_index="71" component_pin="c1_ddr4_dq71"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="DQS_C" physical_port="c1_ddr4_dqs_c" dir="inout" left="8" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr4_dqs_c0"/>
+                <pin_map port_index="1" component_pin="c1_ddr4_dqs_c1"/>
+                <pin_map port_index="2" component_pin="c1_ddr4_dqs_c2"/>
+                <pin_map port_index="3" component_pin="c1_ddr4_dqs_c3"/>
+                <pin_map port_index="4" component_pin="c1_ddr4_dqs_c4"/>
+                <pin_map port_index="5" component_pin="c1_ddr4_dqs_c5"/>
+                <pin_map port_index="6" component_pin="c1_ddr4_dqs_c6"/>
+                <pin_map port_index="7" component_pin="c1_ddr4_dqs_c7"/>
+                <pin_map port_index="8" component_pin="c1_ddr4_dqs_c8"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="DQS_T" physical_port="c1_ddr4_dqs_t" dir="out" left="8" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr4_dqs_t0"/>
+                <pin_map port_index="1" component_pin="c1_ddr4_dqs_t1"/>
+                <pin_map port_index="2" component_pin="c1_ddr4_dqs_t2"/>
+                <pin_map port_index="3" component_pin="c1_ddr4_dqs_t3"/>
+                <pin_map port_index="4" component_pin="c1_ddr4_dqs_t4"/>
+                <pin_map port_index="5" component_pin="c1_ddr4_dqs_t5"/>
+                <pin_map port_index="6" component_pin="c1_ddr4_dqs_t6"/>
+                <pin_map port_index="7" component_pin="c1_ddr4_dqs_t7"/>
+                <pin_map port_index="8" component_pin="c1_ddr4_dqs_t8"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="DM_N" physical_port="c1_ddr4_dm_dbi_n" dir="inout" left="8" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr4_dm_dbi_n0"/>
+                <pin_map port_index="1" component_pin="c1_ddr4_dm_dbi_n1"/>
+                <pin_map port_index="2" component_pin="c1_ddr4_dm_dbi_n2"/>
+                <pin_map port_index="3" component_pin="c1_ddr4_dm_dbi_n3"/>
+                <pin_map port_index="4" component_pin="c1_ddr4_dm_dbi_n4"/>
+                <pin_map port_index="5" component_pin="c1_ddr4_dm_dbi_n5"/>
+                <pin_map port_index="6" component_pin="c1_ddr4_dm_dbi_n6"/>
+                <pin_map port_index="7" component_pin="c1_ddr4_dm_dbi_n7"/>
+                <pin_map port_index="8" component_pin="c1_ddr4_dm_dbi_n8"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="ODT" physical_port="c1_ddr4_odt" dir="out" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr4_odt0"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="RESET_N" physical_port="c1_ddr4_reset_n" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr4_reset_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        
+        <!-- Provided for backwards compatibilty; use ddr4_bank1 interface instead in new designs !-->
+        <interface mode="master" name="ddr4_bank1_ilv" type="xilinx.com:interface:ddr4_rtl:1.0" of_component="ddr4_bank1" preset_proc="ddr4_c1_preset">
+          <description>DDR4 SDRAM bank 1 interface (interleaved)</description>
+          
+          <parameters>
+            <parameter name="TYPE" value="CH1_DDR4"/>
+            <parameter name="presets_special_handling"/>
+          </parameters>
+
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_noc" order="0"/>
+          </preferred_ips>
+
+          <port_maps>
+            <port_map logical_port="ACT_N" physical_port="c1_ddr4_act_n" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr4_act_n"/>
+              </pin_maps>
+            </port_map>
+
+            <port_map logical_port="ALERT_N" physical_port="c1_ddr4_alert_n" dir="in">
+              <pin_maps>
+                  <pin_map port_index="0" component_pin="c1_ddr4_alert_n"/>
+              </pin_maps>
+            </port_map>
+
+            <port_map logical_port="PAR" physical_port="c1_ddr4_parity" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr4_parity"/>
+              </pin_maps>
+            </port_map>
+
+            <port_map logical_port="ADR" physical_port="c1_ddr4_adr" dir="out" left="16" right="0">
+              <pin_maps>
+                 <pin_map port_index="0"  component_pin="c1_ddr4_adr0"/>
+                 <pin_map port_index="1"  component_pin="c1_ddr4_adr1"/>
+                 <pin_map port_index="2"  component_pin="c1_ddr4_adr2"/>
+                 <pin_map port_index="3"  component_pin="c1_ddr4_adr3"/>
+                 <pin_map port_index="4"  component_pin="c1_ddr4_adr4"/>
+                 <pin_map port_index="5"  component_pin="c1_ddr4_adr5"/>
+                 <pin_map port_index="6"  component_pin="c1_ddr4_adr6"/>
+                 <pin_map port_index="7"  component_pin="c1_ddr4_adr7"/>
+                 <pin_map port_index="8"  component_pin="c1_ddr4_adr8"/>
+                 <pin_map port_index="9"  component_pin="c1_ddr4_adr9"/>
+                 <pin_map port_index="10" component_pin="c1_ddr4_adr10"/>
+                 <pin_map port_index="11" component_pin="c1_ddr4_adr11"/>
+                 <pin_map port_index="12" component_pin="c1_ddr4_adr12"/>
+                 <pin_map port_index="13" component_pin="c1_ddr4_adr13"/>
+                 <pin_map port_index="14" component_pin="c1_ddr4_adr14"/>
+                 <pin_map port_index="15" component_pin="c1_ddr4_adr15"/>
+                 <pin_map port_index="16" component_pin="c1_ddr4_adr16"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="BA" physical_port="c1_ddr4_ba" dir="out" left="1" right="0">
+              <pin_maps>
+                 <pin_map port_index="0" component_pin="c1_ddr4_ba0"/>
+                 <pin_map port_index="1" component_pin="c1_ddr4_ba1"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="BG" physical_port="c1_ddr4_bg" dir="out">
+              <pin_maps>
+                 <pin_map port_index="0" component_pin="c1_ddr4_bg0"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="CK_C" physical_port="c1_ddr4_ck_c" dir="out">  
+              <pin_maps>
+                 <pin_map port_index="0" component_pin="c1_ddr4_ck_c0"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="CK_T" physical_port="c1_ddr4_ck_t" dir="out" >
+              <pin_maps>
+                 <pin_map port_index="0" component_pin="c1_ddr4_ck_t0"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="CKE" physical_port="c1_ddr4_cke" dir="out" >
+              <pin_maps>
+               <pin_map port_index="0" component_pin="c1_ddr4_cke0"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="CS_N" physical_port="c1_ddr4_cs_n" dir="out" > 
+              <pin_maps>
+                 <pin_map port_index="0" component_pin="c1_ddr4_cs0_n"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="DQ" physical_port="c1_ddr4_dq" dir="inout" left="71" right="0">
+              <pin_maps>
+                <pin_map port_index="0"  component_pin="c1_ddr4_dq0"/>
+                <pin_map port_index="1"  component_pin="c1_ddr4_dq1"/>
+                <pin_map port_index="2"  component_pin="c1_ddr4_dq2"/>
+                <pin_map port_index="3"  component_pin="c1_ddr4_dq3"/>
+                <pin_map port_index="4"  component_pin="c1_ddr4_dq4"/>
+                <pin_map port_index="5"  component_pin="c1_ddr4_dq5"/>
+                <pin_map port_index="6"  component_pin="c1_ddr4_dq6"/>
+                <pin_map port_index="7"  component_pin="c1_ddr4_dq7"/>
+                <pin_map port_index="8"  component_pin="c1_ddr4_dq8"/>
+                <pin_map port_index="9"  component_pin="c1_ddr4_dq9"/>
+                <pin_map port_index="10" component_pin="c1_ddr4_dq10"/>
+                <pin_map port_index="11" component_pin="c1_ddr4_dq11"/>
+                <pin_map port_index="12" component_pin="c1_ddr4_dq12"/>
+                <pin_map port_index="13" component_pin="c1_ddr4_dq13"/>
+                <pin_map port_index="14" component_pin="c1_ddr4_dq14"/>
+                <pin_map port_index="15" component_pin="c1_ddr4_dq15"/>
+                <pin_map port_index="16" component_pin="c1_ddr4_dq16"/>
+                <pin_map port_index="17" component_pin="c1_ddr4_dq17"/>
+                <pin_map port_index="18" component_pin="c1_ddr4_dq18"/>
+                <pin_map port_index="19" component_pin="c1_ddr4_dq19"/>
+                <pin_map port_index="20" component_pin="c1_ddr4_dq20"/>
+                <pin_map port_index="21" component_pin="c1_ddr4_dq21"/>
+                <pin_map port_index="22" component_pin="c1_ddr4_dq22"/>
+                <pin_map port_index="23" component_pin="c1_ddr4_dq23"/>
+                <pin_map port_index="24" component_pin="c1_ddr4_dq24"/>
+                <pin_map port_index="25" component_pin="c1_ddr4_dq25"/>
+                <pin_map port_index="26" component_pin="c1_ddr4_dq26"/>
+                <pin_map port_index="27" component_pin="c1_ddr4_dq27"/>
+                <pin_map port_index="28" component_pin="c1_ddr4_dq28"/>
+                <pin_map port_index="29" component_pin="c1_ddr4_dq29"/>
+                <pin_map port_index="30" component_pin="c1_ddr4_dq30"/>
+                <pin_map port_index="31" component_pin="c1_ddr4_dq31"/>
+                <pin_map port_index="32" component_pin="c1_ddr4_dq32"/>
+                <pin_map port_index="33" component_pin="c1_ddr4_dq33"/>
+                <pin_map port_index="34" component_pin="c1_ddr4_dq34"/>
+                <pin_map port_index="35" component_pin="c1_ddr4_dq35"/>
+                <pin_map port_index="36" component_pin="c1_ddr4_dq36"/>
+                <pin_map port_index="37" component_pin="c1_ddr4_dq37"/>
+                <pin_map port_index="38" component_pin="c1_ddr4_dq38"/>
+                <pin_map port_index="39" component_pin="c1_ddr4_dq39"/>
+                <pin_map port_index="40" component_pin="c1_ddr4_dq40"/>
+                <pin_map port_index="41" component_pin="c1_ddr4_dq41"/>
+                <pin_map port_index="42" component_pin="c1_ddr4_dq42"/>
+                <pin_map port_index="43" component_pin="c1_ddr4_dq43"/>
+                <pin_map port_index="44" component_pin="c1_ddr4_dq44"/>
+                <pin_map port_index="45" component_pin="c1_ddr4_dq45"/>
+                <pin_map port_index="46" component_pin="c1_ddr4_dq46"/>
+                <pin_map port_index="47" component_pin="c1_ddr4_dq47"/>
+                <pin_map port_index="48" component_pin="c1_ddr4_dq48"/>
+                <pin_map port_index="49" component_pin="c1_ddr4_dq49"/>
+                <pin_map port_index="50" component_pin="c1_ddr4_dq50"/>
+                <pin_map port_index="51" component_pin="c1_ddr4_dq51"/>
+                <pin_map port_index="52" component_pin="c1_ddr4_dq52"/>
+                <pin_map port_index="53" component_pin="c1_ddr4_dq53"/>
+                <pin_map port_index="54" component_pin="c1_ddr4_dq54"/>
+                <pin_map port_index="55" component_pin="c1_ddr4_dq55"/>
+                <pin_map port_index="56" component_pin="c1_ddr4_dq56"/>
+                <pin_map port_index="57" component_pin="c1_ddr4_dq57"/>
+                <pin_map port_index="58" component_pin="c1_ddr4_dq58"/>
+                <pin_map port_index="59" component_pin="c1_ddr4_dq59"/>
+                <pin_map port_index="60" component_pin="c1_ddr4_dq60"/>
+                <pin_map port_index="61" component_pin="c1_ddr4_dq61"/>
+                <pin_map port_index="62" component_pin="c1_ddr4_dq62"/>
+                <pin_map port_index="63" component_pin="c1_ddr4_dq63"/>
+                <pin_map port_index="64" component_pin="c1_ddr4_dq64"/>
+                <pin_map port_index="65" component_pin="c1_ddr4_dq65"/>
+                <pin_map port_index="66" component_pin="c1_ddr4_dq66"/>
+                <pin_map port_index="67" component_pin="c1_ddr4_dq67"/>
+                <pin_map port_index="68" component_pin="c1_ddr4_dq68"/>
+                <pin_map port_index="69" component_pin="c1_ddr4_dq69"/>
+                <pin_map port_index="70" component_pin="c1_ddr4_dq70"/>
+                <pin_map port_index="71" component_pin="c1_ddr4_dq71"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="DQS_C" physical_port="c1_ddr4_dqs_c" dir="inout" left="8" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr4_dqs_c0"/>
+                <pin_map port_index="1" component_pin="c1_ddr4_dqs_c1"/>
+                <pin_map port_index="2" component_pin="c1_ddr4_dqs_c2"/>
+                <pin_map port_index="3" component_pin="c1_ddr4_dqs_c3"/>
+                <pin_map port_index="4" component_pin="c1_ddr4_dqs_c4"/>
+                <pin_map port_index="5" component_pin="c1_ddr4_dqs_c5"/>
+                <pin_map port_index="6" component_pin="c1_ddr4_dqs_c6"/>
+                <pin_map port_index="7" component_pin="c1_ddr4_dqs_c7"/>
+                <pin_map port_index="8" component_pin="c1_ddr4_dqs_c8"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="DQS_T" physical_port="c1_ddr4_dqs_t" dir="out" left="8" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr4_dqs_t0"/>
+                <pin_map port_index="1" component_pin="c1_ddr4_dqs_t1"/>
+                <pin_map port_index="2" component_pin="c1_ddr4_dqs_t2"/>
+                <pin_map port_index="3" component_pin="c1_ddr4_dqs_t3"/>
+                <pin_map port_index="4" component_pin="c1_ddr4_dqs_t4"/>
+                <pin_map port_index="5" component_pin="c1_ddr4_dqs_t5"/>
+                <pin_map port_index="6" component_pin="c1_ddr4_dqs_t6"/>
+                <pin_map port_index="7" component_pin="c1_ddr4_dqs_t7"/>
+                <pin_map port_index="8" component_pin="c1_ddr4_dqs_t8"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="DM_N" physical_port="c1_ddr4_dm_dbi_n" dir="inout" left="8" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr4_dm_dbi_n0"/>
+                <pin_map port_index="1" component_pin="c1_ddr4_dm_dbi_n1"/>
+                <pin_map port_index="2" component_pin="c1_ddr4_dm_dbi_n2"/>
+                <pin_map port_index="3" component_pin="c1_ddr4_dm_dbi_n3"/>
+                <pin_map port_index="4" component_pin="c1_ddr4_dm_dbi_n4"/>
+                <pin_map port_index="5" component_pin="c1_ddr4_dm_dbi_n5"/>
+                <pin_map port_index="6" component_pin="c1_ddr4_dm_dbi_n6"/>
+                <pin_map port_index="7" component_pin="c1_ddr4_dm_dbi_n7"/>
+                <pin_map port_index="8" component_pin="c1_ddr4_dm_dbi_n8"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="ODT" physical_port="c1_ddr4_odt" dir="out" >
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr4_odt0"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="RESET_N" physical_port="c1_ddr4_reset_n" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_ddr4_reset_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        
+        <interface mode="slave" name="ddr4_bank1_sys_clk" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="ddr4_bank1_sys_clk" preset_proc="sysclk1_preset">
+          <parameters>
+            <parameter name="frequency" value="300000000"/>
+          </parameters>
+          
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_noc" order="0"/>
+            <preferred_ip vendor="xilinx.com" library="ip" name="clk_wizard" order="1"/>
+            <preferred_ip vendor="xilinx.com" library="ip" name="util_ds_buf" order="2"/>
+          </preferred_ips>
+          
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="c1_sys_clk_clk_p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_sys_clk_clk_p"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="CLK_N" physical_port="c1_sys_clk_clk_n" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="c1_sys_clk_clk_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+        <!-- Commented out for the time being because as of Vivado 2022.1 there do not appear to be any IPs that support automation of this interface !-->
+        <!--
+        <interface mode="master" name="pcie" type="xilinx.com:interface:gt_rtl:1.0" of_component="pcie_edge_conn" preset_proc="pcie_preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="versal_cips" order="0"/>
+          </preferred_ips>
+
+          <port_maps>
+            <port_map logical_port="GTX_P" physical_port="pcie0_gtx_p" dir="out" left="15" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pcie0_gtx0_p"/>
+                <pin_map port_index="1" component_pin="pcie0_gtx0_p"/>
+                <pin_map port_index="2" component_pin="pcie0_gtx0_p"/>
+                <pin_map port_index="3" component_pin="pcie0_gtx0_p"/>
+                <pin_map port_index="4" component_pin="pcie0_gtx0_p"/>
+                <pin_map port_index="5" component_pin="pcie0_gtx0_p"/>
+                <pin_map port_index="6" component_pin="pcie0_gtx0_p"/>
+                <pin_map port_index="7" component_pin="pcie0_gtx0_p"/>
+                <pin_map port_index="8" component_pin="pcie0_gtx0_p"/>
+                <pin_map port_index="9" component_pin="pcie0_gtx0_p"/>
+                <pin_map port_index="10" component_pin="pcie0_gtx0_p"/>
+                <pin_map port_index="11" component_pin="pcie0_gtx0_p"/>
+                <pin_map port_index="12" component_pin="pcie0_gtx0_p"/>
+                <pin_map port_index="13" component_pin="pcie0_gtx0_p"/>
+                <pin_map port_index="14" component_pin="pcie0_gtx0_p"/>
+                <pin_map port_index="15" component_pin="pcie0_gtx0_p"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="GTX_N" physical_port="pcie0_gtx_n" dir="out" left="15" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pcie0_gtx0_n"/>
+                <pin_map port_index="1" component_pin="pcie0_gtx0_n"/>
+                <pin_map port_index="2" component_pin="pcie0_gtx0_n"/>
+                <pin_map port_index="3" component_pin="pcie0_gtx0_n"/>
+                <pin_map port_index="4" component_pin="pcie0_gtx0_n"/>
+                <pin_map port_index="5" component_pin="pcie0_gtx0_n"/>
+                <pin_map port_index="6" component_pin="pcie0_gtx0_n"/>
+                <pin_map port_index="7" component_pin="pcie0_gtx0_n"/>
+                <pin_map port_index="8" component_pin="pcie0_gtx0_n"/>
+                <pin_map port_index="9" component_pin="pcie0_gtx0_n"/>
+                <pin_map port_index="10" component_pin="pcie0_gtx0_n"/>
+                <pin_map port_index="11" component_pin="pcie0_gtx0_n"/>
+                <pin_map port_index="12" component_pin="pcie0_gtx0_n"/>
+                <pin_map port_index="13" component_pin="pcie0_gtx0_n"/>
+                <pin_map port_index="14" component_pin="pcie0_gtx0_n"/>
+                <pin_map port_index="15" component_pin="pcie0_gtx0_n"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="GRX_P" physical_port="pcie0_grx_p" dir="out" left="15" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pcie0_grx0_p"/>
+                <pin_map port_index="1" component_pin="pcie0_grx0_p"/>
+                <pin_map port_index="2" component_pin="pcie0_grx0_p"/>
+                <pin_map port_index="3" component_pin="pcie0_grx0_p"/>
+                <pin_map port_index="4" component_pin="pcie0_grx0_p"/>
+                <pin_map port_index="5" component_pin="pcie0_grx0_p"/>
+                <pin_map port_index="6" component_pin="pcie0_grx0_p"/>
+                <pin_map port_index="7" component_pin="pcie0_grx0_p"/>
+                <pin_map port_index="8" component_pin="pcie0_grx0_p"/>
+                <pin_map port_index="9" component_pin="pcie0_grx0_p"/>
+                <pin_map port_index="10" component_pin="pcie0_grx0_p"/>
+                <pin_map port_index="11" component_pin="pcie0_grx0_p"/>
+                <pin_map port_index="12" component_pin="pcie0_grx0_p"/>
+                <pin_map port_index="13" component_pin="pcie0_grx0_p"/>
+                <pin_map port_index="14" component_pin="pcie0_grx0_p"/>
+                <pin_map port_index="15" component_pin="pcie0_grx0_p"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="GRX_N" physical_port="pcie0_grx_n" dir="out" left="15" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="pcie0_grx0_n"/>
+                <pin_map port_index="1" component_pin="pcie0_grx0_n"/>
+                <pin_map port_index="2" component_pin="pcie0_grx0_n"/>
+                <pin_map port_index="3" component_pin="pcie0_grx0_n"/>
+                <pin_map port_index="4" component_pin="pcie0_grx0_n"/>
+                <pin_map port_index="5" component_pin="pcie0_grx0_n"/>
+                <pin_map port_index="6" component_pin="pcie0_grx0_n"/>
+                <pin_map port_index="7" component_pin="pcie0_grx0_n"/>
+                <pin_map port_index="8" component_pin="pcie0_grx0_n"/>
+                <pin_map port_index="9" component_pin="pcie0_grx0_n"/>
+                <pin_map port_index="10" component_pin="pcie0_grx0_n"/>
+                <pin_map port_index="11" component_pin="pcie0_grx0_n"/>
+                <pin_map port_index="12" component_pin="pcie0_grx0_n"/>
+                <pin_map port_index="13" component_pin="pcie0_grx0_n"/>
+                <pin_map port_index="14" component_pin="pcie0_grx0_n"/>
+                <pin_map port_index="15" component_pin="pcie0_grx0_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        !-->
+        
+        <interface mode="slave" name="fabric_clk" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="fabric_clk" preset_proc="fabric_clk_preset">
+          <parameters>
+            <parameter name="frequency" value="300000000"/>
+          </parameters>
+          
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="util_ds_buf" order="0"/>
+            <preferred_ip vendor="xilinx.com" library="ip" name="clk_wizard" order="1"/>
+          </preferred_ips>
+          
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="fabric_clk_clk_p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="fabric_clk_clk_p"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="CLK_N" physical_port="fabric_clk_clk_n" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="fabric_clk_clk_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+        <interface mode="slave" name="mgt_progclk_0" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="mgt_progclk_0" preset_proc="mgt_progclk_0_preset">
+          <parameters>
+            <parameter name="frequency" value="156250000"/>
+          </parameters>
+          
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="util_ds_buf" order="0"/>
+          </preferred_ips>
+          
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="mgt_progclk_0_clk_p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="mgt_progclk_0_clk_p"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="CLK_N" physical_port="mgt_progclk_0_clk_n" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="mgt_progclk_0_clk_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+        <interface mode="slave" name="mgt_progclk_1" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="mgt_progclk_1" preset_proc="mgt_progclk_1_preset">
+          <parameters>
+            <parameter name="frequency" value="156250000"/>
+          </parameters>
+          
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="util_ds_buf" order="0"/>
+          </preferred_ips>
+          
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="mgt_progclk_1_clk_p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="mgt_progclk_1_clk_p"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="CLK_N" physical_port="mgt_progclk_1_clk_n" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="mgt_progclk_1_clk_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+        <interface mode="slave" name="mgt_progclk_2" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="mgt_progclk_2" preset_proc="mgt_progclk_2_preset">
+          <parameters>
+            <parameter name="frequency" value="156250000"/>
+          </parameters>
+          
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="util_ds_buf" order="0"/>
+          </preferred_ips>
+          
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="mgt_progclk_2_clk_p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="mgt_progclk_2_clk_p"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="CLK_N" physical_port="mgt_progclk_2_clk_n" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="mgt_progclk_2_clk_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+        <interface mode="slave" name="mgt_progclk_3" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="mgt_progclk_3" preset_proc="mgt_progclk_3_preset">
+          <parameters>
+            <parameter name="frequency" value="156250000"/>
+          </parameters>
+          
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="util_ds_buf" order="0"/>
+          </preferred_ips>
+          
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="mgt_progclk_3_clk_p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="mgt_progclk_3_clk_p"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="CLK_N" physical_port="mgt_progclk_3_clk_n" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="mgt_progclk_3_clk_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+        <interface mode="slave" name="mgt_progclk_4" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="mgt_progclk_4" preset_proc="mgt_progclk_4_preset">
+          <parameters>
+            <parameter name="frequency" value="156250000"/>
+          </parameters>
+          
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="util_ds_buf" order="0"/>
+          </preferred_ips>
+          
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="mgt_progclk_4_clk_p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="mgt_progclk_4_clk_p"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="CLK_N" physical_port="mgt_progclk_4_clk_n" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="mgt_progclk_4_clk_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+        <interface mode="slave" name="mgt_progclk_5" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="mgt_progclk_5" preset_proc="mgt_progclk_5_preset">
+          <parameters>
+            <parameter name="frequency" value="156250000"/>
+          </parameters>
+          
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="util_ds_buf" order="0"/>
+          </preferred_ips>
+          
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="mgt_progclk_5_clk_p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="mgt_progclk_5_clk_p"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="CLK_N" physical_port="mgt_progclk_5_clk_n" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="mgt_progclk_5_clk_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+        <interface mode="slave" name="mgt_progclk_7" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="mgt_progclk_7" preset_proc="mgt_progclk_7_preset">
+          <parameters>
+            <parameter name="frequency" value="156250000"/>
+          </parameters>
+          
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="util_ds_buf" order="0"/>
+          </preferred_ips>
+          
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="mgt_progclk_7_clk_p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="mgt_progclk_7_clk_p"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="CLK_N" physical_port="mgt_progclk_7_clk_n" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="mgt_progclk_7_clk_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+        <interface mode="slave" name="firefly_clk" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="firefly_clk" preset_proc="firefly_clk_preset">
+          <parameters>
+            <parameter name="frequency" value="350000000"/>
+          </parameters>
+          
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="util_ds_buf" order="0"/>
+          </preferred_ips>
+          
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="firefly_clk_clk_p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="firefly_clk_clk_p"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="CLK_N" physical_port="firefly_clk_clk_n" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="firefly_clk_clk_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+        <interface mode="slave" name="si5328_out_0" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="si5328_out_0" preset_proc="si5328_out_0_preset">
+          <parameters>
+            <parameter name="frequency" value="156250000"/>
+          </parameters>
+          
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="util_ds_buf" order="0"/>
+          </preferred_ips>
+          
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="si5328_out_0_clk_p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="si5328_out_0_clk_p"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="CLK_N" physical_port="si5328_out_0_clk_n" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="si5328_out_0_clk_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+        <interface mode="slave" name="si5328_out_1" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="si5328_out_1" preset_proc="si5328_out_1_preset">
+          <parameters>
+            <parameter name="frequency" value="156250000"/>
+          </parameters>
+          
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="util_ds_buf" order="0"/>
+          </preferred_ips>
+          
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="si5328_out_1_clk_p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="si5328_out_1_clk_p"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="CLK_N" physical_port="si5328_out_1_clk_n" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="si5328_out_1_clk_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+        <interface mode="master" name="si5328_refclk_in" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="si5328_refclk_in" preset_proc="si5328_refclk_in_preset">
+          <parameters>
+            <parameter name="frequency" value="156250000"/>
+          </parameters>
+          
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="util_ds_buf" order="0"/>
+          </preferred_ips>
+          
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="si5328_refclk_in_clk_p" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="si5328_refclk_in_clk_p"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="CLK_N" physical_port="si5328_refclk_in_clk_n" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="si5328_refclk_in_clk_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+        <!-- Board revision 4 and later only !-->
+        <interface mode="master" name="si5328_refclk_in2" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="si5328_refclk_in2" preset_proc="si5328_refclk_in2_preset">
+          <parameters>
+            <parameter name="frequency" value="156250000"/>
+          </parameters>
+          
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="util_ds_buf" order="0"/>
+          </preferred_ips>
+          
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="si5328_refclk_in2_clk_p" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="si5328_refclk_in2_clk_p"/>
+              </pin_maps>
+            </port_map>
+            
+            <port_map logical_port="CLK_N" physical_port="si5328_refclk_in2_clk_n" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="si5328_refclk_in2_clk_n"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+        <interface mode="master" name="user_led_l" type="xilinx.com:interface:gpio_rtl:1.0" of_component="user_led" preset_proc="user_led_preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_O" physical_port="user_led_g_l" dir="out" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="user_led_g_l0"/>
+                <pin_map port_index="1" component_pin="user_led_g_l1"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+        <interface mode="master" name="user_switch" type="xilinx.com:interface:gpio_rtl:1.0" of_component="user_switch" preset_proc="user_switch_preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_I" physical_port="user_sw" dir="out" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="usr_sw_0"/>
+                <pin_map port_index="1" component_pin="usr_sw_1"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+        <interface mode="master" name="board_monitoring" type="xilinx.com:interface:gpio_rtl:1.0" of_component="board_monitoring" preset_proc="board_monitoring_preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_I" physical_port="board_monitoring" dir="out" left="3" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="fan_fail_l"/>
+                <pin_map port_index="1" component_pin="srvc_md_l"/>
+                <pin_map port_index="2" component_pin="fmc_prsnt_l"/>
+                <pin_map port_index="3" component_pin="hspc_prsnt_l"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+        <interface mode="master" name="spare_i2c" type="xilinx.com:interface:iic_rtl:1.0" of_component="spare_i2c">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_iic" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="SDA_I" physical_port="spare_i2c_sda_i" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="spare_sda"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SDA_O" physical_port="spare_i2c_sda_o" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="spare_sda"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SDA_T" physical_port="spare_i2c_sda_t" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="spare_sda"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SCL_I" physical_port="spare_i2c_scl_i" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="spare_scl"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SCL_O" physical_port="spare_i2c_scl_o" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="spare_scl"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SCL_T" physical_port="spare_i2c_scl_t" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="spare_scl"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+        <interface mode="master" name="firefly_i2c" type="xilinx.com:interface:iic_rtl:1.0" of_component="firefly_i2c">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_iic" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="SDA_I" physical_port="firefly_i2c_sda_i" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="firefly_sda"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SDA_O" physical_port="firefly_i2c_sda_o" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="firefly_sda"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SDA_T" physical_port="firefly_i2c_sda_t" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="firefly_sda"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SCL_I" physical_port="firefly_i2c_scl_i" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="firefly_scl"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SCL_O" physical_port="firefly_i2c_scl_o" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="firefly_scl"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SCL_T" physical_port="firefly_i2c_scl_t" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="firefly_scl"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+        <interface mode="master" name="firefly_sideband_in" type="xilinx.com:interface:gpio_rtl:1.0" of_component="firefly_sideband_in" preset_proc="firefly_sideband_in_preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_I" physical_port="firefly_sideband_gpio2_io_i" dir="in" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="firefly_modprs_l"/>
+                <pin_map port_index="1" component_pin="firefly_int_l"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+        <interface mode="master" name="firefly_sideband_out" type="xilinx.com:interface:gpio_rtl:1.0" of_component="firefly_sideband_out" preset_proc="firefly_sideband_out_preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_O" physical_port="firefly_sideband_gpio_io_o" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="firefly_rst_l"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+        <interface mode="master" name="si5328_i2c" type="xilinx.com:interface:iic_rtl:1.0" of_component="si5328_i2c">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_iic" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="SDA_I" physical_port="si5328_i2c_sda_i" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="si5328_sda"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SDA_O" physical_port="si5328_i2c_sda_o" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="si5328_sda"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SDA_T" physical_port="si5328_i2c_sda_t" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="si5328_sda"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SCL_I" physical_port="si5328_i2c_scl_i" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="si5328_scl"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SCL_O" physical_port="si5328_i2c_scl_o" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="si5328_scl"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="SCL_T" physical_port="si5328_i2c_scl_t" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="si5328_scl"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+        <interface mode="master" name="si5328_sideband_in" type="xilinx.com:interface:gpio_rtl:1.0" of_component="si5328_sideband_in" preset_proc="si5328_sideband_in_preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_I" physical_port="si5328_sideband_gpio2_io_i" dir="in" left="2" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="si5328_int_c1b"/>
+                <pin_map port_index="1" component_pin="si5328_c2b"/>
+                <pin_map port_index="2" component_pin="si5328_lol"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+        <interface mode="master" name="si5328_sideband_out" type="xilinx.com:interface:gpio_rtl:1.0" of_component="si5328_sideband_out" preset_proc="si5328_sideband_out_preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_O" physical_port="si5328_sideband_gpio_io_o" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="si5328_rst_l"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+      </interfaces>
+    </component>
+    
+    <component name="ps_pmc_fixed_io" display_name="PS-PMC fixed IO" type="chip" sub_type="fixed_io" major_group="MIO interface" part_name="Versal CIPS" vendor="Xilinx" >
+      <description>Versal CIPS component </description>
+      
+      <component_modes>
+        <component_mode name="ps_pmc_fixed_io" display_name="ps_pmc_fixed_io">
+          <interfaces>
+            <interface name="ps_pmc_fixed_io"/>
+          </interfaces>
+        </component_mode>
+      </component_modes>
+    </component>
+
+    <component name="ddr4_bank0" display_name="DDR4 SDRAM bank 0" type="chip" sub_type="ddr" major_group="External Memory" part_name="DDR4-3200AA(22-22-22)" vendor="Micron" spec_url="https://www.micron.com/">
+      <description>DDR4 SDRAM bank 0 (8 GB) @ DDR4-3200AA, 72 bits wide.</description>
+      
+      <parameters>
+        <parameter name="ddr_type" value="ddr4"/>
+        <parameter name="size" value="8GB"/>
+      </parameters> 
+      
+      <component_modes>
+        <component_mode name="ddr4_bank0" display_name="ddr4_bank0">
+          <interfaces>
+            <interface name="ddr4_bank0"/>
+            <interface name="ddr4_bank0_sys_clk" optional="true"/>
+          </interfaces>
+        </component_mode>
+      </component_modes>
+    </component>
+    
+    <component name="ddr4_bank1" display_name="DDR4 SDRAM bank 1" type="chip" sub_type="ddr" major_group="External Memory" part_name="DDR4-3200AA(22-22-22)" vendor="Micron" spec_url="https://www.micron.com/">
+      <description>DDR4 SDRAM bank 1 (8 GB) @ DDR4-3200AA, 72 bits wide.</description>
+      
+      <parameters>
+        <parameter name="ddr_type" value="ddr4"/>
+        <parameter name="size" value="8GB"/>
+      </parameters> 
+      
+      <component_modes>
+        <component_mode name="ddr4_bank1" display_name="ddr4_bank1">
+          <interfaces>
+            <interface name="ddr4_bank1"/>
+            <interface name="ddr4_bank1_sys_clk" optional="true"/>
+          </interfaces>
+        </component_mode>
+      </component_modes>
+    </component>
+    
+    <component name="ddr4_bank0_sys_clk" display_name="DDR4 SDRAM bank 0 system clock" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="Si5338B" vendor="Silicon Labs" spec_url="www.silabs.com">
+      <description>300 MHz oscillator used as DDR4 SDRAM bank 0 controller system clock.</description>
+      <parameters>
+        <parameter name="frequency" value="300000000"/>
+      </parameters>
+    </component>
+
+    <component name="ddr4_bank1_sys_clk" display_name="DDR4 SDRAM bank 1 system clock" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="Si5338B" vendor="Silicon Labs" spec_url="www.silabs.com">
+      <description>300 MHz oscillator used as DDR4 SDRAM bank 1 controller system clock.</description>
+      <parameters>
+        <parameter name="frequency" value="300000000"/>
+      </parameters>
+    </component>
+
+    <component name="fabric_clk" display_name="General purpose programmable clock for PL" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="Si5338B" vendor="Silicon Labs" spec_url="www.silabs.com">
+      <description>Programmable oscillator (factory default 300 MHz) that can be used to clock PL.</description>
+      <parameters>
+        <parameter name="frequency" value="300000000"/>
+      </parameters>
+    </component>
+    
+    <component name="mgt_progclk_0" display_name="MGT programmable clock copy 0" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="Si5338B" vendor="Silicon Labs" spec_url="www.silabs.com">
+      <description>Programmable oscillator (factory default 156.25 MHz) to GTY_REFCLK0_200.</description>
+      <parameters>
+        <parameter name="frequency" value="156250000"/>
+      </parameters>
+    </component>
+    
+    <component name="mgt_progclk_1" display_name="MGT programmable clock copy 1" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="Si5338B" vendor="Silicon Labs" spec_url="www.silabs.com">
+      <description>Programmable oscillator (factory default 156.25 MHz) to GTY_REFCLK0_201.</description>
+      <parameters>
+        <parameter name="frequency" value="156250000"/>
+      </parameters>
+    </component>
+    
+    <component name="mgt_progclk_2" display_name="MGT programmable clock copy 2" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="Si5338B" vendor="Silicon Labs" spec_url="www.silabs.com">
+      <description>Programmable oscillator (factory default 156.25 MHz) to GTY_REFCLK0_202.</description>
+      <parameters>
+        <parameter name="frequency" value="156250000"/>
+      </parameters>
+    </component>
+    
+    <component name="mgt_progclk_3" display_name="MGT programmable clock copy 3" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="Si5338B" vendor="Silicon Labs" spec_url="www.silabs.com">
+      <description>Programmable oscillator (factory default 156.25 MHz) to GTY_REFCLK0_203.</description>
+      <parameters>
+        <parameter name="frequency" value="156250000"/>
+      </parameters>
+    </component>
+    
+    <component name="mgt_progclk_4" display_name="MGT programmable clock copy 4" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="Si5338B" vendor="Silicon Labs" spec_url="www.silabs.com">
+      <description>Programmable oscillator (factory default 156.25 MHz) to GTY_REFCLK0_204.</description>
+      <parameters>
+        <parameter name="frequency" value="156250000"/>
+      </parameters>
+    </component>
+    
+    <component name="mgt_progclk_5" display_name="MGT programmable clock copy 5" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="Si5338B" vendor="Silicon Labs" spec_url="www.silabs.com">
+      <description>Programmable oscillator (factory default 156.25 MHz) to GTY_REFCLK0_205.</description>
+      <parameters>
+        <parameter name="frequency" value="156250000"/>
+      </parameters>
+    </component>
+    
+    <component name="mgt_progclk_7" display_name="MGT programmable clock copy 7" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="Si5338B" vendor="Silicon Labs" spec_url="www.silabs.com">
+      <description>Programmable oscillator (factory default 156.25 MHz) to GTY_REFCLK1_206.</description>
+      <parameters>
+        <parameter name="frequency" value="156250000"/>
+      </parameters>
+    </component>
+    
+    <component name="firefly_clk" display_name="FireFly programmable clock" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="Si5338B" vendor="Silicon Labs" spec_url="www.silabs.com">
+      <description>Programmable oscillator (factory default 350 MHz) to GTY_REFCLK0_206.</description>
+      <parameters>
+        <parameter name="frequency" value="350000000"/>
+      </parameters>
+    </component>
+    
+    <component name="si5328_out_0" display_name="SI5328 output clock 0" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="Si5328" vendor="Silicon Labs" spec_url="www.silabs.com">
+      <description>Output clock 0 from SI5328 jitter attenuator to GTY_REFCLK1_201. NOTE: Not fixed frequency - actual frequency determined by SI5328 register map.</description>
+      <!--
+      <parameters>
+        <parameter name="frequency" value="350000000"/>
+      </parameters>
+      !-->
+    </component>
+    
+    <component name="si5328_out_1" display_name="SI5328 output clock 1" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="Si5328" vendor="Silicon Labs" spec_url="www.silabs.com">
+      <description>Output clock 1 from SI5328 jitter attenuator to GTY_REFCLK1_204. NOTE: Not fixed frequency - actual frequency determined by SI5328 register map.</description>
+      <!--
+      <parameters>
+        <parameter name="frequency" value="350000000"/>
+      </parameters>
+      !-->
+    </component>
+    
+    <component name="si5328_refclk_in" display_name="SI5328 reference clock 1" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="Si5328" vendor="Silicon Labs" spec_url="www.silabs.com">
+      <description>Reference clock (CLKIN1) to SI5328. NOTE: Not fixed frequency - actual frequency determined by designer.</description>
+      <!--
+      <parameters>
+        <parameter name="frequency" value="350000000"/>
+      </parameters>
+      !-->
+    </component>
+    
+    <!-- Board revision 4 and later only !-->
+    <component name="si5328_refclk_in2" display_name="SI5328 reference clock 2" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="Si5328" vendor="Silicon Labs" spec_url="www.silabs.com">
+      <description>Reference clock (CLKIN2) to SI5328. NOTE: Not fixed frequency - actual frequency determined by designer. CONNECTED TO ACAP ONLY IN BOARD REVISION 4 AND LATER.</description>
+      <!--
+      <parameters>
+        <parameter name="frequency" value="350000000"/>
+      </parameters>
+      !-->
+    </component>
+    
+    <component name="fmc_conn" display_name="FMC+/HSPC Site (J6)" type="connector" sub_type="fmc_hpc">
+      <description>Site for an FPGA Mezzanine Card Plus (FMC+/HSPC).</description>
+      
+      <pins>
+        <!-- J6A !-->
+        <pin index="2" name="dp1_m2c_p" />
+        <pin index="3" name="dp1_m2c_n" />
+        <pin index="6" name="dp2_m2c_p" />
+        <pin index="7" name="dp2_m2c_n" />
+        <pin index="10" name="dp3_m2c_p" />
+        <pin index="11" name="dp3_m2c_n" />
+        <pin index="14" name="dp4_m2c_p" />
+        <pin index="15" name="dp4_m2c_n" />
+        <pin index="18" name="dp5_m2c_p" />
+        <pin index="19" name="dp5_m2c_n" />
+        <pin index="22" name="dp1_c2m_p" />
+        <pin index="23" name="dp1_c2m_n" />
+        <pin index="26" name="dp2_c2m_p" />
+        <pin index="27" name="dp2_c2m_n" />
+        <pin index="30" name="dp3_c2m_p" />
+        <pin index="31" name="dp3_c2m_n" />
+        <pin index="34" name="dp4_c2m_p" />
+        <pin index="35" name="dp4_c2m_n" />
+        <pin index="38" name="dp5_c2m_p" />
+        <pin index="39" name="dp5_c2m_n" />
+        <!-- J6B !-->
+        <pin index="41" name="fmc_clk_dir" />
+        <pin index="44" name="dp9_m2c_p" />
+        <pin index="45" name="dp9_m2c_n" />
+        <pin index="48" name="dp8_m2c_p" />
+        <pin index="49" name="dp8_m2c_n" />
+        <pin index="52" name="dp7_m2c_p" />
+        <pin index="53" name="dp7_m2c_n" />
+        <pin index="56" name="dp6_m2c_p" />
+        <pin index="57" name="dp6_m2c_n" />
+        <pin index="60" name="gbtclk1_m2c_p" />
+        <pin index="61" name="gbtclk1_m2c_n" />
+        <pin index="64" name="dp9_c2m_p" />
+        <pin index="65" name="dp9_c2m_n" />
+        <pin index="68" name="dp8_c2m_p" />
+        <pin index="69" name="dp8_c2m_n" />
+        <pin index="72" name="dp7_c2m_p" />
+        <pin index="73" name="dp7_c2m_n" />
+        <pin index="76" name="dp6_c2m_p" />
+        <pin index="77" name="dp6_c2m_n" />
+        <!-- J6C !-->
+        <pin index="82" name="dp0_c2m_p" />
+        <pin index="83" name="dp0_c2m_n" />
+        <pin index="86" name="dp0_m2c_p" />
+        <pin index="87" name="dp0_m2c_n" />
+        <pin index="90" name="la06_p" />
+        <pin index="91" name="la06_n" />
+        <pin index="94" name="la10_p" />
+        <pin index="95" name="la10_n" />
+        <pin index="98" name="la14_p" />
+        <pin index="99" name="la14_n" />
+        <pin index="102" name="la18_cc_p" />
+        <pin index="103" name="la18_cc_n" />
+        <pin index="106" name="la27_p" />
+        <pin index="107" name="la27_n" />
+        <pin index="110" name="fmc_scl" />
+        <pin index="111" name="fmc_sda" />
+        <pin index="114" name="fmc_ga0" />
+        <!-- J6D !-->
+        <pin index="121" name="pg_c2m" />
+        <pin index="124" name="gbtclk0_m2c_p" />
+        <pin index="125" name="gbtclk0_m2c_n" />
+        <pin index="128" name="la01_cc_p" />
+        <pin index="129" name="la01_cc_n" />
+        <pin index="131" name="la05_p" />
+        <pin index="132" name="la05_n" />
+        <pin index="134" name="la09_p" />
+        <pin index="135" name="la09_n" />
+        <pin index="137" name="la13_p" />
+        <pin index="138" name="la13_n" />
+        <pin index="140" name="la17_cc_p" />
+        <pin index="141" name="la17_cc_n" />
+        <pin index="143" name="la23_p" />
+        <pin index="144" name="la23_n" />
+        <pin index="146" name="la26_p" />
+        <pin index="147" name="la26_n" />
+        <pin index="149" name="fmc_tck" />
+        <pin index="150" name="fmc_tdi" />
+        <pin index="151" name="fmc_tdo" />
+        <pin index="153" name="fmc_tms" />
+        <pin index="153" name="fmc_trst_l" />
+        <pin index="155" name="fmc_ga1" />
+        <!-- J6E !-->
+        <pin index="162" name="ha01_cc_p" />
+        <pin index="163" name="ha01_cc_n" />
+        <pin index="166" name="ha05_p" />
+        <pin index="167" name="ha05_n" />
+        <pin index="169" name="ha09_p" />
+        <pin index="170" name="ha09_n" />
+        <pin index="172" name="ha13_p" />
+        <pin index="173" name="ha13_n" />
+        <pin index="175" name="ha16_p" />
+        <pin index="176" name="ha16_n" />
+        <pin index="178" name="ha20_p" />
+        <pin index="179" name="ha20_n" />
+        <pin index="181" name="hb03_p" />
+        <pin index="182" name="hb03_n" />
+        <pin index="184" name="hb05_p" />
+        <pin index="185" name="hb05_n" />
+        <pin index="187" name="hb09_p" />
+        <pin index="188" name="hb09_n" />
+        <pin index="190" name="hb13_p" />
+        <pin index="191" name="hb13_n" />
+        <pin index="193" name="hb19_p" />
+        <pin index="194" name="hb19_n" />
+        <pin index="196" name="hb21_p" />
+        <pin index="197" name="hb21_n" />
+        <!-- J6F !-->
+        <pin index="201" name="pg_m2c" />
+        <pin index="204" name="ha00_cc_p" />
+        <pin index="205" name="ha00_cc_n" />
+        <pin index="207" name="ha04_p" />
+        <pin index="208" name="ha04_n" />
+        <pin index="210" name="ha08_p" />
+        <pin index="211" name="ha08_n" />
+        <pin index="213" name="ha12_p" />
+        <pin index="214" name="ha12_n" />
+        <pin index="216" name="ha15_p" />
+        <pin index="217" name="ha15_n" />
+        <pin index="219" name="ha19_p" />
+        <pin index="220" name="ha19_n" />
+        <pin index="222" name="hb02_p" />
+        <pin index="223" name="hb02_n" />
+        <pin index="225" name="hb04_p" />
+        <pin index="226" name="hb04_n" />
+        <pin index="228" name="hb08_p" />
+        <pin index="229" name="hb08_n" />
+        <pin index="231" name="hb12_p" />
+        <pin index="232" name="hb12_n" />
+        <pin index="234" name="hb16_p" />
+        <pin index="235" name="hb16_n" />
+        <pin index="237" name="hb20_p" />
+        <pin index="238" name="hb20_n" />
+        <!-- J6G !-->
+        <pin index="242" name="clk1_m2c_p" />
+        <pin index="243" name="clk1_m2c_n" />
+        <pin index="246" name="la00_cc_p" />
+        <pin index="247" name="la00_cc_n" />
+        <pin index="249" name="la03_p" />
+        <pin index="250" name="la03_n" />
+        <pin index="252" name="la08_p" />
+        <pin index="253" name="la08_n" />
+        <pin index="255" name="la12_p" />
+        <pin index="256" name="la12_n" />
+        <pin index="258" name="la16_p" />
+        <pin index="259" name="la16_n" />
+        <pin index="261" name="la20_p" />
+        <pin index="262" name="la20_n" />
+        <pin index="264" name="la22_p" />
+        <pin index="265" name="la22_n" />
+        <pin index="267" name="la25_p" />
+        <pin index="268" name="la25_n" />
+        <pin index="270" name="la29_p" />
+        <pin index="271" name="la29_n" />
+        <pin index="273" name="la31_p" />
+        <pin index="274" name="la31_n" />
+        <pin index="276" name="la33_p" />
+        <pin index="277" name="la33_n" />
+        <!-- J6H !-->
+        <pin index="282" name="fmc_prsnt_l" />
+        <pin index="284" name="clk0_m2c_p" />
+        <pin index="285" name="clk0_m2c_n" />
+        <pin index="287" name="la02_p" />
+        <pin index="288" name="la02_n" />
+        <pin index="290" name="la04_p" />
+        <pin index="291" name="la04_n" />
+        <pin index="293" name="la07_p" />
+        <pin index="294" name="la07_n" />
+        <pin index="296" name="la11_p" />
+        <pin index="297" name="la11_n" />
+        <pin index="299" name="la15_p" />
+        <pin index="300" name="la15_n" />
+        <pin index="302" name="la19_p" />
+        <pin index="303" name="la19_n" />
+        <pin index="305" name="la21_p" />
+        <pin index="306" name="la21_n" />
+        <pin index="308" name="la24_p" />
+        <pin index="309" name="la24_n" />
+        <pin index="311" name="la28_p" />
+        <pin index="312" name="la28_n" />
+        <pin index="314" name="la30_p" />
+        <pin index="315" name="la30_n" />
+        <pin index="317" name="la32_p" />
+        <pin index="318" name="la32_n" />
+        <!-- J6J !-->
+        <pin index="322" name="clk3_bidir_p" />
+        <pin index="323" name="clk3_bidir_n" />
+        <pin index="326" name="ha03_p" />
+        <pin index="327" name="ha03_n" />
+        <pin index="329" name="ha07_p" />
+        <pin index="330" name="ha07_n" />
+        <pin index="332" name="ha11_p" />
+        <pin index="333" name="ha11_n" />
+        <pin index="335" name="ha14_p" />
+        <pin index="336" name="ha14_n" />
+        <pin index="338" name="ha18_p" />
+        <pin index="339" name="ha18_n" />
+        <pin index="341" name="ha22_p" />
+        <pin index="342" name="ha22_n" />
+        <pin index="344" name="hb01_p" />
+        <pin index="345" name="hb01_n" />
+        <pin index="347" name="hb07_p" />
+        <pin index="348" name="hb07_n" />
+        <pin index="350" name="hb11_p" />
+        <pin index="351" name="hb11_n" />
+        <pin index="353" name="hb15_p" />
+        <pin index="354" name="hb15_n" />
+        <pin index="356" name="hb18_p" />
+        <pin index="357" name="hb18_n" />
+        <!-- J6K !-->
+        <pin index="364" name="clk2_bidir_p" />
+        <pin index="365" name="clk2_bidir_n" />
+        <pin index="367" name="ha02_p" />
+        <pin index="368" name="ha02_n" />
+        <pin index="370" name="ha06_p" />
+        <pin index="371" name="ha06_n" />
+        <pin index="373" name="ha10_p" />
+        <pin index="374" name="ha10_n" />
+        <pin index="376" name="ha17_cc_p" />
+        <pin index="377" name="ha17_cc_n" />
+        <pin index="379" name="ha21_p" />
+        <pin index="380" name="ha21_n" />
+        <pin index="382" name="ha23_p" />
+        <pin index="383" name="ha23_n" />
+        <pin index="385" name="hb00_cc_p" />
+        <pin index="386" name="hb00_cc_n" />
+        <pin index="388" name="hb06_cc_p" />
+        <pin index="389" name="hb06_cc_n" />
+        <pin index="391" name="hb10_p" />
+        <pin index="392" name="hb10_n" />
+        <pin index="394" name="hb14_p" />
+        <pin index="395" name="hb14_n" />
+        <pin index="397" name="hb17_cc_p" />
+        <pin index="398" name="hb17_cc_n" />
+        <!-- J6L !-->
+        <pin index="404" name="gbtclk4_m2c_p" />
+        <pin index="405" name="gbtclk4_m2c_n" />
+        <pin index="408" name="gbtclk3_m2c_p" />
+        <pin index="409" name="gbtclk3_m2c_n" />
+        <pin index="412" name="gbtclk2_m2c_p" />
+        <pin index="413" name="gbtclk2_m2c_n" />
+        <!-- J6M !-->
+        <pin index="442" name="dp23_m2c_p" />
+        <pin index="443" name="dp23_m2c_n" />
+        <pin index="446" name="dp22_m2c_p" />
+        <pin index="447" name="dp22_m2c_n" />
+        <pin index="450" name="dp21_m2c_p" />
+        <pin index="451" name="dp21_m2c_n" />
+        <pin index="454" name="dp20_m2c_p" />
+        <pin index="455" name="dp20_m2c_n" />
+        <pin index="458" name="dp14_c2m_p" />
+        <pin index="459" name="dp14_c2m_n" />
+        <pin index="462" name="dp15_c2m_p" />
+        <pin index="463" name="dp15_c2m_n" />
+        <pin index="466" name="dp16_c2m_p" />
+        <pin index="467" name="dp16_c2m_n" />
+        <pin index="470" name="dp17_c2m_p" />
+        <pin index="471" name="dp17_c2m_n" />
+        <pin index="474" name="dp18_c2m_p" />
+        <pin index="475" name="dp18_c2m_n" />
+        <pin index="478" name="dp19_c2m_p" />
+        <pin index="479" name="dp19_c2m_n" />
+        <!-- J6N a.k.a. row Y !-->
+        <pin index="482" name="dp23_c2m_p" />
+        <pin index="483" name="dp23_c2m_n" />
+        <pin index="486" name="dp21_c2m_p" />
+        <pin index="487" name="dp21_c2m_n" />
+        <pin index="490" name="dp10_m2c_p" />
+        <pin index="491" name="dp10_m2c_n" />
+        <pin index="494" name="dp12_m2c_p" />
+        <pin index="495" name="dp12_m2c_n" />
+        <pin index="498" name="dp14_m2c_p" />
+        <pin index="499" name="dp14_m2c_n" />
+        <pin index="502" name="dp15_m2c_p" />
+        <pin index="503" name="dp15_m2c_n" />
+        <pin index="506" name="dp11_m2c_p" />
+        <pin index="507" name="dp11_m2c_n" />
+        <pin index="510" name="dp13_m2c_p" />
+        <pin index="511" name="dp13_m2c_n" />
+        <pin index="514" name="dp17_m2c_p" />
+        <pin index="515" name="dp17_m2c_n" />
+        <pin index="518" name="dp19_m2c_p" />
+        <pin index="519" name="dp19_m2c_n" />
+        <!-- J6O a.k.a. row Z !-->
+        <pin index="521" name="hspc_prsnt_l" />
+        <pin index="524" name="dp22_c2m_p" />
+        <pin index="525" name="dp22_c2m_n" />
+        <pin index="528" name="dp20_c2m_p" />
+        <pin index="529" name="dp20_c2m_n" />
+        <pin index="532" name="dp11_m2c_p" />
+        <pin index="533" name="dp11_m2c_n" />
+        <pin index="536" name="dp13_m2c_p" />
+        <pin index="537" name="dp13_m2c_n" />
+        <pin index="540" name="gbtclk5_m2c_p" />
+        <pin index="541" name="gbtclk5_m2c_n" />
+        <pin index="544" name="dp10_c2m_p" />
+        <pin index="545" name="dp10_c2m_n" />
+        <pin index="548" name="dp12_c2m_p" />
+        <pin index="549" name="dp12_c2m_n" />
+        <pin index="552" name="dp16_m2c_p" />
+        <pin index="553" name="dp16_m2c_n" />
+        <pin index="556" name="dp18_m2c_p" />
+        <pin index="557" name="dp18_m2c_n" />
+      </pins>
+    </component>
+
+    <!-- Commented out for the time being because as of Vivado 2022.1 there do not appear to be any IPs that support automation of this interface !-->
+    <!--
+    <component name="pcie_edge_conn" display_name="PCIe edge connector (16 lanes)" type="chip" sub_type="chip" major_group="Miscellaneous">
+      <description>PCIe edge connector (16 lanes @ 8 Gbps per lane).</description>
+      
+      <pins>
+        <pin index="0" name="pcie0_gtx0_p"/>
+        <pin index="1" name="pcie0_gtx0_n"/>
+        <pin index="2" name="pcie0_grx0_p"/>
+        <pin index="3" name="pcie0_grx0_p"/>
+        <pin index="4" name="pcie0_gtx1_p"/>
+        <pin index="5" name="pcie0_gtx1_n"/>
+        <pin index="6" name="pcie0_grx1_p"/>
+        <pin index="7" name="pcie0_grx1_p"/>
+        <pin index="8" name="pcie0_gtx2_p"/>
+        <pin index="9" name="pcie0_gtx2_n"/>
+        <pin index="10" name="pcie0_grx2_p"/>
+        <pin index="11" name="pcie0_grx2_p"/>
+        <pin index="12" name="pcie0_gtx3_p"/>
+        <pin index="13" name="pcie0_gtx3_n"/>
+        <pin index="14" name="pcie0_grx3_p"/>
+        <pin index="15" name="pcie0_grx3_p"/>
+        <pin index="16" name="pcie0_gtx4_p"/>
+        <pin index="17" name="pcie0_gtx4_n"/>
+        <pin index="18" name="pcie0_grx4_p"/>
+        <pin index="19" name="pcie0_grx4_p"/>
+        <pin index="20" name="pcie0_gtx5_p"/>
+        <pin index="21" name="pcie0_gtx5_n"/>
+        <pin index="22" name="pcie0_grx5_p"/>
+        <pin index="23" name="pcie0_grx5_p"/>
+        <pin index="24" name="pcie0_gtx6_p"/>
+        <pin index="25" name="pcie0_gtx6_n"/>
+        <pin index="26" name="pcie0_grx6_p"/>
+        <pin index="27" name="pcie0_grx6_p"/>
+        <pin index="28" name="pcie0_gtx7_p"/>
+        <pin index="29" name="pcie0_gtx7_n"/>
+        <pin index="30" name="pcie0_grx7_p"/>
+        <pin index="31" name="pcie0_grx7_p"/>
+        <pin index="32" name="pcie0_gtx8_p"/>
+        <pin index="33" name="pcie0_gtx8_n"/>
+        <pin index="34" name="pcie0_grx8_p"/>
+        <pin index="35" name="pcie0_grx8_p"/>
+        <pin index="36" name="pcie0_gtx9_p"/>
+        <pin index="37" name="pcie0_gtx9_n"/>
+        <pin index="38" name="pcie0_grx9_p"/>
+        <pin index="39" name="pcie0_grx9_p"/>
+        <pin index="40" name="pcie0_gtx10_p"/>
+        <pin index="41" name="pcie0_gtx10_n"/>
+        <pin index="42" name="pcie0_grx10_p"/>
+        <pin index="43" name="pcie0_grx10_p"/>
+        <pin index="44" name="pcie0_gtx11_p"/>
+        <pin index="45" name="pcie0_gtx11_n"/>
+        <pin index="46" name="pcie0_grx11_p"/>
+        <pin index="47" name="pcie0_grx11_p"/>
+        <pin index="48" name="pcie0_gtx12_p"/>
+        <pin index="49" name="pcie0_gtx12_n"/>
+        <pin index="50" name="pcie0_grx12_p"/>
+        <pin index="51" name="pcie0_grx12_p"/>
+        <pin index="52" name="pcie0_gtx13_p"/>
+        <pin index="53" name="pcie0_gtx13_n"/>
+        <pin index="54" name="pcie0_grx13_p"/>
+        <pin index="55" name="pcie0_grx13_p"/>
+        <pin index="56" name="pcie0_gtx14_p"/>
+        <pin index="57" name="pcie0_gtx14_n"/>
+        <pin index="58" name="pcie0_grx14_p"/>
+        <pin index="59" name="pcie0_grx14_p"/>
+        <pin index="60" name="pcie0_gtx15_p"/>
+        <pin index="61" name="pcie0_gtx15_n"/>
+        <pin index="62" name="pcie0_grx15_p"/>
+        <pin index="63" name="pcie0_grx15_p"/>
+      </pins>
+    </component>
+    !-->
+    
+    <component name="user_led" display_name="User-defined LEDs" type="chip" sub_type="led" major_group="General Purpose Input or Output" part_name="Green LED">
+      <description>User-defined LEDs: [1:0] = { user_led_g1_l, user_led_g0_l }.</description>
+    </component>
+
+    <component name="user_switch" display_name="User-defined switches" type="chip" sub_type="chip" major_group="General Purpose Input or Output" part_name="DIP switch">
+      <description>User-defined switches: [1:0] = { usr_sw_1, usr_sw_0 }.</description>
+    </component>
+
+    <component name="board_monitoring" display_name="Board status signals" type="chip" sub_type="chip" major_group="General Purpose Input or Output" part_name="DIP switch">
+      <description>Board status signals: [3:0] = { hspc_prsnt_l, fmc_prsnt_l, srvc_md_l, fan_fail_l }.</description>
+    </component>
+
+    <component name="spare_i2c" display_name="User-definable EEPROM" type="chip" sub_type="chip" major_group="Miscellaneous">
+      <description>Interface (I2C) to user-definable EEPROM.</description>
+    </component>
+
+    <component name="firefly_i2c" display_name="FireFly connector management interface" type="chip" sub_type="chip" major_group="Miscellaneous">
+      <description>Management interface (I2C) of FireFly connector.</description>
+    </component>
+
+    <component name="firefly_sideband_in" display_name="FireFly connector sideband input signals" type="chip" sub_type="chip" major_group="General Purpose Input or Output">
+      <description>Sideband input signals of FireFly connector: [1:0] = { firefly_int_l, firefly_modprs_l }.</description>
+    </component>
+
+    <component name="firefly_sideband_out" display_name="FireFly connector sideband output signals" type="chip" sub_type="chip" major_group="General Purpose Input or Output">
+      <description>Sideband output signals of FireFly connector: [0] = { firefly_rst_l }.</description>
+    </component>
+
+    <component name="si5328_i2c" display_name="SI5328 jitter attenuator management interface" type="chip" sub_type="chip" major_group="Miscellaneous">
+      <description>Management interface (I2C) of SI5328 jitter attenuator.</description>
+    </component>
+
+    <component name="si5328_sideband_in" display_name="SI5328 jitter attenuator sideband input signals" type="chip" sub_type="chip" major_group="General Purpose Input or Output">
+      <description>Sideband input signals of SI5328 jitter attenuator: [2:0] = { si5328_lol, si5328_c2b, si5328_int_c1b }.</description>
+    </component>
+
+    <component name="si5328_sideband_out" display_name="SI5328 jitter attenuator sideband output signals" type="chip" sub_type="chip" major_group="General Purpose Input or Output">
+      <description>Sideband output signals of SI5328 jitter attenuator: [0] = { si5328_rst_l }.</description>
+    </component>
+  </components>
+  
+  <jtag_chains>
+    <jtag_chain name="chain1">
+      <position name="0" component="part0"/>
+    </jtag_chain>
+  </jtag_chains>
+  
+  <connections>
+    <connection name="part0_ddr4_bank0" component1="part0" component2="ddr4_bank0">
+      <connection_map name="part0_ddr4_bank0_0" typical_delay="5" c1_st_index="100" c1_end_index="120" c2_st_index="0" c2_end_index="20"/>
+      <connection_map name="part0_ddr4_bank0_1" typical_delay="5" c1_st_index="122" c1_end_index="123" c2_st_index="22" c2_end_index="23"/>
+      <connection_map name="part0_ddr4_bank0_2" typical_delay="5" c1_st_index="126" c1_end_index="126" c2_st_index="26" c2_end_index="26"/>
+      <connection_map name="part0_ddr4_bank0_3" typical_delay="5" c1_st_index="128" c1_end_index="128" c2_st_index="28" c2_end_index="28"/>
+      <connection_map name="part0_ddr4_bank0_4" typical_delay="5" c1_st_index="130" c1_end_index="229" c2_st_index="30" c2_end_index="129"/>
+      <connection_map name="part0_ddr4_bank0_5" typical_delay="5" c1_st_index="231" c1_end_index="233" c2_st_index="131" c2_end_index="133"/>
+    </connection>
+
+    <connection name="part0_ddr4_bank0_sys_clk" component1="part0" component2="ddr4_bank0_sys_clk">
+      <connection_map name="part0_ddr4_bank0_sys_clk_0" typical_delay="5" c1_st_index="250" c1_end_index="251" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+
+    <connection name="part0_ddr4_bank1" component1="part0" component2="ddr4_bank1">
+      <connection_map name="part0_ddr4_bank1_0" typical_delay="5" c1_st_index="300" c1_end_index="320" c2_st_index="0" c2_end_index="20"/>
+      <connection_map name="part0_ddr4_bank1_1" typical_delay="5" c1_st_index="322" c1_end_index="323" c2_st_index="22" c2_end_index="23"/>
+      <connection_map name="part0_ddr4_bank1_2" typical_delay="5" c1_st_index="326" c1_end_index="326" c2_st_index="26" c2_end_index="26"/>
+      <connection_map name="part0_ddr4_bank1_3" typical_delay="5" c1_st_index="328" c1_end_index="328" c2_st_index="28" c2_end_index="28"/>
+      <connection_map name="part0_ddr4_bank1_4" typical_delay="5" c1_st_index="330" c1_end_index="429" c2_st_index="30" c2_end_index="129"/>
+      <connection_map name="part0_ddr4_bank1_5" typical_delay="5" c1_st_index="431" c1_end_index="433" c2_st_index="131" c2_end_index="133"/>
+    </connection>
+
+    <connection name="part0_ddr4_bank1_sys_clk" component1="part0" component2="ddr4_bank1_sys_clk">
+      <connection_map name="part0_ddr4_bank1_sys_clk_0" typical_delay="5" c1_st_index="450" c1_end_index="451" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+
+    <connection name="part0_pcie_edge_conn" component1="part0" component2="pcie_edge_conn">
+      <connection_map name="part0_pcie_edge_conn_0" typical_delay="5" c1_st_index="1200" c1_end_index="1263" c2_st_index="0" c2_end_index="63"/>
+    </connection>
+
+    <connection name="part0_fabric_clk" component1="part0" component2="fabric_clk">
+      <connection_map name="part0_fabric_clk_0" typical_delay="5" c1_st_index="1018" c1_end_index="1019" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+
+    <connection name="part0_mgt_progclk_0" component1="part0" component2="mgt_progclk_0">
+      <connection_map name="part0_mgt_progclk_0_0" typical_delay="5" c1_st_index="2016" c1_end_index="2017" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+
+    <connection name="part0_mgt_progclk_1" component1="part0" component2="mgt_progclk_1">
+      <connection_map name="part0_mgt_progclk_1_0" typical_delay="5" c1_st_index="2036" c1_end_index="2037" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+
+    <connection name="part0_mgt_progclk_2" component1="part0" component2="mgt_progclk_2">
+      <connection_map name="part0_mgt_progclk_2_0" typical_delay="5" c1_st_index="2056" c1_end_index="2057" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+
+    <connection name="part0_mgt_progclk_3" component1="part0" component2="mgt_progclk_3">
+      <connection_map name="part0_mgt_progclk_3_0" typical_delay="5" c1_st_index="2076" c1_end_index="2077" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+
+    <connection name="part0_mgt_progclk_4" component1="part0" component2="mgt_progclk_4">
+      <connection_map name="part0_mgt_progclk_4_0" typical_delay="5" c1_st_index="2096" c1_end_index="2097" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+
+    <connection name="part0_mgt_progclk_5" component1="part0" component2="mgt_progclk_5">
+      <connection_map name="part0_mgt_progclk_5_0" typical_delay="5" c1_st_index="2116" c1_end_index="2117" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+    
+    <connection name="part0_mgt_progclk_7" component1="part0" component2="mgt_progclk_7">
+      <connection_map name="part0_mgt_progclk_7_0" typical_delay="5" c1_st_index="2138" c1_end_index="2139" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+    
+    <connection name="part0_firefly_clk" component1="part0" component2="firefly_clk">
+      <connection_map name="part0_firefly_clk_0" typical_delay="5" c1_st_index="2136" c1_end_index="2137" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+
+    <connection name="part0_si5328_out_0" component1="part0" component2="si5328_out_0">
+      <connection_map name="part0_si5328_out_0_0" typical_delay="5" c1_st_index="2038" c1_end_index="2039" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+
+    <connection name="part0_si5328_out_1" component1="part0" component2="si5328_out_1">
+      <connection_map name="part0_si5328_out_1_0" typical_delay="5" c1_st_index="2098" c1_end_index="2099" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+
+    <connection name="part0_si5328_refclk_in" component1="part0" component2="si5328_refclk_in">
+      <connection_map name="part0_si5328_refclk_in_0" typical_delay="5" c1_st_index="2018" c1_end_index="2019" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+
+    <!-- Board revision 4 and later only !-->
+    <connection name="part0_si5328_refclk_in2" component1="part0" component2="si5328_refclk_in2">
+      <connection_map name="part0_si5328_refclk_in2_0" typical_delay="5" c1_st_index="1012" c1_end_index="1013" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+
+    <connection name="part0_user_led" component1="part0" component2="user_led">
+      <connection_map name="part0_user_led_0" typical_delay="5" c1_st_index="50" c1_end_index="51" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+
+    <connection name="part0_user_switch" component1="part0" component2="user_switch">
+      <connection_map name="part0_user_switch_0" typical_delay="5" c1_st_index="40" c1_end_index="41" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+
+    <connection name="part0_board_monitoring" component1="part0" component2="board_monitoring">
+      <connection_map name="part0_board_monitoring_0" typical_delay="5" c1_st_index="21" c1_end_index="21" c2_st_index="0" c2_end_index="0"/>
+      <connection_map name="part0_board_monitoring_1" typical_delay="5" c1_st_index="68" c1_end_index="68" c2_st_index="1" c2_end_index="1"/>
+      <connection_map name="part0_board_monitoring_2" typical_delay="5" c1_st_index="70" c1_end_index="71" c2_st_index="2" c2_end_index="3"/>
+    </connection>
+
+    <connection name="part0_spare_i2c" component1="part0" component2="spare_i2c">
+      <connection_map name="part0_spare_i2c_0" typical_delay="5" c1_st_index="27" c1_end_index="27" c2_st_index="1" c2_end_index="1"/>
+      <connection_map name="part0_spare_i2c_1" typical_delay="5" c1_st_index="28" c1_end_index="28" c2_st_index="1" c2_end_index="1"/>
+    </connection>
+
+    <connection name="part0_firefly_i2c" component1="part0" component2="firefly_i2c">
+      <connection_map name="part0_firefly_i2c" typical_delay="5" c1_st_index="66" c1_end_index="67" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+
+    <connection name="part0_firefly_sideband_in" component1="part0" component2="firefly_sideband_in">
+      <connection_map name="part0_firefly_sideband_in_0" typical_delay="5" c1_st_index="63" c1_end_index="64" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+
+    <connection name="part0_firefly_sideband_out" component1="part0" component2="firefly_sideband_out">
+      <connection_map name="part0_firefly_sideband_out_0" typical_delay="5" c1_st_index="65" c1_end_index="65" c2_st_index="2" c2_end_index="2"/>
+    </connection>
+
+    <connection name="part0_si5328_i2c" component1="part0" component2="si5328_i2c">
+      <connection_map name="part0_si5328_i2c" typical_delay="5" c1_st_index="1000" c1_end_index="1001" c2_st_index="0" c2_end_index="1"/>
+    </connection>
+
+    <connection name="part0_si5328_sideband_in" component1="part0" component2="si5328_sideband_in">
+      <connection_map name="part0_si5328_sideband_in_0" typical_delay="5" c1_st_index="1003" c1_end_index="1004" c2_st_index="1" c2_end_index="2"/>
+      <connection_map name="part0_si5328_sideband_in_1" typical_delay="5" c1_st_index="1007" c1_end_index="1007" c2_st_index="3" c2_end_index="3"/>
+    </connection>
+
+    <connection name="part0_si5328_sideband_out" component1="part0" component2="si5328_sideband_out">
+      <connection_map name="part0_si5328_sideband_out_0" typical_delay="5" c1_st_index="1002" c1_end_index="1002" c2_st_index="0" c2_end_index="0"/>
+    </connection>
+    
+    <connection name="part0_fmc_conn" component1="part0" component2="fmc_conn">
+      <connection_map name="part0_fmc_conn_dp1_m2c_p" c1_st_index="2006" c1_end_index="2006" c2_st_index="2" c2_end_index="2" />
+      <connection_map name="part0_fmc_conn_dp1_m2c_n" c1_st_index="2007" c1_end_index="2007" c2_st_index="3" c2_end_index="3" />
+      <connection_map name="part0_fmc_conn_dp2_m2c_p" c1_st_index="2010" c1_end_index="2010" c2_st_index="6" c2_end_index="6" />
+      <connection_map name="part0_fmc_conn_dp2_m2c_n" c1_st_index="2011" c1_end_index="2011" c2_st_index="7" c2_end_index="7" />
+      <connection_map name="part0_fmc_conn_dp3_m2c_p" c1_st_index="2014" c1_end_index="2014" c2_st_index="10" c2_end_index="10" />
+      <connection_map name="part0_fmc_conn_dp3_m2c_n" c1_st_index="2015" c1_end_index="2015" c2_st_index="11" c2_end_index="11" />
+      <connection_map name="part0_fmc_conn_dp4_m2c_p" c1_st_index="2022" c1_end_index="2022" c2_st_index="14" c2_end_index="14" />
+      <connection_map name="part0_fmc_conn_dp4_m2c_n" c1_st_index="2023" c1_end_index="2023" c2_st_index="15" c2_end_index="15" />
+      <connection_map name="part0_fmc_conn_dp5_m2c_p" c1_st_index="2026" c1_end_index="2026" c2_st_index="18" c2_end_index="18" />
+      <connection_map name="part0_fmc_conn_dp5_m2c_n" c1_st_index="2027" c1_end_index="2027" c2_st_index="19" c2_end_index="19" />
+      <connection_map name="part0_fmc_conn_dp1_c2m_p" c1_st_index="2004" c1_end_index="2004" c2_st_index="22" c2_end_index="22" />
+      <connection_map name="part0_fmc_conn_dp1_c2m_n" c1_st_index="2005" c1_end_index="2005" c2_st_index="23" c2_end_index="23" />
+      <connection_map name="part0_fmc_conn_dp2_c2m_p" c1_st_index="2008" c1_end_index="2008" c2_st_index="26" c2_end_index="26" />
+      <connection_map name="part0_fmc_conn_dp2_c2m_n" c1_st_index="2009" c1_end_index="2009" c2_st_index="27" c2_end_index="27" />
+      <connection_map name="part0_fmc_conn_dp3_c2m_p" c1_st_index="2012" c1_end_index="2012" c2_st_index="30" c2_end_index="30" />
+      <connection_map name="part0_fmc_conn_dp3_c2m_n" c1_st_index="2013" c1_end_index="2013" c2_st_index="31" c2_end_index="31" />
+      <connection_map name="part0_fmc_conn_dp4_c2m_p" c1_st_index="2020" c1_end_index="2020" c2_st_index="34" c2_end_index="34" />
+      <connection_map name="part0_fmc_conn_dp4_c2m_n" c1_st_index="2021" c1_end_index="2021" c2_st_index="35" c2_end_index="35" />
+      <connection_map name="part0_fmc_conn_dp5_c2m_p" c1_st_index="2024" c1_end_index="2024" c2_st_index="38" c2_end_index="38" />
+      <connection_map name="part0_fmc_conn_dp5_c2m_n" c1_st_index="2025" c1_end_index="2025" c2_st_index="39" c2_end_index="39" />
+      <connection_map name="part0_fmc_conn_fmc_clk_dir" c1_st_index="69" c1_end_index="69" c2_st_index="41" c2_end_index="41" />
+      <connection_map name="part0_fmc_conn_dp9_m2c_p" c1_st_index="2046" c1_end_index="2046" c2_st_index="44" c2_end_index="44" />
+      <connection_map name="part0_fmc_conn_dp9_m2c_n" c1_st_index="2047" c1_end_index="2047" c2_st_index="45" c2_end_index="45" />
+      <connection_map name="part0_fmc_conn_dp8_m2c_p" c1_st_index="2042" c1_end_index="2042" c2_st_index="48" c2_end_index="48" />
+      <connection_map name="part0_fmc_conn_dp8_m2c_n" c1_st_index="2043" c1_end_index="2043" c2_st_index="49" c2_end_index="49" />
+      <connection_map name="part0_fmc_conn_dp7_m2c_p" c1_st_index="2034" c1_end_index="2034" c2_st_index="52" c2_end_index="52" />
+      <connection_map name="part0_fmc_conn_dp7_m2c_n" c1_st_index="2035" c1_end_index="2035" c2_st_index="53" c2_end_index="53" />
+      <connection_map name="part0_fmc_conn_dp6_m2c_p" c1_st_index="2030" c1_end_index="2030" c2_st_index="56" c2_end_index="56" />
+      <connection_map name="part0_fmc_conn_dp6_m2c_n" c1_st_index="2031" c1_end_index="2031" c2_st_index="57" c2_end_index="57" />
+      <connection_map name="part0_fmc_conn_gbtclk1_m2c_p" c1_st_index="2036" c1_end_index="2036" c2_st_index="60" c2_end_index="60" />
+      <connection_map name="part0_fmc_conn_gbtclk1_m2c_n" c1_st_index="2037" c1_end_index="2037" c2_st_index="61" c2_end_index="61" />
+      <connection_map name="part0_fmc_conn_dp9_c2m_p" c1_st_index="2044" c1_end_index="2044" c2_st_index="64" c2_end_index="64" />
+      <connection_map name="part0_fmc_conn_dp9_c2m_n" c1_st_index="2045" c1_end_index="2045" c2_st_index="65" c2_end_index="65" />
+      <connection_map name="part0_fmc_conn_dp8_c2m_p" c1_st_index="2040" c1_end_index="2040" c2_st_index="68" c2_end_index="68" />
+      <connection_map name="part0_fmc_conn_dp8_c2m_n" c1_st_index="2041" c1_end_index="2041" c2_st_index="69" c2_end_index="69" />
+      <connection_map name="part0_fmc_conn_dp7_c2m_p" c1_st_index="2032" c1_end_index="2032" c2_st_index="72" c2_end_index="72" />
+      <connection_map name="part0_fmc_conn_dp7_c2m_n" c1_st_index="2033" c1_end_index="2033" c2_st_index="73" c2_end_index="73" />
+      <connection_map name="part0_fmc_conn_dp6_c2m_p" c1_st_index="2028" c1_end_index="2028" c2_st_index="76" c2_end_index="76" />
+      <connection_map name="part0_fmc_conn_dp6_c2m_n" c1_st_index="2029" c1_end_index="2029" c2_st_index="77" c2_end_index="77" />
+      <connection_map name="part0_fmc_conn_dp0_c2m_p" c1_st_index="2000" c1_end_index="2000" c2_st_index="82" c2_end_index="82" />
+      <connection_map name="part0_fmc_conn_dp0_c2m_n" c1_st_index="2001" c1_end_index="2001" c2_st_index="83" c2_end_index="83" />
+      <connection_map name="part0_fmc_conn_dp0_m2c_p" c1_st_index="2002" c1_end_index="2002" c2_st_index="86" c2_end_index="86" />
+      <connection_map name="part0_fmc_conn_dp0_m2c_n" c1_st_index="2003" c1_end_index="2003" c2_st_index="87" c2_end_index="87" />
+      <connection_map name="part0_fmc_conn_la06_p" c1_st_index="730" c1_end_index="730" c2_st_index="90" c2_end_index="90" />
+      <connection_map name="part0_fmc_conn_la06_n" c1_st_index="731" c1_end_index="731" c2_st_index="91" c2_end_index="91" />
+      <connection_map name="part0_fmc_conn_la10_p" c1_st_index="736" c1_end_index="736" c2_st_index="94" c2_end_index="94" />
+      <connection_map name="part0_fmc_conn_la10_n" c1_st_index="737" c1_end_index="737" c2_st_index="95" c2_end_index="95" />
+      <connection_map name="part0_fmc_conn_la14_p" c1_st_index="740" c1_end_index="740" c2_st_index="98" c2_end_index="98" />
+      <connection_map name="part0_fmc_conn_la14_n" c1_st_index="741" c1_end_index="741" c2_st_index="99" c2_end_index="99" />
+      <connection_map name="part0_fmc_conn_la18_cc_p" c1_st_index="718" c1_end_index="718" c2_st_index="102" c2_end_index="102" />
+      <connection_map name="part0_fmc_conn_la18_cc_n" c1_st_index="719" c1_end_index="719" c2_st_index="103" c2_end_index="103" />
+      <connection_map name="part0_fmc_conn_la27_p" c1_st_index="614" c1_end_index="614" c2_st_index="106" c2_end_index="106" />
+      <connection_map name="part0_fmc_conn_la27_n" c1_st_index="615" c1_end_index="615" c2_st_index="107" c2_end_index="107" />
+      <connection_map name="part0_fmc_conn_gbtclk0_m2c_p" c1_st_index="2016" c1_end_index="2016" c2_st_index="124" c2_end_index="124" />
+      <connection_map name="part0_fmc_conn_gbtclk0_m2c_n" c1_st_index="2017" c1_end_index="2017" c2_st_index="125" c2_end_index="125" />
+      <connection_map name="part0_fmc_conn_la01_cc_p" c1_st_index="724" c1_end_index="724" c2_st_index="128" c2_end_index="128" />
+      <connection_map name="part0_fmc_conn_la01_cc_n" c1_st_index="725" c1_end_index="725" c2_st_index="129" c2_end_index="129" />
+      <connection_map name="part0_fmc_conn_la05_p" c1_st_index="746" c1_end_index="746" c2_st_index="131" c2_end_index="131" />
+      <connection_map name="part0_fmc_conn_la05_n" c1_st_index="747" c1_end_index="747" c2_st_index="132" c2_end_index="132" />
+      <connection_map name="part0_fmc_conn_la09_p" c1_st_index="738" c1_end_index="738" c2_st_index="134" c2_end_index="134" />
+      <connection_map name="part0_fmc_conn_la09_n" c1_st_index="739" c1_end_index="739" c2_st_index="135" c2_end_index="135" />
+      <connection_map name="part0_fmc_conn_la13_p" c1_st_index="732" c1_end_index="732" c2_st_index="137" c2_end_index="137" />
+      <connection_map name="part0_fmc_conn_la13_n" c1_st_index="733" c1_end_index="733" c2_st_index="138" c2_end_index="138" />
+      <connection_map name="part0_fmc_conn_la17_cc_p" c1_st_index="712" c1_end_index="712" c2_st_index="140" c2_end_index="140" />
+      <connection_map name="part0_fmc_conn_la17_cc_n" c1_st_index="713" c1_end_index="713" c2_st_index="141" c2_end_index="141" />
+      <connection_map name="part0_fmc_conn_la23_p" c1_st_index="706" c1_end_index="706" c2_st_index="143" c2_end_index="143" />
+      <connection_map name="part0_fmc_conn_la23_n" c1_st_index="707" c1_end_index="707" c2_st_index="144" c2_end_index="144" />
+      <connection_map name="part0_fmc_conn_la26_p" c1_st_index="716" c1_end_index="716" c2_st_index="146" c2_end_index="146" />
+      <connection_map name="part0_fmc_conn_la26_n" c1_st_index="717" c1_end_index="717" c2_st_index="147" c2_end_index="147" />
+      <connection_map name="part0_fmc_conn_ha01_cc_p" c1_st_index="818" c1_end_index="818" c2_st_index="162" c2_end_index="162" />
+      <connection_map name="part0_fmc_conn_ha01_cc_n" c1_st_index="819" c1_end_index="819" c2_st_index="163" c2_end_index="163" />
+      <connection_map name="part0_fmc_conn_ha05_p" c1_st_index="840" c1_end_index="840" c2_st_index="166" c2_end_index="166" />
+      <connection_map name="part0_fmc_conn_ha05_n" c1_st_index="841" c1_end_index="841" c2_st_index="167" c2_end_index="167" />
+      <connection_map name="part0_fmc_conn_ha09_p" c1_st_index="846" c1_end_index="846" c2_st_index="169" c2_end_index="169" />
+      <connection_map name="part0_fmc_conn_ha09_n" c1_st_index="847" c1_end_index="847" c2_st_index="170" c2_end_index="170" />
+      <connection_map name="part0_fmc_conn_ha13_p" c1_st_index="832" c1_end_index="832" c2_st_index="172" c2_end_index="172" />
+      <connection_map name="part0_fmc_conn_ha13_n" c1_st_index="833" c1_end_index="833" c2_st_index="173" c2_end_index="173" />
+      <connection_map name="part0_fmc_conn_ha16_p" c1_st_index="816" c1_end_index="816" c2_st_index="175" c2_end_index="175" />
+      <connection_map name="part0_fmc_conn_ha16_n" c1_st_index="817" c1_end_index="817" c2_st_index="176" c2_end_index="176" />
+      <connection_map name="part0_fmc_conn_ha20_p" c1_st_index="808" c1_end_index="808" c2_st_index="178" c2_end_index="178" />
+      <connection_map name="part0_fmc_conn_ha20_n" c1_st_index="809" c1_end_index="809" c2_st_index="179" c2_end_index="179" />
+      <connection_map name="part0_fmc_conn_hb03_p" c1_st_index="920" c1_end_index="920" c2_st_index="181" c2_end_index="181" />
+      <connection_map name="part0_fmc_conn_hb03_n" c1_st_index="921" c1_end_index="921" c2_st_index="182" c2_end_index="182" />
+      <connection_map name="part0_fmc_conn_hb05_p" c1_st_index="916" c1_end_index="916" c2_st_index="184" c2_end_index="184" />
+      <connection_map name="part0_fmc_conn_hb05_n" c1_st_index="917" c1_end_index="917" c2_st_index="185" c2_end_index="185" />
+      <connection_map name="part0_fmc_conn_hb09_p" c1_st_index="910" c1_end_index="910" c2_st_index="187" c2_end_index="187" />
+      <connection_map name="part0_fmc_conn_hb09_n" c1_st_index="911" c1_end_index="911" c2_st_index="188" c2_end_index="188" />
+      <connection_map name="part0_fmc_conn_hb13_p" c1_st_index="940" c1_end_index="940" c2_st_index="190" c2_end_index="190" />
+      <connection_map name="part0_fmc_conn_hb13_n" c1_st_index="941" c1_end_index="941" c2_st_index="191" c2_end_index="191" />
+      <connection_map name="part0_fmc_conn_hb19_p" c1_st_index="928" c1_end_index="928" c2_st_index="193" c2_end_index="193" />
+      <connection_map name="part0_fmc_conn_hb19_n" c1_st_index="929" c1_end_index="929" c2_st_index="194" c2_end_index="194" />
+      <connection_map name="part0_fmc_conn_hb21_p" c1_st_index="934" c1_end_index="934" c2_st_index="196" c2_end_index="196" />
+      <connection_map name="part0_fmc_conn_hb21_n" c1_st_index="935" c1_end_index="935" c2_st_index="197" c2_end_index="197" />
+      <connection_map name="part0_fmc_conn_ha00_cc_p" c1_st_index="824" c1_end_index="824" c2_st_index="204" c2_end_index="204" />
+      <connection_map name="part0_fmc_conn_ha00_cc_n" c1_st_index="825" c1_end_index="825" c2_st_index="205" c2_end_index="205" />
+      <connection_map name="part0_fmc_conn_ha04_p" c1_st_index="844" c1_end_index="844" c2_st_index="207" c2_end_index="207" />
+      <connection_map name="part0_fmc_conn_ha04_n" c1_st_index="845" c1_end_index="845" c2_st_index="208" c2_end_index="208" />
+      <connection_map name="part0_fmc_conn_ha08_p" c1_st_index="838" c1_end_index="838" c2_st_index="210" c2_end_index="210" />
+      <connection_map name="part0_fmc_conn_ha08_n" c1_st_index="839" c1_end_index="839" c2_st_index="211" c2_end_index="211" />
+      <connection_map name="part0_fmc_conn_ha12_p" c1_st_index="830" c1_end_index="830" c2_st_index="213" c2_end_index="213" />
+      <connection_map name="part0_fmc_conn_ha12_n" c1_st_index="831" c1_end_index="831" c2_st_index="214" c2_end_index="214" />
+      <connection_map name="part0_fmc_conn_ha15_p" c1_st_index="802" c1_end_index="802" c2_st_index="216" c2_end_index="216" />
+      <connection_map name="part0_fmc_conn_ha15_n" c1_st_index="803" c1_end_index="803" c2_st_index="217" c2_end_index="217" />
+      <connection_map name="part0_fmc_conn_ha19_p" c1_st_index="822" c1_end_index="822" c2_st_index="219" c2_end_index="219" />
+      <connection_map name="part0_fmc_conn_ha19_n" c1_st_index="823" c1_end_index="823" c2_st_index="220" c2_end_index="220" />
+      <connection_map name="part0_fmc_conn_hb02_p" c1_st_index="904" c1_end_index="904" c2_st_index="222" c2_end_index="222" />
+      <connection_map name="part0_fmc_conn_hb02_n" c1_st_index="905" c1_end_index="905" c2_st_index="223" c2_end_index="223" />
+      <connection_map name="part0_fmc_conn_hb04_p" c1_st_index="906" c1_end_index="906" c2_st_index="225" c2_end_index="225" />
+      <connection_map name="part0_fmc_conn_hb04_n" c1_st_index="907" c1_end_index="907" c2_st_index="226" c2_end_index="226" />
+      <connection_map name="part0_fmc_conn_hb08_p" c1_st_index="922" c1_end_index="922" c2_st_index="228" c2_end_index="228" />
+      <connection_map name="part0_fmc_conn_hb08_n" c1_st_index="923" c1_end_index="923" c2_st_index="229" c2_end_index="229" />
+      <connection_map name="part0_fmc_conn_hb12_p" c1_st_index="932" c1_end_index="932" c2_st_index="231" c2_end_index="231" />
+      <connection_map name="part0_fmc_conn_hb12_n" c1_st_index="933" c1_end_index="933" c2_st_index="232" c2_end_index="232" />
+      <connection_map name="part0_fmc_conn_hb16_p" c1_st_index="930" c1_end_index="930" c2_st_index="234" c2_end_index="234" />
+      <connection_map name="part0_fmc_conn_hb16_n" c1_st_index="931" c1_end_index="931" c2_st_index="235" c2_end_index="235" />
+      <connection_map name="part0_fmc_conn_hb20_p" c1_st_index="926" c1_end_index="926" c2_st_index="237" c2_end_index="237" />
+      <connection_map name="part0_fmc_conn_hb20_n" c1_st_index="927" c1_end_index="927" c2_st_index="238" c2_end_index="238" />
+      <connection_map name="part0_fmc_conn_clk1_m2c_p" c1_st_index="848" c1_end_index="848" c2_st_index="242" c2_end_index="242" />
+      <connection_map name="part0_fmc_conn_clk1_m2c_n" c1_st_index="849" c1_end_index="849" c2_st_index="243" c2_end_index="243" />
+      <connection_map name="part0_fmc_conn_la00_cc_p" c1_st_index="748" c1_end_index="748" c2_st_index="246" c2_end_index="246" />
+      <connection_map name="part0_fmc_conn_la00_cc_n" c1_st_index="749" c1_end_index="749" c2_st_index="247" c2_end_index="247" />
+      <connection_map name="part0_fmc_conn_la03_p" c1_st_index="734" c1_end_index="734" c2_st_index="249" c2_end_index="249" />
+      <connection_map name="part0_fmc_conn_la03_n" c1_st_index="735" c1_end_index="735" c2_st_index="250" c2_end_index="250" />
+      <connection_map name="part0_fmc_conn_la08_p" c1_st_index="744" c1_end_index="744" c2_st_index="252" c2_end_index="252" />
+      <connection_map name="part0_fmc_conn_la08_n" c1_st_index="745" c1_end_index="745" c2_st_index="253" c2_end_index="253" />
+      <connection_map name="part0_fmc_conn_la12_p" c1_st_index="728" c1_end_index="728" c2_st_index="255" c2_end_index="255" />
+      <connection_map name="part0_fmc_conn_la12_n" c1_st_index="729" c1_end_index="729" c2_st_index="256" c2_end_index="256" />
+      <connection_map name="part0_fmc_conn_la16_p" c1_st_index="750" c1_end_index="750" c2_st_index="258" c2_end_index="258" />
+      <connection_map name="part0_fmc_conn_la16_n" c1_st_index="751" c1_end_index="751" c2_st_index="259" c2_end_index="259" />
+      <connection_map name="part0_fmc_conn_la20_p" c1_st_index="710" c1_end_index="710" c2_st_index="261" c2_end_index="261" />
+      <connection_map name="part0_fmc_conn_la20_n" c1_st_index="711" c1_end_index="711" c2_st_index="262" c2_end_index="262" />
+      <connection_map name="part0_fmc_conn_la22_p" c1_st_index="722" c1_end_index="722" c2_st_index="264" c2_end_index="264" />
+      <connection_map name="part0_fmc_conn_la22_n" c1_st_index="723" c1_end_index="723" c2_st_index="265" c2_end_index="265" />
+      <connection_map name="part0_fmc_conn_la25_p" c1_st_index="608" c1_end_index="608" c2_st_index="267" c2_end_index="267" />
+      <connection_map name="part0_fmc_conn_la25_n" c1_st_index="609" c1_end_index="609" c2_st_index="268" c2_end_index="268" />
+      <connection_map name="part0_fmc_conn_la29_p" c1_st_index="600" c1_end_index="600" c2_st_index="270" c2_end_index="270" />
+      <connection_map name="part0_fmc_conn_la29_n" c1_st_index="601" c1_end_index="601" c2_st_index="271" c2_end_index="271" />
+      <connection_map name="part0_fmc_conn_la31_p" c1_st_index="708" c1_end_index="708" c2_st_index="273" c2_end_index="273" />
+      <connection_map name="part0_fmc_conn_la31_n" c1_st_index="709" c1_end_index="709" c2_st_index="274" c2_end_index="274" />
+      <connection_map name="part0_fmc_conn_la33_p" c1_st_index="610" c1_end_index="610" c2_st_index="276" c2_end_index="276" />
+      <connection_map name="part0_fmc_conn_la33_n" c1_st_index="611" c1_end_index="611" c2_st_index="277" c2_end_index="277" />
+      <connection_map name="part0_fmc_conn_fmc_prsnt_l" c1_st_index="70" c1_end_index="70" c2_st_index="282" c2_end_index="282" />
+      <connection_map name="part0_fmc_conn_clk0_m2c_p" c1_st_index="648" c1_end_index="648" c2_st_index="284" c2_end_index="284" />
+      <connection_map name="part0_fmc_conn_clk0_m2c_n" c1_st_index="649" c1_end_index="649" c2_st_index="285" c2_end_index="285" />
+      <connection_map name="part0_fmc_conn_la02_p" c1_st_index="726" c1_end_index="726" c2_st_index="287" c2_end_index="287" />
+      <connection_map name="part0_fmc_conn_la02_n" c1_st_index="727" c1_end_index="727" c2_st_index="288" c2_end_index="288" />
+      <connection_map name="part0_fmc_conn_la04_p" c1_st_index="704" c1_end_index="704" c2_st_index="290" c2_end_index="290" />
+      <connection_map name="part0_fmc_conn_la04_n" c1_st_index="705" c1_end_index="705" c2_st_index="291" c2_end_index="291" />
+      <connection_map name="part0_fmc_conn_la07_p" c1_st_index="752" c1_end_index="752" c2_st_index="293" c2_end_index="293" />
+      <connection_map name="part0_fmc_conn_la07_n" c1_st_index="753" c1_end_index="753" c2_st_index="294" c2_end_index="294" />
+      <connection_map name="part0_fmc_conn_la11_p" c1_st_index="742" c1_end_index="742" c2_st_index="296" c2_end_index="296" />
+      <connection_map name="part0_fmc_conn_la11_n" c1_st_index="743" c1_end_index="743" c2_st_index="297" c2_end_index="297" />
+      <connection_map name="part0_fmc_conn_la15_p" c1_st_index="702" c1_end_index="702" c2_st_index="299" c2_end_index="299" />
+      <connection_map name="part0_fmc_conn_la15_n" c1_st_index="703" c1_end_index="703" c2_st_index="300" c2_end_index="300" />
+      <connection_map name="part0_fmc_conn_la19_p" c1_st_index="714" c1_end_index="714" c2_st_index="302" c2_end_index="302" />
+      <connection_map name="part0_fmc_conn_la19_n" c1_st_index="715" c1_end_index="715" c2_st_index="303" c2_end_index="303" />
+      <connection_map name="part0_fmc_conn_la21_p" c1_st_index="700" c1_end_index="700" c2_st_index="305" c2_end_index="305" />
+      <connection_map name="part0_fmc_conn_la21_n" c1_st_index="701" c1_end_index="701" c2_st_index="306" c2_end_index="306" />
+      <connection_map name="part0_fmc_conn_la24_p" c1_st_index="720" c1_end_index="720" c2_st_index="308" c2_end_index="308" />
+      <connection_map name="part0_fmc_conn_la24_n" c1_st_index="721" c1_end_index="721" c2_st_index="309" c2_end_index="309" />
+      <connection_map name="part0_fmc_conn_la28_p" c1_st_index="606" c1_end_index="606" c2_st_index="311" c2_end_index="311" />
+      <connection_map name="part0_fmc_conn_la28_n" c1_st_index="607" c1_end_index="607" c2_st_index="312" c2_end_index="312" />
+      <connection_map name="part0_fmc_conn_la30_p" c1_st_index="604" c1_end_index="604" c2_st_index="314" c2_end_index="314" />
+      <connection_map name="part0_fmc_conn_la30_n" c1_st_index="605" c1_end_index="605" c2_st_index="315" c2_end_index="315" />
+      <connection_map name="part0_fmc_conn_la32_p" c1_st_index="602" c1_end_index="602" c2_st_index="317" c2_end_index="317" />
+      <connection_map name="part0_fmc_conn_la32_n" c1_st_index="603" c1_end_index="603" c2_st_index="318" c2_end_index="318" />
+      <connection_map name="part0_fmc_conn_clk3_bidir_p" c1_st_index="624" c1_end_index="624" c2_st_index="322" c2_end_index="322" />
+      <connection_map name="part0_fmc_conn_clk3_bidir_n" c1_st_index="625" c1_end_index="625" c2_st_index="323" c2_end_index="323" />
+      <connection_map name="part0_fmc_conn_ha03_p" c1_st_index="842" c1_end_index="842" c2_st_index="326" c2_end_index="326" />
+      <connection_map name="part0_fmc_conn_ha03_n" c1_st_index="843" c1_end_index="843" c2_st_index="327" c2_end_index="327" />
+      <connection_map name="part0_fmc_conn_ha07_p" c1_st_index="828" c1_end_index="828" c2_st_index="329" c2_end_index="329" />
+      <connection_map name="part0_fmc_conn_ha07_n" c1_st_index="829" c1_end_index="829" c2_st_index="330" c2_end_index="330" />
+      <connection_map name="part0_fmc_conn_ha11_p" c1_st_index="820" c1_end_index="820" c2_st_index="332" c2_end_index="332" />
+      <connection_map name="part0_fmc_conn_ha11_n" c1_st_index="821" c1_end_index="821" c2_st_index="333" c2_end_index="333" />
+      <connection_map name="part0_fmc_conn_ha14_p" c1_st_index="804" c1_end_index="804" c2_st_index="335" c2_end_index="335" />
+      <connection_map name="part0_fmc_conn_ha14_n" c1_st_index="805" c1_end_index="805" c2_st_index="336" c2_end_index="336" />
+      <connection_map name="part0_fmc_conn_ha18_p" c1_st_index="814" c1_end_index="814" c2_st_index="338" c2_end_index="338" />
+      <connection_map name="part0_fmc_conn_ha18_n" c1_st_index="815" c1_end_index="815" c2_st_index="339" c2_end_index="339" />
+      <connection_map name="part0_fmc_conn_ha22_p" c1_st_index="800" c1_end_index="800" c2_st_index="341" c2_end_index="341" />
+      <connection_map name="part0_fmc_conn_ha22_n" c1_st_index="801" c1_end_index="801" c2_st_index="342" c2_end_index="342" />
+      <connection_map name="part0_fmc_conn_hb01_p" c1_st_index="908" c1_end_index="908" c2_st_index="344" c2_end_index="344" />
+      <connection_map name="part0_fmc_conn_hb01_n" c1_st_index="909" c1_end_index="909" c2_st_index="345" c2_end_index="345" />
+      <connection_map name="part0_fmc_conn_hb07_p" c1_st_index="942" c1_end_index="942" c2_st_index="347" c2_end_index="347" />
+      <connection_map name="part0_fmc_conn_hb07_n" c1_st_index="943" c1_end_index="943" c2_st_index="348" c2_end_index="348" />
+      <connection_map name="part0_fmc_conn_hb11_p" c1_st_index="936" c1_end_index="936" c2_st_index="350" c2_end_index="350" />
+      <connection_map name="part0_fmc_conn_hb11_n" c1_st_index="937" c1_end_index="937" c2_st_index="351" c2_end_index="351" />
+      <connection_map name="part0_fmc_conn_hb15_p" c1_st_index="902" c1_end_index="902" c2_st_index="353" c2_end_index="353" />
+      <connection_map name="part0_fmc_conn_hb15_n" c1_st_index="903" c1_end_index="903" c2_st_index="354" c2_end_index="354" />
+      <connection_map name="part0_fmc_conn_hb18_p" c1_st_index="938" c1_end_index="938" c2_st_index="356" c2_end_index="356" />
+      <connection_map name="part0_fmc_conn_hb18_n" c1_st_index="939" c1_end_index="939" c2_st_index="357" c2_end_index="357" />
+      <connection_map name="part0_fmc_conn_clk2_bidir_p" c1_st_index="618" c1_end_index="618" c2_st_index="364" c2_end_index="364" />
+      <connection_map name="part0_fmc_conn_clk2_bidir_n" c1_st_index="619" c1_end_index="619" c2_st_index="365" c2_end_index="365" />
+      <connection_map name="part0_fmc_conn_ha02_p" c1_st_index="826" c1_end_index="826" c2_st_index="367" c2_end_index="367" />
+      <connection_map name="part0_fmc_conn_ha02_n" c1_st_index="827" c1_end_index="827" c2_st_index="368" c2_end_index="368" />
+      <connection_map name="part0_fmc_conn_ha06_p" c1_st_index="836" c1_end_index="836" c2_st_index="370" c2_end_index="370" />
+      <connection_map name="part0_fmc_conn_ha06_n" c1_st_index="837" c1_end_index="837" c2_st_index="371" c2_end_index="371" />
+      <connection_map name="part0_fmc_conn_ha10_p" c1_st_index="834" c1_end_index="834" c2_st_index="373" c2_end_index="373" />
+      <connection_map name="part0_fmc_conn_ha10_n" c1_st_index="835" c1_end_index="835" c2_st_index="374" c2_end_index="374" />
+      <connection_map name="part0_fmc_conn_ha17_cc_p" c1_st_index="812" c1_end_index="812" c2_st_index="376" c2_end_index="376" />
+      <connection_map name="part0_fmc_conn_ha17_cc_n" c1_st_index="813" c1_end_index="813" c2_st_index="377" c2_end_index="377" />
+      <connection_map name="part0_fmc_conn_ha21_p" c1_st_index="806" c1_end_index="806" c2_st_index="379" c2_end_index="379" />
+      <connection_map name="part0_fmc_conn_ha21_n" c1_st_index="807" c1_end_index="807" c2_st_index="380" c2_end_index="380" />
+      <connection_map name="part0_fmc_conn_ha23_p" c1_st_index="810" c1_end_index="810" c2_st_index="382" c2_end_index="382" />
+      <connection_map name="part0_fmc_conn_ha23_n" c1_st_index="811" c1_end_index="811" c2_st_index="383" c2_end_index="383" />
+      <connection_map name="part0_fmc_conn_hb00_cc_p" c1_st_index="918" c1_end_index="918" c2_st_index="385" c2_end_index="385" />
+      <connection_map name="part0_fmc_conn_hb00_cc_n" c1_st_index="919" c1_end_index="919" c2_st_index="386" c2_end_index="386" />
+      <connection_map name="part0_fmc_conn_hb06_cc_p" c1_st_index="912" c1_end_index="912" c2_st_index="388" c2_end_index="388" />
+      <connection_map name="part0_fmc_conn_hb06_cc_n" c1_st_index="913" c1_end_index="913" c2_st_index="389" c2_end_index="389" />
+      <connection_map name="part0_fmc_conn_hb10_p" c1_st_index="900" c1_end_index="900" c2_st_index="391" c2_end_index="391" />
+      <connection_map name="part0_fmc_conn_hb10_n" c1_st_index="901" c1_end_index="901" c2_st_index="392" c2_end_index="392" />
+      <connection_map name="part0_fmc_conn_hb14_p" c1_st_index="914" c1_end_index="914" c2_st_index="394" c2_end_index="394" />
+      <connection_map name="part0_fmc_conn_hb14_n" c1_st_index="915" c1_end_index="915" c2_st_index="395" c2_end_index="395" />
+      <connection_map name="part0_fmc_conn_hb17_cc_p" c1_st_index="924" c1_end_index="924" c2_st_index="397" c2_end_index="397" />
+      <connection_map name="part0_fmc_conn_hb17_cc_n" c1_st_index="925" c1_end_index="925" c2_st_index="398" c2_end_index="398" />
+      <connection_map name="part0_fmc_conn_gbtclk4_m2c_p" c1_st_index="2096" c1_end_index="2096" c2_st_index="404" c2_end_index="404" />
+      <connection_map name="part0_fmc_conn_gbtclk4_m2c_n" c1_st_index="2097" c1_end_index="2097" c2_st_index="405" c2_end_index="405" />
+      <connection_map name="part0_fmc_conn_gbtclk3_m2c_p" c1_st_index="2078" c1_end_index="2078" c2_st_index="408" c2_end_index="408" />
+      <connection_map name="part0_fmc_conn_gbtclk3_m2c_n" c1_st_index="2079" c1_end_index="2079" c2_st_index="409" c2_end_index="409" />
+      <connection_map name="part0_fmc_conn_gbtclk2_m2c_p" c1_st_index="2058" c1_end_index="2058" c2_st_index="412" c2_end_index="412" />
+      <connection_map name="part0_fmc_conn_gbtclk2_m2c_n" c1_st_index="2059" c1_end_index="2059" c2_st_index="413" c2_end_index="413" />
+      <connection_map name="part0_fmc_conn_dp23_m2c_p" c1_st_index="2114" c1_end_index="2114" c2_st_index="442" c2_end_index="442" />
+      <connection_map name="part0_fmc_conn_dp23_m2c_n" c1_st_index="2115" c1_end_index="2115" c2_st_index="443" c2_end_index="443" />
+      <connection_map name="part0_fmc_conn_dp22_m2c_p" c1_st_index="2110" c1_end_index="2110" c2_st_index="446" c2_end_index="446" />
+      <connection_map name="part0_fmc_conn_dp22_m2c_n" c1_st_index="2111" c1_end_index="2111" c2_st_index="447" c2_end_index="447" />
+      <connection_map name="part0_fmc_conn_dp21_m2c_p" c1_st_index="2106" c1_end_index="2106" c2_st_index="450" c2_end_index="450" />
+      <connection_map name="part0_fmc_conn_dp21_m2c_n" c1_st_index="2107" c1_end_index="2107" c2_st_index="451" c2_end_index="451" />
+      <connection_map name="part0_fmc_conn_dp20_m2c_p" c1_st_index="2102" c1_end_index="2102" c2_st_index="454" c2_end_index="454" />
+      <connection_map name="part0_fmc_conn_dp20_m2c_n" c1_st_index="2103" c1_end_index="2103" c2_st_index="455" c2_end_index="455" />
+      <connection_map name="part0_fmc_conn_dp14_c2m_p" c1_st_index="2068" c1_end_index="2068" c2_st_index="458" c2_end_index="458" />
+      <connection_map name="part0_fmc_conn_dp14_c2m_n" c1_st_index="2069" c1_end_index="2069" c2_st_index="459" c2_end_index="459" />
+      <connection_map name="part0_fmc_conn_dp15_c2m_p" c1_st_index="2072" c1_end_index="2072" c2_st_index="462" c2_end_index="462" />
+      <connection_map name="part0_fmc_conn_dp15_c2m_n" c1_st_index="2073" c1_end_index="2073" c2_st_index="463" c2_end_index="463" />
+      <connection_map name="part0_fmc_conn_dp16_c2m_p" c1_st_index="2080" c1_end_index="2080" c2_st_index="466" c2_end_index="466" />
+      <connection_map name="part0_fmc_conn_dp16_c2m_n" c1_st_index="2081" c1_end_index="2081" c2_st_index="467" c2_end_index="467" />
+      <connection_map name="part0_fmc_conn_dp17_c2m_p" c1_st_index="2084" c1_end_index="2084" c2_st_index="470" c2_end_index="470" />
+      <connection_map name="part0_fmc_conn_dp17_c2m_n" c1_st_index="2085" c1_end_index="2085" c2_st_index="471" c2_end_index="471" />
+      <connection_map name="part0_fmc_conn_dp18_c2m_p" c1_st_index="2088" c1_end_index="2088" c2_st_index="474" c2_end_index="474" />
+      <connection_map name="part0_fmc_conn_dp18_c2m_n" c1_st_index="2089" c1_end_index="2089" c2_st_index="475" c2_end_index="475" />
+      <connection_map name="part0_fmc_conn_dp19_c2m_p" c1_st_index="2092" c1_end_index="2092" c2_st_index="478" c2_end_index="478" />
+      <connection_map name="part0_fmc_conn_dp19_c2m_n" c1_st_index="2093" c1_end_index="2093" c2_st_index="479" c2_end_index="479" />
+      <connection_map name="part0_fmc_conn_dp23_c2m_p" c1_st_index="2112" c1_end_index="2112" c2_st_index="482" c2_end_index="482" />
+      <connection_map name="part0_fmc_conn_dp23_c2m_n" c1_st_index="2113" c1_end_index="2113" c2_st_index="483" c2_end_index="483" />
+      <connection_map name="part0_fmc_conn_dp21_c2m_p" c1_st_index="2104" c1_end_index="2104" c2_st_index="486" c2_end_index="486" />
+      <connection_map name="part0_fmc_conn_dp21_c2m_n" c1_st_index="2105" c1_end_index="2105" c2_st_index="487" c2_end_index="487" />
+      <connection_map name="part0_fmc_conn_dp10_m2c_p" c1_st_index="2050" c1_end_index="2050" c2_st_index="490" c2_end_index="490" />
+      <connection_map name="part0_fmc_conn_dp10_m2c_n" c1_st_index="2051" c1_end_index="2051" c2_st_index="491" c2_end_index="491" />
+      <connection_map name="part0_fmc_conn_dp12_m2c_p" c1_st_index="2062" c1_end_index="2062" c2_st_index="494" c2_end_index="494" />
+      <connection_map name="part0_fmc_conn_dp12_m2c_n" c1_st_index="2063" c1_end_index="2063" c2_st_index="495" c2_end_index="495" />
+      <connection_map name="part0_fmc_conn_dp14_m2c_p" c1_st_index="2070" c1_end_index="2070" c2_st_index="498" c2_end_index="498" />
+      <connection_map name="part0_fmc_conn_dp14_m2c_n" c1_st_index="2071" c1_end_index="2071" c2_st_index="499" c2_end_index="499" />
+      <connection_map name="part0_fmc_conn_dp15_m2c_p" c1_st_index="2074" c1_end_index="2074" c2_st_index="502" c2_end_index="502" />
+      <connection_map name="part0_fmc_conn_dp15_m2c_n" c1_st_index="2075" c1_end_index="2075" c2_st_index="503" c2_end_index="503" />
+      <connection_map name="part0_fmc_conn_dp11_m2c_p" c1_st_index="2054" c1_end_index="2054" c2_st_index="506" c2_end_index="506" />
+      <connection_map name="part0_fmc_conn_dp11_m2c_n" c1_st_index="2055" c1_end_index="2055" c2_st_index="507" c2_end_index="507" />
+      <connection_map name="part0_fmc_conn_dp13_m2c_p" c1_st_index="2066" c1_end_index="2066" c2_st_index="510" c2_end_index="510" />
+      <connection_map name="part0_fmc_conn_dp13_m2c_n" c1_st_index="2067" c1_end_index="2067" c2_st_index="511" c2_end_index="511" />
+      <connection_map name="part0_fmc_conn_dp17_m2c_p" c1_st_index="2086" c1_end_index="2086" c2_st_index="514" c2_end_index="514" />
+      <connection_map name="part0_fmc_conn_dp17_m2c_n" c1_st_index="2087" c1_end_index="2087" c2_st_index="515" c2_end_index="515" />
+      <connection_map name="part0_fmc_conn_dp19_m2c_p" c1_st_index="2094" c1_end_index="2094" c2_st_index="518" c2_end_index="518" />
+      <connection_map name="part0_fmc_conn_dp19_m2c_n" c1_st_index="2095" c1_end_index="2095" c2_st_index="519" c2_end_index="519" />
+      <connection_map name="part0_fmc_conn_hspc_prsnt_l" c1_st_index="71" c1_end_index="71" c2_st_index="521" c2_end_index="521" />
+      <connection_map name="part0_fmc_conn_dp22_c2m_p" c1_st_index="2108" c1_end_index="2108" c2_st_index="524" c2_end_index="524" />
+      <connection_map name="part0_fmc_conn_dp22_c2m_n" c1_st_index="2109" c1_end_index="2109" c2_st_index="525" c2_end_index="525" />
+      <connection_map name="part0_fmc_conn_dp20_c2m_p" c1_st_index="2100" c1_end_index="2100" c2_st_index="528" c2_end_index="528" />
+      <connection_map name="part0_fmc_conn_dp20_c2m_n" c1_st_index="2101" c1_end_index="2101" c2_st_index="529" c2_end_index="529" />
+      <connection_map name="part0_fmc_conn_dp11_m2c_p" c1_st_index="2054" c1_end_index="2054" c2_st_index="532" c2_end_index="532" />
+      <connection_map name="part0_fmc_conn_dp11_m2c_n" c1_st_index="2055" c1_end_index="2055" c2_st_index="533" c2_end_index="533" />
+      <connection_map name="part0_fmc_conn_dp13_m2c_p" c1_st_index="2066" c1_end_index="2066" c2_st_index="536" c2_end_index="536" />
+      <connection_map name="part0_fmc_conn_dp13_m2c_n" c1_st_index="2067" c1_end_index="2067" c2_st_index="537" c2_end_index="537" />
+      <connection_map name="part0_fmc_conn_gbtclk5_m2c_p" c1_st_index="2118" c1_end_index="2118" c2_st_index="540" c2_end_index="540" />
+      <connection_map name="part0_fmc_conn_gbtclk5_m2c_n" c1_st_index="2119" c1_end_index="2119" c2_st_index="541" c2_end_index="541" />
+      <connection_map name="part0_fmc_conn_dp10_c2m_p" c1_st_index="2048" c1_end_index="2048" c2_st_index="544" c2_end_index="544" />
+      <connection_map name="part0_fmc_conn_dp10_c2m_n" c1_st_index="2049" c1_end_index="2049" c2_st_index="545" c2_end_index="545" />
+      <connection_map name="part0_fmc_conn_dp12_c2m_p" c1_st_index="2060" c1_end_index="2060" c2_st_index="548" c2_end_index="548" />
+      <connection_map name="part0_fmc_conn_dp12_c2m_n" c1_st_index="2061" c1_end_index="2061" c2_st_index="549" c2_end_index="549" />
+      <connection_map name="part0_fmc_conn_dp16_m2c_p" c1_st_index="2082" c1_end_index="2082" c2_st_index="552" c2_end_index="552" />
+      <connection_map name="part0_fmc_conn_dp16_m2c_n" c1_st_index="2083" c1_end_index="2083" c2_st_index="553" c2_end_index="553" />
+      <connection_map name="part0_fmc_conn_dp18_m2c_p" c1_st_index="2090" c1_end_index="2090" c2_st_index="556" c2_end_index="556" />
+      <connection_map name="part0_fmc_conn_dp18_m2c_n" c1_st_index="2091" c1_end_index="2091" c2_st_index="557" c2_end_index="557" />
+    </connection>
+  </connections>
+  
+</board>
