@@ -1,0 +1,14 @@
+######### ADM-PA101/2MS change log ##############
+
+1.0 - Vivado 2022.x
+ADM-PA101 Initial board support
+
+1.1
+Changed CIPS IP block automation preset to only configure peripherals, PS reference clock & MIO I/O standards.
+Added CIPS IP presets for (a) Linux-capable configuration and (b) minimal configuration for booting the ACAP without peripherals.
+
+1.2
+Improved the way DDR4 SDRAM bank 1 interface is defined so that flipped pinout is correctly set regardless of single controller vs. 2 interleaved controllers choice. New designs should use "ddr4_bank1" interface in all cases but "ddr4_bank1_ilv" and "ddr4_bank1_non_ilv" interfaces are retained for backwards compatibility with older designs.
+SLEW for unidirectional DDR4 SDRAM pins is now MEDIUM (as opposed to FAST), to resolve SI issues caused by faster edge rate in newer Versal ACAPs.
+Added si5328_refclk_in2 component, interface & pins for rev. 4 board and later.
+No longer sets DM/DBI-related properties to force use of DBI for DDR4 SDRAM controllers; user can now decide whether or not to use DBI for reads and/or writes.
