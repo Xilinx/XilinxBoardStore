@@ -1,0 +1,4 @@
+######### ADM-VA600/DEV change log ##############
+
+1.0 - Vivado 2022.x
+ADM-VA600/DEV Initial board support
