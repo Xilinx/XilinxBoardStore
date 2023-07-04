@@ -41,7 +41,7 @@
   <component name="part0" display_name="xcvp1202 FPGA" type="fpga" part_name="xcvp1202-vsva2785-2MP-e-S" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="http://www.xilinx.com/vpk120">
       <description>XCVP1202 FPGA</description> 
 		 <additional_supported_parts>
-			  <supported_part part_name="xcvp1202-vsva2785-2MHP-e-S-es1" />
+			  <supported_part part_name="xcvp1202-vsva2785-2MHP-e-S" />
 		</additional_supported_parts>  
 		
     <interfaces>
