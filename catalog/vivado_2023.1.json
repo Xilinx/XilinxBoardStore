@@ -14022,6 +14022,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
+      },
+      {
+        "name": "admva600_dev",
+        "display": "ADM-VA600/DEV",
+        "latest_revision": "1.0",
+        "commit_id": "29dca44cc58cb49282f86f3dc5f88afbf61cc745",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "29dca44cc58cb49282f86f3dc5f88afbf61cc745",
+            "date": "05-07-2023:08:31:15",
+            "history": "Added board ADM-VA600/DEV v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/AlphaData/admva600_dev/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "alpha-data.com"
       }
     ],
     "categories": [
