@@ -7581,6 +7581,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "alpha-data.com"
+      },
+      {
+        "name": "admva600_dev",
+        "display": "ADM-VA600/DEV",
+        "latest_revision": "1.0",
+        "commit_id": "a4a559d9f783647f1d0585846b2e5bbfe734b1db",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "a4a559d9f783647f1d0585846b2e5bbfe734b1db",
+            "date": "05-07-2023:08:35:12",
+            "history": "Added board ADM-VA600/DEV v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/AlphaData/admva600_dev/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "alpha-data.com"
       }
     ],
     "categories": [
