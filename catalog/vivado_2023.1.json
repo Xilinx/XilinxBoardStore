@@ -14008,11 +14008,11 @@
         "name": "vpk120",
         "display": "Versal VPK120 Evaluation Platform",
         "latest_revision": "1.2",
-        "commit_id": "1765a1a4e76a824704819642616aa046a13797aa",
+        "commit_id": "6abda8fc78daecc4aa87b283c8a866d943720e34",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "1765a1a4e76a824704819642616aa046a13797aa",
+            "commit_id": "6abda8fc78daecc4aa87b283c8a866d943720e34",
             "date": "26-06-2023:05:22:34",
             "history": "Added board Versal VPK120 Evaluation Platform v1.2"
           }
