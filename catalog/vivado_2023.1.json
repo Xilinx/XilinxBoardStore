@@ -14041,6 +14041,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "alpha-data.com"
+      },
+      {
+        "name": "vhk158",
+        "display": "Versal VHK158 Evaluation Platform",
+        "latest_revision": "1.1",
+        "commit_id": "603a46202138811df9e0d5fde2fb16e0288cfcf2",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "603a46202138811df9e0d5fde2fb16e0288cfcf2",
+            "date": "11-07-2023:09:44:56",
+            "history": "Added board Versal VHK158 Evaluation Platform v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vhk158/production/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
       }
     ],
     "categories": [
