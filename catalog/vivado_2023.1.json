@@ -14060,6 +14060,82 @@
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
+      },
+      {
+        "name": "k24c",
+        "display": "Kria K24C SOM",
+        "latest_revision": "1.0",
+        "commit_id": "1fa9bea95913f97d5d80d7586499e74458f17a10",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "1fa9bea95913f97d5d80d7586499e74458f17a10",
+            "date": "29-08-2023:03:58:52",
+            "history": "Added board Kria K24C SOM v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/k24c/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "k24i",
+        "display": "Kria K24I SOM",
+        "latest_revision": "1.0",
+        "commit_id": "1fa9bea95913f97d5d80d7586499e74458f17a10",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "1fa9bea95913f97d5d80d7586499e74458f17a10",
+            "date": "29-08-2023:03:58:52",
+            "history": "Added board Kria K24I SOM v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/k24i/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "kd240_carrier",
+        "display": "Drives Starter Kit carrier card",
+        "latest_revision": "1.0",
+        "commit_id": "1fa9bea95913f97d5d80d7586499e74458f17a10",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "1fa9bea95913f97d5d80d7586499e74458f17a10",
+            "date": "29-08-2023:03:58:52",
+            "history": "Added board Drives Starter Kit carrier card v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/kd240_carrier/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "kd240_som",
+        "display": "Kria KD240 Drives Starter Kit SOM",
+        "latest_revision": "1.0",
+        "commit_id": "1fa9bea95913f97d5d80d7586499e74458f17a10",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "1fa9bea95913f97d5d80d7586499e74458f17a10",
+            "date": "29-08-2023:03:58:52",
+            "history": "Added board Kria KD240 Drives Starter Kit SOM v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/kd240_som/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
       }
     ],
     "categories": [
