@@ -1752,9 +1752,7 @@
         "config": {
           "root": "boards/Xilinx/vhk158/production/1.1",
           "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
-      }
+        }
     ],
     "categories": [
       {

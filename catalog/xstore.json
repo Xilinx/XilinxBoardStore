@@ -8,7 +8,7 @@
           {
             "version": "default", 
             "xitem_catalogue_file": "catalog/vivado_master.json", 
-            "remote_repo_branch_to_sync": "master"
+            "remote_repo_branch_to_sync": "2023.2"
           }, 
           {
             "version": "2021.1", 

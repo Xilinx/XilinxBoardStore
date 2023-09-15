@@ -1,0 +1,36 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "iW-G35M-19EG-4E008G-E008G-BIE", 
+          "display": "iW-G35M-19EG-4E008G-E008G-BIE", 
+          "revision": "1.A", 
+          "description": "Zynq UltraScale+ MPSoC 19EG-2-I SOM, 8GB PS DDR4, Dual 8GB FPGA DDR4, 8GB eMMC Flash", 
+          "company": "iwavesystems.com", 
+          "company_display": "iWave Systems Technologies", 
+          "author": "iwavesystems.com", 
+          "contributors": [
+            {
+              "group": "iWave Systems Technologies", 
+              "url": "https://www.iwavesystems.com/"
+            }
+          ], 
+          "category": "System on Module", 
+          "website": "https://www.iwavesystems.com/product/zu19-zu17-zu11-zynq-ultrascale-mpsocsom/", 
+          "logo": "iW-G35-SOM.jpeg", 
+          "search-keywords": [
+            "iW-G35M-19EG-4E008G-E008G-BIE", 
+            "iwavesystems.com", 
+			"board",
+			"iW-G35-SOM",
+            "System on Module",
+			"SOM"
+          ]
+        }
+      }
+    ]
+  }, 
+  "_major": 1, 
+  "_minor": 0
+}
