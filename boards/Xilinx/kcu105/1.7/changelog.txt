@@ -1,6 +1,8 @@
 ######### KCU105 Change log ##############
 1.7
-Added new DDR4 Memory part MT40A256M16LY-062E support ,Qspi Enabled 
+Added new DDR4 Memory part MT40A256M16LY-062E support ,Qspi Enabled
+Adding tag 'revision' so that this board file will be compatible with Board Rev 1.1
+ 
 1.6
 Added GT location for XDMA IP
 

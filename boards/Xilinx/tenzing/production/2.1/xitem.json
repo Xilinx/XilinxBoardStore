@@ -1,0 +1,33 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "tenzing_se1", 
+          "display": "Tenzing Evaluation Platform", 
+          "revision": "2.1", 
+          "description": "Tenzing Evaluation Platform", 
+          "company": "xilinx.com", 
+          "company_display": "Xilinx", 
+          "author": "Vanitha", 
+          "contributors": [
+            {
+              "group": "Xilinx", 
+              "url": "www.xilinx.com"
+            }
+          ], 
+          "category": "Evaluation Boards", 
+          "website": "www.xilinx.com/tenzing", 
+          "search-keywords": [
+            "tenzing_se1", 
+            "xilinx.com", 
+            "board", 
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  }, 
+  "_major": 1, 
+  "_minor": 0
+}
