@@ -7510,11 +7510,11 @@
         "name": "vek280",
         "display": "Versal VEK280 pre_production Evaluation Platform with FMC Connector",
         "latest_revision": "1.1",
-        "commit_id": "e94910c2fb9160c479a42469d8f63e69387322a2",
+        "commit_id": "97a2717c1f89ab92236108fb90f062236f6adb7c",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "e94910c2fb9160c479a42469d8f63e69387322a2",
+            "commit_id": "97a2717c1f89ab92236108fb90f062236f6adb7c",
             "date": "15-09-2023:16:10:08",
             "history": "Added board Versal VEK280 pre_production Evaluation Platform with FMC Connector v1.1"
           }
