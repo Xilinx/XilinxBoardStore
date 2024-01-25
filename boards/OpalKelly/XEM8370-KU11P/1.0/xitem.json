@@ -1,0 +1,37 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "XEM8370-KU11P",
+          "display": "XEM8370-KU11P Integration Platform",
+          "revision": "1.0",
+          "description": "XEM8370-KU11P Integration Platform",
+          "company": "opalkelly.com",
+          "company_display": "Opal Kelly",
+          "author": "Opal Kelly",
+          "contributors": [
+            {
+              "group": "Opal Kelly",
+              "url": "https://opalkelly.com/"
+            }
+          ],
+          "category": "Single Part",
+          "website": "https://opalkelly.com/products/XEM8370/",
+          "logo": "XEM8370-Top.jpg",
+          "search-keywords": [
+            "XEM8370-KU11P",
+            "opalkelly.com",
+            "board",
+            "KU11P",
+            "Opal Kelly",
+            "FrontPanel",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}
