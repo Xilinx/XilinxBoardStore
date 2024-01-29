@@ -6555,6 +6555,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "alpha-data.com"
+      },
+      {
+        "name": "XEM8370-KU11P",
+        "display": "XEM8370-KU11P Integration Platform",
+        "latest_revision": "1.0",
+        "commit_id": "446018cc3a18cd40755e0aed00cb5563d7a35244",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "446018cc3a18cd40755e0aed00cb5563d7a35244",
+            "date": "29-01-2024:17:34:05",
+            "history": "Added board XEM8370-KU11P Integration Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/XEM8370-KU11P/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
       }
     ],
     "categories": [
