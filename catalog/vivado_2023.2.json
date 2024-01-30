@@ -8246,6 +8246,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "opalkelly.com"
+      },
+      {
+        "name": "vpk180",
+        "display": "Versal VPK180 Evaluation Platform",
+        "latest_revision": "1.2",
+        "commit_id": "dc72ee2862aa18770e775a7bff51dfb5652aab36",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "dc72ee2862aa18770e775a7bff51dfb5652aab36",
+            "date": "30-01-2024:03:55:46",
+            "history": "Added board Versal VPK180 Evaluation Platform v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vpk180/production/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
       }
     ],
     "categories": [
