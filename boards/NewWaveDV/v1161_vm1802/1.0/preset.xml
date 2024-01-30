@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!-- Comment out next line after testing complete -->
+<!DOCTYPE ip_presets SYSTEM "./preset.dtd">
+<!-- Copyright (C) 2024, New Wave Design and Verification
+	THIS DOCUMENT AND THE INFORMATION CONTAINED HEREIN IS PROPRIETARY
+	AND CONFIDENTIAL TO NEW WAVE DESIGN AND VERIFICATION AND SHALL NOT
+	BE USED, DISTRIBUTED OR REPRODUCED FOR ANY PURPOSE, EXCEPT
+	WITH THE WRITTEN CONSENT OF NEW WAVE DESIGN AND VERIFICATION. -->
+
+<!-- Preset file:  Provides a list of predefined IP configuration options for the different IP
+	used to implement bus interfaces in a design project. The preset file is used by the
+	Vivado Design Suite when the IP is customized from the IP catalog and added into the
+	design. This file is located in the board repository, in the same folder or directory as the
+	Board Interface file.
+
+	17 Jan, 2024 - SBJ - Initial entry.
+	-->
+
+<ip_presets schema="1.0">
+	<ip_preset preset_proc_name="ps_pmc_fixed_io_preset">
+		<ip vendor="xilinx.com" library="ip" name="versal_cips" version="*" ip_interface="FIXED_IO">
+			<user_parameters>
+				<user_hier_parameter name="CONFIG.PS_PMC_CONFIG">
+					<user_hier_parameter name="PMC_MIO11">
+						<user_parameter name="AUX_IO" value="0"/>
+						<user_parameter name="DIRECTION" value="in"/>
+						<user_parameter name="DRIVE_STRENGTH" value="8mA"/>
+						<user_parameter name="OUTPUT_DATA" value="default"/>
+						<user_parameter name="PULL" value="disable"/>
+						<user_parameter name="SCHMITT" value="0"/>
+						<user_parameter name="SLEW" value="slow"/>
+						<user_parameter name="USAGE" value="AUXIO"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PMC_MIO12">
+						<user_parameter name="AUX_IO" value="0"/>
+						<user_parameter name="DIRECTION" value="out"/>
+						<user_parameter name="DRIVE_STRENGTH" value="8mA"/>
+						<user_parameter name="OUTPUT_DATA" value="high"/>
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="SCHMITT" value="0"/>
+						<user_parameter name="SLEW" value="slow"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PMC_MIO24">
+						<user_parameter name="AUX_IO" value="0"/>
+						<user_parameter name="DIRECTION" value="in"/>
+						<user_parameter name="DRIVE_STRENGTH" value="8mA"/>
+						<user_parameter name="OUTPUT_DATA" value="default"/>
+						<user_parameter name="PULL" value="disable"/>
+						<user_parameter name="SCHMITT" value="0"/>
+						<user_parameter name="SLEW" value="slow"/>
+						<user_parameter name="USAGE" value="AUXIO"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PMC_MIO25">
+						<user_parameter name="AUX_IO" value="0"/>
+						<user_parameter name="DIRECTION" value="out"/>
+						<user_parameter name="DRIVE_STRENGTH" value="8mA"/>
+						<user_parameter name="OUTPUT_DATA" value="high"/>
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="SCHMITT" value="0"/>
+						<user_parameter name="SLEW" value="slow"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PMC_OSPI_PERIPHERAL">
+						<user_parameter name="ENABLE" value="1"/>
+						<user_hier_parameter name="IO">
+							<user_parameter name="PMC_MIO" value="0 .. 11"/>
+						</user_hier_parameter>
+						<user_parameter name="MODE" value="Single"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PMC_OT_CHECK">
+						<user_parameter name="DELAY" value="0"/>
+						<user_parameter name="ENABLE" value="1"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PMC_SD0">
+						<user_parameter name="CD_ENABLE" value="0"/>
+						<user_hier_parameter name="CD_IO">
+							<user_parameter name="PMC_MIO" value="24"/>
+						</user_hier_parameter>
+						<user_parameter name="POW_ENABLE" value="0"/>
+						<user_hier_parameter name="POW_IO">
+							<user_parameter name="PMC_MIO" value="17"/>
+						</user_hier_parameter>
+						<user_parameter name="RESET_ENABLE" value="1"/>
+						<user_hier_parameter name="RESET_IO">
+							<user_parameter name="PMC_MIO" value="17"/>
+						</user_hier_parameter>
+						<user_parameter name="WP_ENABLE" value="0"/>
+						<user_hier_parameter name="WP_IO">
+							<user_parameter name="PMC_MIO" value="25"/>
+						</user_hier_parameter>
+					</user_hier_parameter>
+					<user_parameter name="PMC_SD0_DATA_TRANSFER_MODE" value="8Bit"/>
+					<user_hier_parameter name="PMC_SD0_PERIPHERAL">
+						<user_parameter name="CLK_100_SDR_OTAP_DLY" value="0x00"/>
+						<user_parameter name="CLK_200_SDR_OTAP_DLY" value="0x2"/>
+						<user_parameter name="CLK_50_DDR_ITAP_DLY" value="0x1E"/>
+						<user_parameter name="CLK_50_DDR_OTAP_DLY" value="0x5"/>
+						<user_parameter name="CLK_50_SDR_ITAP_DLY" value="0x2C"/>
+						<user_parameter name="CLK_50_SDR_OTAP_DLY" value="0x5"/>
+						<user_parameter name="ENABLE" value="1"/>
+						<user_hier_parameter name="IO">
+							<user_parameter name="PMC_MIO" value="13 .. 25"/>
+						</user_hier_parameter>
+					</user_hier_parameter>
+					<user_parameter name="PMC_SD0_SLOT_TYPE" value="eMMC"/>
+					<user_parameter name="PS_BANK_2_IO_STANDARD" value="LVCMOS3.3"/>
+					<user_parameter name="PS_BANK_3_IO_STANDARD" value="LVCMOS3.3"/>
+					<user_hier_parameter name="PS_ENET0_MDIO">
+						<user_parameter name="ENABLE" value="1"/>
+						<user_hier_parameter name="IO">
+							<user_parameter name="PMC_MIO" value="50 .. 51"/>
+						</user_hier_parameter>
+					</user_hier_parameter>
+					<user_hier_parameter name="PS_ENET0_PERIPHERAL">
+						<user_parameter name="ENABLE" value="1"/>
+						<user_hier_parameter name="IO">
+							<user_parameter name="PMC_MIO" value="26 .. 37"/>
+						</user_hier_parameter>
+					</user_hier_parameter>
+					<user_hier_parameter name="PS_ENET1_PERIPHERAL">
+						<user_parameter name="ENABLE" value="1"/>
+						<user_hier_parameter name="IO">
+							<user_parameter name="PMC_MIO" value="38 .. 49"/>
+						</user_hier_parameter>
+					</user_hier_parameter>
+					<user_parameter name="PS_GEN_IPI0_ENABLE" value="1"/>
+					<user_parameter name="PS_GEN_IPI1_ENABLE" value="1"/>
+					<user_parameter name="PS_GEN_IPI2_ENABLE" value="1"/>
+					<user_parameter name="PS_GEN_IPI3_ENABLE" value="1"/>
+					<user_parameter name="PS_GEN_IPI4_ENABLE" value="1"/>
+					<user_parameter name="PS_GEN_IPI5_ENABLE" value="1"/>
+					<user_parameter name="PS_GEN_IPI6_ENABLE" value="1"/>
+					<user_hier_parameter name="PS_I2C0_PERIPHERAL">
+						<user_parameter name="ENABLE" value="1"/>
+						<user_hier_parameter name="IO">
+							<user_parameter name="PS_MIO" value="6 .. 7"/>
+						</user_hier_parameter>
+					</user_hier_parameter>
+					<user_hier_parameter name="PS_I2C1_PERIPHERAL">
+						<user_parameter name="ENABLE" value="1"/>
+						<user_hier_parameter name="IO">
+							<user_parameter name="PS_MIO" value="0 .. 1"/>
+						</user_hier_parameter>
+					</user_hier_parameter>
+					<user_hier_parameter name="PS_MIO10">
+						<user_parameter name="AUX_IO" value="0"/>
+						<user_parameter name="DIRECTION" value="in"/>
+						<user_parameter name="DRIVE_STRENGTH" value="8mA"/>
+						<user_parameter name="OUTPUT_DATA" value="default"/>
+						<user_parameter name="PULL" value="disable"/>
+						<user_parameter name="SCHMITT" value="0"/>
+						<user_parameter name="SLEW" value="slow"/>
+						<user_parameter name="USAGE" value="AUXIO"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PS_MIO11">
+						<user_parameter name="AUX_IO" value="0"/>
+						<user_parameter name="DIRECTION" value="in"/>
+						<user_parameter name="DRIVE_STRENGTH" value="8mA"/>
+						<user_parameter name="OUTPUT_DATA" value="default"/>
+						<user_parameter name="PULL" value="disable"/>
+						<user_parameter name="SCHMITT" value="0"/>
+						<user_parameter name="SLEW" value="slow"/>
+						<user_parameter name="USAGE" value="AUXIO"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PS_MIO13">
+						<user_parameter name="AUX_IO" value="0"/>
+						<user_parameter name="DIRECTION" value="in"/>
+						<user_parameter name="DRIVE_STRENGTH" value="8mA"/>
+						<user_parameter name="OUTPUT_DATA" value="default"/>
+						<user_parameter name="PULL" value="disable"/>
+						<user_parameter name="SCHMITT" value="0"/>
+						<user_parameter name="SLEW" value="slow"/>
+						<user_parameter name="USAGE" value="AUXIO"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PS_MIO14">
+						<user_parameter name="AUX_IO" value="0"/>
+						<user_parameter name="DIRECTION" value="in"/>
+						<user_parameter name="DRIVE_STRENGTH" value="8mA"/>
+						<user_parameter name="OUTPUT_DATA" value="default"/>
+						<user_parameter name="PULL" value="disable"/>
+						<user_parameter name="SCHMITT" value="0"/>
+						<user_parameter name="SLEW" value="slow"/>
+						<user_parameter name="USAGE" value="AUXIO"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PS_MIO18">
+						<user_parameter name="AUX_IO" value="0"/>
+						<user_parameter name="DIRECTION" value="in"/>
+						<user_parameter name="DRIVE_STRENGTH" value="8mA"/>
+						<user_parameter name="OUTPUT_DATA" value="default"/>
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="SCHMITT" value="0"/>
+						<user_parameter name="SLEW" value="slow"/>
+						<user_parameter name="USAGE" value="Reserved"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PS_MIO19">
+						<user_parameter name="AUX_IO" value="0"/>
+						<user_parameter name="DIRECTION" value="in"/>
+						<user_parameter name="DRIVE_STRENGTH" value="8mA"/>
+						<user_parameter name="OUTPUT_DATA" value="default"/>
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="SCHMITT" value="0"/>
+						<user_parameter name="SLEW" value="slow"/>
+						<user_parameter name="USAGE" value="Reserved"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PS_MIO2">
+						<user_parameter name="AUX_IO" value="0"/>
+						<user_parameter name="DIRECTION" value="in"/>
+						<user_parameter name="DRIVE_STRENGTH" value="8mA"/>
+						<user_parameter name="OUTPUT_DATA" value="default"/>
+						<user_parameter name="PULL" value="disable"/>
+						<user_parameter name="SCHMITT" value="0"/>
+						<user_parameter name="SLEW" value="slow"/>
+						<user_parameter name="USAGE" value="AUXIO"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PS_MIO20">
+						<user_parameter name="AUX_IO" value="0"/>
+						<user_parameter name="DIRECTION" value="in"/>
+						<user_parameter name="DRIVE_STRENGTH" value="8mA"/>
+						<user_parameter name="OUTPUT_DATA" value="default"/>
+						<user_parameter name="PULL" value="disable"/>
+						<user_parameter name="SCHMITT" value="0"/>
+						<user_parameter name="SLEW" value="slow"/>
+						<user_parameter name="USAGE" value="AUXIO"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PS_MIO21">
+						<user_parameter name="AUX_IO" value="0"/>
+						<user_parameter name="DIRECTION" value="in"/>
+						<user_parameter name="DRIVE_STRENGTH" value="8mA"/>
+						<user_parameter name="OUTPUT_DATA" value="default"/>
+						<user_parameter name="PULL" value="disable"/>
+						<user_parameter name="SCHMITT" value="0"/>
+						<user_parameter name="SLEW" value="slow"/>
+						<user_parameter name="USAGE" value="AUXIO"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PS_MIO22">
+						<user_parameter name="AUX_IO" value="0"/>
+						<user_parameter name="DIRECTION" value="out"/>
+						<user_parameter name="DRIVE_STRENGTH" value="8mA"/>
+						<user_parameter name="OUTPUT_DATA" value="default"/>
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="SCHMITT" value="0"/>
+						<user_parameter name="SLEW" value="slow"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PS_MIO23">
+						<user_parameter name="AUX_IO" value="0"/>
+						<user_parameter name="DIRECTION" value="out"/>
+						<user_parameter name="DRIVE_STRENGTH" value="8mA"/>
+						<user_parameter name="OUTPUT_DATA" value="default"/>
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="SCHMITT" value="0"/>
+						<user_parameter name="SLEW" value="slow"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PS_MIO24">
+						<user_parameter name="AUX_IO" value="0"/>
+						<user_parameter name="DIRECTION" value="out"/>
+						<user_parameter name="DRIVE_STRENGTH" value="8mA"/>
+						<user_parameter name="OUTPUT_DATA" value="default"/>
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="SCHMITT" value="0"/>
+						<user_parameter name="SLEW" value="slow"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PS_MIO25">
+						<user_parameter name="AUX_IO" value="0"/>
+						<user_parameter name="DIRECTION" value="out"/>
+						<user_parameter name="DRIVE_STRENGTH" value="8mA"/>
+						<user_parameter name="OUTPUT_DATA" value="default"/>
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="SCHMITT" value="0"/>
+						<user_parameter name="SLEW" value="slow"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PS_MIO3">
+						<user_parameter name="AUX_IO" value="0"/>
+						<user_parameter name="DIRECTION" value="in"/>
+						<user_parameter name="DRIVE_STRENGTH" value="8mA"/>
+						<user_parameter name="OUTPUT_DATA" value="default"/>
+						<user_parameter name="PULL" value="disable"/>
+						<user_parameter name="SCHMITT" value="0"/>
+						<user_parameter name="SLEW" value="slow"/>
+						<user_parameter name="USAGE" value="AUXIO"/>
+					</user_hier_parameter>
+					<user_parameter name="PS_PCIE1_PERIPHERAL_ENABLE" value="1"/>
+					<user_parameter name="PS_PCIE2_PERIPHERAL_ENABLE" value="0"/>
+					<user_hier_parameter name="PS_PCIE_RESET">
+						<user_parameter name="ENABLE" value="1"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PS_PCIE_EP_RESET1_IO">
+						<user_parameter name="PS_MIO" value="18"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PS_SPI0">
+						<user_parameter name="GRP_SS0_ENABLE" value="1"/>
+						<user_hier_parameter name="GRP_SS0_IO">
+							<user_parameter name="PS_MIO" value="15"/>
+						</user_hier_parameter>
+						<user_parameter name="GRP_SS1_ENABLE" value="0"/>
+						<user_hier_parameter name="GRP_SS1_IO">
+							<user_parameter name="PMC_MIO" value="14"/>
+						</user_hier_parameter>
+						<user_parameter name="GRP_SS2_ENABLE" value="0"/>
+						<user_hier_parameter name="GRP_SS2_IO">
+							<user_parameter name="PMC_MIO" value="13"/>
+						</user_hier_parameter>
+						<user_parameter name="PERIPHERAL_ENABLE" value="1"/>
+						<user_hier_parameter name="PERIPHERAL_IO">
+							<user_parameter name="PS_MIO" value="12 .. 17"/>
+						</user_hier_parameter>
+					</user_hier_parameter>
+					<user_hier_parameter name="PS_UART0_PERIPHERAL">
+						<user_parameter name="ENABLE" value="1"/>
+						<user_hier_parameter name="IO">
+							<user_parameter name="PS_MIO" value="8 .. 9"/>
+						</user_hier_parameter>
+					</user_hier_parameter>
+					<user_hier_parameter name="PS_UART1_PERIPHERAL">
+						<user_parameter name="ENABLE" value="1"/>
+						<user_hier_parameter name="IO">
+							<user_parameter name="PS_MIO" value="4 .. 5"/>
+						</user_hier_parameter>
+					</user_hier_parameter>
+					<user_parameter name="SMON_VOLTAGE_AVERAGING_SAMPLES" value="16"/>
+					<user_hier_parameter name="SMON_MEAS0">  <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVCCAUX_103"/> <user_parameter name="SUPPLY_NUM" value="33"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS1">  <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVCCAUX_104"/> <user_parameter name="SUPPLY_NUM" value="34"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS2">  <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVCCAUX_105"/> <user_parameter name="SUPPLY_NUM" value="35"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS3">  <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVCCAUX_106"/> <user_parameter name="SUPPLY_NUM" value="36"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS4">  <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVCCAUX_200"/> <user_parameter name="SUPPLY_NUM" value="37"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS5">  <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVCCAUX_201"/> <user_parameter name="SUPPLY_NUM" value="38"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS6">  <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVCCAUX_202"/> <user_parameter name="SUPPLY_NUM" value="39"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS7">  <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVCCAUX_203"/> <user_parameter name="SUPPLY_NUM" value="40"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS8">  <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVCCAUX_204"/> <user_parameter name="SUPPLY_NUM" value="41"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS9">  <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVCCAUX_205"/> <user_parameter name="SUPPLY_NUM" value="42"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS10"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVCCAUX_206"/> <user_parameter name="SUPPLY_NUM" value="43"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS11"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVCC_103"/>    <user_parameter name="SUPPLY_NUM" value="22"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS12"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVCC_104"/>    <user_parameter name="SUPPLY_NUM" value="23"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS13"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVCC_105"/>    <user_parameter name="SUPPLY_NUM" value="24"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS14"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVCC_106"/>    <user_parameter name="SUPPLY_NUM" value="25"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS15"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVCC_200"/>    <user_parameter name="SUPPLY_NUM" value="31"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS16"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVCC_201"/>    <user_parameter name="SUPPLY_NUM" value="26"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS17"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVCC_202"/>    <user_parameter name="SUPPLY_NUM" value="27"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS18"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVCC_203"/>    <user_parameter name="SUPPLY_NUM" value="28"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS19"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVCC_204"/>    <user_parameter name="SUPPLY_NUM" value="32"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS20"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVCC_205"/>    <user_parameter name="SUPPLY_NUM" value="29"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS21"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVCC_206"/>    <user_parameter name="SUPPLY_NUM" value="30"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS22"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVTT_103"/>    <user_parameter name="SUPPLY_NUM" value="44"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS23"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVTT_104"/>    <user_parameter name="SUPPLY_NUM" value="45"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS24"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVTT_105"/>    <user_parameter name="SUPPLY_NUM" value="46"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS25"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVTT_106"/>    <user_parameter name="SUPPLY_NUM" value="47"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS26"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVTT_200"/>    <user_parameter name="SUPPLY_NUM" value="48"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS27"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVTT_201"/>    <user_parameter name="SUPPLY_NUM" value="49"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS28"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVTT_202"/>    <user_parameter name="SUPPLY_NUM" value="50"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS29"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVTT_203"/>    <user_parameter name="SUPPLY_NUM" value="51"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS30"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVTT_204"/>    <user_parameter name="SUPPLY_NUM" value="52"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS31"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVTT_205"/>    <user_parameter name="SUPPLY_NUM" value="53"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS32"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="GTY_AVTT_206"/>    <user_parameter name="SUPPLY_NUM" value="54"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS33"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="VCCAUX"/>          <user_parameter name="SUPPLY_NUM" value="8"/>  </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS34"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="VCCAUX_PMC"/>      <user_parameter name="SUPPLY_NUM" value="7"/>  </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS35"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="VCCAUX_SMON"/>     <user_parameter name="SUPPLY_NUM" value="9"/>  </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS36"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="VCCINT"/>          <user_parameter name="SUPPLY_NUM" value="6"/>  </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS37"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="4.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="4 V unipolar"/> <user_parameter name="NAME" value="VCCO_306"/>        <user_parameter name="SUPPLY_NUM" value="10"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS38"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="4.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="4 V unipolar"/> <user_parameter name="NAME" value="VCCO_406"/>        <user_parameter name="SUPPLY_NUM" value="11"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS39"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="4.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="4 V unipolar"/> <user_parameter name="NAME" value="VCCO_500"/>        <user_parameter name="SUPPLY_NUM" value="12"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS40"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="4.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="4 V unipolar"/> <user_parameter name="NAME" value="VCCO_501"/>        <user_parameter name="SUPPLY_NUM" value="13"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS41"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="4.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="4 V unipolar"/> <user_parameter name="NAME" value="VCCO_502"/>        <user_parameter name="SUPPLY_NUM" value="14"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS42"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="4.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="4 V unipolar"/> <user_parameter name="NAME" value="VCCO_503"/>        <user_parameter name="SUPPLY_NUM" value="15"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS43"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="VCCO_700"/>        <user_parameter name="SUPPLY_NUM" value="16"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS44"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="VCCO_701"/>        <user_parameter name="SUPPLY_NUM" value="17"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS45"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="VCCO_702"/>        <user_parameter name="SUPPLY_NUM" value="18"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS46"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="VCCO_703"/>        <user_parameter name="SUPPLY_NUM" value="19"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS47"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="VCCO_704"/>        <user_parameter name="SUPPLY_NUM" value="20"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS48"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="VCCO_705"/>        <user_parameter name="SUPPLY_NUM" value="21"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS55"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="VCC_BATT"/>        <user_parameter name="SUPPLY_NUM" value="0"/>  </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS56"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="VCC_PMC"/>         <user_parameter name="SUPPLY_NUM" value="1"/>  </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS57"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="VCC_PSFP"/>        <user_parameter name="SUPPLY_NUM" value="2"/>  </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS58"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="VCC_PSLP"/>        <user_parameter name="SUPPLY_NUM" value="3"/>  </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS59"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="VCC_RAM"/>         <user_parameter name="SUPPLY_NUM" value="4"/>  </user_hier_parameter>
+					<user_hier_parameter name="SMON_MEAS60"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0.00"/> <user_parameter name="ALARM_UPPER" value="2.00"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="MODE" value="2 V unipolar"/> <user_parameter name="NAME" value="VCC_SOC"/>         <user_parameter name="SUPPLY_NUM" value="5"/>  </user_hier_parameter>
+					<user_hier_parameter name="SMON_VAUX_CH0">  <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0"/> <user_parameter name="ALARM_UPPER" value="1"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="IO_N" value="GND_406"/>      <user_parameter name="IO_P" value="IO_L0P_406"/>      <user_parameter name="MODE" value="1 V unipolar"/> <user_parameter name="NAME" value="VAUX_CH0"/>  <user_parameter name="SUPPLY_NUM" value="55"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_VAUX_CH1">  <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0"/> <user_parameter name="ALARM_UPPER" value="1"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="IO_N" value="GND_500"/>      <user_parameter name="IO_P" value="PMC_MIO11_500"/>   <user_parameter name="MODE" value="1 V unipolar"/> <user_parameter name="NAME" value="VAUX_CH1"/>  <user_parameter name="SUPPLY_NUM" value="56"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_VAUX_CH2">  <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0"/> <user_parameter name="ALARM_UPPER" value="1"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="IO_N" value="GND_500"/>      <user_parameter name="IO_P" value="PMC_MIO24_500"/>   <user_parameter name="MODE" value="1 V unipolar"/> <user_parameter name="NAME" value="VAUX_CH2"/>  <user_parameter name="SUPPLY_NUM" value="57"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_VAUX_CH3">  <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0"/> <user_parameter name="ALARM_UPPER" value="1"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="IO_N" value="GND_502"/>      <user_parameter name="IO_P" value="LPD_MIO2_502"/>    <user_parameter name="MODE" value="1 V unipolar"/> <user_parameter name="NAME" value="VAUX_CH3"/>  <user_parameter name="SUPPLY_NUM" value="58"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_VAUX_CH4">  <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0"/> <user_parameter name="ALARM_UPPER" value="1"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="IO_N" value="GND_502"/>      <user_parameter name="IO_P" value="LPD_MIO3_502"/>    <user_parameter name="MODE" value="1 V unipolar"/> <user_parameter name="NAME" value="VAUX_CH4"/>  <user_parameter name="SUPPLY_NUM" value="59"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_VAUX_CH5">  <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0"/> <user_parameter name="ALARM_UPPER" value="1"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="IO_N" value="GND_502"/>      <user_parameter name="IO_P" value="LPD_MIO10_502"/>   <user_parameter name="MODE" value="1 V unipolar"/> <user_parameter name="NAME" value="VAUX_CH5"/>  <user_parameter name="SUPPLY_NUM" value="60"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_VAUX_CH6">  <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0"/> <user_parameter name="ALARM_UPPER" value="1"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="IO_N" value="GND_502"/>      <user_parameter name="IO_P" value="LPD_MIO11_502"/>   <user_parameter name="MODE" value="1 V unipolar"/> <user_parameter name="NAME" value="VAUX_CH6"/>  <user_parameter name="SUPPLY_NUM" value="61"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_VAUX_CH7">  <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0"/> <user_parameter name="ALARM_UPPER" value="1"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="IO_N" value="GND_502"/>      <user_parameter name="IO_P" value="LPD_MIO13_502"/>   <user_parameter name="MODE" value="1 V unipolar"/> <user_parameter name="NAME" value="VAUX_CH7"/>  <user_parameter name="SUPPLY_NUM" value="62"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_VAUX_CH8">  <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0"/> <user_parameter name="ALARM_UPPER" value="1"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="IO_N" value="GND_502"/>      <user_parameter name="IO_P" value="LPD_MIO14_502"/>   <user_parameter name="MODE" value="1 V unipolar"/> <user_parameter name="NAME" value="VAUX_CH8"/>  <user_parameter name="SUPPLY_NUM" value="63"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_VAUX_CH9">  <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0"/> <user_parameter name="ALARM_UPPER" value="1"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="IO_N" value="GND_502"/>      <user_parameter name="IO_P" value="LPD_MIO20_502"/>   <user_parameter name="MODE" value="1 V unipolar"/> <user_parameter name="NAME" value="VAUX_CH9"/>  <user_parameter name="SUPPLY_NUM" value="64"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_VAUX_CH10"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0"/> <user_parameter name="ALARM_UPPER" value="1"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="IO_N" value="GND_502"/>      <user_parameter name="IO_P" value="LPD_MIO21_502"/>   <user_parameter name="MODE" value="1 V unipolar"/> <user_parameter name="NAME" value="VAUX_CH10"/> <user_parameter name="SUPPLY_NUM" value="65"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_VAUX_CH11"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0"/> <user_parameter name="ALARM_UPPER" value="1"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="IO_N" value="GND_306"/>      <user_parameter name="IO_P" value="IO_L8P_306"/>      <user_parameter name="MODE" value="1 V unipolar"/> <user_parameter name="NAME" value="VAUX_CH11"/> <user_parameter name="SUPPLY_NUM" value="66"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_VAUX_CH12"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0"/> <user_parameter name="ALARM_UPPER" value="1"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="IO_N" value="GND_306"/>      <user_parameter name="IO_P" value="IO_L7P_306"/>      <user_parameter name="MODE" value="1 V unipolar"/> <user_parameter name="NAME" value="VAUX_CH12"/> <user_parameter name="SUPPLY_NUM" value="67"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_VAUX_CH13"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0"/> <user_parameter name="ALARM_UPPER" value="1"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="IO_N" value="GND_306"/>      <user_parameter name="IO_P" value="IO_L5P_HDGC_306"/> <user_parameter name="MODE" value="1 V unipolar"/> <user_parameter name="NAME" value="VAUX_CH13"/> <user_parameter name="SUPPLY_NUM" value="68"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_VAUX_CH14"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0"/> <user_parameter name="ALARM_UPPER" value="1"/> <user_parameter name="AVERAGE_EN" value="1"/> <user_parameter name="ENABLE" value="1"/> <user_parameter name="IO_N" value="GND_406"/>      <user_parameter name="IO_P" value="IO_L6P_HDGC_406"/> <user_parameter name="MODE" value="1 V unipolar"/> <user_parameter name="NAME" value="VAUX_CH14"/> <user_parameter name="SUPPLY_NUM" value="69"/> </user_hier_parameter>
+					<user_hier_parameter name="SMON_VAUX_CH15"> <user_parameter name="ALARM_ENABLE" value="0"/> <user_parameter name="ALARM_LOWER" value="0"/> <user_parameter name="ALARM_UPPER" value="1"/> <user_parameter name="AVERAGE_EN" value="0"/> <user_parameter name="ENABLE" value="0"/> <user_parameter name="IO_N" value="PMC_MIO1_500"/> <user_parameter name="IO_P" value="PMC_MIO0_500"/>    <user_parameter name="MODE" value="1 V unipolar"/> <user_parameter name="NAME" value="VAUX_CH15"/> <user_parameter name="SUPPLY_NUM" value="0"/>  </user_hier_parameter>
+				</user_hier_parameter>
+			</user_parameters>
+		</ip>
+	</ip_preset>
+
+	<ip_preset preset_proc_name="LPDDR4_Controller0_preset">
+		<ip vendor="xilinx.com" library="ip" name="axi_noc" version="*">
+			<user_parameters>
+				<user_parameter name="CONFIG.CONTROLLERTYPE" value="LPDDR4_SDRAM"/>
+				<user_parameter name="CONFIG.MC_NO_CHANNELS" value="Dual"/>
+				<user_parameter name="CONFIG.MC_SYSTEM_CLOCK" value="Differential"/>
+				<user_parameter name="CONFIG.MC_MEMORY_SPEEDGRADE" value="LPDDR4-4267"/>
+				<user_parameter name="CONFIG.MC_DATAWIDTH" value="32"/>
+				<user_parameter name="CONFIG.MC_DQ_WIDTH" value="32"/>
+				<user_parameter name="CONFIG.MC_DQS_WIDTH" value="4"/>
+				<user_parameter name="CONFIG.MC_DM_WIDTH" value="4"/>
+				<user_parameter name="CONFIG.MC_COMPONENT_WIDTH" value="x32"/>
+				<user_parameter name="CONFIG.MC_IP_TIMEPERIOD0_FOR_OP" value="5000"/>
+				<user_parameter name="CONFIG.MC_OP_TIMEPERIOD0" value="541"/>
+				<user_parameter name="CONFIG.MC_FREQ_SEL" value="MEMORY_CLK_FROM_SYS_CLK"/>
+			<!--<user_parameter name="CONFIG.MC_INPUT_FREQUENCY0" value="200.0"/> -->
+				<user_parameter name="CONFIG.MC_CHANNEL_INTERLEAVING" value="true"/>
+				<user_parameter name="CONFIG.MC_CH_INTERLEAVING_SIZE" value="256_Bytes"/>
+				<user_parameter name="CONFIG.MC_INPUTCLK0_PERIOD" value="9738"/>
+				<user_parameter name="CONFIG.MC_MEMORY_TIMEPERIOD0" value="541"/>
+				<user_parameter name="CONFIG.MC_MEMORY_TIMEPERIOD1" value="541"/>
+				<user_parameter name="CONFIG.MC_STACKHEIGHT" value="1"/>
+				<user_parameter name="CONFIG.MC_LP4_PIN_EFFICIENT" value="true"/>
+				<user_parameter name="CONFIG.MC_MEMORY_DEVICETYPE" value="Components"/>
+			</user_parameters>
+		</ip>
+	</ip_preset>
+
+	<ip_preset preset_proc_name="LPDDR4_Controller1_preset">
+		<ip vendor="xilinx.com" library="ip" name="axi_noc" version="*">
+			<user_parameters>
+				<user_parameter name="CONFIG.CONTROLLERTYPE" value="LPDDR4_SDRAM"/>
+				<user_parameter name="CONFIG.MC_NO_CHANNELS" value="Dual"/>
+				<user_parameter name="CONFIG.MC_SYSTEM_CLOCK" value="Differential"/>
+				<user_parameter name="CONFIG.MC_MEMORY_SPEEDGRADE" value="LPDDR4-4267"/>
+				<user_parameter name="CONFIG.MC_DATAWIDTH" value="32"/>
+				<user_parameter name="CONFIG.MC_DQ_WIDTH" value="32"/>
+				<user_parameter name="CONFIG.MC_DQS_WIDTH" value="4"/>
+				<user_parameter name="CONFIG.MC_DM_WIDTH" value="4"/>
+				<user_parameter name="CONFIG.MC_COMPONENT_WIDTH" value="x32"/>
+				<user_parameter name="CONFIG.MC_IP_TIMEPERIOD0_FOR_OP" value="5000"/>
+				<user_parameter name="CONFIG.MC_OP_TIMEPERIOD0" value="541"/>
+				<user_parameter name="CONFIG.MC_FREQ_SEL" value="MEMORY_CLK_FROM_SYS_CLK"/>
+			<!--<user_parameter name="CONFIG.MC_INPUT_FREQUENCY0" value="200.0"/> -->
+				<user_parameter name="CONFIG.MC_CHANNEL_INTERLEAVING" value="true"/>
+				<user_parameter name="CONFIG.MC_CH_INTERLEAVING_SIZE" value="256_Bytes"/>
+				<user_parameter name="CONFIG.MC_INPUTCLK0_PERIOD" value="9738"/>
+				<user_parameter name="CONFIG.MC_MEMORY_TIMEPERIOD0" value="541"/>
+				<user_parameter name="CONFIG.MC_MEMORY_TIMEPERIOD1" value="541"/>
+				<user_parameter name="CONFIG.MC_STACKHEIGHT" value="1"/>
+				<user_parameter name="CONFIG.MC_LP4_PIN_EFFICIENT" value="true"/>
+				<user_parameter name="CONFIG.MC_MEMORY_DEVICETYPE" value="Components"/>
+			</user_parameters>
+		</ip>
+	</ip_preset>
+
+	<ip_preset preset_proc_name="sysclk0_preset">
+		<ip vendor="xilinx.com" library="ip" name="clk_wiz" ip_interface="CLK_IN1_D">
+			<user_parameters>
+			  <user_parameter name="CONFIG.PRIM_IN_FREQ" value="200"/>
+			  <user_parameter name="CONFIG.PRIM_SOURCE" value="Differential_clock_capable_pin"/>
+			</user_parameters>
+		</ip>
+		<ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+			<user_parameters>
+				<user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDS" />
+				<user_parameter name="CONFIG.C_SIZE" value="1" />
+			</user_parameters>
+		</ip>
+	</ip_preset>
+
+	<ip_preset preset_proc_name="gpio_sw_preset">
+		<ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+			<user_parameters>
+				<user_parameter name="CONFIG.C_GPIO_WIDTH" value="2"/>
+				<user_parameter name="CONFIG.C_ALL_OUTPUTS" value="0"/>
+				<user_parameter name="CONFIG.C_ALL_INPUTS" value="1"/>
+			</user_parameters>
+		</ip>
+		<ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+			<user_parameters>
+				<user_parameter name="CONFIG.C_IS_DUAL" value="1"/>
+				<user_parameter name="CONFIG.C_GPIO2_WIDTH" value="2"/>
+				<user_parameter name="CONFIG.C_ALL_OUTPUTS_2" value="0"/>
+				<user_parameter name="CONFIG.C_ALL_INPUTS_2" value="1"/>
+			</user_parameters>
+		</ip>
+	</ip_preset>
+
+</ip_presets>
+

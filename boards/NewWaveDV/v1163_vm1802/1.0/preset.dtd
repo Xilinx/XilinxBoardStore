@@ -1,0 +1,74 @@
+<!--
+TODO: This needs to be reviewed by Damon and I am very unsure about
+both element counts and REQUIRED vs IMPLIED attributes..
+TODO: Add DTDDoc (http://dtddoc.sourceforge.net/index.html) comments to this file.
+
+   Change Log:
+   9/10/19 - initial creation of this DTD.
+-->
+
+<!--
+   @title Definition of the preset.xml file used in a Vivado board definition. 
+   This file provides a list of predefined IP configuration options for the different IP
+   used to implement bus interfaces in a design project.
+
+   Each board file has a specific DOCTYPE declaration with a specific root element. 
+   Please ensure that the same syntax is followed while declaring the
+   DOCTYPE in your XML files.
+
+   For preset.xml file the correct syntax is:
+     <!DOCTYPE ip_presets SYSTEM "path_to_corresponding_dtd_file">
+
+   @root ip_presets
+-->
+
+<!-- A ip_presets element should have one or more ip_preset element as it's children. -->
+<!ELEMENT ip_presets ( ip_preset+ ) >
+<!-- @attr schema version used, should be 1.0 for this version  -->
+<!ATTLIST ip_presets schema CDATA #REQUIRED >
+
+<!-- An ip_preset element should have one or more ip elements as it's children. -->
+<!ELEMENT ip_preset ( ip+ ) >
+<!-- @attr   Identifies the preset process being defined. The preset_proc_name
+used here will also be specified in the Board file for interfaces that
+implement this preset process.-->
+<!ATTLIST ip_preset preset_proc_name CDATA #REQUIRED >
+
+<!ELEMENT ip ( user_parameters | model_parameters ) >
+<!-- @attr   Address of the board provider's company website.-->
+<!ATTLIST ip vendor CDATA #REQUIRED >
+<!-- @attr Library that he core is part of.  -->
+<!ATTLIST ip library CDATA #REQUIRED >
+<!-- @attr  Name of the IP core. -->
+<!ATTLIST ip name CDATA #REQUIRED >
+<!-- @attr  Version of the IP.  -->
+<!ATTLIST ip version CDATA #IMPLIED >
+<!-- @attr  IP interface name. -->
+<!ATTLIST ip ip_interface CDATA #IMPLIED >
+
+<!-- Within the <ip> section, the <user_parameters> and <user_parameter> tags define the
+various configuration presets to apply to the specified IP core. -->
+<!ELEMENT user_parameters ( user_parameter | user_hier_parameter )+ >
+
+<!ELEMENT user_parameter EMPTY >
+<!-- @attr  Name of the pre-configured property of the IP core.  -->
+<!ATTLIST user_parameter name CDATA #REQUIRED >
+<!-- @attr  Preset value of the property.  -->
+<!ATTLIST user_parameter value CDATA #REQUIRED >
+<!-- @attr  The type of the parameter, string or range.  -->
+<!ATTLIST user_parameter value_type CDATA #IMPLIED >
+
+<!-- The user_hier_parameter tag can be used instead of user_parameter when representing
+     hierarchical parameters (interoduced for CIPS 3.0)  -->
+<!ELEMENT user_hier_parameter ( user_hier_parameter | user_parameter )+ >
+<!-- @attr  Name of the user_hier_parameter. This is the only attribute since additional
+     information is set via hier elements  -->
+<!ATTLIST user_hier_parameter name CDATA #REQUIRED >
+
+<!ELEMENT model_parameters ( model_parameter+ ) >
+
+<!ELEMENT model_parameter EMPTY >
+<!ATTLIST model_parameter name CDATA #REQUIRED >
+<!ATTLIST model_parameter value CDATA #REQUIRED >
+<!ATTLIST model_parameter value_type CDATA #IMPLIED >
+
