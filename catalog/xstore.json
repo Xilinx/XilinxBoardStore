@@ -104,6 +104,11 @@
             "xitem_catalogue_file": "catalog/vivado_2023.2.json", 
             "version": "2023.2", 
             "remote_repo_branch_to_sync": "2023.2"
+          }, 
+          {
+            "xitem_catalogue_file": "catalog/vivado_2024.1.json", 
+            "version": "2024.1", 
+            "remote_repo_branch_to_sync": "2024.1"
           }
         ]
       }
