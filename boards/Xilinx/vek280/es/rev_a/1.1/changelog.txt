@@ -1,0 +1,9 @@
+######### VEK280 change log ##############
+1.1 - 2023.1
+Corrected the format of PCIe reset pins for CIPS preset
+
+1.0
+Initial support for VEK280 ES1 Evaluation Platform (2022.2_web)
+
+
+
