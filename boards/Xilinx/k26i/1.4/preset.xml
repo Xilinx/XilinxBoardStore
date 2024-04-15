@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 
-<!-- Copyright (C) 2019, Xilinx Inc - All rights reserved
+<!-- Copyright (C) 2023, Advanced Micro Devices, Inc - All rights reserved
  Licensed under the Apache License, Version 2.0 (the "License"). You may
  not use this file except in compliance with the License. A copy of the
  License is located at
@@ -53,13 +53,13 @@
 		<user_parameter name="CONFIG.PSU__DPAUX__PERIPHERAL__IO" value="MIO 27 .. 30"/>	
 		<user_parameter name="CONFIG.PSU__DP__LANE_SEL" value="None"/>
 		
-		<user_parameter name="CONFIG.PSU__SD0__DATA_TRANSFER_MODE" value="4Bit"/>
+		<user_parameter name="CONFIG.PSU__SD0__DATA_TRANSFER_MODE" value="8Bit"/>
 		<user_parameter name="CONFIG.PSU__SD0__GRP_CD__ENABLE" value="0"/>
 		<user_parameter name="CONFIG.PSU__SD0__GRP_POW__ENABLE" value="1"/>
 		<user_parameter name="CONFIG.PSU__SD0__GRP_POW__IO" value="MIO 23"/>
 		<user_parameter name="CONFIG.PSU__SD0__GRP_WP__ENABLE" value="0"/>
 		<user_parameter name="CONFIG.PSU__SD0__PERIPHERAL__ENABLE" value="1"/>
-		<user_parameter name="CONFIG.PSU__SD0__PERIPHERAL__IO" value="MIO 13 .. 16 21 22"/>
+		<user_parameter name="CONFIG.PSU__SD0__PERIPHERAL__IO" value="MIO 13 .. 22"/>
 		<user_parameter name="CONFIG.PSU__SD0__RESET__ENABLE" value="1"/>
 		<user_parameter name="CONFIG.PSU__SD0__SLOT_TYPE" value="eMMC"/>
 		
