@@ -1,0 +1,9 @@
+######### VEK280 change log ##############
+1.1
+Initial support for VEK280 Evaluation Platform (2023.2)
+
+1.0
+Initial support for VEK280 production Evaluation Platform (2023.2)
+
+
+
