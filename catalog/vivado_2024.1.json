@@ -7624,11 +7624,11 @@
         "name": "vek280",
         "display": "Versal VEK280 Evaluation Platform with FMC Connector",
         "latest_revision": "1.2",
-        "commit_id": "90513d64a6131fa06502d789ea3c2e0668d8e4ac",
+        "commit_id": "1c94509f7ba837e19f7e4a77d3ace77f1ffc607e",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "90513d64a6131fa06502d789ea3c2e0668d8e4ac",
+            "commit_id": "1c94509f7ba837e19f7e4a77d3ace77f1ffc607e",
             "date": "26-04-2024:11:18:58",
             "history": "Added board Versal VEK280 Evaluation Platform with FMC Connector v1.2"
           }
