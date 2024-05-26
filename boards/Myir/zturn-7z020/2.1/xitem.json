@@ -1,0 +1,35 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "zturn_20_1i",
+          "display": "zturn (1GB DDR3). *SPRT PCB: REV03, REV02",
+          "revision": "2.1",
+          "description": "Zynq-7000 TE0724-*-20-1I (1GB DDR3) Board (form factor 4x6cm) with 1GB DDR3L, 1GBit Ethernet, speed grade -1 and industrial temperature grade. *Supported PCB Revisions: REV03, REV02.",
+          "company": "https://www.myirtech.com",
+          "company_display": "myir",
+          "author": "myir",
+          "contributors": [
+            {
+              "group": "myir",
+              "url": "https://www.myirtech.com/list.asp?id=502"
+            }
+          ],
+          "category": "Zynq-7000/Module",
+          "website": "https://www.myirtech.com/list.asp?id=502",
+          "logo": "zturn_board.jpg",
+          "search-keywords": [
+            "zturn",
+            "trenz.biz",
+            "board",
+            "Zynq-7000/Module",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 2,
+  "_minor": 1
+}
