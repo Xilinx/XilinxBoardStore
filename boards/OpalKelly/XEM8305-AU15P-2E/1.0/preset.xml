@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ip_presets schema="1.0">
+  <ip_preset preset_proc_name="ddr4_preset">
+    <ip vendor="xilinx.com" library="ip" name="ddr4">
+      <user_parameters>
+        <user_parameter name="CONFIG.C0.DDR4_InputClockPeriod" value="6332" />
+        <user_parameter name="CONFIG.C0.DDR4_TimePeriod" value="833" />
+        <user_parameter name="CONFIG.C0.DDR4_MemoryPart" value="MT40A512M16LY-075" />
+        <user_parameter name="CONFIG.C0.DDR4_DataWidth" value="16" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+  <ip_preset preset_proc_name="frontpanel_preset">
+    <ip vendor="opalkelly.com" library="ip" name="frontpanel" ip_interface="host_interface">
+      <user_parameters>
+        <!--
+        See FrontPanel Subsystem Vivado IP Core documentation for more information.
+        Enter custom user IP configuration below, i.e.:
+        <user_parameter name="CONFIG.WO.COUNT" value="1" />
+        <user_parameter name="CONFIG.WO.ADDR_0" value="0x3f" />
+        -->
+
+      </user_parameters>
+    </ip>
+  </ip_preset>
+</ip_presets>
