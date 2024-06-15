@@ -1,0 +1,4 @@
+######### XEM8305-AU15P-2E Change log ##############
+
+1.0
+Initial creation (LEDs, DDR4, Diff Clks, FrontPanel)
