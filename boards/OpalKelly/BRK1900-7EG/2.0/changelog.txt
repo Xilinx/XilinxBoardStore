@@ -1,0 +1,17 @@
+######### ECM1900-7EG W/ BRK1900 change log ############
+
+2.0
+- Added support for PS DisplayPort to the ZYNQ
+  preset for Rev B of the BRK1900. Note that Rev A
+  BRK1900s do not include PS DisplayPort. This
+  board file will still work with Rev A, but you
+  won't be able to use the DisplayPort. It will be
+  enabled in the preset, but you can ignore it or
+  disable it if necessary.
+  
+- Added a default pulldown to MIO pin 44, which
+  is connected to the active low OEb signal for the
+  Si5341 clock generator on the ECM1900.
+
+1.0
+- ECM1900-7EG W/ BRK1900 initial board support
