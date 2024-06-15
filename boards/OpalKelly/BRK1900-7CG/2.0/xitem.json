@@ -1,0 +1,37 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "BRK1900-7CG", 
+          "display": "ECM1900-7CG W/ BRK1900", 
+          "revision": "2.0", 
+          "description": "ECM1900-7CG W/ BRK1900", 
+          "company": "opalkelly.com", 
+          "company_display": "Opal Kelly", 
+          "author": "Opal Kelly", 
+          "contributors": [
+            {
+              "group": "Opal Kelly", 
+              "url": "https://opalkelly.com/"
+            }
+          ], 
+          "category": "Single Part", 
+          "website": "https://opalkelly.com/products/ecm1900/", 
+          "logo": "BRK1900-Top.png", 
+          "search-keywords": [
+            "BRK1900", 
+            "ECM1900", 
+            "opalkelly.com", 
+            "Opal Kelly",
+            "FrontPanel",
+            "board", 
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  }, 
+  "_major": 1, 
+  "_minor": 0
+}
