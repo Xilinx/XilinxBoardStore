@@ -8360,6 +8360,101 @@
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
+      },
+      {
+        "name": "BRK1900-7CG",
+        "display": "ECM1900-7CG W/ BRK1900",
+        "latest_revision": "2.0",
+        "commit_id": "bba6363ef279d32a96d8fd797fbc332792909ddd",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "bba6363ef279d32a96d8fd797fbc332792909ddd",
+            "date": "24-06-2024:06:24:14",
+            "history": "Added board ECM1900-7CG W/ BRK1900 v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/BRK1900-7CG/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "BRK1900-7EG",
+        "display": "ECM1900-7EG W/ BRK1900",
+        "latest_revision": "2.0",
+        "commit_id": "bba6363ef279d32a96d8fd797fbc332792909ddd",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "bba6363ef279d32a96d8fd797fbc332792909ddd",
+            "date": "24-06-2024:06:24:14",
+            "history": "Added board ECM1900-7EG W/ BRK1900 v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/BRK1900-7EG/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "BRK1900-7EV",
+        "display": "ECM1900-7EV W/ BRK1900",
+        "latest_revision": "2.0",
+        "commit_id": "bba6363ef279d32a96d8fd797fbc332792909ddd",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "bba6363ef279d32a96d8fd797fbc332792909ddd",
+            "date": "24-06-2024:06:24:14",
+            "history": "Added board ECM1900-7EV W/ BRK1900 v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/BRK1900-7EV/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "XEM8305-AU15P-1E",
+        "display": "XEM8305-AU15P-1E Integration Platform",
+        "latest_revision": "1.0",
+        "commit_id": "bba6363ef279d32a96d8fd797fbc332792909ddd",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "bba6363ef279d32a96d8fd797fbc332792909ddd",
+            "date": "24-06-2024:06:24:14",
+            "history": "Added board XEM8305-AU15P-1E Integration Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/XEM8305-AU15P-1E/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "XEM8305-AU15P-2E",
+        "display": "XEM8305-AU15P-2E Integration Platform",
+        "latest_revision": "1.0",
+        "commit_id": "bba6363ef279d32a96d8fd797fbc332792909ddd",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "bba6363ef279d32a96d8fd797fbc332792909ddd",
+            "date": "24-06-2024:06:24:14",
+            "history": "Added board XEM8305-AU15P-2E Integration Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/XEM8305-AU15P-2E/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
       }
     ],
     "categories": [
