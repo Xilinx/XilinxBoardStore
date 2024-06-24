@@ -7030,6 +7030,63 @@
           "metadata_file": "xitem.json"
         },
         "company": "opalkelly.com"
+      },
+      {
+        "name": "BRK1900-7CG",
+        "display": "ECM1900-7CG W/ BRK1900",
+        "latest_revision": "2.0",
+        "commit_id": "2a19c14a9747a22080c063f356b17788fa344d27",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "2a19c14a9747a22080c063f356b17788fa344d27",
+            "date": "24-06-2024:06:42:24",
+            "history": "Added board ECM1900-7CG W/ BRK1900 v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/BRK1900-7CG/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "BRK1900-7EG",
+        "display": "ECM1900-7EG W/ BRK1900",
+        "latest_revision": "2.0",
+        "commit_id": "2a19c14a9747a22080c063f356b17788fa344d27",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "2a19c14a9747a22080c063f356b17788fa344d27",
+            "date": "24-06-2024:06:42:24",
+            "history": "Added board ECM1900-7EG W/ BRK1900 v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/BRK1900-7EG/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "BRK1900-7EV",
+        "display": "ECM1900-7EV W/ BRK1900",
+        "latest_revision": "2.0",
+        "commit_id": "2a19c14a9747a22080c063f356b17788fa344d27",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "2a19c14a9747a22080c063f356b17788fa344d27",
+            "date": "24-06-2024:06:42:24",
+            "history": "Added board ECM1900-7EV W/ BRK1900 v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/BRK1900-7EV/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
       }
     ],
     "categories": [
