@@ -1,0 +1,36 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "iW-G30M-C7EV-4E008G-E008G-LIA", 
+          "display": "iW-G30M-C7EV-4E008G-E008G-LIA", 
+          "revision": "2.I", 
+          "description": "Zynq UltraScale+ MPSoC 7EV-1-I SOM, 8GB PS DDR4, 2 GB FPGA DDR4, 8GB eMMC Flash", 
+          "company": "iwavesystems.com", 
+          "company_display": "iWave Systems Technologies", 
+          "author": "iwavesystems.com", 
+          "contributors": [
+            {
+              "group": "iWave Systems Technologies", 
+              "url": "https://www.iwavesystems.com/"
+            }
+          ], 
+          "category": "System on Module", 
+          "website": "https://www.iwavesystems.com/product/zu7-zu5-zu4-zynq-ultrascale-mpsocsom", 
+          "logo": "iW-G30-SOM.png", 
+          "search-keywords": [
+            "iW-G30M-C7EV-4E008G-E008G-LIA", 
+            "iwavesystems.com", 
+			"board",
+			"iW-G30-SOM",
+            "System on Module",
+			"SOM"
+          ]
+        }
+      }
+    ]
+  }, 
+  "_major": 1, 
+  "_minor": 0
+}
