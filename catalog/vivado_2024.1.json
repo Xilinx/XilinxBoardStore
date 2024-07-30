@@ -8455,6 +8455,44 @@
           "metadata_file": "xitem.json"
         },
         "company": "opalkelly.com"
+      },
+      {
+        "name": "emb-plus-vpr-4616",
+        "display": "Embedded+ Sapphire VPR-4616",
+        "latest_revision": "1.0",
+        "commit_id": "9bf3911612208fe90a82542398257f347adfa97d",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "9bf3911612208fe90a82542398257f347adfa97d",
+            "date": "30-07-2024:15:48:40",
+            "history": "Added board Embedded+ Sapphire VPR-4616 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/emb-plus-vpr-4616/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "kc705",
+        "display": "Kintex-7 KC705 Evaluation Platform",
+        "latest_revision": "1.7",
+        "commit_id": "9bf3911612208fe90a82542398257f347adfa97d",
+        "revisions": [
+          {
+            "revision": "1.7",
+            "commit_id": "9bf3911612208fe90a82542398257f347adfa97d",
+            "date": "30-07-2024:15:48:40",
+            "history": "Added board Kintex-7 KC705 Evaluation Platform v1.7"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/kc705/1.7",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
       }
     ],
     "categories": [
