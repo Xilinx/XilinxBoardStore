@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!-- Copyright (C) 2023, Advanced Micro Devices, Inc - All rights reserved
+ Licensed under the Apache License, Version 2.0 (the "License"). You may
+ not use this file except in compliance with the License. A copy of the
+ License is located at
+     http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ License for the specific language governing permissions and limitations
+ under the License. -->
+
+<ip_presets schema="1.0">
+
+	<ip_preset preset_proc_name="mpsoc_preset_som">
+		<ip vendor="xilinx.com" library="ip" name="zynq_ultra_ps_e" version="*">
+			<user_parameters>
+			</user_parameters>
+		</ip>
+	</ip_preset>
+
+    <ip_preset preset_proc_name="click1_reset_pl_preset">
+      <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+          <user_parameters>
+            <user_parameter name="CONFIG.C_GPIO_WIDTH"  value="1"/> 
+            <user_parameter name="CONFIG.C_ALL_OUTPUTS" value="1"/> 
+            <user_parameter name="CONFIG.C_ALL_INPUTS"  value="0"/>
+          </user_parameters>
+      </ip>
+      <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+          <user_parameters>
+            <user_parameter name="CONFIG.C_IS_DUAL"       value="1"/> 
+            <user_parameter name="CONFIG.C_GPIO2_WIDTH"   value="1"/> 
+            <user_parameter name="CONFIG.C_ALL_OUTPUTS_2" value="1"/> 
+            <user_parameter name="CONFIG.C_ALL_INPUTS_2"  value="0"/>
+          </user_parameters>
+      </ip>
+    </ip_preset>
+
+    <ip_preset preset_proc_name="click1_reset_pl_preset">
+      <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+          <user_parameters>
+            <user_parameter name="CONFIG.C_GPIO_WIDTH"  value="1"/> 
+            <user_parameter name="CONFIG.C_ALL_OUTPUTS" value="1"/> 
+            <user_parameter name="CONFIG.C_ALL_INPUTS"  value="0"/>
+          </user_parameters>
+      </ip>
+      <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+          <user_parameters>
+            <user_parameter name="CONFIG.C_IS_DUAL"       value="1"/> 
+            <user_parameter name="CONFIG.C_GPIO2_WIDTH"   value="1"/> 
+            <user_parameter name="CONFIG.C_ALL_OUTPUTS_2" value="1"/> 
+            <user_parameter name="CONFIG.C_ALL_INPUTS_2"  value="0"/>
+          </user_parameters>
+      </ip>
+    </ip_preset>
+
+    <ip_preset preset_proc_name="click1_spi_pl_preset">
+     <ip vendor="xilinx.com" library="ip" name="axi_quad_spi">
+         <user_parameters>
+             <user_parameter name="CONFIG.C_SPI_MODE" value="0"/>
+             <user_parameter name="CONFIG.C_SCK_RATIO" value="16"/>
+             <user_parameter name="CONFIG.C_USE_STARTUP" value="0"/>
+             <user_parameter name="CONFIG.C_USE_STARTUP_INT" value="0"/>
+             <user_parameter name="CONFIG.C_NUM_SS_BITS" value="2"/>
+         </user_parameters>
+     </ip>
+    </ip_preset>
+   
+    <ip_preset preset_proc_name="click2_spi_pl_preset">
+     <ip vendor="xilinx.com" library="ip" name="axi_quad_spi">
+         <user_parameters>
+             <user_parameter name="CONFIG.C_SPI_MODE" value="0"/>
+             <user_parameter name="CONFIG.C_SCK_RATIO" value="16"/>
+             <user_parameter name="CONFIG.C_USE_STARTUP" value="0"/>
+             <user_parameter name="CONFIG.C_USE_STARTUP_INT" value="0"/>
+             <user_parameter name="CONFIG.C_NUM_SS_BITS" value="2"/>
+         </user_parameters>
+     </ip>
+    </ip_preset>
+
+	<ip_preset preset_proc_name="pmod_gpio_preset">
+		<ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+			<user_parameters>
+				<user_parameter name="CONFIG.C_GPIO_WIDTH" value="8"/>
+			</user_parameters>
+		</ip>
+		<ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+			<user_parameters>
+				<user_parameter name="CONFIG.C_IS_DUAL" value="1"/>
+				<user_parameter name="CONFIG.C_GPIO2_WIDTH" value="8"/>
+			</user_parameters>
+		</ip>
+	</ip_preset>
+
+	<ip_preset preset_proc_name="pl_led_preset">
+	 <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+		 <user_parameters>
+		   <user_parameter name="CONFIG.C_GPIO_WIDTH"  value="2"/>
+		   <user_parameter name="CONFIG.C_ALL_OUTPUTS" value="1"/>
+		   <user_parameter name="CONFIG.C_ALL_INPUTS"  value="0"/>
+		 </user_parameters>
+		</ip>
+	</ip_preset>
+
+	<ip_preset preset_proc_name="pl_pb_preset">
+	 <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+		 <user_parameters>
+		   <user_parameter name="CONFIG.C_GPIO_WIDTH"  value="2"/>
+		   <user_parameter name="CONFIG.C_ALL_OUTPUTS" value="0"/>
+		   <user_parameter name="CONFIG.C_ALL_INPUTS"  value="1"/>
+		 </user_parameters>
+		</ip>
+	</ip_preset>
+
+	<ip_preset preset_proc_name="pl_rgb_preset">
+	 <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+		 <user_parameters>
+		   <user_parameter name="CONFIG.C_GPIO_WIDTH"  value="3"/>
+		   <user_parameter name="CONFIG.C_ALL_OUTPUTS" value="1"/>
+		   <user_parameter name="CONFIG.C_ALL_INPUTS"  value="0"/>
+		 </user_parameters>
+		</ip>
+	</ip_preset>
+
+	<ip_preset preset_proc_name="hsio_gpio_preset">
+		<ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+			<user_parameters>
+				<user_parameter name="CONFIG.C_GPIO_WIDTH" value="22"/>
+			</user_parameters>
+		</ip>
+		<ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+			<user_parameters>
+				<user_parameter name="CONFIG.C_IS_DUAL" value="1"/>
+				<user_parameter name="CONFIG.C_GPIO2_WIDTH" value="22"/>
+			</user_parameters>
+		</ip>
+	</ip_preset>
+
+</ip_presets>

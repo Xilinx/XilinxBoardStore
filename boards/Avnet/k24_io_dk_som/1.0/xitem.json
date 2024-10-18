@@ -1,0 +1,42 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "k24_io_dk_som", 
+          "display": "K24 Development Kit - SOM and Carrier Card", 
+          "revision": "1.0", 
+          "description": "K24 Development Kit - SOM and Carrier Card", 
+          "company": "Tria (an Avnet Company)", 
+          "company_display": "Tria (an Avnet Company)", 
+          "author": "", 
+          "contributors": [
+            {
+              "group": "Avnet", 
+              "url": "avnet.me/k24-dk"
+            }
+          ], 
+          "category": "System On Modules(SOM)",
+          "logo": "k24_development_kit.png",
+          "website": "avnet.me/k24-dk", 
+          "search-keywords": [
+            "SOM", 
+            "avnet",
+            "tria",     
+            "avnet.com", 
+            "tria-technologies.com",
+            "k24",
+            "k24-dk",
+            "k24-io-dk",
+            "k24_dk",
+            "k24_io_dk",
+            "board", 
+            "System On Modules(SOM)"
+          ]
+        }
+      }
+    ]
+  }, 
+  "_major": 1, 
+  "_minor": 0
+}

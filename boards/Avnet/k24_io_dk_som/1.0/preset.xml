@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<!-- Copyright (C) 2019, Xilinx Inc - All rights reserved
+ Licensed under the Apache License, Version 2.0 (the "License"). You may
+ not use this file except in compliance with the License. A copy of the
+ License is located at
+     http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ License for the specific language governing permissions and limitations
+ under the License. -->
+ 
+<ip_presets schema="1.0">
+
+
+ <ip_preset preset_proc_name="mpsoc_preset_vsom"> 
+  <ip vendor="xilinx.com" library="ip" name="zynq_ultra_ps_e" version="*"> 
+    <user_parameters>
+<user_parameter name="CONFIG.PSU_BANK_0_IO_STANDARD" value="LVCMOS18"/>
+<user_parameter name="CONFIG.PSU_BANK_1_IO_STANDARD" value="LVCMOS18"/>
+<user_parameter name="CONFIG.PSU_BANK_2_IO_STANDARD" value="LVCMOS18"/>
+<user_parameter name="CONFIG.PSU_BANK_3_IO_STANDARD" value="LVCMOS18"/>
+<user_parameter name="CONFIG.PSU_DDR_RAM_HIGHADDR" value="0x7FFFFFFF"/>
+<user_parameter name="CONFIG.PSU_DDR_RAM_HIGHADDR_OFFSET" value="0x00000002"/> 
+<user_parameter name="CONFIG.PSU_DDR_RAM_LOWADDR_OFFSET" value="0x80000000" />
+<user_parameter name="CONFIG.PSU_MIO_0_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_0_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_10_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_10_SLEW" value="slow"/>     
+<user_parameter name="CONFIG.PSU_MIO_11_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_11_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_12_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_12_POLARITY" value="Default"/>
+<user_parameter name="CONFIG.PSU_MIO_12_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_13_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_13_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_14_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_14_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_15_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_15_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_16_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_16_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_17_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_17_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_18_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_18_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_19_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_19_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_1_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_1_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_20_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_20_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_21_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_21_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_22_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_22_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_23_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_23_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_24_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_24_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_25_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_25_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_26_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_26_POLARITY" value="Default"/>
+<user_parameter name="CONFIG.PSU_MIO_26_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_27_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_27_INPUT_TYPE" value="cmos"/>
+<user_parameter name="CONFIG.PSU_MIO_27_POLARITY" value="Default"/>
+<user_parameter name="CONFIG.PSU_MIO_27_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_28_DRIVE_STRENGTH" value="12"/>
+<user_parameter name="CONFIG.PSU_MIO_28_POLARITY" value="Default"/>
+<user_parameter name="CONFIG.PSU_MIO_28_SLEW" value="fast"/>
+<user_parameter name="CONFIG.PSU_MIO_29_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_29_INPUT_TYPE" value="cmos"/>
+<user_parameter name="CONFIG.PSU_MIO_29_POLARITY" value="Default"/>
+<user_parameter name="CONFIG.PSU_MIO_29_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_2_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_2_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_30_DRIVE_STRENGTH" value="12"/>
+<user_parameter name="CONFIG.PSU_MIO_30_POLARITY" value="Default"/>
+<user_parameter name="CONFIG.PSU_MIO_30_SLEW" value="fast"/>
+<user_parameter name="CONFIG.PSU_MIO_31_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_31_POLARITY" value="Default"/>
+<user_parameter name="CONFIG.PSU_MIO_31_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_32_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_32_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_33_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_33_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_34_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_34_POLARITY" value="Default"/>
+<user_parameter name="CONFIG.PSU_MIO_34_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_35_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_35_POLARITY" value="Default"/>
+<user_parameter name="CONFIG.PSU_MIO_35_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_36_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_36_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_38_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_38_POLARITY" value="Default"/>
+<user_parameter name="CONFIG.PSU_MIO_38_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_39_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_39_POLARITY" value="Default"/>
+<user_parameter name="CONFIG.PSU_MIO_39_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_3_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_3_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_40_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_40_POLARITY" value="Default"/>
+<user_parameter name="CONFIG.PSU_MIO_40_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_41_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_41_POLARITY" value="Default"/>
+<user_parameter name="CONFIG.PSU_MIO_41_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_42_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_42_POLARITY" value="Default"/>
+<user_parameter name="CONFIG.PSU_MIO_42_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_43_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_43_POLARITY" value="Default"/>
+<user_parameter name="CONFIG.PSU_MIO_43_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_44_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_44_POLARITY" value="Default"/>
+<user_parameter name="CONFIG.PSU_MIO_44_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_45_POLARITY" value="Default"/>
+<user_parameter name="CONFIG.PSU_MIO_46_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_46_POLARITY" value="Default"/>
+<user_parameter name="CONFIG.PSU_MIO_46_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_47_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_47_POLARITY" value="Default"/>
+<user_parameter name="CONFIG.PSU_MIO_47_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_48_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_48_POLARITY" value="Default"/>
+<user_parameter name="CONFIG.PSU_MIO_48_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_49_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_49_POLARITY" value="Default"/>
+<user_parameter name="CONFIG.PSU_MIO_49_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_4_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_4_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_50_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_50_POLARITY" value="Default"/>
+<user_parameter name="CONFIG.PSU_MIO_50_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_51_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_51_POLARITY" value="Default"/>
+<user_parameter name="CONFIG.PSU_MIO_51_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_54_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_54_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_56_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_56_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_57_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_57_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_5_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_5_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_66_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_66_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_68_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_68_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_69_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_69_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_6_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_6_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_70_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_70_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_71_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_71_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_72_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_72_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_73_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_73_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_74_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_74_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_75_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_75_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_76_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_76_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_77_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_77_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_7_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_7_POLARITY" value="Default"/>
+<user_parameter name="CONFIG.PSU_MIO_7_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_8_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_8_POLARITY" value="Default"/>
+<user_parameter name="CONFIG.PSU_MIO_8_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_MIO_9_DRIVE_STRENGTH" value="4"/>
+<user_parameter name="CONFIG.PSU_MIO_9_SLEW" value="slow"/>
+<user_parameter name="CONFIG.PSU_SD0_INTERNAL_BUS_WIDTH" value="8"/>
+<user_parameter name="CONFIG.PSU_SD1_INTERNAL_BUS_WIDTH" value="4"/>
+<user_parameter name="CONFIG.PSU_USB3__DUAL_CLOCK_ENABLE" value="1"/>
+<user_parameter name="CONFIG.PSU__ACT_DDR_FREQ_MHZ" value="524.994751"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__ACPU_CTRL__ACT_FREQMHZ" value="1333.000000"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__ACPU_CTRL__FREQMHZ" value="1333"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__ACPU_CTRL__SRCSEL" value="APLL"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__ACPU__FRAC_ENABLED" value="1"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__APLL_CTRL__FRACFREQ" value="1333"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__APLL_CTRL__SRCSEL" value="PSS_REF_CLK"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__APLL_FRAC_CFG__ENABLED" value="1"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__DBG_FPD_CTRL__ACT_FREQMHZ" value="249.997498"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__DBG_FPD_CTRL__FREQMHZ" value="250"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__DBG_FPD_CTRL__SRCSEL" value="IOPLL"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__DBG_TRACE_CTRL__FREQMHZ" value="250"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__DBG_TRACE_CTRL__SRCSEL" value="IOPLL"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__DBG_TSTMP_CTRL__ACT_FREQMHZ" value="249.997498"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__DBG_TSTMP_CTRL__FREQMHZ" value="250"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__DBG_TSTMP_CTRL__SRCSEL" value="IOPLL"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__DDR_CTRL__ACT_FREQMHZ" value="262.497375"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__DDR_CTRL__FREQMHZ" value="533"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__DDR_CTRL__SRCSEL" value="DPLL"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__DPDMA_REF_CTRL__ACT_FREQMHZ" value="444.333344"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__DPDMA_REF_CTRL__FREQMHZ" value="600"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__DPDMA_REF_CTRL__SRCSEL" value="APLL"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__DPLL_CTRL__SRCSEL" value="PSS_REF_CLK"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__DP_AUDIO_REF_CTRL__ACT_FREQMHZ" value="24.242182"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__DP_AUDIO_REF_CTRL__FREQMHZ" value="25"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__DP_AUDIO_REF_CTRL__SRCSEL" value="RPLL"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__DP_STC_REF_CTRL__ACT_FREQMHZ" value="26.666401"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__DP_STC_REF_CTRL__FREQMHZ" value="27"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__DP_STC_REF_CTRL__SRCSEL" value="RPLL"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__DP_VIDEO_REF_CTRL__ACT_FREQMHZ" value="299.997009"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__DP_VIDEO_REF_CTRL__FREQMHZ" value="300"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__DP_VIDEO_REF_CTRL__SRCSEL" value="VPLL"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__GDMA_REF_CTRL__ACT_FREQMHZ" value="524.994751"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__GDMA_REF_CTRL__FREQMHZ" value="600"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__GDMA_REF_CTRL__SRCSEL" value="DPLL"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__GPU_REF_CTRL__ACT_FREQMHZ" value="524.994751"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__TOPSW_LSBUS_CTRL__ACT_FREQMHZ" value="99.999001"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__TOPSW_LSBUS_CTRL__FREQMHZ" value="100"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__TOPSW_LSBUS_CTRL__SRCSEL" value="IOPLL"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__TOPSW_MAIN_CTRL__ACT_FREQMHZ" value="524.994751"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__TOPSW_MAIN_CTRL__FREQMHZ" value="533.33"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__TOPSW_MAIN_CTRL__SRCSEL" value="DPLL"/>
+<user_parameter name="CONFIG.PSU__CRF_APB__VPLL_CTRL__SRCSEL" value="PSS_REF_CLK"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__ADMA_REF_CTRL__ACT_FREQMHZ" value="499.994995"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__ADMA_REF_CTRL__FREQMHZ" value="500"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__ADMA_REF_CTRL__SRCSEL" value="IOPLL"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__AMS_REF_CTRL__ACT_FREQMHZ" value="49.999500"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__CPU_R5_CTRL__ACT_FREQMHZ" value="533.328003"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__CPU_R5_CTRL__FREQMHZ" value="533.333"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__CPU_R5_CTRL__SRCSEL" value="RPLL"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__DBG_LPD_CTRL__ACT_FREQMHZ" value="249.997498"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__DBG_LPD_CTRL__FREQMHZ" value="250"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__DBG_LPD_CTRL__SRCSEL" value="IOPLL"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__DLL_REF_CTRL__ACT_FREQMHZ" value="1499.984985"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__GEM2_REF_CTRL__ACT_FREQMHZ" value="124.998749"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__GEM_TSU_REF_CTRL__ACT_FREQMHZ" value="249.997498"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__GEM_TSU_REF_CTRL__SRCSEL" value="IOPLL"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__I2C1_REF_CTRL__ACT_FREQMHZ" value="99.999001"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__IOPLL_CTRL__SRCSEL" value="PSS_REF_CLK"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__IOU_SWITCH_CTRL__ACT_FREQMHZ" value="249.997498"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__IOU_SWITCH_CTRL__FREQMHZ" value="250"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__IOU_SWITCH_CTRL__SRCSEL" value="IOPLL"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__LPD_LSBUS_CTRL__ACT_FREQMHZ" value="99.999001"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__LPD_LSBUS_CTRL__FREQMHZ" value="100"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__LPD_LSBUS_CTRL__SRCSEL" value="IOPLL"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__LPD_SWITCH_CTRL__ACT_FREQMHZ" value="499.994995"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__LPD_SWITCH_CTRL__FREQMHZ" value="500"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__LPD_SWITCH_CTRL__SRCSEL" value="IOPLL"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__PCAP_CTRL__ACT_FREQMHZ" value="187.498123"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__PCAP_CTRL__FREQMHZ" value="200"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__PCAP_CTRL__SRCSEL" value="IOPLL"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__PL0_REF_CTRL__ACT_FREQMHZ" value="99.999001"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__PL0_REF_CTRL__FREQMHZ" value="100"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__PL0_REF_CTRL__SRCSEL" value="IOPLL"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__PL1_REF_CTRL__ACT_FREQMHZ" value="99.999001"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__PL1_REF_CTRL__FREQMHZ" value="100"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__PL1_REF_CTRL__SRCSEL" value="IOPLL"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__QSPI_REF_CTRL__ACT_FREQMHZ" value="124.998749"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__QSPI_REF_CTRL__FREQMHZ" value="125"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__QSPI_REF_CTRL__SRCSEL" value="IOPLL"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__RPLL_CTRL__SRCSEL" value="PSS_REF_CLK"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__SDIO0_REF_CTRL__ACT_FREQMHZ" value="187.498123"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__SDIO0_REF_CTRL__FREQMHZ" value="200"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__SDIO0_REF_CTRL__SRCSEL" value="IOPLL"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__SDIO1_REF_CTRL__ACT_FREQMHZ" value="199.998001"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__SPI1_REF_CTRL__ACT_FREQMHZ" value="187.498123"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__SPI1_REF_CTRL__FREQMHZ" value="200"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__SPI1_REF_CTRL__SRCSEL" value="IOPLL"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__TIMESTAMP_REF_CTRL__ACT_FREQMHZ" value="99.999001"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__TIMESTAMP_REF_CTRL__FREQMHZ" value="100"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__TIMESTAMP_REF_CTRL__SRCSEL" value="IOPLL"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__UART1_REF_CTRL__ACT_FREQMHZ" value="99.999001"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__UART1_REF_CTRL__FREQMHZ" value="100"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__UART1_REF_CTRL__SRCSEL" value="IOPLL"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__USB1_BUS_REF_CTRL__ACT_FREQMHZ" value="249.997498"/>
+<user_parameter name="CONFIG.PSU__CRL_APB__USB3_DUAL_REF_CTRL__ACT_FREQMHZ" value="19.999800"/>
+<user_parameter name="CONFIG.PSU__CSUPMU__PERIPHERAL__VALID" value="1"/>
+<user_parameter name="CONFIG.PSU__DDRC__ADDR_MIRROR" value="1"/>
+<user_parameter name="CONFIG.PSU__DDRC__BRC_MAPPING" value="ROW_BANK_COL"/>
+<user_parameter name="CONFIG.PSU__DDRC__BUS_WIDTH" value="32 Bit"/>
+<user_parameter name="CONFIG.PSU__DDRC__CLOCK_STOP_EN" value="0"/>
+<user_parameter name="CONFIG.PSU__DDRC__DEVICE_CAPACITY" value="16384 MBits"/>
+<user_parameter name="CONFIG.PSU__DDRC__DM_DBI" value="DM_NO_DBI"/>
+<user_parameter name="CONFIG.PSU__DDRC__DQMAP_0_3" value="0"/>
+<user_parameter name="CONFIG.PSU__DDRC__DQMAP_12_15" value="0"/>
+<user_parameter name="CONFIG.PSU__DDRC__DQMAP_16_19" value="0"/>
+<user_parameter name="CONFIG.PSU__DDRC__DQMAP_20_23" value="0"/>
+<user_parameter name="CONFIG.PSU__DDRC__DQMAP_24_27" value="0"/>
+<user_parameter name="CONFIG.PSU__DDRC__DQMAP_28_31" value="0"/>
+<user_parameter name="CONFIG.PSU__DDRC__DQMAP_32_35" value="0"/>
+<user_parameter name="CONFIG.PSU__DDRC__DQMAP_36_39" value="0"/>
+<user_parameter name="CONFIG.PSU__DDRC__DQMAP_40_43" value="0"/>
+<user_parameter name="CONFIG.PSU__DDRC__DQMAP_44_47" value="0"/>
+<user_parameter name="CONFIG.PSU__DDRC__DQMAP_48_51" value="0"/>
+<user_parameter name="CONFIG.PSU__DDRC__DQMAP_4_7" value="0"/>
+<user_parameter name="CONFIG.PSU__DDRC__DQMAP_52_55" value="0"/>
+<user_parameter name="CONFIG.PSU__DDRC__DQMAP_56_59" value="0"/>
+<user_parameter name="CONFIG.PSU__DDRC__DQMAP_60_63" value="0"/>
+<user_parameter name="CONFIG.PSU__DDRC__DQMAP_64_67" value="0"/>
+<user_parameter name="CONFIG.PSU__DDRC__DQMAP_68_71" value="0"/>
+<user_parameter name="CONFIG.PSU__DDRC__DQMAP_8_11" value="0"/>
+<user_parameter name="CONFIG.PSU__DDRC__DRAM_WIDTH" value="32 Bits"/>
+<user_parameter name="CONFIG.PSU__DDRC__ECC" value="Disabled"/>
+<user_parameter name="CONFIG.PSU__DDRC__ENABLE_LP4_HAS_ECC_COMP" value="0"/>
+<user_parameter name="CONFIG.PSU__DDRC__LPDDR4_T_REF_RANGE" value="Normal (0-85)"/>
+<user_parameter name="CONFIG.PSU__DDRC__MEMORY_TYPE" value="LPDDR 4"/>
+<user_parameter name="CONFIG.PSU__DDRC__PER_BANK_REFRESH" value="0"/>
+<user_parameter name="CONFIG.PSU__DDRC__PHY_DBI_MODE" value="0"/>
+<user_parameter name="CONFIG.PSU__DDRC__RANK_ADDR_COUNT" value="0"/>
+<user_parameter name="CONFIG.PSU__DDRC__ROW_ADDR_COUNT" value="16"/>
+<user_parameter name="CONFIG.PSU__DDRC__SPEED_BIN" value="LPDDR4_1066"/>
+<user_parameter name="CONFIG.PSU__DDRC__STATIC_RD_MODE" value="0"/>
+<user_parameter name="CONFIG.PSU__DDRC__TRAIN_DATA_EYE" value="1"/>
+<user_parameter name="CONFIG.PSU__DDRC__TRAIN_READ_GATE" value="1"/>
+<user_parameter name="CONFIG.PSU__DDRC__TRAIN_WRITE_LEVEL" value="1"/>
+<user_parameter name="CONFIG.PSU__DDRC__T_FAW" value="40.0"/>
+<user_parameter name="CONFIG.PSU__DDRC__T_RAS_MIN" value="42"/>
+<user_parameter name="CONFIG.PSU__DDRC__T_RC" value="63"/>
+<user_parameter name="CONFIG.PSU__DDRC__T_RCD" value="10"/>
+<user_parameter name="CONFIG.PSU__DDRC__T_RP" value="12"/>
+<user_parameter name="CONFIG.PSU__DDRC__VENDOR_PART" value="OTHERS"/>
+<user_parameter name="CONFIG.PSU__DDRC__VREF" value="1"/>
+<user_parameter name="CONFIG.PSU__DDR_HIGH_ADDRESS_GUI_ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__DDR__INTERFACE__FREQMHZ" value="266.500"/>
+<user_parameter name="CONFIG.PSU__DISPLAYPORT__PERIPHERAL__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__DLL__ISUSED" value="1"/>
+<user_parameter name="CONFIG.PSU__ENET2__FIFO__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__ENET2__GRP_MDIO__ENABLE" value="1"/>
+<user_parameter name="CONFIG.PSU__ENET2__GRP_MDIO__IO" value="MIO 76 .. 77"/>
+<user_parameter name="CONFIG.PSU__ENET2__PERIPHERAL__ENABLE" value="1"/>
+<user_parameter name="CONFIG.PSU__ENET2__PERIPHERAL__IO" value="MIO 52 .. 63"/>
+<user_parameter name="CONFIG.PSU__ENET2__PTP__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__ENET2__TSU__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__FPD_SLCR__WDT1__ACT_FREQMHZ" value="99.999001"/>
+<user_parameter name="CONFIG.PSU__FPGA_PL0_ENABLE" value="1"/>
+<user_parameter name="CONFIG.PSU__FPGA_PL1_ENABLE" value="1"/>
+<user_parameter name="CONFIG.PSU__GEM2_COHERENCY" value="0"/>
+<user_parameter name="CONFIG.PSU__GEM2_ROUTE_THROUGH_FPD" value="0"/>
+<user_parameter name="CONFIG.PSU__GEM__TSU__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__GPIO0_MIO__IO" value="MIO 0 .. 25"/>
+<user_parameter name="CONFIG.PSU__GPIO0_MIO__PERIPHERAL__ENABLE" value="1"/>
+<user_parameter name="CONFIG.PSU__GPIO1_MIO__IO" value="MIO 26 .. 51"/>
+<user_parameter name="CONFIG.PSU__GPIO1_MIO__PERIPHERAL__ENABLE" value="1"/>
+<user_parameter name="CONFIG.PSU__GPIO2_MIO__IO" value="MIO 52 .. 77"/>
+<user_parameter name="CONFIG.PSU__GPIO2_MIO__PERIPHERAL__ENABLE" value="1"/>
+<user_parameter name="CONFIG.PSU__I2C1__PERIPHERAL__ENABLE" value="1"/>
+<user_parameter name="CONFIG.PSU__I2C1__PERIPHERAL__IO" value="MIO 24 .. 25"/>
+<user_parameter name="CONFIG.PSU__IOU_SLCR__IOU_TTC_APB_CLK__TTC0_SEL" value="APB"/>
+<user_parameter name="CONFIG.PSU__IOU_SLCR__IOU_TTC_APB_CLK__TTC1_SEL" value="APB"/>
+<user_parameter name="CONFIG.PSU__IOU_SLCR__IOU_TTC_APB_CLK__TTC2_SEL" value="APB"/>
+<user_parameter name="CONFIG.PSU__IOU_SLCR__IOU_TTC_APB_CLK__TTC3_SEL" value="APB"/>
+<user_parameter name="CONFIG.PSU__IOU_SLCR__TTC0__ACT_FREQMHZ" value="100.000000"/>
+<user_parameter name="CONFIG.PSU__IOU_SLCR__TTC1__ACT_FREQMHZ" value="100.000000"/>
+<user_parameter name="CONFIG.PSU__IOU_SLCR__TTC2__ACT_FREQMHZ" value="100.000000"/>
+<user_parameter name="CONFIG.PSU__IOU_SLCR__TTC3__ACT_FREQMHZ" value="100.000000"/>
+<user_parameter name="CONFIG.PSU__IOU_SLCR__WDT0__ACT_FREQMHZ" value="99.999001"/>
+<user_parameter name="CONFIG.PSU__LPD_SLCR__CSUPMU__ACT_FREQMHZ" value="100.000000"/>
+<user_parameter name="CONFIG.PSU__MAXIGP0__DATA_WIDTH" value="128"/>
+<user_parameter name="CONFIG.PSU__MAXIGP1__DATA_WIDTH" value="128"/>
+<user_parameter name="CONFIG.PSU__OVERRIDE__BASIC_CLOCK" value="0"/>
+<user_parameter name="CONFIG.PSU__PL_CLK0_BUF" value="TRUE"/>
+<user_parameter name="CONFIG.PSU__PL_CLK1_BUF" value="TRUE"/>
+<user_parameter name="CONFIG.PSU__PMU_COHERENCY" value="0"/>
+<user_parameter name="CONFIG.PSU__PMU__AIBACK__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__PMU__EMIO_GPI__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__PMU__EMIO_GPO__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__PMU__GPI0__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__PMU__GPI1__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__PMU__GPI2__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__PMU__GPI3__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__PMU__GPI4__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__PMU__GPI5__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__PMU__GPO0__ENABLE" value="1"/>
+<user_parameter name="CONFIG.PSU__PMU__GPO0__IO" value="MIO 32"/>
+<user_parameter name="CONFIG.PSU__PMU__GPO1__ENABLE" value="1"/>
+<user_parameter name="CONFIG.PSU__PMU__GPO1__IO" value="MIO 33"/>
+<user_parameter name="CONFIG.PSU__PMU__GPO2__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__PMU__GPO3__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__PMU__GPO4__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__PMU__GPO5__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__PMU__PERIPHERAL__ENABLE" value="1"/>
+<user_parameter name="CONFIG.PSU__PMU__PLERROR__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__PRESET_APPLIED" value="1"/>
+<user_parameter name="CONFIG.PSU__PSS_REF_CLK__FREQMHZ" value="33.333"/>
+<user_parameter name="CONFIG.PSU__QSPI_COHERENCY" value="0"/>
+<user_parameter name="CONFIG.PSU__QSPI_ROUTE_THROUGH_FPD" value="0"/>
+<user_parameter name="CONFIG.PSU__QSPI__GRP_FBCLK__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__QSPI__PERIPHERAL__DATA_MODE" value="x4"/>
+<user_parameter name="CONFIG.PSU__QSPI__PERIPHERAL__ENABLE" value="1"/>
+<user_parameter name="CONFIG.PSU__QSPI__PERIPHERAL__IO" value="MIO 0 .. 5"/>
+<user_parameter name="CONFIG.PSU__QSPI__PERIPHERAL__MODE" value="Single"/>
+<user_parameter name="CONFIG.PSU__SD0_COHERENCY" value="0"/>
+<user_parameter name="CONFIG.PSU__SD0_ROUTE_THROUGH_FPD" value="0"/>
+<user_parameter name="CONFIG.PSU__SD0__CLK_200_SDR_OTAP_DLY" value="0x3"/>
+<user_parameter name="CONFIG.PSU__SD0__CLK_50_DDR_ITAP_DLY" value="0x12"/>
+<user_parameter name="CONFIG.PSU__SD0__CLK_50_DDR_OTAP_DLY" value="0x6"/>
+<user_parameter name="CONFIG.PSU__SD0__CLK_50_SDR_ITAP_DLY" value="0x15"/>
+<user_parameter name="CONFIG.PSU__SD0__CLK_50_SDR_OTAP_DLY" value="0x6"/>
+<user_parameter name="CONFIG.PSU__SD0__DATA_TRANSFER_MODE" value="8Bit"/>
+<user_parameter name="CONFIG.PSU__SD0__GRP_POW__ENABLE" value="1"/>
+<user_parameter name="CONFIG.PSU__SD0__GRP_POW__IO" value="MIO 23"/>
+<user_parameter name="CONFIG.PSU__SD0__PERIPHERAL__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__SD0__PERIPHERAL__IO" value="MIO 13 .. 22"/>
+<user_parameter name="CONFIG.PSU__SD0__RESET__ENABLE" value="1"/>
+<user_parameter name="CONFIG.PSU__SD0__SLOT_TYPE" value="eMMC"/>
+<user_parameter name="CONFIG.PSU__SD1_COHERENCY" value="0"/>
+<user_parameter name="CONFIG.PSU__SD1_ROUTE_THROUGH_FPD" value="0"/>
+<user_parameter name="CONFIG.PSU__SD1__CLK_50_SDR_ITAP_DLY" value="0x15"/>
+<user_parameter name="CONFIG.PSU__SD1__CLK_50_SDR_OTAP_DLY" value="0x5"/>
+<user_parameter name="CONFIG.PSU__SD1__DATA_TRANSFER_MODE" value="4Bit"/>
+<user_parameter name="CONFIG.PSU__SD1__GRP_CD__ENABLE" value="1"/>
+<user_parameter name="CONFIG.PSU__SD1__GRP_CD__IO" value="MIO 45"/>
+<user_parameter name="CONFIG.PSU__SD1__GRP_POW__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__SD1__GRP_WP__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__SD1__PERIPHERAL__ENABLE" value="1"/>
+<user_parameter name="CONFIG.PSU__SD1__PERIPHERAL__IO" value="MIO 46 .. 51"/>
+<user_parameter name="CONFIG.PSU__SD1__SLOT_TYPE" value="SD 2.0"/>
+<user_parameter name="CONFIG.PSU__SPI1__GRP_SS0__IO" value="MIO 9"/>
+<user_parameter name="CONFIG.PSU__SPI1__GRP_SS1__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__SPI1__GRP_SS2__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__SPI1__PERIPHERAL__ENABLE" value="1"/>
+<user_parameter name="CONFIG.PSU__SPI1__PERIPHERAL__IO" value="MIO 6 .. 11"/>
+<user_parameter name="CONFIG.PSU__SWDT0__CLOCK__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__SWDT0__PERIPHERAL__ENABLE" value="1"/>
+<user_parameter name="CONFIG.PSU__SWDT0__RESET__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__SWDT1__CLOCK__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__SWDT1__PERIPHERAL__ENABLE" value="1"/>
+<user_parameter name="CONFIG.PSU__SWDT1__RESET__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__TSU__BUFG_PORT_PAIR" value="0"/>
+<user_parameter name="CONFIG.PSU__TTC0__CLOCK__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__TTC0__PERIPHERAL__ENABLE" value="1"/>
+<user_parameter name="CONFIG.PSU__TTC0__WAVEOUT__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__TTC1__CLOCK__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__TTC1__PERIPHERAL__ENABLE" value="1"/>
+<user_parameter name="CONFIG.PSU__TTC1__WAVEOUT__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__TTC2__CLOCK__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__TTC2__PERIPHERAL__ENABLE" value="1"/>
+<user_parameter name="CONFIG.PSU__TTC2__WAVEOUT__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__TTC3__CLOCK__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__TTC3__PERIPHERAL__ENABLE" value="1"/>
+<user_parameter name="CONFIG.PSU__TTC3__WAVEOUT__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__UART1__BAUD_RATE" value="115200"/>
+<user_parameter name="CONFIG.PSU__UART1__MODEM__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__UART1__PERIPHERAL__ENABLE" value="1"/>
+<user_parameter name="CONFIG.PSU__UART1__PERIPHERAL__IO" value="MIO 36 .. 37"/>
+<user_parameter name="CONFIG.PSU__USB1_COHERENCY" value="0"/>
+<user_parameter name="CONFIG.PSU__USB1__PERIPHERAL__ENABLE" value="1"/>
+<user_parameter name="CONFIG.PSU__USB1__PERIPHERAL__IO" value="MIO 64 .. 75"/>
+<user_parameter name="CONFIG.PSU__USB2_1__EMIO__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__USB3_1__PERIPHERAL__ENABLE" value="0"/>
+<user_parameter name="CONFIG.PSU__USB__RESET__MODE" value="Boot Pin"/>
+<user_parameter name="CONFIG.PSU__USB__RESET__POLARITY" value="Active Low"/>
+<user_parameter name="CONFIG.PSU__USE__IRQ0" value="1"/>
+<user_parameter name="CONFIG.PSU__USE__M_AXI_GP0" value="1"/>
+<user_parameter name="CONFIG.PSU__USE__M_AXI_GP1" value="1"/>
+<user_parameter name="CONFIG.PSU__USE__M_AXI_GP2" value="0"/>
+	</user_parameters>
+   </ip>
+   </ip_preset>
+ 
+
+</ip_presets>
