@@ -1,0 +1,8 @@
+######### VMK180 change log ##############
+1.1 - 2023.1
+Corrected the format of PCIe reset pins for CIPS preset
+
+1.0 - 2022.1
+VMK180 Board Files having support for new SD level shifter
+Added MIO12 for OSPI preset - 2023.1
+

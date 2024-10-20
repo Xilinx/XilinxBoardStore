@@ -1,0 +1,10 @@
+######### VHK158 change log ##############
+1.2 - 2024.2
+Added sysctrl_uart interface
+
+1.1 - 2023.1 
+Corrected board files to include support for multiple parts.
+
+1.0 - 2022.1_web
+VHK158-ES Initial board support
+

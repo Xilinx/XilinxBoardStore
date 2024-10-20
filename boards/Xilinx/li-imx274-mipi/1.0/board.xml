@@ -1,0 +1,654 @@
+<?xml version="1.0"?>
+<board schema_version="2.0" vendor="leopardimaging" name="LI-IMX274MIPI-FMC" display_name="LI-IMX274MIPI-FMC V1.0" url="https://leopardimaging.com/product/li-imx274mipi-fmc/" preset_file="preset.xml">
+<!-- NOTE:name tag above should not have any spaces-->
+	<compatible_board_revisions>
+		<revision id="0">1.0</revision>
+	</compatible_board_revisions>
+	<file_version>1.0</file_version>
+        <description>To connect LI-IMX274MIPI-FMC V1.0 FMC placed on ZCU102 HPC0 FMC Slot only with MIPI CSI-2 Rx Subsystem, MIPI DSI Tx Subsystem and other control blocks like IIC,GPIO </description>
+  <components>
+	<component name="rxcsi" display_name="MIPI CSI-2 Rx" type="chip" sub_type="chip" major_group="FMC">
+      <description>MIPI CSI-2 Rx Subsystem to connect to LI-IMX274MIPI-FMC V1.0 FMC placed on ZCU102 HPC0 FMC Slot only </description>
+      <component_modes>
+        <component_mode name="EV_CSI2Rx_l4" display_name="Lanes 4">
+          <interfaces>
+            <interface name="EV_CSI2Rx_l4"/>
+          </interfaces>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="mipi_csi2_rx_subsystem" order="0"/>
+            <preferred_ip vendor="xilinx.com" library="ip" name="mipi_dphy" order="1"/>
+          </preferred_ips>
+        </component_mode>
+        <component_mode name="EV_CSI2Rx_l2" display_name="Lanes 2">
+          <interfaces>
+            <interface name="EV_CSI2Rx_l2"/>
+          </interfaces>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="mipi_csi2_rx_subsystem" order="0"/>
+            <preferred_ip vendor="xilinx.com" library="ip" name="mipi_dphy" order="1"/>
+          </preferred_ips>
+        </component_mode>
+      </component_modes>
+    </component>
+	<component name="txdsi" display_name="MIPI DSI Tx" type="chip" sub_type="chip" major_group="FMC">
+      <description>MIPI DSI Tx Subsystem to connect to LI-IMX274MIPI-FMC V1.0 FMC placed on ZCU102 HPC0 FMC Slot only </description>
+    </component>
+	<component name="mipi_csi2_iic" display_name="MIPI CSI-2 IIC" type="chip" sub_type="chip" major_group="FMC">
+      <description>AXI IIC(camera IIC/CCI) to connect to LI-IMX274MIPI-FMC V1.0 FMC placed on ZCU102 HPC0 FMC Slot only </description>
+    </component>
+	<component name="mipi_csi2_gpio" display_name="MIPI CSI-2 GPIO" type="chip" sub_type="chip" major_group="FMC">
+      <description>Camera control signals through AXI GPIO to connect to LI-IMX274MIPI-FMC V1.0 FMC placed on ZCU102 HPC0 FMC Slot only </description>
+    </component>
+	<component name="mipi_dsi_gpio" display_name="MIPI DSI GPIO" type="chip" sub_type="chip" major_group="FMC">
+      <description>Display control signals through AXI GPIO to connect to LI-IMX274MIPI-FMC V1.0 FMC placed on ZCU102 HPC0 FMC Slot only </description>
+    </component>
+    <component name="fmc_connector" display_name="LI-IMX274MIPI-FMC V1.0" type="connector" sub_type="fmc_hpc" major_group="FMC Generated">
+      <parameters>
+        <parameter name="mode" value="hpc0" value_type="list" range="hpc0"/>
+      </parameters>
+      <pins>
+				<pin index="1" name="" ></pin> <!-- A1 -->
+				<pin index="2" name="" ></pin> <!-- A2 -->
+				<pin index="3" name="" ></pin> <!-- A3 -->
+				<pin index="4" name="" ></pin> <!-- A4 -->
+				<pin index="5" name="" ></pin> <!-- A5 -->
+				<pin index="6" name="" ></pin> <!-- A6 -->
+				<pin index="7" name="" ></pin> <!-- A7 -->
+				<pin index="8" name="" ></pin> <!-- A8 -->
+				<pin index="9" name="" ></pin> <!-- A9 -->
+				<pin index="10" name="" ></pin> <!-- A10 -->
+				<pin index="11" name="" ></pin> <!-- A11 -->
+				<pin index="12" name="" ></pin> <!-- A12 -->
+				<pin index="13" name="" ></pin> <!-- A13 -->
+				<pin index="14" name="" ></pin> <!-- A14 -->
+				<pin index="15" name="" ></pin> <!-- A15 -->
+				<pin index="16" name="" ></pin> <!-- A16 -->
+				<pin index="17" name="" ></pin> <!-- A17 -->
+				<pin index="18" name="" ></pin> <!-- A18 -->
+				<pin index="19" name="" ></pin> <!-- A19 -->
+				<pin index="20" name="" ></pin> <!-- A20 -->
+				<pin index="21" name="" ></pin> <!-- A21 -->
+				<pin index="22" name="" ></pin> <!-- A22 -->
+				<pin index="23" name="" ></pin> <!-- A23 -->
+				<pin index="24" name="" ></pin> <!-- A24 -->
+				<pin index="25" name="" ></pin> <!-- A25 -->
+				<pin index="26" name="" ></pin> <!-- A26 -->
+				<pin index="27" name="" ></pin> <!-- A27 -->
+				<pin index="28" name="" ></pin> <!-- A28 -->
+				<pin index="29" name="" ></pin> <!-- A29 -->
+				<pin index="30" name="" ></pin> <!-- A30 -->
+				<pin index="31" name="" ></pin> <!-- A31 -->
+				<pin index="32" name="" ></pin> <!-- A32 -->
+				<pin index="33" name="" ></pin> <!-- A33 -->
+				<pin index="34" name="" ></pin> <!-- A34 -->
+				<pin index="35" name="" ></pin> <!-- A35 -->
+				<pin index="36" name="" ></pin> <!-- A36 -->
+				<pin index="37" name="" ></pin> <!-- A37 -->
+				<pin index="38" name="" ></pin> <!-- A38 -->
+				<pin index="39" name="" ></pin> <!-- A39 -->
+				<pin index="40" name="" ></pin> <!-- A40 -->
+				<pin index="41" name="" ></pin> <!-- B1 -->
+				<pin index="42" name="" ></pin> <!-- B2 -->
+				<pin index="43" name="" ></pin> <!-- B3 -->
+				<pin index="44" name="" ></pin> <!-- B4 -->
+				<pin index="45" name="" ></pin> <!-- B5 -->
+				<pin index="46" name="" ></pin> <!-- B6 -->
+				<pin index="47" name="" ></pin> <!-- B7 -->
+				<pin index="48" name="" ></pin> <!-- B8 -->
+				<pin index="49" name="" ></pin> <!-- B9 -->
+				<pin index="50" name="" ></pin> <!-- B10 -->
+				<pin index="51" name="" ></pin> <!-- B11 -->
+				<pin index="52" name="" ></pin> <!-- B12 -->
+				<pin index="53" name="" ></pin> <!-- B13 -->
+				<pin index="54" name="" ></pin> <!-- B14 -->
+				<pin index="55" name="" ></pin> <!-- B15 -->
+				<pin index="56" name="" ></pin> <!-- B16 -->
+				<pin index="57" name="" ></pin> <!-- B17 -->
+				<pin index="58" name="" ></pin> <!-- B18 -->
+				<pin index="59" name="" ></pin> <!-- B19 -->
+				<pin index="60" name="" ></pin> <!-- B20 -->
+				<pin index="61" name="" ></pin> <!-- B21 -->
+				<pin index="62" name="" ></pin> <!-- B22 -->
+				<pin index="63" name="" ></pin> <!-- B23 -->
+				<pin index="64" name="" ></pin> <!-- B24 -->
+				<pin index="65" name="" ></pin> <!-- B25 -->
+				<pin index="66" name="" ></pin> <!-- B26 -->
+				<pin index="67" name="" ></pin> <!-- B27 -->
+				<pin index="68" name="" ></pin> <!-- B28 -->
+				<pin index="69" name="" ></pin> <!-- B29 -->
+				<pin index="70" name="" ></pin> <!-- B30 -->
+				<pin index="71" name="" ></pin> <!-- B31 -->
+				<pin index="72" name="" ></pin> <!-- B32 -->
+				<pin index="73" name="" ></pin> <!-- B33 -->
+				<pin index="74" name="" ></pin> <!-- B34 -->
+				<pin index="75" name="" ></pin> <!-- B35 -->
+				<pin index="76" name="" ></pin> <!-- B36 -->
+				<pin index="77" name="" ></pin> <!-- B37 -->
+				<pin index="78" name="" ></pin> <!-- B38 -->
+				<pin index="79" name="" ></pin> <!-- B39 -->
+				<pin index="80" name="" ></pin> <!-- B40 -->
+				<pin index="81" name="" ></pin> <!-- C1 -->
+				<pin index="82" name="" ></pin> <!-- C2 -->
+				<pin index="83" name="" ></pin> <!-- C3 -->
+				<pin index="84" name="" ></pin> <!-- C4 -->
+				<pin index="85" name="" ></pin> <!-- C5 -->
+				<pin index="86" name="" ></pin> <!-- C6 -->
+				<pin index="87" name="" ></pin> <!-- C7 -->
+				<pin index="88" name="" ></pin> <!-- C8 -->
+				<pin index="89" name="" ></pin> <!-- C9 -->
+				<pin index="90" name="" ></pin> <!-- C10 -->
+				<pin index="91" name="" ></pin> <!-- C11 -->
+				<pin index="92" name="" ></pin> <!-- C12 -->
+				<pin index="93" name="" ></pin> <!-- C13 -->
+				<pin index="94" name="csi_data_rxp0" ></pin> <!-- C14 -->
+				<pin index="95" name="csi_data_rxn0" ></pin> <!-- C15 -->
+				<pin index="96" name="" ></pin> <!-- C16 -->
+				<pin index="97" name="" ></pin> <!-- C17 -->
+				<pin index="98" name="" ></pin> <!-- C18 -->
+				<pin index="99" name="" ></pin> <!-- C19 -->
+				<pin index="100" name="" ></pin> <!-- C20 -->
+				<pin index="101" name="" ></pin> <!-- C21 -->
+				<pin index="102" name="dsi_data_txp0" ></pin> <!-- C22 -->
+				<pin index="103" name="dsi_data_txn0" ></pin> <!-- C23 -->
+				<pin index="104" name="" ></pin> <!-- C24 -->
+				<pin index="105" name="" ></pin> <!-- C25 -->
+				<pin index="106" name="fmc_hpc0_la27_p" iostandard="LVCMOS12" ></pin> <!-- C26 -->
+				<pin index="107" name="" ></pin> <!-- C27 -->
+				<pin index="108" name="" ></pin> <!-- C28 -->
+				<pin index="109" name="" ></pin> <!-- C29 -->
+				<pin index="110" name="" ></pin> <!-- C30 -->
+				<pin index="111" name="" ></pin> <!-- C31 -->
+				<pin index="112" name="" ></pin> <!-- C32 -->
+				<pin index="113" name="" ></pin> <!-- C33 -->
+				<pin index="114" name="" ></pin> <!-- C34 -->
+				<pin index="115" name="" ></pin> <!-- C35 -->
+				<pin index="116" name="" ></pin> <!-- C36 -->
+				<pin index="117" name="" ></pin> <!-- C37 -->
+				<pin index="118" name="" ></pin> <!-- C38 -->
+				<pin index="119" name="" ></pin> <!-- C39 -->
+				<pin index="120" name="" ></pin> <!-- C40 -->
+				<pin index="121" name="" ></pin> <!-- D1 -->
+				<pin index="122" name="" ></pin> <!-- D2 -->
+				<pin index="123" name="" ></pin> <!-- D3 -->
+				<pin index="124" name="" ></pin> <!-- D4 -->
+				<pin index="125" name="" ></pin> <!-- D5 -->
+				<pin index="126" name="" ></pin> <!-- D6 -->
+				<pin index="127" name="" ></pin> <!-- D7 -->
+				<pin index="128" name="csi_data_rxp1" ></pin> <!-- D8 -->
+				<pin index="129" name="csi_data_rxn1" ></pin> <!-- D9 -->
+				<pin index="130" name="" ></pin> <!-- D10 -->
+				<pin index="131" name="" ></pin> <!-- D11 -->
+				<pin index="132" name="" ></pin> <!-- D12 -->
+				<pin index="133" name="" ></pin> <!-- D13 -->
+				<pin index="134" name="" ></pin> <!-- D14 -->
+				<pin index="135" name="" ></pin> <!-- D15 -->
+				<pin index="136" name="" ></pin> <!-- D16 -->
+				<pin index="137" name="" ></pin> <!-- D17 -->
+				<pin index="138" name="" ></pin> <!-- D18 -->
+				<pin index="139" name="" ></pin> <!-- D19 -->
+				<pin index="140" name="dsi_clk_txp"></pin> <!-- D20 -->
+				<pin index="141" name="dsi_clk_txn" ></pin> <!-- D21 -->
+				<pin index="142" name="" ></pin> <!-- D22 -->
+				<pin index="143" name="" ></pin> <!-- D23 -->
+				<pin index="144" name="" ></pin> <!-- D24 -->
+				<pin index="145" name="" ></pin> <!-- D25 -->
+				<pin index="146" name="fmc_hpc0_la26_p" iostandard="HSUL_12_DCI" ></pin> <!-- D26 -->
+				<pin index="147" name="fmc_hpc0_la26_n" iostandard="HSUL_12_DCI" > </pin> <!-- D27 -->
+				<pin index="148" name="" ></pin> <!-- D28 -->
+				<pin index="149" name="" ></pin> <!-- D29 -->
+				<pin index="150" name="" ></pin> <!-- D30 -->
+				<pin index="151" name="" ></pin> <!-- D31 -->
+				<pin index="152" name="" ></pin> <!-- D32 -->
+				<pin index="153" name="" ></pin> <!-- D33 -->
+				<pin index="154" name="" ></pin> <!-- D34 -->
+				<pin index="155" name="" ></pin> <!-- D35 -->
+				<pin index="156" name="" ></pin> <!-- D36 -->
+				<pin index="157" name="" ></pin> <!-- D37 -->
+				<pin index="158" name="" ></pin> <!-- D38 -->
+				<pin index="159" name="" ></pin> <!-- D39 -->
+				<pin index="160" name="" ></pin> <!-- D40 -->
+				<pin index="161" name="" ></pin> <!-- E1 -->
+				<pin index="162" name="" ></pin> <!-- E2 -->
+				<pin index="163" name="" ></pin> <!-- E3 -->
+				<pin index="164" name="" ></pin> <!-- E4 -->
+				<pin index="165" name="" ></pin> <!-- E5 -->
+				<pin index="166" name="" ></pin> <!-- E6 -->
+				<pin index="167" name="" ></pin> <!-- E7 -->
+				<pin index="168" name="" ></pin> <!-- E8 -->
+				<pin index="169" name="" ></pin> <!-- E9 -->
+				<pin index="170" name="" ></pin> <!-- E10 -->
+				<pin index="171" name="" ></pin> <!-- E11 -->
+				<pin index="172" name="" ></pin> <!-- E12 -->
+				<pin index="173" name="" ></pin> <!-- E13 -->
+				<pin index="174" name="" ></pin> <!-- E14 -->
+				<pin index="175" name="" ></pin> <!-- E15 -->
+				<pin index="176" name="" ></pin> <!-- E16 -->
+				<pin index="177" name="" ></pin> <!-- E17 -->
+				<pin index="178" name="" ></pin> <!-- E18 -->
+				<pin index="179" name="" ></pin> <!-- E19 -->
+				<pin index="180" name="" ></pin> <!-- E20 -->
+				<pin index="181" name="" ></pin> <!-- E21 -->
+				<pin index="182" name="" ></pin> <!-- E22 -->
+				<pin index="183" name="" ></pin> <!-- E23 -->
+				<pin index="184" name="" ></pin> <!-- E24 -->
+				<pin index="185" name="" ></pin> <!-- E25 -->
+				<pin index="186" name="" ></pin> <!-- E26 -->
+				<pin index="187" name="" ></pin> <!-- E27 -->
+				<pin index="188" name="" ></pin> <!-- E28 -->
+				<pin index="189" name="" ></pin> <!-- E29 -->
+				<pin index="190" name="" ></pin> <!-- E30 -->
+				<pin index="191" name="" ></pin> <!-- E31 -->
+				<pin index="192" name="" ></pin> <!-- E32 -->
+				<pin index="193" name="" ></pin> <!-- E33 -->
+				<pin index="194" name="" ></pin> <!-- E34 -->
+				<pin index="195" name="" ></pin> <!-- E35 -->
+				<pin index="196" name="" ></pin> <!-- E36 -->
+				<pin index="197" name="" ></pin> <!-- E37 -->
+				<pin index="198" name="" ></pin> <!-- E38 -->
+				<pin index="199" name="" ></pin> <!-- E39 -->
+				<pin index="200" name="" ></pin> <!-- E40 -->
+				<pin index="201" name="" ></pin> <!-- F1 -->
+				<pin index="202" name="" ></pin> <!-- F2 -->
+				<pin index="203" name="" ></pin> <!-- F3 -->
+				<pin index="204" name="" ></pin> <!-- F4 -->
+				<pin index="205" name="" ></pin> <!-- F5 -->
+				<pin index="206" name="" ></pin> <!-- F6 -->
+				<pin index="207" name="" ></pin> <!-- F7 -->
+				<pin index="208" name="" ></pin> <!-- F8 -->
+				<pin index="209" name="" ></pin> <!-- F9 -->
+				<pin index="210" name="" ></pin> <!-- F10 -->
+				<pin index="211" name="" ></pin> <!-- F11 -->
+				<pin index="212" name="" ></pin> <!-- F12 -->
+				<pin index="213" name="" ></pin> <!-- F13 -->
+				<pin index="214" name="" ></pin> <!-- F14 -->
+				<pin index="215" name="" ></pin> <!-- F15 -->
+				<pin index="216" name="" ></pin> <!-- F16 -->
+				<pin index="217" name="" ></pin> <!-- F17 -->
+				<pin index="218" name="" ></pin> <!-- F18 -->
+				<pin index="219" name="" ></pin> <!-- F19 -->
+				<pin index="220" name="" ></pin> <!-- F20 -->
+				<pin index="221" name="" ></pin> <!-- F21 -->
+				<pin index="222" name="" ></pin> <!-- F22 -->
+				<pin index="223" name="" ></pin> <!-- F23 -->
+				<pin index="224" name="" ></pin> <!-- F24 -->
+				<pin index="225" name="" ></pin> <!-- F25 -->
+				<pin index="226" name="" ></pin> <!-- F26 -->
+				<pin index="227" name="" ></pin> <!-- F27 -->
+				<pin index="228" name="" ></pin> <!-- F28 -->
+				<pin index="229" name="" ></pin> <!-- F29 -->
+				<pin index="230" name="" ></pin> <!-- F30 -->
+				<pin index="231" name="" ></pin> <!-- F31 -->
+				<pin index="232" name="" ></pin> <!-- F32 -->
+				<pin index="233" name="" ></pin> <!-- F33 -->
+				<pin index="234" name="" ></pin> <!-- F34 -->
+				<pin index="235" name="" ></pin> <!-- F35 -->
+				<pin index="236" name="" ></pin> <!-- F36 -->
+				<pin index="237" name="" ></pin> <!-- F37 -->
+				<pin index="238" name="" ></pin> <!-- F38 -->
+				<pin index="239" name="" ></pin> <!-- F39 -->
+				<pin index="240" name="" ></pin> <!-- F40 -->
+				<pin index="241" name="" ></pin> <!-- G1 -->
+				<pin index="242" name="" ></pin> <!-- G2 -->
+				<pin index="243" name="" ></pin> <!-- G3 -->
+				<pin index="244" name="" ></pin> <!-- G4 -->
+				<pin index="245" name="" ></pin> <!-- G5 -->
+				<pin index="246" name="csi_clk_rxp" ></pin> <!-- G6 -->
+				<pin index="247" name="csi_clk_rxn" ></pin> <!-- G7 -->
+				<pin index="248" name="" ></pin> <!-- G8 -->
+				<pin index="249" name="" ></pin> <!-- G9 -->
+				<pin index="250" name="" ></pin> <!-- G10 -->
+				<pin index="251" name="" ></pin> <!-- G11 -->
+				<pin index="252" name="csi_data_rxp2" ></pin> <!-- G12 -->
+				<pin index="253" name="csi_data_rxn2" ></pin> <!-- G13 -->
+				<pin index="254" name="" ></pin> <!-- G14 -->
+				<pin index="255" name="" ></pin> <!-- G15 -->
+				<pin index="256" name="" ></pin> <!-- G16 -->
+				<pin index="257" name="" ></pin> <!-- G17 -->
+				<pin index="258" name="" ></pin> <!-- G18 -->
+				<pin index="259" name="fmc_hpc0_la16_n"  iostandard="LVCMOS12" > </pin> <!-- G19 -->
+				<pin index="260" name="fmc_hpc0_la16_p" ></pin> <!-- G20 -->
+				<pin index="261" name="dsi_data_txp2" ></pin> <!-- G21 -->
+				<pin index="262" name="dsi_data_txn2" ></pin> <!-- G22 -->
+				<pin index="263" name="" ></pin> <!-- G23 -->
+				<pin index="264" name="" ></pin> <!-- G24 -->
+				<pin index="265" name="fmc_hpc0_la22_n" iostandard="LVCMOS12" ></pin> <!-- G25 -->
+				<pin index="266" name="" ></pin> <!-- G26 -->
+				<pin index="267" name="" ></pin> <!-- G27 -->
+				<pin index="268" name="" ></pin> <!-- G28 -->
+				<pin index="269" name="" ></pin> <!-- G29 -->
+				<pin index="270" name="" ></pin> <!-- G30 -->
+				<pin index="271" name="" ></pin> <!-- G31 -->
+				<pin index="272" name="" ></pin> <!-- G32 -->
+				<pin index="273" name="" ></pin> <!-- G33 -->
+				<pin index="274" name="" ></pin> <!-- G34 -->
+				<pin index="275" name="" ></pin> <!-- G35 -->
+				<pin index="276" name="" ></pin> <!-- G36 -->
+				<pin index="277" name="" ></pin> <!-- G37 -->
+				<pin index="278" name="" ></pin> <!-- G38 -->
+				<pin index="279" name="" ></pin> <!-- G39 -->
+				<pin index="280" name="" ></pin> <!-- G40 -->
+				<pin index="281" name="" ></pin> <!-- H1 -->
+				<pin index="282" name="" ></pin> <!-- H2 -->
+				<pin index="283" name="" ></pin> <!-- H3 -->
+				<pin index="284" name="" ></pin> <!-- H4 -->
+				<pin index="285" name="" ></pin> <!-- H5 -->
+				<pin index="286" name="" ></pin> <!-- H6 -->
+				<pin index="287" name="" ></pin> <!-- H7 -->
+				<pin index="288" name="" ></pin> <!-- H8 -->
+				<pin index="289" name="" ></pin> <!-- H9 -->
+				<pin index="290" name="" ></pin> <!-- H10 -->
+				<pin index="291" name="" ></pin> <!-- H11 -->
+				<pin index="292" name="" ></pin> <!-- H12 -->
+				<pin index="293" name="csi_data_rxp3" ></pin> <!-- H13 -->
+				<pin index="294" name="csi_data_rxn3" ></pin> <!-- H14 -->
+				<pin index="295" name="" ></pin> <!-- H15 -->
+				<pin index="296" name="" ></pin> <!-- H16 -->
+				<pin index="297" name="" ></pin> <!-- H17 -->
+				<pin index="298" name="" ></pin> <!-- H18 -->
+				<pin index="299" name="" ></pin> <!-- H19 -->
+				<pin index="300" name="" ></pin> <!-- H20 -->
+				<pin index="301" name="" ></pin> <!-- H21 -->
+				<pin index="302" name="dsi_data_txp1" ></pin> <!-- H22 -->
+				<pin index="303" name="dsi_data_txn1" ></pin> <!-- H23 -->
+				<pin index="304" name="" ></pin> <!-- H24 -->
+				<pin index="305" name="dsi_data_txp3" ></pin> <!-- H25 -->
+				<pin index="306" name="dsi_data_txn3" ></pin> <!-- H26 -->
+				<pin index="307" name="" ></pin> <!-- H27 -->
+				<pin index="308" name="fmc_hpc0_la24_p" iostandard="LVCMOS12" ></pin> <!-- H28 -->
+				<pin index="309" name="fmc_hpc0_la24_n" iostandard="LVCMOS12"></pin> <!-- H29 -->
+				<pin index="310" name="" ></pin> <!-- H30 -->
+				<pin index="311" name="" ></pin> <!-- H31 -->
+				<pin index="312" name="" ></pin> <!-- H32 -->
+				<pin index="313" name="" ></pin> <!-- H33 -->
+				<pin index="314" name="" ></pin> <!-- H34 -->
+				<pin index="315" name="" ></pin> <!-- H35 -->
+				<pin index="316" name="" ></pin> <!-- H36 -->
+				<pin index="317" name="" ></pin> <!-- H37 -->
+				<pin index="318" name="" ></pin> <!-- H38 -->
+				<pin index="319" name="" ></pin> <!-- H39 -->
+				<pin index="320" name="" ></pin> <!-- H40 -->
+				<pin index="321" name="" ></pin> <!-- J1 -->
+				<pin index="322" name="" ></pin> <!-- J2 -->
+				<pin index="323" name="" ></pin> <!-- J3 -->
+				<pin index="324" name="" ></pin> <!-- J4 -->
+				<pin index="325" name="" ></pin> <!-- J5 -->
+				<pin index="326" name="" ></pin> <!-- J6 -->
+				<pin index="327" name="" ></pin> <!-- J7 -->
+				<pin index="328" name="" ></pin> <!-- J8 -->
+				<pin index="329" name="" ></pin> <!-- J9 -->
+				<pin index="330" name="" ></pin> <!-- J10 -->
+				<pin index="331" name="" ></pin> <!-- J11 -->
+				<pin index="332" name="" ></pin> <!-- J12 -->
+				<pin index="333" name="" ></pin> <!-- J13 -->
+				<pin index="334" name="" ></pin> <!-- J14 -->
+				<pin index="335" name="" ></pin> <!-- J15 -->
+				<pin index="336" name="" ></pin> <!-- J16 -->
+				<pin index="337" name="" ></pin> <!-- J17 -->
+				<pin index="338" name="" ></pin> <!-- J18 -->
+				<pin index="339" name="" ></pin> <!-- J19 -->
+				<pin index="340" name="" ></pin> <!-- J20 -->
+				<pin index="341" name="" ></pin> <!-- J21 -->
+				<pin index="342" name="" ></pin> <!-- J22 -->
+				<pin index="343" name="" ></pin> <!-- J23 -->
+				<pin index="344" name="" ></pin> <!-- J24 -->
+				<pin index="345" name="" ></pin> <!-- J25 -->
+				<pin index="346" name="" ></pin> <!-- J26 -->
+				<pin index="347" name="" ></pin> <!-- J27 -->
+				<pin index="348" name="" ></pin> <!-- J28 -->
+				<pin index="349" name="" ></pin> <!-- J29 -->
+				<pin index="350" name="" ></pin> <!-- J30 -->
+				<pin index="351" name="" ></pin> <!-- J31 -->
+				<pin index="352" name="" ></pin> <!-- J32 -->
+				<pin index="353" name="" ></pin> <!-- J33 -->
+				<pin index="354" name="" ></pin> <!-- J34 -->
+				<pin index="355" name="" ></pin> <!-- J35 -->
+				<pin index="356" name="" ></pin> <!-- J36 -->
+				<pin index="357" name="" ></pin> <!-- J37 -->
+				<pin index="358" name="" ></pin> <!-- J38 -->
+				<pin index="359" name="" ></pin> <!-- J39 -->
+				<pin index="360" name="" ></pin> <!-- J40 -->
+				<pin index="361" name="" ></pin> <!-- K1 -->
+				<pin index="362" name="" ></pin> <!-- K2 -->
+				<pin index="363" name="" ></pin> <!-- K3 -->
+				<pin index="364" name="" ></pin> <!-- K4 -->
+				<pin index="365" name="" ></pin> <!-- K5 -->
+				<pin index="366" name="" ></pin> <!-- K6 -->
+				<pin index="367" name="" ></pin> <!-- K7 -->
+				<pin index="368" name="" ></pin> <!-- K8 -->
+				<pin index="369" name="" ></pin> <!-- K9 -->
+				<pin index="370" name="" ></pin> <!-- K10 -->
+				<pin index="371" name="" ></pin> <!-- K11 -->
+				<pin index="372" name="" ></pin> <!-- K12 -->
+				<pin index="373" name="" ></pin> <!-- K13 -->
+				<pin index="374" name="" ></pin> <!-- K14 -->
+				<pin index="375" name="" ></pin> <!-- K15 -->
+				<pin index="376" name="" ></pin> <!-- K16 -->
+				<pin index="377" name="" ></pin> <!-- K17 -->
+				<pin index="378" name="" ></pin> <!-- K18 -->
+				<pin index="379" name="" ></pin> <!-- K19 -->
+				<pin index="380" name="" ></pin> <!-- K20 -->
+				<pin index="381" name="" ></pin> <!-- K21 -->
+				<pin index="382" name="" ></pin> <!-- K22 -->
+				<pin index="383" name="" ></pin> <!-- K23 -->
+				<pin index="384" name="" ></pin> <!-- K24 -->
+				<pin index="385" name="" ></pin> <!-- K25 -->
+				<pin index="386" name="" ></pin> <!-- K26 -->
+				<pin index="387" name="" ></pin> <!-- K27 -->
+				<pin index="388" name="" ></pin> <!-- K28 -->
+				<pin index="389" name="" ></pin> <!-- K29 -->
+				<pin index="390" name="" ></pin> <!-- K30 -->
+				<pin index="391" name="" ></pin> <!-- K31 -->
+				<pin index="392" name="" ></pin> <!-- K32 -->
+				<pin index="393" name="" ></pin> <!-- K33 -->
+				<pin index="394" name="" ></pin> <!-- K34 -->
+				<pin index="395" name="" ></pin> <!-- K35 -->
+				<pin index="396" name="" ></pin> <!-- K36 -->
+				<pin index="397" name="" ></pin> <!-- K37 -->
+				<pin index="398" name="" ></pin> <!-- K38 -->
+				<pin index="399" name="" ></pin> <!-- K39 -->
+				<pin index="400" name="" ></pin> <!-- K40 -->
+      </pins>
+      <interfaces>
+	<interface mode="slave" name="EV_CSI2Rx_l4" type="xilinx.com:interface:mipi_phy_rtl:1.0" of_component="rxcsi" preset_proc="rxcsi_presetl4">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="mipi_csi2_rx_subsystem" order="0"/>
+            <preferred_ip vendor="xilinx.com" library="ip" name="mipi_dphy" order="1"/>
+          </preferred_ips>
+			<port_maps>
+				<port_map logical_port="CLK_P" physical_port="clk_rxp" dir="in" >
+					<pin_maps>
+						<pin_map port_index="0" component_pin="csi_clk_rxp"/>
+					</pin_maps>
+				</port_map>
+				<port_map logical_port="CLK_N" physical_port="clk_rxn" dir="in" >
+					<pin_maps>
+						<pin_map port_index="0" component_pin="csi_clk_rxn"/>
+					</pin_maps>
+				</port_map>
+				<port_map logical_port="DATA_P" physical_port="data_rxp" dir="in" left="3" right="0">
+					<pin_maps>
+						<pin_map port_index="0" component_pin="csi_data_rxp0"/>
+						<pin_map port_index="1" component_pin="csi_data_rxp1"/>
+						<pin_map port_index="2" component_pin="csi_data_rxp2"/>
+						<pin_map port_index="3" component_pin="csi_data_rxp3"/>
+					</pin_maps>
+				</port_map>
+				<port_map logical_port="DATA_N" physical_port="data_rxn" dir="in" left="3" right="0">
+					<pin_maps>
+						<pin_map port_index="0" component_pin="csi_data_rxn0"/>
+						<pin_map port_index="1" component_pin="csi_data_rxn1"/>
+						<pin_map port_index="2" component_pin="csi_data_rxn2"/>
+						<pin_map port_index="3" component_pin="csi_data_rxn3"/>
+					</pin_maps>
+				</port_map>
+			</port_maps>
+        </interface>
+	<interface mode="slave" name="EV_CSI2Rx_l2" type="xilinx.com:interface:mipi_phy_rtl:1.0" of_component="rxcsi" preset_proc="rxcsi_presetl2">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="mipi_csi2_rx_subsystem" order="0"/>
+            <preferred_ip vendor="xilinx.com" library="ip" name="mipi_dphy" order="1"/>
+          </preferred_ips>
+			<port_maps>
+				<port_map logical_port="CLK_P" physical_port="clk_rxpx2" dir="in" >
+					<pin_maps>
+						<pin_map port_index="0" component_pin="csi_clk_rxp"/>
+					</pin_maps>
+				</port_map>
+				<port_map logical_port="CLK_N" physical_port="clk_rxnx2" dir="in" >
+					<pin_maps>
+						<pin_map port_index="0" component_pin="csi_clk_rxn"/>
+					</pin_maps>
+				</port_map>
+				<port_map logical_port="DATA_P" physical_port="data_rxpx2" dir="in" left="1" right="0">
+					<pin_maps>
+						<pin_map port_index="0" component_pin="csi_data_rxp0"/>
+						<pin_map port_index="1" component_pin="csi_data_rxp1"/>
+					</pin_maps>
+				</port_map>
+				<port_map logical_port="DATA_N" physical_port="data_rxnx2" dir="in" left="1" right="0">
+					<pin_maps>
+						<pin_map port_index="0" component_pin="csi_data_rxn0"/>
+						<pin_map port_index="1" component_pin="csi_data_rxn1"/>
+					</pin_maps>
+				</port_map>
+			</port_maps>
+        </interface>
+	<interface mode="master" name="EV_DSITx" type="xilinx.com:interface:mipi_phy_rtl:1.0" of_component="txdsi" preset_proc="txdsi_preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="mipi_dsi_tx_subsystem" order="0"/>
+            <preferred_ip vendor="xilinx.com" library="ip" name="mipi_dphy" order="1"/>
+          </preferred_ips>
+			<port_maps>
+				<port_map logical_port="CLK_P" physical_port="clk_txp" dir="out" >
+					<pin_maps>
+						<pin_map port_index="0" component_pin="dsi_clk_txp"/>
+					</pin_maps>
+				</port_map>
+				<port_map logical_port="CLK_N" physical_port="clk_txn" dir="out" >
+					<pin_maps>
+						<pin_map port_index="0" component_pin="dsi_clk_txn"/>
+					</pin_maps>
+				</port_map>
+				<port_map logical_port="DATA_P" physical_port="data_txp" dir="out" left="3" right="0">
+					<pin_maps>
+						<pin_map port_index="0" component_pin="dsi_data_txp0"/>
+						<pin_map port_index="1" component_pin="dsi_data_txp1"/>
+						<pin_map port_index="2" component_pin="dsi_data_txp2"/>
+						<pin_map port_index="3" component_pin="dsi_data_txp3"/>
+					</pin_maps>
+				</port_map>
+				<port_map logical_port="DATA_N" physical_port="data_txn" dir="out" left="3" right="0">
+					<pin_maps>
+						<pin_map port_index="0" component_pin="dsi_data_txn0"/>
+						<pin_map port_index="1" component_pin="dsi_data_txn1"/>
+						<pin_map port_index="2" component_pin="dsi_data_txn2"/>
+						<pin_map port_index="3" component_pin="dsi_data_txn3"/>
+					</pin_maps>
+				</port_map>
+			</port_maps>
+        </interface>
+		<interface name="CSI_IIC" mode="master" type="xilinx.com:interface:iic_rtl:1.0" of_component="mipi_csi2_iic" preset_proc="csi2_iic_preset">
+			<preferred_ips>
+				<preferred_ip vendor="xilinx.com" library="ip" name="axi_iic" order="0"/>
+			</preferred_ips>
+			<port_maps>
+				<port_map logical_port="SCL_I" physical_port="iic_scl_i" dir="inout" >
+					<pin_maps>
+						<pin_map port_index="0" component_pin="fmc_hpc0_la26_p"/>
+					</pin_maps>
+				</port_map>
+				<port_map logical_port="SCL_O" physical_port="iic_scl_o" dir="inout" >
+					<pin_maps>
+						<pin_map port_index="0" component_pin="fmc_hpc0_la26_p"/>
+					</pin_maps>
+				</port_map>
+				<port_map logical_port="SCL_T" physical_port="iic_scl_t" dir="inout" >
+					<pin_maps>
+						<pin_map port_index="0" component_pin="fmc_hpc0_la26_p"/>
+					</pin_maps>
+				</port_map>
+				<port_map logical_port="SDA_I" physical_port="iic_sda_i" dir="inout" >
+					<pin_maps>
+						<pin_map port_index="0" component_pin="fmc_hpc0_la26_n"/>
+					</pin_maps>
+				</port_map>
+				<port_map logical_port="SDA_O" physical_port="iic_sda_o" dir="inout" >
+					<pin_maps>
+						<pin_map port_index="0" component_pin="fmc_hpc0_la26_n"/>
+					</pin_maps>
+				</port_map>
+				<port_map logical_port="SDA_T" physical_port="iic_sda_t" dir="inout" >
+					<pin_maps>
+						<pin_map port_index="0" component_pin="fmc_hpc0_la26_n"/>
+					</pin_maps>
+				</port_map>
+			</port_maps>
+		</interface>
+		<interface name="DSI_GPIO" mode="master" type="xilinx.com:interface:gpio_rtl:1.0" of_component="mipi_dsi_gpio" preset_proc="dsi_gpio_preset">
+			<preferred_ips>
+				<preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+			</preferred_ips>
+			<port_maps>
+				<port_map logical_port="TRI_O" physical_port="csi2_gpio_io_o" dir="out" left="1" right="0">
+					<pin_maps>
+						<pin_map port_index="0" component_pin="fmc_hpc0_la24_p"/>
+						<pin_map port_index="1" component_pin="fmc_hpc0_la24_n"/>
+					</pin_maps>
+				</port_map>
+			</port_maps>
+		</interface>
+		<interface name="CSI_GPIO" mode="master" type="xilinx.com:interface:gpio_rtl:1.0" of_component="mipi_csi2_gpio" preset_proc="csi2_gpio_preset">
+			<preferred_ips>
+				<preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+			</preferred_ips>
+			<port_maps>
+				<port_map logical_port="TRI_O" physical_port="dsi_gpio_io_o" dir="out" left="2" right="0">
+					<pin_maps>
+						<pin_map port_index="0" component_pin="fmc_hpc0_la22_n"/>
+						<pin_map port_index="1" component_pin="fmc_hpc0_la27_p"/>
+						<pin_map port_index="2" component_pin="fmc_hpc0_la16_n"/>
+					</pin_maps>
+				</port_map>
+			</port_maps>
+		</interface>
+      </interfaces>
+    </component>
+  </components>
+  <connections>
+		<connection name="fmc_connector_chipscsi" component1="fmc_connector" component2="rxcsi">
+			<connection_map name="fmc_connector_chipscsi_1" c1_st_index="246" c1_end_index="247" c2_st_index="0" c2_end_index="1"/>
+			<connection_map name="fmc_connector_chipscsi_2" c1_st_index="94" c1_end_index="94" c2_st_index="2" c2_end_index="2"/>
+			<connection_map name="fmc_connector_chipscsi_3" c1_st_index="128" c1_end_index="128" c2_st_index="3" c2_end_index="3"/>
+			<connection_map name="fmc_connector_chipscsi_4" c1_st_index="252" c1_end_index="252" c2_st_index="4" c2_end_index="4"/>
+			<connection_map name="fmc_connector_chipscsi_5" c1_st_index="293" c1_end_index="293" c2_st_index="5" c2_end_index="5"/>
+			<connection_map name="fmc_connector_chipscsi_6" c1_st_index="95" c1_end_index="95" c2_st_index="6" c2_end_index="6"/>
+			<connection_map name="fmc_connector_chipscsi_7" c1_st_index="129" c1_end_index="129" c2_st_index="7" c2_end_index="7"/>
+			<connection_map name="fmc_connector_chipscsi_8" c1_st_index="253" c1_end_index="253" c2_st_index="8" c2_end_index="8"/>
+			<connection_map name="fmc_connector_chipscsi_9" c1_st_index="294" c1_end_index="294" c2_st_index="9" c2_end_index="9"/>
+		</connection>
+		<connection name="fmc_connector_chipsdsi" component1="fmc_connector" component2="txdsi">
+			<connection_map name="fmc_connector_chipsdsi_1" c1_st_index="140" c1_end_index="141" c2_st_index="0" c2_end_index="1"/>
+			<connection_map name="fmc_connector_chipsdsi_2" c1_st_index="102" c1_end_index="102" c2_st_index="2" c2_end_index="2"/>
+			<connection_map name="fmc_connector_chipsdsi_3" c1_st_index="302" c1_end_index="302" c2_st_index="3" c2_end_index="3"/>
+			<connection_map name="fmc_connector_chipsdsi_4" c1_st_index="261" c1_end_index="261" c2_st_index="4" c2_end_index="4"/>
+			<connection_map name="fmc_connector_chipsdsi_5" c1_st_index="305" c1_end_index="305" c2_st_index="5" c2_end_index="5"/>
+			<connection_map name="fmc_connector_chipsdsi_6" c1_st_index="103" c1_end_index="103" c2_st_index="6" c2_end_index="6"/>
+			<connection_map name="fmc_connector_chipsdsi_7" c1_st_index="303" c1_end_index="303" c2_st_index="7" c2_end_index="7"/>
+			<connection_map name="fmc_connector_chipsdsi_8" c1_st_index="262" c1_end_index="262" c2_st_index="8" c2_end_index="8"/>
+			<connection_map name="fmc_connector_chipsdsi_9" c1_st_index="306" c1_end_index="306" c2_st_index="9" c2_end_index="9"/>
+		</connection>
+		<connection name="fmc_connector_chipcsiic" component1="fmc_connector" component2="mipi_csi2_iic">
+			<connection_map name="fmc_connector_chipcsiiic_1" c1_st_index="146" c1_end_index="147" c2_st_index="0" c2_end_index="1"/>
+		</connection>
+		<!--
+		<connection name="fmc_connector_chipcsigpio" component1="fmc_connector" component2="mipi_csi2_gpio">
+			<connection_map name="fmc_connector_chipcsigpio_1" c1_st_index="106" c1_end_index="106" c2_st_index="0" c2_end_index="0"/>
+			<connection_map name="fmc_connector_chipcsigpio_2" c1_st_index="259" c1_end_index="259" c2_st_index="1" c2_end_index="1"/>
+			<connection_map name="fmc_connector_chipcsigpio_3" c1_st_index="265" c1_end_index="265" c2_st_index="2" c2_end_index="2"/>
+		</connection>
+		<connection name="fmc_connector_chipdsigpio" component1="fmc_connector" component2="mipi_dsi_gpio">
+			<connection_map name="fmc_connector_chipdsigpio_1" c1_st_index="308" c1_end_index="309" c2_st_index="0" c2_end_index="1"/>
+		</connection>
+		-->
+  </connections>
+</board>

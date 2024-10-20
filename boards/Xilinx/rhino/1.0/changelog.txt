@@ -1,0 +1,5 @@
+######### rhino change log ##############
+1.0 - 2024.2
+Initial rhino board file with cips and noc
+
+
