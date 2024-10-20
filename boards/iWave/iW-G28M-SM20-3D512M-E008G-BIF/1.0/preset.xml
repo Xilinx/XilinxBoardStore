@@ -2,8 +2,8 @@
 <!-- ********************************************************************** -->
 <!-- 				    iWave Systems Technologies 				            -->
 <!-- ********************************************************************** -->
-<!-- SOM Supported	: iW-PRFOZ-R2.0											-->
-<!-- Date Created	: 15Dec2021												-->
+<!-- SOM Supported	: iW-PRFOZ-R4.0											-->
+<!-- Date Created	: 16May2024												-->
 <!-- ********************************************************************** -->
 <ip_presets schema="1.0">
   
@@ -41,17 +41,17 @@
 				<user_parameter name="CONFIG.PCW_UIPARAM_DDR_BL" value="8"/>
 				<user_parameter name="CONFIG.PCW_UIPARAM_DDR_FREQ_MHZ" value="533.333333"/>
 				<user_parameter name="CONFIG.PCW_UIPARAM_DDR_HIGH_TEMP" value="Normal (0-85)"/>
-				<user_parameter name="CONFIG.PCW_UIPARAM_DDR_DRAM_WIDTH" value="32 Bits"/>
-				<user_parameter name="CONFIG.PCW_UIPARAM_DDR_DEVICE_CAPACITY" value="4096 MBits"/>
+				<user_parameter name="CONFIG.PCW_UIPARAM_DDR_DRAM_WIDTH" value="16 Bits"/>
+				<user_parameter name="CONFIG.PCW_UIPARAM_DDR_DEVICE_CAPACITY" value="2048 MBits"/>
 				<user_parameter name="CONFIG.PCW_UIPARAM_DDR_SPEED_BIN" value="DDR3_1066G"/>
 				<user_parameter name="CONFIG.PCW_UIPARAM_DDR_BANK_ADDR_COUNT" value="3"/>
 				<user_parameter name="CONFIG.PCW_UIPARAM_DDR_ROW_ADDR_COUNT" value="14"/>
 				<user_parameter name="CONFIG.PCW_UIPARAM_DDR_COL_ADDR_COUNT" value="10"/>
-				<user_parameter name="CONFIG.PCW_UIPARAM_DDR_CL" value="8"/>
+				<user_parameter name="CONFIG.PCW_UIPARAM_DDR_CL" value="7"/>
 				<user_parameter name="CONFIG.PCW_UIPARAM_DDR_CWL" value="6"/>
-				<user_parameter name="CONFIG.PCW_UIPARAM_DDR_T_RCD" value="15"/>
-				<user_parameter name="CONFIG.PCW_UIPARAM_DDR_T_RP" value="15"/>
-				<user_parameter name="CONFIG.PCW_UIPARAM_DDR_T_RC" value="52.5"/>
+				<user_parameter name="CONFIG.PCW_UIPARAM_DDR_T_RCD" value="7"/>
+				<user_parameter name="CONFIG.PCW_UIPARAM_DDR_T_RP" value="7"/>
+				<user_parameter name="CONFIG.PCW_UIPARAM_DDR_T_RC" value="50.625"/>
 				<user_parameter name="CONFIG.PCW_UIPARAM_DDR_T_RAS_MIN" value="37.5"/>
 				<user_parameter name="CONFIG.PCW_UIPARAM_DDR_T_FAW" value="50"/>
 				<user_parameter name="CONFIG.PCW_FPGA0_PERIPHERAL_FREQMHZ" value="100"/>
