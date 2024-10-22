@@ -57,7 +57,7 @@
                     </user_hier_parameter>
 
                     <user_parameter name="PMC_SD1_COHERENCY" value="0"/>
-                    <user_parameter name="PMC_SD1_DATA_TRANSFER_MODE" value="4Bit"/>
+                    <user_parameter name="PMC_SD1_DATA_TRANSFER_MODE" value="{4Bit autodir}"/>
 
                     <user_hier_parameter name="PMC_SD1_PERIPHERAL">
                         <user_parameter name="ENABLE" value="1"/>
@@ -245,7 +245,7 @@
                     </user_hier_parameter>
 
                     <user_parameter name="PMC_SD1_COHERENCY" value="0"/>
-                    <user_parameter name="PMC_SD1_DATA_TRANSFER_MODE" value="4Bit"/>
+                    <user_parameter name="PMC_SD1_DATA_TRANSFER_MODE" value="{4Bit autodir}"/>
 
                     <user_hier_parameter name="PMC_SD1_PERIPHERAL">
                         <user_parameter name="ENABLE" value="1"/>
