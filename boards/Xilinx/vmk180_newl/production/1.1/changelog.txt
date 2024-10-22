@@ -1,6 +1,4 @@
 ######### VMK180 change log ##############
-1.1 - 2024.2
-Corrected the SD1_DATA_TRANSFER_MODE format
 1.1 - 2023.1
 Corrected the format of PCIe reset pins for CIPS preset
 

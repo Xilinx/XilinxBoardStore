@@ -1,7 +1,4 @@
 ######### VCK190 SD Level Shifter change log ##############
-1.2 - 2024.2
-Corrected the SD1_DATA_TRANSFER_MODE format
-
 1.2 - 2024.1
 Updated CAN_FD configuration
 Added board flow support for PCIe interface (X1,X2,X4 and X8 mode)
