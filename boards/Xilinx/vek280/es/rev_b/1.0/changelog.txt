@@ -1,0 +1,7 @@
+######### VEK280 change log ##############
+1.0
+
+Initial support for VEK280 ES1 Rev B01 Evaluation Platform (2022.2_web)
+
+
+
