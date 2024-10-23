@@ -7472,11 +7472,11 @@
         "name": "vck190_newl",
         "display": "Versal VCK190 Evaluation Platform with New SD Level Shifter",
         "latest_revision": "1.2",
-        "commit_id": "683c1a2a3a788fffa93cc7d05fa827d58a2bdc11",
+        "commit_id": "96358ecef24b69cae658b0c44c0cb0f34c862a94",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "683c1a2a3a788fffa93cc7d05fa827d58a2bdc11",
+            "commit_id": "96358ecef24b69cae658b0c44c0cb0f34c862a94",
             "date": "20-10-2024:18:07:04",
             "history": "Added board Versal VCK190 Evaluation Platform with New SD Level Shifter v1.2"
           }
