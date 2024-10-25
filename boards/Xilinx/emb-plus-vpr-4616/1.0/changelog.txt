@@ -1,0 +1,5 @@
+######### emb-plus-vpr-4616 change log ##############
+1.0 - 2024.1
+Initial support for Embedded+ Sapphire VPR-4616 board
+
+

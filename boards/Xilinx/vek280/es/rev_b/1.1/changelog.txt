@@ -1,0 +1,9 @@
+######### VEK280 change log ##############
+1.1
+Added FPCP_HSPC connector support for MIPI Interface (2023.1)
+
+1.0
+Initial support for VEK280 ES1 Evaluation Platform (2022.2_web)
+
+
+
