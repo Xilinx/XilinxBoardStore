@@ -4125,25 +4125,6 @@
         "company": "iwavesystems.com"
       },
       {
-        "name": "iW-G28M-SM20-3D512M-E008G-BIE",
-        "display": "iW-G28M-SM20-3D512M-E008G-BIE",
-        "latest_revision": "2.0",
-        "commit_id": "4c25bc5d54e4b6c20b8fd099e9c5ade87035f331",
-        "revisions": [
-          {
-            "revision": "2.0",
-            "commit_id": "4c25bc5d54e4b6c20b8fd099e9c5ade87035f331",
-            "date": "10-01-2022:16:10:52",
-            "history": "Added board iW-G28M-SM20-3D512M-E008G-BIE v2.0"
-          }
-        ],
-        "config": {
-          "root": "boards/iWave/iw-g28m-sm20-3d512m-e008g-bie/1.0",
-          "metadata_file": "xitem.json"
-        },
-        "company": "iwavesystems.com"
-      },
-      {
         "name": "iW-G30M-C4EV-4E002G-E008G-LIA",
         "display": "iW-G30M-C4EV-4E002G-E008G-LIA",
         "latest_revision": "2.8",
@@ -7790,6 +7771,44 @@
           "metadata_file": "xitem.json"
         },
         "company": "opalkelly.com"
+      },
+      {
+        "name": "iW-G28M-SM20-3D512M-E008G-BIF",
+        "display": "iW-G28M-SM20-3D512M-E008G-BIF",
+        "latest_revision": "4.0",
+        "commit_id": "eec6042666a1e03f2be719074673b219eec921c1",
+        "revisions": [
+          {
+            "revision": "4.0",
+            "commit_id": "eec6042666a1e03f2be719074673b219eec921c1",
+            "date": "14-11-2024:10:36:37",
+            "history": "Added board iW-G28M-SM20-3D512M-E008G-BIF v4.0"
+          }
+        ],
+        "config": {
+          "root": "boards/iWave/iW-G28M-SM20-3D512M-E008G-BIF/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "iwavesystems.com"
+      },
+      {
+        "name": "iW-G30M-C7EV-4E008G-E008G-LIA",
+        "display": "iW-G30M-C7EV-4E008G-E008G-LIA",
+        "latest_revision": "2.I",
+        "commit_id": "eec6042666a1e03f2be719074673b219eec921c1",
+        "revisions": [
+          {
+            "revision": "2.I",
+            "commit_id": "eec6042666a1e03f2be719074673b219eec921c1",
+            "date": "14-11-2024:10:36:37",
+            "history": "Added board iW-G30M-C7EV-4E008G-E008G-LIA v2.I"
+          }
+        ],
+        "config": {
+          "root": "boards/iWave/iw-g30m-c7ev-4e008g-e008g-lia/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "iwavesystems.com"
       }
     ],
     "categories": [
