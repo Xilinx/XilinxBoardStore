@@ -8493,6 +8493,44 @@
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
+      },
+      {
+        "name": "k24_io_dk_carrier",
+        "display": "K24 Development Kit - SOM and Carrier Card",
+        "latest_revision": "1.0",
+        "commit_id": "a50837fe0de0bdd2d15c77bf0cccf0860e1e1b52",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "a50837fe0de0bdd2d15c77bf0cccf0860e1e1b52",
+            "date": "16-11-2024:08:34:35",
+            "history": "Added board K24 Development Kit - SOM and Carrier Card v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Avnet/k24_io_dk_carrier/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "Tria (an Avnet Company)"
+      },
+      {
+        "name": "k24_io_dk_som",
+        "display": "K24 Development Kit - SOM and Carrier Card",
+        "latest_revision": "1.0",
+        "commit_id": "a50837fe0de0bdd2d15c77bf0cccf0860e1e1b52",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "a50837fe0de0bdd2d15c77bf0cccf0860e1e1b52",
+            "date": "16-11-2024:08:34:35",
+            "history": "Added board K24 Development Kit - SOM and Carrier Card v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Avnet/k24_io_dk_som/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "Tria (an Avnet Company)"
       }
     ],
     "categories": [
