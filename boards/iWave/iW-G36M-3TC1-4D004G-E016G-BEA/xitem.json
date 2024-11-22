@@ -1,0 +1,36 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "iW-G36M-3TC1-4D004G-E016G-BEA", 
+          "display": "iW-G36M-3TC1-4D004G-E016G-BEA", 
+          "revision": "1.1", 
+          "description": "Zynq UltraScale+ MPSoC 3TC-1-E SOM, 4GB PS DDR4, 16GB eMMC Flash", 
+          "company": "iwavesystems.com", 
+          "company_display": "iWave Systems Technologies", 
+          "author": "iwavesystems.com", 
+          "contributors": [
+            {
+              "group": "iWave Systems Technologies", 
+              "url": "https://www.iwavesystems.com/"
+            }
+          ], 
+          "category": "System on Module", 
+          "website": "https://www.iwavesystems.com/zynq-zu5-zu4-zu3t-zu3-zu2-zu1-processor-and-system-on-modules/", 
+          "logo": "iW-G36-SOM.jpeg", 
+          "search-keywords": [
+            "iW-G36M-3TC1-4D004G-E016G-BEA", 
+            "iwavesystems.com", 
+			"board",
+			"iW-G36-SOM",
+            "System on Module",
+			"SOM"
+          ]
+        }
+      }
+    ]
+  }, 
+  "_major": 1, 
+  "_minor": 0
+}
