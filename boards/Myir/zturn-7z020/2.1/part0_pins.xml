@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
+################################################################################
+#
+#  MYiR Z-turn FPGA Pin Definition File
+#
+#  Sergiusz 'q3k' Bazański <q3k@q3k.org>
+#  Steffen 'stv0g' Vogel <stv0g@0l.de>
+#
+################################################################################-->
+
+<part_info part_name="xc7z020clg400-1">
+	<pins>
+		<pin index="0"  name="sws_4bits_tri_i_0" iostandard="LVCMOS33" loc="R19" /><!-- IO_B34_0   -->
+		<pin index="1"  name="sws_4bits_tri_i_1" iostandard="LVCMOS33" loc="T19" /><!-- IO_B34_25  -->
+		<pin index="2"  name="sws_4bits_tri_i_2" iostandard="LVCMOS33" loc="G14" /><!-- IO_B35_0   -->
+		<pin index="3"  name="sws_4bits_tri_i_3" iostandard="LVCMOS33" loc="J15" /><!-- IO_B35_25  -->
+		<pin index="4"  name="rgb_led_tri_o_0"   iostandard="LVCMOS33" loc="R14" /><!-- IO_B34_LN6 -->
+		<pin index="5"  name="rgb_led_tri_o_1"   iostandard="LVCMOS33" loc="Y16" /><!-- IO_B34_LP7 -->
+		<pin index="6"  name="rgb_led_tri_o_2"   iostandard="LVCMOS33" loc="Y17" /><!-- IO_B34_LN7 -->
+		<pin index="7"  name="buzzer_tri_o_0"    iostandard="LVCMOS33" loc="P18" /><!-- BP         -->
+	        <pin index="8"  name ="i2c0_scl_i"       iostandard="LVCMOS33" loc="P16" /><!-- I2C0_SCL   -->
+	        <pin index="9"  name ="i2c0_sda_i"       iostandard="LVCMOS33" loc="P15" /><!-- I2C0_SDA   -->
+		<pin index="10" name="mems_temp_intn"    iostandard="LVCMOS33" loc="N17" /><!-- MEMS_INTn  (wired-or for LM75 and Sil902x)-->
+		<pin index="11" name="hdmi_int"          iostandard="LVCMOS33" loc="W19" /><!-- HDMI_INT  -->
+	</pins>
+</part_info>
