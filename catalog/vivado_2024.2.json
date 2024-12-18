@@ -8474,6 +8474,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
+      },
+      {
+        "name": "vc707",
+        "display": "Virtex-7 VC707 Evaluation Platform",
+        "latest_revision": "1.5",
+        "commit_id": "1c34cc0fbad987b403ab5b164c22a27edae7871b",
+        "revisions": [
+          {
+            "revision": "1.5",
+            "commit_id": "1c34cc0fbad987b403ab5b164c22a27edae7871b",
+            "date": "18-12-2024:10:38:41",
+            "history": "Added board Virtex-7 VC707 Evaluation Platform v1.5"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vc707/1.5",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
       }
     ],
     "categories": [
