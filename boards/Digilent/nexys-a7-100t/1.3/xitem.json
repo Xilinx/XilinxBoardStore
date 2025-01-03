@@ -3,10 +3,10 @@
     "items": [
       {
         "infra": {
-          "name": "zedboard",
-          "display": "Zedboard",
-          "revision": "1.1",
-          "description": "ZedBoard Zynq Evaluation and Development Kit",
+          "name": "nexys-a7-100t",
+          "display": "Nexys A7-100T",
+          "revision": "1.3",
+          "description": "Nexys A7-100T",
           "company": "digilentinc.com",
           "company_display": "Digilent Inc",
           "author": "ArtVVB",
@@ -17,10 +17,9 @@
             }
           ],
           "category": "Single Part",
-          "website": "https://reference.digilentinc.com/reference/programmable-logic/zedboard/start",
-          "logo": "zed_board.jpg",
+          "website": "https://digilent.com/reference/programmable-logic/nexys-a7/start",
           "search-keywords": [
-            "zedboard",
+            "nexys-a7-100t",
             "digilentinc.com",
             "board",
             "Single Part"
