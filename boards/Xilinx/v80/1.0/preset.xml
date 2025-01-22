@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!-- Copyright (C) 2019, Xilinx Inc - All rights reserved
+ Licensed under the Apache License, Version 2.0 (the "License"). You may
+ not use this file except in compliance with the License. A copy of the
+ License is located at
+     http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ License for the specific language governing permissions and limitations
+ under the License. -->
+ 
+<ip_presets schema="1.0">
+ 
+	<ip_preset preset_proc_name="ps_pmc_fixed_io_preset">
+		<ip vendor="xilinx.com" library="ip" name="versal_cips" version="*" ip_interface="FIXED_IO">
+			<user_parameters>
+				<user_hier_parameter name="CONFIG.PS_PMC_CONFIG">
+
+					<user_hier_parameter name="PMC_MIO11">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="in"/>
+					</user_hier_parameter>
+					
+					<user_hier_parameter name="PMC_MIO12">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="out"/>
+					</user_hier_parameter>
+					
+					<user_hier_parameter name="PMC_MIO26">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="out"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PMC_MIO27">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="out"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PMC_MIO28">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="out"/>
+					</user_hier_parameter>
+
+					<user_hier_parameter name="PMC_MIO29">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="out"/>
+					</user_hier_parameter>
+
+					<user_hier_parameter name="PMC_MIO30">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="out"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PMC_MIO31">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="out"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PMC_MIO32">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="out"/>
+					</user_hier_parameter>
+					
+					<user_hier_parameter name="PMC_MIO33">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="in"/>
+					</user_hier_parameter>
+					
+					<user_hier_parameter name="PMC_MIO34">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="out"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PMC_MIO35">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="out"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PMC_MIO36">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="out"/>
+					</user_hier_parameter>
+					
+					<user_hier_parameter name="PMC_MIO37">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="in"/>
+					</user_hier_parameter>
+					
+					<user_hier_parameter name="PMC_MIO38">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="out"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PMC_MIO39">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="out"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PMC_MIO40">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="out"/>
+					</user_hier_parameter>
+					
+					<user_hier_parameter name="PMC_MIO41">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="in"/>
+					</user_hier_parameter>
+					
+					<user_hier_parameter name="PMC_MIO42">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="out"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PMC_MIO43">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="out"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PMC_MIO44">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="out"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PMC_MIO48">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="in"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PMC_MIO49">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="in"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PMC_MIO50">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="in"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PMC_MIO51">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="out"/>
+					</user_hier_parameter>
+					
+					<user_hier_parameter name="PS_MIO4">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="out"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PS_MIO5">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="in"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PS_MIO6">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="out"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PS_MIO7">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="out"/>
+					</user_hier_parameter>
+					
+					<user_hier_parameter name="PS_MIO10">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="in"/>
+					</user_hier_parameter>
+					
+					<user_hier_parameter name="PS_MIO11">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="in"/>
+					</user_hier_parameter>
+					
+					<user_hier_parameter name="PS_MIO13">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="out"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PS_MIO14">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="in"/>
+					</user_hier_parameter>
+					
+					<user_hier_parameter name="PS_MIO18">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="out"/>
+					</user_hier_parameter>
+					
+					<user_hier_parameter name="PS_MIO19">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="out"/>
+					</user_hier_parameter>
+					
+					<user_hier_parameter name="PS_MIO22">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="out"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PS_MIO23">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="out"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PS_MIO24">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="out"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PS_MIO25">
+						<user_parameter name="AUX_IO" value="0"/>
+						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="PULL" value="pullup"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+						<user_parameter name="DIRECTION" value="in"/>
+					</user_hier_parameter>
+					
+					<user_hier_parameter name="PMC_OSPI_PERIPHERAL">
+						<user_parameter name="ENABLE" value="1"/>
+						<user_hier_parameter name="IO">
+							<user_parameter name="PMC_MIO" value="0 .. 11"/>
+						</user_hier_parameter>
+						<user_parameter name="MODE" value="Single"/>
+					</user_hier_parameter>
+					
+					<user_hier_parameter name="PMC_SD0">
+						<user_parameter name="CD_ENABLE" value="0"/>
+						<user_parameter name="POW_ENABLE" value="0"/>
+						<user_parameter name="RESET_ENABLE" value="1"/>
+						<user_hier_parameter name="RESET_IO">
+							<user_parameter name="PMC_MIO" value="17"/>
+						</user_hier_parameter>
+						<user_parameter name="WP_ENABLE" value="0"/>
+					</user_hier_parameter>
+					<!-- <user_parameter name="PMC_SD0_COHERENCY" value="0"/> -->
+					<user_parameter name="PMC_SD0_DATA_TRANSFER_MODE" value="8Bit"/>
+					<user_hier_parameter name="PMC_SD0_PERIPHERAL">
+							<user_parameter name="ENABLE" value="1"/>
+						<user_hier_parameter name="IO">
+							<user_parameter name="PMC_MIO" value="13 .. 25"/>
+						</user_hier_parameter>
+					</user_hier_parameter>
+					<user_parameter name="PMC_SD0_SLOT_TYPE" value="eMMC"/>
+					
+					<user_hier_parameter name="PS_UART0_PERIPHERAL">
+						<user_parameter name="ENABLE" value="1"/>
+						<user_hier_parameter name="IO">
+							<user_parameter name="PS_MIO" value="8 .. 9"/>
+						</user_hier_parameter>
+					</user_hier_parameter>
+					
+					<user_hier_parameter name="PS_UART1_PERIPHERAL">
+						<user_parameter name="ENABLE" value="1"/>
+						<user_hier_parameter name="IO">
+							<user_parameter name="PS_MIO" value="20 .. 21"/>
+						</user_hier_parameter>
+					</user_hier_parameter>
+					
+					<user_hier_parameter name="PS_SPI0">
+						<user_parameter name="GRP_SS0_ENABLE" value="1"/>
+						<user_hier_parameter name="GRP_SS0_IO">
+							<user_parameter name="PS_MIO" value="15"/>
+						</user_hier_parameter>
+<!-- 						<user_hier_parameter name="GRP_SS1_IO">
+							<user_parameter name="PMC_MIO" value="14"/>
+						</user_hier_parameter>
+						<user_hier_parameter name="GRP_SS2_IO">
+							<user_parameter name="PMC_MIO" value="13"/>
+						</user_hier_parameter> -->
+						<user_parameter name="PERIPHERAL_ENABLE" value="1"/>
+						<user_hier_parameter name="PERIPHERAL_IO">
+							<user_parameter name="PS_MIO" value="12 .. 17"/>
+						</user_hier_parameter>
+					</user_hier_parameter>
+					
+					<user_hier_parameter name="PS_I2C0_PERIPHERAL">
+						<user_parameter name="ENABLE" value="1"/>
+						<user_hier_parameter name="IO">
+							<user_parameter name="PS_MIO" value="2 .. 3"/>
+						</user_hier_parameter>
+					</user_hier_parameter>
+					<user_hier_parameter name="PS_I2C1_PERIPHERAL">
+						<user_parameter name="ENABLE" value="1"/>
+						<user_hier_parameter name="IO">
+							<user_parameter name="PS_MIO" value="0 .. 1"/>
+						</user_hier_parameter>
+					</user_hier_parameter>
+					
+					<user_parameter name="PMC_REF_CLK_FREQMHZ" value="33.3333"/>
+					
+<!-- 				<user_parameter name="PS_GEN_IPI0_ENABLE" value="1"/>
+					<user_parameter name="PS_GEN_IPI0_MASTER" value="A72"/>
+					<user_parameter name="PS_GEN_IPI1_ENABLE" value="1"/>
+					<user_parameter name="PS_GEN_IPI2_ENABLE" value="1"/>
+					<user_parameter name="PS_GEN_IPI3_ENABLE" value="1"/> -->
+					<user_parameter name="PS_GEN_IPI3_MASTER" value="R5_0"/>
+					<user_parameter name="PS_GEN_IPI4_ENABLE" value="1"/>
+					<user_parameter name="PS_GEN_IPI4_MASTER" value="R5_0"/>
+					<user_parameter name="PS_GEN_IPI5_ENABLE" value="1"/>
+					<user_parameter name="PS_GEN_IPI5_MASTER" value="R5_1"/>
+					<user_parameter name="PS_GEN_IPI6_ENABLE" value="1"/>
+					<user_parameter name="PS_GEN_IPI6_MASTER" value="R5_1"/>
+					
+					<user_parameter name="PS_TTC0_PERIPHERAL_ENABLE" value="1"/>
+					<user_parameter name="PS_TTC1_PERIPHERAL_ENABLE" value="1"/>
+					<user_parameter name="PS_TTC2_PERIPHERAL_ENABLE" value="1"/>
+					<user_parameter name="PS_TTC3_PERIPHERAL_ENABLE" value="1"/>
+					
+					<user_hier_parameter name="PS_PCIE_RESET">
+						<user_parameter name="ENABLE" value="1"/>
+					</user_hier_parameter>
+		
+					<user_hier_parameter name="PS_PCIE_EP_RESET1_IO">
+						<user_parameter name="PMC_MIO" value="24"/>
+					</user_hier_parameter>
+		
+					<user_hier_parameter name="PS_PCIE_EP_RESET2_IO">
+						<user_parameter name="PMC_MIO" value="25"/>
+					</user_hier_parameter>
+					
+				</user_hier_parameter>
+			</user_parameters>
+		</ip>
+	</ip_preset>
+
+	<ip_preset preset_proc_name="sysclk0_preset">
+		<ip vendor="xilinx.com" library="ip" name="clk_wiz" ip_interface="CLK_IN1_D">
+			<user_parameters>
+				<user_parameter name="CONFIG.PRIM_IN_FREQ" value="200" />
+				<user_parameter name="CONFIG.PRIM_SOURCE" value="Differential_clock_capable_pin" />
+			</user_parameters>
+		</ip>
+		<ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+			<user_parameters>
+				<user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDS" />
+				<user_parameter name="CONFIG.C_SIZE" value="1" />
+			</user_parameters>
+		</ip>
+	</ip_preset>
+
+	<ip_preset preset_proc_name="ddr4_c0_preset"> 
+		<ip vendor="xilinx.com" library="ip" name="axi_noc" version="*"> 
+			<user_parameters>
+				<user_parameter name="CONFIG.CONTROLLERTYPE" value="DDR4_SDRAM"/>
+				<user_parameter name="CONFIG.MC_COMPONENT_WIDTH" value="x16"/>			
+				<user_parameter name="CONFIG.MC_DATAWIDTH" value="72"/>				
+				<user_parameter name="CONFIG.MC_DM_WIDTH" value="9"/>				
+				<user_parameter name="CONFIG.MC_DQS_WIDTH" value="9"/>				
+				<user_parameter name="CONFIG.MC_DQ_WIDTH" value="72"/>
+				<user_parameter name="CONFIG.MC_INPUTCLK0_PERIOD" value="5000"/>
+                <user_parameter name="CONFIG.MC_MEMORY_DEVICETYPE" value="Components"/>				
+				<user_parameter name="CONFIG.MC_MEMORY_SPEEDGRADE" value="DDR4-3200AA(22-22-22)"/>	
+				<user_parameter name="CONFIG.MC_NO_CHANNELS" value="Single"/>
+				<user_parameter name="CONFIG.MC_PARITY" value="false"/>
+                <user_parameter name="CONFIG.MC_RANK" value="1"/> 
+                <user_parameter name="CONFIG.MC_ROWADDRESSWIDTH" value="16"/>		
+				<user_parameter name="CONFIG.MC_STACKHEIGHT" value="1"/>
+				<user_parameter name="CONFIG.MC_SYSTEM_CLOCK" value="Differential"/>
+		   </user_parameters>
+		</ip>
+	</ip_preset>  
+	
+		<ip_preset preset_proc_name="ddr4_c1_preset"> 
+		<ip vendor="xilinx.com" library="ip" name="axi_noc" version="*"> 
+			<user_parameters>
+				<user_parameter name="CONFIG.CONTROLLERTYPE" value="DDR4_SDRAM"/>
+				<user_parameter name="CONFIG.MC0_CONFIG_NUM" value="config21"/>			
+				<user_parameter name="CONFIG.MC0_FLIPPED_PINOUT" value="false"/>				  
+				<user_parameter name="CONFIG.MC_COMPONENT_WIDTH" value="x4"/>
+				<user_parameter name="CONFIG.MC_DATAWIDTH" value="72"/>
+				<!-- <user_parameter name="CONFIG.MC_INIT_MEM_USING_ECC_SCRUB" value="true"/> -->
+				<user_parameter name="CONFIG.MC_INPUTCLK0_PERIOD" value="5000"/>
+                <user_parameter name="CONFIG.MC_MEMORY_DEVICETYPE" value="RDIMMs"/>				
+				<user_parameter name="CONFIG.MC_MEMORY_SPEEDGRADE" value="DDR4-3200AA(22-22-22)"/>
+				<user_parameter name="CONFIG.MC_NO_CHANNELS" value="Single"/>  				
+				<user_parameter name="CONFIG.MC_PARITY" value="true"/>
+				<user_parameter name="CONFIG.MC_RANK" value="1"/>
+                <user_parameter name="CONFIG.MC_ROWADDRESSWIDTH" value="18"/>				
+				<user_parameter name="CONFIG.MC_STACKHEIGHT" value="1"/>
+				<user_parameter name="CONFIG.MC_SYSTEM_CLOCK" value="Differential"/>
+		   </user_parameters>
+		</ip>
+	</ip_preset> 
+
+</ip_presets>
