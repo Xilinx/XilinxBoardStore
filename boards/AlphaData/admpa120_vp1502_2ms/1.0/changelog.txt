@@ -1,0 +1,4 @@
+######### ADM-PA120 change log ##############
+
+1.0 - Vivado 2022.x
+ADM-PA120/VP1502 Initial board support
