@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<ip_presets schema="1.0">
+
+  <ip_preset preset_proc_name="ps_pmc_fixed_io_preset">
+    <ip vendor="xilinx.com" library="ip" name="versal_cips" version="*" ip_interface="FIXED_IO">
+      <user_parameters>
+        <user_parameter name="CONFIG.PS_PMC_CONFIG" value="BOOT_MODE {Custom} PMC_BANK_0_IO_STANDARD {LVCMOS1.8} PMC_BANK_1_IO_STANDARD {LVCMOS1.8} PMC_QSPI_FBCLK {{ENABLE 0} {IO {PMC_MIO 6}}} PMC_QSPI_PERIPHERAL_DATA_MODE {x4} PMC_QSPI_PERIPHERAL_ENABLE {1} PMC_QSPI_PERIPHERAL_MODE {Dual Parallel} PMC_REF_CLK_FREQMHZ {33.333} PMC_SD1 {{CD_ENABLE 0} {CD_IO {PMC_MIO 28}} {POW_ENABLE 0} {POW_IO {PMC_MIO 12}} {RESET_ENABLE 0} {RESET_IO {PMC_MIO 12}} {WP_ENABLE 0} {WP_IO {PMC_MIO 1}}} PMC_SD1_PERIPHERAL {{CLK_100_SDR_OTAP_DLY 0x3} {CLK_200_SDR_OTAP_DLY 0x2} {CLK_50_DDR_ITAP_DLY 0x2A} {CLK_50_DDR_OTAP_DLY 0x3} {CLK_50_SDR_ITAP_DLY 0x25} {CLK_50_SDR_OTAP_DLY 0x4} {ENABLE 1} {IO {PMC_MIO 26 .. 36}}} PMC_SD1_SLOT_TYPE {SD 3.0 AUTODIR} PS_BANK_2_IO_STANDARD {LVCMOS3.3} PS_BANK_3_IO_STANDARD {LVCMOS3.3} PS_ENET0_MDIO {{ENABLE 1} {IO {PS_MIO 24 .. 25}}} PS_ENET0_PERIPHERAL {{ENABLE 1} {IO {PS_MIO 0 .. 11}}} PS_MIO12 {{AUX_IO 0} {DIRECTION in} {DRIVE_STRENGTH 8mA} {OUTPUT_DATA default} {PULL disable} {SCHMITT 0} {SLEW slow} {USAGE GPIO}} PS_MIO13 {{AUX_IO 0} {DIRECTION in} {DRIVE_STRENGTH 8mA} {OUTPUT_DATA default} {PULL disable} {SCHMITT 1} {SLEW slow} {USAGE GPIO}} PS_MIO14 {{AUX_IO 0} {DIRECTION in} {DRIVE_STRENGTH 8mA} {OUTPUT_DATA default} {PULL disable} {SCHMITT 1} {SLEW slow} {USAGE GPIO}} PS_MIO15 {{AUX_IO 0} {DIRECTION in} {DRIVE_STRENGTH 8mA} {OUTPUT_DATA default} {PULL disable} {SCHMITT 1} {SLEW slow} {USAGE GPIO}} PS_MIO16 {{AUX_IO 0} {DIRECTION in} {DRIVE_STRENGTH 8mA} {OUTPUT_DATA default} {PULL disable} {SCHMITT 1} {SLEW slow} {USAGE GPIO}} PS_MIO17 {{AUX_IO 0} {DIRECTION in} {DRIVE_STRENGTH 8mA} {OUTPUT_DATA default} {PULL disable} {SCHMITT 1} {SLEW slow} {USAGE GPIO}} PS_MIO18 {{AUX_IO 0} {DIRECTION in} {DRIVE_STRENGTH 8mA} {OUTPUT_DATA default} {PULL disable} {SCHMITT 1} {SLEW slow} {USAGE GPIO}} PS_MIO19 {{AUX_IO 0} {DIRECTION in} {DRIVE_STRENGTH 8mA} {OUTPUT_DATA default} {PULL disable} {SCHMITT 1} {SLEW slow} {USAGE GPIO}} PS_PCIE_EP_RESET1_IO {PMC_MIO 38} PS_PCIE_EP_RESET2_IO {PMC_MIO 39} PS_PCIE_RESET {{ENABLE 1}} PS_UART0_PERIPHERAL {{ENABLE 1} {IO {PMC_MIO 42 .. 43}}} PS_UART1_PERIPHERAL {{ENABLE 1} {IO {PMC_MIO 46 .. 47}}} PS_USB3_PERIPHERAL {{ENABLE 1} {IO {PMC_MIO 13 .. 25}}}" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="ps_pmc_fixed_io_linux_preset">
+    <ip vendor="xilinx.com" library="ip" name="versal_cips" version="*" ip_interface="FIXED_IO">
+      <user_parameters>
+        <user_parameter name="CONFIG.PS_PMC_CONFIG" value="BOOT_MODE {Custom} PMC_BANK_0_IO_STANDARD {LVCMOS1.8} PMC_BANK_1_IO_STANDARD {LVCMOS1.8} PMC_QSPI_FBCLK {{ENABLE 0} {IO {PMC_MIO 6}}} PMC_QSPI_PERIPHERAL_DATA_MODE {x4} PMC_QSPI_PERIPHERAL_ENABLE {1} PMC_QSPI_PERIPHERAL_MODE {Dual Parallel} PMC_REF_CLK_FREQMHZ {33.333} PMC_SD1 {{CD_ENABLE 0} {CD_IO {PMC_MIO 28}} {POW_ENABLE 0} {POW_IO {PMC_MIO 12}} {RESET_ENABLE 0} {RESET_IO {PMC_MIO 12}} {WP_ENABLE 0} {WP_IO {PMC_MIO 1}}} PMC_SD1_PERIPHERAL {{CLK_100_SDR_OTAP_DLY 0x3} {CLK_200_SDR_OTAP_DLY 0x2} {CLK_50_DDR_ITAP_DLY 0x2A} {CLK_50_DDR_OTAP_DLY 0x3} {CLK_50_SDR_ITAP_DLY 0x25} {CLK_50_SDR_OTAP_DLY 0x4} {ENABLE 1} {IO {PMC_MIO 26 .. 36}}} PMC_SD1_SLOT_TYPE {SD 3.0 AUTODIR} PMC_USE_PMC_NOC_AXI0 {1} PS_BANK_2_IO_STANDARD {LVCMOS3.3} PS_BANK_3_IO_STANDARD {LVCMOS3.3} PS_ENET0_MDIO {{ENABLE 1} {IO {PS_MIO 24 .. 25}}} PS_ENET0_PERIPHERAL {{ENABLE 1} {IO {PS_MIO 0 .. 11}}} PS_GEN_IPI0_ENABLE {1} PS_GEN_IPI0_MASTER {R5_0} PS_GEN_IPI1_ENABLE {1} PS_GEN_IPI1_MASTER {R5_1} PS_GEN_IPI2_ENABLE {1} PS_GEN_IPI3_ENABLE {1} PS_GEN_IPI4_ENABLE {1} PS_GEN_IPI5_ENABLE {1} PS_GEN_IPI6_ENABLE {1} PS_MIO12 {{AUX_IO 0} {DIRECTION in} {DRIVE_STRENGTH 8mA} {OUTPUT_DATA default} {PULL disable} {SCHMITT 0} {SLEW slow} {USAGE GPIO}} PS_MIO13 {{AUX_IO 0} {DIRECTION in} {DRIVE_STRENGTH 8mA} {OUTPUT_DATA default} {PULL disable} {SCHMITT 1} {SLEW slow} {USAGE GPIO}} PS_MIO14 {{AUX_IO 0} {DIRECTION in} {DRIVE_STRENGTH 8mA} {OUTPUT_DATA default} {PULL disable} {SCHMITT 1} {SLEW slow} {USAGE GPIO}} PS_MIO15 {{AUX_IO 0} {DIRECTION in} {DRIVE_STRENGTH 8mA} {OUTPUT_DATA default} {PULL disable} {SCHMITT 1} {SLEW slow} {USAGE GPIO}} PS_MIO16 {{AUX_IO 0} {DIRECTION in} {DRIVE_STRENGTH 8mA} {OUTPUT_DATA default} {PULL disable} {SCHMITT 1} {SLEW slow} {USAGE GPIO}} PS_MIO17 {{AUX_IO 0} {DIRECTION in} {DRIVE_STRENGTH 8mA} {OUTPUT_DATA default} {PULL disable} {SCHMITT 1} {SLEW slow} {USAGE GPIO}} PS_MIO18 {{AUX_IO 0} {DIRECTION in} {DRIVE_STRENGTH 8mA} {OUTPUT_DATA default} {PULL disable} {SCHMITT 1} {SLEW slow} {USAGE GPIO}} PS_MIO19 {{AUX_IO 0} {DIRECTION in} {DRIVE_STRENGTH 8mA} {OUTPUT_DATA default} {PULL disable} {SCHMITT 1} {SLEW slow} {USAGE GPIO}} PS_PCIE_EP_RESET1_IO {PMC_MIO 38} PS_PCIE_EP_RESET2_IO {PMC_MIO 39} PS_PCIE_RESET {{ENABLE 1}} PS_TTC0_PERIPHERAL_ENABLE {1} PS_TTC1_PERIPHERAL_ENABLE {1} PS_TTC2_PERIPHERAL_ENABLE {1} PS_TTC3_PERIPHERAL_ENABLE {1} PS_UART0_PERIPHERAL {{ENABLE 1} {IO {PMC_MIO 42 .. 43}}} PS_UART1_PERIPHERAL {{ENABLE 1} {IO {PMC_MIO 46 .. 47}}} PS_USB3_PERIPHERAL {{ENABLE 1} {IO {PMC_MIO 13 .. 25}}} PS_USE_FPD_CCI_NOC {1} PS_USE_NOC_LPD_AXI0 {1}" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="ps_pmc_fixed_io_linux_qspis_preset">
+    <ip vendor="xilinx.com" library="ip" name="versal_cips" version="*" ip_interface="FIXED_IO">
+      <user_parameters>
+        <user_parameter name="CONFIG.PS_PMC_CONFIG" value="BOOT_MODE {Custom} PMC_BANK_0_IO_STANDARD {LVCMOS1.8} PMC_BANK_1_IO_STANDARD {LVCMOS1.8} PMC_QSPI_FBCLK {{ENABLE 0} {IO {PMC_MIO 6}}} PMC_QSPI_PERIPHERAL_DATA_MODE {x4} PMC_QSPI_PERIPHERAL_ENABLE {1} PMC_QSPI_PERIPHERAL_MODE {Single} PMC_REF_CLK_FREQMHZ {33.333} PMC_SD1 {{CD_ENABLE 0} {CD_IO {PMC_MIO 28}} {POW_ENABLE 0} {POW_IO {PMC_MIO 12}} {RESET_ENABLE 0} {RESET_IO {PMC_MIO 12}} {WP_ENABLE 0} {WP_IO {PMC_MIO 1}}} PMC_SD1_PERIPHERAL {{CLK_100_SDR_OTAP_DLY 0x3} {CLK_200_SDR_OTAP_DLY 0x2} {CLK_50_DDR_ITAP_DLY 0x2A} {CLK_50_DDR_OTAP_DLY 0x3} {CLK_50_SDR_ITAP_DLY 0x25} {CLK_50_SDR_OTAP_DLY 0x4} {ENABLE 1} {IO {PMC_MIO 26 .. 36}}} PMC_SD1_SLOT_TYPE {SD 3.0 AUTODIR} PMC_USE_PMC_NOC_AXI0 {1} PS_BANK_2_IO_STANDARD {LVCMOS3.3} PS_BANK_3_IO_STANDARD {LVCMOS3.3} PS_ENET0_MDIO {{ENABLE 1} {IO {PS_MIO 24 .. 25}}} PS_ENET0_PERIPHERAL {{ENABLE 1} {IO {PS_MIO 0 .. 11}}} PS_GEN_IPI0_ENABLE {1} PS_GEN_IPI0_MASTER {R5_0} PS_GEN_IPI1_ENABLE {1} PS_GEN_IPI1_MASTER {R5_1} PS_GEN_IPI2_ENABLE {1} PS_GEN_IPI3_ENABLE {1} PS_GEN_IPI4_ENABLE {1} PS_GEN_IPI5_ENABLE {1} PS_GEN_IPI6_ENABLE {1} PS_MIO12 {{AUX_IO 0} {DIRECTION in} {DRIVE_STRENGTH 8mA} {OUTPUT_DATA default} {PULL disable} {SCHMITT 0} {SLEW slow} {USAGE GPIO}} PS_MIO13 {{AUX_IO 0} {DIRECTION in} {DRIVE_STRENGTH 8mA} {OUTPUT_DATA default} {PULL disable} {SCHMITT 1} {SLEW slow} {USAGE GPIO}} PS_MIO14 {{AUX_IO 0} {DIRECTION in} {DRIVE_STRENGTH 8mA} {OUTPUT_DATA default} {PULL disable} {SCHMITT 1} {SLEW slow} {USAGE GPIO}} PS_MIO15 {{AUX_IO 0} {DIRECTION in} {DRIVE_STRENGTH 8mA} {OUTPUT_DATA default} {PULL disable} {SCHMITT 1} {SLEW slow} {USAGE GPIO}} PS_MIO16 {{AUX_IO 0} {DIRECTION in} {DRIVE_STRENGTH 8mA} {OUTPUT_DATA default} {PULL disable} {SCHMITT 1} {SLEW slow} {USAGE GPIO}} PS_MIO17 {{AUX_IO 0} {DIRECTION in} {DRIVE_STRENGTH 8mA} {OUTPUT_DATA default} {PULL disable} {SCHMITT 1} {SLEW slow} {USAGE GPIO}} PS_MIO18 {{AUX_IO 0} {DIRECTION in} {DRIVE_STRENGTH 8mA} {OUTPUT_DATA default} {PULL disable} {SCHMITT 1} {SLEW slow} {USAGE GPIO}} PS_MIO19 {{AUX_IO 0} {DIRECTION in} {DRIVE_STRENGTH 8mA} {OUTPUT_DATA default} {PULL disable} {SCHMITT 1} {SLEW slow} {USAGE GPIO}} PS_PCIE_EP_RESET1_IO {PMC_MIO 38} PS_PCIE_EP_RESET2_IO {PMC_MIO 39} PS_PCIE_RESET {{ENABLE 1}} PS_TTC0_PERIPHERAL_ENABLE {1} PS_TTC1_PERIPHERAL_ENABLE {1} PS_TTC2_PERIPHERAL_ENABLE {1} PS_TTC3_PERIPHERAL_ENABLE {1} PS_UART0_PERIPHERAL {{ENABLE 1} {IO {PMC_MIO 42 .. 43}}} PS_UART1_PERIPHERAL {{ENABLE 1} {IO {PMC_MIO 46 .. 47}}} PS_USB3_PERIPHERAL {{ENABLE 1} {IO {PMC_MIO 13 .. 25}}} PS_USE_FPD_CCI_NOC {1} PS_USE_NOC_LPD_AXI0 {1}" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="ps_pmc_minimal_preset">
+    <ip vendor="xilinx.com" library="ip" name="versal_cips" version="*" ip_interface="FIXED_IO">
+      <user_parameters>
+        <user_parameter name="CONFIG.PS_PMC_CONFIG" value="BOOT_MODE {Custom} PMC_BANK_0_IO_STANDARD {LVCMOS1.8} PMC_BANK_1_IO_STANDARD {LVCMOS1.8} PMC_QSPI_FBCLK {{ENABLE 0} {IO {PMC_MIO 6}}} PMC_QSPI_PERIPHERAL_DATA_MODE {x4} PMC_QSPI_PERIPHERAL_ENABLE {1} PMC_QSPI_PERIPHERAL_MODE {Dual Parallel} PMC_REF_CLK_FREQMHZ {33.333} PMC_SD1 {{CD_ENABLE 0} {CD_IO {PMC_MIO 28}} {POW_ENABLE 0} {POW_IO {PMC_MIO 12}} {RESET_ENABLE 0} {RESET_IO {PMC_MIO 12}} {WP_ENABLE 0} {WP_IO {PMC_MIO 1}}} PMC_SD1_PERIPHERAL {{CLK_100_SDR_OTAP_DLY 0x3} {CLK_200_SDR_OTAP_DLY 0x2} {CLK_50_DDR_ITAP_DLY 0x2A} {CLK_50_DDR_OTAP_DLY 0x3} {CLK_50_SDR_ITAP_DLY 0x25} {CLK_50_SDR_OTAP_DLY 0x4} {ENABLE 1} {IO {PMC_MIO 26 .. 36}}} PMC_SD1_SLOT_TYPE {SD 3.0 AUTODIR} PS_BANK_2_IO_STANDARD {LVCMOS3.3} PS_BANK_3_IO_STANDARD {LVCMOS3.3} PS_UART0_PERIPHERAL {{ENABLE 1} {IO {PMC_MIO 42 .. 43}}} PS_UART1_PERIPHERAL {{ENABLE 1} {IO {PMC_MIO 46 .. 47}}}" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="lpddr4_c0c1c2_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_noc" version="*" ip_interface="CH0_LPDDR4_0">
+      <user_parameters>
+        <user_parameter name="CONFIG.CONTROLLERTYPE" value="LPDDR4_SDRAM"/>
+        <user_parameter name="CONFIG.MC_COMPONENT_DENSITY" value="16Gb"/>
+        <user_parameter name="CONFIG.MC_DATAWIDTH" value="32"/>
+        <user_parameter name="CONFIG.MC_INPUTCLK0_PERIOD" value="3335"/>
+        <user_parameter name="CONFIG.MC_LP4_PIN_EFFICIENT" value="false"/>
+        <user_parameter name="CONFIG.MC_MEMORY_SPEEDGRADE" value="LPDDR4-4267"/>
+        <user_parameter name="CONFIG.MC_MEMORY_TIMEPERIOD0" value="513"/>
+        <user_parameter name="CONFIG.MC_NO_CHANNELS" value="Dual"/>
+        <user_parameter name="CONFIG.MC_ROWADDRESSWIDTH" value="16"/>
+        <user_parameter name="CONFIG.MC0_FLIPPED_PINOUT" value="false"/>
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_noc" version="*" ip_interface="CH1_LPDDR4_0">
+      <user_parameters>
+        <user_parameter name="CONFIG.CONTROLLERTYPE" value="LPDDR4_SDRAM"/>
+        <user_parameter name="CONFIG.MC_COMPONENT_DENSITY" value="16Gb"/>
+        <user_parameter name="CONFIG.MC_DATAWIDTH" value="32"/>
+        <user_parameter name="CONFIG.MC_INPUTCLK0_PERIOD" value="3335"/>
+        <user_parameter name="CONFIG.MC_LP4_PIN_EFFICIENT" value="false"/>
+        <user_parameter name="CONFIG.MC_MEMORY_SPEEDGRADE" value="LPDDR4-4267"/>
+        <user_parameter name="CONFIG.MC_MEMORY_TIMEPERIOD0" value="513"/>
+        <user_parameter name="CONFIG.MC_NO_CHANNELS" value="Dual"/>
+        <user_parameter name="CONFIG.MC_ROWADDRESSWIDTH" value="16"/>
+        <user_parameter name="CONFIG.MC0_FLIPPED_PINOUT" value="false"/>
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_noc" version="*" ip_interface="CH0_LPDDR4_1">
+      <user_parameters>
+        <user_parameter name="CONFIG.CONTROLLERTYPE" value="LPDDR4_SDRAM"/>
+        <user_parameter name="CONFIG.MC_COMPONENT_DENSITY" value="16Gb"/>
+        <user_parameter name="CONFIG.MC_DATAWIDTH" value="32"/>
+        <user_parameter name="CONFIG.MC_INPUTCLK0_PERIOD" value="3335"/>
+        <user_parameter name="CONFIG.MC_LP4_PIN_EFFICIENT" value="false"/>
+        <user_parameter name="CONFIG.MC_MEMORY_SPEEDGRADE" value="LPDDR4-4267"/>
+        <user_parameter name="CONFIG.MC_MEMORY_TIMEPERIOD0" value="513"/>
+        <user_parameter name="CONFIG.MC_NO_CHANNELS" value="Dual"/>
+        <user_parameter name="CONFIG.MC_ROWADDRESSWIDTH" value="16"/>
+        <user_parameter name="CONFIG.MC1_FLIPPED_PINOUT" value="false"/>
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_noc" version="*" ip_interface="CH1_LPDDR4_1">
+      <user_parameters>
+        <user_parameter name="CONFIG.CONTROLLERTYPE" value="LPDDR4_SDRAM"/>
+        <user_parameter name="CONFIG.MC_COMPONENT_DENSITY" value="16Gb"/>
+        <user_parameter name="CONFIG.MC_DATAWIDTH" value="32"/>
+        <user_parameter name="CONFIG.MC_INPUTCLK0_PERIOD" value="3335"/>
+        <user_parameter name="CONFIG.MC_LP4_PIN_EFFICIENT" value="false"/>
+        <user_parameter name="CONFIG.MC_MEMORY_SPEEDGRADE" value="LPDDR4-4267"/>
+        <user_parameter name="CONFIG.MC_MEMORY_TIMEPERIOD0" value="513"/>
+        <user_parameter name="CONFIG.MC_NO_CHANNELS" value="Dual"/>
+        <user_parameter name="CONFIG.MC_ROWADDRESSWIDTH" value="16"/>
+        <user_parameter name="CONFIG.MC1_FLIPPED_PINOUT" value="false"/>
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_noc" version="*" ip_interface="CH0_LPDDR4_2">
+      <user_parameters>
+        <user_parameter name="CONFIG.CONTROLLERTYPE" value="LPDDR4_SDRAM"/>
+        <user_parameter name="CONFIG.MC_COMPONENT_DENSITY" value="16Gb"/>
+        <user_parameter name="CONFIG.MC_DATAWIDTH" value="32"/>
+        <user_parameter name="CONFIG.MC_INPUTCLK0_PERIOD" value="3335"/>
+        <user_parameter name="CONFIG.MC_LP4_PIN_EFFICIENT" value="false"/>
+        <user_parameter name="CONFIG.MC_MEMORY_SPEEDGRADE" value="LPDDR4-4267"/>
+        <user_parameter name="CONFIG.MC_MEMORY_TIMEPERIOD0" value="513"/>
+        <user_parameter name="CONFIG.MC_NO_CHANNELS" value="Dual"/>
+        <user_parameter name="CONFIG.MC_ROWADDRESSWIDTH" value="16"/>
+        <user_parameter name="CONFIG.MC2_FLIPPED_PINOUT" value="false"/>
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_noc" version="*" ip_interface="CH1_LPDDR4_2">
+      <user_parameters>
+        <user_parameter name="CONFIG.CONTROLLERTYPE" value="LPDDR4_SDRAM"/>
+        <user_parameter name="CONFIG.MC_COMPONENT_DENSITY" value="16Gb"/>
+        <user_parameter name="CONFIG.MC_DATAWIDTH" value="32"/>
+        <user_parameter name="CONFIG.MC_INPUTCLK0_PERIOD" value="3335"/>
+        <user_parameter name="CONFIG.MC_LP4_PIN_EFFICIENT" value="false"/>
+        <user_parameter name="CONFIG.MC_MEMORY_SPEEDGRADE" value="LPDDR4-4267"/>
+        <user_parameter name="CONFIG.MC_MEMORY_TIMEPERIOD0" value="513"/>
+        <user_parameter name="CONFIG.MC_NO_CHANNELS" value="Dual"/>
+        <user_parameter name="CONFIG.MC_ROWADDRESSWIDTH" value="16"/>
+        <user_parameter name="CONFIG.MC2_FLIPPED_PINOUT" value="false"/>
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_noc" version="*" ip_interface="CH0_LPDDR4_3">
+      <user_parameters>
+        <user_parameter name="CONFIG.CONTROLLERTYPE" value="LPDDR4_SDRAM"/>
+        <user_parameter name="CONFIG.MC_COMPONENT_DENSITY" value="16Gb"/>
+        <user_parameter name="CONFIG.MC_DATAWIDTH" value="32"/>
+        <user_parameter name="CONFIG.MC_INPUTCLK0_PERIOD" value="3335"/>
+        <user_parameter name="CONFIG.MC_LP4_PIN_EFFICIENT" value="false"/>
+        <user_parameter name="CONFIG.MC_MEMORY_SPEEDGRADE" value="LPDDR4-4267"/>
+        <user_parameter name="CONFIG.MC_MEMORY_TIMEPERIOD0" value="513"/>
+        <user_parameter name="CONFIG.MC_NO_CHANNELS" value="Dual"/>
+        <user_parameter name="CONFIG.MC_ROWADDRESSWIDTH" value="16"/>
+        <user_parameter name="CONFIG.MC3_FLIPPED_PINOUT" value="false"/>
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_noc" version="*" ip_interface="CH1_LPDDR4_3">
+      <user_parameters>
+        <user_parameter name="CONFIG.CONTROLLERTYPE" value="LPDDR4_SDRAM"/>
+        <user_parameter name="CONFIG.MC_COMPONENT_DENSITY" value="16Gb"/>
+        <user_parameter name="CONFIG.MC_DATAWIDTH" value="32"/>
+        <user_parameter name="CONFIG.MC_INPUTCLK0_PERIOD" value="3335"/>
+        <user_parameter name="CONFIG.MC_LP4_PIN_EFFICIENT" value="false"/>
+        <user_parameter name="CONFIG.MC_MEMORY_SPEEDGRADE" value="LPDDR4-4267"/>
+        <user_parameter name="CONFIG.MC_MEMORY_TIMEPERIOD0" value="513"/>
+        <user_parameter name="CONFIG.MC_NO_CHANNELS" value="Dual"/>
+        <user_parameter name="CONFIG.MC_ROWADDRESSWIDTH" value="16"/>
+        <user_parameter name="CONFIG.MC3_FLIPPED_PINOUT" value="false"/>
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="lpddr4_c3_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_noc" version="*" ip_interface="CH0_LPDDR4_0">
+      <user_parameters>
+        <user_parameter name="CONFIG.CONTROLLERTYPE" value="LPDDR4_SDRAM"/>
+        <user_parameter name="CONFIG.MC_COMPONENT_DENSITY" value="16Gb"/>
+        <user_parameter name="CONFIG.MC_DATAWIDTH" value="32"/>
+        <user_parameter name="CONFIG.MC_INPUTCLK0_PERIOD" value="3333"/>
+        <user_parameter name="CONFIG.MC_LP4_PIN_EFFICIENT" value="false"/>
+        <user_parameter name="CONFIG.MC_MEMORY_SPEEDGRADE" value="LPDDR4-4267"/>
+        <user_parameter name="CONFIG.MC_MEMORY_TIMEPERIOD0" value="625"/>
+        <user_parameter name="CONFIG.MC_NO_CHANNELS" value="Dual"/>
+        <user_parameter name="CONFIG.MC_ROWADDRESSWIDTH" value="16"/>
+        <user_parameter name="CONFIG.MC0_FLIPPED_PINOUT" value="true"/>
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_noc" version="*" ip_interface="CH1_LPDDR4_0">
+      <user_parameters>
+        <user_parameter name="CONFIG.CONTROLLERTYPE" value="LPDDR4_SDRAM"/>
+        <user_parameter name="CONFIG.MC_COMPONENT_DENSITY" value="16Gb"/>
+        <user_parameter name="CONFIG.MC_DATAWIDTH" value="32"/>
+        <user_parameter name="CONFIG.MC_INPUTCLK0_PERIOD" value="3333"/>
+        <user_parameter name="CONFIG.MC_LP4_PIN_EFFICIENT" value="false"/>
+        <user_parameter name="CONFIG.MC_MEMORY_SPEEDGRADE" value="LPDDR4-4267"/>
+        <user_parameter name="CONFIG.MC_MEMORY_TIMEPERIOD0" value="625"/>
+        <user_parameter name="CONFIG.MC_NO_CHANNELS" value="Dual"/>
+        <user_parameter name="CONFIG.MC_ROWADDRESSWIDTH" value="16"/>
+        <user_parameter name="CONFIG.MC0_FLIPPED_PINOUT" value="true"/>
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_noc" version="*" ip_interface="CH0_LPDDR4_1">
+      <user_parameters>
+        <user_parameter name="CONFIG.CONTROLLERTYPE" value="LPDDR4_SDRAM"/>
+        <user_parameter name="CONFIG.MC_COMPONENT_DENSITY" value="16Gb"/>
+        <user_parameter name="CONFIG.MC_DATAWIDTH" value="32"/>
+        <user_parameter name="CONFIG.MC_INPUTCLK0_PERIOD" value="3333"/>
+        <user_parameter name="CONFIG.MC_LP4_PIN_EFFICIENT" value="false"/>
+        <user_parameter name="CONFIG.MC_MEMORY_SPEEDGRADE" value="LPDDR4-4267"/>
+        <user_parameter name="CONFIG.MC_MEMORY_TIMEPERIOD0" value="625"/>
+        <user_parameter name="CONFIG.MC_NO_CHANNELS" value="Dual"/>
+        <user_parameter name="CONFIG.MC_ROWADDRESSWIDTH" value="16"/>
+        <user_parameter name="CONFIG.MC1_FLIPPED_PINOUT" value="true"/>
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_noc" version="*" ip_interface="CH1_LPDDR4_1">
+      <user_parameters>
+        <user_parameter name="CONFIG.CONTROLLERTYPE" value="LPDDR4_SDRAM"/>
+        <user_parameter name="CONFIG.MC_COMPONENT_DENSITY" value="16Gb"/>
+        <user_parameter name="CONFIG.MC_DATAWIDTH" value="32"/>
+        <user_parameter name="CONFIG.MC_INPUTCLK0_PERIOD" value="3333"/>
+        <user_parameter name="CONFIG.MC_LP4_PIN_EFFICIENT" value="false"/>
+        <user_parameter name="CONFIG.MC_MEMORY_SPEEDGRADE" value="LPDDR4-4267"/>
+        <user_parameter name="CONFIG.MC_MEMORY_TIMEPERIOD0" value="625"/>
+        <user_parameter name="CONFIG.MC_NO_CHANNELS" value="Dual"/>
+        <user_parameter name="CONFIG.MC_ROWADDRESSWIDTH" value="16"/>
+        <user_parameter name="CONFIG.MC1_FLIPPED_PINOUT" value="true"/>
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_noc" version="*" ip_interface="CH0_LPDDR4_2">
+      <user_parameters>
+        <user_parameter name="CONFIG.CONTROLLERTYPE" value="LPDDR4_SDRAM"/>
+        <user_parameter name="CONFIG.MC_COMPONENT_DENSITY" value="16Gb"/>
+        <user_parameter name="CONFIG.MC_DATAWIDTH" value="32"/>
+        <user_parameter name="CONFIG.MC_INPUTCLK0_PERIOD" value="3333"/>
+        <user_parameter name="CONFIG.MC_LP4_PIN_EFFICIENT" value="false"/>
+        <user_parameter name="CONFIG.MC_MEMORY_SPEEDGRADE" value="LPDDR4-4267"/>
+        <user_parameter name="CONFIG.MC_MEMORY_TIMEPERIOD0" value="625"/>
+        <user_parameter name="CONFIG.MC_NO_CHANNELS" value="Dual"/>
+        <user_parameter name="CONFIG.MC_ROWADDRESSWIDTH" value="16"/>
+        <user_parameter name="CONFIG.MC2_FLIPPED_PINOUT" value="true"/>
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_noc" version="*" ip_interface="CH1_LPDDR4_2">
+      <user_parameters>
+        <user_parameter name="CONFIG.CONTROLLERTYPE" value="LPDDR4_SDRAM"/>
+        <user_parameter name="CONFIG.MC_COMPONENT_DENSITY" value="16Gb"/>
+        <user_parameter name="CONFIG.MC_DATAWIDTH" value="32"/>
+        <user_parameter name="CONFIG.MC_INPUTCLK0_PERIOD" value="3333"/>
+        <user_parameter name="CONFIG.MC_LP4_PIN_EFFICIENT" value="false"/>
+        <user_parameter name="CONFIG.MC_MEMORY_SPEEDGRADE" value="LPDDR4-4267"/>
+        <user_parameter name="CONFIG.MC_MEMORY_TIMEPERIOD0" value="625"/>
+        <user_parameter name="CONFIG.MC_NO_CHANNELS" value="Dual"/>
+        <user_parameter name="CONFIG.MC_ROWADDRESSWIDTH" value="16"/>
+        <user_parameter name="CONFIG.MC2_FLIPPED_PINOUT" value="true"/>
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_noc" version="*" ip_interface="CH0_LPDDR4_3">
+      <user_parameters>
+        <user_parameter name="CONFIG.CONTROLLERTYPE" value="LPDDR4_SDRAM"/>
+        <user_parameter name="CONFIG.MC_COMPONENT_DENSITY" value="16Gb"/>
+        <user_parameter name="CONFIG.MC_DATAWIDTH" value="32"/>
+        <user_parameter name="CONFIG.MC_INPUTCLK0_PERIOD" value="3333"/>
+        <user_parameter name="CONFIG.MC_LP4_PIN_EFFICIENT" value="false"/>
+        <user_parameter name="CONFIG.MC_MEMORY_SPEEDGRADE" value="LPDDR4-4267"/>
+        <user_parameter name="CONFIG.MC_MEMORY_TIMEPERIOD0" value="625"/>
+        <user_parameter name="CONFIG.MC_NO_CHANNELS" value="Dual"/>
+        <user_parameter name="CONFIG.MC_ROWADDRESSWIDTH" value="16"/>
+        <user_parameter name="CONFIG.MC3_FLIPPED_PINOUT" value="true"/>
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_noc" version="*" ip_interface="CH1_LPDDR4_3">
+      <user_parameters>
+        <user_parameter name="CONFIG.CONTROLLERTYPE" value="LPDDR4_SDRAM"/>
+        <user_parameter name="CONFIG.MC_COMPONENT_DENSITY" value="16Gb"/>
+        <user_parameter name="CONFIG.MC_DATAWIDTH" value="32"/>
+        <user_parameter name="CONFIG.MC_INPUTCLK0_PERIOD" value="3333"/>
+        <user_parameter name="CONFIG.MC_LP4_PIN_EFFICIENT" value="false"/>
+        <user_parameter name="CONFIG.MC_MEMORY_SPEEDGRADE" value="LPDDR4-4267"/>
+        <user_parameter name="CONFIG.MC_MEMORY_TIMEPERIOD0" value="625"/>
+        <user_parameter name="CONFIG.MC_NO_CHANNELS" value="Dual"/>
+        <user_parameter name="CONFIG.MC_ROWADDRESSWIDTH" value="16"/>
+        <user_parameter name="CONFIG.MC3_FLIPPED_PINOUT" value="true"/>
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="sysclk0_preset">
+    <ip vendor="xilinx.com" library="ip" name="clk_wiz" ip_interface="CLK_IN1_D">
+      <user_parameters>
+        <user_parameter name="CONFIG.PRIM_IN_FREQ" value="300"/>
+        <user_parameter name="CONFIG.PRIM_SOURCE" value="Differential_clock_capable_pin"/>
+      </user_parameters>
+    </ip>
+
+    <ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDS" />
+        <user_parameter name="CONFIG.C_SIZE" value="1" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="sysclk1_preset">
+    <ip vendor="xilinx.com" library="ip" name="clk_wiz" ip_interface="CLK_IN1_D">
+      <user_parameters>
+        <user_parameter name="CONFIG.PRIM_IN_FREQ" value="300"/>
+        <user_parameter name="CONFIG.PRIM_SOURCE" value="Differential_clock_capable_pin"/>
+      </user_parameters>
+    </ip>
+
+    <ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDS" />
+        <user_parameter name="CONFIG.C_SIZE" value="1" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="sysclk2_preset">
+    <ip vendor="xilinx.com" library="ip" name="clk_wiz" ip_interface="CLK_IN1_D">
+      <user_parameters>
+        <user_parameter name="CONFIG.PRIM_IN_FREQ" value="300"/>
+        <user_parameter name="CONFIG.PRIM_SOURCE" value="Differential_clock_capable_pin"/>
+      </user_parameters>
+    </ip>
+
+    <ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDS" />
+        <user_parameter name="CONFIG.C_SIZE" value="1" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="sysclk3_preset">
+    <ip vendor="xilinx.com" library="ip" name="clk_wiz" ip_interface="CLK_IN1_D">
+      <user_parameters>
+        <user_parameter name="CONFIG.PRIM_IN_FREQ" value="300"/>
+        <user_parameter name="CONFIG.PRIM_SOURCE" value="Differential_clock_capable_pin"/>
+      </user_parameters>
+    </ip>
+
+    <ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDS" />
+        <user_parameter name="CONFIG.C_SIZE" value="1" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <!--
+  <ip_preset preset_proc_name="pcie_x16_gen4_preset">
+    <ip vendor="xilinx.com" library="ip" name="qdma">
+      <user_parameters>
+        <user_parameter name="CONFIG.pl_link_cap_max_link_speed" value="16.0_GT/s"/>
+        <user_parameter name="CONFIG.pl_link_cap_max_link_width" value="X16"/>
+      </user_parameters>
+    </ip>
+  </ip_preset>
+  !-->
+  
+  <ip_preset preset_proc_name="pcie_refclk_0_preset">
+    <ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDSGTE" />
+        <user_parameter name="CONFIG.C_SIZE" value="1" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="pcie_refclk_1_preset">
+    <ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDSGTE" />
+        <user_parameter name="CONFIG.C_SIZE" value="1" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="pcie_lcl_refclk_preset">
+    <ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDSGTE" />
+        <user_parameter name="CONFIG.C_SIZE" value="1" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+  
+  <ip_preset preset_proc_name="mgt_progclk_0_preset">
+    <ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDS_GTME5" />
+        <user_parameter name="CONFIG.C_SIZE" value="1" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="mgt_progclk_1_preset">
+    <ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDS_GTME5" />
+        <user_parameter name="CONFIG.C_SIZE" value="1" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="mgt_progclk_2_preset">
+    <ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDSGTE" />
+        <user_parameter name="CONFIG.C_SIZE" value="1" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="si5344_out0_preset">
+    <ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDS_GTME5" />
+        <user_parameter name="CONFIG.C_SIZE" value="1" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="si5344_out1_preset">
+    <ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDS_GTME5" />
+        <user_parameter name="CONFIG.C_SIZE" value="1" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="si5344_out2_preset">
+    <ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDSGTE" />
+        <user_parameter name="CONFIG.C_SIZE" value="1" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="si5402_out1_preset">
+    <ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDSGTE" />
+        <user_parameter name="CONFIG.C_SIZE" value="1" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="si5402_out2_preset">
+    <ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDSGTE" />
+        <user_parameter name="CONFIG.C_SIZE" value="1" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="si5402_out3_preset">
+    <ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDS_GTME5" />
+        <user_parameter name="CONFIG.C_SIZE" value="1" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="si5402_out4_preset">
+    <ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDS_GTME5" />
+        <user_parameter name="CONFIG.C_SIZE" value="1" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="si5402_out5_preset">
+    <ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDS" />
+        <user_parameter name="CONFIG.C_SIZE" value="1" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="si5402_out6_preset">
+    <ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDS_GTME5" />
+        <user_parameter name="CONFIG.C_SIZE" value="1" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="si5402_out7_preset">
+    <ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDS_GTME5" />
+        <user_parameter name="CONFIG.C_SIZE" value="1" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="si5402_in0_preset">
+    <ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_BUF_TYPE" value="OBUFDS" />
+        <user_parameter name="CONFIG.C_SIZE" value="1" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="si5402_in1_preset">
+    <ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_BUF_TYPE" value="OBUFDS" />
+        <user_parameter name="CONFIG.C_SIZE" value="1" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="si5402_in2_preset">
+    <ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_BUF_TYPE" value="OBUFDS" />
+        <user_parameter name="CONFIG.C_SIZE" value="1" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="itu_10mhz_preset">
+    <ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDS" />
+        <user_parameter name="CONFIG.C_SIZE" value="1" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="user_led_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_GPIO_WIDTH" value="6"/>
+        <user_parameter name="CONFIG.C_ALL_OUTPUTS" value="1"/>
+        <user_parameter name="CONFIG.C_ALL_INPUTS" value="0"/>
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_IS_DUAL" value="1"/>
+        <user_parameter name="CONFIG.C_GPIO2_WIDTH" value="6"/>
+        <user_parameter name="CONFIG.C_ALL_OUTPUTS_2" value="1"/>
+        <user_parameter name="CONFIG.C_ALL_INPUTS_2" value="0"/>
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="user_switch_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_GPIO_WIDTH" value="2"/>
+        <user_parameter name="CONFIG.C_ALL_OUTPUTS" value="0"/>
+        <user_parameter name="CONFIG.C_ALL_INPUTS" value="1"/>
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_IS_DUAL" value="1"/>
+        <user_parameter name="CONFIG.C_GPIO2_WIDTH" value="2"/>
+        <user_parameter name="CONFIG.C_ALL_OUTPUTS_2" value="0"/>
+        <user_parameter name="CONFIG.C_ALL_INPUTS_2" value="1"/>
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="spare_wp_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_GPIO_WIDTH" value="1"/>
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_IS_DUAL" value="1"/>
+        <user_parameter name="CONFIG.C_GPIO2_WIDTH" value="1"/>
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="board_monitoring_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_GPIO_WIDTH" value="1"/>
+        <user_parameter name="CONFIG.C_ALL_OUTPUTS" value="0"/>
+        <user_parameter name="CONFIG.C_ALL_INPUTS" value="1"/>
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_IS_DUAL" value="1"/>
+        <user_parameter name="CONFIG.C_GPIO2_WIDTH" value="1"/>
+        <user_parameter name="CONFIG.C_ALL_OUTPUTS_2" value="0"/>
+        <user_parameter name="CONFIG.C_ALL_INPUTS_2" value="1"/>
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="pmod_io_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_GPIO_WIDTH" value="8"/>
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_IS_DUAL" value="1"/>
+        <user_parameter name="CONFIG.C_GPIO2_WIDTH" value="8"/>
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="si5344_mgmt_in_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_ALL_INPUTS" value="1"/>
+        <user_parameter name="CONFIG.C_ALL_OUTPUTS" value="0"/>
+        <user_parameter name="CONFIG.C_GPIO_WIDTH" value="3"/>
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_IS_DUAL" value="1"/>
+        <user_parameter name="CONFIG.C_GPIO2_WIDTH" value="3"/>
+        <user_parameter name="CONFIG.C_ALL_INPUTS_2" value="1"/>
+        <user_parameter name="CONFIG.C_ALL_OUTPUTS_2" value="0"/>
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="si5344_mgmt_out_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_GPIO_WIDTH" value="1"/>
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_IS_DUAL" value="1"/>
+        <user_parameter name="CONFIG.C_GPIO2_WIDTH" value="1"/>
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="si5402_mgmt_out_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_GPIO_WIDTH" value="1"/>
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_IS_DUAL" value="1"/>
+        <user_parameter name="CONFIG.C_GPIO2_WIDTH" value="1"/>
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="si5402_gpio_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_GPIO_WIDTH" value="3"/>
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_IS_DUAL" value="1"/>
+        <user_parameter name="CONFIG.C_GPIO2_WIDTH" value="3"/>
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="qsfp0_mgmt_out_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_ALL_INPUTS" value="0"/>
+        <user_parameter name="CONFIG.C_ALL_OUTPUTS" value="1"/>
+        <user_parameter name="CONFIG.C_GPIO2_WIDTH" value="2"/>
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_ALL_INPUTS_2" value="0"/>
+        <user_parameter name="CONFIG.C_ALL_OUTPUTS_2" value="1"/>
+        <user_parameter name="CONFIG.C_GPIO2_WIDTH" value="2"/>
+        <user_parameter name="CONFIG.C_IS_DUAL" value="1"/>
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="qsfp1_mgmt_out_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_ALL_INPUTS" value="0"/>
+        <user_parameter name="CONFIG.C_ALL_OUTPUTS" value="1"/>
+        <user_parameter name="CONFIG.C_GPIO2_WIDTH" value="2"/>
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_ALL_INPUTS_2" value="0"/>
+        <user_parameter name="CONFIG.C_ALL_OUTPUTS_2" value="1"/>
+        <user_parameter name="CONFIG.C_GPIO2_WIDTH" value="2"/>
+        <user_parameter name="CONFIG.C_IS_DUAL" value="1"/>
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="qsfp2_mgmt_out_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_ALL_INPUTS" value="0"/>
+        <user_parameter name="CONFIG.C_ALL_OUTPUTS" value="1"/>
+        <user_parameter name="CONFIG.C_GPIO2_WIDTH" value="2"/>
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_ALL_INPUTS_2" value="0"/>
+        <user_parameter name="CONFIG.C_ALL_OUTPUTS_2" value="1"/>
+        <user_parameter name="CONFIG.C_GPIO2_WIDTH" value="2"/>
+        <user_parameter name="CONFIG.C_IS_DUAL" value="1"/>
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+</ip_presets>
