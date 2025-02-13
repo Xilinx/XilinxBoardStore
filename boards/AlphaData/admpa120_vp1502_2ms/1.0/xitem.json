@@ -1,0 +1,34 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "admpa120_vp1502_2ms",
+          "display": "ADM-PA120/VP1502",
+          "revision": "1.0",
+          "description": "ADM-PA120 PCI Express Reconfigurable Computing Card (XCVP1502-2MS, Board Rev. 3+)",
+          "company": "alpha-data.com",
+          "company_display": "Alpha Data",
+          "author": "adps",
+          "contributors": [
+            {
+              "group": "Alpha Data",
+              "url": "www.alpha-data.com"
+            }
+          ],
+          "category": "Single Part",
+          "website": "https://www.alpha-data.com/product/adm-pa120/",
+          "logo": "admpa120_image.jpg",
+          "search-keywords": [
+            "admpa120_vp1502_2ms",
+            "alpha-data.com",
+            "board",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}
