@@ -8531,6 +8531,44 @@
           "metadata_file": "xitem.json"
         },
         "company": "Tria (an Avnet Company)"
+      },
+      {
+        "name": "admpa120_vp1202_2ms",
+        "display": "ADM-PA120",
+        "latest_revision": "1.0",
+        "commit_id": "af260885f72b38d6ca6e1893ff4ac0b1a9de62de",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "af260885f72b38d6ca6e1893ff4ac0b1a9de62de",
+            "date": "13-02-2025:14:27:02",
+            "history": "Added board ADM-PA120 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/AlphaData/admpa120_vp1202_2ms/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "alpha-data.com"
+      },
+      {
+        "name": "admpa120_vp1502_2ms",
+        "display": "ADM-PA120/VP1502",
+        "latest_revision": "1.0",
+        "commit_id": "af260885f72b38d6ca6e1893ff4ac0b1a9de62de",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "af260885f72b38d6ca6e1893ff4ac0b1a9de62de",
+            "date": "13-02-2025:14:27:02",
+            "history": "Added board ADM-PA120/VP1502 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/AlphaData/admpa120_vp1502_2ms/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "alpha-data.com"
       }
     ],
     "categories": [
