@@ -8360,6 +8360,44 @@
           "metadata_file": "xitem.json"
         },
         "company": "opalkelly.com"
+      },
+      {
+        "name": "admpa120_vp1202_2ms",
+        "display": "ADM-PA120",
+        "latest_revision": "1.0",
+        "commit_id": "0c7f793366a8a2de9095cba610e88c47a74cd1d7",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "0c7f793366a8a2de9095cba610e88c47a74cd1d7",
+            "date": "13-02-2025:14:22:50",
+            "history": "Added board ADM-PA120 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/AlphaData/admpa120_vp1202_2ms/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "alpha-data.com"
+      },
+      {
+        "name": "admpa120_vp1502_2ms",
+        "display": "ADM-PA120/VP1502",
+        "latest_revision": "1.0",
+        "commit_id": "0c7f793366a8a2de9095cba610e88c47a74cd1d7",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "0c7f793366a8a2de9095cba610e88c47a74cd1d7",
+            "date": "13-02-2025:14:22:50",
+            "history": "Added board ADM-PA120/VP1502 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/AlphaData/admpa120_vp1502_2ms/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "alpha-data.com"
       }
     ],
     "categories": [
