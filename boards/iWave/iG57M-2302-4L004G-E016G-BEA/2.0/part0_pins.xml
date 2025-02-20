@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--   ********************************************************************** -->
+<!--   				    iWave global			      -->
+<!--   ********************************************************************** -->
+<!--   SOM Supported	: iG-PRHRZ-R2.0					      -->
+<!--   Date Created  	: 10Feb2025					      -->
+<!--   ********************************************************************** -->
+<part_info part_name="xcve2302-sfva784-1LP-e-S">
+	<pins>
+<!--   **********************************************************************   -->
+<!--   				    		LPDDR4 CLOCK Pins 					            -->
+<!--   **********************************************************************   -->
+		<pin index="0" name="lpddr4_clk1_p" iostandard="DIFF_SSTL15" loc="N23"/>
+		<pin index="1" name="lpddr4_clk1_n" iostandard="DIFF_SSTL15" loc="N24"/>
+<!--   **********************************************************************   -->
+<!--   				    		LPDDR4 CH 0 Pins 					            -->
+<!--   **********************************************************************   -->
+		<!--   Data Bus   -->
+		<pin index="300" name="lpddr4_0_dq0"  loc="AC20"/>
+		<pin index="301" name="lpddr4_0_dq1"  loc="AB20"/>
+		<pin index="302" name="lpddr4_0_dq2"  loc="AC16"/>
+		<pin index="303" name="lpddr4_0_dq3"  loc="AB15"/>
+		<pin index="304" name="lpddr4_0_dq4"  loc="AB14"/>
+		<pin index="305" name="lpddr4_0_dq5"  loc="AC13"/>
+		<pin index="306" name="lpddr4_0_dq6"  loc="AC22"/>
+		<pin index="307" name="lpddr4_0_dq7"  loc="AB21"/>
+		<pin index="308" name="lpddr4_0_dq8"  loc="AD22"/>
+		<pin index="309" name="lpddr4_0_dq9"  loc="AE22"/>
+		<pin index="310" name="lpddr4_0_dq10" loc="AC14"/>
+		<pin index="311" name="lpddr4_0_dq11" loc="AD14"/>
+		<pin index="312" name="lpddr4_0_dq12" loc="AC17"/>
+		<pin index="313" name="lpddr4_0_dq13" loc="AD17"/>
+		<pin index="314" name="lpddr4_0_dq14" loc="AD20"/>
+		<pin index="315" name="lpddr4_0_dq15" loc="AD21"/>
+		<pin index="316" name="lpddr4_0_dq16" loc="AF18"/>
+		<pin index="317" name="lpddr4_0_dq17" loc="AG18"/>
+		<pin index="318" name="lpddr4_0_dq18" loc="AE19"/>
+		<pin index="319" name="lpddr4_0_dq19" loc="AF19"/>
+		<pin index="320" name="lpddr4_0_dq20" loc="AG13"/>
+		<pin index="321" name="lpddr4_0_dq21" loc="AF13"/>
+		<pin index="322" name="lpddr4_0_dq22" loc="AF14"/>
+		<pin index="323" name="lpddr4_0_dq23" loc="AG15"/>
+		<pin index="324" name="lpddr4_0_dq24" loc="AH15"/>
+		<pin index="325" name="lpddr4_0_dq25" loc="AH14"/>
+		<pin index="326" name="lpddr4_0_dq26" loc="AH22"/>
+		<pin index="327" name="lpddr4_0_dq27" loc="AG22"/>
+		<pin index="328" name="lpddr4_0_dq28" loc="AG21"/>
+		<pin index="329" name="lpddr4_0_dq29" loc="AH20"/>
+		<pin index="330" name="lpddr4_0_dq30" loc="AH17"/>
+		<pin index="331" name="lpddr4_0_dq31" loc="AH18"/>
+		<!--   Differential Data Strode   -->	
+		<pin index="332" name="lpddr4_0_dqs0_t" loc="AB18"/>
+		<pin index="333" name="lpddr4_0_dqs0_c" loc="AB17"/>
+		<pin index="334" name="lpddr4_0_dqs1_t" loc="AD12"/>
+		<pin index="335" name="lpddr4_0_dqs1_c" loc="AD11"/>
+		<pin index="336" name="lpddr4_0_dqs2_t" loc="AG17"/>
+		<pin index="337" name="lpddr4_0_dqs2_c" loc="AG16"/>
+		<pin index="338" name="lpddr4_0_dqs3_t" loc="AG20"/>
+		<pin index="339" name="lpddr4_0_dqs3_c" loc="AH19"/>
+		<!--   Address Bus   -->
+		<pin index="340" name="lpddr4_0_ca_a0" loc="AH12"/>
+		<pin index="341" name="lpddr4_0_ca_a1" loc="AE17"/>
+		<pin index="342" name="lpddr4_0_ca_a2" loc="AE14"/>
+		<pin index="343" name="lpddr4_0_ca_a3" loc="AD19"/>
+		<pin index="344" name="lpddr4_0_ca_a4" loc="AC11"/>
+		<pin index="345" name="lpddr4_0_ca_a5" loc="AE13"/>
+		
+		<pin index="346" name="lpddr4_0_ca_b0" loc="11" />
+		<pin index="347" name="lpddr4_0_ca_b1" loc="12" />
+		<pin index="348" name="lpddr4_0_ca_b2" loc="13" />
+		<pin index="349" name="lpddr4_0_ca_b3" loc="14" />
+		<pin index="350" name="lpddr4_0_ca_b4" loc="15" />
+		<pin index="351" name="lpddr4_0_ca_b5" loc="16" />
+		<!--  Chip Select   -->	
+		<pin index="352" name="lpddr4_0_cs_a0" loc="AG11"/>
+		<pin index="353" name="lpddr4_0_cs_a1" loc="17"  />
+		<pin index="354" name="lpddr4_0_cs_b0" loc="18"  />
+		<pin index="355" name="lpddr4_0_cs_b1" loc="19"  />
+		<!--  Differential Clock Input   -->	
+		<pin index="356" name="lpddr4_0_cka_t" loc="AD16" />
+		<pin index="357" name="lpddr4_0_ckb_t" loc="20"   />
+		<pin index="358" name="lpddr4_0_cka_c" loc="AD15" />
+		<pin index="359" name="lpddr4_0_ckb_c" loc="21"   />
+		<!--  Clock Enable   -->
+		<pin index="360" name="lpddr4_0_cke_a" loc="AE18" />
+		<pin index="361" name="lpddr4_0_cke_b" loc="22"   />
+		<!--  Data Mask   -->	
+		<pin index="362" name="lpddr4_0_dmi0" loc="AB12"/>
+		<pin index="363" name="lpddr4_0_dmi1" loc="AC19"/>
+		<pin index="364" name="lpddr4_0_dmi2" loc="AG12"/>
+		<pin index="365" name="lpddr4_0_dmi3" loc="AH13"/>
+		<!--  Reset   -->	
+		<pin index="366" name="lpddr4_0_reset_n" iostandard="LVCMOS15" loc="L25"/>
+		
+<!--   **********************************************************************   -->
+<!--   				    		LPDDR4 CH 1 Pins 					            -->
+<!--   **********************************************************************   -->
+		<!--   Data Bus   -->		
+		<pin index="367" name="lpddr4_1_dq0"  loc="AA21"/>
+		<pin index="368" name="lpddr4_1_dq1"  loc="V23" />
+		<pin index="369" name="lpddr4_1_dq2"  loc="V24" />
+		<pin index="370" name="lpddr4_1_dq3"  loc="Y22" />
+		<pin index="371" name="lpddr4_1_dq4"  loc="W24" />
+		<pin index="372" name="lpddr4_1_dq5"  loc="W25" />
+		<pin index="373" name="lpddr4_1_dq6"  loc="Y23" />
+		<pin index="374" name="lpddr4_1_dq7"  loc="AA22"/>
+		<pin index="375" name="lpddr4_1_dq8"  loc="AG23"/>
+		<pin index="376" name="lpddr4_1_dq9"  loc="AH23"/>
+		<pin index="377" name="lpddr4_1_dq10" loc="AH24"/>
+		<pin index="378" name="lpddr4_1_dq11" loc="AE24"/>
+		<pin index="379" name="lpddr4_1_dq12" loc="AH25"/>
+		<pin index="380" name="lpddr4_1_dq13" loc="AG25"/>
+		<pin index="381" name="lpddr4_1_dq14" loc="AF25"/>
+		<pin index="382" name="lpddr4_1_dq15" loc="AD25"/>
+		<pin index="383" name="lpddr4_1_dq16" loc="W27" />
+		<pin index="384" name="lpddr4_1_dq17" loc="W26" />
+		<pin index="385" name="lpddr4_1_dq18" loc="V25" />
+		<pin index="386" name="lpddr4_1_dq19" loc="Y26" />
+		<pin index="387" name="lpddr4_1_dq20" loc="AB26"/>
+		<pin index="388" name="lpddr4_1_dq21" loc="AB28"/>
+		<pin index="389" name="lpddr4_1_dq22" loc="AA26"/>
+		<pin index="390" name="lpddr4_1_dq23" loc="AA28"/>
+		<pin index="391" name="lpddr4_1_dq24" loc="AF26"/>
+		<pin index="392" name="lpddr4_1_dq25" loc="AG26"/>
+		<pin index="393" name="lpddr4_1_dq26" loc="AE26"/>
+		<pin index="394" name="lpddr4_1_dq27" loc="AD26"/>
+		<pin index="395" name="lpddr4_1_dq28" loc="AE27"/>
+		<pin index="396" name="lpddr4_1_dq29" loc="AG28"/>
+		<pin index="397" name="lpddr4_1_dq30" loc="AG27"/>
+		<pin index="398" name="lpddr4_1_dq31" loc="AH27"/>
+		<!--   Differential Data Strode   -->
+		<pin index="399" name="lpddr4_1_dqs0_t" loc="Y24" />
+		<pin index="400" name="lpddr4_1_dqs0_c" loc="AA23"/>
+		<pin index="401" name="lpddr4_1_dqs1_t" loc="AF24"/>
+		<pin index="402" name="lpddr4_1_dqs1_c" loc="AF23"/>
+		<pin index="403" name="lpddr4_1_dqs2_t" loc="V28" />
+		<pin index="404" name="lpddr4_1_dqs2_c" loc="V27" />
+		<pin index="405" name="lpddr4_1_dqs3_t" loc="AC28"/>
+		<pin index="406" name="lpddr4_1_dqs3_c" loc="AD27"/>
+		<!--   Address Bus   -->
+		<pin index="407" name="lpddr4_1_ca_a0" loc="AC27"/>
+		<pin index="408" name="lpddr4_1_ca_a1" loc="AF28"/>
+		<pin index="409" name="lpddr4_1_ca_a2" loc="AE23"/>
+		<pin index="410" name="lpddr4_1_ca_a3" loc="AC25"/>
+		<pin index="411" name="lpddr4_1_ca_a4" loc="W21" />
+		<pin index="412" name="lpddr4_1_ca_a5" loc="AC24"/>
+		
+		<pin index="413" name="lpddr4_1_ca_b0" loc="23" />
+		<pin index="414" name="lpddr4_1_ca_b1" loc="24" />
+		<pin index="415" name="lpddr4_1_ca_b2" loc="25" />
+		<pin index="416" name="lpddr4_1_ca_b3" loc="26" />
+		<pin index="417" name="lpddr4_1_ca_b4" loc="27" />
+		<pin index="418" name="lpddr4_1_ca_b5" loc="28" />
+		<!--  Chip Select   -->	
+		<pin index="419" name="lpddr4_1_cs_a0" loc="Y27" />
+		<pin index="420" name="lpddr4_1_cs_a1" loc="29" />
+		<pin index="421" name="lpddr4_1_cs_b0" loc="30" />
+		<pin index="422" name="lpddr4_1_cs_b1" loc="31" />
+		<!--  Differential Clock Input   -->
+		<pin index="423" name="lpddr4_1_cka_t" loc="AB23"/>
+		<pin index="424" name="lpddr4_1_ckb_t" loc="32"  />
+		<pin index="425" name="lpddr4_1_cka_c" loc="AC23"/>
+		<pin index="426" name="lpddr4_1_ckb_c" loc="33"  />
+		<!--  Clock Enable   -->
+		<pin index="427" name="lpddr4_1_cke_a" loc="AB27"/>
+		<pin index="428" name="lpddr4_1_cke_b" loc="34"  />
+		<!--  Data Mask   -->	
+		<pin index="429" name="lpddr4_1_dmi0" loc="V22" />
+		<pin index="430" name="lpddr4_1_dmi1" loc="AD24"/>
+		<pin index="431" name="lpddr4_1_dmi2" loc="Y28" />
+		<pin index="432" name="lpddr4_1_dmi3" loc="AE28"/>
+		 <!--  Reset   -->	
+		<pin index="433" name="lpddr4_1_reset_n" iostandard="LVCMOS15" loc="L24" />
+	</pins>
+</part_info>
