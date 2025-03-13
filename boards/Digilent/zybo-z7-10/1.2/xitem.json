@@ -3,10 +3,10 @@
     "items": [
       {
         "infra": {
-          "name": "zedboard",
-          "display": "Zedboard",
-          "revision": "1.1",
-          "description": "ZedBoard Zynq Evaluation and Development Kit",
+          "name": "zybo-z7-10",
+          "display": "Zybo Z7-10",
+          "revision": "1.2",
+          "description": "Zybo Z7-10",
           "company": "digilentinc.com",
           "company_display": "Digilent Inc",
           "author": "ArtVVB",
@@ -17,10 +17,9 @@
             }
           ],
           "category": "Single Part",
-          "website": "https://reference.digilentinc.com/reference/programmable-logic/zedboard/start",
-          "logo": "zed_board.jpg",
+          "website": "https://digilent.com/reference/programmable-logic/zybo-z7/start",
           "search-keywords": [
-            "zedboard",
+            "zybo-z7-10",
             "digilentinc.com",
             "board",
             "Single Part"

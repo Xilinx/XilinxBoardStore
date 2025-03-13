@@ -5,7 +5,7 @@
         "infra": {
           "name": "zedboard",
           "display": "Zedboard",
-          "revision": "1.1",
+          "revision": "1.0",
           "description": "ZedBoard Zynq Evaluation and Development Kit",
           "company": "digilentinc.com",
           "company_display": "Digilent Inc",
