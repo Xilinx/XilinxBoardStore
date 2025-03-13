@@ -5533,14 +5533,20 @@
       {
         "name": "zedboard",
         "display": "Zedboard",
-        "latest_revision": "1.0",
-        "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
+        "latest_revision": "1.1",
+        "commit_id": "5c45e8b5e77d5b47b8ca7588e769d0ac208994f0",
         "revisions": [
           {
             "revision": "1.0",
             "commit_id": "84f81746a640181dfd1d05c3f0f33a3d750e945e",
             "date": "08-03-2022:21:39:07",
             "history": "Added board Zedboard v1.0"
+          },
+          {
+            "revision": "1.1",
+            "commit_id": "5c45e8b5e77d5b47b8ca7588e769d0ac208994f0",
+            "date": "13-03-2025:16:51:21",
+            "history": "Added board Zedboard v1.1"
           }
         ],
         "config": {
@@ -6707,6 +6713,101 @@
           "metadata_file": "xitem.json"
         },
         "company": "alpha-data.com"
+      },
+      {
+        "name": "nexys-a7-100t",
+        "display": "Nexys A7-100T",
+        "latest_revision": "1.3",
+        "commit_id": "5c45e8b5e77d5b47b8ca7588e769d0ac208994f0",
+        "revisions": [
+          {
+            "revision": "1.3",
+            "commit_id": "5c45e8b5e77d5b47b8ca7588e769d0ac208994f0",
+            "date": "13-03-2025:16:51:21",
+            "history": "Added board Nexys A7-100T v1.3"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/nexys-a7-100t/1.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "nexys-a7-50t",
+        "display": "Nexys A7-50T",
+        "latest_revision": "1.3",
+        "commit_id": "5c45e8b5e77d5b47b8ca7588e769d0ac208994f0",
+        "revisions": [
+          {
+            "revision": "1.3",
+            "commit_id": "5c45e8b5e77d5b47b8ca7588e769d0ac208994f0",
+            "date": "13-03-2025:16:51:21",
+            "history": "Added board Nexys A7-50T v1.3"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/nexys-a7-50t/1.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "zedboard",
+        "display": "Zedboard",
+        "latest_revision": "1.0",
+        "commit_id": "5c45e8b5e77d5b47b8ca7588e769d0ac208994f0",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "5c45e8b5e77d5b47b8ca7588e769d0ac208994f0",
+            "date": "13-03-2025:16:51:21",
+            "history": "Added board Zedboard v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/zedboard/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "zybo-z7-10",
+        "display": "Zybo Z7-10",
+        "latest_revision": "1.2",
+        "commit_id": "5c45e8b5e77d5b47b8ca7588e769d0ac208994f0",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "5c45e8b5e77d5b47b8ca7588e769d0ac208994f0",
+            "date": "13-03-2025:16:51:21",
+            "history": "Added board Zybo Z7-10 v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/zybo-z7-10/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
+      },
+      {
+        "name": "zybo-z7-20",
+        "display": "Zybo Z7-20",
+        "latest_revision": "1.2",
+        "commit_id": "5c45e8b5e77d5b47b8ca7588e769d0ac208994f0",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "5c45e8b5e77d5b47b8ca7588e769d0ac208994f0",
+            "date": "13-03-2025:16:51:21",
+            "history": "Added board Zybo Z7-20 v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Digilent/zybo-z7-20/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "digilentinc.com"
       }
     ],
     "categories": [
