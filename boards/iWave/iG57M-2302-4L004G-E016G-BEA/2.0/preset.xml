@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--   ********************************************************************** -->
+<!--   				    iWave global			      -->
+<!--   ********************************************************************** -->
+<!--   SOM Supported	: iG-PRHRZ-R2.0					      -->
+<!--   Date Created  	: 10Feb2025					      -->
+<!--   ********************************************************************** -->
+<ip_presets schema="1.0">
+	<ip_preset preset_proc_name="ps_pmc_fixed_io_preset">
+		<ip vendor="xilinx.com" library="ip" name="versal_cips" version="*" ip_interface="FIXED_IO">
+			<user_parameters>
+				<user_hier_parameter name="CONFIG.PS_PMC_CONFIG">
+				
+					<user_hier_parameter name="PMC_MIO12">
+						<user_parameter name="AUX_IO" value="0"/>
+						<user_parameter name="DIRECTION" value="in"/>
+						<user_parameter name="DRIVE_STRENGTH" value="12mA"/>
+						<user_parameter name="OUTPUT_DATA" value="high"/> 
+						<user_parameter name="USAGE" value="GPIO"/>
+					</user_hier_parameter>
+
+					<user_hier_parameter name="PMC_MIO27">
+						<user_parameter name="AUX_IO" value="0"/>
+						<user_parameter name="DIRECTION" value="out"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+					</user_hier_parameter>
+					
+					<user_hier_parameter name="PMC_MIO39">
+						<user_parameter name="AUX_IO" value="0"/>
+						<user_parameter name="DIRECTION" value="in"/>
+						<user_parameter name="OUTPUT_DATA" value="high"/> 
+						<user_parameter name="DRIVE_STRENGTH" value="12mA"/>
+						<user_parameter name="USAGE" value="GPIO"/>
+					</user_hier_parameter>	
+					
+					<user_hier_parameter name="PMC_QSPI_FBCLK"> 
+						<user_parameter name="ENABLE" value="0"/> 
+						<user_hier_parameter name="IO"> 
+							<user_parameter name="PMC_MIO" value="6"/> 
+						</user_hier_parameter> 
+					</user_hier_parameter> 
+					<user_parameter name="PMC_QSPI_PERIPHERAL_DATA_MODE" value="x4"/> 
+					<user_parameter name="PMC_QSPI_PERIPHERAL_ENABLE" value="1"/> 
+					
+					<user_hier_parameter name="PMC_SD0">
+						<user_parameter name="CD_ENABLE" value="0"/>
+						<user_parameter name="POW_ENABLE" value="0"/>
+						<user_parameter name="WP_ENABLE" value="0"/>
+						<user_parameter name="RESET_ENABLE" value="1"/>
+						<user_hier_parameter name="IO">
+							<user_parameter name="PMC_MIO" value="49"/>
+						</user_hier_parameter>
+					</user_hier_parameter>
+					<user_parameter name="PMC_SD0_DATA_TRANSFER_MODE" value="8Bit"/> 
+					<user_hier_parameter name="PMC_SD0_PERIPHERAL">
+						<user_parameter name="ENABLE" value="1"/>
+						<user_hier_parameter name="IO">
+							<user_parameter name="PMC_MIO" value="37 .. 49"/>
+						</user_hier_parameter>
+					</user_hier_parameter>	
+					<user_parameter name="PMC_SD0_SLOT_TYPE" value="eMMC"/>
+						
+					<user_hier_parameter name="PMC_SD1">
+						<user_parameter name="CD_ENABLE" value="1"/>
+						<user_parameter name="POW_ENABLE" value="0"/>
+						<user_parameter name="RESET_ENABLE" value="0"/>
+						<user_parameter name="WP_ENABLE" value="0"/>
+					</user_hier_parameter>
+					<user_hier_parameter name="PMC_SD1_PERIPHERAL">
+						<user_parameter name="ENABLE" value="1"/>
+						<user_hier_parameter name="IO">
+							<user_parameter name="PMC_MIO" value="26 .. 36"/>
+						</user_hier_parameter>
+					</user_hier_parameter>
+					<user_hier_parameter name="PMC_SD1_SLOT_TYPE">
+						<user_parameter name="SD" value="2.0"/>
+					</user_hier_parameter>
+					
+					<user_hier_parameter name="PMC_GPIO0_MIO_PERIPHERAL">
+						<user_parameter name="ENABLE" value="1"/>
+						<user_hier_parameter name="IO">
+							<user_parameter name="PMC_MIO" value="0 .. 25"/>
+						</user_hier_parameter>
+					</user_hier_parameter>
+					
+					<user_hier_parameter name="PMC_GPIO1_MIO_PERIPHERAL">
+						<user_parameter name="ENABLE" value="1"/>
+						<user_hier_parameter name="IO">
+							<user_parameter name="PMC_MIO" value="26 .. 51"/>
+						</user_hier_parameter>
+					</user_hier_parameter>
+					
+					<user_hier_parameter name="PMC_I2CPMC_PERIPHERAL">
+						<user_parameter name="ENABLE" value="1"/>
+						<user_hier_parameter name="IO">
+							<user_parameter name="PMC_MIO" value="50 .. 51"/>
+						</user_hier_parameter>
+					</user_hier_parameter>
+					
+					<user_hier_parameter name="PS_ENET0_MDIO">
+						<user_parameter name="ENABLE" value="1"/>
+						<user_hier_parameter name="IO">
+							<user_parameter name="PS_MIO" value="EMIO"/>
+						</user_hier_parameter>
+					</user_hier_parameter>
+					<user_hier_parameter name="PS_ENET0_PERIPHERAL">
+						<user_parameter name="ENABLE" value="1"/>
+						<user_hier_parameter name="IO">
+							<user_parameter name="PS_MIO" value="0 .. 11"/>
+						</user_hier_parameter>
+					</user_hier_parameter>
+					
+					<user_hier_parameter name="PS_ENET1_MDIO">
+						<user_parameter name="ENABLE" value="1"/>
+						<user_hier_parameter name="IO">
+							<user_parameter name="PS_MIO" value="24 .. 25"/>
+						</user_hier_parameter>
+					</user_hier_parameter>
+					<user_hier_parameter name="PS_ENET1_PERIPHERAL">
+						<user_parameter name="ENABLE" value="1"/>
+						<user_hier_parameter name="IO">
+							<user_parameter name="PS_MIO" value="12 .. 23"/>
+						</user_hier_parameter>
+					</user_hier_parameter>
+
+					<user_hier_parameter name="PS_UART0_PERIPHERAL">
+						<user_parameter name="ENABLE" value="1"/>
+						<user_hier_parameter name="IO">
+							<user_parameter name="PMC_MIO" value="34 .. 35"/>
+						</user_hier_parameter>
+					</user_hier_parameter>
+				
+					<user_hier_parameter name="PS_USB3_PERIPHERAL">
+						<user_parameter name="ENABLE" value="1"/>
+						<user_hier_parameter name="IO">
+							<user_parameter name="PMC_MIO" value="13 .. 25"/>
+						</user_hier_parameter>
+					</user_hier_parameter>
+					
+					<user_hier_parameter name="PS_CAN1_PERIPHERAL"> 
+						<user_parameter name="ENABLE" value="1"/> 
+						<user_hier_parameter name="IO"> 
+							<user_parameter name="PMC_MIO" value="36 .. 37"/> 
+						</user_hier_parameter> 
+					</user_hier_parameter> 
+					
+					<user_parameter name="DEVICE_INTEGRITY_MODE" value="{Sysmon temperature voltage and external IO monitoring}"/>
+					<user_parameter name="PMC_REF_CLK_FREQMHZ" value="33.3333"/>
+					<user_parameter name="PS_GEN_IPI0_ENABLE" value="1"/>
+					<user_parameter name="PS_GEN_IPI0_MASTER" value="A72"/>
+					<user_parameter name="PS_GEN_IPI1_ENABLE" value="1"/>
+					<user_parameter name="PS_GEN_IPI2_ENABLE" value="1"/>
+					<user_parameter name="PS_GEN_IPI3_ENABLE" value="1"/>
+					<user_parameter name="PS_GEN_IPI4_ENABLE" value="1"/>
+					<user_parameter name="PS_GEN_IPI5_ENABLE" value="1"/>
+					<user_parameter name="PS_GEN_IPI6_ENABLE" value="1"/>
+				</user_hier_parameter>
+			</user_parameters>
+		</ip>
+	</ip_preset>
+
+	<ip_preset preset_proc_name="LPDDR4_Controller0_preset">
+		<ip vendor="xilinx.com" library="ip" name="axi_noc" version="*">
+			<user_parameters>
+				<user_parameter name="CONFIG.CONTROLLERTYPE" value="LPDDR4_SDRAM" />
+				<user_parameter name="CONFIG.MC_NO_CHANNELS" value="Dual" />
+				<user_parameter name="CONFIG.MC_SYSTEM_CLOCK" value="Differential" />
+				<user_parameter name="CONFIG.MC_MEMORY_SPEEDGRADE" value="LPDDR4-3733" />
+				<user_parameter name="CONFIG.MC_DATAWIDTH" value="32" />
+				<user_parameter name="CONFIG.MC_LP4_PIN_EFFICIENT " value="true" />
+				<user_parameter name="CONFIG.MC_FREQ_SEL" value="MEMORY_CLK_FROM_SYS_CLK" />
+				<user_parameter name="CONFIG.MC_IP_TIMEPERIOD0_FOR_OP" value="5000" />
+				<user_parameter name="CONFIG.MC_OP_TIMEPERIOD0" value="541" />
+				<user_parameter name="CONFIG.MC_LP4_OVERWRITE_IO_PROP" value="true" />
+			</user_parameters>
+		</ip>
+	</ip_preset>
+	
+	<ip_preset preset_proc_name="sysclk0_preset">
+		<ip vendor="xilinx.com" library="ip" name="clk_wiz" ip_interface="CLK_IN1_D">
+			<user_parameters>
+				<user_parameter name="CONFIG.PRIM_IN_FREQ" value="200" />
+				<user_parameter name="CONFIG.PRIM_SOURCE" value="Differential_clock_capable_pin" />
+			</user_parameters>
+		</ip>
+		<ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+			<user_parameters>
+				<user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDS" />
+				<user_parameter name="CONFIG.C_SIZE" value="1" />
+			</user_parameters>
+		</ip>
+	</ip_preset>
+	
+</ip_presets>
+
+	
+	
+	
+	
+	
+
+	
