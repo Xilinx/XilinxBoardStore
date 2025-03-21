@@ -1,0 +1,54 @@
+<!-- <?xml version="1.0" encoding="UTF-8" standalone="no"?> -->
+<!DOCTYPE ip_presets SYSTEM "E:/Xilinx/Vivado/2024.1/data/boards/board_schemas/current/preset.dtd"> 
+<!-- ********************************************************************** -->
+<!-- 				    iWave Systems Technologies 				            -->
+<!-- ********************************************************************** -->
+<!-- SOM Supported	: iW-PRHBZ-R3.1											-->
+<!-- Date Created	: Dec2024											-->
+<!-- ********************************************************************** -->
+
+<ip_presets schema="1.0">
+
+	<ip_preset preset_proc_name="ddr4_0_sdram_preset">
+		<ip vendor="xilinx.com" library="ip" name="ddr4">
+			<user_parameters>
+				<user_parameter name="CONFIG.C0.DDR4_isCustom" value="true" />
+				<user_parameter name="CONFIG.C0.DDR4_CasLatency" value="19"/>
+				<user_parameter name="CONFIG.C0.DDR4_DataWidth" value="72"/>
+				<user_parameter name="CONFIG.C0.DDR4_CasWriteLatency" value="18"/>
+				<user_parameter name="CONFIG.C0.DDR4_MemoryPart" value="MT40A512M16LY-062E ITE"/>
+				<user_parameter name="CONFIG.C0.DDR4_CustomParts" value="MT40A512M16LY_062E_2666.csv" value_type="file" />
+				<user_parameter name="CONFIG.C0.DDR4_TimePeriod" value="750"/>
+				<user_parameter name="CONFIG.C0.DDR4_InputClockPeriod" value="3334"/>
+				<user_parameter name="CONFIG.C0.DDR4_Mem_Add_Map" value="ROW_COLUMN_BANK"/>
+				<user_parameter name="CONFIG.ADDN_UI_CLKOUT1_FREQ_HZ" value="100"/>
+			</user_parameters>
+		</ip>
+	</ip_preset>
+
+	<ip_preset preset_proc_name="ddr4_1_sdram_preset">
+		<ip vendor="xilinx.com" library="ip" name="ddr4">
+			<user_parameters>
+				<user_parameter name="CONFIG.C0.DDR4_isCustom" value="true" />
+				<user_parameter name="CONFIG.C0.DDR4_CasLatency" value="19"/>
+				<user_parameter name="CONFIG.C0.DDR4_DataWidth" value="72"/>
+				<user_parameter name="CONFIG.C0.DDR4_CasWriteLatency" value="18"/>
+				<user_parameter name="CONFIG.C0.DDR4_MemoryPart" value="MT40A512M16LY-062E ITE"/>
+				<user_parameter name="CONFIG.C0.DDR4_CustomParts" value="MT40A512M16LY_062E_2666.csv" value_type="file" />
+				<user_parameter name="CONFIG.C0.DDR4_TimePeriod" value="750"/>
+				<user_parameter name="CONFIG.C0.DDR4_InputClockPeriod" value="3334"/>
+				<user_parameter name="CONFIG.C0.DDR4_Mem_Add_Map" value="ROW_COLUMN_BANK"/>
+				<user_parameter name="CONFIG.ADDN_UI_CLKOUT1_FREQ_HZ" value="250"/>
+			</user_parameters>
+		</ip>
+	</ip_preset>
+
+	<ip_preset preset_proc_name="rgmii_preset">
+		<ip vendor="xilinx.com" library="ip" name="tri_mode_ethernet_mac" ip_interface="rgmii"> 
+			<user_parameters>	
+				<user_parameter name="CONFIG.Physical_Interface" value="RGMII"/> 
+			</user_parameters>
+		</ip>
+	</ip_preset>
+	
+</ip_presets>
