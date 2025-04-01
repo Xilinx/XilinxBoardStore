@@ -1,0 +1,4 @@
+######### Spartan UltraScale+ SCU35 Board Change log ##############
+1.0
+Spartan UltraScale+ SCU35 Initial Vivado Board Support(2025.1)
+

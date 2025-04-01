@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2023, Advanced Micro Devices, Inc - All rights reserved
+ Licensed under the Apache License, Version 2.0 (the "License"). You may
+ not use this file except in compliance with the License. A copy of the
+ License is located at
+     http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ License for the specific language governing permissions and limitations
+ under the License. -->
+ 
+<ip_presets schema="1.0">
+
+<ip_preset preset_proc_name="ps_pmc_fixed_io_preset">
+	<ip vendor="xilinx.com" library="ip" name="ps_wizard" version="*" ip_interface="FIXED_IO">
+		<user_parameters>
+			<user_hier_parameter name="CONFIG.MMI_CONFIG">
+				<user_parameter name="DPDC_PRESENTATION_MODE" value="Non_Live"/>
+				<user_parameter name="MDB5_GT" value="PCIe0_x2_10GbE"/>
+				<user_parameter name="MMI_DP_ENABLE_BEFORE_PL" value="1"/>
+				<user_parameter name="MMI_DP_HPD" value="PMC_MIO_48"/>
+				<user_parameter name="MMI_GPU_ENABLE" value="1"/>
+				<user_parameter name="MMI_PCIE0_PERST" value="None"/>
+				<user_parameter name="MMI_USB3_ENABLE" value="1"/>
+				<user_parameter name="PS_GEM_TSU" value="{ENABLE 1 IO PS_MIO_24 IO_TYPE MIO}"/>
+				<user_parameter name="UDH_GT" value="DP_X2_+_USB"/>
+			</user_hier_parameter>
+			<user_hier_parameter name="CONFIG.PS11_CONFIG">
+				<user_parameter name="MDB5_GT" value="PCIe0_x2_10GbE"/>
+				<user_parameter name="MMI_DP_HPD" value="PMC_MIO_48"/>
+				<user_parameter name="MMI_GPU_ENABLE" value="1"/>
+				<user_parameter name="MMI_PCIE0_PERST" value="None"/>
+				<user_parameter name="PL_FPD_IRQ_USAGE" value="{CH0 1 CH1 0 CH2 0 CH3 0 CH4 0 CH5 0 CH6 0 CH7 0}"/>
+				<user_parameter name="PL_LPD_IRQ_USAGE" value="{CH0 1 CH1 0 CH2 0 CH3 0 CH4 0 CH5 0 CH6 0 CH7 0 CH8 0 CH9 0 CH10 0 CH11 0 CH12 0 CH13 0 CH14 0 CH15 0 CH16 0 CH17 0 CH18 0 CH19 0 CH20 0 CH21 0 CH22 0 CH23 0}"/>
+				<user_parameter name="PMC_MIO40" value="{DRIVE_STRENGTH 8mA SLEW slow PULL pullup SCHMITT 0 AUX_IO 0 USAGE GPIO OUTPUT_DATA default DIRECTION in}"/>
+				<user_parameter name="PMC_OSPI_ECC_FAIL_IO" value="PMC_MIO_13"/>
+				<user_parameter name="PMC_OSPI_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_0:13 MODE Single}"/>
+				<user_parameter name="PMC_CRP_OSPI_REF_CTRL_FREQMHZ" value="200"/>
+				<user_parameter name="PMC_UFS_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_24:26 IO_TYPE MIO}"/>
+				<user_parameter name="PS_ASU_ENABLE" value="1"/>
+				<user_parameter name="PS_CAN0_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_16:17 IO_TYPE MIO}"/>
+				<user_parameter name="PS_CAN1_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_18:19 IO_TYPE MIO}"/>
+				<user_parameter name="PS_CAN2_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_20:21 IO_TYPE MIO}"/>
+				<user_parameter name="PS_CAN3_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_22:23 IO_TYPE MIO}"/>
+				<user_parameter name="PS_CRL_I3C_I2C0_REF_CTRL_FREQMHZ" value="160"/>
+				<user_parameter name="PS_ENET0_MDIO" value="{ENABLE 1 IO PMC_MIO_50:51 IO_TYPE MIO}"/>
+				<user_parameter name="PS_ENET0_PERIPHERAL" value="{ENABLE 1 IO PS_MIO_0:11 IO_TYPE MIO MODE RGMII}"/>
+				<user_parameter name="PS_GEM_TSU" value="{ENABLE 1 IO PS_MIO_24 IO_TYPE MIO}"/>
+				<user_parameter name="PS_GEN_IPI1_NOBUF_ENABLE" value="1"/>
+				<user_parameter name="PS_GEN_IPI2_ENABLE" value="1"/>
+				<user_parameter name="PS_GEN_IPI2_NOBUF_ENABLE" value="1"/>
+				<user_parameter name="PS_GEN_IPI2_NOBUF_MASTER" value="R52_0"/>
+				<user_parameter name="PS_GEN_IPI3_ENABLE" value="1"/>
+				<user_parameter name="PS_GEN_IPI3_NOBUF_ENABLE" value="1"/>
+				<user_parameter name="PS_GEN_IPI3_NOBUF_MASTER" value="R52_5"/>
+				<user_parameter name="PS_GEN_IPI4_ENABLE" value="1"/>
+				<user_parameter name="PS_GEN_IPI4_NOBUF_ENABLE" value="1"/>
+				<user_parameter name="PS_GEN_IPI4_NOBUF_MASTER" value="R52_6"/>
+				<user_parameter name="PS_GEN_IPI5_ENABLE" value="1"/>
+				<user_parameter name="PS_GEN_IPI5_NOBUF_ENABLE" value="1"/>
+				<user_parameter name="PS_GEN_IPI5_NOBUF_MASTER" value="R52_7"/>
+				<user_parameter name="PS_GEN_IPI6_ENABLE" value="1"/>
+                <user_parameter name="PS_GEN_IPI6_NOBUF_ENABLE" value="1"/>
+                <user_parameter name="PS_GEN_IPI6_NOBUF_MASTER" value="R52_8"/>
+				<user_parameter name="PS_I2CSYSMON_PERIPHERAL" value="{ENABLE 0 IO PS_MIO_18:19}"/>
+				<user_parameter name="PS_I3C_I2C0_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_42:43 IO_TYPE MIO TYPE I2C}"/>
+				<user_parameter name="PS_I3C_I2C1_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_44:45 IO_TYPE MIO TYPE I2C}"/>
+				<user_parameter name="PS_MIO11" value="{DRIVE_STRENGTH 8mA SLEW slow PULL disable SCHMITT 0 AUX_IO 0 USAGE Reserved OUTPUT_DATA default DIRECTION in}"/>
+				<user_parameter name="PS_MIO12" value="{DRIVE_STRENGTH 8mA SLEW slow PULL pullup SCHMITT 0 AUX_IO 0 USAGE GPIO OUTPUT_DATA default DIRECTION out}"/>
+				<user_parameter name="PS_MIO13" value="{DRIVE_STRENGTH 8mA SLEW slow PULL pullup SCHMITT 0 AUX_IO 0 USAGE GPIO OUTPUT_DATA default DIRECTION in}"/>
+				<user_parameter name="PS_MIO14" value="{DRIVE_STRENGTH 8mA SLEW slow PULL pullup SCHMITT 0 AUX_IO 0 USAGE GPIO OUTPUT_DATA default DIRECTION out}"/>
+				<user_parameter name="PS_MIO15" value="{DRIVE_STRENGTH 8mA SLEW slow PULL pullup SCHMITT 0 AUX_IO 0 USAGE GPIO OUTPUT_DATA default DIRECTION in}"/>
+				<user_parameter name="PS_MIO20" value="{DRIVE_STRENGTH 8mA SLEW slow PULL pullup SCHMITT 0 AUX_IO 0 USAGE GPIO OUTPUT_DATA default DIRECTION inout}"/>
+				<user_parameter name="PS_MIO21" value="{DRIVE_STRENGTH 8mA SLEW slow PULL pullup SCHMITT 0 AUX_IO 0 USAGE GPIO OUTPUT_DATA default DIRECTION in}"/>
+				<user_parameter name="PS_MIO22" value="{DRIVE_STRENGTH 8mA SLEW slow PULL pullup SCHMITT 0 AUX_IO 0 USAGE GPIO OUTPUT_DATA default DIRECTION out}"/>
+				<user_parameter name="PS_MIO23" value="{DRIVE_STRENGTH 8mA SLEW slow PULL pullup SCHMITT 0 AUX_IO 0 USAGE GPIO OUTPUT_DATA default DIRECTION in}"/>
+				<user_parameter name="PS_MIO25" value="{DRIVE_STRENGTH 8mA SLEW slow PULL pullup SCHMITT 0 AUX_IO 0 USAGE GPIO OUTPUT_DATA default DIRECTION out}"/>
+				<user_parameter name="PS_MIO7" value="{DRIVE_STRENGTH 8mA SLEW slow PULL disable SCHMITT 0 AUX_IO 0 USAGE Reserved OUTPUT_DATA default DIRECTION in}"/>
+				<user_parameter name="PS_MIO9" value="{DRIVE_STRENGTH 8mA SLEW slow PULL disable SCHMITT 0 AUX_IO 0 USAGE Reserved OUTPUT_DATA default DIRECTION in}"/>
+				<user_parameter name="PS_TTC0_CLK" value="{ENABLE 0 IO PS_MIO_6 IO_TYPE MIO}"/>
+				<user_parameter name="PS_TTC0_PERIPHERAL_ENABLE" value="1"/>
+				<user_parameter name="PS_TTC0_WAVEOUT" value="{ENABLE 1 IO PMC_MIO_49 IO_TYPE MIO}"/>
+				<user_parameter name="PS_UART0_PERIPHERAL" value="{ENABLE 1 IO PS_MIO_16:17 IO_TYPE MIO}"/>
+				<user_parameter name="PS_UART1_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_46:47 IO_TYPE MIO}"/>
+				<user_parameter name="PS_USB1_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_27:39 IO_TYPE MIO}"/>
+				<user_parameter name="SECONDARY_BOOT_DEVICE" value="None"/>
+				<user_parameter name="SMON_INTERFACE_TO_USE" value="I2C"/>
+				<user_parameter name="SMON_PMBUS_ADDRESS" value="0x18"/>
+				<user_parameter name="UDH_GT" value="DP_X2_+_USB"/>
+			</user_hier_parameter>
+		</user_parameters>
+	</ip>
+</ip_preset>
+	
+	
+<!-- 		<ip_preset preset_proc_name="lpddr5_Controller0_preset">
+		<ip vendor="xilinx.com" library="ip" name="axi_noc2" version="*">
+			<user_parameters>
+				<user_parameter name="CONFIG.DDR5_DEVICE_TYPE" value="Components" />
+				<user_parameter name="CONFIG.DDRMC5_NUM_CH " value="1" />
+				<user_parameter name="CONFIG.DDRMC5_CONFIG" value="DDRMC5_CONTROLLERTYPE LPDDR5_SDRAM DDRMC5_SPEED_GRADE LPDDR5X-8533 DDRMC5_DEVICE_TYPE Components DDRMC5_F0_LP5_BANK_ARCH 16B DDRMC5_F1_LP5_BANK_ARCH 16B DDRMC5_DRAM_WIDTH x16 DDRMC5_DATA_WIDTH 32 DDRMC5_ROW_ADDR_WIDTH 15 DDRMC5_COL_ADDR_WIDTH 6 DDRMC5_BA_ADDR_WIDTH 4 DDRMC5_BG_WIDTH 0 DDRMC5_BURST_ADDR_WIDTH 4 DDRMC5_NUM_RANKS 1 DDRMC5_LATENCY_MODE x16 DDRMC5_NUM_SLOTS 1 DDRMC5_NUM_CK 1 DDRMC5_NUM_CH 1 DDRMC5_STACK_HEIGHT 1 DDRMC5_DRAM_SIZE 8Gb DDRMC5_MEMORY_DENSITY 2GB DDRMC5_DM_EN true DDRMC5_DQS_OSCI_EN DISABLE DDRMC5_SIDE_BAND_ECC false DDRMC5_INLINE_ECC false DDRMC5_DDR5_2T DISABLE DDRMC5_DDR5_RDIMM_ADDR_MODE DDR DDRMC5_REFRESH_MODE NORMAL DDRMC5_REFRESH_TYPE ALL_BANK DDRMC5_FREQ_SWITCHING false DDRMC5_BACKGROUND_SCRUB false DDRMC5_OTF_SCRUB false DDRMC5_SCRUB_SIZE 1 DDRMC5_MEM_FILL false DDRMC5_PERIODIC_READ ENABLE DDRMC5_USER_REFRESH false DDRMC5_WL_SET A DDRMC5_WR_DBI true DDRMC5_RD_DBI true DDRMC5_AUTO_PRECHARGE true DDRMC5_CRYPTO false DDRMC5_ON_DIE_ECC false DDRMC5_DDR5_PAR_RCD_EN false DDRMC5_OP_TEMPERATURE LOW DDRMC5_F0_TCK 2500 DDRMC5_INPUTCLK0_PERIOD 3125 DDRMC5_F0_TFAW 15000 DDRMC5_F0_DDR5_TRP 18000 DDRMC5_F0_TRTP 7500 DDRMC5_F0_TRTP_RU 24 DDRMC5_F1_TRTP_RU 24 DDRMC5_F0_TRCD 18000 DDRMC5_TREFI 3906000 DDRMC5_DDR5_TRFC1 0 DDRMC5_DDR5_TRFC2 0 DDRMC5_DDR5_TRFCSB 0 DDRMC5_F0_TRAS 42000 DDRMC5_F0_TZQLAT 30000 DDRMC5_F0_DDR5_TCCD_L_WR 0 DDRMC5_F0_DDR5_TCCD_L_WR_RU 32 DDRMC5_F0_TXP 7500 DDRMC5_F0_DDR5_TPD 0 DDRMC5_DDR5_TREFSBRD 0 DDRMC5_DDR5_TRFC1_DLR 0 DDRMC5_DDR5_TRFC1_DPR 0 DDRMC5_DDR5_TRFC2_DLR 0 DDRMC5_DDR5_TRFC2_DPR 0 DDRMC5_DDR5_TRFCSB_DLR 0 DDRMC5_DDR5_TREFSBRD_SLR 0 DDRMC5_DDR5_TREFSBRD_DLR 0 DDRMC5_F0_CL 64 DDRMC5_F0_CWL 0 DDRMC5_F0_DDR5_TRRD_L 0 DDRMC5_F0_TCCD_L 0 DDRMC5_F0_DDR5_TCCD_L_WR2 0 DDRMC5_F0_DDR5_TCCD_L_WR2_RU 16 DDRMC5_DDR5_TFAW_DLR 0 DDRMC5_F1_TCK 2500 DDRMC5_F1_TFAW 15000 DDRMC5_F1_DDR5_TRP 18000 DDRMC5_F1_TRTP 7500 DDRMC5_F1_TRCD 18000 DDRMC5_F1_TRAS 42000 DDRMC5_F1_TZQLAT 30000 DDRMC5_F1_DDR5_TCCD_L_WR 0 DDRMC5_F1_DDR5_TCCD_L_WR_RU 32 DDRMC5_F1_TXP 7500 DDRMC5_F1_DDR5_TPD 0 DDRMC5_F1_CL 64 DDRMC5_F1_CWL 0 DDRMC5_F1_DDR5_TRRD_L 0 DDRMC5_F1_TCCD_L 0 DDRMC5_F1_DDR5_TCCD_L_WR2 0 DDRMC5_F1_DDR5_TCCD_L_WR2_RU 16 DDRMC5_LP5_TRFCAB 210000 DDRMC5_LP5_TRFCPB 120000 DDRMC5_LP5_TPBR2PBR 90000 DDRMC5_F0_LP5_TRPAB 21000 DDRMC5_F0_LP5_TRPPB 18000 DDRMC5_F0_LP5_TRRD 5000 DDRMC5_LP5_TPBR2ACT 7500 DDRMC5_F0_LP5_TCSPD 12500 DDRMC5_F0_RL 10 DDRMC5_F0_WL 5 DDRMC5_F1_LP5_TRPAB 21000 DDRMC5_F1_LP5_TRPPB 18000 DDRMC5_F1_LP5_TRRD 5000 DDRMC5_F1_LP5_TCSPD 12500 DDRMC5_F1_RL 10 DDRMC5_F1_WL 5 DDRMC5_LP5_TRFMAB 210000 DDRMC5_LP5_TRFMPB 170000 DDRMC5_SYSTEM_CLOCK No_Buffer DDRMC5_UBLAZE_BLI_INTF false DDRMC5_REF_AND_PER_CAL_INTF false DDRMC5_PRE_DEF_ADDR_MAP_SEL ROW_BANK_COLUMN DDRMC5_USER_DEFINED_ADDRESS_MAP None DDRMC5_ADDRESS_MAP NA,NA,NA,NA,NA,NA,NA,NA,RA14,RA13,RA12,RA11,RA10,RA9,RA8,RA7,RA6,RA5,RA4,RA3,RA2,RA1,RA0,BA3,BA2,BA1,BA0,CA5,CA4,CA3,CA2,CA1,NC,CA0,NC,NC,NC,NC,NA,NA DDRMC5_MC0_CONFIG_SEL config13 DDRMC5_MC1_CONFIG_SEL config12_opt DDRMC5_MC2_CONFIG_SEL config13_opt DDRMC5_MC3_CONFIG_SEL config13_opt DDRMC5_MC4_CONFIG_SEL config13_opt DDRMC5_MC5_CONFIG_SEL config13_opt DDRMC5_MC6_CONFIG_SEL config13_opt DDRMC5_MC7_CONFIG_SEL config13_opt DDRMC5_LOW_TRFC_DPR false DDRMC5_NUM_MC 2 DDRMC5_NUM_MCP 1 DDRMC5_MAIN_DEVICE_TYPE Components DDRMC5_INTERLEAVE_SIZE 128 DDRMC5_SILICON_REVISION NA DDRMC5_FPGA_DEVICE_TYPE NON_KSB DDRMC5_SELF_REFRESH DISABLE DDRMC5_LBDQ_SWAP false DDRMC5_CAL_MASK_POLL ENABLE DDRMC5_BOARD_INTRF_EN false"/>
+			</user_parameters>
+		</ip>
+	    </ip_preset>
+
+
+
+		<ip_preset preset_proc_name="lpddr5_Controller2_preset">
+		<ip vendor="xilinx.com" library="ip" name="axi_noc2" version="*">
+			<user_parameters>
+				<user_parameter name="CONFIG.DDR5_DEVICE_TYPE" value="Components" />
+				<user_parameter name="CONFIG.DDRMC5_NUM_CH " value="1" />
+				<user_parameter name="CONFIG.DDRMC5_CONFIG" value="DDRMC5_CONTROLLERTYPE LPDDR5_SDRAM DDRMC5_SPEED_GRADE LPDDR5X-8533 DDRMC5_DEVICE_TYPE Components DDRMC5_F0_LP5_BANK_ARCH 16B DDRMC5_F1_LP5_BANK_ARCH 16B DDRMC5_DRAM_WIDTH x16 DDRMC5_DATA_WIDTH 32 DDRMC5_ROW_ADDR_WIDTH 15 DDRMC5_COL_ADDR_WIDTH 6 DDRMC5_BA_ADDR_WIDTH 4 DDRMC5_BG_WIDTH 0 DDRMC5_BURST_ADDR_WIDTH 4 DDRMC5_NUM_RANKS 1 DDRMC5_LATENCY_MODE x16 DDRMC5_NUM_SLOTS 1 DDRMC5_NUM_CK 1 DDRMC5_NUM_CH 1 DDRMC5_STACK_HEIGHT 1 DDRMC5_DRAM_SIZE 8Gb DDRMC5_MEMORY_DENSITY 2GB DDRMC5_DM_EN true DDRMC5_DQS_OSCI_EN DISABLE DDRMC5_SIDE_BAND_ECC false DDRMC5_INLINE_ECC false DDRMC5_DDR5_2T DISABLE DDRMC5_DDR5_RDIMM_ADDR_MODE DDR DDRMC5_REFRESH_MODE NORMAL DDRMC5_REFRESH_TYPE ALL_BANK DDRMC5_FREQ_SWITCHING false DDRMC5_BACKGROUND_SCRUB false DDRMC5_OTF_SCRUB false DDRMC5_SCRUB_SIZE 1 DDRMC5_MEM_FILL false DDRMC5_PERIODIC_READ ENABLE DDRMC5_USER_REFRESH false DDRMC5_WL_SET A DDRMC5_WR_DBI true DDRMC5_RD_DBI true DDRMC5_AUTO_PRECHARGE true DDRMC5_CRYPTO false DDRMC5_ON_DIE_ECC false DDRMC5_DDR5_PAR_RCD_EN false DDRMC5_OP_TEMPERATURE LOW DDRMC5_F0_TCK 2500 DDRMC5_INPUTCLK0_PERIOD 3125 DDRMC5_F0_TFAW 15000 DDRMC5_F0_DDR5_TRP 18000 DDRMC5_F0_TRTP 7500 DDRMC5_F0_TRTP_RU 24 DDRMC5_F1_TRTP_RU 24 DDRMC5_F0_TRCD 18000 DDRMC5_TREFI 3906000 DDRMC5_DDR5_TRFC1 0 DDRMC5_DDR5_TRFC2 0 DDRMC5_DDR5_TRFCSB 0 DDRMC5_F0_TRAS 42000 DDRMC5_F0_TZQLAT 30000 DDRMC5_F0_DDR5_TCCD_L_WR 0 DDRMC5_F0_DDR5_TCCD_L_WR_RU 32 DDRMC5_F0_TXP 7500 DDRMC5_F0_DDR5_TPD 0 DDRMC5_DDR5_TREFSBRD 0 DDRMC5_DDR5_TRFC1_DLR 0 DDRMC5_DDR5_TRFC1_DPR 0 DDRMC5_DDR5_TRFC2_DLR 0 DDRMC5_DDR5_TRFC2_DPR 0 DDRMC5_DDR5_TRFCSB_DLR 0 DDRMC5_DDR5_TREFSBRD_SLR 0 DDRMC5_DDR5_TREFSBRD_DLR 0 DDRMC5_F0_CL 64 DDRMC5_F0_CWL 0 DDRMC5_F0_DDR5_TRRD_L 0 DDRMC5_F0_TCCD_L 0 DDRMC5_F0_DDR5_TCCD_L_WR2 0 DDRMC5_F0_DDR5_TCCD_L_WR2_RU 16 DDRMC5_DDR5_TFAW_DLR 0 DDRMC5_F1_TCK 2500 DDRMC5_F1_TFAW 15000 DDRMC5_F1_DDR5_TRP 18000 DDRMC5_F1_TRTP 7500 DDRMC5_F1_TRCD 18000 DDRMC5_F1_TRAS 42000 DDRMC5_F1_TZQLAT 30000 DDRMC5_F1_DDR5_TCCD_L_WR 0 DDRMC5_F1_DDR5_TCCD_L_WR_RU 32 DDRMC5_F1_TXP 7500 DDRMC5_F1_DDR5_TPD 0 DDRMC5_F1_CL 64 DDRMC5_F1_CWL 0 DDRMC5_F1_DDR5_TRRD_L 0 DDRMC5_F1_TCCD_L 0 DDRMC5_F1_DDR5_TCCD_L_WR2 0 DDRMC5_F1_DDR5_TCCD_L_WR2_RU 16 DDRMC5_LP5_TRFCAB 210000 DDRMC5_LP5_TRFCPB 120000 DDRMC5_LP5_TPBR2PBR 90000 DDRMC5_F0_LP5_TRPAB 21000 DDRMC5_F0_LP5_TRPPB 18000 DDRMC5_F0_LP5_TRRD 5000 DDRMC5_LP5_TPBR2ACT 7500 DDRMC5_F0_LP5_TCSPD 12500 DDRMC5_F0_RL 10 DDRMC5_F0_WL 5 DDRMC5_F1_LP5_TRPAB 21000 DDRMC5_F1_LP5_TRPPB 18000 DDRMC5_F1_LP5_TRRD 5000 DDRMC5_F1_LP5_TCSPD 12500 DDRMC5_F1_RL 10 DDRMC5_F1_WL 5 DDRMC5_LP5_TRFMAB 210000 DDRMC5_LP5_TRFMPB 170000 DDRMC5_SYSTEM_CLOCK Differential DDRMC5_UBLAZE_BLI_INTF false DDRMC5_REF_AND_PER_CAL_INTF false DDRMC5_PRE_DEF_ADDR_MAP_SEL ROW_BANK_COLUMN DDRMC5_USER_DEFINED_ADDRESS_MAP None DDRMC5_ADDRESS_MAP NA,NA,NA,NA,NA,NA,NA,NA,NA,RA14,RA13,RA12,RA11,RA10,RA9,RA8,RA7,RA6,RA5,RA4,RA3,RA2,RA1,RA0,BA3,BA2,BA1,BA0,CA5,CA4,CA3,CA2,CA1,CA0,NC,NC,NC,NC,NA,NA DDRMC5_MC0_CONFIG_SEL config13 DDRMC5_MC1_CONFIG_SEL config13_opt DDRMC5_MC2_CONFIG_SEL config13_opt DDRMC5_MC3_CONFIG_SEL config13_opt DDRMC5_MC4_CONFIG_SEL config13_opt DDRMC5_MC5_CONFIG_SEL config13_opt DDRMC5_MC6_CONFIG_SEL config13_opt DDRMC5_MC7_CONFIG_SEL config13_opt DDRMC5_LOW_TRFC_DPR false DDRMC5_NUM_MC 1 DDRMC5_NUM_MCP 1 DDRMC5_MAIN_DEVICE_TYPE Components DDRMC5_INTERLEAVE_SIZE 0 DDRMC5_SILICON_REVISION NA DDRMC5_FPGA_DEVICE_TYPE NON_KSB DDRMC5_SELF_REFRESH DISABLE DDRMC5_LBDQ_SWAP false DDRMC5_CAL_MASK_POLL ENABLE DDRMC5_BOARD_INTRF_EN false"/>
+			</user_parameters>
+		</ip>
+	    </ip_preset>
+
+	<ip_preset preset_proc_name="lpddr5_Controller34_preset">
+		<ip vendor="xilinx.com" library="ip" name="axi_noc2" version="*">
+			<user_parameters>
+				<user_parameter name="CONFIG.DDR5_DEVICE_TYPE" value="Components" />
+				<user_parameter name="CONFIG.DDRMC5_NUM_CH " value="1" />
+				<user_parameter name="CONFIG.DDRMC5_CONFIG" value="DDRMC5_CONTROLLERTYPE LPDDR5_SDRAM DDRMC5_SPEED_GRADE LPDDR5X-8533 DDRMC5_DEVICE_TYPE Components DDRMC5_F0_LP5_BANK_ARCH 16B DDRMC5_F1_LP5_BANK_ARCH 16B DDRMC5_DRAM_WIDTH x16 DDRMC5_DATA_WIDTH 32 DDRMC5_ROW_ADDR_WIDTH 15 DDRMC5_COL_ADDR_WIDTH 6 DDRMC5_BA_ADDR_WIDTH 4 DDRMC5_BG_WIDTH 0 DDRMC5_BURST_ADDR_WIDTH 4 DDRMC5_NUM_RANKS 1 DDRMC5_LATENCY_MODE x16 DDRMC5_NUM_SLOTS 1 DDRMC5_NUM_CK 1 DDRMC5_NUM_CH 1 DDRMC5_STACK_HEIGHT 1 DDRMC5_DRAM_SIZE 8Gb DDRMC5_MEMORY_DENSITY 2GB DDRMC5_DM_EN true DDRMC5_DQS_OSCI_EN DISABLE DDRMC5_SIDE_BAND_ECC false DDRMC5_INLINE_ECC false DDRMC5_DDR5_2T DISABLE DDRMC5_DDR5_RDIMM_ADDR_MODE DDR DDRMC5_REFRESH_MODE NORMAL DDRMC5_REFRESH_TYPE ALL_BANK DDRMC5_FREQ_SWITCHING false DDRMC5_BACKGROUND_SCRUB false DDRMC5_OTF_SCRUB false DDRMC5_SCRUB_SIZE 1 DDRMC5_MEM_FILL false DDRMC5_PERIODIC_READ ENABLE DDRMC5_USER_REFRESH false DDRMC5_WL_SET A DDRMC5_WR_DBI true DDRMC5_RD_DBI true DDRMC5_AUTO_PRECHARGE true DDRMC5_CRYPTO false DDRMC5_ON_DIE_ECC false DDRMC5_DDR5_PAR_RCD_EN false DDRMC5_OP_TEMPERATURE LOW DDRMC5_F0_TCK 2500 DDRMC5_INPUTCLK0_PERIOD 3125 DDRMC5_F0_TFAW 15000 DDRMC5_F0_DDR5_TRP 18000 DDRMC5_F0_TRTP 7500 DDRMC5_F0_TRTP_RU 24 DDRMC5_F1_TRTP_RU 24 DDRMC5_F0_TRCD 18000 DDRMC5_TREFI 3906000 DDRMC5_DDR5_TRFC1 0 DDRMC5_DDR5_TRFC2 0 DDRMC5_DDR5_TRFCSB 0 DDRMC5_F0_TRAS 42000 DDRMC5_F0_TZQLAT 30000 DDRMC5_F0_DDR5_TCCD_L_WR 0 DDRMC5_F0_DDR5_TCCD_L_WR_RU 32 DDRMC5_F0_TXP 7500 DDRMC5_F0_DDR5_TPD 0 DDRMC5_DDR5_TREFSBRD 0 DDRMC5_DDR5_TRFC1_DLR 0 DDRMC5_DDR5_TRFC1_DPR 0 DDRMC5_DDR5_TRFC2_DLR 0 DDRMC5_DDR5_TRFC2_DPR 0 DDRMC5_DDR5_TRFCSB_DLR 0 DDRMC5_DDR5_TREFSBRD_SLR 0 DDRMC5_DDR5_TREFSBRD_DLR 0 DDRMC5_F0_CL 64 DDRMC5_F0_CWL 0 DDRMC5_F0_DDR5_TRRD_L 0 DDRMC5_F0_TCCD_L 0 DDRMC5_F0_DDR5_TCCD_L_WR2 0 DDRMC5_F0_DDR5_TCCD_L_WR2_RU 16 DDRMC5_DDR5_TFAW_DLR 0 DDRMC5_F1_TCK 2500 DDRMC5_F1_TFAW 15000 DDRMC5_F1_DDR5_TRP 18000 DDRMC5_F1_TRTP 7500 DDRMC5_F1_TRCD 18000 DDRMC5_F1_TRAS 42000 DDRMC5_F1_TZQLAT 30000 DDRMC5_F1_DDR5_TCCD_L_WR 0 DDRMC5_F1_DDR5_TCCD_L_WR_RU 32 DDRMC5_F1_TXP 7500 DDRMC5_F1_DDR5_TPD 0 DDRMC5_F1_CL 64 DDRMC5_F1_CWL 0 DDRMC5_F1_DDR5_TRRD_L 0 DDRMC5_F1_TCCD_L 0 DDRMC5_F1_DDR5_TCCD_L_WR2 0 DDRMC5_F1_DDR5_TCCD_L_WR2_RU 16 DDRMC5_LP5_TRFCAB 210000 DDRMC5_LP5_TRFCPB 120000 DDRMC5_LP5_TPBR2PBR 90000 DDRMC5_F0_LP5_TRPAB 21000 DDRMC5_F0_LP5_TRPPB 18000 DDRMC5_F0_LP5_TRRD 5000 DDRMC5_LP5_TPBR2ACT 7500 DDRMC5_F0_LP5_TCSPD 12500 DDRMC5_F0_RL 10 DDRMC5_F0_WL 5 DDRMC5_F1_LP5_TRPAB 21000 DDRMC5_F1_LP5_TRPPB 18000 DDRMC5_F1_LP5_TRRD 5000 DDRMC5_F1_LP5_TCSPD 12500 DDRMC5_F1_RL 10 DDRMC5_F1_WL 5 DDRMC5_LP5_TRFMAB 210000 DDRMC5_LP5_TRFMPB 170000 DDRMC5_SYSTEM_CLOCK No_Buffer DDRMC5_UBLAZE_BLI_INTF false DDRMC5_REF_AND_PER_CAL_INTF false DDRMC5_PRE_DEF_ADDR_MAP_SEL ROW_BANK_COLUMN DDRMC5_USER_DEFINED_ADDRESS_MAP None DDRMC5_ADDRESS_MAP NA,NA,NA,NA,NA,NA,NA,NA,NA,RA14,RA13,RA12,RA11,RA10,RA9,RA8,RA7,RA6,RA5,RA4,RA3,RA2,RA1,RA0,BA3,BA2,BA1,BA0,CA5,CA4,CA3,CA2,CA1,CA0,NC,NC,NC,NC,NA,NA DDRMC5_MC0_CONFIG_SEL config13 DDRMC5_MC1_CONFIG_SEL config13_opt DDRMC5_MC2_CONFIG_SEL config13_opt DDRMC5_MC3_CONFIG_SEL config13_opt DDRMC5_MC4_CONFIG_SEL config13_opt DDRMC5_MC5_CONFIG_SEL config13_opt DDRMC5_MC6_CONFIG_SEL config13_opt DDRMC5_MC7_CONFIG_SEL config13_opt DDRMC5_LOW_TRFC_DPR false DDRMC5_NUM_MC 1 DDRMC5_NUM_MCP 1 DDRMC5_MAIN_DEVICE_TYPE Components DDRMC5_INTERLEAVE_SIZE 0 DDRMC5_SILICON_REVISION NA DDRMC5_FPGA_DEVICE_TYPE NON_KSB DDRMC5_SELF_REFRESH DISABLE DDRMC5_LBDQ_SWAP false DDRMC5_CAL_MASK_POLL ENABLE DDRMC5_BOARD_INTRF_EN false"/>
+			</user_parameters>
+		</ip>
+	    </ip_preset> -->
+
+  <ip_preset preset_proc_name="lpddr5_Controller0_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_noc2" version="*">
+      <user_parameters>
+        <user_parameter name="CONFIG.DDR5_DEVICE_TYPE" value="Components" />
+        <user_hier_parameter name="CONFIG.DDRMC5_CONFIG">
+        <user_parameter name="DDRMC5_CONTROLLERTYPE" value="LPDDR5_SDRAM"/>
+        <user_parameter name="DDRMC5_SPEED_GRADE" value="LPDDR5X-8533"/>
+        <user_parameter name="DDRMC5_DRAM_WIDTH" value="x16"/>
+        <user_parameter name="DDRMC5_DATA_WIDTH" value="32"/>
+        <user_parameter name="DDRMC5_ROW_ADDR_WIDTH" value="15"/>
+        <user_parameter name="DDRMC5_NUM_RANKS" value="1"/>
+        <user_parameter name="DDRMC5_DM_EN" value="true"/>
+        <user_parameter name="DDRMC5_WR_DBI" value="true"/>
+        <user_parameter name="DDRMC5_RD_DBI" value="true"/>
+        <user_parameter name="DDRMC5_F0_TCK" value="1016"/>
+        <user_parameter name="DDRMC5_INPUTCLK0_PERIOD" value="3133"/>
+        <user_parameter name="DDRMC5_SYSTEM_CLOCK" value="No_Buffer"/>
+        <user_parameter name="DDRMC5_MC0_CONFIG_SEL" value="config13"/>
+        <user_parameter name="DDRMC5_MC1_CONFIG_SEL" value="config12_opt"/>
+        </user_hier_parameter>
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="lpddr5_Controller1_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_noc2" version="*">
+      <user_parameters>
+        <user_parameter name="CONFIG.DDR5_DEVICE_TYPE" value="Components" />
+        <user_hier_parameter name="CONFIG.DDRMC5_CONFIG">
+        <user_parameter name="DDRMC5_CONTROLLERTYPE" value="LPDDR5_SDRAM"/>
+        <user_parameter name="DDRMC5_SPEED_GRADE" value="LPDDR5X-8533"/>
+        <user_parameter name="DDRMC5_DRAM_WIDTH" value="x16"/>
+        <user_parameter name="DDRMC5_DATA_WIDTH" value="32"/>
+        <user_parameter name="DDRMC5_ROW_ADDR_WIDTH" value="15"/>
+        <user_parameter name="DDRMC5_NUM_RANKS" value="1"/>
+        <user_parameter name="DDRMC5_DM_EN" value="true"/>
+        <user_parameter name="DDRMC5_WR_DBI" value="true"/>
+        <user_parameter name="DDRMC5_RD_DBI" value="true"/>
+        <user_parameter name="DDRMC5_F0_TCK" value="1016"/>
+        <user_parameter name="DDRMC5_INPUTCLK0_PERIOD" value="3133"/>
+        <user_parameter name="DDRMC5_SYSTEM_CLOCK" value="No_Buffer"/>
+        <!--	<user_parameter name="DDRMC5_MC0_CONFIG_SEL" value="config12_opt"/> -->
+         <user_parameter name="DDRMC5_MC1_CONFIG_SEL" value="config12_opt"/>
+        </user_hier_parameter>
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+
+  <ip_preset preset_proc_name="lpddr5_Controller2_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_noc2" version="*">
+      <user_parameters>
+        <user_parameter name="CONFIG.DDR5_DEVICE_TYPE" value="Components" />
+        <user_hier_parameter name="CONFIG.DDRMC5_CONFIG">
+        <user_parameter name="DDRMC5_CONTROLLERTYPE" value="LPDDR5_SDRAM"/>
+        <user_parameter name="DDRMC5_SPEED_GRADE" value="LPDDR5X-8533"/>
+        <user_parameter name="DDRMC5_DRAM_WIDTH" value="x16"/>
+        <user_parameter name="DDRMC5_DATA_WIDTH" value="32"/>
+        <user_parameter name="DDRMC5_ROW_ADDR_WIDTH" value="15"/>
+        <user_parameter name="DDRMC5_NUM_RANKS" value="1"/>
+        <user_parameter name="DDRMC5_DM_EN" value="true"/>
+        <user_parameter name="DDRMC5_WR_DBI" value="true"/>
+        <user_parameter name="DDRMC5_RD_DBI" value="true"/>
+        <user_parameter name="DDRMC5_F0_TCK" value="1016"/>
+        <user_parameter name="DDRMC5_INPUTCLK0_PERIOD" value="3133"/>
+        <user_parameter name="DDRMC5_SYSTEM_CLOCK" value="Differential"/>
+        <user_parameter name="DDRMC5_MC0_CONFIG_SEL" value="config13"/>
+        </user_hier_parameter>
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="lpddr5_Controller34_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_noc2" version="*">
+      <user_parameters>
+        <user_parameter name="CONFIG.DDR5_DEVICE_TYPE" value="Components" />
+        <user_hier_parameter name="CONFIG.DDRMC5_CONFIG">
+        <user_parameter name="DDRMC5_CONTROLLERTYPE" value="LPDDR5_SDRAM"/>
+        <user_parameter name="DDRMC5_SPEED_GRADE" value="LPDDR5X-8533"/>
+        <user_parameter name="DDRMC5_DRAM_WIDTH" value="x16"/>
+        <user_parameter name="DDRMC5_DATA_WIDTH" value="32"/>
+        <user_parameter name="DDRMC5_ROW_ADDR_WIDTH" value="15"/>
+        <user_parameter name="DDRMC5_NUM_RANKS" value="1"/>
+        <user_parameter name="DDRMC5_DM_EN" value="true"/>
+        <user_parameter name="DDRMC5_WR_DBI" value="true"/>
+        <user_parameter name="DDRMC5_RD_DBI" value="true"/>
+        <user_parameter name="DDRMC5_F0_TCK" value="2500"/>
+        <user_parameter name="DDRMC5_INPUTCLK0_PERIOD" value="3125"/>
+        <user_parameter name="DDRMC5_SYSTEM_CLOCK" value="No_Buffer"/>
+        <user_parameter name="DDRMC5_MC0_CONFIG_SEL" value="config13"/>
+       <!--  <user_parameter name="DDRMC5_MC1_CONFIG_SEL" value="config13"/> -->
+        </user_hier_parameter>
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+	<ip_preset preset_proc_name="sysclk0_preset">
+		<ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+			<user_parameters>
+				<user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDS" />
+				<user_parameter name="CONFIG.C_SIZE" value="1" />
+			</user_parameters>
+		</ip>
+	</ip_preset>
+	
+	
+</ip_presets>

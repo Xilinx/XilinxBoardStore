@@ -1,0 +1,35 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "scu35", 
+          "display": "Spartan UltraScale+ SCU35 Evaluation Platform", 
+          "revision": "1.0", 
+          "description": "Spartan UltraScale+ SCU35 Evaluation Platform", 
+          "company": "xilinx.com", 
+          "company_display": "Xilinx", 
+          "author": "Vanitha", 
+          "contributors": [
+            {
+              "group": "Xilinx", 
+              "url": "www.xilinx.com"
+            }
+          ], 
+          "category": "Evaluation Boards",
+          "logo": "scu35_board.jpg",
+          "website": "http://www.xilinx.com/SCU35", 
+          "search-keywords": [
+            "Spartan UltraScale+", 
+            "SCU35", 
+            "xilinx.com", 
+            "board", 
+            "Evaluation Boards"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}
