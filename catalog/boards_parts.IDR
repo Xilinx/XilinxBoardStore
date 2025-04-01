@@ -78,9 +78,6 @@ for instance xc7z010 or xc7a100t
 	<device_rule device="xcvu9p" part="xcvu9p-fsgd2104-2L-e">
 	<dir src="data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525"></dir>
 	</device_rule>
-	<device_rule device="xcve2802" part="xcve2802-vsvh1760-2LP-e-S-es1">
-	<dir src="data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es"></dir>
-	</device_rule>
 	<device_rule device="xcve2802" part="xcve2802-vsvh1760-2MP-e-S">
 	<dir src="data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production"></dir>
 	</device_rule>
@@ -89,9 +86,6 @@ for instance xc7z010 or xc7a100t
 	</device_rule>
 	<device_rule device="xczu21dr" part="xczu21dr-ffvd1156-2L-e">
 	<dir src="data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc"></dir>
-	</device_rule>
-	<device_rule device="xcvh1582" part="xcvh1582-vsva3697-2MP-e-S-es1">
-	<dir src="data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es"></dir>
 	</device_rule>
 	<device_rule device="xcvh1582" part="xcvh1582-vsva3697-2MP-e-S">
 	<dir src="data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production"></dir>
@@ -179,5 +173,11 @@ for instance xc7z010 or xc7a100t
 	</device_rule>
 	<device_rule device="xc2ve3858" part="xc2ve3858-ssva2112-2MP-e-S">
 	<dir src="data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek385"></dir>
+	</device_rule>
+	<device_rule device="xcvr1602" part="xcvr1602-vsva2488-2">
+	<dir src="data/xhub/boards/XilinxBoardStore/boards/Xilinx/vrk160"></dir>
+	</device_rule>
+	<device_rule device="xcvr1652" part="xcvr1652-vsvg1596-2">
+	<dir src="data/xhub/boards/XilinxBoardStore/boards/Xilinx/vrkk165"></dir>
 	</device_rule>
 </idr>
