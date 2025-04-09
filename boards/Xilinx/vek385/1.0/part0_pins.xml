@@ -400,6 +400,22 @@
 		<!--lpddr5_C2_CLK -->
 		<pin index="324" name="lpddr5_clk2_p" iostandard="LVDS12" loc="BA22" />
 		<pin index="325" name="lpddr5_clk2_n" iostandard="LVDS12" loc="BA23" />
+		
+		<pin index="326" name="pl_uart_bank705_tx" iostandard="LVCMOS12" loc="BD11"/>
+		<pin index="327" name="pl_uart_bank705_rx" iostandard="LVCMOS12" loc="BE12"/>
+
+		<pin index="328" name="gpio_pb_0" iostandard="LVCMOS12" loc="BF9"/>
+		<pin index="329" name="gpio_pb_1" iostandard="LVCMOS12" loc="BE18"/>
+	
+		<pin index="330" name="gpio_dp_0" iostandard="LVCMOS12" loc="BF8"/>
+		<pin index="331" name="gpio_dp_1" iostandard="LVCMOS12" loc="BF7"/>
+		<pin index="332" name="gpio_dp_2" iostandard="LVCMOS12" loc="BD16"/>
+		<pin index="333" name="gpio_dp_3" iostandard="LVCMOS12" loc="BE15"/>
+	
+		<pin index="334" name="gpio_led_0" iostandard="LVCMOS12" loc="BF10"/>
+		<pin index="335" name="gpio_led_1" iostandard="LVCMOS12" loc="BF18"/>
+		<pin index="336" name="gpio_led_2" iostandard="LVCMOS12" loc="BF15"/>
+		<pin index="337" name="gpio_led_3" iostandard="LVCMOS12" loc="BF16"/>
 
 	</pins>
 </part_info>
