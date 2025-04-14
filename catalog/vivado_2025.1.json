@@ -7896,11 +7896,11 @@
         "name": "vek385",
         "display": "Versal VEK385 Evaluation Platform",
         "latest_revision": "1.1",
-        "commit_id": "4a2d64d1b907a33348a39cc00d10407ae839841f",
+        "commit_id": "0186652371739f8786e0e967df8e3ee80b6cf663",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "4a2d64d1b907a33348a39cc00d10407ae839841f",
+            "commit_id": "0186652371739f8786e0e967df8e3ee80b6cf663",
             "date": "01-04-2025:13:29:10",
             "history": "Added board Versal VEK385 Evaluation Platform v1.1"
           }
