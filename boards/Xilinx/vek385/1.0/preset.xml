@@ -31,8 +31,6 @@
 				<user_parameter name="MMI_DP_HPD" value="PMC_MIO_48"/>
 				<user_parameter name="MMI_GPU_ENABLE" value="1"/>
 				<user_parameter name="MMI_PCIE0_PERST" value="None"/>
-				<user_parameter name="PL_FPD_IRQ_USAGE" value="{CH0 1 CH1 0 CH2 0 CH3 0 CH4 0 CH5 0 CH6 0 CH7 0}"/>
-				<user_parameter name="PL_LPD_IRQ_USAGE" value="{CH0 1 CH1 0 CH2 0 CH3 0 CH4 0 CH5 0 CH6 0 CH7 0 CH8 0 CH9 0 CH10 0 CH11 0 CH12 0 CH13 0 CH14 0 CH15 0 CH16 0 CH17 0 CH18 0 CH19 0 CH20 0 CH21 0 CH22 0 CH23 0}"/>
 				<user_parameter name="PMC_MIO40" value="{DRIVE_STRENGTH 8mA SLEW slow PULL pullup SCHMITT 0 AUX_IO 0 USAGE GPIO OUTPUT_DATA default DIRECTION in}"/>
 				<user_parameter name="PMC_OSPI_ECC_FAIL_IO" value="PMC_MIO_13"/>
 				<user_parameter name="PMC_OSPI_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_0:13 MODE Single}"/>
@@ -167,8 +165,8 @@
         <user_parameter name="DDRMC5_F0_TCK" value="1016"/>
         <user_parameter name="DDRMC5_INPUTCLK0_PERIOD" value="3133"/>
         <user_parameter name="DDRMC5_SYSTEM_CLOCK" value="No_Buffer"/>
-        <!--	<user_parameter name="DDRMC5_MC0_CONFIG_SEL" value="config12_opt"/> -->
-         <user_parameter name="DDRMC5_MC1_CONFIG_SEL" value="config12_opt"/>
+        <user_parameter name="DDRMC5_MC0_CONFIG_SEL" value="config12_opt"/>
+        <!--  <user_parameter name="DDRMC5_MC1_CONFIG_SEL" value="config12_opt"/> -->
         </user_hier_parameter>
       </user_parameters>
     </ip>

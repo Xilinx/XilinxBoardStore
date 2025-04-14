@@ -712,7 +712,6 @@
 						</port_map>
 					</port_maps>
 				</interface>
-
 		
 				<interface mode="slave" name="lpddr5_clk0_1" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="lpddr5_clk0_1" preset_proc="sysclk0_preset">
 					<parameters>
@@ -943,13 +942,12 @@
 		</connection>
 
 		<connection name="part0_lpddr5_clk34" component1="part0" component2="lpddr5_clk3_4">
-			<connection_map name="part0_lpddr5_clk_34" typical_delay="5" c1_st_index="0" c1_end_index="1" c2_st_index="322" c2_end_index="323" />
+			<connection_map name="part0_lpddr5_clk_34" typical_delay="5" c1_st_index="322" c1_end_index="323" c2_st_index="0" c2_end_index="1" />
 		</connection>
 		
 		<connection name="part0_lpddr5_clk2" component1="part0" component2="lpddr5_clk2">
-			<connection_map name="part0_lpddr5_clk_2" typical_delay="5" c1_st_index="0" c1_end_index="1" c2_st_index="324" c2_end_index="325" />
+			<connection_map name="part0_lpddr5_clk_2" typical_delay="5" c1_st_index="324" c1_end_index="325" c2_st_index="0" c2_end_index="1" />
 		</connection>
-
 
 		<connection name="part0_lpddr5_Controller0" component1="part0" component2="lpddr5_Controller_c0">
 			<connection_map name="part0_lpddr5_c0" typical_delay="5" c1_st_index="2" c1_end_index="65" c2_st_index="0" c2_end_index="63" />
