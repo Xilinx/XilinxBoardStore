@@ -6832,11 +6832,11 @@
         "name": "emb-plus-vpr-4616",
         "display": "Embedded+ Sapphire VPR-4616",
         "latest_revision": "1.0",
-        "commit_id": "4a2d64d1b907a33348a39cc00d10407ae839841f",
+        "commit_id": "85812267900eacf891f903f09c4efe11fb4b1ef7",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "4a2d64d1b907a33348a39cc00d10407ae839841f",
+            "commit_id": "85812267900eacf891f903f09c4efe11fb4b1ef7",
             "date": "01-04-2025:13:29:10",
             "history": "Added board Embedded+ Sapphire VPR-4616 v1.0"
           }
@@ -7895,14 +7895,20 @@
       {
         "name": "vek385",
         "display": "Versal VEK385 Evaluation Platform",
-        "latest_revision": "1.1",
-        "commit_id": "0186652371739f8786e0e967df8e3ee80b6cf663",
+        "latest_revision": "1.0",
+        "commit_id": "85812267900eacf891f903f09c4efe11fb4b1ef7",
         "revisions": [
           {
             "revision": "1.1",
             "commit_id": "0186652371739f8786e0e967df8e3ee80b6cf663",
             "date": "01-04-2025:13:29:10",
             "history": "Added board Versal VEK385 Evaluation Platform v1.1"
+          },
+          {
+            "revision": "1.0",
+            "commit_id": "85812267900eacf891f903f09c4efe11fb4b1ef7",
+            "date": "22-04-2025:16:46:43",
+            "history": "Added board Versal VEK385 Evaluation Platform v1.0"
           }
         ],
         "config": {
@@ -8610,6 +8616,101 @@
         ],
         "config": {
           "root": "boards/Xilinx/zcu670ld/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "k24c",
+        "display": "Kria K24C SOM",
+        "latest_revision": "1.0",
+        "commit_id": "85812267900eacf891f903f09c4efe11fb4b1ef7",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "85812267900eacf891f903f09c4efe11fb4b1ef7",
+            "date": "22-04-2025:16:46:43",
+            "history": "Added board Kria K24C SOM v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/k24c/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "kd240_som",
+        "display": "Kria KD240 Drives Starter Kit SOM",
+        "latest_revision": "1.0",
+        "commit_id": "85812267900eacf891f903f09c4efe11fb4b1ef7",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "85812267900eacf891f903f09c4efe11fb4b1ef7",
+            "date": "22-04-2025:16:46:43",
+            "history": "Added board Kria KD240 Drives Starter Kit SOM v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/kd240_som/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vck190",
+        "display": "Versal VCK190 Evaluation Platform",
+        "latest_revision": "3.3",
+        "commit_id": "85812267900eacf891f903f09c4efe11fb4b1ef7",
+        "revisions": [
+          {
+            "revision": "3.3",
+            "commit_id": "85812267900eacf891f903f09c4efe11fb4b1ef7",
+            "date": "22-04-2025:16:46:43",
+            "history": "Added board Versal VCK190 Evaluation Platform v3.3"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vck190/production/3.4",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vck190_newl",
+        "display": "Versal VCK190 Evaluation Platform with New SD Level Shifter",
+        "latest_revision": "1.2",
+        "commit_id": "85812267900eacf891f903f09c4efe11fb4b1ef7",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "85812267900eacf891f903f09c4efe11fb4b1ef7",
+            "date": "22-04-2025:16:46:43",
+            "history": "Added board Versal VCK190 Evaluation Platform with New SD Level Shifter v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vck190_newl/production/1.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vmk180",
+        "display": "Versal VMK180 Evaluation Platform",
+        "latest_revision": "3.2",
+        "commit_id": "85812267900eacf891f903f09c4efe11fb4b1ef7",
+        "revisions": [
+          {
+            "revision": "3.2",
+            "commit_id": "85812267900eacf891f903f09c4efe11fb4b1ef7",
+            "date": "22-04-2025:16:46:43",
+            "history": "Added board Versal VMK180 Evaluation Platform v3.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vmk180/production/3.3",
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
