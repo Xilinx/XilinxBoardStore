@@ -3,10 +3,10 @@
     "items": [
       {
         "infra": {
-          "name": "vek385", 
-          "display": "Versal VEK385 Evaluation Platform", 
-          "revision": "1.0", 
-          "description": "Versal VEK385 Evaluation Platform", 
+          "name": "vck190_newl", 
+          "display": "Versal VCK190 Evaluation Platform with New SD Level Shifter", 
+          "revision": "1.2", 
+          "description": "Versal VCK190 Evaluation Platform with New SD Level Shifter", 
           "company": "xilinx.com", 
           "company_display": "Xilinx", 
           "author": "skemidi", 
@@ -17,9 +17,9 @@
             }
           ], 
           "category": "Evaluation Boards", 
-          "website": "www.xilinx.com/vek385", 
+          "website": "www.xilinx.com/vck190", 
           "search-keywords": [
-            "vek385", 
+            "vck190_newl", 
             "xilinx.com", 
             "board", 
             "Single Part"

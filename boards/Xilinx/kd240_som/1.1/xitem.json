@@ -3,26 +3,27 @@
     "items": [
       {
         "infra": {
-          "name": "vek385", 
-          "display": "Versal VEK385 Evaluation Platform", 
+          "name": "kd240_som", 
+          "display": "Kria KD240 Drives Starter Kit SOM", 
           "revision": "1.0", 
-          "description": "Versal VEK385 Evaluation Platform", 
+          "description": "Kria KD240 Drives Starter Kit SOM", 
           "company": "xilinx.com", 
           "company_display": "Xilinx", 
-          "author": "skemidi", 
+          "author": "skmeidi", 
           "contributors": [
             {
               "group": "Xilinx", 
               "url": "www.xilinx.com"
             }
           ], 
-          "category": "Evaluation Boards", 
-          "website": "www.xilinx.com/vek385", 
+          "category": "System On Modules(SOM)",
+          "logo": "kd240_board.png",
+          "website": "www.xilinx.com/SOM", 
           "search-keywords": [
-            "vek385", 
+            "SOM", 
             "xilinx.com", 
             "board", 
-            "Single Part"
+            "System On Modules(SOM)"
           ]
         }
       }

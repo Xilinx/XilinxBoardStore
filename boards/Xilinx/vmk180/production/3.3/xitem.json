@@ -3,13 +3,13 @@
     "items": [
       {
         "infra": {
-          "name": "vek385", 
-          "display": "Versal VEK385 Evaluation Platform", 
-          "revision": "1.0", 
-          "description": "Versal VEK385 Evaluation Platform", 
+          "name": "vmk180", 
+          "display": "Versal VMK180 Evaluation Platform", 
+          "revision": "3.2", 
+          "description": "Versal VMK180 Evaluation Platform", 
           "company": "xilinx.com", 
           "company_display": "Xilinx", 
-          "author": "skemidi", 
+          "author": "Vanitha", 
           "contributors": [
             {
               "group": "Xilinx", 
@@ -17,9 +17,9 @@
             }
           ], 
           "category": "Evaluation Boards", 
-          "website": "www.xilinx.com/vek385", 
+          "website": "www.xilinx.com/vmk180", 
           "search-keywords": [
-            "vek385", 
+            "vmk180", 
             "xilinx.com", 
             "board", 
             "Single Part"
