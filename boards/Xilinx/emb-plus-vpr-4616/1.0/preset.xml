@@ -33,7 +33,7 @@
 					
 					<user_hier_parameter name="PMC_MIO12">
 						<user_parameter name="AUX_IO" value="0"/>
-						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="OUTPUT_DATA" value="high"/>
 						<user_parameter name="PULL" value="pullup"/>
 						<user_parameter name="USAGE" value="GPIO"/>
 						<user_parameter name="DRIVE_STRENGTH" value="4mA"/>
@@ -41,7 +41,7 @@
 					</user_hier_parameter>
 					<user_hier_parameter name="PMC_MIO13">
 						<user_parameter name="AUX_IO" value="0"/>
-						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="OUTPUT_DATA" value="high"/>
 						<user_parameter name="PULL" value="pullup"/>
 						<user_parameter name="USAGE" value="GPIO"/>
 						<user_parameter name="DIRECTION" value="out"/>
@@ -84,14 +84,14 @@
 					</user_hier_parameter>
 					<user_hier_parameter name="PMC_MIO31">
 						<user_parameter name="AUX_IO" value="0"/>
-						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="OUTPUT_DATA" value="high"/>
 						<user_parameter name="PULL" value="pullup"/>
 						<user_parameter name="USAGE" value="GPIO"/>
 						<user_parameter name="DIRECTION" value="out"/>
 					</user_hier_parameter>
 					<user_hier_parameter name="PMC_MIO39">
 						<user_parameter name="AUX_IO" value="0"/>
-						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="OUTPUT_DATA" value="high"/>
 						<user_parameter name="PULL" value="pullup"/>
 						<user_parameter name="USAGE" value="GPIO"/>
 						<user_parameter name="DIRECTION" value="out"/>
@@ -106,21 +106,21 @@
 
 					<user_hier_parameter name="PS_MIO0">
 						<user_parameter name="AUX_IO" value="0"/>
-						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="OUTPUT_DATA" value="high"/>
 						<user_parameter name="PULL" value="pullup"/>
 						<user_parameter name="USAGE" value="GPIO"/>
 						<user_parameter name="DIRECTION" value="out"/>
 					</user_hier_parameter>
 					<user_hier_parameter name="PS_MIO1">
 						<user_parameter name="AUX_IO" value="0"/>
-						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="OUTPUT_DATA" value="high"/>
 						<user_parameter name="PULL" value="pullup"/>
 						<user_parameter name="USAGE" value="GPIO"/>
 						<user_parameter name="DIRECTION" value="out"/>
 					</user_hier_parameter>
 					<user_hier_parameter name="PS_MIO2">
 						<user_parameter name="AUX_IO" value="0"/>
-						<!-- <user_parameter name="OUTPUT_DATA" value="high"/> -->
+						<user_parameter name="OUTPUT_DATA" value="high"/>
 						<user_parameter name="PULL" value="pullup"/>
 						<user_parameter name="USAGE" value="GPIO"/>
 						<user_parameter name="DIRECTION" value="out"/>

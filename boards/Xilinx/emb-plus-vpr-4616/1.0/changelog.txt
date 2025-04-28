@@ -1,5 +1,8 @@
 ######### emb-plus-vpr-4616 change log ##############
-1.0 - 2024.1
-Initial support for Embedded+ Sapphire VPR-4616 board
+1.0 
+2024.2_web: Updated PS GPIO Default value to high
+
+2024.1: Initial support for Embedded+ Sapphire VPR-4616 board
+
 
 
