@@ -6832,11 +6832,11 @@
         "name": "emb-plus-vpr-4616",
         "display": "Embedded+ Sapphire VPR-4616",
         "latest_revision": "1.0",
-        "commit_id": "85812267900eacf891f903f09c4efe11fb4b1ef7",
+        "commit_id": "8058ff3eff33c0db982b7f854cafcfdd19219474",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "85812267900eacf891f903f09c4efe11fb4b1ef7",
+            "commit_id": "8058ff3eff33c0db982b7f854cafcfdd19219474",
             "date": "01-04-2025:13:29:10",
             "history": "Added board Embedded+ Sapphire VPR-4616 v1.0"
           }
@@ -8711,6 +8711,25 @@
         ],
         "config": {
           "root": "boards/Xilinx/vmk180/production/3.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "emb-plus-vpr-4616",
+        "display": "Embedded+ Sapphire VPR-4616",
+        "latest_revision": "1.1",
+        "commit_id": "8058ff3eff33c0db982b7f854cafcfdd19219474",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "8058ff3eff33c0db982b7f854cafcfdd19219474",
+            "date": "28-04-2025:10:20:49",
+            "history": "Added board Embedded+ Sapphire VPR-4616 v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/emb-plus-vpr-4616/1.1",
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
