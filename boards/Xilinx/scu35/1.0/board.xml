@@ -10,7 +10,7 @@
  License for the specific language governing permissions and limitations
  under the License. -->
 
-<board schema_version="2.2" vendor="xilinx.com" name="scu35" display_name="Spartan UltraScale+ SCU35 Evaluation Platform" url="www.xilinx.com/SCU35" preset_file="preset.xml" supports_ced="true">
+<board schema_version="2.2" vendor="xilinx.com" name="scu35" display_name="Spartan UltraScale+ SCU35 Evaluation Platform" url="www.xilinx.com/SCU35" preset_file="preset.xml" supports_ced="false">
   <images>
     <image name="scu35_board.jpg" display_name="SCU35 BOARD" sub_type="board">
       <description>SCU35 Board File Image</description>

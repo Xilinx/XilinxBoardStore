@@ -16,13 +16,13 @@
 	<ip vendor="xilinx.com" library="ip" name="ps_wizard" version="*" ip_interface="FIXED_IO">
 		<user_parameters>
 			<user_hier_parameter name="CONFIG.MMI_CONFIG">
-				<user_parameter name="DPDC_PRESENTATION_MODE" value="Non_Live"/>
 				<user_parameter name="MDB5_GT" value="PCIe0_x2_10GbE"/>
-				<user_parameter name="MMI_DP_ENABLE_BEFORE_PL" value="1"/>
 				<user_parameter name="MMI_DP_HPD" value="PMC_MIO_48"/>
 				<user_parameter name="MMI_GPU_ENABLE" value="1"/>
 				<user_parameter name="MMI_PCIE0_PERST" value="None"/>
+				<user_parameter name="MMI_PCIE0_PORT_TYPE" value="Root_Port_of_PCIe_Root_Port_Complex"/>
 				<user_parameter name="MMI_USB3_ENABLE" value="1"/>
+				<user_parameter name="PMC_REF_CLK_FREQMHZ" value="33.333"/>
 				<user_parameter name="PS_GEM_TSU" value="{ENABLE 1 IO PS_MIO_24 IO_TYPE MIO}"/>
 				<user_parameter name="UDH_GT" value="DP_X2_+_USB"/>
 			</user_hier_parameter>
@@ -31,11 +31,14 @@
 				<user_parameter name="MMI_DP_HPD" value="PMC_MIO_48"/>
 				<user_parameter name="MMI_GPU_ENABLE" value="1"/>
 				<user_parameter name="MMI_PCIE0_PERST" value="None"/>
+				<user_parameter name="MMI_PCIE0_PORT_TYPE" value="Root_Port_of_PCIe_Root_Port_Complex"/>
 				<user_parameter name="PMC_MIO40" value="{DRIVE_STRENGTH 8mA SLEW slow PULL pullup SCHMITT 0 AUX_IO 0 USAGE GPIO OUTPUT_DATA default DIRECTION in}"/>
 				<user_parameter name="PMC_OSPI_ECC_FAIL_ENABLE" value="1"/>
 				<user_parameter name="PMC_OSPI_ECC_FAIL_IO" value="PMC_MIO_13"/>
 				<user_parameter name="PMC_OSPI_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_0:13 MODE Single}"/>
+				<user_parameter name="PMC_REF_CLK_FREQMHZ" value="33.333"/>
 				<user_parameter name="PMC_CRP_OSPI_REF_CTRL_FREQMHZ" value="200"/>
+				<user_parameter name="PMC_UFS" value="{CD_ENABLE 0 CD_IO PMC_MIO_26 RSTN_IO PMC_MIO_25 CFGCLK_IO PMC_MIO_24}"/>
 				<user_parameter name="PMC_UFS_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_24:26 IO_TYPE MIO}"/>
 				<user_parameter name="PS_ASU_ENABLE" value="1"/>
 				<user_parameter name="PS_CAN0_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_16:17 IO_TYPE MIO}"/>
@@ -52,16 +55,16 @@
 				<user_parameter name="PS_GEN_IPI2_NOBUF_MASTER" value="R52_0"/>
 				<user_parameter name="PS_GEN_IPI3_ENABLE" value="1"/>
 				<user_parameter name="PS_GEN_IPI3_NOBUF_ENABLE" value="1"/>
-				<user_parameter name="PS_GEN_IPI3_NOBUF_MASTER" value="R52_5"/>
+				<user_parameter name="PS_GEN_IPI3_NOBUF_MASTER" value="R52_6"/>
 				<user_parameter name="PS_GEN_IPI4_ENABLE" value="1"/>
 				<user_parameter name="PS_GEN_IPI4_NOBUF_ENABLE" value="1"/>
-				<user_parameter name="PS_GEN_IPI4_NOBUF_MASTER" value="R52_6"/>
+				<user_parameter name="PS_GEN_IPI4_NOBUF_MASTER" value="R52_7"/>
 				<user_parameter name="PS_GEN_IPI5_ENABLE" value="1"/>
 				<user_parameter name="PS_GEN_IPI5_NOBUF_ENABLE" value="1"/>
-				<user_parameter name="PS_GEN_IPI5_NOBUF_MASTER" value="R52_7"/>
+				<user_parameter name="PS_GEN_IPI5_NOBUF_MASTER" value="R52_8"/>
 				<user_parameter name="PS_GEN_IPI6_ENABLE" value="1"/>
                 <user_parameter name="PS_GEN_IPI6_NOBUF_ENABLE" value="1"/>
-                <user_parameter name="PS_GEN_IPI6_NOBUF_MASTER" value="R52_8"/>
+                <user_parameter name="PS_GEN_IPI6_NOBUF_MASTER" value="R52_9"/>
 				<user_parameter name="PS_I2CSYSMON_PERIPHERAL" value="{ENABLE 0 IO PS_MIO_18:19}"/>
 				<user_parameter name="PS_I3C_I2C0_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_42:43 IO_TYPE MIO TYPE I2C}"/>
 				<user_parameter name="PS_I3C_I2C1_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_44:45 IO_TYPE MIO TYPE I2C}"/>
