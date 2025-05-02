@@ -7383,11 +7383,11 @@
         "name": "scu35",
         "display": "Spartan UltraScale+ SCU35 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "4a2d64d1b907a33348a39cc00d10407ae839841f",
+        "commit_id": "a1b265b220baf4a4166e424583e7f4e1a7ed92dc",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "4a2d64d1b907a33348a39cc00d10407ae839841f",
+            "commit_id": "a1b265b220baf4a4166e424583e7f4e1a7ed92dc",
             "date": "01-04-2025:13:29:10",
             "history": "Added board Spartan UltraScale+ SCU35 Evaluation Platform v1.0"
           }
@@ -7896,7 +7896,7 @@
         "name": "vek385",
         "display": "Versal VEK385 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "85812267900eacf891f903f09c4efe11fb4b1ef7",
+        "commit_id": "a1b265b220baf4a4166e424583e7f4e1a7ed92dc",
         "revisions": [
           {
             "revision": "1.1",
@@ -7906,7 +7906,7 @@
           },
           {
             "revision": "1.0",
-            "commit_id": "85812267900eacf891f903f09c4efe11fb4b1ef7",
+            "commit_id": "a1b265b220baf4a4166e424583e7f4e1a7ed92dc",
             "date": "22-04-2025:16:46:43",
             "history": "Added board Versal VEK385 Evaluation Platform v1.0"
           }
