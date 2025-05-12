@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--   ********************************************************************** -->
-<!--   				    iWave global			      -->
+<!--   				    iWave Systems Technologies 				              -->
 <!--   ********************************************************************** -->
-<!--   SOM Supported	: iG-PRHRZ-R2.0					      -->
-<!--   Date Created  	: 10Feb2025					      -->
+<!--   SOM Supported	: iW-PRHRZ-R1.0										  -->
+<!--   Date Created  	: 10June2024										  -->
 <!--   ********************************************************************** -->
-<board schema_version="2.2" vendor="iwave-global.com" name="iG57M-2302-4L004G-E016G-BEA" display_name="iG57M-2302-4L004G-E016G-BEA" url="https://www.iwavesystems.com/product/versal-ai-edge-system-on-module" preset_file="preset.xml" supports_ced="true">
+<board schema_version="2.2" vendor="iwavesystems.com" name="iW-G57M-2302-4L004G-E016G-BEB" display_name="iW-G57M-2302-4L004G-E016G-BEB" url="https://www.iwavesystems.com/product/versal-ai-edge-system-on-module" preset_file="preset.xml" supports_ced="true">
 	<images>
-		<image name="iG-57M-SOM.jpg" display_name="iG57M-2302-4L004G-E016G-BEA" sub_type="board" resolution="high">
-			<description>iG57M-2302-4L004G-E016G-BEA"</description>
+		<image name="iW-G57M-SOM.jpg" display_name="iW-G57M-2302-4L004G-E016G-BEB" sub_type="board" resolution="high">
+			<description>iW-G57M-2302-4L004G-E016G-BEB"</description>
 		</image>
 	</images>
 	
 	<compatible_board_revisions>
-		<revision id="0">R2.0</revision>
+		<revision id="0">R1.0</revision>
 	</compatible_board_revisions>
 	
-	<file_version>2.0</file_version>
+	<file_version>1.0</file_version>
 	
-	<description>iG57M-2302-4L004G-E016G-BEA</description>
+	<description>iW-G57M-2302-4L004G-E016G-BEB</description>
 	
 	<parameters>
 		<parameter name="heat_sink_type" value="medium" value_type="string" />
@@ -28,7 +28,7 @@
 	<jumpers />
 	<components>
 
-		<component name="part0" display_name="iG57M-2302-4L004G-E016G-BEA" type="fpga" part_name="xcve2302-sfva784-1LP-e-S" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="https://www.iwavesystems.com/product/versal-ai-edge-system-on-module">
+		<component name="part0" display_name="iW-G57M-2302-4L004G-E016G-BEB" type="fpga" part_name="xcve2302-sfva784-1LP-e-S" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="https://www.iwavesystems.com/product/versal-ai-edge-system-on-module">
 			<description>XCVE2302 FPGA</description>
 			<interfaces>
 				<interface mode="master" name="ps_pmc_fixed_io" type="xilinx.com:interface:fixed_io_rtl:1.0" of_component="ps_pmc_fixed_io" preset_proc="ps_pmc_fixed_io_preset">
