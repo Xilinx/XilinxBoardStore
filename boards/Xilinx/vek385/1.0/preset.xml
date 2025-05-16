@@ -23,6 +23,7 @@
 				<user_parameter name="MMI_PCIE0_PORT_TYPE" value="Root_Port_of_PCIe_Root_Port_Complex"/>
 				<user_parameter name="MMI_USB3_ENABLE" value="1"/>
 				<user_parameter name="PMC_REF_CLK_FREQMHZ" value="33.333"/>
+				<user_parameter name="PS_CRL_GEM_TSU_REF_CTRL_FREQMHZ" value="250"/>
 				<user_parameter name="PS_GEM_TSU" value="{ENABLE 1 IO PS_MIO_24 IO_TYPE MIO}"/>
 				<user_parameter name="UDH_GT" value="DP_X2_+_USB"/>
 			</user_hier_parameter>
@@ -48,6 +49,7 @@
 				<user_parameter name="PS_CRL_I3C_I2C0_REF_CTRL_FREQMHZ" value="160"/>
 				<user_parameter name="PS_ENET0_MDIO" value="{ENABLE 1 IO PMC_MIO_50:51 IO_TYPE MIO}"/>
 				<user_parameter name="PS_ENET0_PERIPHERAL" value="{ENABLE 1 IO PS_MIO_0:11 IO_TYPE MIO MODE RGMII}"/>
+				<user_parameter name="PS_CRL_GEM_TSU_REF_CTRL_FREQMHZ" value="250"/>
 				<user_parameter name="PS_GEM_TSU" value="{ENABLE 1 IO PS_MIO_24 IO_TYPE MIO}"/>
 				<user_parameter name="PS_GEN_IPI1_NOBUF_ENABLE" value="1"/>
 				<user_parameter name="PS_GEN_IPI2_ENABLE" value="1"/>
