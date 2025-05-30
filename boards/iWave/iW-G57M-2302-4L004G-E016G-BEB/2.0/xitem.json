@@ -1,0 +1,36 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "iW-G57M-2302-4L004G-E016G-BEB", 
+          "display": "iW-G57M-2302-4L004G-E016G-BEB", 
+          "revision": "R2.0", 
+          "description": "Versal AI Edge 2302-1LPES-E SOM, 2GB  LPDDR4, 16GB eMMC Flash , 256MB QSPI Flash", 
+          "company": "iwavesystems.com", 
+          "company_display": "iWave Systems Technologies", 
+          "author": "iwavesystems.com", 
+          "contributors": [
+            {
+              "group": "iWave Systems Technologies", 
+              "url": "https://www.iwavesystems.com/"
+            }
+          ], 
+          "category": "System on Module", 
+          "website": "https://www.iwavesystems.com/product/versal-ai-edge-system-on-module", 
+          "logo": "iW-G57M-SOM.jpg", 
+          "search-keywords": [
+            "iW-G57M-2302-4L004G-E016G-BEB", 
+            "iwavesystems.com", 
+			"board",
+			"iW-G57M-SOM",
+            "System on Module",
+			"SOM"
+          ]
+        }
+      }
+    ]
+  }, 
+  "_major": 1, 
+  "_minor": 0
+}
