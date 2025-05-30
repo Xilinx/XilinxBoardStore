@@ -6808,6 +6808,63 @@
           "metadata_file": "xitem.json"
         },
         "company": "digilentinc.com"
+      },
+      {
+        "name": "iW_G42M_ZU29_4E008G_E032G_LIE",
+        "display": "iW_G42M_ZU29_4E008G_E032G_LIE",
+        "latest_revision": "3.1",
+        "commit_id": "6cf0a3b099d51331652413bbccfb66690cf1a93b",
+        "revisions": [
+          {
+            "revision": "3.1",
+            "commit_id": "6cf0a3b099d51331652413bbccfb66690cf1a93b",
+            "date": "30-05-2025:05:21:39",
+            "history": "Added board iW_G42M_ZU29_4E008G_E032G_LIE v3.1"
+          }
+        ],
+        "config": {
+          "root": "boards/iWave/iW-G42M-ZU29-4E008G-E032G-LIE/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "iwave-global.com"
+      },
+      {
+        "name": "iW_G42M_ZU49_4E008G_E032G_LIE",
+        "display": "iW_G42M_ZU49_4E008G_E032G_LIE",
+        "latest_revision": "3.0",
+        "commit_id": "6cf0a3b099d51331652413bbccfb66690cf1a93b",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "6cf0a3b099d51331652413bbccfb66690cf1a93b",
+            "date": "30-05-2025:05:21:39",
+            "history": "Added board iW_G42M_ZU49_4E008G_E032G_LIE v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/iWave/iW-G42M-ZU49-4E008G-E032G-LIE/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "iwave-global.com"
+      },
+      {
+        "name": "iW-G57M-2302-4L004G-E016G-BEB",
+        "display": "iW-G57M-2302-4L004G-E016G-BEB",
+        "latest_revision": "R2.0",
+        "commit_id": "6cf0a3b099d51331652413bbccfb66690cf1a93b",
+        "revisions": [
+          {
+            "revision": "R2.0",
+            "commit_id": "6cf0a3b099d51331652413bbccfb66690cf1a93b",
+            "date": "30-05-2025:05:21:39",
+            "history": "Added board iW-G57M-2302-4L004G-E016G-BEB vR2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/iWave/iW-G57M-2302-4L004G-E016G-BEB/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "iwavesystems.com"
       }
     ],
     "categories": [
