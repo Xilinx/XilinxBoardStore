@@ -6865,6 +6865,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "iwavesystems.com"
+      },
+      {
+        "name": "iW-G47M-K19P-4E008G-Q128M-LIF",
+        "display": "iW-G47M-K19P-4E008G-Q128M-LIF",
+        "latest_revision": "3.1",
+        "commit_id": "d7656597fcd7bf1d93ed54f617e311c20a01c9a7",
+        "revisions": [
+          {
+            "revision": "3.1",
+            "commit_id": "d7656597fcd7bf1d93ed54f617e311c20a01c9a7",
+            "date": "30-05-2025:16:54:32",
+            "history": "Added board iW-G47M-K19P-4E008G-Q128M-LIF v3.1"
+          }
+        ],
+        "config": {
+          "root": "boards/iWave/iW-G47M-K19P-4E008G-Q128M-LIF/1.0/3.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "iwavesystems.com"
       }
     ],
     "categories": [
