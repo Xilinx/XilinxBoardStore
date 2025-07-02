@@ -1,0 +1,96 @@
+<!--
+   Version 2.2
+   Change Log:
+   7/22/2019 - initial creation of this DTD.
+   8/13/2020 - add support for design_constrs: dci_cascade and internal_vref.
+-->
+
+<!--
+   @title Definition of the part0_pins.xml file used in a Vivado board definition. Lists
+   the pin names of the Xilinx device, or "fpga" type component, and defines the 
+   IOSTANDARDs and package pin locations for these component pins.
+
+   Each board file has a specific DOCTYPE declaration with a specific root element. 
+   Please ensure that the same syntax is followed while declaring the
+   DOCTYPE in your XML files.
+
+   For part0_pins.xml file the correct syntax is:
+     <!DOCTYPE part_info SYSTEM "path_to_corresponding_dtd_file">
+
+   @root part_info
+-->
+
+<!-- A part_info element should have one or more pins element as it's children. -->
+<!ELEMENT part_info ( pins+, design_constrs? ) >
+  <!-- @attr part_name Part identifier.  -->
+  <!ATTLIST part_info part_name NMTOKEN #IMPLIED >
+  <!-- A pins element should have one or more pin element as it's children. -->
+  <!ELEMENT pins ( pin+ ) >
+    <!-- A pin element defines a single pin, it has no children. -->
+    <!ELEMENT pin EMPTY >
+      <!-- @attr pin The component pin name on the Xilinx devices, used in the board 
+           interface file. Example: GPIO_DIP_SW2 -->
+      <!ATTLIST pin name  NMTOKEN #REQUIRED >
+      <!-- @attr pin An index assigned to the pin object in the Pin Map File. Example: 0 -->
+      <!ATTLIST pin index  CDATA #REQUIRED >
+      <!-- @attr  pin A valid IOSTANDARD for the Xilinx device pin, as defined 
+       by the board designer. Valid values include IOSTANDARDs supported by the
+       Vivado Design Suite for the specific component pin. Example: LVCMOS25 -->
+      <!ATTLIST pin iostandard  CDATA #IMPLIED >
+      <!-- @attr pin The pin location on the Xilinx device package. Example: Y29 -->
+      <!ATTLIST pin loc  CDATA #REQUIRED >
+      <!-- @attr pin  -->
+      <!ATTLIST pin drive  CDATA #IMPLIED >
+      <!-- @attr pin  -->
+      <!ATTLIST pin slew  CDATA #IMPLIED >
+      <!-- @attr pin  -->
+      <!ATTLIST pin diff_term  CDATA #IMPLIED >
+      <!-- @attr pin  -->
+      <!ATTLIST pin output_impedance  CDATA #IMPLIED >
+      <!-- @attr pin  -->
+      <!ATTLIST pin ibuf_low_pwr  CDATA #IMPLIED >
+      <!-- @ attr pin  -->
+      <!ATTLIST pin odt  CDATA #IMPLIED >
+      <!-- @attr pin  -->
+      <!ATTLIST pin equalization  CDATA #IMPLIED >
+      <!-- @attr pin  -->
+      <!ATTLIST pin pre_emphasis  CDATA #IMPLIED >
+      <!-- @attr pin  -->
+      <!ATTLIST pin dqs_bias  CDATA #IMPLIED >
+      <!-- @attr pin  -->
+      <!ATTLIST pin delay_value  CDATA #IMPLIED >
+      <!-- @attr pin  -->
+      <!ATTLIST pin iobdelay  CDATA #IMPLIED >
+      <!-- @attr pin  -->
+      <!ATTLIST pin lvds_pre_emphasis  CDATA #IMPLIED >
+      <!-- @attr pin  -->
+      <!ATTLIST pin pull_type  CDATA #IMPLIED >
+      <!-- @attr pin  -->
+      <!ATTLIST pin voh  CDATA #IMPLIED >
+      <!-- @attr pin  -->
+      <!ATTLIST pin iobank.internal_vref  CDATA #IMPLIED >
+      <!-- @attr pin  -->
+      <!ATTLIST pin iobank.dci_cascade  CDATA #IMPLIED >
+      <!-- @attr pin  -->
+      <!ATTLIST pin pcb_min_delay  CDATA #IMPLIED >
+      <!-- @attr pin  -->
+      <!ATTLIST pin pcb_max_delay  CDATA #IMPLIED >
+
+  <!-- A design_constrs element encloses one or more design constraint elements
+       (eiher dci_cascade or internal_vref). -->
+  <!ELEMENT design_constrs ( dci_cascade | internal_vref )+>
+    <!-- A dci_cascade represents a DCI_CASCADE constraint on io banks.  
+         It requires a master bank id and a list of slave bank IDs. -->
+    <!ELEMENT dci_cascade EMPTY>
+      <!-- @attr The integer bank id for the master bank of the dci_cascade. -->
+      <!ATTLIST dci_cascade master_bank_id CDATA #REQUIRED>
+      <!-- @attr A comma-separated sequence of integer bank ids for
+           slave banks of the dci_cascade. -->
+      <!ATTLIST dci_cascade slave_bank_ids CDATA #REQUIRED>
+    <!-- An internal_vref represents an INTERNAL_VREF constraint on io banks.  
+         It requires an integer bank id and a voltage. -->
+    <!ELEMENT internal_vref EMPTY>
+      <!-- @attr The integer bank id for the internal_vref's bank. -->
+      <!ATTLIST internal_vref bank_id CDATA #REQUIRED>
+      <!-- @attr The floating point VREF voltage for the internal_vref. -->
+      <!ATTLIST internal_vref voltage CDATA #REQUIRED>
