@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<!-- ********************************************************************** -->
+<!-- 				    iWave Systems Technologies 				            -->
+<!-- ********************************************************************** -->
+<!-- SOM Supported	: iW-PRIHZ-R1.0											-->
+<!-- Date Created	: 03Jan2025												-->
+<!-- ********************************************************************** -->
+
+<part_info part_name="xczu15eg-ffvc900-2-i">
+	<pins>
+		<!-- ********************************************************************** -->
+		<!-- 				    			DDR4 Pins 					            -->
+		<!-- ********************************************************************** -->
+		<!-- Address Bus -->
+		<pin index="0" 	name ="ddr4_adr0" 		loc="U6"/>
+		<pin index="1" 	name ="ddr4_adr1" 		loc="U7"/>
+		<pin index="2" 	name ="ddr4_adr2" 		loc="U4"/>
+		<pin index="3" 	name ="ddr4_adr3" 		loc="U5"/>
+		<pin index="4" 	name ="ddr4_adr4" 		loc="W4"/>
+		<pin index="5" 	name ="ddr4_adr5" 		loc="V4"/>
+		<pin index="6" 	name ="ddr4_adr6" 		loc="Y5"/>
+		<pin index="7" 	name ="ddr4_adr7" 		loc="W5"/>
+		<pin index="8" 	name ="ddr4_adr8" 		loc="U1"/>
+		<pin index="9" 	name ="ddr4_adr9" 		loc="T1"/>
+		<pin index="10" name ="ddr4_adr10" 		loc="U3"/>
+		<pin index="11" name ="ddr4_adr11" 		loc="U2"/>
+		<pin index="12" name ="ddr4_adr12" 		loc="V1"/>
+		<pin index="13" name ="ddr4_adr13" 		loc="V2"/>
+		<pin index="14" name ="ddr4_adr14" 		loc="W1"/>
+		<pin index="15" name ="ddr4_adr15" 		loc="W2"/>
+		<pin index="16" name ="ddr4_adr16" 		loc="Y1"/>
+		<!-- Bank Address -->
+		<pin index="17" name ="ddr4_ba0"  		loc="T10"/>
+		<pin index="18" name ="ddr4_ba1"  		loc="V8"/>
+		<!-- Bank Group -->
+		<pin index="19" name ="ddr4_bg"   		loc="Y2"/>
+		<!-- Differential Clock Input -->
+		<pin index="20" name ="ddr4_ck_c"  		loc="V6"/>
+		<pin index="21" name ="ddr4_ck_t"  		loc="V7"/>
+		<!-- Clock Enable -->
+		<pin index="22" name ="ddr4_cke"   		loc="N11"/>
+		<!-- Chip Select -->
+		<pin index="23" name ="ddr4_cs_n"  		loc="Y3"/>
+		<!-- Data Mask -->
+		<pin index="24" name ="ddr4_dm_n0" 		loc="R10"/>
+		<pin index="25" name ="ddr4_dm_n1" 		loc="U8"/>
+		<!-- Data Bus -->
+		<pin index="26" name ="ddr4_dq0"  		loc="K10"/>
+		<pin index="27" name ="ddr4_dq1"  		loc="L10"/>
+		<pin index="28" name ="ddr4_dq2"  		loc="L11"/>
+		<pin index="29" name ="ddr4_dq3"  		loc="L12"/>
+		<pin index="30" name ="ddr4_dq4"  		loc="M12"/>
+		<pin index="31" name ="ddr4_dq5"  		loc="N12"/>
+		<pin index="32" name ="ddr4_dq6"  		loc="P10"/>
+		<pin index="33" name ="ddr4_dq7"  		loc="P11"/>
+		<pin index="34" name ="ddr4_dq8"  		loc="U10"/>
+		<pin index="35" name ="ddr4_dq9"  		loc="T11"/>
+		<pin index="36" name ="ddr4_dq10" 		loc="V9"/>
+		<pin index="37" name ="ddr4_dq11" 		loc="U9"/>
+		<pin index="38" name ="ddr4_dq12" 		loc="V11"/>
+		<pin index="39" name ="ddr4_dq13" 		loc="U11"/>
+		<pin index="40" name ="ddr4_dq14" 		loc="Y8"/>
+		<pin index="41" name ="ddr4_dq15" 		loc="Y9"/>
+		<!-- Differential Data Strode -->
+		<pin index="42" name ="ddr4_dqs_t0"  	loc="N10"/>
+		<pin index="43" name ="ddr4_dqs_t1"  	loc="W11"/>
+		<pin index="44" name ="ddr4_dqs_c0"  	loc="M10"/>
+		<pin index="45" name ="ddr4_dqs_c1"  	loc="W10"/>
+		<!-- On Die Termination -->
+		<pin index="46" name ="ddr4_odt" 		loc="Y7"/>
+		<!-- Activate Command Input -->
+		<pin index="47" name ="ddr4_act_n" 		loc="Y10"/>
+		<!-- Reset -->
+		<pin index="48" name ="ddr4_reset_n" 	loc="AE8" iostandard="LVCMOS18"/>
+		<!-- Reference Clock -->
+		<pin index="49" name ="ddr4_sysclk_clk_p" 	loc="W7"/>
+		<pin index="50" name ="ddr4_sysclk_clk_n"	loc="W6"/>	  
+	</pins>
+</part_info>
