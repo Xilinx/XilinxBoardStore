@@ -8733,6 +8733,44 @@
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
+      },
+      {
+        "name": "vrk160",
+        "display": "Versal VRK160 Evaluation Platform",
+        "latest_revision": "1.1",
+        "commit_id": "8a28ad4a89d6cede1d5840144484f8730cf8b565",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "8a28ad4a89d6cede1d5840144484f8730cf8b565",
+            "date": "15-07-2025:16:12:42",
+            "history": "Added board Versal VRK160 Evaluation Platform v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vrk160/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vrk165",
+        "display": "Versal VRK165 Evaluation Platform",
+        "latest_revision": "1.1",
+        "commit_id": "8a28ad4a89d6cede1d5840144484f8730cf8b565",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "8a28ad4a89d6cede1d5840144484f8730cf8b565",
+            "date": "15-07-2025:16:12:42",
+            "history": "Added board Versal VRK165 Evaluation Platform v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vrk165/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
       }
     ],
     "categories": [
