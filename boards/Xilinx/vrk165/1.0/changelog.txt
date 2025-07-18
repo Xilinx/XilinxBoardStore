@@ -1,4 +1,4 @@
-######### VRK160 change log ##############
+######### VRK165 change log ##############
 1.0 (2025.1.1)
 Initial support for VRK165 ES1 Evaluation Platform 
 
