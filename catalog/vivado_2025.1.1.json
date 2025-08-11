@@ -7440,11 +7440,11 @@
         "name": "v80",
         "display": "Alveo V80 Compute Accelerator Card",
         "latest_revision": "1.0",
-        "commit_id": "4a2d64d1b907a33348a39cc00d10407ae839841f",
+        "commit_id": "12fa6d11525b5859c020b5f5d12c2fa358e7d9b8",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "4a2d64d1b907a33348a39cc00d10407ae839841f",
+            "commit_id": "12fa6d11525b5859c020b5f5d12c2fa358e7d9b8",
             "date": "01-04-2025:13:29:10",
             "history": "Added board Alveo V80 Compute Accelerator Card v1.0"
           }
