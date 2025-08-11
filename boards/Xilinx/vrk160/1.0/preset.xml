@@ -71,6 +71,31 @@
     </ip>
   </ip_preset>
 
+  <ip_preset preset_proc_name="lpddr5_Controller01_preset_int">
+    <ip vendor="xilinx.com" library="ip" name="axi_noc2" version="*">
+      <user_parameters>
+        <user_parameter name="CONFIG.DDR5_DEVICE_TYPE" value="Components" />
+        <user_hier_parameter name="CONFIG.DDRMC5_CONFIG">
+        <user_parameter name="DDRMC5_CONTROLLERTYPE" value="LPDDR5_SDRAM"/>
+        <user_parameter name="DDRMC5_SPEED_GRADE" value="LPDDR5X-8533"/>
+        <user_parameter name="DDRMC5_NUM_CH" value="2"/>
+		<user_parameter name="DDRMC5_DRAM_WIDTH" value="x16"/>
+		<user_parameter name="DDRMC5_DATA_WIDTH" value="16"/>
+        <user_parameter name="DDRMC5_ROW_ADDR_WIDTH" value="16"/>
+        <user_parameter name="DDRMC5_NUM_RANKS" value="1"/>
+        <user_parameter name="DDRMC5_DM_EN" value="true"/>
+        <user_parameter name="DDRMC5_WR_DBI" value="true"/>
+        <user_parameter name="DDRMC5_RD_DBI" value="true"/>
+        <user_parameter name="DDRMC5_F0_TCK" value="952"/>
+        <user_parameter name="DDRMC5_INPUTCLK0_PERIOD" value="4998"/>
+        <user_parameter name="DDRMC5_SYSTEM_CLOCK" value="Internal"/>
+        <user_parameter name="DDRMC5_MC0_CONFIG_SEL" value="config9"/>
+        <user_parameter name="DDRMC5_MC1_CONFIG_SEL" value="config9"/>
+        </user_hier_parameter>
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
   <ip_preset preset_proc_name="lpddr5_Controller23_preset">
     <ip vendor="xilinx.com" library="ip" name="axi_noc2" version="*">
       <user_parameters>
