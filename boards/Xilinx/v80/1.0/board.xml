@@ -39,9 +39,7 @@
     <component name="part0" display_name="V80 FPGA" type="fpga" part_name="xcv80-lsva4737-2MHP-e-S" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="http://www.xilinx.com/Alveo">
       <description>V80 FPGA</description>
 
-
     <interfaces>
-  
 
         <interface mode="master" name="ps_pmc_fixed_io" type="xilinx.com:interface:fixed_io_rtl:1.0" of_component="ps_pmc_fixed_io" preset_proc="ps_pmc_fixed_io_preset"> 
             <parameters>
@@ -55,7 +53,6 @@
 		  </port_maps>
         </interface>  
 		
- 
         <interface mode="master" name="ddr4_sdram_c0" type="xilinx.com:interface:ddr4_rtl:1.0" of_component="ddr4_sdram_c0" preset_proc="ddr4_c0_preset">
             <description>DDR4 board interface, it can use DDR4 IP for connection. </description>
             <parameters>
@@ -282,7 +279,6 @@
 				
             </port_maps>
         </interface> 
-		
 		
          <interface mode="master" name="ddr4_sdram_c1" type="xilinx.com:interface:ddr4_rtl:1.0" of_component="ddr4_sdram_c1" preset_proc="ddr4_c1_preset">
 			<description>DDR4 board interface, it can use DDR4 IP for connection. </description>
@@ -544,7 +540,6 @@
           </port_maps>
         </interface>
 		
-
 		<interface mode="slave" name="ddr4_c1_sysclk" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="ddr4_c1_sysclk" preset_proc="sysclk0_preset">
 		  <parameters>
             <parameter name="frequency" value="200000000"/>
@@ -574,21 +569,16 @@
     
     </component>   
 	
-	
-<!-- 	<component name="ps_pmc_fixed_io" display_name="PS-PMC Fixed IO" type="chip" sub_type="fixed_io" major_group="MIO interface" part_name="Versal CIPS" vendor="Xilinx" >
-      <description>Versal CIPS component </description>
+	<component name="ps_pmc_fixed_io" display_name="PS-PMC Fixed IO" type="chip" sub_type="fixed_io" major_group="MIO interface" part_name="Versal CIPS" vendor="Xilinx">
+		<description>Versal CIPS component</description>
+		<component_modes>
+			<component_mode name="ps_pmc_fixed_io" display_name="ps_pmc_fixed_io">
+				<interfaces>
+					<interface name="ps_pmc_fixed_io" />
+				</interfaces>
+			</component_mode>
+		</component_modes>
 	</component>
-	 -->
-		<component name="ps_pmc_fixed_io" display_name="PS-PMC Fixed IO" type="chip" sub_type="fixed_io" major_group="MIO interface" part_name="Versal CIPS" vendor="Xilinx">
-			<description>Versal CIPS component</description>
-			<component_modes>
-				<component_mode name="ps_pmc_fixed_io" display_name="ps_pmc_fixed_io">
-					<interfaces>
-						<interface name="ps_pmc_fixed_io" />
-					</interfaces>
-				</component_mode>
-			</component_modes>
-		</component>
 	
 	<component name="ddr4_sdram_c0" display_name="DDR4 SDRAM C0 COMPONENTS" type="chip" sub_type="ddr" major_group="External Memory" part_name="MT40A512M16TB-062E:R" vendor="Micron" spec_url="https://www.micron.com/">
       <description>4GB DDR4 SDRAM memory C0</description>
@@ -608,7 +598,7 @@
 	</component>  
 	
 	<component name="ddr4_sdram_c1" display_name="DDR4 SDRAM C1 RDIMMS" type="chip" sub_type="ddr" major_group="External Memory" part_name="MTA18ASF4G72PZ-3G2F1" vendor="Micron" spec_url="https://www.micron.com/">
-      <description>4GB DDR4 SDRAM memory C1</description>
+      <description>32GB DDR4 SDRAM memory C1</description>
       <parameters>
         <parameter name="ddr_type" value="ddr4"/>
         <parameter name="size" value="32GB"/>
@@ -624,14 +614,14 @@
 	  </component_modes>
 	</component> 
 	
-	<component name="ddr4_c0_sysclk" display_name="ddr4_c0_sysclk" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="Si5332ED10480-GM1" vendor="Silicon Labs" spec_url="www.silabs.com">
+	<component name="ddr4_c0_sysclk" display_name="ddr4_c0_sysclk" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="SiT95141" vendor="SiTime" spec_url="www.sitime.com">
       <description>1.2V LVDS differential 200 MHz oscillator used for DDR4 Controller</description>
       <parameters>
         <parameter name="frequency" value="200000000"/>
       </parameters>
     </component>
 	
-	<component name="ddr4_c1_sysclk" display_name="ddr4_c1_sysclk" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="Si5332ED10480-GM1" vendor="Silicon Labs" spec_url="www.silabs.com">
+	<component name="ddr4_c1_sysclk" display_name="ddr4_c1_sysclk" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="SiT95141" vendor="SiTime" spec_url="www.sitime.com">
       <description>1.2V LVDS differential 200 MHz oscillator used for DDR4 Controller</description>
       <parameters>
         <parameter name="frequency" value="200000000"/>
