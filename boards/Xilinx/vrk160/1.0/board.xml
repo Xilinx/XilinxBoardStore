@@ -9,10 +9,10 @@
  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
  License for the specific language governing permissions and limitations
  under the License. -->
-<board schema_version="2.2" vendor="xilinx.com" name="vrk160" display_name="VRK160 ES1  Evaluation Platform" url="http://www.xilinx.com/vrk160" preset_file="preset.xml" supports_ced="true">
+<board schema_version="2.2" vendor="xilinx.com" name="vrk160" display_name="VRK160 ES1 Evaluation Platform" url="http://www.xilinx.com/vrk160" preset_file="preset.xml" supports_ced="true">
 	<images>
-		<image name="vrk160_image.jpg" display_name="VRK160 ES1  Evaluation Platform" sub_type="board" resolution="high">
-			<description>VRK160 ES1  Evaluation Platform</description>
+		<image name="vrk160_image.jpg" display_name="VRK160 ES1 Evaluation Platform" sub_type="board" resolution="high">
+			<description>VRK160 ES1 Evaluation Platform</description>
 		</image>
 	</images>
 	
@@ -22,7 +22,7 @@
 	
 	<file_version>1.0</file_version>
 	
-	<description>VRK160 ES1  Evaluation Platform</description>
+	<description>VRK160 ES1 Evaluation Platform</description>
 	
 	<parameters>
 		<parameter name="heat_sink_type" value="medium" value_type="string" />
