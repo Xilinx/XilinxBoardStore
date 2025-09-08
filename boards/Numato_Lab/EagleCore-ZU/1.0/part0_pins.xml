@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<part_info part_name="xczu3tcg-sfvc784-1-i">
+<pins>
+  <pin index="0" name ="clk" iostandard="LVCMOS33" loc="D4"/>
+  <pin index="4" name ="leds_rgb_tri_o_0" iostandard="LVCMOS33" loc="AF13"/>
+  <pin index="5" name ="leds_rgb_tri_o_1" iostandard="LVCMOS33" loc="AD15"/>
+  <pin index="6" name ="leds_rgb_tri_o_2" iostandard="LVCMOS33" loc="AD14"/>
+</pins>
+</part_info>
+
+<!DOCTYPE part_info SYSTEM "part0_pins.dtd" <!-- for part0_pins.xml -->
