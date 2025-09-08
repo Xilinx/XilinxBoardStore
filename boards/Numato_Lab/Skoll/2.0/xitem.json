@@ -1,0 +1,34 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "Skoll",
+          "display": "Skoll",
+          "revision": "1.0",
+          "description": "Skoll Kintex7 Board ",
+          "company": "numato.com",
+          "company_display": "Numato lab",
+          "author": "Akash",
+          "contributors": [
+            {
+              "group": "Numato Lab",
+              "url": "www.numato.com/"
+            }
+          ],
+          "category": "Single Part",
+          "website": "https://numato.com/product/skoll-xilinx-kintex-7-usb-ready-to-go-fpga-module/", 
+          "logo": "",
+          "search-keywords": [
+            "Skoll Kintex7 Board",
+            "numato.com",
+            "Numato lab"
+            
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

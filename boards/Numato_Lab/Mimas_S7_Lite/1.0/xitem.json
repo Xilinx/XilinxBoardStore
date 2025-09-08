@@ -1,0 +1,34 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "Mimas_S7_Lite",
+          "display": "Mimas_S7_Lite",
+          "revision": "1.0",
+          "description": "Mimas_S7_Lite",
+          "company": "numato.com",
+          "company_display": "Numato lab",
+          "author": "Akash",
+          "contributors": [
+            {
+              "group": "Numato Lab",
+              "url": "www.numato.com/"
+            }
+          ],
+          "category": "Single Part",
+          "website": "https://numato.com/product/mimas-s7-lite/", 
+          "logo": "",
+          "search-keywords": [
+            "Mimas_S7_Lite",
+            "numato.com",
+            "Numato lab"
+            
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<board schema_version="2.0" vendor="numato.com" name="Eaglecore_ZU" display_name="EagleCore ZU-Plus development Kit" url="http://www.numato.com" preset_file="preset.xml">
+<images>
+    <image name="Eaglecore_ZU.png" display_name="EagleCore ZU-Plus" sub_type="board">
+      <description>EagleCore ZU-Plus development Kit File Image</description>
+    </image>
+</images>
+
+  <compatible_board_revisions>
+    <revision id="0">1.0</revision>
+  </compatible_board_revisions>
+
+  <file_version>1.0</file_version>
+  
+  <description>EagleCore_ZU_Plus</description>
+
+  <components>
+    <component name="part0" display_name="EagleCore ZU" type="fpga" part_name="xczu3tcg-sfvc784-1-i" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="http://www.numato.com">
+      <description>FPGA part on the board</description>
+      <interfaces>
+
+        <interface mode="master" name="ps8_fixedio" type="xilinx.com:zynq_ultra_ps_e:fixedio_rtl:1.0" of_component="ps8_fixedio" preset_proc="zynq_ultra_ps_e_preset"> 
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="zynq_ultra_ps_e" order="0"/>
+          </preferred_ips>
+        </interface>
+		
+		<interface mode="slave" name="sys_clock" type="xilinx.com:signal:clock_rtl:1.0" of_component="sys_clock" preset_proc="sys_clock_preset">
+        <parameters>
+          <parameter name="frequency" value="100000000"/>
+        </parameters>
+        <preferred_ips>
+          <preferred_ip vendor="xilinx.com" library="ip" name="clk_wiz" order="0"/>
+        </preferred_ips>
+		<port_maps>
+          <port_map logical_port="clk" physical_port="clk" dir="in">
+            <pin_maps>
+              <pin_map port_index="0" component_pin="clk"/> 
+            </pin_maps>
+          </port_map>
+        </port_maps>
+        <parameters>
+          <parameter name="frequency" value="100000000" />
+       </parameters>
+      </interface>
+	  
+	  <interface mode="master" name="leds_RGB" type="xilinx.com:interface:gpio_rtl:1.0" of_component="leds_rgb" preset_proc="leds_rgb_preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_O" physical_port="leds_rgb_tri_o" dir="out" left="2" right="0"> 
+              <pin_maps>
+                <pin_map port_index="0" component_pin="leds_rgb_tri_o_0"/> 
+                <pin_map port_index="1" component_pin="leds_rgb_tri_o_1"/> 
+                <pin_map port_index="2" component_pin="leds_rgb_tri_o_2"/> 
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+		
+    </interfaces>
+    </component>
+	
+    <component name="ps8_fixedio" display_name="PS8 fixed IO" type="chip" sub_type="fixed_io" major_group=""/>
+	
+	<component name="sys_clock" display_name="System Clock" type="chip" sub_type="system_clock" major_group="Clocks">
+	<description>3.3V Single-Ended 50MHz oscillator used as system clock on the board</description>
+    </component>
+	
+	<component name="leds_rgb" display_name="RGB LED" type="chip" sub_type="led" major_group="General Purpose Input or Output">
+      <description>LEDs, 2 to 0, Active High</description>
+    </component>
+  
+  </components>
+
+
+  <jtag_chains>
+    <jtag_chain name="chain1">
+      <position name="0" component="part0"/>
+    </jtag_chain>
+  </jtag_chains>
+
+  <connections>
+  
+  <connection name="part0_sys_clock" component1="part0" component2="sys_clock">
+    <connection_map name="part0_sys_clock_1" c1_st_index="0" c1_end_index="0" c2_st_index="0" c2_end_index="0"/>
+  </connection>
+  
+  <connection name="part0_leds_rgb" component1="part0" component2="leds_rgb">
+    <connection_map name="part0_leds_rgb_1" c1_st_index="4" c1_end_index="7" c2_st_index="0" c2_end_index="3"/>
+  </connection>
+  
+  </connections>
+
+</board>
+

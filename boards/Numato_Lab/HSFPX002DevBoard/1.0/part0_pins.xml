@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<part_info part_name="xc7a200tfbg676-2">
+<pins>
+  <pin index="0" name ="clk" iostandard="LVCMOS33" loc="M21"/>
+  <pin index="1" name ="bicolor_led_0" iostandard="LVCMOS33" loc="K18"/>
+  <pin index="2" name ="bicolor_led_1" iostandard="LVCMOS33" loc="L19"/>
+</pins>
+</part_info>

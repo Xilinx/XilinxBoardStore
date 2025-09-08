@@ -1,0 +1,35 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "Aller",
+          "display": "Aller Artix7 BOARD",
+          "revision": "1.0",
+          "description": "Aller Artix7 Board",
+          "company": "numato.com",
+          "company_display": "Numato lab",
+          "author": "Akash",
+          "contributors": [
+            {
+              "group": "Numato Lab",
+              "url": "www.numato.com/"
+            }
+          ],
+          "category": "Single Part",
+          "website": "https://numato.com/product/aller-artix-7-fpga-board-with-m-2-interface/", 
+          "logo": "",
+          "search-keywords": [
+            "Aller",
+            "numato.com",
+            "xc7a100tfgg484-1",
+            "Numato lab"
+            
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

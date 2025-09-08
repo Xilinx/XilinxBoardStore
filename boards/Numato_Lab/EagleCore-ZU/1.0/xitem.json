@@ -1,0 +1,35 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "Eaglecore_ZU",
+          "display": "EagleCore ZU-Plus development Kit",
+          "revision": "1.0",
+          "description": "EagleCore ZU-Plus development Kit",
+          "company": "numato.com",
+          "company_display": "Numato lab",
+          "author": "Akash",
+          "contributors": [
+            {
+              "group": "Numato Lab",
+              "url": "www.numato.com/"
+            }
+          ],
+          "category": "Single Part",
+          "website": "https://numato.com/product/eaglecore-zu-plus-mpsoc-som/", 
+          "logo": "",
+          "search-keywords": [
+            "Eaglecore_ZU",
+            "numato.com",
+            "xczu3tcg-sfvc784-1-i",
+            "Numato lab"
+            
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

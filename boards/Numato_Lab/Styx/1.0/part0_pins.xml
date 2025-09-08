@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<part_info part_name="xc7z020clg484-1">
+<pins>
+  <pin index="0" name ="clk" iostandard="LVCMOS33" loc="Y6"/>
+  <pin index="1" name ="styx_uart_txd" iostandard="LVCMOS33" loc="T21"/>
+  <pin index="2" name ="styx_uart_rxd" iostandard="LVCMOS33" loc="T22"/>
+ 
+</pins>
+</part_info>

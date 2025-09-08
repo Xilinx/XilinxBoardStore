@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<part_info part_name="xc7a200tfbg484-2">
+<pins>
+  <pin index="0" name ="clk" iostandard="LVCMOS33" loc="W19"/>
+  <pin index="1" name ="rgb_led_0" iostandard="LVCMOS33" loc="AB21"/>
+  <pin index="2" name ="rgb_led_1" iostandard="LVCMOS33" loc="AB22"/>
+  <pin index="3" name ="rgb_led_2" iostandard="LVCMOS33" loc="U20"/>
+  <pin index="4" name ="tpm_mosi" iostandard="LVCMOS33" loc="Y19"/>
+  <pin index="5" name ="tpm_miso" iostandard="LVCMOS33" loc="V18"/>
+  <pin index="6" name ="tpm_sclk" iostandard="LVCMOS33" loc="W20"/>
+  <pin index="7" name ="tpm_ss" iostandard="LVCMOS33" loc="Y18"/> 
+  <pin index="8" name ="tpm_reset" iostandard="LVCMOS33" loc="V19"/> 
+  
+  	<pin index="9" name ="pcie_mgt_clkn" loc="E6"/>
+	<pin index="10" name ="pcie_mgt_clkp" loc="F6"/>
+	<pin index="11" name ="pcie_perstn_rst" iostandard="LVCMOS33" loc="AB20"/>
+	<pin index="12" name ="pcie_rx0_n" loc="A8"/>
+	<pin index="13" name ="pcie_rx1_n" loc="C11"/>
+	<pin index="14" name ="pcie_rx2_n" loc="A10"/>
+	<pin index="15" name ="pcie_rx3_n" loc="C9"/>
+	
+	<pin index="16" name ="pcie_rx0_p" loc="B8"/>
+	<pin index="17" name ="pcie_rx1_p" loc="D11"/>
+	<pin index="18" name ="pcie_rx2_p" loc="B10"/>
+	<pin index="19" name ="pcie_rx3_p" loc="D9"/>
+ 
+	<pin index="20" name ="pcie_tx0_n" loc="A4"/>
+	<pin index="21" name ="pcie_tx1_n" loc="C5"/>
+	<pin index="22" name ="pcie_tx2_n" loc="A6"/>
+	<pin index="23" name ="pcie_tx3_n" loc="C7"/>
+	
+	<pin index="24" name ="pcie_tx0_p" loc="B4"/>
+	<pin index="25" name ="pcie_tx1_p" loc="D5"/>
+	<pin index="26" name ="pcie_tx2_p" loc="B6"/>
+	<pin index="27" name ="pcie_tx3_p" loc="D7"/>
+</pins>
+</part_info>

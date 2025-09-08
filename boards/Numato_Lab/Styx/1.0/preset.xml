@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
+<ip_presets schema="1.0">
+  <ip_preset preset_proc_name="ps7_preset">
+    <ip vendor="xilinx.com" library="ip" name="processing_system7" version="*">
+      <user_parameters>
+        <user_parameter name="CONFIG.PCW_APU_PERIPHERAL_FREQMHZ" value="666.666666"/> 
+        <user_parameter name="CONFIG.PCW_CRYSTAL_PERIPHERAL_FREQMHZ" value="33.333333"/> 
+        <user_parameter name="CONFIG.PCW_FPGA0_PERIPHERAL_FREQMHZ" value="100"/>
+   		
+		<user_parameter name="CONFIG.PCW_USE_M_AXI_GP0" value="0"/>
+		
+        <user_parameter name="CONFIG.PCW_PRESET_BANK0_VOLTAGE" value="LVCMOS 3.3V"/> 
+        <user_parameter name="CONFIG.PCW_PRESET_BANK1_VOLTAGE" value="LVCMOS 3.3V"/> 
+		
+        <user_parameter name="CONFIG.PCW_QSPI_GRP_SINGLE_SS_ENABLE" value="1"/> 
+        <user_parameter name="CONFIG.PCW_QSPI_PERIPHERAL_ENABLE" value="1"/> 
+		<user_parameter name="CONFIG.PCW_QSPI_GRP_FBCLK_ENABLE" value="1"/> 
+
+        <user_parameter name="CONFIG.PCW_SD0_PERIPHERAL_ENABLE" value="1"/> 
+        <user_parameter name="CONFIG.PCW_SDIO_PERIPHERAL_FREQMHZ" value="100"/> 
+
+        <user_parameter name="CONFIG.PCW_UART0_PERIPHERAL_ENABLE" value="1"/>         
+		<user_parameter name="CONFIG.PCW_UART0_UART0_IO" value="EMIO"/> 
+		
+		<user_parameter name="CONFIG.PCW_UIPARAM_DDR_BUS_WIDTH" value="16 Bit" />
+		<user_parameter name="CONFIG.PCW_UIPARAM_DDR_PARTNO" value="MT41J128M16 HA-125" />
+		
+      </user_parameters>
+    </ip>
+  </ip_preset>
+  
+
+
+</ip_presets>

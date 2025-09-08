@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<board schema_version="2.0" vendor="numato.com" name="CallistoK7DevBoard7K160T" display_name="CallistoK7DevBoard7K160T" url="www.numato.com/" preset_file="preset.xml" >
+<images>
+  <image name="Callisto.png" display_name="Callisto Kintex7 BOARD" sub_type="board">
+    <description>Callisto Kintex7 Board</description>
+  </image>
+</images>
+<compatible_board_revisions>
+  <revision id="0">1.0</revision>
+</compatible_board_revisions>
+<file_version>1.0</file_version>
+<description>CallistoK7DevBoard7K160T</description>
+<components>
+  <component name="part0" display_name="CallistoK7DevBoard7K160T" type="fpga" part_name="xc7k160tfbg676-1" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="www.numato.com/">
+    <interfaces>
+      <interface mode="master" name="ddr3_sdram" type="xilinx.com:interface:ddrx_rtl:1.0" of_component="ddr3_sdram" preset_proc="ddr3_sdram_preset"> 
+		<description>DDR3 board interface.</description>
+		<preferred_ips>
+			<preferred_ip vendor="xilinx.com" library="ip" name="mig_7series" order="0"/>
+	  </preferred_ips>
+	  </interface>
+	  <interface mode="slave" name="reset" type="xilinx.com:signal:reset_rtl:1.0" of_component="reset">
+        <description>Reset Button</description>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="proc_sys_reset" order="0"/>
+          </preferred_ips>
+		<port_maps>
+          <port_map logical_port="RESET" physical_port="reset" dir="in">
+            <pin_maps>
+              <pin_map port_index="0" component_pin="reset"/> 
+            </pin_maps>
+          </port_map>
+        </port_maps>
+		<parameters>
+          <parameter name="rst_polarity" value="1"/>
+        </parameters>
+      </interface>
+      <interface mode="master" name="tpm" type="xilinx.com:interface:spi_rtl:1.0" of_component="tpm" preset_proc="tpm_preset">
+        <preferred_ips>
+			<preferred_ip vendor="xilinx.com" library="ip" name="axi_quad_spi" order="0"/>
+		</preferred_ips>
+		<port_maps>
+          <port_map logical_port="IO0_I" physical_port="tpm_mosi_i" dir="in">
+            <pin_maps>
+              <pin_map port_index="0" component_pin="tpm_mosi"/> 
+            </pin_maps>
+          </port_map>
+          <port_map logical_port="IO0_O" physical_port="tpm_mosi_o" dir="out">
+            <pin_maps>
+              <pin_map port_index="0" component_pin="tpm_mosi"/> 
+            </pin_maps>
+          </port_map>
+          <port_map logical_port="IO0_T" physical_port="tpm_mosi_t" dir="out">
+            <pin_maps>
+              <pin_map port_index="0" component_pin="tpm_mosi"/> 
+            </pin_maps>
+          </port_map>
+          <port_map logical_port="IO1_I" physical_port="tpm_miso_i" dir="in">
+            <pin_maps>
+              <pin_map port_index="0" component_pin="tpm_miso"/> 
+            </pin_maps>
+          </port_map>
+          <port_map logical_port="IO1_O" physical_port="tpm_miso_o" dir="out">
+            <pin_maps>
+              <pin_map port_index="0" component_pin="tpm_miso"/> 
+            </pin_maps>
+          </port_map>
+          <port_map logical_port="IO1_T" physical_port="tpm_miso_t" dir="out">
+            <pin_maps>
+              <pin_map port_index="0" component_pin="tpm_miso"/> 
+            </pin_maps>
+          </port_map>
+          <port_map logical_port="SCK_I" physical_port="tpm_sclk_i" dir="in">
+            <pin_maps>
+              <pin_map port_index="0" component_pin="tpm_sclk"/> 
+            </pin_maps>
+          </port_map>
+          <port_map logical_port="SCK_O" physical_port="tpm_sclk_o" dir="out">
+            <pin_maps>
+              <pin_map port_index="0" component_pin="tpm_sclk"/> 
+            </pin_maps>
+          </port_map>
+          <port_map logical_port="SCK_T" physical_port="tpm_sclk_t" dir="out">
+            <pin_maps>
+              <pin_map port_index="0" component_pin="tpm_sclk"/> 
+            </pin_maps>
+          </port_map>
+          <port_map logical_port="SS_I" physical_port="tpm_ss_i" dir="in">
+            <pin_maps>
+              <pin_map port_index="0" component_pin="tpm_ss"/> 
+            </pin_maps>
+          </port_map>
+          <port_map logical_port="SS_O" physical_port="tpm_ss_o" dir="out">
+            <pin_maps>
+              <pin_map port_index="0" component_pin="tpm_ss"/> 
+            </pin_maps>
+          </port_map>
+          <port_map logical_port="SS_T" physical_port="tpm_ss_t" dir="out">
+            <pin_maps>
+              <pin_map port_index="0" component_pin="tpm_ss"/> 
+            </pin_maps>
+          </port_map>
+        </port_maps>
+      </interface>   
+      <interface mode="master" name="tpm_rst" type="xilinx.com:interface:gpio_rtl:1.0" of_component="tpm_rst" preset_proc="tpm_rst_preset">
+        <description>TPM Reset</description>
+		<preferred_ips>
+			<preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+		</preferred_ips>
+		<port_maps>
+          <port_map logical_port="TRI_O" physical_port="tpm_reset_o" dir="out" > 
+            <pin_maps>
+              <pin_map port_index="0" component_pin="tpm_reset"/> 
+            </pin_maps>
+          </port_map>
+        </port_maps>
+      </interface>      
+      <interface mode="slave" name="sys_clock" type="xilinx.com:signal:clock_rtl:1.0" of_component="sys_clock" preset_proc="sys_clock_preset">
+        <parameters>
+          <parameter name="frequency" value="100000000"/>
+        </parameters>
+        <preferred_ips>
+          <preferred_ip vendor="xilinx.com" library="ip" name="clk_wiz" order="0"/>
+        </preferred_ips>
+		<port_maps>
+          <port_map logical_port="clk" physical_port="clk" dir="in">
+            <pin_maps>
+              <pin_map port_index="0" component_pin="clk"/> 
+            </pin_maps>
+          </port_map>
+        </port_maps>
+        <parameters>
+          <parameter name="frequency" value="100000000" />
+       </parameters>
+      </interface>
+    </interfaces>
+  </component>
+  
+  <component name="ddr3_sdram" display_name="DDR3 SDRAM" type="chip" sub_type="ddr" major_group="External Memory">
+	<description>DDR3 memory</description>
+	<parameters>
+        <parameter name="ddr_type" value="ddr3"/>
+        <parameter name="size" value="256MB"/>
+	</parameters>
+  </component>
+  <component name="sys_clock" display_name="System Clock" type="chip" sub_type="system_clock" major_group="Clocks">
+  	<description>3.3V Single-Ended 100MHz oscillator used as system clock on the board</description>
+  </component>
+   <component name="reset" display_name="FPGA Reset" type="chip" sub_type="system_reset" major_group="Reset">
+    <description>CPU Reset, Active High</description>
+  </component>
+  <component name="tpm" display_name="TPM Interface" type="chip" sub_type="mux" major_group="SPI">
+  	<description>TPM Interface</description>
+  </component> 
+    <component name="tpm_rst" display_name="TPM Reset" type="chip" sub_type="led" major_group="GPIO">
+  <description>TPM Reset</description>
+  </component>
+</components>
+
+<jtag_chains>
+  <jtag_chain name="chain1">
+    <position name="0" component="part0"/>
+  </jtag_chain>
+</jtag_chains>
+<connections>
+  <connection name="part0_sys_clock" component1="part0" component2="sys_clock">
+    <connection_map name="part0_sys_clock_1" c1_st_index="0" c1_end_index="0" c2_st_index="0" c2_end_index="0"/>
+  </connection>
+  <connection name="part0_reset" component1="part0" component2="reset">
+    <connection_map name="part0_reset_1" c1_st_index="1" c1_end_index="1" c2_st_index="0" c2_end_index="0"/>
+  </connection>
+  <connection name="part0_tpm" component1="part0" component2="tpm">
+    <connection_map name="part0_tpm_1" c1_st_index="2" c1_end_index="5" c2_st_index="0" c2_end_index="3"/>
+  </connection>  
+  <connection name="part0_tpm_rst" component1="part0" component2="tpm_rst">
+    <connection_map name="part0_tpm_rst_1" c1_st_index="6" c1_end_index="6" c2_st_index="0" c2_end_index="0"/>
+  </connection>
+</connections>
+</board>

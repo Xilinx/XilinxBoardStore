@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<part_info part_name="xc7a35tftg256-1">
+<pins>
+  <pin index="0" name ="clk" iostandard="LVCMOS33" loc="N11"/>
+  <pin index="1" name ="reset" iostandard="LVCMOS33" loc="N6"/>
+  <pin index="2" name ="usb_uart_rxd" iostandard="LVCMOS33" loc="M16"/>
+  <pin index="3" name ="usb_uart_txd" iostandard="LVCMOS33" loc="N16"/>
+</pins>
+</part_info>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<part_info part_name="xc7a50tfgg484-1">
+<pins>
+  <pin index="0" name ="clk" iostandard="LVCMOS33" loc="H4"/>
+  <pin index="1" name ="reset" iostandard="LVCMOS33" loc="M2"/>
+  <pin index="2" name ="usb_uart_rxd" iostandard="LVCMOS33" loc="Y22"/>
+  <pin index="3" name ="usb_uart_txd" iostandard="LVCMOS33" loc="Y21"/>
+  <pin index="4" name ="eth_mdio_i" iostandard="LVCMOS33" loc="P16"/>
+  <pin index="5" name ="eth_mdc" iostandard="LVCMOS33" loc="R19"/>
+  <pin index="6" name ="eth_rst" iostandard="LVCMOS33" loc="R14"/>
+  <pin index="7" name ="eth_txd_0" iostandard="LVCMOS33" loc="V18"/>
+  <pin index="8" name = "eth_txd_1" iostandard="LVCMOS33" loc="U18"/>
+  <pin index="9" name ="eth_txd_2" iostandard="LVCMOS33" loc="V17"/>
+  <pin index="10" name ="eth_txd_3" iostandard="LVCMOS33" loc="U17"/>
+  <pin index="11" name ="eth_tx_ctl" iostandard="LVCMOS33" loc="T20"/>
+  <pin index="12" name ="eth_tx_clk" iostandard="LVCMOS33" loc="U20"/>
+  <pin index="13" name ="eth_rxd_0" iostandard="LVCMOS33" loc="AB18"/>
+  <pin index="14" name ="eth_rxd_1" iostandard="LVCMOS33" loc="W20"/>  
+  <pin index="15" name ="eth_rxd_2" iostandard="LVCMOS33" loc="W17"/>
+  <pin index="16" name ="eth_rxd_3" iostandard="LVCMOS33" loc="V20"/>
+  <pin index="17" name ="eth_rx_ctl" iostandard="LVCMOS33" loc="Y19"/>
+  <pin index="18" name ="eth_rx_clk" iostandard="LVCMOS33" loc="W19"/>
+  <pin index="19" name ="phy_reset_n" iostandard="LVCMOS33" loc="R14"/>
+  <pin index="20" name ="qspi_flash_ss_io" iostandard="LVCMOS33" loc="T19"/>    
+  <pin index="21" name ="flash_d1" iostandard="LVCMOS33" loc="R22"/>    
+  <pin index="22" name ="flash_d0" iostandard="LVCMOS33" loc="P22"/>  
+  
+</pins>
+</part_info>
+
