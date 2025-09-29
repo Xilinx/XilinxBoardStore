@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!-- Comment out next line after testing complete -->
-<!DOCTYPE ip_presets SYSTEM "./preset.dtd">
+<!-- Comment out next line after testing complete
+<!DOCTYPE ip_presets SYSTEM "./preset.dtd"> -->
 <!-- Copyright (C) 2024, New Wave Design and Verification
 	THIS DOCUMENT AND THE INFORMATION CONTAINED HEREIN IS PROPRIETARY
 	AND CONFIDENTIAL TO NEW WAVE DESIGN AND VERIFICATION AND SHALL NOT
