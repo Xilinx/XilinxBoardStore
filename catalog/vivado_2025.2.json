@@ -2,23 +2,6 @@
   "catalog": {
     "items": [
       {
-        "name": "tenzing_se1",
-        "display": "Tenzing Evaluation Platform",
-        "latest_revision": "2.1",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
-        "revisions": [
-          {
-            "revision": "2.1",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
-            "date": "22-04-2021:05:08:34",
-            "history": "Added board Tenzing Evaluation Platform v2.1"
-          }
-        ],
-      "config": {
-          "root": "boards/Xilinx/ac701/1.4",
-          "metadata_file": "xitem.json"
-        },
-      {
         "name": "ac701",
         "display": "Artix-7 AC701 Evaluation Platform",
         "latest_revision": "1.4",
@@ -31,6 +14,10 @@
             "history": "Added board Artix-7 AC701 Evaluation Platform v1.4"
           }
         ],
+        "config": {
+          "root": "boards/Xilinx/ac701/1.4",
+          "metadata_file": "xitem.json"
+        },
         "company": "xilinx.com"
       },
       {
