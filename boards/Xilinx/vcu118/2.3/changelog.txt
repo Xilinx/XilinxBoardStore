@@ -17,3 +17,4 @@ Enabled SGMII, 10/25, 40/50, Interlaken, CMAC+ Ethernet interfaces
 Added PCI X16 data width support.
 Updated DDR4 speed grade 
 Changed display name to refelct ES1 platform: (Virtex UltraScale+ VCU118-ES1 Evaluation Platform)
+ 

@@ -3,4 +3,4 @@
 Input tap delay for eMMC High Speed mode is updated to 0x16
 
 1.0(2024.2)
-Initial version (only CIPS and NOC enabled)
+Initial version (only CIPS and NOC enabled) 

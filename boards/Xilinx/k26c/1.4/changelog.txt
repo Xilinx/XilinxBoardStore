@@ -12,4 +12,4 @@ Added second connector (SOM240_2)
 Initial release for public (2020.2.2_web)
 
 1.0 
-Initial release with lounge
+Initial release with lounge 

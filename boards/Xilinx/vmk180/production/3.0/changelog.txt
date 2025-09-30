@@ -27,3 +27,4 @@ Fix added for LPDDR Controller 1 standalone usage
 1.0 - 2019.2 
 VMK180 Initial board support
 
+ 
