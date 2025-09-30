@@ -1,0 +1,6 @@
+######### VEK385 change log ##############
+1.0 (2025.2)
+initial support for VEK385 production Evaluation Platform (Board revision B)
+
+
+

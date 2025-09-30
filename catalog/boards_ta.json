@@ -4,6 +4,11 @@
         "name": "tenzing",
         "repo_path": "Xilinx/tenzing",
 		"Exclude_from_REL": "true"
-      }   
+      },
+    {
+        "name": "vrk165",
+        "repo_path": "Xilinx/vrk165",
+		"Exclude_from_REL": "true"
+      } 	  
 ]
 }

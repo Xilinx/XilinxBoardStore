@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2023, Advanced Micro Devices, Inc - All rights reserved
+ Licensed under the Apache License, Version 2.0 (the "License"). You may
+ not use this file except in compliance with the License. A copy of the
+ License is located at
+     http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ License for the specific language governing permissions and limitations
+ under the License. -->
+ 
+<ip_presets schema="1.0">
+
+<ip_preset preset_proc_name="ps_pmc_fixed_io_preset">
+	<ip vendor="xilinx.com" library="ip" name="ps_wizard" version="*" ip_interface="FIXED_IO">
+		<user_parameters>
+			<user_hier_parameter name="CONFIG.MMI_CONFIG">
+				<user_parameter name="MDB5_GT" value="PCIe0_x2_10GbE"/>
+				<user_parameter name="MMI_DP_HPD" value="PMC_MIO_48"/>
+				<user_parameter name="MMI_GPU_ENABLE" value="1"/>
+				<user_parameter name="MMI_PCIE0_PERST" value="None"/>
+				<user_parameter name="MMI_PCIE0_PORT_TYPE" value="Root_Port_of_PCIe_Root_Port_Complex"/>
+				<user_parameter name="MMI_USB3_ENABLE" value="1"/>
+				<user_parameter name="PMC_REF_CLK_FREQMHZ" value="33.333"/>
+				<user_parameter name="PS_CRL_GEM_TSU_REF_CTRL_FREQMHZ" value="250"/>
+				<user_parameter name="PS_GEM_TSU" value="{ENABLE 1 IO PS_MIO_24 IO_TYPE MIO}"/>
+				<user_parameter name="UDH_GT" value="DP_X2_+_USB"/>
+			</user_hier_parameter>
+			<user_hier_parameter name="CONFIG.PS11_CONFIG">
+				<user_parameter name="MDB5_GT" value="PCIe0_x2_10GbE"/>
+				<user_parameter name="MMI_DP_HPD" value="PMC_MIO_48"/>
+				<user_parameter name="MMI_GPU_ENABLE" value="1"/>
+				<user_parameter name="MMI_PCIE0_PERST" value="None"/>
+				<user_parameter name="MMI_PCIE0_PORT_TYPE" value="Root_Port_of_PCIe_Root_Port_Complex"/>
+				<user_parameter name="PMC_MIO26" value="{DRIVE_STRENGTH 8mA SLEW slow PULL pullup SCHMITT 0 AUX_IO 0 USAGE GPIO OUTPUT_DATA default DIRECTION in}"/>
+				<user_parameter name="PMC_MIO40" value="{DRIVE_STRENGTH 8mA SLEW slow PULL pullup SCHMITT 0 AUX_IO 0 USAGE GPIO OUTPUT_DATA default DIRECTION in}"/>
+				<user_parameter name="PMC_OSPI_ECC_FAIL_ENABLE" value="1"/>
+				<user_parameter name="PMC_OSPI_ECC_FAIL_IO" value="PMC_MIO_13"/>
+				<user_parameter name="PMC_OSPI_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_0:13 MODE Single}"/>
+				<user_parameter name="PMC_REF_CLK_FREQMHZ" value="33.333"/>
+				<user_parameter name="PMC_CRP_OSPI_REF_CTRL_FREQMHZ" value="200"/>
+				<user_parameter name="PMC_UFS" value="{CD_ENABLE 0 CD_IO PMC_MIO_26 RSTN_IO PMC_MIO_25 CFGCLK_IO PMC_MIO_24}"/>
+				<user_parameter name="PMC_UFS_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_24:26 IO_TYPE MIO}"/>
+				<user_parameter name="PS_ASU_ENABLE" value="1"/>
+				<user_parameter name="PS_CAN0_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_16:17 IO_TYPE MIO}"/>
+				<user_parameter name="PS_CAN1_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_18:19 IO_TYPE MIO}"/>
+				<user_parameter name="PS_CAN2_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_20:21 IO_TYPE MIO}"/>
+				<user_parameter name="PS_CAN3_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_22:23 IO_TYPE MIO}"/>
+				<user_parameter name="PS_CRL_I3C_I2C0_REF_CTRL_FREQMHZ" value="160"/>
+				<user_parameter name="PS_ENET0_MDIO" value="{ENABLE 1 IO PMC_MIO_50:51 IO_TYPE MIO}"/>
+				<user_parameter name="PS_ENET0_PERIPHERAL" value="{ENABLE 1 IO PS_MIO_0:11 IO_TYPE MIO MODE RGMII}"/>
+				<user_parameter name="PS_CRL_GEM_TSU_REF_CTRL_FREQMHZ" value="250"/>
+				<user_parameter name="PS_GEM_TSU" value="{ENABLE 1 IO PS_MIO_24 IO_TYPE MIO}"/>
+				<user_parameter name="PS_GEN_IPI1_NOBUF_ENABLE" value="1"/>
+				<user_parameter name="PS_GEN_IPI2_ENABLE" value="1"/>
+				<user_parameter name="PS_GEN_IPI2_NOBUF_ENABLE" value="1"/>
+				<user_parameter name="PS_GEN_IPI2_NOBUF_MASTER" value="R52_0"/>
+				<user_parameter name="PS_GEN_IPI3_ENABLE" value="1"/>
+				<user_parameter name="PS_GEN_IPI3_NOBUF_ENABLE" value="1"/>
+				<user_parameter name="PS_GEN_IPI3_NOBUF_MASTER" value="R52_6"/>
+				<user_parameter name="PS_GEN_IPI4_ENABLE" value="1"/>
+				<user_parameter name="PS_GEN_IPI4_NOBUF_ENABLE" value="1"/>
+				<user_parameter name="PS_GEN_IPI4_NOBUF_MASTER" value="R52_7"/>
+				<user_parameter name="PS_GEN_IPI5_ENABLE" value="1"/>
+				<user_parameter name="PS_GEN_IPI5_NOBUF_ENABLE" value="1"/>
+				<user_parameter name="PS_GEN_IPI5_NOBUF_MASTER" value="R52_8"/>
+				<user_parameter name="PS_GEN_IPI6_ENABLE" value="1"/>
+                <user_parameter name="PS_GEN_IPI6_NOBUF_ENABLE" value="1"/>
+                <user_parameter name="PS_GEN_IPI6_NOBUF_MASTER" value="R52_9"/>
+				<user_parameter name="PS_I2CSYSMON_PERIPHERAL" value="{ENABLE 0 IO PS_MIO_18:19}"/>
+				<user_parameter name="PS_I3C_I2C0_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_42:43 IO_TYPE MIO TYPE I2C}"/>
+				<user_parameter name="PS_I3C_I2C1_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_44:45 IO_TYPE MIO TYPE I2C}"/>
+				<user_parameter name="PS_MIO11" value="{DRIVE_STRENGTH 8mA SLEW slow PULL disable SCHMITT 0 AUX_IO 0 USAGE Reserved OUTPUT_DATA default DIRECTION in}"/>
+				<user_parameter name="PS_MIO12" value="{DRIVE_STRENGTH 8mA SLEW slow PULL pullup SCHMITT 0 AUX_IO 0 USAGE GPIO OUTPUT_DATA default DIRECTION out}"/>
+				<user_parameter name="PS_MIO13" value="{DRIVE_STRENGTH 8mA SLEW slow PULL pullup SCHMITT 0 AUX_IO 0 USAGE GPIO OUTPUT_DATA default DIRECTION in}"/>
+				<user_parameter name="PS_MIO14" value="{DRIVE_STRENGTH 8mA SLEW slow PULL pullup SCHMITT 0 AUX_IO 0 USAGE GPIO OUTPUT_DATA default DIRECTION out}"/>
+				<user_parameter name="PS_MIO15" value="{DRIVE_STRENGTH 8mA SLEW slow PULL pullup SCHMITT 0 AUX_IO 0 USAGE GPIO OUTPUT_DATA default DIRECTION in}"/>
+				<user_parameter name="PS_MIO20" value="{DRIVE_STRENGTH 8mA SLEW slow PULL pullup SCHMITT 0 AUX_IO 0 USAGE GPIO OUTPUT_DATA default DIRECTION inout}"/>
+				<user_parameter name="PS_MIO21" value="{DRIVE_STRENGTH 8mA SLEW slow PULL pullup SCHMITT 0 AUX_IO 0 USAGE GPIO OUTPUT_DATA default DIRECTION in}"/>
+				<user_parameter name="PS_MIO22" value="{DRIVE_STRENGTH 8mA SLEW slow PULL pullup SCHMITT 0 AUX_IO 0 USAGE GPIO OUTPUT_DATA default DIRECTION out}"/>
+				<user_parameter name="PS_MIO23" value="{DRIVE_STRENGTH 8mA SLEW slow PULL pullup SCHMITT 0 AUX_IO 0 USAGE GPIO OUTPUT_DATA default DIRECTION in}"/>
+				<user_parameter name="PS_MIO25" value="{DRIVE_STRENGTH 8mA SLEW slow PULL pullup SCHMITT 0 AUX_IO 0 USAGE GPIO OUTPUT_DATA default DIRECTION out}"/>
+				<user_parameter name="PS_MIO7" value="{DRIVE_STRENGTH 8mA SLEW slow PULL disable SCHMITT 0 AUX_IO 0 USAGE Reserved OUTPUT_DATA default DIRECTION in}"/>
+				<user_parameter name="PS_MIO9" value="{DRIVE_STRENGTH 8mA SLEW slow PULL disable SCHMITT 0 AUX_IO 0 USAGE Reserved OUTPUT_DATA default DIRECTION in}"/>
+				<user_parameter name="PS_TTC0_CLK" value="{ENABLE 0 IO PS_MIO_6 IO_TYPE MIO}"/>
+				<user_parameter name="PS_TTC0_PERIPHERAL_ENABLE" value="1"/>
+				<user_parameter name="PS_TTC0_WAVEOUT" value="{ENABLE 1 IO PMC_MIO_49 IO_TYPE MIO}"/>
+				<user_parameter name="PS_UART0_PERIPHERAL" value="{ENABLE 1 IO PS_MIO_16:17 IO_TYPE MIO}"/>
+				<user_parameter name="PS_UART1_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_46:47 IO_TYPE MIO}"/>
+				<user_parameter name="PS_USB1_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_27:39 IO_TYPE MIO}"/>
+				<user_parameter name="SECONDARY_BOOT_DEVICE" value="None"/>
+				<user_parameter name="SMON_INTERFACE_TO_USE" value="I2C"/>
+				<user_parameter name="SMON_PMBUS_ADDRESS" value="0x18"/>
+				<user_parameter name="UDH_GT" value="DP_X2_+_USB"/>
+			</user_hier_parameter>
+		</user_parameters>
+	</ip>
+</ip_preset>
+
+  <ip_preset preset_proc_name="lpddr5_Controller0_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_noc2" version="*">
+      <user_parameters>
+        <user_parameter name="CONFIG.DDR5_DEVICE_TYPE" value="Components" />
+        <user_hier_parameter name="CONFIG.DDRMC5_CONFIG">
+        <user_parameter name="DDRMC5_CONTROLLERTYPE" value="LPDDR5_SDRAM"/>
+        <user_parameter name="DDRMC5_SPEED_GRADE" value="LPDDR5X-8533"/>
+        <user_parameter name="DDRMC5_DRAM_WIDTH" value="x16"/>
+        <user_parameter name="DDRMC5_DATA_WIDTH" value="32"/>
+        <user_parameter name="DDRMC5_ROW_ADDR_WIDTH" value="15"/>
+        <user_parameter name="DDRMC5_NUM_RANKS" value="1"/>
+        <user_parameter name="DDRMC5_DM_EN" value="true"/>
+        <user_parameter name="DDRMC5_WR_DBI" value="true"/>
+        <user_parameter name="DDRMC5_RD_DBI" value="true"/>
+        <user_parameter name="DDRMC5_F0_TCK" value="938"/>
+        <user_parameter name="DDRMC5_INPUTCLK0_PERIOD" value="3127"/>
+        <user_parameter name="DDRMC5_SYSTEM_CLOCK" value="No_Buffer"/>
+        <user_parameter name="DDRMC5_MC0_CONFIG_SEL" value="config13"/>
+        </user_hier_parameter>
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="lpddr5_Controller0_preset_int">
+    <ip vendor="xilinx.com" library="ip" name="axi_noc2" version="*">
+      <user_parameters>
+        <user_parameter name="CONFIG.DDR5_DEVICE_TYPE" value="Components" />
+        <user_hier_parameter name="CONFIG.DDRMC5_CONFIG">
+        <user_parameter name="DDRMC5_CONTROLLERTYPE" value="LPDDR5_SDRAM"/>
+        <user_parameter name="DDRMC5_SPEED_GRADE" value="LPDDR5X-8533"/>
+        <user_parameter name="DDRMC5_DRAM_WIDTH" value="x16"/>
+        <user_parameter name="DDRMC5_DATA_WIDTH" value="32"/>
+        <user_parameter name="DDRMC5_ROW_ADDR_WIDTH" value="15"/>
+        <user_parameter name="DDRMC5_NUM_RANKS" value="1"/>
+        <user_parameter name="DDRMC5_DM_EN" value="true"/>
+        <user_parameter name="DDRMC5_WR_DBI" value="true"/>
+        <user_parameter name="DDRMC5_RD_DBI" value="true"/>
+        <user_parameter name="DDRMC5_F0_TCK" value="952"/>
+        <user_parameter name="DDRMC5_INPUTCLK0_PERIOD" value="4998"/>
+        <user_parameter name="DDRMC5_SYSTEM_CLOCK" value="Internal"/>
+        <user_parameter name="DDRMC5_MC0_CONFIG_SEL" value="config13"/>
+        </user_hier_parameter>
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="lpddr5_Controller1_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_noc2" version="*">
+      <user_parameters>
+        <user_parameter name="CONFIG.DDR5_DEVICE_TYPE" value="Components" />
+        <user_hier_parameter name="CONFIG.DDRMC5_CONFIG">
+        <user_parameter name="DDRMC5_CONTROLLERTYPE" value="LPDDR5_SDRAM"/>
+        <user_parameter name="DDRMC5_SPEED_GRADE" value="LPDDR5X-8533"/>
+        <user_parameter name="DDRMC5_DRAM_WIDTH" value="x16"/>
+        <user_parameter name="DDRMC5_DATA_WIDTH" value="32"/>
+        <user_parameter name="DDRMC5_ROW_ADDR_WIDTH" value="15"/>
+        <user_parameter name="DDRMC5_NUM_RANKS" value="1"/>
+        <user_parameter name="DDRMC5_DM_EN" value="true"/>
+        <user_parameter name="DDRMC5_WR_DBI" value="true"/>
+        <user_parameter name="DDRMC5_RD_DBI" value="true"/>
+        <user_parameter name="DDRMC5_F0_TCK" value="938"/>
+        <user_parameter name="DDRMC5_INPUTCLK0_PERIOD" value="3127"/>
+        <user_parameter name="DDRMC5_SYSTEM_CLOCK" value="No_Buffer"/>
+        <user_parameter name="DDRMC5_MC1_CONFIG_SEL" value="config12_opt"/>
+        </user_hier_parameter>
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="lpddr5_Controller1_preset_int">
+    <ip vendor="xilinx.com" library="ip" name="axi_noc2" version="*">
+      <user_parameters>
+        <user_parameter name="CONFIG.DDR5_DEVICE_TYPE" value="Components" />
+        <user_hier_parameter name="CONFIG.DDRMC5_CONFIG">
+        <user_parameter name="DDRMC5_CONTROLLERTYPE" value="LPDDR5_SDRAM"/>
+        <user_parameter name="DDRMC5_SPEED_GRADE" value="LPDDR5X-8533"/>
+        <user_parameter name="DDRMC5_DRAM_WIDTH" value="x16"/>
+        <user_parameter name="DDRMC5_DATA_WIDTH" value="32"/>
+        <user_parameter name="DDRMC5_ROW_ADDR_WIDTH" value="15"/>
+        <user_parameter name="DDRMC5_NUM_RANKS" value="1"/>
+        <user_parameter name="DDRMC5_DM_EN" value="true"/>
+        <user_parameter name="DDRMC5_WR_DBI" value="true"/>
+        <user_parameter name="DDRMC5_RD_DBI" value="true"/>
+        <user_parameter name="DDRMC5_F0_TCK" value="952"/>
+        <user_parameter name="DDRMC5_INPUTCLK0_PERIOD" value="4998"/>
+        <user_parameter name="DDRMC5_SYSTEM_CLOCK" value="Internal"/>
+        <user_parameter name="DDRMC5_MC1_CONFIG_SEL" value="config12_opt"/>
+        </user_hier_parameter>
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="lpddr5_Controller2_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_noc2" version="*">
+      <user_parameters>
+        <user_parameter name="CONFIG.DDR5_DEVICE_TYPE" value="Components" />
+        <user_hier_parameter name="CONFIG.DDRMC5_CONFIG">
+        <user_parameter name="DDRMC5_CONTROLLERTYPE" value="LPDDR5_SDRAM"/>
+        <user_parameter name="DDRMC5_SPEED_GRADE" value="LPDDR5X-8533"/>
+        <user_parameter name="DDRMC5_DRAM_WIDTH" value="x16"/>
+        <user_parameter name="DDRMC5_DATA_WIDTH" value="32"/>
+        <user_parameter name="DDRMC5_ROW_ADDR_WIDTH" value="15"/>
+        <user_parameter name="DDRMC5_NUM_RANKS" value="1"/>
+        <user_parameter name="DDRMC5_DM_EN" value="true"/>
+        <user_parameter name="DDRMC5_WR_DBI" value="true"/>
+        <user_parameter name="DDRMC5_RD_DBI" value="true"/>
+        <user_parameter name="DDRMC5_F0_TCK" value="938"/>
+        <user_parameter name="DDRMC5_INPUTCLK0_PERIOD" value="3127"/>
+        <user_parameter name="DDRMC5_SYSTEM_CLOCK" value="Differential"/>
+        <user_parameter name="DDRMC5_MC2_CONFIG_SEL" value="config13"/>
+        </user_hier_parameter>
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+    <ip_preset preset_proc_name="lpddr5_Controller2_preset_int">
+    <ip vendor="xilinx.com" library="ip" name="axi_noc2" version="*">
+      <user_parameters>
+        <user_parameter name="CONFIG.DDR5_DEVICE_TYPE" value="Components" />
+        <user_hier_parameter name="CONFIG.DDRMC5_CONFIG">
+        <user_parameter name="DDRMC5_CONTROLLERTYPE" value="LPDDR5_SDRAM"/>
+        <user_parameter name="DDRMC5_SPEED_GRADE" value="LPDDR5X-8533"/>
+        <user_parameter name="DDRMC5_DRAM_WIDTH" value="x16"/>
+        <user_parameter name="DDRMC5_DATA_WIDTH" value="32"/>
+        <user_parameter name="DDRMC5_ROW_ADDR_WIDTH" value="15"/>
+        <user_parameter name="DDRMC5_NUM_RANKS" value="1"/>
+        <user_parameter name="DDRMC5_DM_EN" value="true"/>
+        <user_parameter name="DDRMC5_WR_DBI" value="true"/>
+        <user_parameter name="DDRMC5_RD_DBI" value="true"/>
+        <user_parameter name="DDRMC5_F0_TCK" value="952"/>
+        <user_parameter name="DDRMC5_INPUTCLK0_PERIOD" value="4998"/>
+        <user_parameter name="DDRMC5_SYSTEM_CLOCK" value="Internal"/>
+        <user_parameter name="DDRMC5_MC2_CONFIG_SEL" value="config13"/>
+        </user_hier_parameter>
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="lpddr5_Controller34_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_noc2" version="*">
+      <user_parameters>
+        <user_parameter name="CONFIG.DDR5_DEVICE_TYPE" value="Components" />
+        <user_hier_parameter name="CONFIG.DDRMC5_CONFIG">
+        <user_parameter name="DDRMC5_CONTROLLERTYPE" value="LPDDR5_SDRAM"/>
+        <user_parameter name="DDRMC5_SPEED_GRADE" value="LPDDR5X-8533"/>
+        <user_parameter name="DDRMC5_DRAM_WIDTH" value="x16"/>
+        <user_parameter name="DDRMC5_DATA_WIDTH" value="32"/>
+        <user_parameter name="DDRMC5_ROW_ADDR_WIDTH" value="15"/>
+        <user_parameter name="DDRMC5_NUM_RANKS" value="1"/>
+        <user_parameter name="DDRMC5_DM_EN" value="true"/>
+        <user_parameter name="DDRMC5_WR_DBI" value="true"/>
+        <user_parameter name="DDRMC5_RD_DBI" value="true"/>
+        <user_parameter name="DDRMC5_F0_TCK" value="938"/>
+        <user_parameter name="DDRMC5_INPUTCLK0_PERIOD" value="3127"/>
+        <user_parameter name="DDRMC5_SYSTEM_CLOCK" value="No_Buffer"/>
+        <user_parameter name="DDRMC5_MC3_CONFIG_SEL" value="config13"/>
+	<user_parameter name="DDRMC5_MC4_CONFIG_SEL" value="config13"/>
+        </user_hier_parameter>
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+  <ip_preset preset_proc_name="lpddr5_Controller34_preset_int">
+    <ip vendor="xilinx.com" library="ip" name="axi_noc2" version="*">
+      <user_parameters>
+        <user_parameter name="CONFIG.DDR5_DEVICE_TYPE" value="Components" />
+        <user_hier_parameter name="CONFIG.DDRMC5_CONFIG">
+        <user_parameter name="DDRMC5_CONTROLLERTYPE" value="LPDDR5_SDRAM"/>
+        <user_parameter name="DDRMC5_SPEED_GRADE" value="LPDDR5X-8533"/>
+        <user_parameter name="DDRMC5_DRAM_WIDTH" value="x16"/>
+        <user_parameter name="DDRMC5_DATA_WIDTH" value="32"/>
+        <user_parameter name="DDRMC5_ROW_ADDR_WIDTH" value="15"/>
+        <user_parameter name="DDRMC5_NUM_RANKS" value="1"/>
+        <user_parameter name="DDRMC5_DM_EN" value="true"/>
+        <user_parameter name="DDRMC5_WR_DBI" value="true"/>
+        <user_parameter name="DDRMC5_RD_DBI" value="true"/>
+        <user_parameter name="DDRMC5_F0_TCK" value="952"/>
+        <user_parameter name="DDRMC5_INPUTCLK0_PERIOD" value="4998"/>
+        <user_parameter name="DDRMC5_SYSTEM_CLOCK" value="Internal"/>
+        <user_parameter name="DDRMC5_MC3_CONFIG_SEL" value="config13"/>
+        <user_parameter name="DDRMC5_MC4_CONFIG_SEL" value="config13"/>
+        </user_hier_parameter>
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+	<ip_preset preset_proc_name="sysclk0_preset">
+		<ip vendor="xilinx.com" library="ip" name="util_ds_buf">
+			<user_parameters>
+				<user_parameter name="CONFIG.C_BUF_TYPE" value="IBUFDS" />
+				<user_parameter name="CONFIG.C_SIZE" value="1" />
+			</user_parameters>
+		</ip>
+	</ip_preset>
+
+<ip_preset preset_proc_name="gpio_pb_preset">
+		<ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+			<user_parameters>
+				<user_parameter name="CONFIG.C_GPIO_WIDTH" value="2"/>
+				<user_parameter name="CONFIG.C_ALL_OUTPUTS" value="0"/>
+				<user_parameter name="CONFIG.C_ALL_INPUTS" value="1"/>
+			</user_parameters>
+		</ip>
+		<ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+			<user_parameters>
+				<user_parameter name="CONFIG.C_IS_DUAL" value="1"/>
+				<user_parameter name="CONFIG.C_GPIO2_WIDTH" value="2"/>
+				<user_parameter name="CONFIG.C_ALL_OUTPUTS_2" value="0"/>
+				<user_parameter name="CONFIG.C_ALL_INPUTS_2" value="1"/>
+			</user_parameters>
+		</ip>
+	</ip_preset>
+	
+	<ip_preset preset_proc_name="gpio_dp_preset">
+		<ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+			<user_parameters>
+				<user_parameter name="CONFIG.C_GPIO_WIDTH" value="4"/>
+				<user_parameter name="CONFIG.C_ALL_OUTPUTS" value="0"/>
+				<user_parameter name="CONFIG.C_ALL_INPUTS" value="1"/>
+			</user_parameters>
+		</ip>
+		<ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+			<user_parameters>
+				<user_parameter name="CONFIG.C_IS_DUAL" value="1"/>
+				<user_parameter name="CONFIG.C_GPIO2_WIDTH" value="4"/>
+				<user_parameter name="CONFIG.C_ALL_OUTPUTS_2" value="0"/>
+				<user_parameter name="CONFIG.C_ALL_INPUTS_2" value="1"/>
+			</user_parameters>
+		</ip>
+	</ip_preset>
+	
+	<ip_preset preset_proc_name="gpio_led_preset">
+		<ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+			<user_parameters>
+				<user_parameter name="CONFIG.C_GPIO_WIDTH" value="4"/>
+				<user_parameter name="CONFIG.C_ALL_OUTPUTS" value="1"/>
+				<user_parameter name="CONFIG.C_ALL_INPUTS" value="0"/>
+			</user_parameters>
+		</ip>
+		<ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+			<user_parameters>
+				<user_parameter name="CONFIG.C_IS_DUAL" value="1"/>
+				<user_parameter name="CONFIG.C_GPIO2_WIDTH" value="4"/>
+				<user_parameter name="CONFIG.C_ALL_OUTPUTS_2" value="1"/>
+				<user_parameter name="CONFIG.C_ALL_INPUTS_2" value="0"/>
+			</user_parameters>
+		</ip>
+	</ip_preset>	
+
+</ip_presets>

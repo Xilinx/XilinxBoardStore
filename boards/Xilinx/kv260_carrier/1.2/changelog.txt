@@ -1,0 +1,10 @@
+######### Vision SOM changelog ############
+1.2(2021.2)
+Updated naming from som240 to kv260_carrier.
+1.1 is deprecated as there is name change.
+
+1.1(2021.1) 
+Initial release for public
+
+1.0(2020.2.2_web)
+Initial release with lounge

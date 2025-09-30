@@ -1,0 +1,12 @@
+######### VEK280 change log ##############
+1.2 - 2024.1
+Updated CAN_FD configuration
+
+1.1 - 2023.2
+Initial support for VEK280 Evaluation Platform
+
+1.0 - 2023.2
+Initial support for VEK280 production Evaluation Platform
+
+
+

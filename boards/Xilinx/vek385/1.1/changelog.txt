@@ -1,0 +1,9 @@
+######### VEK385 change log ##############
+1.1 (2025.2)
+Added Noc2 modes to use internal clk.
+
+1.0 (2025.1)
+Initial support for VEK385 production Evaluation Platform 
+
+
+
