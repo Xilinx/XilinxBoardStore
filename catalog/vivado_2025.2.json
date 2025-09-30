@@ -14,6 +14,10 @@
             "history": "Added board Tenzing Evaluation Platform v2.1"
           }
         ],
+      "config": {
+          "root": "boards/Xilinx/ac701/1.4",
+          "metadata_file": "xitem.json"
+        },
       {
         "name": "ac701",
         "display": "Artix-7 AC701 Evaluation Platform",
@@ -27,10 +31,6 @@
             "history": "Added board Artix-7 AC701 Evaluation Platform v1.4"
           }
         ],
-        "config": {
-          "root": "boards/Xilinx/ac701/1.4",
-          "metadata_file": "xitem.json"
-        },
         "company": "xilinx.com"
       },
       {
