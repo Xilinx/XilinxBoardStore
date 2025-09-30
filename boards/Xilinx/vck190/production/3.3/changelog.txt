@@ -37,3 +37,4 @@ Fix added for LPDDR Controller 1 standalone usage
 1.0 - 2019.2 
 VCK190 Initial board support
 
+ 

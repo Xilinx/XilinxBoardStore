@@ -13,3 +13,4 @@ Corrected the format of PCIe reset pins for CIPS preset
 VCK190 Board Files having support for new SD level shifter
 Added MIO12 for OSPI preset - 2023.1
 
+ 

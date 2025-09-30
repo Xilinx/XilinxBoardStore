@@ -4,4 +4,4 @@
 ZCU670 (Rev B) New SD Level Shifter support (Vivado 2021.2_web)
 
 1.0
-ZCU670 initial board support (Vivado 2021.1_web)
+ZCU670 initial board support (Vivado 2021.1_web) 

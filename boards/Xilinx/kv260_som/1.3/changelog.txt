@@ -10,4 +10,4 @@ Updated naming from kv260 to kv260_som.
 Initial release for public
 
 1.0(2020.2.2_web)
-Initial release with lounge
+Initial release with lounge 

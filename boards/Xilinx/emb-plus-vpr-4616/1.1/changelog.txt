@@ -6,3 +6,4 @@ Updated OSPI clock speed to 166MHz,PS GPIO Default output value value to high, p
 Initial support for Embedded+ Sapphire VPR-4616 board
 
 
+ 

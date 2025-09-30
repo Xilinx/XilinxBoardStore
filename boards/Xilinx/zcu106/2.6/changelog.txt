@@ -37,3 +37,4 @@ Moved LED3 location from AP8 to AE15 and increased PL DDR4 frequency from 1066Mh
 1.0
 ZCU106 es2 board support
 
+ 

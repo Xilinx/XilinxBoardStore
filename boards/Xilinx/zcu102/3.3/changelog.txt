@@ -19,3 +19,4 @@ APU frequency chnaged from 1100M to 1200Mhz
 GT configuration revised from DP-DP-USB-SATA to PCIe-DP-USB-SATA
 PMU GPI is disbaled
 
+ 

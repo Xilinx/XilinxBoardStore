@@ -17,3 +17,4 @@ Avoiding upper case IO attributes(slew, output-impedance etc)
 
 1.2
 Added FMC support
+ 
