@@ -5,11 +5,11 @@
         "name": "ac701",
         "display": "Artix-7 AC701 Evaluation Platform",
         "latest_revision": "1.4",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.4",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Artix-7 AC701 Evaluation Platform v1.4"
           }
@@ -24,11 +24,11 @@
         "name": "k26c",
         "display": "Kria K26C SOM",
         "latest_revision": "1.2",
-        "commit_id": "e17d68c43a9c1004c3799dde68dfcd39e1f1a67c",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "e17d68c43a9c1004c3799dde68dfcd39e1f1a67c",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Kria K26C SOM v1.2"
           }
@@ -43,11 +43,11 @@
         "name": "k26c",
         "display": "Kria K26C SOM",
         "latest_revision": "1.3",
-        "commit_id": "e17d68c43a9c1004c3799dde68dfcd39e1f1a67c",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.3",
-            "commit_id": "e17d68c43a9c1004c3799dde68dfcd39e1f1a67c",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Kria K26C SOM v1.3"
           }
@@ -62,11 +62,11 @@
         "name": "k26c",
         "display": "Kria K26C SOM",
         "latest_revision": "1.4",
-        "commit_id": "ae399e761aa27b29cb3ebd4d4fe4dea25c920c16",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.4",
-            "commit_id": "ae399e761aa27b29cb3ebd4d4fe4dea25c920c16",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Kria K26C SOM v1.4"
           }
@@ -81,11 +81,11 @@
         "name": "k26i",
         "display": "Kria K26i SOM",
         "latest_revision": "1.2",
-        "commit_id": "e17d68c43a9c1004c3799dde68dfcd39e1f1a67c",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "e17d68c43a9c1004c3799dde68dfcd39e1f1a67c",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Kria K26i SOM v1.2"
           }
@@ -100,11 +100,11 @@
         "name": "k26i",
         "display": "Kria K26i SOM",
         "latest_revision": "1.3",
-        "commit_id": "e17d68c43a9c1004c3799dde68dfcd39e1f1a67c",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.3",
-            "commit_id": "e17d68c43a9c1004c3799dde68dfcd39e1f1a67c",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Kria K26i SOM v1.3"
           }
@@ -119,11 +119,11 @@
         "name": "k26i",
         "display": "Kria K26i SOM",
         "latest_revision": "1.4",
-        "commit_id": "ae399e761aa27b29cb3ebd4d4fe4dea25c920c16",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.4",
-            "commit_id": "ae399e761aa27b29cb3ebd4d4fe4dea25c920c16",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Kria K26i SOM v1.4"
           }
@@ -138,11 +138,11 @@
         "name": "kc705",
         "display": "Kintex-7 KC705 Evaluation Platform",
         "latest_revision": "1.6",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.6",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Kintex-7 KC705 Evaluation Platform v1.6"
           }
@@ -157,11 +157,11 @@
         "name": "kcu105",
         "display": "Kintex-UltraScale KCU105 Evaluation Platform",
         "latest_revision": "1.6",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.6",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Kintex-UltraScale KCU105 Evaluation Platform v1.6"
           }
@@ -176,11 +176,11 @@
         "name": "kcu105",
         "display": "Kintex-UltraScale KCU105 Evaluation Platform",
         "latest_revision": "1.7",
-        "commit_id": "746cd2f0339573094583cd3084beb547754e9816",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.7",
-            "commit_id": "746cd2f0339573094583cd3084beb547754e9816",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Kintex-UltraScale KCU105 Evaluation Platform v1.7"
           }
@@ -195,11 +195,11 @@
         "name": "kcu116",
         "display": "Kintex UltraScale+ KCU116 Evaluation Platform",
         "latest_revision": "1.4",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.4",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Kintex UltraScale+ KCU116 Evaluation Platform v1.4"
           }
@@ -214,11 +214,11 @@
         "name": "kcu116",
         "display": "Kintex UltraScale+ KCU116 Evaluation Platform",
         "latest_revision": "1.5",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.5",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Kintex UltraScale+ KCU116 Evaluation Platform v1.5"
           }
@@ -233,11 +233,11 @@
         "name": "kcu1500",
         "display": "Kintex UltraScale KCU1500 Acceleration Development Board",
         "latest_revision": "1.2",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Kintex UltraScale KCU1500 Acceleration Development Board v1.2"
           }
@@ -252,11 +252,11 @@
         "name": "LI-IMX274MIPI-FMC",
         "display": "FMC XM105 Debug Card",
         "latest_revision": "1.0",
-        "commit_id": "7b89292a5aa18448c618648fdc87c0491ace99cb",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "7b89292a5aa18448c618648fdc87c0491ace99cb",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board FMC XM105 Debug Card v1.0"
           }
@@ -271,11 +271,11 @@
         "name": "sp701",
         "display": "Spartan-7 SP701 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Spartan-7 SP701 Evaluation Platform v1.0"
           }
@@ -290,11 +290,11 @@
         "name": "sp701",
         "display": "Spartan-7 SP701 Evaluation Platform",
         "latest_revision": "1.1",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Spartan-7 SP701 Evaluation Platform v1.1"
           }
@@ -309,11 +309,11 @@
         "name": "vc707",
         "display": "Virtex-7 VC707 Evaluation Platform",
         "latest_revision": "1.4",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.4",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Virtex-7 VC707 Evaluation Platform v1.4"
           }
@@ -328,11 +328,11 @@
         "name": "vc709",
         "display": "Virtex-7 VC709 Evaluation Platform",
         "latest_revision": "1.8",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.8",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Virtex-7 VC709 Evaluation Platform v1.8"
           }
@@ -347,11 +347,11 @@
         "name": "vck190",
         "display": "Versal VCK190 Evaluation Platform",
         "latest_revision": "2.2",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "2.2",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Versal VCK190 Evaluation Platform v2.2"
           }
@@ -366,11 +366,11 @@
         "name": "vck190",
         "display": "Versal VCK190 Evaluation Platform",
         "latest_revision": "3.0",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Versal VCK190 Evaluation Platform v3.0"
           }
@@ -385,11 +385,11 @@
         "name": "vck190",
         "display": "Versal VCK190 Evaluation Platform",
         "latest_revision": "3.1",
-        "commit_id": "4d23f52d8fa07bbf07006e507af4512335784f9c",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "3.1",
-            "commit_id": "4d23f52d8fa07bbf07006e507af4512335784f9c",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Versal VCK190 Evaluation Platform v3.1"
           }
@@ -404,11 +404,11 @@
         "name": "vck190_newl",
         "display": "Versal VCK190 Evaluation Platform with New SD Level Shifter",
         "latest_revision": "1.0",
-        "commit_id": "4d23f52d8fa07bbf07006e507af4512335784f9c",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "4d23f52d8fa07bbf07006e507af4512335784f9c",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Versal VCK190 Evaluation Platform with New SD Level Shifter v1.0"
           }
@@ -423,11 +423,11 @@
         "name": "vcu108",
         "display": "Virtex-UltraScale VCU108 Evaluation Platform",
         "latest_revision": "1.6",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.6",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Virtex-UltraScale VCU108 Evaluation Platform v1.6"
           }
@@ -442,11 +442,11 @@
         "name": "vcu108",
         "display": "Virtex-UltraScale VCU108 Evaluation Platform",
         "latest_revision": "1.7",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.7",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Virtex-UltraScale VCU108 Evaluation Platform v1.7"
           }
@@ -461,11 +461,11 @@
         "name": "vcu110",
         "display": "Virtex-UltraScale VCU110 Evaluation Platform",
         "latest_revision": "1.4",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.4",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Virtex-UltraScale VCU110 Evaluation Platform v1.4"
           }
@@ -480,11 +480,11 @@
         "name": "vcu118",
         "display": "Virtex UltraScale+ VCU118 Evaluation Platform",
         "latest_revision": "2.0",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Virtex UltraScale+ VCU118 Evaluation Platform v2.0"
           }
@@ -499,11 +499,11 @@
         "name": "vcu118",
         "display": "Virtex UltraScale+ VCU118 Evaluation Platform",
         "latest_revision": "2.3",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "2.3",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Virtex UltraScale+ VCU118 Evaluation Platform v2.3"
           }
@@ -518,11 +518,11 @@
         "name": "vcu118",
         "display": "Virtex UltraScale+ VCU118 Evaluation Platform",
         "latest_revision": "2.4",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "2.4",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Virtex UltraScale+ VCU118 Evaluation Platform v2.4"
           }
@@ -537,11 +537,11 @@
         "name": "vcu128",
         "display": "Virtex Ultrascale+ HBM VCU128 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Virtex Ultrascale+ HBM VCU128 Evaluation Platform v1.0"
           }
@@ -556,11 +556,11 @@
         "name": "vcu129",
         "display": "Virtex Ultrascale+ 56G VCU129 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Virtex Ultrascale+ 56G VCU129 Evaluation Platform v1.0"
           }
@@ -575,11 +575,11 @@
         "name": "vcu1525",
         "display": "Virtex UltraScale+ VCU1525 Acceleration Development Board",
         "latest_revision": "1.3",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.3",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Virtex UltraScale+ VCU1525 Acceleration Development Board v1.3"
           }
@@ -594,11 +594,11 @@
         "name": "vermeo_t1_mpsoc",
         "display": "Zynq Ultrascale+ MPSoC T1 Development Board",
         "latest_revision": "1.0",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Zynq Ultrascale+ MPSoC T1 Development Board v1.0"
           }
@@ -613,11 +613,11 @@
         "name": "vermeo_t1_rfsoc",
         "display": "Zynq Ultrascale+ RFSoC T1 Development Board",
         "latest_revision": "1.0",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Zynq Ultrascale+ RFSoC T1 Development Board v1.0"
           }
@@ -632,11 +632,11 @@
         "name": "vmk180",
         "display": "Versal VMK180 Evaluation Platform",
         "latest_revision": "2.2",
-        "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "2.2",
-            "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Versal VMK180 Evaluation Platform v2.2"
           }
@@ -651,11 +651,11 @@
         "name": "vmk180",
         "display": "Versal VMK180 Evaluation Platform",
         "latest_revision": "3.0",
-        "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "3.0",
-            "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Versal VMK180 Evaluation Platform v3.0"
           }
@@ -670,11 +670,11 @@
         "name": "vmk180",
         "display": "Versal VMK180 Evaluation Platform",
         "latest_revision": "3.1",
-        "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "3.1",
-            "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Versal VMK180 Evaluation Platform v3.1"
           }
@@ -689,11 +689,11 @@
         "name": "vmk180_newl",
         "display": "Versal VMK180 Evaluation Platform with New SD Level Shifter",
         "latest_revision": "1.0",
-        "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Versal VMK180 Evaluation Platform with New SD Level Shifter v1.0"
           }
@@ -708,11 +708,11 @@
         "name": "vpk120",
         "display": "Versal VPK120 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Versal VPK120 Evaluation Platform v1.0"
           }
@@ -727,11 +727,11 @@
         "name": "xm105",
         "display": "FMC XM105 Debug Card",
         "latest_revision": "1.0",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board FMC XM105 Debug Card v1.0"
           }
@@ -746,11 +746,11 @@
         "name": "zc702",
         "display": "ZYNQ-7 ZC702 Evaluation Board",
         "latest_revision": "1.4",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.4",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board ZYNQ-7 ZC702 Evaluation Board v1.4"
           }
@@ -784,11 +784,11 @@
         "name": "zcu102",
         "display": "Zynq UltraScale+ ZCU102 Evaluation Board",
         "latest_revision": "3.3",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "3.3",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Zynq UltraScale+ ZCU102 Evaluation Board v3.3"
           }
@@ -803,11 +803,11 @@
         "name": "zcu102",
         "display": "Zynq UltraScale+ ZCU102 Evaluation Board",
         "latest_revision": "3.4",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "3.4",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Zynq UltraScale+ ZCU102 Evaluation Board v3.4"
           }
@@ -822,11 +822,11 @@
         "name": "zcu104",
         "display": "Zynq UltraScale+ ZCU104 Evaluation Board",
         "latest_revision": "1.1",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Zynq UltraScale+ ZCU104 Evaluation Board v1.1"
           }
@@ -841,11 +841,11 @@
         "name": "zcu106",
         "display": "Zynq UltraScale+ ZCU106 Evaluation Platform",
         "latest_revision": "2.4",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "2.4",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Zynq UltraScale+ ZCU106 Evaluation Platform v2.4"
           }
@@ -860,11 +860,11 @@
         "name": "zcu106",
         "display": "Zynq UltraScale+ ZCU106 Evaluation Platform",
         "latest_revision": "2.5",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "2.5",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Zynq UltraScale+ ZCU106 Evaluation Platform v2.5"
           }
@@ -879,11 +879,11 @@
         "name": "zcu106",
         "display": "Zynq UltraScale+ ZCU106 Evaluation Platform",
         "latest_revision": "2.6",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "2.6",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Zynq UltraScale+ ZCU106 Evaluation Platform v2.6"
           }
@@ -898,11 +898,11 @@
         "name": "zcu111",
         "display": "Zynq UltraScale+ ZCU111 Evaluation Platform",
         "latest_revision": "1.2",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Zynq UltraScale+ ZCU111 Evaluation Platform v1.2"
           }
@@ -917,11 +917,11 @@
         "name": "zcu111",
         "display": "Zynq UltraScale+ ZCU111 Evaluation Platform",
         "latest_revision": "1.3",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.3",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Zynq UltraScale+ ZCU111 Evaluation Platform v1.3"
           }
@@ -936,11 +936,11 @@
         "name": "zcu111",
         "display": "Zynq UltraScale+ ZCU111 Evaluation Platform",
         "latest_revision": "1.4",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.4",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Zynq UltraScale+ ZCU111 Evaluation Platform v1.4"
           }
@@ -955,11 +955,11 @@
         "name": "zcu1275",
         "display": "Xilinx Zynq UltraScale+ RFSoC ZCU1275 Characterization Kit",
         "latest_revision": "1.0",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Xilinx Zynq UltraScale+ RFSoC ZCU1275 Characterization Kit v1.0"
           }
@@ -974,11 +974,11 @@
         "name": "zcu1285",
         "display": "Xilinx Zynq UltraScale+ RFSoC ZCU1285 Characterization Kit",
         "latest_revision": "1.0",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Xilinx Zynq UltraScale+ RFSoC ZCU1285 Characterization Kit v1.0"
           }
@@ -993,11 +993,11 @@
         "name": "zcu208",
         "display": "Zynq UltraScale+ ZCU208 Evaluation Platform",
         "latest_revision": "2.0",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Zynq UltraScale+ ZCU208 Evaluation Platform v2.0"
           }
@@ -1012,11 +1012,11 @@
         "name": "zcu208ld",
         "display": "Zynq UltraScale+ ZCU208-LD Evaluation Platform",
         "latest_revision": "2.0",
-        "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Zynq UltraScale+ ZCU208-LD Evaluation Platform v2.0"
           }
@@ -1031,11 +1031,11 @@
         "name": "zcu216",
         "display": "Zynq UltraScale+ ZCU216 Evaluation Platform",
         "latest_revision": "2.0",
-        "commit_id": "002ff0369b77a8707d0cbb89cdfaf6cf5ce7ef08",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "002ff0369b77a8707d0cbb89cdfaf6cf5ce7ef08",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Zynq UltraScale+ ZCU216 Evaluation Platform v2.0"
           }
@@ -1050,11 +1050,11 @@
         "name": "zcu216ld",
         "display": "Zynq UltraScale+ ZCU216-LD Evaluation Platform",
         "latest_revision": "2.0",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Zynq UltraScale+ ZCU216-LD Evaluation Platform v2.0"
           }
@@ -1069,11 +1069,11 @@
         "name": "zcu670",
         "display": "Zynq UltraScale+ ZCU670 Evaluation Platform",
         "latest_revision": "2.0",
-        "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "2.0",
-            "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Zynq UltraScale+ ZCU670 Evaluation Platform v2.0"
           }
@@ -1088,11 +1088,11 @@
         "name": "zcu670ld",
         "display": "Zynq UltraScale+ ZCU670-LD Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-06-2022:17:43:00",
             "history": "Added board Zynq UltraScale+ ZCU670-LD Evaluation Platform v1.0"
           }
@@ -1107,11 +1107,11 @@
         "name": "ZC706",
         "display": "Zynq 7000 ZC706 Evaluation Board",
         "latest_revision": "1.4",
-        "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.4",
-            "commit_id": "2c1dde9e14cf04de31e4812d3915f6b6b51f30c9",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "06-09-2022:12:01:34",
             "history": "Added board Zynq 7000 ZC706 Evaluation Board v1.4"
           }
@@ -1126,11 +1126,11 @@
         "name": "vpk180",
         "display": "Versal VPK180 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "15-11-2022:06:21:46",
             "history": "Added board Versal VPK180 Evaluation Platform v1.0"
           }
@@ -1145,11 +1145,11 @@
         "name": "kr260",
         "display": "Robotics Starter Kit carrier card",
         "latest_revision": "1.0",
-        "commit_id": "e17d68c43a9c1004c3799dde68dfcd39e1f1a67c",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "e17d68c43a9c1004c3799dde68dfcd39e1f1a67c",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "06-12-2022:04:44:08",
             "history": "Added board Robotics Starter Kit carrier card v1.0"
           }
@@ -1164,11 +1164,11 @@
         "name": "kr260_som",
         "display": "Kria KR260 Robotics Starter Kit SOM",
         "latest_revision": "1.0",
-        "commit_id": "e17d68c43a9c1004c3799dde68dfcd39e1f1a67c",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "e17d68c43a9c1004c3799dde68dfcd39e1f1a67c",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "06-12-2022:04:44:08",
             "history": "Added board Kria KR260 Robotics Starter Kit SOM v1.0"
           }
@@ -1183,11 +1183,11 @@
         "name": "kr260_som",
         "display": "Kria KR260 Robotics Starter Kit SOM",
         "latest_revision": "1.1",
-        "commit_id": "e17d68c43a9c1004c3799dde68dfcd39e1f1a67c",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "e17d68c43a9c1004c3799dde68dfcd39e1f1a67c",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "06-12-2022:04:44:08",
             "history": "Added board Kria KR260 Robotics Starter Kit SOM v1.1"
           }
@@ -1202,11 +1202,11 @@
         "name": "kv260_carrier",
         "display": "Vision AI Starter Kit carrier card",
         "latest_revision": "1.2",
-        "commit_id": "e17d68c43a9c1004c3799dde68dfcd39e1f1a67c",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "e17d68c43a9c1004c3799dde68dfcd39e1f1a67c",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "06-12-2022:04:44:08",
             "history": "Added board Vision AI Starter Kit carrier card v1.2"
           }
@@ -1221,11 +1221,11 @@
         "name": "kv260_carrier",
         "display": "Vision AI Starter Kit carrier card",
         "latest_revision": "1.3",
-        "commit_id": "e17d68c43a9c1004c3799dde68dfcd39e1f1a67c",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.3",
-            "commit_id": "e17d68c43a9c1004c3799dde68dfcd39e1f1a67c",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "06-12-2022:04:44:08",
             "history": "Added board Vision AI Starter Kit carrier card v1.3"
           }
@@ -1240,11 +1240,11 @@
         "name": "kv260_som",
         "display": "Kria KV260 Vision AI Starter Kit SOM",
         "latest_revision": "1.2",
-        "commit_id": "e17d68c43a9c1004c3799dde68dfcd39e1f1a67c",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "e17d68c43a9c1004c3799dde68dfcd39e1f1a67c",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "06-12-2022:04:44:08",
             "history": "Added board Kria KV260 Vision AI Starter Kit SOM v1.2"
           }
@@ -1259,11 +1259,11 @@
         "name": "kv260_som",
         "display": "Kria KV260 Vision AI Starter Kit SOM",
         "latest_revision": "1.3",
-        "commit_id": "e17d68c43a9c1004c3799dde68dfcd39e1f1a67c",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.3",
-            "commit_id": "e17d68c43a9c1004c3799dde68dfcd39e1f1a67c",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "06-12-2022:04:44:08",
             "history": "Added board Kria KV260 Vision AI Starter Kit SOM v1.3"
           }
@@ -1278,11 +1278,11 @@
         "name": "kv260_som",
         "display": "Kria KV260 Vision AI Starter Kit SOM",
         "latest_revision": "1.4",
-        "commit_id": "19ddc2112d3146220e106fb6914c92d0a64b16b7",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.4",
-            "commit_id": "19ddc2112d3146220e106fb6914c92d0a64b16b7",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "06-12-2022:04:44:08",
             "history": "Added board Kria KV260 Vision AI Starter Kit SOM v1.4"
           }
@@ -1297,11 +1297,11 @@
         "name": "vhk158",
         "display": "Versal VHK158 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "18-01-2023:11:47:56",
             "history": "Added board Versal VHK158 Evaluation Platform v1.0"
           }
@@ -1316,11 +1316,11 @@
         "name": "LI-IMX274MIPI-FMC-Versal",
         "display": "FMC XM105 Debug Card",
         "latest_revision": "1.0",
-        "commit_id": "7b89292a5aa18448c618648fdc87c0491ace99cb",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "7b89292a5aa18448c618648fdc87c0491ace99cb",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "02-02-2023:06:02:24",
             "history": "Added board FMC XM105 Debug Card v1.0"
           }
@@ -1335,11 +1335,11 @@
         "name": "vck190",
         "display": "Versal VCK190 Evaluation Platform",
         "latest_revision": "3.2",
-        "commit_id": "4d23f52d8fa07bbf07006e507af4512335784f9c",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "3.2",
-            "commit_id": "4d23f52d8fa07bbf07006e507af4512335784f9c",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "23-03-2023:08:22:44",
             "history": "Added board Versal VCK190 Evaluation Platform v3.2"
           }
@@ -1354,11 +1354,11 @@
         "name": "vck190_newl",
         "display": "Versal VCK190 Evaluation Platform with New SD Level Shifter",
         "latest_revision": "1.1",
-        "commit_id": "4d23f52d8fa07bbf07006e507af4512335784f9c",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "4d23f52d8fa07bbf07006e507af4512335784f9c",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "23-03-2023:08:22:44",
             "history": "Added board Versal VCK190 Evaluation Platform with New SD Level Shifter v1.1"
           }
@@ -1373,11 +1373,11 @@
         "name": "vmk180",
         "display": "Versal VMK180 Evaluation Platform",
         "latest_revision": "3.2",
-        "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "3.2",
-            "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "23-03-2023:08:22:44",
             "history": "Added board Versal VMK180 Evaluation Platform v3.2"
           }
@@ -1392,11 +1392,11 @@
         "name": "vmk180_newl",
         "display": "Versal VMK180 Evaluation Platform with New SD Level Shifter",
         "latest_revision": "1.1",
-        "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "23-03-2023:08:22:44",
             "history": "Added board Versal VMK180 Evaluation Platform with New SD Level Shifter v1.1"
           }
@@ -1411,11 +1411,11 @@
         "name": "vpk120",
         "display": "Versal VPK120 Evaluation Platform",
         "latest_revision": "1.1",
-        "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "23-03-2023:08:22:44",
             "history": "Added board Versal VPK120 Evaluation Platform v1.1"
           }
@@ -1430,11 +1430,11 @@
         "name": "vpk180",
         "display": "Versal VPK180 Evaluation Platform",
         "latest_revision": "1.1",
-        "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "23-03-2023:08:22:44",
             "history": "Added board Versal VPK180 Evaluation Platform v1.1"
           }
@@ -1449,7 +1449,7 @@
         "name": "vpk120",
         "display": "Versal VPK120 Evaluation Platform",
         "latest_revision": "1.2",
-        "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.1",
@@ -1459,7 +1459,7 @@
           },
           {
             "revision": "1.2",
-            "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "27-03-2023:11:52:54",
             "history": "Added board Versal VPK120 Evaluation Platform v1.2"
           }
@@ -1474,11 +1474,11 @@
         "name": "k24c",
         "display": "Kria K24C SOM",
         "latest_revision": "1.0",
-        "commit_id": "41477a2a44aea9d9d778ab655a8268bfbe19de6a",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "41477a2a44aea9d9d778ab655a8268bfbe19de6a",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "22-06-2023:09:00:16",
             "history": "Added board Kria K24C SOM v1.0"
           }
@@ -1493,11 +1493,11 @@
         "name": "k24i",
         "display": "Kria K24I SOM",
         "latest_revision": "1.0",
-        "commit_id": "41477a2a44aea9d9d778ab655a8268bfbe19de6a",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "41477a2a44aea9d9d778ab655a8268bfbe19de6a",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "22-06-2023:09:00:16",
             "history": "Added board Kria K24I SOM v1.0"
           }
@@ -1512,11 +1512,11 @@
         "name": "kd240_carrier",
         "display": "Drives Starter Kit carrier card",
         "latest_revision": "1.0",
-        "commit_id": "5bfbd9eff2e30bf981e341d29b8a373c1b2356cf",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "5bfbd9eff2e30bf981e341d29b8a373c1b2356cf",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "22-06-2023:09:00:16",
             "history": "Added board Drives Starter Kit carrier card v1.0"
           }
@@ -1531,11 +1531,11 @@
         "name": "kd240_som",
         "display": "Kria KD240 Drives Starter Kit SOM",
         "latest_revision": "1.0",
-        "commit_id": "41477a2a44aea9d9d778ab655a8268bfbe19de6a",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "41477a2a44aea9d9d778ab655a8268bfbe19de6a",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "22-06-2023:09:00:16",
             "history": "Added board Kria KD240 Drives Starter Kit SOM v1.0"
           }
@@ -1550,7 +1550,7 @@
         "name": "vek280",
         "display": "Versal VEK280 pre_production Evaluation Platform with FMC Connector",
         "latest_revision": "1.0",
-        "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.1",
@@ -1560,7 +1560,7 @@
           },
           {
             "revision": "1.0",
-            "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "16-11-2023:12:29:46",
             "history": "Added board Versal VEK280 Evaluation Platform with FMC Connector v1.0"
           }
@@ -1575,11 +1575,11 @@
         "name": "vhk158",
         "display": "Versal VHK158 Evaluation Platform",
         "latest_revision": "1.1",
-        "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "12-07-2023:06:02:47",
             "history": "Added board Versal VHK158 Evaluation Platform v1.1"
           }
@@ -1594,11 +1594,11 @@
         "name": "vek280",
         "display": "Versal VEK280 Evaluation Platform with FMC Connector",
         "latest_revision": "1.1",
-        "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "20-10-2023:12:51:23",
             "history": "Added board Versal VEK280 Evaluation Platform with FMC Connector v1.1"
           }
@@ -1613,11 +1613,11 @@
         "name": "vpk180",
         "display": "Versal VPK180 Evaluation Platform",
         "latest_revision": "1.2",
-        "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "15-11-2023:06:00:08",
             "history": "Added board Versal VPK180 Evaluation Platform v1.2"
           }
@@ -1632,11 +1632,11 @@
         "name": "kr260",
         "display": "Robotics Starter Kit carrier card",
         "latest_revision": "1.1",
-        "commit_id": "d7c5ca6f10e8be4fb3418a0eb208bb62afe5786a",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "d7c5ca6f10e8be4fb3418a0eb208bb62afe5786a",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "18-01-2024:11:31:53",
             "history": "Added board Robotics Starter Kit carrier card v1.1"
           }
@@ -1651,11 +1651,11 @@
         "name": "vck190",
         "display": "Versal VCK190 Evaluation Platform",
         "latest_revision": "3.3",
-        "commit_id": "b73751d42de81e6b23e0e58be6470d52c55f2c1f",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "3.3",
-            "commit_id": "b73751d42de81e6b23e0e58be6470d52c55f2c1f",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "19-03-2024:14:17:06",
             "history": "Added board Versal VCK190 Evaluation Platform v3.3"
           }
@@ -1670,11 +1670,11 @@
         "name": "vck190_newl",
         "display": "Versal VCK190 Evaluation Platform with New SD Level Shifter",
         "latest_revision": "1.2",
-        "commit_id": "1f477343e92e4aeebe35c94293398236d6551ce6",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "1f477343e92e4aeebe35c94293398236d6551ce6",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "19-03-2024:14:17:06",
             "history": "Added board Versal VCK190 Evaluation Platform with New SD Level Shifter v1.2"
           }
@@ -1689,11 +1689,11 @@
         "name": "vek280",
         "display": "Versal VEK280 Evaluation Platform with FMC Connector",
         "latest_revision": "1.2",
-        "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "19-03-2024:14:17:06",
             "history": "Added board Versal VEK280 Evaluation Platform with FMC Connector v1.2"
           }
@@ -1708,11 +1708,11 @@
         "name": "emb-plus-vpr-4616",
         "display": "Embedded+ Sapphire VPR-4616",
         "latest_revision": "1.0",
-        "commit_id": "c0ea18497c94fcc40ba299b75a3d61a953b46ce5",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "c0ea18497c94fcc40ba299b75a3d61a953b46ce5",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "09-07-2024:16:44:06",
             "history": "Added board Embedded+ Sapphire VPR-4616 v1.0"
           }
@@ -1727,11 +1727,11 @@
         "name": "vhk158",
         "display": "Versal VHK158 Evaluation Platform",
         "latest_revision": "1.1",
-        "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "11-07-2024:05:40:37",
             "history": "Added board Versal VHK158 Evaluation Platform v1.1"
           }
@@ -1746,11 +1746,11 @@
         "name": "kc705",
         "display": "Kintex-7 KC705 Evaluation Platform",
         "latest_revision": "1.7",
-        "commit_id": "a70b2b9a9be6cc57b098a9a2e9bf86b01b912787",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.7",
-            "commit_id": "a70b2b9a9be6cc57b098a9a2e9bf86b01b912787",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "24-07-2024:08:48:11",
             "history": "Added board Kintex-7 KC705 Evaluation Platform v1.7"
           }
@@ -1765,11 +1765,11 @@
         "name": "vc707",
         "display": "Virtex-7 VC707 Evaluation Platform",
         "latest_revision": "1.5",
-        "commit_id": "44933c0bdbf62246e8e0d0c6b629f64448f8706a",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.5",
-            "commit_id": "44933c0bdbf62246e8e0d0c6b629f64448f8706a",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "04-12-2024:16:03:36",
             "history": "Added board Virtex-7 VC707 Evaluation Platform v1.5"
           }
@@ -1784,11 +1784,11 @@
         "name": "v80",
         "display": "Alveo V80 Compute Accelerator Card",
         "latest_revision": "1.0",
-        "commit_id": "526c1fe619e054e3757939e3e6e3dd0e6ed3cb6b",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "526c1fe619e054e3757939e3e6e3dd0e6ed3cb6b",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "22-01-2025:10:23:13",
             "history": "Added board Alveo V80 Compute Accelerator Card v1.0"
           }
@@ -1822,11 +1822,11 @@
         "name": "scu35",
         "display": "Spartan UltraScale SCU35 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "99b350072d1bb05d183e0f1c1c25b0770b57e9f4",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "99b350072d1bb05d183e0f1c1c25b0770b57e9f4",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-02-2025:16:10:02",
             "history": "Added board Spartan UltraScale SCU35 Evaluation Platform v1.0"
           }
@@ -1841,7 +1841,7 @@
         "name": "vek385",
         "display": "Versal VEK385 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "3c0df6e8af8e46de11815e624213a29bf42065d1",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.1",
@@ -1851,7 +1851,7 @@
           },
           {
             "revision": "1.0",
-            "commit_id": "3c0df6e8af8e46de11815e624213a29bf42065d1",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "23-06-2025:07:06:47",
             "history": "Added board Versal VEK385 Evaluation Platform v1.0"
           }
@@ -1885,7 +1885,7 @@
         "name": "vrk160",
         "display": "Versal VRK160 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "f858346105428bfac9841b20305d2e770c78877b",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.1",
@@ -1895,7 +1895,7 @@
           },
           {
             "revision": "1.0",
-            "commit_id": "f858346105428bfac9841b20305d2e770c78877b",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "18-07-2025:05:58:09",
             "history": "Added board Versal VRK160 Evaluation Platform v1.0"
           }
@@ -1910,11 +1910,11 @@
         "name": "emb-plus-vpr-4616",
         "display": "Embedded+ Sapphire VPR-4616",
         "latest_revision": "1.1",
-        "commit_id": "a716dfa759b302f65caa9ef86d0674038b44b3db",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "a716dfa759b302f65caa9ef86d0674038b44b3db",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "10-06-2025:14:45:46",
             "history": "Added board Embedded+ Sapphire VPR-4616 v1.1"
           }
@@ -1929,11 +1929,11 @@
         "name": "k24c",
         "display": "Kria K24C SOM",
         "latest_revision": "1.0",
-        "commit_id": "a716dfa759b302f65caa9ef86d0674038b44b3db",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "a716dfa759b302f65caa9ef86d0674038b44b3db",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "10-06-2025:14:45:46",
             "history": "Added board Kria K24C SOM v1.0"
           }
@@ -1948,11 +1948,11 @@
         "name": "kd240_som",
         "display": "Kria KD240 Drives Starter Kit SOM",
         "latest_revision": "1.0",
-        "commit_id": "a716dfa759b302f65caa9ef86d0674038b44b3db",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "a716dfa759b302f65caa9ef86d0674038b44b3db",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "10-06-2025:14:45:46",
             "history": "Added board Kria KD240 Drives Starter Kit SOM v1.0"
           }
@@ -1967,11 +1967,11 @@
         "name": "vck190",
         "display": "Versal VCK190 Evaluation Platform",
         "latest_revision": "3.3",
-        "commit_id": "a716dfa759b302f65caa9ef86d0674038b44b3db",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "3.3",
-            "commit_id": "a716dfa759b302f65caa9ef86d0674038b44b3db",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "10-06-2025:14:45:46",
             "history": "Added board Versal VCK190 Evaluation Platform v3.3"
           }
@@ -1986,11 +1986,11 @@
         "name": "vck190_newl",
         "display": "Versal VCK190 Evaluation Platform with New SD Level Shifter",
         "latest_revision": "1.2",
-        "commit_id": "a716dfa759b302f65caa9ef86d0674038b44b3db",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "a716dfa759b302f65caa9ef86d0674038b44b3db",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "10-06-2025:14:45:46",
             "history": "Added board Versal VCK190 Evaluation Platform with New SD Level Shifter v1.2"
           }
@@ -2005,11 +2005,11 @@
         "name": "vmk180",
         "display": "Versal VMK180 Evaluation Platform",
         "latest_revision": "3.2",
-        "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "3.2",
-            "commit_id": "077383f271c7a1bddb82547c9480a65d2b86eb57",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "10-06-2025:14:45:46",
             "history": "Added board Versal VMK180 Evaluation Platform v3.2"
           }
@@ -2024,11 +2024,11 @@
         "name": "vek385",
         "display": "Versal VEK385 Evaluation Platform",
         "latest_revision": "1.1",
-        "commit_id": "c98c853dc5ebef043dea1e8d1e85cdcb901f2e2f",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "c98c853dc5ebef043dea1e8d1e85cdcb901f2e2f",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "28-07-2025:16:32:47",
             "history": "Added board Versal VEK385 Evaluation Platform v1.1"
           }
@@ -2062,7 +2062,7 @@
         "name": "ZC706",
         "display": "Zynq 7000 ZC706 Evaluation Board",
         "latest_revision": "1.5",
-        "commit_id": "be5bc64376ba4fd53d21d62131ec6979ad38a90d",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.4",
@@ -2072,7 +2072,7 @@
           },
           {
             "revision": "1.5",
-            "commit_id": "be5bc64376ba4fd53d21d62131ec6979ad38a90d",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "25-08-2025:17:29:47",
             "history": "Added board Zynq 7000 ZC706 Evaluation Board v1.5"
           }
@@ -2087,11 +2087,11 @@
         "name": "vek385_1",
         "display": "Versal VEK385 Evaluation Platform (Rev B)",
         "latest_revision": "1.0",
-        "commit_id": "c98c853dc5ebef043dea1e8d1e85cdcb901f2e2f",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "c98c853dc5ebef043dea1e8d1e85cdcb901f2e2f",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "15-09-2025:14:58:32",
             "history": "Added board Versal VEK385 Evaluation Platform (Rev B) v1.0"
           }
@@ -2106,11 +2106,11 @@
         "name": "scu200",
         "display": "Spartan Ultrascale+ SCU200 ES Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "b416b4b6db37d79e14a138b050be19c9a341307d",
+        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "b416b4b6db37d79e14a138b050be19c9a341307d",
+            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
             "date": "25-09-2025:06:35:21",
             "history": "Added board Spartan Ultrascale+ SCU200 ES Evaluation Platform v1.0"
           }
