@@ -1,0 +1,1692 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!-- Comment out next line after testing complete
+<!DOCTYPE board SYSTEM "./board.dtd"> -->
+<!-- Copyright (C) 2025, New Wave Design
+	THIS DOCUMENT AND THE INFORMATION CONTAINED HEREIN IS PROPRIETARY
+	AND CONFIDENTIAL TO NEW WAVE DESIGN AND VERIFICATION AND SHALL NOT
+	BE USED, DISTRIBUTED OR REPRODUCED FOR ANY PURPOSE, EXCEPT
+	WITH THE WRITTEN CONSENT OF NEW WAVE DESIGN AND VERIFICATION.
+
+	Board Interface file: The Board Interface file is the file described in this appendix, and
+	must be named board.xml. It lists the components used on a system-level board,
+	including the Xilinx device, defines the different operating modes supported by those
+	components, lists the signal interfaces implemented by those components, lists the
+	preferred IP to implement those interfaces in a design project, and maps the logical
+	ports of the interface definition to the physical ports and component pins of the Xilinx
+	device.  Assuming a start in the repo ./build/v116x_xxxx/ directory, this file can be
+	referenced by Vivado by using the command
+		"set_param board.repoPaths ../../boardfiles/v116x_xxxx/1.0"
+	and checked by the command
+		"get_board_parts *v116*" and/or "validate_board_files ../../boardFiles/v116x_xxxx/1.0"
+
+	Partially based on example from https://www.hackster.io/mindaugas2/creating-xilinx-vivado-board-files-for-ebaz4205-a7b120  and from
+	vmk180 files at ./data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/* and
+	Appendix A for UG895.
+
+	28 Apr, 2025 - SBJ - Initial entry.
+	-->
+
+<board schema_version="2.2" vendor="NewWaveDesign.com" name="v6065_vp1702" display_name="V6065 3U VPX Versal Premium ASoC Card with VP1702" url="https://newwavedesign.com/products/vpx/v6065-3u-vpx-versal-premium-asoc-fpga-optical-i-o-module-with-xmc-site/" preset_file="preset.xml" supports_ced="true">
+	<file_version>1.0</file_version>
+	<compatible_board_revisions>
+		<revision id="0">1.0</revision>
+	</compatible_board_revisions>
+	<description>V6065 3U VPX Versal Premium ASoC Card</description>
+	<images>
+		<image name="v6065.jpg" display_name="V6065 3U VPX Versal Premium ASoC Card" sub_type="board">
+			<description>"V6065 3U VPX Versal Premium ASoC Card"</description>
+		</image>
+	</images>
+	<parameters>
+		<!-- These two lines just copied from vmk180 file
+		<parameter name="heat_sink_type" value="medium" value_type="string"/>
+		<parameter name="heat_sink_temperature" value_type="range" value_min="20.0" value_max="30.0"/> -->
+	</parameters>
+	<jumpers>
+	</jumpers>
+
+	<components>
+		<component name="part0" display_name="xcvp1702 FPGA" type="fpga" part_name="xcvp1702-vsva3340-2MHP-i-S" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="www.xilinx.com">
+			<description>xcvp1702 FPGA</description>
+			<interfaces>
+
+				<interface mode="master" name="ps_pmc_fixed_io" type="xilinx.com:interface:fixed_io_rtl:1.0" of_component="ps_pmc_fixed_io" preset_proc="ps_pmc_fixed_io_preset">
+					<parameters>
+						<parameter name="presets_special_handling"/>
+					</parameters>
+					<preferred_ips>
+						<preferred_ip vendor="xilinx.com" library="ip" name="versal_cips" order="0"/>
+					</preferred_ips>
+					<port_maps>
+						<port_map logical_port="dummy" physical_port="dummy" dir="out"/>
+					</port_maps>
+				</interface>
+
+<!-- MT53E2G32D4DE are 4 die 2Gx32, 8GB parts, so 16GB per controller (Dual-channel, Dual Rank packages) -->
+				<interface mode="master" name="ch0_lpddr4_c0" type="xilinx.com:interface:lpddr4_rtl:1.0" of_component="LPDDR4_Controller0" preset_proc="LPDDR4_Controller0_preset">
+					<description>LPDDR4 board interface, it can use AXI_NoC IP for connection. </description>
+					<parameters>
+						<parameter name="TYPE" value="CH0_LPDDR4"/>
+						<parameter name="presets_special_handling"/>
+					</parameters>
+					<preferred_ips>
+						<preferred_ip vendor="xilinx.com" library="ip" name="axi_noc" order="0"/>
+					</preferred_ips>
+					<port_maps>
+						<port_map logical_port="DQ_A" physical_port="lpddr4_ch0_dq_a" dir="inout" left="15" right="0">
+							<pin_maps>
+								<pin_map port_index="0"   component_pin="lpddr4_0_dq_a0"/>
+								<pin_map port_index="1"   component_pin="lpddr4_0_dq_a1"/>
+								<pin_map port_index="2"   component_pin="lpddr4_0_dq_a2"/>
+								<pin_map port_index="3"   component_pin="lpddr4_0_dq_a3"/>
+								<pin_map port_index="4"   component_pin="lpddr4_0_dq_a4"/>
+								<pin_map port_index="5"   component_pin="lpddr4_0_dq_a5"/>
+								<pin_map port_index="6"   component_pin="lpddr4_0_dq_a6"/>
+								<pin_map port_index="7"   component_pin="lpddr4_0_dq_a7"/>
+								<pin_map port_index="8"   component_pin="lpddr4_0_dq_a8"/>
+								<pin_map port_index="9"   component_pin="lpddr4_0_dq_a9"/>
+								<pin_map port_index="10"  component_pin="lpddr4_0_dq_a10"/>
+								<pin_map port_index="11"  component_pin="lpddr4_0_dq_a11"/>
+								<pin_map port_index="12"  component_pin="lpddr4_0_dq_a12"/>
+								<pin_map port_index="13"  component_pin="lpddr4_0_dq_a13"/>
+								<pin_map port_index="14"  component_pin="lpddr4_0_dq_a14"/>
+								<pin_map port_index="15"  component_pin="lpddr4_0_dq_a15"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="DQ_B" physical_port="lpddr4_ch0_dq_b" dir="inout" left="15" right="0">
+							<pin_maps>
+								<pin_map port_index="0"   component_pin="lpddr4_0_dq_b0"/>
+								<pin_map port_index="1"   component_pin="lpddr4_0_dq_b1"/>
+								<pin_map port_index="2"   component_pin="lpddr4_0_dq_b2"/>
+								<pin_map port_index="3"   component_pin="lpddr4_0_dq_b3"/>
+								<pin_map port_index="4"   component_pin="lpddr4_0_dq_b4"/>
+								<pin_map port_index="5"   component_pin="lpddr4_0_dq_b5"/>
+								<pin_map port_index="6"   component_pin="lpddr4_0_dq_b6"/>
+								<pin_map port_index="7"   component_pin="lpddr4_0_dq_b7"/>
+								<pin_map port_index="8"   component_pin="lpddr4_0_dq_b8"/>
+								<pin_map port_index="9"   component_pin="lpddr4_0_dq_b9"/>
+								<pin_map port_index="10"  component_pin="lpddr4_0_dq_b10"/>
+								<pin_map port_index="11"  component_pin="lpddr4_0_dq_b11"/>
+								<pin_map port_index="12"  component_pin="lpddr4_0_dq_b12"/>
+								<pin_map port_index="13"  component_pin="lpddr4_0_dq_b13"/>
+								<pin_map port_index="14"  component_pin="lpddr4_0_dq_b14"/>
+								<pin_map port_index="15"  component_pin="lpddr4_0_dq_b15"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="DQS_T_A" physical_port="lpddr4_ch0_dqs_t_a" dir="inout" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_0_dqs_t_a0"/>
+								<pin_map port_index="1" component_pin="lpddr4_0_dqs_t_a1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="DQS_T_B" physical_port="lpddr4_ch0_dqs_t_b" dir="inout" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_0_dqs_t_b0"/>
+								<pin_map port_index="1" component_pin="lpddr4_0_dqs_t_b1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="DQS_C_A" physical_port="lpddr4_ch0_dqs_c_a" dir="inout" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_0_dqs_c_a0"/>
+								<pin_map port_index="1" component_pin="lpddr4_0_dqs_c_a1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="DQS_C_B" physical_port="lpddr4_ch0_dqs_c_b" dir="inout" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_0_dqs_c_b0"/>
+								<pin_map port_index="1" component_pin="lpddr4_0_dqs_c_b1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CA_A" physical_port="lpddr4_ch0_ca_a" dir="out" left="5" right="0">
+							<pin_maps>
+								<pin_map port_index="0"  component_pin="lpddr4_0_ca_a0"/>
+								<pin_map port_index="1"  component_pin="lpddr4_0_ca_a1"/>
+								<pin_map port_index="2"  component_pin="lpddr4_0_ca_a2"/>
+								<pin_map port_index="3"  component_pin="lpddr4_0_ca_a3"/>
+								<pin_map port_index="4"  component_pin="lpddr4_0_ca_a4"/>
+								<pin_map port_index="5"  component_pin="lpddr4_0_ca_a5"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CA_B" physical_port="lpddr4_ch0_ca_b" dir="out" left="5" right="0">
+							<pin_maps>
+								<pin_map port_index="0"  component_pin="lpddr4_0_ca_b0"/>
+								<pin_map port_index="1"  component_pin="lpddr4_0_ca_b1"/>
+								<pin_map port_index="2"  component_pin="lpddr4_0_ca_b2"/>
+								<pin_map port_index="3"  component_pin="lpddr4_0_ca_b3"/>
+								<pin_map port_index="4"  component_pin="lpddr4_0_ca_b4"/>
+								<pin_map port_index="5"  component_pin="lpddr4_0_ca_b5"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CS_A" physical_port="lpddr4_ch0_cs_a" dir="out" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_0_cs_a0"/>
+								<pin_map port_index="1" component_pin="lpddr4_0_cs_a1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CS_B" physical_port="lpddr4_ch0_cs_b" dir="out" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_0_cs_b0"/>
+								<pin_map port_index="1" component_pin="lpddr4_0_cs_b1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CK_T_A" physical_port="lpddr4_ch0_ck_t_a" dir="out" >
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_0_ck_t_a0"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CK_T_B" physical_port="lpddr4_ch0_ck_t_b" dir="out" >
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_0_ck_t_b0"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CK_C_A" physical_port="lpddr4_ch0_ck_c_a" dir="out" >
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_0_ck_c_a0"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CK_C_B" physical_port="lpddr4_ch0_ck_c_b" dir="out" >
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_0_ck_c_b0"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CKE_A" physical_port="lpddr4_ch0_cke_a" dir="out" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_0_cke_a0"/>
+								<pin_map port_index="1" component_pin="lpddr4_0_cke_a1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CKE_B" physical_port="lpddr4_ch0_cke_b" dir="out" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_0_cke_b0"/>
+								<pin_map port_index="1" component_pin="lpddr4_0_cke_b1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="DMI_A" physical_port="lpddr4_ch0_dmi_a" dir="in" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_0_dmi_a0"/>
+								<pin_map port_index="1" component_pin="lpddr4_0_dmi_a1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="DMI_B" physical_port="lpddr4_ch0_dmi_b" dir="in" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_0_dmi_b0"/>
+								<pin_map port_index="1" component_pin="lpddr4_0_dmi_b1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="RESET_N" physical_port="lpddr4_ch0_reset_n" dir="out">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_0_reset_n0"/>
+							</pin_maps>
+						</port_map>
+					</port_maps>
+				</interface>
+
+				<interface mode="master" name="ch1_lpddr4_c0" type="xilinx.com:interface:lpddr4_rtl:1.0" of_component="LPDDR4_Controller0" preset_proc="LPDDR4_Controller0_preset">
+					<description>LPDDR4 board interface, it can use AXI_NoC IP for connection. </description>
+					<parameters>
+						<parameter name="TYPE" value="CH1_LPDDR4"/>
+						<parameter name="presets_special_handling"/>
+					</parameters>
+					<preferred_ips>
+						<preferred_ip vendor="xilinx.com" library="ip" name="axi_noc" order="0"/>
+					</preferred_ips>
+					<port_maps>
+						<port_map logical_port="DQ_A" physical_port="lpddr4_ch1_dq_a" dir="inout" left="15" right="0">
+							<pin_maps>
+								<pin_map port_index="0"   component_pin="lpddr4_1_dq_a0"/>
+								<pin_map port_index="1"   component_pin="lpddr4_1_dq_a1"/>
+								<pin_map port_index="2"   component_pin="lpddr4_1_dq_a2"/>
+								<pin_map port_index="3"   component_pin="lpddr4_1_dq_a3"/>
+								<pin_map port_index="4"   component_pin="lpddr4_1_dq_a4"/>
+								<pin_map port_index="5"   component_pin="lpddr4_1_dq_a5"/>
+								<pin_map port_index="6"   component_pin="lpddr4_1_dq_a6"/>
+								<pin_map port_index="7"   component_pin="lpddr4_1_dq_a7"/>
+								<pin_map port_index="8"   component_pin="lpddr4_1_dq_a8"/>
+								<pin_map port_index="9"   component_pin="lpddr4_1_dq_a9"/>
+								<pin_map port_index="10"  component_pin="lpddr4_1_dq_a10"/>
+								<pin_map port_index="11"  component_pin="lpddr4_1_dq_a11"/>
+								<pin_map port_index="12"  component_pin="lpddr4_1_dq_a12"/>
+								<pin_map port_index="13"  component_pin="lpddr4_1_dq_a13"/>
+								<pin_map port_index="14"  component_pin="lpddr4_1_dq_a14"/>
+								<pin_map port_index="15"  component_pin="lpddr4_1_dq_a15"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="DQ_B" physical_port="lpddr4_ch1_dq_b" dir="inout" left="15" right="0">
+							<pin_maps>
+								<pin_map port_index="0"   component_pin="lpddr4_1_dq_b0"/>
+								<pin_map port_index="1"   component_pin="lpddr4_1_dq_b1"/>
+								<pin_map port_index="2"   component_pin="lpddr4_1_dq_b2"/>
+								<pin_map port_index="3"   component_pin="lpddr4_1_dq_b3"/>
+								<pin_map port_index="4"   component_pin="lpddr4_1_dq_b4"/>
+								<pin_map port_index="5"   component_pin="lpddr4_1_dq_b5"/>
+								<pin_map port_index="6"   component_pin="lpddr4_1_dq_b6"/>
+								<pin_map port_index="7"   component_pin="lpddr4_1_dq_b7"/>
+								<pin_map port_index="8"   component_pin="lpddr4_1_dq_b8"/>
+								<pin_map port_index="9"   component_pin="lpddr4_1_dq_b9"/>
+								<pin_map port_index="10"  component_pin="lpddr4_1_dq_b10"/>
+								<pin_map port_index="11"  component_pin="lpddr4_1_dq_b11"/>
+								<pin_map port_index="12"  component_pin="lpddr4_1_dq_b12"/>
+								<pin_map port_index="13"  component_pin="lpddr4_1_dq_b13"/>
+								<pin_map port_index="14"  component_pin="lpddr4_1_dq_b14"/>
+								<pin_map port_index="15"  component_pin="lpddr4_1_dq_b15"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="DQS_T_A" physical_port="lpddr4_ch1_dqs_t_a" dir="inout" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_1_dqs_t_a0"/>
+								<pin_map port_index="1" component_pin="lpddr4_1_dqs_t_a1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="DQS_T_B" physical_port="lpddr4_ch1_dqs_t_b" dir="inout" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_1_dqs_t_b0"/>
+								<pin_map port_index="1" component_pin="lpddr4_1_dqs_t_b1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="DQS_C_A" physical_port="lpddr4_ch1_dqs_c_a" dir="inout" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_1_dqs_c_a0"/>
+								<pin_map port_index="1" component_pin="lpddr4_1_dqs_c_a1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="DQS_C_B" physical_port="lpddr4_ch1_dqs_c_b" dir="inout" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_1_dqs_c_b0"/>
+								<pin_map port_index="1" component_pin="lpddr4_1_dqs_c_b1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CA_A" physical_port="lpddr4_ch1_ca_a" dir="out" left="5" right="0">
+							<pin_maps>
+								<pin_map port_index="0"  component_pin="lpddr4_1_ca_a0"/>
+								<pin_map port_index="1"  component_pin="lpddr4_1_ca_a1"/>
+								<pin_map port_index="2"  component_pin="lpddr4_1_ca_a2"/>
+								<pin_map port_index="3"  component_pin="lpddr4_1_ca_a3"/>
+								<pin_map port_index="4"  component_pin="lpddr4_1_ca_a4"/>
+								<pin_map port_index="5"  component_pin="lpddr4_1_ca_a5"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CA_B" physical_port="lpddr4_ch1_ca_b" dir="out" left="5" right="0">
+							<pin_maps>
+								<pin_map port_index="0"  component_pin="lpddr4_1_ca_b0"/>
+								<pin_map port_index="1"  component_pin="lpddr4_1_ca_b1"/>
+								<pin_map port_index="2"  component_pin="lpddr4_1_ca_b2"/>
+								<pin_map port_index="3"  component_pin="lpddr4_1_ca_b3"/>
+								<pin_map port_index="4"  component_pin="lpddr4_1_ca_b4"/>
+								<pin_map port_index="5"  component_pin="lpddr4_1_ca_b5"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CS_A" physical_port="lpddr4_ch1_cs_a" dir="out" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_1_cs_a0"/>
+								<pin_map port_index="1" component_pin="lpddr4_1_cs_a1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CS_B" physical_port="lpddr4_ch1_cs_b" dir="out" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_1_cs_b0"/>
+								<pin_map port_index="1" component_pin="lpddr4_1_cs_b1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CK_T_A" physical_port="lpddr4_ch1_ck_t_a" dir="out" >
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_1_ck_t_a0"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CK_T_B" physical_port="lpddr4_ch1_ck_t_b" dir="out" >
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_1_ck_t_b0"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CK_C_A" physical_port="lpddr4_ch1_ck_c_a" dir="out" >
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_1_ck_c_a0"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CK_C_B" physical_port="lpddr4_ch1_ck_c_b" dir="out" >
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_1_ck_c_b0"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CKE_A" physical_port="lpddr4_ch1_cke_a" dir="out" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_1_cke_a0"/>
+								<pin_map port_index="1" component_pin="lpddr4_1_cke_a1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CKE_B" physical_port="lpddr4_ch1_cke_b" dir="out" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_1_cke_b0"/>
+								<pin_map port_index="1" component_pin="lpddr4_1_cke_b1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="DMI_A" physical_port="lpddr4_ch1_dmi_a" dir="in" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_1_dmi_a0"/>
+								<pin_map port_index="1" component_pin="lpddr4_1_dmi_a1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="DMI_B" physical_port="lpddr4_ch1_dmi_b" dir="in" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_1_dmi_b0"/>
+								<pin_map port_index="1" component_pin="lpddr4_1_dmi_b1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="RESET_N" physical_port="lpddr4_ch1_reset_n" dir="out">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_1_reset_n0"/>
+							</pin_maps>
+						</port_map>
+					</port_maps>
+				</interface>
+
+				<interface mode="master" name="ch0_lpddr4_c1" type="xilinx.com:interface:lpddr4_rtl:1.0" of_component="LPDDR4_Controller1" preset_proc="LPDDR4_Controller1_preset">
+					<description>LPDDR4 board interface, it can use AXI_NoC IP for connection. </description>
+					<parameters>
+						<parameter name="TYPE" value="CH0_LPDDR4"/>
+						<parameter name="presets_special_handling"/>
+					</parameters>
+					<preferred_ips>
+						<preferred_ip vendor="xilinx.com" library="ip" name="axi_noc" order="0"/>
+					</preferred_ips>
+					<port_maps>
+						<port_map logical_port="DQ_A" physical_port="lpddr4_ch2_dq_a" dir="inout" left="15" right="0">
+						  <pin_maps>
+								<pin_map port_index="0"   component_pin="lpddr4_2_dq_a0"/>
+								<pin_map port_index="1"   component_pin="lpddr4_2_dq_a1"/>
+								<pin_map port_index="2"   component_pin="lpddr4_2_dq_a2"/>
+								<pin_map port_index="3"   component_pin="lpddr4_2_dq_a3"/>
+								<pin_map port_index="4"   component_pin="lpddr4_2_dq_a4"/>
+								<pin_map port_index="5"   component_pin="lpddr4_2_dq_a5"/>
+								<pin_map port_index="6"   component_pin="lpddr4_2_dq_a6"/>
+								<pin_map port_index="7"   component_pin="lpddr4_2_dq_a7"/>
+								<pin_map port_index="8"   component_pin="lpddr4_2_dq_a8"/>
+								<pin_map port_index="9"   component_pin="lpddr4_2_dq_a9"/>
+								<pin_map port_index="10"  component_pin="lpddr4_2_dq_a10"/>
+								<pin_map port_index="11"  component_pin="lpddr4_2_dq_a11"/>
+								<pin_map port_index="12"  component_pin="lpddr4_2_dq_a12"/>
+								<pin_map port_index="13"  component_pin="lpddr4_2_dq_a13"/>
+								<pin_map port_index="14"  component_pin="lpddr4_2_dq_a14"/>
+								<pin_map port_index="15"  component_pin="lpddr4_2_dq_a15"/>
+						  </pin_maps>
+						</port_map>
+
+						<port_map logical_port="DQ_B" physical_port="lpddr4_ch2_dq_b" dir="inout" left="15" right="0">
+						  <pin_maps>
+								<pin_map port_index="0"   component_pin="lpddr4_2_dq_b0"/>
+								<pin_map port_index="1"   component_pin="lpddr4_2_dq_b1"/>
+								<pin_map port_index="2"   component_pin="lpddr4_2_dq_b2"/>
+								<pin_map port_index="3"   component_pin="lpddr4_2_dq_b3"/>
+								<pin_map port_index="4"   component_pin="lpddr4_2_dq_b4"/>
+								<pin_map port_index="5"   component_pin="lpddr4_2_dq_b5"/>
+								<pin_map port_index="6"   component_pin="lpddr4_2_dq_b6"/>
+								<pin_map port_index="7"   component_pin="lpddr4_2_dq_b7"/>
+								<pin_map port_index="8"   component_pin="lpddr4_2_dq_b8"/>
+								<pin_map port_index="9"   component_pin="lpddr4_2_dq_b9"/>
+								<pin_map port_index="10"  component_pin="lpddr4_2_dq_b10"/>
+								<pin_map port_index="11"  component_pin="lpddr4_2_dq_b11"/>
+								<pin_map port_index="12"  component_pin="lpddr4_2_dq_b12"/>
+								<pin_map port_index="13"  component_pin="lpddr4_2_dq_b13"/>
+								<pin_map port_index="14"  component_pin="lpddr4_2_dq_b14"/>
+								<pin_map port_index="15"  component_pin="lpddr4_2_dq_b15"/>
+						  </pin_maps>
+						</port_map>
+
+						<port_map logical_port="DQS_T_A" physical_port="lpddr4_ch2_dqs_t_a" dir="inout" left="1" right="0">
+						  <pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_2_dqs_t_a0"/>
+								<pin_map port_index="1" component_pin="lpddr4_2_dqs_t_a1"/>
+						  </pin_maps>
+						</port_map>
+
+						<port_map logical_port="DQS_T_B" physical_port="lpddr4_ch2_dqs_t_b" dir="inout" left="1" right="0">
+						  <pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_2_dqs_t_b0"/>
+								<pin_map port_index="1" component_pin="lpddr4_2_dqs_t_b1"/>
+						  </pin_maps>
+						</port_map>
+
+						<port_map logical_port="DQS_C_A" physical_port="lpddr4_ch2_dqs_c_a" dir="inout" left="1" right="0">
+						  <pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_2_dqs_c_a0"/>
+								<pin_map port_index="1" component_pin="lpddr4_2_dqs_c_a1"/>
+						  </pin_maps>
+						</port_map>
+
+						<port_map logical_port="DQS_C_B" physical_port="lpddr4_ch2_dqs_c_b" dir="inout" left="1" right="0">
+						  <pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_2_dqs_c_b0"/>
+								<pin_map port_index="1" component_pin="lpddr4_2_dqs_c_b1"/>
+						  </pin_maps>
+						</port_map>
+
+						<port_map logical_port="CA_A" physical_port="lpddr4_ch2_ca_a" dir="out" left="5" right="0">
+							<pin_maps>
+								<pin_map port_index="0"  component_pin="lpddr4_2_ca_a0"/>
+								<pin_map port_index="1"  component_pin="lpddr4_2_ca_a1"/>
+								<pin_map port_index="2"  component_pin="lpddr4_2_ca_a2"/>
+								<pin_map port_index="3"  component_pin="lpddr4_2_ca_a3"/>
+								<pin_map port_index="4"  component_pin="lpddr4_2_ca_a4"/>
+								<pin_map port_index="5"  component_pin="lpddr4_2_ca_a5"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CA_B" physical_port="lpddr4_ch2_ca_b" dir="out" left="5" right="0">
+							<pin_maps>
+								<pin_map port_index="0"  component_pin="lpddr4_2_ca_b0"/>
+								<pin_map port_index="1"  component_pin="lpddr4_2_ca_b1"/>
+								<pin_map port_index="2"  component_pin="lpddr4_2_ca_b2"/>
+								<pin_map port_index="3"  component_pin="lpddr4_2_ca_b3"/>
+								<pin_map port_index="4"  component_pin="lpddr4_2_ca_b4"/>
+								<pin_map port_index="5"  component_pin="lpddr4_2_ca_b5"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CS_A" physical_port="lpddr4_ch2_cs_a" dir="out" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_2_cs_a0"/>
+								<pin_map port_index="1" component_pin="lpddr4_2_cs_a1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CS_B" physical_port="lpddr4_ch2_cs_b" dir="out" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_2_cs_b0"/>
+								<pin_map port_index="1" component_pin="lpddr4_2_cs_b1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CK_T_A" physical_port="lpddr4_ch2_ck_t_a" dir="out" >
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_2_ck_t_a0"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CK_T_B" physical_port="lpddr4_ch2_ck_t_b" dir="out" >
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_2_ck_t_b0"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CK_C_A" physical_port="lpddr4_ch2_ck_c_a" dir="out" >
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_2_ck_c_a0"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CK_C_B" physical_port="lpddr4_ch2_ck_c_b" dir="out" >
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_2_ck_c_b0"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CKE_A" physical_port="lpddr4_ch2_cke_a" dir="out" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_2_cke_a0"/>
+								<pin_map port_index="1" component_pin="lpddr4_2_cke_a1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CKE_B" physical_port="lpddr4_ch2_cke_b" dir="out" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_2_cke_b0"/>
+								<pin_map port_index="1" component_pin="lpddr4_2_cke_b1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="DMI_A" physical_port="lpddr4_ch2_dmi_a" dir="in" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_2_dmi_a0"/>
+								<pin_map port_index="1" component_pin="lpddr4_2_dmi_a1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="DMI_B" physical_port="lpddr4_ch2_dmi_b" dir="in" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_2_dmi_b0"/>
+								<pin_map port_index="1" component_pin="lpddr4_2_dmi_b1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="RESET_N" physical_port="lpddr4_ch2_reset_n" dir="out">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_2_reset_n0"/>
+							</pin_maps>
+						</port_map>
+					</port_maps>
+				</interface>
+
+				<interface mode="master" name="ch1_lpddr4_c1" type="xilinx.com:interface:lpddr4_rtl:1.0" of_component="LPDDR4_Controller1" preset_proc="LPDDR4_Controller1_preset">
+					<description>LPDDR4 board interface, it can use AXI_NoC IP for connection. </description>
+					<parameters>
+						<parameter name="TYPE" value="CH1_LPDDR4"/>
+						<parameter name="presets_special_handling"/>
+					</parameters>
+					<preferred_ips>
+						<preferred_ip vendor="xilinx.com" library="ip" name="axi_noc" order="0"/>
+					</preferred_ips>
+					<port_maps>
+						<port_map logical_port="DQ_A" physical_port="lpddr4_ch3_dq_a" dir="inout" left="15" right="0">
+							<pin_maps>
+								<pin_map port_index="0"   component_pin="lpddr4_3_dq_a0"/>
+								<pin_map port_index="1"   component_pin="lpddr4_3_dq_a1"/>
+								<pin_map port_index="2"   component_pin="lpddr4_3_dq_a2"/>
+								<pin_map port_index="3"   component_pin="lpddr4_3_dq_a3"/>
+								<pin_map port_index="4"   component_pin="lpddr4_3_dq_a4"/>
+								<pin_map port_index="5"   component_pin="lpddr4_3_dq_a5"/>
+								<pin_map port_index="6"   component_pin="lpddr4_3_dq_a6"/>
+								<pin_map port_index="7"   component_pin="lpddr4_3_dq_a7"/>
+								<pin_map port_index="8"   component_pin="lpddr4_3_dq_a8"/>
+								<pin_map port_index="9"   component_pin="lpddr4_3_dq_a9"/>
+								<pin_map port_index="10"  component_pin="lpddr4_3_dq_a10"/>
+								<pin_map port_index="11"  component_pin="lpddr4_3_dq_a11"/>
+								<pin_map port_index="12"  component_pin="lpddr4_3_dq_a12"/>
+								<pin_map port_index="13"  component_pin="lpddr4_3_dq_a13"/>
+								<pin_map port_index="14"  component_pin="lpddr4_3_dq_a14"/>
+								<pin_map port_index="15"  component_pin="lpddr4_3_dq_a15"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="DQ_B" physical_port="lpddr4_ch3_dq_b" dir="inout" left="15" right="0">
+							<pin_maps>
+								<pin_map port_index="0"   component_pin="lpddr4_3_dq_b0"/>
+								<pin_map port_index="1"   component_pin="lpddr4_3_dq_b1"/>
+								<pin_map port_index="2"   component_pin="lpddr4_3_dq_b2"/>
+								<pin_map port_index="3"   component_pin="lpddr4_3_dq_b3"/>
+								<pin_map port_index="4"   component_pin="lpddr4_3_dq_b4"/>
+								<pin_map port_index="5"   component_pin="lpddr4_3_dq_b5"/>
+								<pin_map port_index="6"   component_pin="lpddr4_3_dq_b6"/>
+								<pin_map port_index="7"   component_pin="lpddr4_3_dq_b7"/>
+								<pin_map port_index="8"   component_pin="lpddr4_3_dq_b8"/>
+								<pin_map port_index="9"   component_pin="lpddr4_3_dq_b9"/>
+								<pin_map port_index="10"  component_pin="lpddr4_3_dq_b10"/>
+								<pin_map port_index="11"  component_pin="lpddr4_3_dq_b11"/>
+								<pin_map port_index="12"  component_pin="lpddr4_3_dq_b12"/>
+								<pin_map port_index="13"  component_pin="lpddr4_3_dq_b13"/>
+								<pin_map port_index="14"  component_pin="lpddr4_3_dq_b14"/>
+								<pin_map port_index="15"  component_pin="lpddr4_3_dq_b15"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="DQS_T_A" physical_port="lpddr4_ch3_dqs_t_a" dir="inout" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_3_dqs_t_a0"/>
+								<pin_map port_index="1" component_pin="lpddr4_3_dqs_t_a1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="DQS_T_B" physical_port="lpddr4_ch3_dqs_t_b" dir="inout" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_3_dqs_t_b0"/>
+								<pin_map port_index="1" component_pin="lpddr4_3_dqs_t_b1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="DQS_C_A" physical_port="lpddr4_ch3_dqs_c_a" dir="inout" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_3_dqs_c_a0"/>
+								<pin_map port_index="1" component_pin="lpddr4_3_dqs_c_a1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="DQS_C_B" physical_port="lpddr4_ch3_dqs_c_b" dir="inout" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_3_dqs_c_b0"/>
+								<pin_map port_index="1" component_pin="lpddr4_3_dqs_c_b1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CA_A" physical_port="lpddr4_ch3_ca_a" dir="out" left="5" right="0">
+							<pin_maps>
+								<pin_map port_index="0"  component_pin="lpddr4_3_ca_a0"/>
+								<pin_map port_index="1"  component_pin="lpddr4_3_ca_a1"/>
+								<pin_map port_index="2"  component_pin="lpddr4_3_ca_a2"/>
+								<pin_map port_index="3"  component_pin="lpddr4_3_ca_a3"/>
+								<pin_map port_index="4"  component_pin="lpddr4_3_ca_a4"/>
+								<pin_map port_index="5"  component_pin="lpddr4_3_ca_a5"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CA_B" physical_port="lpddr4_ch3_ca_b" dir="out" left="5" right="0">
+							<pin_maps>
+								<pin_map port_index="0"  component_pin="lpddr4_3_ca_b0"/>
+								<pin_map port_index="1"  component_pin="lpddr4_3_ca_b1"/>
+								<pin_map port_index="2"  component_pin="lpddr4_3_ca_b2"/>
+								<pin_map port_index="3"  component_pin="lpddr4_3_ca_b3"/>
+								<pin_map port_index="4"  component_pin="lpddr4_3_ca_b4"/>
+								<pin_map port_index="5"  component_pin="lpddr4_3_ca_b5"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CS_A" physical_port="lpddr4_ch3_cs_a" dir="out" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_3_cs_a0"/>
+								<pin_map port_index="1" component_pin="lpddr4_3_cs_a1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CS_B" physical_port="lpddr4_ch3_cs_b" dir="out" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_3_cs_b0"/>
+								<pin_map port_index="1" component_pin="lpddr4_3_cs_b1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CK_T_A" physical_port="lpddr4_ch3_ck_t_a" dir="out" >
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_3_ck_t_a0"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CK_T_B" physical_port="lpddr4_ch3_ck_t_b" dir="out" >
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_3_ck_t_b0"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CK_C_A" physical_port="lpddr4_ch3_ck_c_a" dir="out" >
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_3_ck_c_a0"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CK_C_B" physical_port="lpddr4_ch3_ck_c_b" dir="out" >
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_3_ck_c_b0"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CKE_A" physical_port="lpddr4_ch3_cke_a" dir="out" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_3_cke_a0"/>
+								<pin_map port_index="1" component_pin="lpddr4_3_cke_a1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CKE_B" physical_port="lpddr4_ch3_cke_b" dir="out" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_3_cke_b0"/>
+								<pin_map port_index="1" component_pin="lpddr4_3_cke_b1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="DMI_A" physical_port="lpddr4_ch3_dmi_a" dir="in" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_3_dmi_a0"/>
+								<pin_map port_index="1" component_pin="lpddr4_3_dmi_a1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="DMI_B" physical_port="lpddr4_ch3_dmi_b" dir="in" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_3_dmi_b0"/>
+								<pin_map port_index="1" component_pin="lpddr4_3_dmi_b1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="RESET_N" physical_port="lpddr4_ch3_reset_n" dir="out">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_3_reset_n0"/>
+							</pin_maps>
+						</port_map>
+					</port_maps>
+				</interface>
+
+				<interface mode="master" name="ch0_lpddr4_c2" type="xilinx.com:interface:lpddr4_rtl:1.0" of_component="LPDDR4_Controller2" preset_proc="LPDDR4_Controller2_preset">
+					<description>LPDDR4 board interface, it can use AXI_NoC IP for connection. </description>
+					<parameters>
+						<parameter name="TYPE" value="CH0_LPDDR4"/>
+						<parameter name="presets_special_handling"/>
+					</parameters>
+					<preferred_ips>
+						<preferred_ip vendor="xilinx.com" library="ip" name="axi_noc" order="0"/>
+					</preferred_ips>
+					<port_maps>
+						<port_map logical_port="DQ_A" physical_port="lpddr4_ch4_dq_a" dir="inout" left="15" right="0">
+						  <pin_maps>
+								<pin_map port_index="0"   component_pin="lpddr4_4_dq_a0"/>
+								<pin_map port_index="1"   component_pin="lpddr4_4_dq_a1"/>
+								<pin_map port_index="2"   component_pin="lpddr4_4_dq_a2"/>
+								<pin_map port_index="3"   component_pin="lpddr4_4_dq_a3"/>
+								<pin_map port_index="4"   component_pin="lpddr4_4_dq_a4"/>
+								<pin_map port_index="5"   component_pin="lpddr4_4_dq_a5"/>
+								<pin_map port_index="6"   component_pin="lpddr4_4_dq_a6"/>
+								<pin_map port_index="7"   component_pin="lpddr4_4_dq_a7"/>
+								<pin_map port_index="8"   component_pin="lpddr4_4_dq_a8"/>
+								<pin_map port_index="9"   component_pin="lpddr4_4_dq_a9"/>
+								<pin_map port_index="10"  component_pin="lpddr4_4_dq_a10"/>
+								<pin_map port_index="11"  component_pin="lpddr4_4_dq_a11"/>
+								<pin_map port_index="12"  component_pin="lpddr4_4_dq_a12"/>
+								<pin_map port_index="13"  component_pin="lpddr4_4_dq_a13"/>
+								<pin_map port_index="14"  component_pin="lpddr4_4_dq_a14"/>
+								<pin_map port_index="15"  component_pin="lpddr4_4_dq_a15"/>
+						  </pin_maps>
+						</port_map>
+
+						<port_map logical_port="DQ_B" physical_port="lpddr4_ch4_dq_b" dir="inout" left="15" right="0">
+						  <pin_maps>
+								<pin_map port_index="0"   component_pin="lpddr4_4_dq_b0"/>
+								<pin_map port_index="1"   component_pin="lpddr4_4_dq_b1"/>
+								<pin_map port_index="2"   component_pin="lpddr4_4_dq_b2"/>
+								<pin_map port_index="3"   component_pin="lpddr4_4_dq_b3"/>
+								<pin_map port_index="4"   component_pin="lpddr4_4_dq_b4"/>
+								<pin_map port_index="5"   component_pin="lpddr4_4_dq_b5"/>
+								<pin_map port_index="6"   component_pin="lpddr4_4_dq_b6"/>
+								<pin_map port_index="7"   component_pin="lpddr4_4_dq_b7"/>
+								<pin_map port_index="8"   component_pin="lpddr4_4_dq_b8"/>
+								<pin_map port_index="9"   component_pin="lpddr4_4_dq_b9"/>
+								<pin_map port_index="10"  component_pin="lpddr4_4_dq_b10"/>
+								<pin_map port_index="11"  component_pin="lpddr4_4_dq_b11"/>
+								<pin_map port_index="12"  component_pin="lpddr4_4_dq_b12"/>
+								<pin_map port_index="13"  component_pin="lpddr4_4_dq_b13"/>
+								<pin_map port_index="14"  component_pin="lpddr4_4_dq_b14"/>
+								<pin_map port_index="15"  component_pin="lpddr4_4_dq_b15"/>
+						  </pin_maps>
+						</port_map>
+
+						<port_map logical_port="DQS_T_A" physical_port="lpddr4_ch4_dqs_t_a" dir="inout" left="1" right="0">
+						  <pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_4_dqs_t_a0"/>
+								<pin_map port_index="1" component_pin="lpddr4_4_dqs_t_a1"/>
+						  </pin_maps>
+						</port_map>
+
+						<port_map logical_port="DQS_T_B" physical_port="lpddr4_ch4_dqs_t_b" dir="inout" left="1" right="0">
+						  <pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_4_dqs_t_b0"/>
+								<pin_map port_index="1" component_pin="lpddr4_4_dqs_t_b1"/>
+						  </pin_maps>
+						</port_map>
+
+						<port_map logical_port="DQS_C_A" physical_port="lpddr4_ch4_dqs_c_a" dir="inout" left="1" right="0">
+						  <pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_4_dqs_c_a0"/>
+								<pin_map port_index="1" component_pin="lpddr4_4_dqs_c_a1"/>
+						  </pin_maps>
+						</port_map>
+
+						<port_map logical_port="DQS_C_B" physical_port="lpddr4_ch4_dqs_c_b" dir="inout" left="1" right="0">
+						  <pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_4_dqs_c_b0"/>
+								<pin_map port_index="1" component_pin="lpddr4_4_dqs_c_b1"/>
+						  </pin_maps>
+						</port_map>
+
+						<port_map logical_port="CA_A" physical_port="lpddr4_ch4_ca_a" dir="out" left="5" right="0">
+							<pin_maps>
+								<pin_map port_index="0"  component_pin="lpddr4_4_ca_a0"/>
+								<pin_map port_index="1"  component_pin="lpddr4_4_ca_a1"/>
+								<pin_map port_index="2"  component_pin="lpddr4_4_ca_a2"/>
+								<pin_map port_index="3"  component_pin="lpddr4_4_ca_a3"/>
+								<pin_map port_index="4"  component_pin="lpddr4_4_ca_a4"/>
+								<pin_map port_index="5"  component_pin="lpddr4_4_ca_a5"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CA_B" physical_port="lpddr4_ch4_ca_b" dir="out" left="5" right="0">
+							<pin_maps>
+								<pin_map port_index="0"  component_pin="lpddr4_4_ca_b0"/>
+								<pin_map port_index="1"  component_pin="lpddr4_4_ca_b1"/>
+								<pin_map port_index="2"  component_pin="lpddr4_4_ca_b2"/>
+								<pin_map port_index="3"  component_pin="lpddr4_4_ca_b3"/>
+								<pin_map port_index="4"  component_pin="lpddr4_4_ca_b4"/>
+								<pin_map port_index="5"  component_pin="lpddr4_4_ca_b5"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CS_A" physical_port="lpddr4_ch4_cs_a" dir="out" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_4_cs_a0"/>
+								<pin_map port_index="1" component_pin="lpddr4_4_cs_a1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CS_B" physical_port="lpddr4_ch4_cs_b" dir="out" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_4_cs_b0"/>
+								<pin_map port_index="1" component_pin="lpddr4_4_cs_b1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CK_T_A" physical_port="lpddr4_ch4_ck_t_a" dir="out" >
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_4_ck_t_a0"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CK_T_B" physical_port="lpddr4_ch4_ck_t_b" dir="out" >
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_4_ck_t_b0"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CK_C_A" physical_port="lpddr4_ch4_ck_c_a" dir="out" >
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_4_ck_c_a0"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CK_C_B" physical_port="lpddr4_ch4_ck_c_b" dir="out" >
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_4_ck_c_b0"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CKE_A" physical_port="lpddr4_ch4_cke_a" dir="out" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_4_cke_a0"/>
+								<pin_map port_index="1" component_pin="lpddr4_4_cke_a1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CKE_B" physical_port="lpddr4_ch4_cke_b" dir="out" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_4_cke_b0"/>
+								<pin_map port_index="1" component_pin="lpddr4_4_cke_b1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="DMI_A" physical_port="lpddr4_ch4_dmi_a" dir="in" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_4_dmi_a0"/>
+								<pin_map port_index="1" component_pin="lpddr4_4_dmi_a1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="DMI_B" physical_port="lpddr4_ch4_dmi_b" dir="in" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_4_dmi_b0"/>
+								<pin_map port_index="1" component_pin="lpddr4_4_dmi_b1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="RESET_N" physical_port="lpddr4_ch4_reset_n" dir="out">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_4_reset_n0"/>
+							</pin_maps>
+						</port_map>
+					</port_maps>
+				</interface>
+
+				<interface mode="master" name="ch1_lpddr4_c2" type="xilinx.com:interface:lpddr4_rtl:1.0" of_component="LPDDR4_Controller2" preset_proc="LPDDR4_Controller2_preset">
+					<description>LPDDR4 board interface, it can use AXI_NoC IP for connection. </description>
+					<parameters>
+						<parameter name="TYPE" value="CH1_LPDDR4"/>
+						<parameter name="presets_special_handling"/>
+					</parameters>
+					<preferred_ips>
+						<preferred_ip vendor="xilinx.com" library="ip" name="axi_noc" order="0"/>
+					</preferred_ips>
+					<port_maps>
+						<port_map logical_port="DQ_A" physical_port="lpddr4_ch5_dq_a" dir="inout" left="15" right="0">
+						  <pin_maps>
+								<pin_map port_index="0"   component_pin="lpddr4_5_dq_a0"/>
+								<pin_map port_index="1"   component_pin="lpddr4_5_dq_a1"/>
+								<pin_map port_index="2"   component_pin="lpddr4_5_dq_a2"/>
+								<pin_map port_index="3"   component_pin="lpddr4_5_dq_a3"/>
+								<pin_map port_index="4"   component_pin="lpddr4_5_dq_a4"/>
+								<pin_map port_index="5"   component_pin="lpddr4_5_dq_a5"/>
+								<pin_map port_index="6"   component_pin="lpddr4_5_dq_a6"/>
+								<pin_map port_index="7"   component_pin="lpddr4_5_dq_a7"/>
+								<pin_map port_index="8"   component_pin="lpddr4_5_dq_a8"/>
+								<pin_map port_index="9"   component_pin="lpddr4_5_dq_a9"/>
+								<pin_map port_index="10"  component_pin="lpddr4_5_dq_a10"/>
+								<pin_map port_index="11"  component_pin="lpddr4_5_dq_a11"/>
+								<pin_map port_index="12"  component_pin="lpddr4_5_dq_a12"/>
+								<pin_map port_index="13"  component_pin="lpddr4_5_dq_a13"/>
+								<pin_map port_index="14"  component_pin="lpddr4_5_dq_a14"/>
+								<pin_map port_index="15"  component_pin="lpddr4_5_dq_a15"/>
+						  </pin_maps>
+						</port_map>
+
+						<port_map logical_port="DQ_B" physical_port="lpddr4_ch5_dq_b" dir="inout" left="15" right="0">
+						  <pin_maps>
+								<pin_map port_index="0"   component_pin="lpddr4_5_dq_b0"/>
+								<pin_map port_index="1"   component_pin="lpddr4_5_dq_b1"/>
+								<pin_map port_index="2"   component_pin="lpddr4_5_dq_b2"/>
+								<pin_map port_index="3"   component_pin="lpddr4_5_dq_b3"/>
+								<pin_map port_index="4"   component_pin="lpddr4_5_dq_b4"/>
+								<pin_map port_index="5"   component_pin="lpddr4_5_dq_b5"/>
+								<pin_map port_index="6"   component_pin="lpddr4_5_dq_b6"/>
+								<pin_map port_index="7"   component_pin="lpddr4_5_dq_b7"/>
+								<pin_map port_index="8"   component_pin="lpddr4_5_dq_b8"/>
+								<pin_map port_index="9"   component_pin="lpddr4_5_dq_b9"/>
+								<pin_map port_index="10"  component_pin="lpddr4_5_dq_b10"/>
+								<pin_map port_index="11"  component_pin="lpddr4_5_dq_b11"/>
+								<pin_map port_index="12"  component_pin="lpddr4_5_dq_b12"/>
+								<pin_map port_index="13"  component_pin="lpddr4_5_dq_b13"/>
+								<pin_map port_index="14"  component_pin="lpddr4_5_dq_b14"/>
+								<pin_map port_index="15"  component_pin="lpddr4_5_dq_b15"/>
+						  </pin_maps>
+						</port_map>
+
+						<port_map logical_port="DQS_T_A" physical_port="lpddr4_ch5_dqs_t_a" dir="inout" left="1" right="0">
+						  <pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_5_dqs_t_a0"/>
+								<pin_map port_index="1" component_pin="lpddr4_5_dqs_t_a1"/>
+						  </pin_maps>
+						</port_map>
+
+						<port_map logical_port="DQS_T_B" physical_port="lpddr4_ch5_dqs_t_b" dir="inout" left="1" right="0">
+						  <pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_5_dqs_t_b0"/>
+								<pin_map port_index="1" component_pin="lpddr4_5_dqs_t_b1"/>
+						  </pin_maps>
+						</port_map>
+
+						<port_map logical_port="DQS_C_A" physical_port="lpddr4_ch5_dqs_c_a" dir="inout" left="1" right="0">
+						  <pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_5_dqs_c_a0"/>
+								<pin_map port_index="1" component_pin="lpddr4_5_dqs_c_a1"/>
+						  </pin_maps>
+						</port_map>
+
+						<port_map logical_port="DQS_C_B" physical_port="lpddr4_ch5_dqs_c_b" dir="inout" left="1" right="0">
+						  <pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_5_dqs_c_b0"/>
+								<pin_map port_index="1" component_pin="lpddr4_5_dqs_c_b1"/>
+						  </pin_maps>
+						</port_map>
+
+						<port_map logical_port="CA_A" physical_port="lpddr4_ch5_ca_a" dir="out" left="5" right="0">
+							<pin_maps>
+								<pin_map port_index="0"  component_pin="lpddr4_5_ca_a0"/>
+								<pin_map port_index="1"  component_pin="lpddr4_5_ca_a1"/>
+								<pin_map port_index="2"  component_pin="lpddr4_5_ca_a2"/>
+								<pin_map port_index="3"  component_pin="lpddr4_5_ca_a3"/>
+								<pin_map port_index="4"  component_pin="lpddr4_5_ca_a4"/>
+								<pin_map port_index="5"  component_pin="lpddr4_5_ca_a5"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CA_B" physical_port="lpddr4_ch5_ca_b" dir="out" left="5" right="0">
+							<pin_maps>
+								<pin_map port_index="0"  component_pin="lpddr4_5_ca_b0"/>
+								<pin_map port_index="1"  component_pin="lpddr4_5_ca_b1"/>
+								<pin_map port_index="2"  component_pin="lpddr4_5_ca_b2"/>
+								<pin_map port_index="3"  component_pin="lpddr4_5_ca_b3"/>
+								<pin_map port_index="4"  component_pin="lpddr4_5_ca_b4"/>
+								<pin_map port_index="5"  component_pin="lpddr4_5_ca_b5"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CS_A" physical_port="lpddr4_ch5_cs_a" dir="out" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_5_cs_a0"/>
+								<pin_map port_index="1" component_pin="lpddr4_5_cs_a1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CS_B" physical_port="lpddr4_ch5_cs_b" dir="out" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_5_cs_b0"/>
+								<pin_map port_index="1" component_pin="lpddr4_5_cs_b1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CK_T_A" physical_port="lpddr4_ch5_ck_t_a" dir="out" >
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_5_ck_t_a0"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CK_T_B" physical_port="lpddr4_ch5_ck_t_b" dir="out" >
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_5_ck_t_b0"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CK_C_A" physical_port="lpddr4_ch5_ck_c_a" dir="out" >
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_5_ck_c_a0"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CK_C_B" physical_port="lpddr4_ch5_ck_c_b" dir="out" >
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_5_ck_c_b0"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CKE_A" physical_port="lpddr4_ch5_cke_a" dir="out" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_5_cke_a0"/>
+								<pin_map port_index="1" component_pin="lpddr4_5_cke_a1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="CKE_B" physical_port="lpddr4_ch5_cke_b" dir="out" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_5_cke_b0"/>
+								<pin_map port_index="1" component_pin="lpddr4_5_cke_b1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="DMI_A" physical_port="lpddr4_ch5_dmi_a" dir="in" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_5_dmi_a0"/>
+								<pin_map port_index="1" component_pin="lpddr4_5_dmi_a1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="DMI_B" physical_port="lpddr4_ch5_dmi_b" dir="in" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_5_dmi_b0"/>
+								<pin_map port_index="1" component_pin="lpddr4_5_dmi_b1"/>
+							</pin_maps>
+						</port_map>
+
+						<port_map logical_port="RESET_N" physical_port="lpddr4_ch5_reset_n" dir="out">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_5_reset_n0"/>
+							</pin_maps>
+						</port_map>
+					</port_maps>
+				</interface>
+
+				<interface mode="slave" name="lpddr4_ref0" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="lpddr4_0_ref" preset_proc="sysclk0_preset">
+					<description>LPDDR4 reference clock 0, 200 Mhz.</description>
+					<parameters>
+						<parameter name="frequency" value="200000000"/>
+					</parameters>
+					<preferred_ips>
+						<preferred_ip vendor="xilinx.com" library="ip" name="axi_noc" order="0"/>
+						<preferred_ip vendor="xilinx.com" library="ip" name="clk_wizard" order="1"/>
+						<preferred_ip vendor="xilinx.com" library="ip" name="util_ds_buf" order="2"/>
+					</preferred_ips>
+					<port_maps>
+						<port_map logical_port="CLK_P" physical_port="lpddr4_0_ref_p" dir="in">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_0_ref_p"/>
+							</pin_maps>
+						</port_map>
+							<port_map logical_port="CLK_N" physical_port="lpddr4_0_ref_n" dir="in">
+								<pin_maps>
+									<pin_map port_index="0" component_pin="lpddr4_0_ref_n"/>
+								</pin_maps>
+						</port_map>
+					</port_maps>
+				</interface>
+
+				<interface mode="slave" name="lpddr4_ref1" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="lpddr4_1_ref" preset_proc="sysclk0_preset">
+					<description>LPDDR4 reference clock 1, 200 Mhz.</description>
+					<parameters>
+						<parameter name="frequency" value="200000000"/>
+					</parameters>
+					<preferred_ips>
+						<preferred_ip vendor="xilinx.com" library="ip" name="axi_noc" order="0"/>
+						<preferred_ip vendor="xilinx.com" library="ip" name="clk_wizard" order="1"/>
+						<preferred_ip vendor="xilinx.com" library="ip" name="util_ds_buf" order="2"/>
+					</preferred_ips>
+					<port_maps>
+						<port_map logical_port="CLK_P" physical_port="lpddr4_1_ref_p" dir="in">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_1_ref_p"/>
+							</pin_maps>
+						</port_map>
+							<port_map logical_port="CLK_N" physical_port="lpddr4_1_ref_n" dir="in">
+								<pin_maps>
+									<pin_map port_index="0" component_pin="lpddr4_1_ref_n"/>
+								</pin_maps>
+						</port_map>
+					</port_maps>
+				</interface>
+
+				<interface mode="slave" name="lpddr4_ref2" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="lpddr4_2_ref" preset_proc="sysclk0_preset">
+					<description>LPDDR4 reference clock 1, 200 Mhz.</description>
+					<parameters>
+						<parameter name="frequency" value="200000000"/>
+					</parameters>
+					<preferred_ips>
+						<preferred_ip vendor="xilinx.com" library="ip" name="axi_noc" order="0"/>
+						<preferred_ip vendor="xilinx.com" library="ip" name="clk_wizard" order="1"/>
+						<preferred_ip vendor="xilinx.com" library="ip" name="util_ds_buf" order="2"/>
+					</preferred_ips>
+					<port_maps>
+						<port_map logical_port="CLK_P" physical_port="lpddr4_2_ref_p" dir="in">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="lpddr4_2_ref_p"/>
+							</pin_maps>
+						</port_map>
+							<port_map logical_port="CLK_N" physical_port="lpddr4_2_ref_n" dir="in">
+								<pin_maps>
+									<pin_map port_index="0" component_pin="lpddr4_2_ref_n"/>
+								</pin_maps>
+						</port_map>
+					</port_maps>
+				</interface>
+
+				<interface mode="master" name="gtrefclk0_bank102" type="xilinx.com:interface:dummy_util_buf_interface:1.0" of_component="gtrefclk0_bank102">
+					<port_maps>
+						<port_map logical_port="dummy1" physical_port="util_ds_buf_0_ds" dir="in" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="vp_clk100_102_p"/>
+								<pin_map port_index="1" component_pin="vp_clk100_102_n"/>
+							</pin_maps>
+						</port_map>
+					</port_maps>
+					<parameters>
+						<parameter name="gt_inst_name" value="gt_quad_base_bank102" />
+						<parameter name="order" value="2" />
+						<parameter name="buffer_inst_name" value="gtrefclk0_bank102" />
+						<parameter name="ref_clk_inst" value="GT_REFCLK0" />
+					<parameter name="frequency" value="100.00" />
+					</parameters>
+				</interface>
+
+				<interface mode="master" name="gtrefclk0_bank104" type="xilinx.com:interface:dummy_util_buf_interface:1.0" of_component="gtrefclk0_bank104">
+					<port_maps>
+						<port_map logical_port="dummy1" physical_port="util_ds_buf_1_ds" dir="in" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="vp_clk100_104_p"/>
+								<pin_map port_index="1" component_pin="vp_clk100_104_n"/>
+							</pin_maps>
+						</port_map>
+					</port_maps>
+					<parameters>
+						<parameter name="gt_inst_name" value="gt_quad_base_bank104" />
+						<parameter name="order" value="2" />
+						<parameter name="buffer_inst_name" value="gtrefclk0_bank104" />
+						<parameter name="ref_clk_inst" value="GT_REFCLK1" />
+					<parameter name="frequency" value="100.00" />
+					</parameters>
+				</interface>
+
+				<interface mode="master" name="gtrefclk0_bank106" type="xilinx.com:interface:dummy_util_buf_interface:1.0" of_component="gtrefclk0_bank106">
+					<port_maps>
+						<port_map logical_port="dummy1" physical_port="util_ds_buf_2_ds" dir="in" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="vp_clk156_106_p"/>
+								<pin_map port_index="1" component_pin="vp_clk156_106_n"/>
+							</pin_maps>
+						</port_map>
+					</port_maps>
+					<parameters>
+						<parameter name="gt_inst_name" value="gt_quad_base_bank106" />
+						<parameter name="order" value="2" />
+						<parameter name="buffer_inst_name" value="gtrefclk0_bank106" />
+						<parameter name="ref_clk_inst" value="GT_REFCLK2" />
+					<parameter name="frequency" value="156.25" />
+					</parameters>
+				</interface>
+
+				<interface mode="master" name="gtrefclk0_bank110" type="xilinx.com:interface:dummy_util_buf_interface:1.0" of_component="gtrefclk0_bank110">
+					<port_maps>
+						<port_map logical_port="dummy1" physical_port="util_ds_buf_3_ds" dir="in" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="vp_clk156_110_p"/>
+								<pin_map port_index="1" component_pin="vp_clk156_110_n"/>
+							</pin_maps>
+						</port_map>
+					</port_maps>
+					<parameters>
+						<parameter name="gt_inst_name" value="gt_quad_base_bank110" />
+						<parameter name="order" value="2" />
+						<parameter name="buffer_inst_name" value="gtrefclk0_bank110" />
+						<parameter name="ref_clk_inst" value="GT_REFCLK3" />
+					<parameter name="frequency" value="156.25" />
+					</parameters>
+				</interface>
+
+				<interface mode="master" name="gtrefclk0_bank111" type="xilinx.com:interface:dummy_util_buf_interface:1.0" of_component="gtrefclk0_bank111">
+					<port_maps>
+						<port_map logical_port="dummy1" physical_port="util_ds_buf_4_ds" dir="in" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="hss_adj_ref0_p"/>
+								<pin_map port_index="1" component_pin="hss_adj_ref0_n"/>
+							</pin_maps>
+						</port_map>
+					</port_maps>
+					<parameters>
+						<parameter name="gt_inst_name" value="gt_quad_base_bank111" />
+						<parameter name="order" value="2" />
+						<parameter name="buffer_inst_name" value="gtrefclk0_bank111" />
+						<parameter name="ref_clk_inst" value="GT_REFCLK4" />
+					<parameter name="frequency" value="156.25" />
+					</parameters>
+				</interface>
+
+				<interface mode="master" name="gtrefclk0_bank115" type="xilinx.com:interface:dummy_util_buf_interface:1.0" of_component="gtrefclk0_bank115">
+					<port_maps>
+						<port_map logical_port="dummy1" physical_port="util_ds_buf_5_ds" dir="in" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="hss_lnk0_txclk_p"/>
+								<pin_map port_index="1" component_pin="hss_lnk0_txclk_n"/>
+							</pin_maps>
+						</port_map>
+					</port_maps>
+					<parameters>
+						<parameter name="gt_inst_name" value="gt_quad_base_bank115" />
+						<parameter name="order" value="2" />
+						<parameter name="buffer_inst_name" value="gtrefclk0_bank115" />
+						<parameter name="ref_clk_inst" value="GT_REFCLK5" />
+					<parameter name="frequency" value="156.25" />
+					</parameters>
+				</interface>
+
+				<interface mode="master" name="gtrefclk0_bank116" type="xilinx.com:interface:dummy_util_buf_interface:1.0" of_component="gtrefclk0_bank116">
+					<port_maps>
+						<port_map logical_port="dummy1" physical_port="util_ds_buf_6_ds" dir="in" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="hss_lnk1_txclk_p"/>
+								<pin_map port_index="1" component_pin="hss_lnk1_txclk_n"/>
+							</pin_maps>
+						</port_map>
+					</port_maps>
+					<parameters>
+						<parameter name="gt_inst_name" value="gt_quad_base_bank116" />
+						<parameter name="order" value="2" />
+						<parameter name="buffer_inst_name" value="gtrefclk0_bank116" />
+						<parameter name="ref_clk_inst" value="GT_REFCLK6" />
+					<parameter name="frequency" value="156.25" />
+					</parameters>
+				</interface>
+
+				<interface mode="master" name="gtrefclk0_bank117" type="xilinx.com:interface:dummy_util_buf_interface:1.0" of_component="gtrefclk0_bank117">
+					<port_maps>
+						<port_map logical_port="dummy1" physical_port="util_ds_buf_7_ds" dir="in" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="vp_clk156_117_p"/>
+								<pin_map port_index="1" component_pin="vp_clk156_117_n"/>
+							</pin_maps>
+						</port_map>
+					</port_maps>
+					<parameters>
+						<parameter name="gt_inst_name" value="gt_quad_base_bank117" />
+						<parameter name="order" value="2" />
+						<parameter name="buffer_inst_name" value="gtrefclk0_bank117" />
+						<parameter name="ref_clk_inst" value="GT_REFCLK7" />
+					<parameter name="frequency" value="156.25" />
+					</parameters>
+				</interface>
+
+				<interface mode="master" name="gtrefclk0_bank200" type="xilinx.com:interface:dummy_util_buf_interface:1.0" of_component="gtrefclk0_bank200">
+					<port_maps>
+						<port_map logical_port="dummy1" physical_port="util_ds_buf_8_ds" dir="in" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="vp_clk156_200_p"/>
+								<pin_map port_index="1" component_pin="vp_clk156_200_n"/>
+							</pin_maps>
+						</port_map>
+					</port_maps>
+					<parameters>
+						<parameter name="gt_inst_name" value="gt_quad_base_bank200" />
+						<parameter name="order" value="2" />
+						<parameter name="buffer_inst_name" value="gtrefclk0_bank200" />
+						<parameter name="ref_clk_inst" value="GT_REFCLK8" />
+					<parameter name="frequency" value="156.25" />
+					</parameters>
+				</interface>
+
+				<interface mode="master" name="gtrefclk0_bank201" type="xilinx.com:interface:dummy_util_buf_interface:1.0" of_component="gtrefclk0_bank201">
+					<port_maps>
+						<port_map logical_port="dummy1" physical_port="util_ds_buf_9_ds" dir="in" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="vp_clk100_201_p"/>
+								<pin_map port_index="1" component_pin="vp_clk100_201_n"/>
+							</pin_maps>
+						</port_map>
+					</port_maps>
+					<parameters>
+						<parameter name="gt_inst_name" value="gt_quad_base_bank201" />
+						<parameter name="order" value="2" />
+						<parameter name="buffer_inst_name" value="gtrefclk0_bank201" />
+						<parameter name="ref_clk_inst" value="GT_REFCLK9" />
+					<parameter name="frequency" value="100.00" />
+					</parameters>
+				</interface>
+
+				<interface mode="master" name="gtrefclk0_bank205" type="xilinx.com:interface:dummy_util_buf_interface:1.0" of_component="gtrefclk0_bank205">
+					<port_maps>
+						<port_map logical_port="dummy1" physical_port="util_ds_buf_10_ds" dir="in" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="vp_clk156_205_p"/>
+								<pin_map port_index="1" component_pin="vp_clk156_205_n"/>
+							</pin_maps>
+						</port_map>
+					</port_maps>
+					<parameters>
+						<parameter name="gt_inst_name" value="gt_quad_base_bank205" />
+						<parameter name="order" value="2" />
+						<parameter name="buffer_inst_name" value="gtrefclk0_bank205" />
+						<parameter name="ref_clk_inst" value="GT_REFCLK10" />
+					<parameter name="frequency" value="156.25" />
+					</parameters>
+				</interface>
+
+				<interface mode="master" name="gtrefclk0_bank208" type="xilinx.com:interface:dummy_util_buf_interface:1.0" of_component="gtrefclk0_bank208">
+					<port_maps>
+						<port_map logical_port="dummy1" physical_port="util_ds_buf_11_ds" dir="in" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="hss_adj_ref1_p"/>
+								<pin_map port_index="1" component_pin="hss_adj_ref1_n"/>
+							</pin_maps>
+						</port_map>
+					</port_maps>
+					<parameters>
+						<parameter name="gt_inst_name" value="gt_quad_base_bank208" />
+						<parameter name="order" value="2" />
+						<parameter name="buffer_inst_name" value="gtrefclk0_bank208" />
+						<parameter name="ref_clk_inst" value="GT_REFCLK11" />
+					<parameter name="frequency" value="156.25" />
+					</parameters>
+				</interface>
+
+				<interface mode="master" name="gtrefclk0_bank209" type="xilinx.com:interface:dummy_util_buf_interface:1.0" of_component="gtrefclk0_bank209">
+					<port_maps>
+						<port_map logical_port="dummy1" physical_port="util_ds_buf_12_ds" dir="in" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="vp_clk156_209_p"/>
+								<pin_map port_index="1" component_pin="vp_clk156_209_n"/>
+							</pin_maps>
+						</port_map>
+					</port_maps>
+					<parameters>
+						<parameter name="gt_inst_name" value="gt_quad_base_bank209" />
+						<parameter name="order" value="2" />
+						<parameter name="buffer_inst_name" value="gtrefclk0_bank209" />
+						<parameter name="ref_clk_inst" value="GT_REFCLK12" />
+					<parameter name="frequency" value="156.25" />
+					</parameters>
+				</interface>
+
+				<interface mode="master" name="gtrefclk0_bank216" type="xilinx.com:interface:dummy_util_buf_interface:1.0" of_component="gtrefclk0_bank216">
+					<port_maps>
+						<port_map logical_port="dummy1" physical_port="util_ds_buf_13_ds" dir="in" left="1" right="0">
+							<pin_maps>
+								<pin_map port_index="0" component_pin="vp_clk156_216_p"/>
+								<pin_map port_index="1" component_pin="vp_clk156_216_n"/>
+							</pin_maps>
+						</port_map>
+					</port_maps>
+					<parameters>
+						<parameter name="gt_inst_name" value="gt_quad_base_bank216" />
+						<parameter name="order" value="2" />
+						<parameter name="buffer_inst_name" value="gtrefclk0_bank216" />
+						<parameter name="ref_clk_inst" value="GT_REFCLK13" />
+					<parameter name="frequency" value="156.25" />
+					</parameters>
+				</interface>
+
+				</interfaces>
+		</component>
+<!--
+		<component name="part1" display_name="xc7a15 FPGA" type="fpga" part_name="xc7a15ticsg325-1L" pin_map_file="part1_pins.xml" vendor="xilinx" spec_url="www.xilinx.com">
+			<description>FPGA</description>
+		</component>
+-->
+		<component name="ps_pmc_fixed_io" display_name="PS-PMC Fixed IO" type="chip" sub_type="fixed_io" major_group="MIO interface" part_name="Versal CIPS" vendor="Xilinx" >
+			<description>Versal CIPS component </description>
+			<component_modes>
+				<component_mode name="ps_pmc_fixed_io" display_name="ps_pmc_fixed_io">
+					<interfaces>
+					<interface name="ps_pmc_fixed_io"/>
+					</interfaces>
+				</component_mode>
+			</component_modes>
+		</component>
+
+		<component name="LPDDR4_Controller0" display_name="LPDDR4_Controller0(LP0 AND LP1)" type="chip" sub_type="ddr" major_group="External Memory" part_name="MT53E2G32D4DE-046" vendor="Micron" spec_url="https://www.micron.com/">
+			<description>64GBIT LPDDR4 memory</description>
+			<parameters>
+				<parameter name="ddr_type" value="LPDDR4"/>
+				<parameter name="size" value="64GB"/>
+			</parameters>
+
+			<component_modes>
+				<component_mode name="LPDDR4_Controller0" display_name="LPDDR4_Controller0">
+					<interfaces>
+						<interface name="ch0_lpddr4_c0"/>
+						<interface name="ch1_lpddr4_c0" optional="true"/>
+						<interface name="lpddr4_ref0" optional="true"/>
+					</interfaces>
+				</component_mode>
+			</component_modes>
+		</component>
+
+		<component name="LPDDR4_Controller1" display_name="LPDDR4_Controller1(LP2 AND LP3)" type="chip" sub_type="ddr" major_group="External Memory" part_name="MT53E2G32D4DE-046" vendor="Micron" spec_url="https://www.micron.com/">
+			<description>64GBIT LPDDR4 memory</description>
+			<parameters>
+				<parameter name="ddr_type" value="LPDDR4"/>
+				<parameter name="size" value="64GB"/>
+			</parameters>
+
+			<component_modes>
+				<component_mode name="LPDDR4_Controller1" display_name="LPDDR4_Controller1">
+					<interfaces>
+						<interface name="ch0_lpddr4_c1"/>
+						<interface name="ch1_lpddr4_c1" optional="true"/>
+						<interface name="lpddr4_ref1" optional="true"/>
+					</interfaces>
+				</component_mode>
+			</component_modes>
+		</component>
+
+		<component name="LPDDR4_Controller2" display_name="LPDDR4_Controller2(LP4 AND LP5)" type="chip" sub_type="ddr" major_group="External Memory" part_name="MT53E2G32D4DE-046" vendor="Micron" spec_url="https://www.micron.com/">
+			<description>64GBIT LPDDR4 memory</description>
+			<parameters>
+				<parameter name="ddr_type" value="LPDDR4"/>
+				<parameter name="size" value="64GB"/>
+			</parameters>
+
+			<component_modes>
+				<component_mode name="LPDDR4_Controller2" display_name="LPDDR4_Controller2">
+					<interfaces>
+						<interface name="ch0_lpddr4_c2"/>
+						<interface name="ch1_lpddr4_c2" optional="true"/>
+						<interface name="lpddr4_ref2" optional="true"/>
+						<!-- Do I need to add an interface for S00_INI connection here??? -->
+						<!-- How do I get it to connect to M00_INI on axi_noc_0??? -->
+					</interfaces>
+				</component_mode>
+			</component_modes>
+		</component>
+
+		<component name="lpddr4_0_ref" display_name="LPDDR4 Reference Clock 0" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="Si5347" vendor="Silicon Labs" spec_url="www.silabs.com">
+			<description>LVDS differential 200 MHz oscillator used for LPDDR4 Controller</description>
+			<parameters>
+				<parameter name="frequency" value="200000000"/>
+			</parameters>
+		</component>
+
+		<component name="lpddr4_1_ref" display_name="LPDDR4 Reference Clock 1" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="Si5347" vendor="Silicon Labs" spec_url="www.silabs.com">
+			<description>LVDS differential 200 MHz oscillator used for LPDDR4 Controller</description>
+			<parameters>
+				<parameter name="frequency" value="200000000"/>
+			</parameters>
+		</component>
+
+		<component name="lpddr4_2_ref" display_name="LPDDR4 Reference Clock 2" type="chip" sub_type="system_clock" major_group="Clock Sources" part_name="Si5347" vendor="Silicon Labs" spec_url="www.silabs.com">
+			<description>LVDS differential 200 MHz oscillator used for LPDDR4 Controller</description>
+			<parameters>
+				<parameter name="frequency" value="200000000"/>
+			</parameters>
+		</component>
+
+<!-- TODO(0): Remove vendor/url? -->
+		<component name="gtrefclk0_bank102" display_name="GT REFCLK0 on Bank 102" type="chip" sub_type="mgt_clock" major_group="Ethernet Configurations"  vendor="Marvell" spec_url="www.marvell.com">
+			<description>GT REFCLK0 on Bank 102</description>
+		</component>
+
+		<component name="gtrefclk0_bank104" display_name="GT REFCLK0 on Bank 104" type="chip" sub_type="mgt_clock" major_group="Ethernet Configurations"  vendor="Marvell" spec_url="www.marvell.com">
+			<description>GT REFCLK0 on Bank 104</description>
+		</component>
+
+		<component name="gtrefclk0_bank106" display_name="GT REFCLK0 on Bank 106" type="chip" sub_type="mgt_clock" major_group="Ethernet Configurations"  vendor="Marvell" spec_url="www.marvell.com">
+			<description>GT REFCLK0 on Bank 106</description>
+		</component>
+
+		<component name="gtrefclk0_bank110" display_name="GT REFCLK0 on Bank 110" type="chip" sub_type="mgt_clock" major_group="Ethernet Configurations"  vendor="Marvell" spec_url="www.marvell.com">
+			<description>GT REFCLK0 on Bank 110</description>
+		</component>
+
+		<component name="gtrefclk0_bank111" display_name="GT REFCLK0 on Bank 111" type="chip" sub_type="mgt_clock" major_group="Ethernet Configurations"  vendor="Marvell" spec_url="www.marvell.com">
+			<description>GT REFCLK0 on Bank 111</description>
+		</component>
+
+		<component name="gtrefclk0_bank115" display_name="GT REFCLK0 on Bank 115" type="chip" sub_type="mgt_clock" major_group="Ethernet Configurations"  vendor="Marvell" spec_url="www.marvell.com">
+			<description>GT REFCLK0 on Bank 115</description>
+		</component>
+
+		<component name="gtrefclk0_bank116" display_name="GT REFCLK0 on Bank 116" type="chip" sub_type="mgt_clock" major_group="Ethernet Configurations"  vendor="Marvell" spec_url="www.marvell.com">
+			<description>GT REFCLK0 on Bank 116</description>
+		</component>
+
+		<component name="gtrefclk0_bank117" display_name="GT REFCLK0 on Bank 117" type="chip" sub_type="mgt_clock" major_group="Ethernet Configurations"  vendor="Marvell" spec_url="www.marvell.com">
+			<description>GT REFCLK0 on Bank 117</description>
+		</component>
+
+		<component name="gtrefclk0_bank200" display_name="GT REFCLK0 on Bank 200" type="chip" sub_type="mgt_clock" major_group="Ethernet Configurations"  vendor="Marvell" spec_url="www.marvell.com">
+			<description>GT REFCLK0 on Bank 200</description>
+		</component>
+
+		<component name="gtrefclk0_bank201" display_name="GT REFCLK0 on Bank 201" type="chip" sub_type="mgt_clock" major_group="Ethernet Configurations"  vendor="Marvell" spec_url="www.marvell.com">
+			<description>GT REFCLK0 on Bank 201</description>
+		</component>
+
+		<component name="gtrefclk0_bank205" display_name="GT REFCLK0 on Bank 205" type="chip" sub_type="mgt_clock" major_group="Ethernet Configurations"  vendor="Marvell" spec_url="www.marvell.com">
+			<description>GT REFCLK0 on Bank 205</description>
+		</component>
+
+		<component name="gtrefclk0_bank208" display_name="GT REFCLK0 on Bank 208" type="chip" sub_type="mgt_clock" major_group="Ethernet Configurations"  vendor="Marvell" spec_url="www.marvell.com">
+			<description>GT REFCLK0 on Bank 208</description>
+		</component>
+
+		<component name="gtrefclk0_bank209" display_name="GT REFCLK0 on Bank 209" type="chip" sub_type="mgt_clock" major_group="Ethernet Configurations"  vendor="Marvell" spec_url="www.marvell.com">
+			<description>GT REFCLK0 on Bank 209</description>
+		</component>
+
+		<component name="gtrefclk0_bank216" display_name="GT REFCLK0 on Bank 216" type="chip" sub_type="mgt_clock" major_group="Ethernet Configurations"  vendor="Marvell" spec_url="www.marvell.com">
+			<description>GT REFCLK0 on Bank 216</description>
+		</component>
+
+	</components>
+
+	<!-- -->
+	<jtag_chains>
+		<jtag_chain name="chain1">
+			<position name="0" component="part0"/>
+		<!--<position name="1" component="part1"/> -->
+		</jtag_chain>
+	</jtag_chains>
+
+	<connections>
+		<connection name="part0_LPDDR4_Controller0" component1="part0" component2="LPDDR4_Controller0">
+			<connection_map name="part0_LPDDR4_Controller0_1" typical_delay="5" c1_st_index="100" c1_end_index="237" c2_st_index="0" c2_end_index="137"/>
+		</connection>
+
+		<connection name="part0_LPDDR4_Controller1" component1="part0" component2="LPDDR4_Controller1">
+			<connection_map name="part0_LPDDR4_Controller1_1" typical_delay="5" c1_st_index="238" c1_end_index="375" c2_st_index="0" c2_end_index="137"/>
+		</connection>
+
+		<connection name="part0_LPDDR4_Controller2" component1="part0" component2="LPDDR4_Controller2">
+			<connection_map name="part0_LPDDR4_Controller2_1" typical_delay="5" c1_st_index="376" c1_end_index="513" c2_st_index="0" c2_end_index="137"/>
+		</connection>
+
+		<connection name="part0_lpddr4_0_ref" component1="part0" component2="lpddr4_0_ref">
+			<connection_map name="part0_lpddr4_0_ref_1" typical_delay="5" c1_st_index="514" c1_end_index="515" c2_st_index="0" c2_end_index="1"/>
+		</connection>
+
+		<connection name="part0_lpddr4_1_ref" component1="part0" component2="lpddr4_1_ref">
+			<connection_map name="part0_lpddr4_1_ref_1" typical_delay="5" c1_st_index="516" c1_end_index="517" c2_st_index="0" c2_end_index="1"/>
+		</connection>
+
+		<connection name="part0_lpddr4_2_ref" component1="part0" component2="lpddr4_2_ref">
+			<connection_map name="part0_lpddr4_2_ref_1" typical_delay="5" c1_st_index="518" c1_end_index="519" c2_st_index="0" c2_end_index="1"/>
+		</connection>
+
+		<connection name="part0_gtrefclk0_bank102" component1="part0" component2="gtrefclk0_bank102">
+			<connection_map name="part0_gtrefclk0_bank102" typical_delay="5" c1_st_index="50" c1_end_index="51" c2_st_index="0" c2_end_index="1"/>
+		</connection>
+
+		<connection name="part0_gtrefclk0_bank104" component1="part0" component2="gtrefclk0_bank104">
+			<connection_map name="part0_gtrefclk0_bank104" typical_delay="5" c1_st_index="16" c1_end_index="17" c2_st_index="0" c2_end_index="1"/>
+		</connection>
+
+		<connection name="part0_gtrefclk0_bank106" component1="part0" component2="gtrefclk0_bank106">
+			<connection_map name="part0_gtrefclk0_bank106" typical_delay="5" c1_st_index="68" c1_end_index="69" c2_st_index="0" c2_end_index="1"/>
+		</connection>
+
+		<connection name="part0_gtrefclk0_bank110" component1="part0" component2="gtrefclk0_bank110">
+			<connection_map name="part0_gtrefclk0_bank110" typical_delay="5" c1_st_index="78" c1_end_index="79" c2_st_index="0" c2_end_index="1"/>
+		</connection>
+
+		<connection name="part0_gtrefclk0_bank111" component1="part0" component2="gtrefclk0_bank111">
+			<connection_map name="part0_gtrefclk0_bank111" typical_delay="5" c1_st_index="80" c1_end_index="81" c2_st_index="0" c2_end_index="1"/>
+		</connection>
+
+		<connection name="part0_gtrefclk0_bank115" component1="part0" component2="gtrefclk0_bank115">
+			<connection_map name="part0_gtrefclk0_bank115" typical_delay="5" c1_st_index="82" c1_end_index="83" c2_st_index="0" c2_end_index="1"/>
+		</connection>
+
+		<connection name="part0_gtrefclk0_bank116" component1="part0" component2="gtrefclk0_bank116">
+			<connection_map name="part0_gtrefclk0_bank116" typical_delay="5" c1_st_index="84" c1_end_index="85" c2_st_index="0" c2_end_index="1"/>
+		</connection>
+
+		<connection name="part0_gtrefclk0_bank117" component1="part0" component2="gtrefclk0_bank117">
+			<connection_map name="part0_gtrefclk0_bank117" typical_delay="5" c1_st_index="86" c1_end_index="87" c2_st_index="0" c2_end_index="1"/>
+		</connection>
+
+		<connection name="part0_gtrefclk0_bank200" component1="part0" component2="gtrefclk0_bank200">
+			<connection_map name="part0_gtrefclk0_bank200" typical_delay="5" c1_st_index="88" c1_end_index="89" c2_st_index="0" c2_end_index="1"/>
+		</connection>
+
+		<connection name="part0_gtrefclk0_bank201" component1="part0" component2="gtrefclk0_bank201">
+			<connection_map name="part0_gtrefclk0_bank201" typical_delay="5" c1_st_index="90" c1_end_index="91" c2_st_index="0" c2_end_index="1"/>
+		</connection>
+
+		<connection name="part0_gtrefclk0_bank205" component1="part0" component2="gtrefclk0_bank205">
+			<connection_map name="part0_gtrefclk0_bank205" typical_delay="5" c1_st_index="92" c1_end_index="93" c2_st_index="0" c2_end_index="1"/>
+		</connection>
+
+		<connection name="part0_gtrefclk0_bank208" component1="part0" component2="gtrefclk0_bank208">
+			<connection_map name="part0_gtrefclk0_bank208" typical_delay="5" c1_st_index="94" c1_end_index="95" c2_st_index="0" c2_end_index="1"/>
+		</connection>
+
+		<connection name="part0_gtrefclk0_bank209" component1="part0" component2="gtrefclk0_bank209">
+			<connection_map name="part0_gtrefclk0_bank209" typical_delay="5" c1_st_index="96" c1_end_index="97" c2_st_index="0" c2_end_index="1"/>
+		</connection>
+
+		<connection name="part0_gtrefclk0_bank216" component1="part0" component2="gtrefclk0_bank216">
+			<connection_map name="part0_gtrefclk0_bank216" typical_delay="5" c1_st_index="98" c1_end_index="99" c2_st_index="0" c2_end_index="1"/>
+		</connection>
+
+	</connections>
+</board>
+

@@ -1,0 +1,34 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "v1161_vc1902",
+          "display": "V1161 Programmable 100G Ethernet XMC ACAP Card with VC1902",
+          "revision": "1.0",
+          "description": "V1161 Programmable 100G Ethernet XMC ACAP Card",
+          "company": "newwavedv.com",
+          "company_display": "NewWaveDV",
+          "author": "wojohnson",
+          "contributors": [
+            {
+              "group": "NewWaveDV",
+              "url": "www.newwavedv.com/"
+            }
+          ],
+          "category": "Single Part",
+          "website": "https://newwavedv.com/products/fpga-interface-cards/pmc-xmc/v1161-programmable-100g-ethernet-xmc-acap-card/",
+          "logo": "v1161.jpg",
+          "search-keywords": [
+            "v1161_vc1902",
+            "newwavedv.com",
+            "board",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

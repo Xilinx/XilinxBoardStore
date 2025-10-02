@@ -1,0 +1,398 @@
+<!--
+   Change Log:
+   7/16/19  - DTD updated to match current parser code.
+   10/31/19 - Add support for properties / operating conditions.
+   
+  -->
+
+<!--
+   @title The Board Interface file  is described in this DTD, and
+   must be named board.xml. It lists the components used on a system-level board,
+   including the Xilinx device, defines the different operating modes supported by those
+   components, lists the signal interfaces implemented by those components, lists the
+   preferred IP to implement those interfaces in a design project, and maps the logical
+   ports of the interface definition to the physical ports and component pins of the Xilinx
+   device.
+
+   Each board file has a specific DOCTYPE declaration with a specific root element. 
+   Please ensure that the same syntax is followed while declaring the
+   DOCTYPE in your XML files.
+
+   For board.xml file the correct syntax is:
+     <!DOCTYPE board SYSTEM "path_to_corresponding_dtd_file">
+ 
+   @root board
+-->
+
+<!-- The <board> tag is the root of the board file. It includes attributes to identify basic
+information about the board. -->
+<!ELEMENT board ( images | compatible_board_revisions | file_version | description | parameters | power_rails | data_properties | jumpers | components | jtag_chains | connections | ip_associated_rules )* >
+<!-- @attr display_name Name as given in the Display Name column in the list of boards
+        displayed in the Select Device dialog box in the Vivado IDE. Example: 
+        display_name="Kintex-7 KC705 Evaluation Platform"-->
+<!ATTLIST board display_name CDATA #REQUIRED >
+<!-- @attr name Short name, which forms part of the key for selection of the board. This is
+       different from the board description described later in the chapter. Example: name="kc705"-->
+<!ATTLIST board name NMTOKEN #REQUIRED >
+<!-- @attr preset_file Preset file name, which is used to list all presets for each interface as
+       applicable. Example: preset_file="preset.xml" -->
+<!ATTLIST board preset_file NMTOKEN #IMPLIED >
+<!-- @attr schema_version Identifies the schema version of the board file. The latest version of the
+       schema is 2.2. Example: schema_version="2.2" -->
+<!ATTLIST board schema_version NMTOKEN #REQUIRED >
+<!-- @attr url Web address for board specific information. Example: url="www.xilinx.com/kc705" -->
+<!ATTLIST board url CDATA #IMPLIED >
+<!-- @attr vendor Web address of the board provider. Example: vendor="xilinx.com" -->
+<!ATTLIST board vendor NMTOKEN #REQUIRED >
+<!-- @attr -->
+<!ATTLIST board supports_ced CDATA #IMPLIED >
+
+<!ELEMENT address EMPTY >
+<!ATTLIST address high NMTOKEN #REQUIRED >
+<!ATTLIST address low NMTOKEN #REQUIRED >
+
+<!-- Lists all revisions of the board to which this board file applies. -->
+<!ELEMENT compatible_board_revisions ( revision+ ) >
+
+<!-- Details of a single component on the board -->
+<!ELEMENT component ( component_modes | description | drivers | images | interfaces | parameters | pins | positions )* ><!-- @attr component The name displayed in the Board tab of the Vivado IP integrator.
+        Example: display_name="Kintex-7 KC705 Evaluation Platform"-->
+<!ATTLIST component display_name CDATA #IMPLIED >
+<!-- @attr component Major group that the component is a part of. The Board tab in the Vivado
+        IP integrator organizes components of the board according to the
+       major_group. Example: major_group="ethernet" -->
+<!ATTLIST component major_group CDATA #IMPLIED >
+<!-- @attr component Name of the component. Example: name="part0" -->
+<!ATTLIST component name NMTOKEN #REQUIRED >
+<!-- @attr Part identifier. Note: For type=fpga, the part_name
+       must be a valid Xilinx supported part, or the board files will not be loaded into the
+       Vivado Design Suite. Example: part_name="xc7k325tffg900-2" -->
+<!ATTLIST component part_name CDATA #IMPLIED >
+<!-- @attr component A file where the constraints for each pin are provided. Example: pin_map_file="part0_pins.xml" -->
+<!ATTLIST component pin_map_file NMTOKEN #IMPLIED >
+<!-- @attr component -->
+<!ATTLIST component spec_url CDATA #IMPLIED >
+<!-- @attr component Subtype of the component. Example: sub_type="ethernet" -->
+<!ATTLIST component sub_type NMTOKEN #IMPLIED >
+<!-- @attr component Type of part:
+       “fpga” - Specifies the Xilinx FPGA parts on the board.
+       “chip” - Defines all components which have a chip on the board,
+       except FPGAs or FMC connectors.
+       Examples of chips include ddr3_sdram and linear_flash.
+       “connector” - Defines FPGA Mezzanine Card (FMC) connectors.
+       Example: type="fpga" -->
+<!ATTLIST component type ( chip | connector | fpga ) #REQUIRED >
+<!-- @attr component Vendor of the part. Example: vendor="xilinx" -->
+<!ATTLIST component vendor CDATA #IMPLIED >
+<!-- @attr component  -->
+<!ATTLIST component connected_to CDATA #IMPLIED >
+
+<!ELEMENT component_mode ( description | interfaces | preferred_ips )* ><!ATTLIST component_mode display_name CDATA #REQUIRED >
+<!ATTLIST component_mode name NMTOKEN #REQUIRED >
+
+<!-- Modes specific to the defined component. Each component mode includes details 
+like associated interfaces, preferred IP, and enabling dependencies. -->
+<!ELEMENT component_modes ( component_mode+ ) >
+
+<!-- Defines the various components present on the board. Components
+       include FPGA devices, DDR, QSPI flash, FMC, etc -->
+<!ELEMENT components ( component+ ) >
+
+<!-- Identifies two components associated with a connection. -->
+<!ELEMENT connection ( connection_map+ ) >
+<!-- @attr connection The first component in the connection.  -->
+<!ATTLIST connection component1 ( iic_main | part0 | hpc_connector | lpc_connector | som240_connector | som480_connector | som_connector) #REQUIRED >
+<!-- @attr connection  The second component in the connection-->
+<!ATTLIST connection component2 NMTOKEN #REQUIRED >
+<!-- @attr connection Name given to the connection  -->
+<!ATTLIST connection name NMTOKEN #REQUIRED >
+
+<!-- describes the bus connection between the two components -->
+<!ELEMENT connection_map ( enablement_dependencies | nets )* >
+<!-- @attr connection_map This is the <pin> index of the final pin in the connection for
+       component1. -->
+<!ATTLIST connection_map c1_end_index NMTOKEN #REQUIRED >
+<!-- @attr connection_map This is the <pin> index of the starting pin in the connection for
+        component1. Note: If component1 is an FPGA, this index is taken from the part0_pins.xml file. -->
+<!ATTLIST connection_map c1_st_index NMTOKEN #REQUIRED >
+<!-- @attr connection_map This is the <pin> index of the final pin in the connection for
+        component2. -->
+<!ATTLIST connection_map c2_end_index NMTOKEN #REQUIRED >
+<!-- @attr connection_map This is the <pin> index of the starting pin for component2. -->
+<!ATTLIST connection_map c2_st_index NMTOKEN #REQUIRED >
+<!-- @attr connection_map  -->
+<!ATTLIST connection_map component2 NMTOKEN #IMPLIED >
+<!-- @attr connection_map  -->
+<!ATTLIST connection_map max_delay NMTOKEN #IMPLIED >
+<!-- @attr connection_map  -->
+<!ATTLIST connection_map min_delay NMTOKEN #IMPLIED >
+<!-- @attr connection_map  -->
+<!ATTLIST connection_map name NMTOKEN #REQUIRED >
+<!-- @attr connection_map The delay on the connection between components. -->
+<!ATTLIST connection_map typical_delay NMTOKEN #FIXED "5" >
+
+<!ELEMENT connections ( connection+ ) >
+<!-- For a board, a short description of the board defined by the file. Example: Kintex-7 KC705 Evaluation Platform.
+       For a jumper, A short note on how this jumper impacts different connections on the board. 
+       For a component, a short description of the component. -->
+<!ELEMENT description ( #PCDATA ) >
+<!ELEMENT driver ( description, driver_files ) >
+<!ATTLIST driver os CDATA #REQUIRED >
+<!ATTLIST driver name NMTOKEN #REQUIRED >
+<!ATTLIST driver platform CDATA #REQUIRED >
+<!ATTLIST driver pre_compiled NMTOKEN #REQUIRED >
+<!ATTLIST driver processor_architecture NMTOKEN #REQUIRED >
+<!ATTLIST driver vendor NMTOKEN #REQUIRED >
+<!ATTLIST driver version NMTOKEN #REQUIRED >
+
+<!ELEMENT driver_files ( file+ ) >
+<!ELEMENT drivers ( driver+ ) >
+<!ELEMENT enablement_dependencies ( jumpers | parameters )* >
+<!ELEMENT file ( #PCDATA ) >
+<!ATTLIST file type NMTOKEN #REQUIRED >
+<!-- Specifies the version of the Board Interface file as a version.revison
+       number. The <file_version> should be increased for any changes made
+       to the current board file:  Update the revision for minor changes,
+       update the version for significant changes. Example: 1.2
+-->
+<!ELEMENT file_version ( #PCDATA ) >
+<!ELEMENT image ( description ) >
+<!ATTLIST image display_name CDATA #REQUIRED >
+<!ATTLIST image name NMTOKEN #REQUIRED >
+<!ATTLIST image sub_type NMTOKEN #REQUIRED >
+<!ATTLIST image resolution NMTOKEN #IMPLIED >
+
+<!ELEMENT images ( image+ ) >
+
+<!-- Defines a single interface. -->
+<!ELEMENT interface ( description | enablement_dependencies | parameters | port_maps | preferred_ips )* >
+<!-- @attr interface Indicates the logical direction of the interface. Typically, the mode will be
+       set to "master", but in cases like clocks and reset where the logical direction is
+       for the signals to be input to the FPGA, the mode is marked as "slave". -->
+<!ATTLIST interface mode ( master | slave ) #IMPLIED >
+<!-- @attr interface  A unique name to identify the interface definition in the board file. This name
+       will also be used to drive connection automation, and be seen on the
+       connected port in the block diagram.-->
+<!ATTLIST interface name NMTOKEN #REQUIRED >
+<!-- @attr interface  Names the associated component from the <components> section. -->
+<!ATTLIST interface of_component NMTOKEN #IMPLIED >
+<!-- @attr interface  -->
+<!ATTLIST interface optional ( true ) #IMPLIED >
+<!-- @attr interface  Specifies the priority of the preferred_ip for the interface. The
+       priority counts down, with 0 being the highest priority. -->
+<!ATTLIST interface order NMTOKEN #IMPLIED >
+<!-- @attr interface Specifies predefined configuration options for IP implementing the
+        specified interface. -->
+<!ATTLIST interface preset_proc NMTOKEN #IMPLIED >
+<!-- @attr interface  Specifies the type of the interface from a standard set of interface types
+        supported by the Vivado Design Suite. These standard bus interfaces are
+        defined on Xilinx IP cores, to enable easy it connection of the IP or block
+        design to the board. The list of available bus interface types
+        can be found in the Vivado Design Suite installation:
+       <install_location>/Vivado/<version>/data/ip/interfaces -->
+<!ATTLIST interface type NMTOKEN #IMPLIED >
+
+<!-- Defines the interfaces implemented by the specified component. 
+       For <interfaces> listed under a <component_mode>, the ‘optional=’ attribute helps in the
+       filtering of IP when you connect the interface in the Board tab of Vivado IP integrator. The
+       default value is “optional=false", meaning that the IP must have this interface listed for the
+       mode being used. If “optional=true” the interface is not required for the specified mode.
+       When “optional=true", any IP which has the required interfaces, but not the optional
+       interfaces, will also be listed for use with the component mode being used. -->
+<!ELEMENT interfaces ( interface+ ) >
+<!ELEMENT jtag_chain ( position ) ><!ATTLIST jtag_chain name NMTOKEN #REQUIRED >
+
+<!ELEMENT jtag_chains ( jtag_chain ) >
+<!-- An individual jumper -->
+<!ELEMENT jumper ( #PCDATA | description )* >
+<!-- @attr jumper Default value of the jumper or switch. Example: default_value="false" -->
+<!ATTLIST jumper default_value NMTOKEN #IMPLIED >
+<!-- @attr jumper Name of the jumper or switch on the board. Example: name=”SW13_M0” -->
+<!ATTLIST jumper name NMTOKEN #REQUIRED >
+
+<!-- Defines jumpers found on the board. -->
+<!ELEMENT jumpers ( jumper* ) >
+
+<!ELEMENT net EMPTY ><!ATTLIST net index NMTOKEN #REQUIRED >
+<!ATTLIST net max_delay NMTOKEN #REQUIRED >
+<!ATTLIST net min_delay NMTOKEN #REQUIRED >
+<!ATTLIST net typical_delay NMTOKEN #REQUIRED >
+<!ELEMENT nets ( net+ ) >
+
+<!-- An individual parameter -->
+<!ELEMENT parameter ( #PCDATA ) >
+<!-- @attr parameter Name of an interface parameter used to configure connected IP cores. 
+       Example: name="heat_sink_temperature" -->
+<!ATTLIST parameter name NMTOKEN #REQUIRED >
+<!ATTLIST parameter readonly NMTOKEN #IMPLIED >
+<!-- @attr parameter Defines the value of string-type parameter. Example: value="medium" -->
+<!ATTLIST parameter value CDATA #IMPLIED >
+<!-- @attr parameter Max value of range-type parameter. Example: value_max="30.0" -->
+<!ATTLIST parameter value_max NMTOKEN #IMPLIED >
+<!-- @attr parameter Min value of range-type parameter. Example: value_min="20.0" -->
+<!ATTLIST parameter value_min NMTOKEN #IMPLIED >
+<!-- @attr parameter Type of parameter: string or range. Example: value_type=”range” -->
+<!ATTLIST parameter value_type NMTOKEN #IMPLIED >
+<!-- @attr parameter Range of parameter: string of comma-separated names: range=”hpc,lpc” -->
+<!ATTLIST parameter range CDATA #IMPLIED >
+
+<!-- Parameters define features or properties of the board or component. -->
+<!ELEMENT parameters ( parameter* ) >
+
+
+<!-- A specific (leaf) power supply, as a member of a rail. -->
+<!ELEMENT supply EMPTY >
+<!-- @attr Name of the member supply. 
+       Example: name="VCCINT" -->
+<!ATTLIST supply name NMTOKEN #REQUIRED >
+<!-- A specific power rail, as a member of another power rail. -->
+<!ELEMENT rail EMPTY >
+<!-- @attr Name of the member rail. 
+       Example: name="BOARD_VCCINT_VCCBRAM" -->
+<!ATTLIST rail name NMTOKEN #REQUIRED >
+<!-- @attr phased_power_source of the member rail. 
+       Example: phased_power_source="3" -->
+<!ATTLIST rail phased_power_source CDATA #IMPLIED >
+<!-- A definition of a power rail in terms of (leaf) supplies and other rails. -->
+<!ELEMENT power_rail  (supply | rail)* >
+<!-- @attr Name of the power rail. 
+       Example: name="BOARD_VCCINT_VCCBRAM" -->
+<!ATTLIST power_rail name NMTOKEN #REQUIRED >
+<!-- @attr Boolean ("true" or "false") indicating whether power rail 
+     is "direct".  A direct power rail has a constraint that all 
+     members must be at the same voltaet as the power rail.
+     Defaults to false.  
+       Example: is_direct="true" -->
+<!ATTLIST power_rail is_direct ( true | false ) "false" >
+<!-- @attr CDATA indicating phase distribution on the rail-->
+<!ATTLIST power_rail num_phases CDATA #IMPLIED >
+<!-- All power rails for this board. -->
+<!ELEMENT power_rails (power_rail)* >
+
+
+<!-- A specific data property. -->
+<!ELEMENT data_property EMPTY >
+<!-- @attr Name of the data property. 
+       Example: name="thetaja" -->
+<!ATTLIST data_property name NMTOKEN #REQUIRED >
+<!-- @attr Value of the data property. 
+       Example: value="0.75" -->
+<!ATTLIST data_property value CDATA #REQUIRED >
+<!-- A logical grouping of related data properties -->
+<!ELEMENT data_property_group  (data_property | data_property_group)* >
+<!-- @attr Name of a data property group. 
+       Example: name="operating_conditions" -->
+<!ATTLIST data_property_group name NMTOKEN #REQUIRED >
+<!-- All data properties for this board. -->
+<!ELEMENT data_properties (data_property_group)* >
+
+
+<!ELEMENT pin EMPTY >
+<!ATTLIST pin connector_index NMTOKEN #IMPLIED >
+<!-- @attr pin The component pin name on the Xilinx devices, used in the board 
+        interface file. Example: GPIO_DIP_SW2 -->
+<!ATTLIST pin name  NMTOKEN #REQUIRED >
+<!-- @attr pin An index assigned to the pin object in the Pin Map File. Example: 0 -->
+<!ATTLIST pin index  CDATA #REQUIRED >
+<!-- @attr  pin A valid IOSTANDARD for the Xilinx device pin, as defined 
+       by the board designer. Valid values include IOSTANDARDs supported by the
+       Vivado Design Suite for the specific component pin. Example: LVCMOS25 -->
+<!ATTLIST pin iostandard  CDATA #IMPLIED >
+<!-- @attr pin The pin location on the Xilinx device package. Example: Y29 -->
+<!ATTLIST pin loc  CDATA #IMPLIED >
+<!-- @attr pin  -->
+<!ATTLIST pin drive  CDATA #IMPLIED >
+<!-- @attr pin  -->
+<!ATTLIST pin slew  CDATA #IMPLIED >
+<!-- @attr pin  -->
+<!ATTLIST pin diff_term  CDATA #IMPLIED >
+<!-- @attr pin  -->
+<!ATTLIST pin output_impedance  CDATA #IMPLIED >
+<!-- @attr pin  -->
+<!ATTLIST pin ibuf_low_pwr  CDATA #IMPLIED >
+<!-- @attr pin  -->
+<!ATTLIST pin odt  CDATA #IMPLIED >
+<!-- @attr pin  -->
+<!ATTLIST pin equalization  CDATA #IMPLIED >
+<!-- @attr pin  -->
+<!ATTLIST pin pre_emphasis  CDATA #IMPLIED >
+<!-- @attr pin  -->
+<!ATTLIST pin dqs_bias  CDATA #IMPLIED >
+<!-- @attr pin  -->
+<!ATTLIST pin delay_value  CDATA #IMPLIED >
+<!-- @attr pin  -->
+<!ATTLIST pin iobdelay  CDATA #IMPLIED >
+<!-- @attr pin  -->
+<!ATTLIST pin lvds_pre_emphasis  CDATA #IMPLIED >
+<!-- @attr pin  -->
+<!ATTLIST pin pull_type  CDATA #IMPLIED >
+<!-- @attr pin  -->
+<!ATTLIST pin voh  CDATA #IMPLIED >
+
+<!ELEMENT pin_map EMPTY >
+<!ATTLIST pin_map component_pin NMTOKEN #REQUIRED >
+<!ATTLIST pin_map port_index NMTOKEN #REQUIRED >
+
+<!-- Maps the physical port of a Xilinx device to a specific pin of the packaged part. -->
+<!ELEMENT pin_maps ( pin_map+ ) >
+
+<!-- Defines the pins of a component. The same properties can be defined with the 
+component pin_map_file=”” attribute. However, the property values defined in the pins 
+section take precedence over the property values defined in the “pin_map_file=”. -->
+<!ELEMENT pins ( pin+ ) >
+
+<!-- Maps the logical pins of an interface to the physical ports of the Xilinx device -->
+<!ELEMENT port_map ( pin_maps ) >
+<!-- @attr port_map Each port has a direction. Allowed values are in, out, and inout. -->
+<!ATTLIST port_map dir ( in | inout | out ) #REQUIRED >
+<!-- @attr port_map The high index on the port. For example, a 4-bit bus port [3:0] will
+       be marked as 3. -->
+<!ATTLIST port_map left NMTOKEN #IMPLIED >
+<!-- @attr port_map  Logical port names are found on the bus interface definition. Predefined
+        interfaces can be found in the Vivado Design Suite installation. For example, the GPIO interface
+        definition is found at: <install_location>\Vivado\<version>\data\ip\interfaces\gpio_v1_0 -->
+<!ATTLIST port_map logical_port NMTOKEN #REQUIRED >
+<!-- @attr port_map  -->
+<!ATTLIST port_map name NMTOKEN #IMPLIED >
+<!-- @attr port_map Provides the mapping to port names defined on the board interface in
+        the subsequent section. physical_port can be a std_logic or std_logic_vector. -->
+<!ATTLIST port_map physical_port NMTOKEN #REQUIRED >
+<!-- @attr port_map  The low index for a port. For example, a 4-bit bus port [3:0] will
+       be marked as 0. -->
+<!ATTLIST port_map right NMTOKEN #IMPLIED >
+
+<!ELEMENT port_maps ( port_map+ ) >
+<!ELEMENT position ( address* ) >
+<!ATTLIST position component NMTOKEN #REQUIRED >
+<!ATTLIST position id NMTOKEN #IMPLIED >
+<!ATTLIST position name NMTOKEN #IMPLIED >
+
+<!ELEMENT positions ( position+ ) >
+<!-- Lists the preferred IP to connect to, in VLNV (or VLN) format.
+       Note: The version of the IP is not required as the Vivado tool will pick the latest version. -->
+<!ELEMENT preferred_ip EMPTY >
+<!ATTLIST preferred_ip library NMTOKEN #IMPLIED >
+<!ATTLIST preferred_ip name NMTOKEN #REQUIRED >
+<!ATTLIST preferred_ip order NMTOKEN #IMPLIED >
+<!ATTLIST preferred_ip vendor NMTOKEN #REQUIRED >
+
+<!ELEMENT preferred_ips ( preferred_ip+ ) >
+
+<!-- The revision. Example: 1.1 -->
+<!ELEMENT revision ( #PCDATA ) >
+<!-- @attr revision A zero-based integer index for the revision. Example: 0 -->
+<!ATTLIST revision id NMTOKEN #REQUIRED >
+
+<!ELEMENT ip_associated_rules  ( ip_associated_rule ) >
+<!ELEMENT ip_associated_rule  ( ip+ ) >
+<!ATTLIST ip_associated_rule name NMTOKEN #REQUIRED >
+<!ELEMENT ip  ( associated_board_interfaces+ ) >
+<!ATTLIST ip name NMTOKEN #REQUIRED >
+<!ATTLIST ip vendor NMTOKEN #IMPLIED >
+<!ATTLIST ip library NMTOKEN #IMPLIED >
+<!ATTLIST ip version CDATA #IMPLIED >
+<!ATTLIST ip ip_interface  NMTOKEN #IMPLIED >
+<!ELEMENT associated_board_interfaces  ( associated_board_interface+ ) >
+<!ELEMENT associated_board_interface  EMPTY >
+<!ATTLIST associated_board_interface name NMTOKEN #REQUIRED >
+<!ATTLIST associated_board_interface order NMTOKEN #IMPLIED >
