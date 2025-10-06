@@ -1,0 +1,11 @@
+######### VRK160 change log ##############
+1.1 (2025.2)
+Updated lpddr presets.
+
+1.0 (2025.1.1)
+Initial support for VRK160 ES1 Evaluation Platform 
+
+
+
+ 
+ 

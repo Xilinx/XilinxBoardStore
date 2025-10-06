@@ -846,7 +846,7 @@
 					</port_maps>
 				</interface>
 
-				<interface mode="master" name="lpddr5_Controller_c3" type="xilinx.com:interface:lpddr5_rtl:1.0" of_component="lpddr5_Controller_c3" preset_proc="lpddr5_Controller34_preset">
+				<interface mode="master" name="lpddr5_Controller_c3" type="xilinx.com:interface:lpddr5_rtl:1.0" of_component="lpddr5_Controller_c3" preset_proc="lpddr5_Controller3_preset">
 					<description>lpddr5 board interface, it can use AXI_NoC2 IP for connection.</description>
 					<parameters>
 						<parameter name="TYPE" value="C0_CH0_LPDDR5" />
@@ -979,7 +979,7 @@
 					</port_maps>
 				</interface>
 
-				<interface mode="master" name="lpddr5_Controller_c3_int" type="xilinx.com:interface:lpddr5_rtl:1.0" of_component="lpddr5_Controller_c3" preset_proc="lpddr5_Controller34_preset_int">
+				<interface mode="master" name="lpddr5_Controller_c3_int" type="xilinx.com:interface:lpddr5_rtl:1.0" of_component="lpddr5_Controller_c3" preset_proc="lpddr5_Controller3_preset_int">
 					<description>lpddr5 board interface, it can use AXI_NoC2 IP for connection.</description>
 					<parameters>
 						<parameter name="TYPE" value="C0_CH0_LPDDR5" />
@@ -1111,7 +1111,7 @@
 					</port_maps>
 				</interface>
 
-				<interface mode="master" name="lpddr5_Controller_c4" type="xilinx.com:interface:lpddr5_rtl:1.0" of_component="lpddr5_Controller_c4" preset_proc="lpddr5_Controller34_preset">
+				<interface mode="master" name="lpddr5_Controller_c4" type="xilinx.com:interface:lpddr5_rtl:1.0" of_component="lpddr5_Controller_c4" preset_proc="lpddr5_Controller4_preset">
 					<description>lpddr5 board interface, it can use AXI_NoC2 IP for connection.</description>
 					<parameters>
 						<parameter name="TYPE" value="C0_CH0_LPDDR5" />
@@ -1244,7 +1244,7 @@
 					</port_maps>
 				</interface>
 
-				<interface mode="master" name="lpddr5_Controller_c4_int" type="xilinx.com:interface:lpddr5_rtl:1.0" of_component="lpddr5_Controller_c4" preset_proc="lpddr5_Controller34_preset_int">
+				<interface mode="master" name="lpddr5_Controller_c4_int" type="xilinx.com:interface:lpddr5_rtl:1.0" of_component="lpddr5_Controller_c4" preset_proc="lpddr5_Controller4_preset_int">
 					<description>lpddr5 board interface, it can use AXI_NoC2 IP for connection.</description>
 					<parameters>
 						<parameter name="TYPE" value="C0_CH0_LPDDR5" />

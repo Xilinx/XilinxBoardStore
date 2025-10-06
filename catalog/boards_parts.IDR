@@ -174,10 +174,13 @@ for instance xc7z010 or xc7a100t
 	<device_rule device="xc2ve3858" part="xc2ve3858-ssva2112-2MP-e-S">
 	<dir src="data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek385"></dir>
 	</device_rule>
-	<device_rule device="xcvr1602" part="xcvr1602-vsva2488-2">
+	<device_rule device="xc2ve3858" part="xc2ve3858-ssva2112-2MP-e-S">
+	<dir src="data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek385_2"></dir>
+	</device_rule>
+	<device_rule device="xcvr1602" part="xcvr1602-vsva2488-2MP-e-S-es1">
 	<dir src="data/xhub/boards/XilinxBoardStore/boards/Xilinx/vrk160"></dir>
 	</device_rule>
-	<device_rule device="xcvr1652" part="xcvr1652-vsvg1596-2">
-	<dir src="data/xhub/boards/XilinxBoardStore/boards/Xilinx/vrkk165"></dir>
+	<device_rule device="xcsu200p" part="xcsu200p-sbva1024-2-e-es1">
+	<dir src="data/xhub/boards/XilinxBoardStore/boards/Xilinx/scu200/es"></dir>
 	</device_rule>
 </idr>
