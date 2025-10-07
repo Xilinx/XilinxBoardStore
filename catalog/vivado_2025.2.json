@@ -2024,11 +2024,11 @@
         "name": "vek385",
         "display": "Versal VEK385 Evaluation Platform",
         "latest_revision": "1.1",
-        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
+        "commit_id": "21893c69911262d387296f771d051e02442f9ee7",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
+            "commit_id": "21893c69911262d387296f771d051e02442f9ee7",
             "date": "28-07-2025:16:32:47",
             "history": "Added board Versal VEK385 Evaluation Platform v1.1"
           }
@@ -2087,11 +2087,11 @@
         "name": "vek385_1",
         "display": "Versal VEK385 Evaluation Platform (Rev B)",
         "latest_revision": "1.0",
-        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
+        "commit_id": "21893c69911262d387296f771d051e02442f9ee7",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
+            "commit_id": "21893c69911262d387296f771d051e02442f9ee7",
             "date": "15-09-2025:14:58:32",
             "history": "Added board Versal VEK385 Evaluation Platform (Rev B) v1.0"
           }
@@ -2117,6 +2117,25 @@
         ],
         "config": {
           "root": "boards/Xilinx/scu200/es/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vrk160",
+        "display": "Versal VRK160 ES1 Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "21893c69911262d387296f771d051e02442f9ee7",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "21893c69911262d387296f771d051e02442f9ee7",
+            "date": "07-10-2025:04:04:40",
+            "history": "Added board Versal VRK160 ES1 Evaluation Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vrk160/1.1",
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
