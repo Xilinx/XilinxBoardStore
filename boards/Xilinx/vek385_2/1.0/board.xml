@@ -11,7 +11,7 @@
  under the License. -->
 <board schema_version="2.2" vendor="xilinx.com" name="vek385_1" display_name="VEK385 Evaluation Platform (Rev B)" url="http://www.xilinx.com/vek385" preset_file="preset.xml" supports_ced="true">
 	<images>
-		<image name="vek385_image.jpg" display_name="VEK385 Evaluation Platform" sub_type="board" resolution="high">
+		<image name="vek385_image.png" display_name="VEK385 Evaluation Platform" sub_type="board" resolution="high">
 			<description>VEK385 Evaluation Platform</description>
 		</image>
 	</images>
