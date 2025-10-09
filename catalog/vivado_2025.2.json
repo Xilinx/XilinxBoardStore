@@ -2024,11 +2024,11 @@
         "name": "vek385",
         "display": "Versal VEK385 Evaluation Platform",
         "latest_revision": "1.1",
-        "commit_id": "21893c69911262d387296f771d051e02442f9ee7",
+        "commit_id": "68cb866ab0082e9728d64b864d2c42638552abbf",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "21893c69911262d387296f771d051e02442f9ee7",
+            "commit_id": "68cb866ab0082e9728d64b864d2c42638552abbf",
             "date": "28-07-2025:16:32:47",
             "history": "Added board Versal VEK385 Evaluation Platform v1.1"
           }
@@ -2087,11 +2087,11 @@
         "name": "vek385_1",
         "display": "Versal VEK385 Evaluation Platform (Rev B)",
         "latest_revision": "1.0",
-        "commit_id": "21893c69911262d387296f771d051e02442f9ee7",
+        "commit_id": "68cb866ab0082e9728d64b864d2c42638552abbf",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "21893c69911262d387296f771d051e02442f9ee7",
+            "commit_id": "68cb866ab0082e9728d64b864d2c42638552abbf",
             "date": "15-09-2025:14:58:32",
             "history": "Added board Versal VEK385 Evaluation Platform (Rev B) v1.0"
           }
