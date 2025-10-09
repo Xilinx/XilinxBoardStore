@@ -9,9 +9,9 @@
  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
  License for the specific language governing permissions and limitations
  under the License. -->
-<board schema_version="2.2" vendor="xilinx.com" name="vek385" display_name="VEK385 Evaluation Platform" url="http://www.xilinx.com/vek385" preset_file="preset.xml" supports_ced="true">
+<board schema_version="2.2" vendor="xilinx.com" name="vek385" display_name="VEK385 Evaluation Platform (Rev A)" url="http://www.xilinx.com/vek385" preset_file="preset.xml" supports_ced="true">
 	<images>
-		<image name="vek385_image.jpg" display_name="VEK385 Evaluation Platform" sub_type="board" resolution="high">
+		<image name="vek385_reva.png" display_name="VEK385 Evaluation Platform" sub_type="board" resolution="high">
 			<description>VEK385 Evaluation Platform</description>
 		</image>
 	</images>
@@ -1659,7 +1659,7 @@
 			</component_modes>
 		</component>
 		
-		<component name="lpddr5_Controller_c2" display_name="Lpddr5_Controller_C2_bank708_709" type="chip" sub_type="ddr" major_group="External Memory" part_name="MT62F512M32D1DS-023 AIT:E" vendor="Micron" spec_url="https://www.micron.com/">
+		<component name="lpddr5_Controller_c2" display_name="Lpddr5_Controller_C2_Bank708_709" type="chip" sub_type="ddr" major_group="External Memory" part_name="MT62F512M32D1DS-023 AIT:E" vendor="Micron" spec_url="https://www.micron.com/">
 			<description>512Mb x 32 (512Mbx16 x1Die x2 CH x 1R) lpddr5 memory</description>
 			<parameters>
 				<parameter name="ddr_type" value="lpddr5" />
