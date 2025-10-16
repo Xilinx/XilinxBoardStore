@@ -414,7 +414,7 @@
 
         <interface mode="slave" name="reset" type="xilinx.com:signal:reset_rtl:1.0" of_component="reset">
           <parameters>
-            <parameter name="rst_polarity" value="1"/>
+            <parameter name="rst_polarity" value="0"/>
           </parameters>
           <preferred_ips>
             <preferred_ip vendor="xilinx.com" library="ip" name="proc_sys_reset" order="0"/>
@@ -1194,7 +1194,7 @@
     </component>
 
     <component name="reset" display_name="FPGA Reset" type="chip" sub_type="system_reset" major_group="Reset" part_name="TL3301EF100QG" vendor="ESwitch">
-      <description>CPU Reset Push Button, Active High</description>
+      <description>CPU Reset Push Button, Active Low</description>
     </component>
 
     <component name="dip_switches_8bits" display_name="DIP switches" type="chip" sub_type="switch" major_group="General Purpose Input or Output" part_name="SDA08H1SBD" vendor="CandK" spec_url="www.ck-components.com">

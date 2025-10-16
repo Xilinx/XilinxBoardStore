@@ -28,6 +28,9 @@
 			<user_parameter name="PS_I2C0_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_46:47 IO_TYPE MIO}"/>
 			<user_parameter name="PS_I2C1_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_44:45 IO_TYPE MIO}"/>
 			<user_parameter name="PS_I2CSYSMON_PERIPHERAL" value="{ENABLE 0 IO_TYPE MIO IO PS_MIO_13:14}"/>
+			<user_parameter name="PS_MIO7" value="{DRIVE_STRENGTH 8mA SLEW slow PULL disable SCHMITT 0 AUX_IO 0 USAGE Reserved OUTPUT_DATA default DIRECTION in}"/>
+			<user_parameter name="PS_MIO9" value="{DRIVE_STRENGTH 8mA SLEW slow PULL disable SCHMITT 0 AUX_IO 0 USAGE Reserved OUTPUT_DATA default DIRECTION in}"/>
+			<user_parameter name="PS_MIO11" value="{DRIVE_STRENGTH 8mA SLEW slow PULL disable SCHMITT 0 AUX_IO 0 USAGE Reserved OUTPUT_DATA default DIRECTION in}"/>
 			<user_parameter name="PS_MIO12" value="{DRIVE_STRENGTH 8mA SLEW slow PULL pullup SCHMITT 0 AUX_IO 0 USAGE GPIO OUTPUT_DATA default DIRECTION out}"/>
 			<user_parameter name="PS_MIO15" value="{DRIVE_STRENGTH 8mA SLEW slow PULL pullup SCHMITT 0 AUX_IO 0 USAGE GPIO OUTPUT_DATA default DIRECTION in}"/>
 			<user_parameter name="PS_MIO16" value="{DRIVE_STRENGTH 8mA SLEW slow PULL pullup SCHMITT 0 AUX_IO 0 USAGE GPIO OUTPUT_DATA default DIRECTION out}"/>
@@ -45,7 +48,7 @@
 		</user_parameters>
 	</ip>
 </ip_preset>
-		
+
   <ip_preset preset_proc_name="lpddr5_Controller0_preset">
     <ip vendor="xilinx.com" library="ip" name="axi_noc2" version="*">
       <user_parameters>

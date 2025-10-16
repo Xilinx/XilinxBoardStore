@@ -1,6 +1,6 @@
 ######### VRK160 change log ##############
 1.1 (2025.2)
-Updated lpddr presets.
+Updated lpddr presets and disabled pull-ups on PS MIO pins 7, 9, and 11.
 
 1.0 (2025.1.1)
 Initial support for VRK160 ES1 Evaluation Platform 
