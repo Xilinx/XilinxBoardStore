@@ -1,0 +1,34 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "Tagus",
+          "display": "Tagus",
+          "revision": "1.0",
+          "description": "Tagus Artix 7 BOARD ",
+          "company": "numato.com",
+          "company_display": "Numato lab",
+          "author": "Akash",
+          "contributors": [
+            {
+              "group": "Numato Lab",
+              "url": "www.numato.com/"
+            }
+          ],
+          "category": "Single Part",
+          "website": "https://numato.com/product/tagus-artix-7-pci-express-development-board/", 
+          "logo": "",
+          "search-keywords": [
+            "Tagus Artix 7 BOARD",
+            "numato.com",
+            "Numato lab"
+            
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

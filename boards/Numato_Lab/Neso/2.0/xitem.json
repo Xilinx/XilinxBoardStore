@@ -1,0 +1,34 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "Neso",
+          "display": "Neso",
+          "revision": "1.0",
+          "description": "Neso Artix7 Board ",
+          "company": "numato.com",
+          "company_display": "Numato lab",
+          "author": "Akash",
+          "contributors": [
+            {
+              "group": "Numato Lab",
+              "url": "www.numato.com/"
+            }
+          ],
+          "category": "Single Part",
+          "website": "https://numato.com/product/neso-artix-7-fpga-development-board/", 
+          "logo": "",
+          "search-keywords": [
+            "Neso Artix7 Board ",
+            "numato.com",
+            "Numato lab"
+            
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

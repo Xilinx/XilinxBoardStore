@@ -1,0 +1,34 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "NereidDevBoard7K410T",
+          "display": "NereidDevBoard7K410T",
+          "revision": "2.0",
+          "description": "NereidDevBoard7K410T ",
+          "company": "numato.com",
+          "company_display": "Numato lab",
+          "author": "Akash",
+          "contributors": [
+            {
+              "group": "Numato Lab",
+              "url": "www.numato.com/"
+            }
+          ],
+          "category": "Single Part",
+          "website": "https://numato.com/product/nereid-kintex-7-pci-express-fpga-development-board/", 
+          "logo": "",
+          "search-keywords": [
+            "NereidDevBoard7K410T",
+            "numato.com",
+            "Numato lab"
+            
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

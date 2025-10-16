@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<board schema_version="2.0" vendor="numato.com" name="HSFPX002_DevBoard" display_name="HSFPX002_DevBoard" url="www.numato.com/" preset_file="preset.xml" >
+<images>
+  <image name="HSFPX002.png" display_name="HSFPX002 Dev Board" sub_type="board">
+    <description>HSFPX002_DevBoard File Image</description>
+  </image>
+</images>
+<compatible_board_revisions>
+  <revision id="0">1.0</revision>
+</compatible_board_revisions>
+<file_version>1.0</file_version>
+<description>HSFPX002_DevBoard</description>
+<components>
+  <component name="part0" display_name="HSFPX002_DevBoard" type="fpga" part_name="xc7a200tfbg676-2" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="www.numato.com/">
+    <interfaces>
+      <interface mode="master" name="ddr3_sdram" type="xilinx.com:interface:ddrx_rtl:1.0" of_component="ddr3_sdram" preset_proc="ddr3_sdram_preset"> 
+		<description>DDR3 board interface.</description>
+		<preferred_ips>
+			<preferred_ip vendor="xilinx.com" library="ip" name="mig_7series" order="0"/>
+	  </preferred_ips>
+	  </interface> 
+      <interface mode="master" name="bicolor_led" type="xilinx.com:interface:gpio_rtl:1.0" of_component="bicolor_led" preset_proc="bicolor_led_preset">
+        <description>Onboard BiColor LED</description>
+		<preferred_ips>
+			<preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+		</preferred_ips>
+		<port_maps>
+          <port_map logical_port="TRI_O" physical_port="rgb_led" dir="out" left="1" right="0"> 
+            <pin_maps>
+              <pin_map port_index="0" component_pin="bicolor_led_0"/> 
+              <pin_map port_index="1" component_pin="bicolor_led_1"/> 
+            </pin_maps>
+          </port_map>
+        </port_maps>
+      </interface>	  
+      <interface mode="slave" name="sys_clock" type="xilinx.com:signal:clock_rtl:1.0" of_component="sys_clock" preset_proc="sys_clock_preset">
+        <parameters>
+          <parameter name="frequency" value="100000000"/>
+        </parameters>
+        <preferred_ips>
+          <preferred_ip vendor="xilinx.com" library="ip" name="clk_wiz" order="0"/>
+        </preferred_ips>
+		<port_maps>
+          <port_map logical_port="clk" physical_port="clk" dir="in">
+            <pin_maps>
+              <pin_map port_index="0" component_pin="clk"/> 
+            </pin_maps>
+          </port_map>
+        </port_maps>
+        <parameters>
+          <parameter name="frequency" value="100000000" />
+       </parameters>
+      </interface>
+    </interfaces>
+  </component>
+  
+  <component name="ddr3_sdram" display_name="DDR3 SDRAM" type="chip" sub_type="ddr" major_group="External Memory">
+	<description>DDR3 memory</description>
+	<parameters>
+        <parameter name="ddr_type" value="ddr3"/>
+        <parameter name="size" value="512MB"/>
+	</parameters>
+  </component>
+  <component name="sys_clock" display_name="System Clock" type="chip" sub_type="system_clock" major_group="Clocks">
+  	<description>3.3V Single-Ended 100MHz oscillator used as system clock on the board</description>
+  </component>
+  <component name="bicolor_led" display_name="Onboard BiColor LED" type="chip" sub_type="led" major_group="GPIO">
+  	<description>BiColor leds 1 to 0 (2 per LED)</description>
+  </component>
+</components>
+
+<jtag_chains>
+  <jtag_chain name="chain1">
+    <position name="0" component="part0"/>
+  </jtag_chain>
+</jtag_chains>
+<connections>
+  <connection name="part0_sys_clock" component1="part0" component2="sys_clock">
+    <connection_map name="part0_sys_clock_1" c1_st_index="0" c1_end_index="0" c2_st_index="0" c2_end_index="0"/>
+  </connection>
+  <connection name="part0_bicolor_led" component1="part0" component2="bicolor_led">
+    <connection_map name="part0_bicolor_led_1" c1_st_index="1" c1_end_index="2" c2_st_index="0" c2_end_index="1"/>
+  </connection> 
+</connections>
+</board>

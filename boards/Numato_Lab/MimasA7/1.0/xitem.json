@@ -1,0 +1,34 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "Mimas_A7_50T",
+          "display": "Mimas_A7_50T",
+          "revision": "1.0",
+          "description": "Mimas_A7_50T",
+          "company": "numato.com",
+          "company_display": "Numato lab",
+          "author": "Akash",
+          "contributors": [
+            {
+              "group": "Numato Lab",
+              "url": "www.numato.com/"
+            }
+          ],
+          "category": "Single Part",
+          "website": "https://numato.com/product/mimas-a7-artix-7-fpga-development-board/", 
+          "logo": "",
+          "search-keywords": [
+            "Mimas_A7_50T",
+            "numato.com",
+            "Numato lab"
+            
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

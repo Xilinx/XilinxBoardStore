@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
+<ip_presets schema="4.2">
+  <ip_preset preset_proc_name="ddr3_sdram_preset">
+    <ip vendor="xilinx.com" library="ip" name="mig_7series">
+      <user_parameters>
+        <user_parameter name="CONFIG.XML_INPUT_FILE" value="mig.prj" value_type="file"/> 
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+<ip_preset preset_proc_name="gpio_u1_port0_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO" version="2.0">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_GPIO_WIDTH" value="32"/> 
+		  <user_parameter name="CONFIG.C_INTERRUPT_PRESENT" value="1"/>
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2" version="2.0">
+        <user_parameters>		  
+          <user_parameter name="CONFIG.C_IS_DUAL" value="1"/> 
+          <user_parameter name="CONFIG.C_GPIO2_WIDTH" value="32"/> 
+		  <user_parameter name="CONFIG.C_INTERRUPT_PRESENT" value="1"/> 
+        </user_parameters>
+    </ip>
+  </ip_preset>
+  <ip_preset preset_proc_name="gpio_u1_port1_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO" version="2.0">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_GPIO_WIDTH" value="32"/> 
+		  <user_parameter name="CONFIG.C_INTERRUPT_PRESENT" value="1"/>
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2" version="2.0">
+        <user_parameters>		  
+          <user_parameter name="CONFIG.C_IS_DUAL" value="1"/> 
+          <user_parameter name="CONFIG.C_GPIO2_WIDTH" value="32"/> 
+		  <user_parameter name="CONFIG.C_INTERRUPT_PRESENT" value="1"/> 
+        </user_parameters>
+    </ip>
+  </ip_preset>
+  <ip_preset preset_proc_name="gpio_u1_port2_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO" version="2.0">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_GPIO_WIDTH" value="32"/> 
+		  <user_parameter name="CONFIG.C_INTERRUPT_PRESENT" value="1"/>
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2" version="2.0">
+        <user_parameters>		  
+          <user_parameter name="CONFIG.C_IS_DUAL" value="1"/> 
+          <user_parameter name="CONFIG.C_GPIO2_WIDTH" value="32"/> 
+		  <user_parameter name="CONFIG.C_INTERRUPT_PRESENT" value="1"/> 
+        </user_parameters>
+    </ip>
+  </ip_preset>
+  
+  <ip_preset preset_proc_name="gpio_u1_port3_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO" version="2.0">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_GPIO_WIDTH" value="32"/> 
+		  <user_parameter name="CONFIG.C_INTERRUPT_PRESENT" value="1"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2" version="2.0">
+        <user_parameters>		  
+          <user_parameter name="CONFIG.C_IS_DUAL" value="1"/> 
+          <user_parameter name="CONFIG.C_GPIO2_WIDTH" value="32"/> 
+		  <user_parameter name="CONFIG.C_INTERRUPT_PRESENT" value="1"/> 
+        </user_parameters>
+    </ip>
+  </ip_preset>
+  <ip_preset preset_proc_name="gpio_u1_port4_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO" version="2.0">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_GPIO_WIDTH" value="32"/> 
+		  <user_parameter name="CONFIG.C_INTERRUPT_PRESENT" value="1"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2" version="2.0">
+        <user_parameters>		  
+          <user_parameter name="CONFIG.C_IS_DUAL" value="1"/> 
+          <user_parameter name="CONFIG.C_GPIO2_WIDTH" value="32"/> 
+		  <user_parameter name="CONFIG.C_INTERRUPT_PRESENT" value="1"/> 
+        </user_parameters>
+    </ip>
+  </ip_preset>  
+  <ip_preset preset_proc_name="gpio_u1_port5_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO" version="2.0">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_GPIO_WIDTH" value="14"/> 
+		  <user_parameter name="CONFIG.C_INTERRUPT_PRESENT" value="1"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2" version="2.0">
+        <user_parameters>		  
+          <user_parameter name="CONFIG.C_IS_DUAL" value="1"/> 
+          <user_parameter name="CONFIG.C_GPIO2_WIDTH" value="14"/> 
+		  <user_parameter name="CONFIG.C_INTERRUPT_PRESENT" value="1"/> 
+        </user_parameters>
+    </ip>
+  </ip_preset>   
+   <ip_preset preset_proc_name="uart_preset">
+    <ip vendor="xilinx.com" library="ip" name="iomodule" ip_interface="UART">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_USE_UART_RX" value="1"/> 
+          <user_parameter name="CONFIG.C_USE_UART_TX" value="1"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="microblaze_mcs" ip_interface="UART">
+        <user_parameters>
+          <user_parameter name="CONFIG.USE_UART_RX" value="1"/> 
+          <user_parameter name="CONFIG.USE_UART_TX" value="1"/> 
+        </user_parameters>
+    </ip>
+  </ip_preset>
+  
+   <ip_preset preset_proc_name="rgb_led_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_GPIO_WIDTH" value="3"/> 
+          <user_parameter name="CONFIG.C_ALL_INPUTS" value="0"/> 
+	  <user_parameter name="CONFIG.C_ALL_OUTPUTS" value="1"/>
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_IS_DUAL" value="1"/> 
+          <user_parameter name="CONFIG.C_GPIO2_WIDTH" value="3"/> 
+          <user_parameter name="CONFIG.C_ALL_INPUTS_2" value="0"/> 
+	  <user_parameter name="CONFIG.C_ALL_OUTPUTS_2" value="1"/>
+        </user_parameters>
+    </ip>
+	<ip vendor="xilinx.com" library="ip" name="iomodule" ip_interface="GPIO1">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_USE_GPI1" value="1"/> 
+          <user_parameter name="CONFIG.C_GPI1_SIZE" value="3"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="microblaze_mcs" ip_interface="GPIO1">
+        <user_parameters>
+          <user_parameter name="CONFIG.USE_GPI1" value="1"/> 
+          <user_parameter name="CONFIG.GPI1_SIZE" value="3"/> 
+        </user_parameters>
+    </ip>  
+  </ip_preset>
+	
+   <ip_preset preset_proc_name="sys_clock_preset">
+    <ip vendor="xilinx.com" library="ip" name="clk_wiz" ip_interface="clk_in1">
+        <user_parameters>
+          <user_parameter name="CONFIG.PRIM_IN_FREQ" value="100"/> 
+          <user_parameter name="CONFIG.PRIM_SOURCE" value="Single_ended_clock_capable_pin"/> 
+		  <user_parameter name="CONFIG.RESET_TYPE" value="Active High"/>
+		  <user_parameter name="CONFIG.RESET_PORT" value="reset"/> 		  
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="clk_wiz" ip_interface="clk_in2">
+        <user_parameters>
+		<user_parameter name="CONFIG.USE_INCLK_SWITCHOVER" value="true"/>
+        <user_parameter name="CONFIG.SECONDARY_IN_FREQ" value="100"/>
+        <user_parameter name="CONFIG.SECONDARY_SOURCE" value="Single_ended_clock_capable_pin"/> 
+		<user_parameter name="CONFIG.RESET_TYPE" value="Active High"/> 
+		<user_parameter name="CONFIG.RESET_PORT" value="reset"/> 
+        </user_parameters>
+    </ip>
+  </ip_preset>
+  
+  
+</ip_presets>

@@ -1,0 +1,34 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "Tityra",
+          "display": "TityraCore Z7 SODIMM FPGA BOARD",
+          "revision": "1.0",
+          "description": "TityraCore Z7 SODIMM FPGA Board ",
+          "company": "numato.com",
+          "company_display": "Numato lab",
+          "author": "Akash",
+          "contributors": [
+            {
+              "group": "Numato Lab",
+              "url": "www.numato.com/"
+            }
+          ],
+          "category": "Single Part",
+          "website": "https://numato.com/product/tityracore-zynq-7000-soc-som/", 
+          "logo": "",
+          "search-keywords": [
+            "TityraCore Z7 SODIMM FPGA Board",
+            "numato.com",
+            "Numato lab"
+            
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}
