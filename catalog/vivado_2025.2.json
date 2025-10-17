@@ -2106,11 +2106,11 @@
         "name": "scu200",
         "display": "Spartan Ultrascale+ SCU200 ES Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
+        "commit_id": "9f2a06c6934c9f21788221e8db7261ee57789690",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "29bbdfd89b7048cac72bf971bcd4b18f6ca50c5a",
+            "commit_id": "9f2a06c6934c9f21788221e8db7261ee57789690",
             "date": "25-09-2025:06:35:21",
             "history": "Added board Spartan Ultrascale+ SCU200 ES Evaluation Platform v1.0"
           }
@@ -2125,11 +2125,11 @@
         "name": "vrk160",
         "display": "Versal VRK160 ES1 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "21893c69911262d387296f771d051e02442f9ee7",
+        "commit_id": "9f2a06c6934c9f21788221e8db7261ee57789690",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "21893c69911262d387296f771d051e02442f9ee7",
+            "commit_id": "9f2a06c6934c9f21788221e8db7261ee57789690",
             "date": "07-10-2025:04:04:40",
             "history": "Added board Versal VRK160 ES1 Evaluation Platform v1.0"
           }
