@@ -1,0 +1,34 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "v1163_vm1802",
+          "display": "V1163 Programmable 12-Port Rugged XMC ACoC Card with VM1802",
+          "revision": "1.1",
+          "description": "V1163 Programmable 12-Port Rugged XMC ACoC Card",
+          "company": "NewWaveDesign.com",
+          "company_display": "NewWaveDesign",
+          "author": "wojohnson",
+          "contributors": [
+            {
+              "group": "NewWaveDesign",
+              "url": "www.NewWaveDesign.com/"
+            }
+          ],
+          "category": "Single Part",
+          "website": "https://NewWaveDesign.com/products/fpga-interface-cards/pmc-xmc/v1163-12-port-rugged-xmc-asoc-card/",
+          "logo": "v1163.jpg",
+          "search-keywords": [
+            "v1163_vm1802",
+            "NewWaveDesign.com",
+            "board",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

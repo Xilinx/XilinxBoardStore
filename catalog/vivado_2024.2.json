@@ -8550,6 +8550,177 @@
           "metadata_file": "xitem.json"
         },
         "company": "alpha-data.com"
+      },
+      {
+        "name": "v1161_vc1902",
+        "display": "V1161 Programmable 100G Ethernet XMC ACAP Card with VC1902",
+        "latest_revision": "1.0",
+        "commit_id": "07249390669c8570273e6ef63b247c0f9e36cb8d",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "07249390669c8570273e6ef63b247c0f9e36cb8d",
+            "date": "27-10-2025:17:34:39",
+            "history": "Added board V1161 Programmable 100G Ethernet XMC ACAP Card with VC1902 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/NewWaveDesign/v1161_vc1902/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "newwavedv.com"
+      },
+      {
+        "name": "v1161_vc1902",
+        "display": "V1161 Programmable 100G Ethernet XMC ACAP Card with VC1902",
+        "latest_revision": "1.1",
+        "commit_id": "07249390669c8570273e6ef63b247c0f9e36cb8d",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "07249390669c8570273e6ef63b247c0f9e36cb8d",
+            "date": "27-10-2025:17:34:39",
+            "history": "Added board V1161 Programmable 100G Ethernet XMC ACAP Card with VC1902 v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/NewWaveDesign/v1161_vc1902/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "NewWaveDesign.com"
+      },
+      {
+        "name": "v1161_vm1802",
+        "display": "V1161 Programmable 100G Ethernet XMC ACAP Card with VM1802",
+        "latest_revision": "1.0",
+        "commit_id": "07249390669c8570273e6ef63b247c0f9e36cb8d",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "07249390669c8570273e6ef63b247c0f9e36cb8d",
+            "date": "27-10-2025:17:34:39",
+            "history": "Added board V1161 Programmable 100G Ethernet XMC ACAP Card with VM1802 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/NewWaveDesign/v1161_vm1802/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "newwavedv.com"
+      },
+      {
+        "name": "v1161_vm1802",
+        "display": "V1161 Programmable 100G Ethernet XMC ACAP Card with VM1802",
+        "latest_revision": "1.1",
+        "commit_id": "07249390669c8570273e6ef63b247c0f9e36cb8d",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "07249390669c8570273e6ef63b247c0f9e36cb8d",
+            "date": "27-10-2025:17:34:39",
+            "history": "Added board V1161 Programmable 100G Ethernet XMC ACAP Card with VM1802 v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/NewWaveDesign/v1161_vm1802/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "NewWaveDesign.com"
+      },
+      {
+        "name": "v1163_vc1902",
+        "display": "V1163 Programmable 12-Port Rugged XMC ACoC Card with VC1902",
+        "latest_revision": "1.0",
+        "commit_id": "07249390669c8570273e6ef63b247c0f9e36cb8d",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "07249390669c8570273e6ef63b247c0f9e36cb8d",
+            "date": "27-10-2025:17:34:39",
+            "history": "Added board V1163 Programmable 12-Port Rugged XMC ACoC Card with VC1902 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/NewWaveDesign/v1163_vc1902/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "newwavedv.com"
+      },
+      {
+        "name": "v1163_vc1902",
+        "display": "V1163 Programmable 12-Port Rugged XMC ACoC Card with VC1902",
+        "latest_revision": "1.1",
+        "commit_id": "07249390669c8570273e6ef63b247c0f9e36cb8d",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "07249390669c8570273e6ef63b247c0f9e36cb8d",
+            "date": "27-10-2025:17:34:39",
+            "history": "Added board V1163 Programmable 12-Port Rugged XMC ACoC Card with VC1902 v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/NewWaveDesign/v1163_vc1902/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "NewWaveDesign.com"
+      },
+      {
+        "name": "v1163_vm1802",
+        "display": "V1163 Programmable 12-Port Rugged XMC ACoC Card with VM1802",
+        "latest_revision": "1.0",
+        "commit_id": "07249390669c8570273e6ef63b247c0f9e36cb8d",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "07249390669c8570273e6ef63b247c0f9e36cb8d",
+            "date": "27-10-2025:17:34:39",
+            "history": "Added board V1163 Programmable 12-Port Rugged XMC ACoC Card with VM1802 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/NewWaveDesign/v1163_vm1802/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "newwavedv.com"
+      },
+      {
+        "name": "v1163_vm1802",
+        "display": "V1163 Programmable 12-Port Rugged XMC ACoC Card with VM1802",
+        "latest_revision": "1.1",
+        "commit_id": "07249390669c8570273e6ef63b247c0f9e36cb8d",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "07249390669c8570273e6ef63b247c0f9e36cb8d",
+            "date": "27-10-2025:17:34:39",
+            "history": "Added board V1163 Programmable 12-Port Rugged XMC ACoC Card with VM1802 v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/NewWaveDesign/v1163_vm1802/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "NewWaveDesign.com"
+      },
+      {
+        "name": "v6065_vp1702",
+        "display": "V6065 3U VPX Versal Premium ASoC Card with VP1702",
+        "latest_revision": "1.0",
+        "commit_id": "07249390669c8570273e6ef63b247c0f9e36cb8d",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "07249390669c8570273e6ef63b247c0f9e36cb8d",
+            "date": "27-10-2025:17:34:39",
+            "history": "Added board V6065 3U VPX Versal Premium ASoC Card with VP1702 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/NewWaveDesign/v6065_vp1702/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "NewWaveDesign.com"
       }
     ],
     "categories": [

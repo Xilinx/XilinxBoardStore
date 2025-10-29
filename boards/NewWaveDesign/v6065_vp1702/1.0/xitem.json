@@ -1,0 +1,34 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "v6065_vp1702",
+          "display": "V6065 3U VPX Versal Premium ASoC Card with VP1702",
+          "revision": "1.0",
+          "description": "V6065 3U VPX Versal Premium ASoC Card",
+          "company": "NewWaveDesign.com",
+          "company_display": "NewWaveDesign",
+          "author": "wojohnson",
+          "contributors": [
+            {
+              "group": "NewWaveDesign",
+              "url": "www.NewWaveDesign.com/"
+            }
+          ],
+          "category": "Single Part",
+          "website": "https://newwavedesign.com/products/vpx/v6065-3u-vpx-versal-premium-asoc-fpga-optical-i-o-module-with-xmc-site/",
+          "logo": "v6065.jpg",
+          "search-keywords": [
+            "v6065_vp1702",
+            "NewWaveDesign.com",
+            "board",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

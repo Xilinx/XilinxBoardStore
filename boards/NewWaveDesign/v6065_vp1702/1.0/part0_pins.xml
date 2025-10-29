@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<!-- Comment out next line after testing complete
+<!DOCTYPE part_info SYSTEM "./part0_pins.dtd"> -->
+<!-- Copyright (C) 2025, New Wave Design
+	THIS DOCUMENT AND THE INFORMATION CONTAINED HEREIN IS PROPRIETARY
+	AND CONFIDENTIAL TO NEW WAVE DESIGN AND VERIFICATION AND SHALL NOT
+	BE USED, DISTRIBUTED OR REPRODUCED FOR ANY PURPOSE, EXCEPT
+	WITH THE WRITTEN CONSENT OF NEW WAVE DESIGN AND VERIFICATION.
+
+	Note that needed pullup/down attributes can not be defined here but are included in xdc file(s).
+
+	28 Apr, 2025 - SBJ - Initial entry.
+	-->
+
+<part_info part_name="xcvp1702-vsva3340-2MHP-i-S">
+	<pins>
+		<pin index="0"		name="pcie_lnk_rxn0"			loc="AK1"									/>
+		<pin index="1"		name="pcie_lnk_rxn1"			loc="AL3"									/>
+		<pin index="2"		name="pcie_lnk_rxn2"			loc="AM1"									/>
+		<pin index="3"		name="pcie_lnk_rxn3"			loc="AN3"									/>
+		<pin index="4"		name="pcie_lnk_rxp0"			loc="AK2"									/>
+		<pin index="5"		name="pcie_lnk_rxp1"			loc="AL4"									/>
+		<pin index="6"		name="pcie_lnk_rxp2"			loc="AM2"									/>
+		<pin index="7"		name="pcie_lnk_rxp3"			loc="AN4"									/>
+		<pin index="8"		name="pcie_lnk_txn0"			loc="AK6"									/>
+		<pin index="9"		name="pcie_lnk_txn1"			loc="AL8"									/>
+		<pin index="10"		name="pcie_lnk_txn2"			loc="AM6"									/>
+		<pin index="11"		name="pcie_lnk_txn3"			loc="AN8"									/>
+		<pin index="12"		name="pcie_lnk_txp0"			loc="AK7"									/>
+		<pin index="13"		name="pcie_lnk_txp1"			loc="AL9"									/>
+		<pin index="14"		name="pcie_lnk_txp2"			loc="AM7"									/>
+		<pin index="15"		name="pcie_lnk_txp3"			loc="AN9"									/>
+
+		<pin index="16"		name="vp_clk100_104_n"			loc="AP10"									/>
+		<pin index="17"		name="vp_clk100_104_p"			loc="AP11"									/>
+		<pin index="18"		name="pcie_lnk_rxn4"			loc="AP1"									/>
+		<pin index="19"		name="pcie_lnk_rxn5"			loc="AR3"									/>
+		<pin index="20"		name="pcie_lnk_rxn6"			loc="AT1"									/>
+		<pin index="21"		name="pcie_lnk_rxn7"			loc="AU3"									/>
+		<pin index="22"		name="pcie_lnk_rxp4"			loc="AP2"									/>
+		<pin index="23"		name="pcie_lnk_rxp5"			loc="AR4"									/>
+		<pin index="24"		name="pcie_lnk_rxp6"			loc="AT2"									/>
+		<pin index="25"		name="pcie_lnk_rxp7"			loc="AU4"									/>
+		<pin index="26"		name="pcie_lnk_txn4"			loc="AP6"									/>
+		<pin index="27"		name="pcie_lnk_txn5"			loc="AR8"									/>
+		<pin index="28"		name="pcie_lnk_txn6"			loc="AT6"									/>
+		<pin index="29"		name="pcie_lnk_txn7"			loc="AU8"									/>
+		<pin index="30"		name="pcie_lnk_txp4"			loc="AP7"									/>
+		<pin index="31"		name="pcie_lnk_txp5"			loc="AR9"									/>
+		<pin index="32"		name="pcie_lnk_txp6"			loc="AT7"									/>
+		<pin index="33"		name="pcie_lnk_txp7"			loc="AU9"									/>
+
+		<pin index="34"		name="pcie_lnk_rxn8"			loc="AW3"									/>
+		<pin index="35"		name="pcie_lnk_rxn9"			loc="AY5"									/>
+		<pin index="36"		name="pcie_lnk_rxn10"			loc="AY1"									/>
+		<pin index="37"		name="pcie_lnk_rxn11"			loc="BA3"									/>
+		<pin index="38"		name="pcie_lnk_rxp8"			loc="AW4"									/>
+		<pin index="39"		name="pcie_lnk_rxp9"			loc="AY6"									/>
+		<pin index="40"		name="pcie_lnk_rxp10"			loc="AY2"									/>
+		<pin index="41"		name="pcie_lnk_rxp11"			loc="BA4"									/>
+		<pin index="42"		name="pcie_lnk_txn8"			loc="AW8"									/>
+		<pin index="43"		name="pcie_lnk_txn9"			loc="AY10"									/>
+		<pin index="44"		name="pcie_lnk_txn10"			loc="BA8"									/>
+		<pin index="45"		name="pcie_lnk_txn11"			loc="BB10"									/>
+		<pin index="46"		name="pcie_lnk_txp8"			loc="AW9"									/>
+		<pin index="47"		name="pcie_lnk_txp9"			loc="AY11"									/>
+		<pin index="48"		name="pcie_lnk_txp10"			loc="BA9"									/>
+		<pin index="49"		name="pcie_lnk_txp11"			loc="BB11"									/>
+
+		<pin index="50"		name="vp_clk100_102_n"			loc="AW12"									/>
+		<pin index="51"		name="vp_clk100_102_p"			loc="AW13"									/>
+		<pin index="52"		name="pcie_lnk_rxn12"			loc="BB1"									/>
+		<pin index="53"		name="pcie_lnk_rxn13"			loc="BC3"									/>
+		<pin index="54"		name="pcie_lnk_rxn14"			loc="BD1"									/>
+		<pin index="55"		name="pcie_lnk_rxn15"			loc="BE3"									/>
+		<pin index="56"		name="pcie_lnk_rxp12"			loc="BB2"									/>
+		<pin index="57"		name="pcie_lnk_rxp13"			loc="BC4"									/>
+		<pin index="58"		name="pcie_lnk_rxp14"			loc="BD2"									/>
+		<pin index="59"		name="pcie_lnk_rxp15"			loc="BE4"									/>
+		<pin index="60"		name="pcie_lnk_txn12"			loc="BB6"									/>
+		<pin index="61"		name="pcie_lnk_txn13"			loc="BC8"									/>
+		<pin index="62"		name="pcie_lnk_txn14"			loc="BD6"									/>
+		<pin index="63"		name="pcie_lnk_txn15"			loc="BE8"									/>
+		<pin index="64"		name="pcie_lnk_txp12"			loc="BB7"									/>
+		<pin index="65"		name="pcie_lnk_txp13"			loc="BC9"									/>
+		<pin index="66"		name="pcie_lnk_txp14"			loc="BD7"									/>
+		<pin index="67"		name="pcie_lnk_txp15"			loc="BE9"									/>
+		<pin index="68"		name="vp_clk156_106_n"			loc="AF10"									/>
+		<pin index="69"		name="vp_clk156_106_p"			loc="AF11"									/>
+
+		<pin index="70"		name="cputp_rx_n"				loc="AJ3"									/>
+		<pin index="71"		name="cputp_rx_p"				loc="AJ4"									/>
+		<pin index="72"		name="cputp_tx_n"				loc="AJ8"									/>
+		<pin index="73"		name="cputp_tx_p"				loc="AJ9"									/>
+		<pin index="74"		name="dputp_rx_n"				loc="AH1"									/>
+		<pin index="75"		name="dputp_rx_p"				loc="AH2"									/>
+		<pin index="76"		name="dputp_tx_n"				loc="AH6"									/>
+		<pin index="77"		name="dputp_tx_p"				loc="AH7"									/>
+		<pin index="78"		name="vp_clk156_110_n"			loc="AB10"									/>
+		<pin index="79"		name="vp_clk156_110_p"			loc="AB11"									/>
+
+		<pin index="80"		name="hss_adj_ref0_n"			loc="Y10"									/>
+		<pin index="81"		name="hss_adj_ref0_p"			loc="Y11"									/>
+		<pin index="82"		name="hss_lnk0_txclk_n"			loc="T10"									/>
+		<pin index="83"		name="hss_lnk0_txclk_p"			loc="T11"									/>
+		<pin index="84"		name="hss_lnk1_txclk_n"			loc="N12"									/>
+		<pin index="85"		name="hss_lnk1_txclk_p"			loc="N13"									/>
+		<pin index="86"		name="vp_clk156_117_n"			loc="L12"									/>
+		<pin index="87"		name="vp_clk156_117_p"			loc="L13"									/>
+		<pin index="88"		name="vp_clk156_200_n"			loc="BE45"									/>
+		<pin index="89"		name="vp_clk156_200_p"			loc="BE44"									/>
+		<pin index="90"		name="vp_clk100_201_n"			loc="BB47"									/>
+		<pin index="91"		name="vp_clk100_201_p"			loc="BB46"									/>
+		<pin index="92"		name="vp_clk156_205_n"			loc="AN45"									/>
+		<pin index="93"		name="vp_clk156_205_p"			loc="AN44"									/>
+		<pin index="94"		name="hss_adj_ref1_n"			loc="AF47"									/>
+		<pin index="95"		name="hss_adj_ref1_p"			loc="AF46"									/>
+		<pin index="96"		name="vp_clk156_209_n"			loc="AD47"									/>
+		<pin index="97"		name="vp_clk156_209_p"			loc="AD46"									/>
+		<pin index="98"		name="vp_clk156_216_n"			loc="R47"									/>
+		<pin index="99"		name="vp_clk156_216_p"			loc="R46"									/>
+
+		<pin index="100"	name="lpddr4_0_ca_a0"			loc="BV13"	iostandard="LVSTL_11"			/>
+		<pin index="101"	name="lpddr4_0_ca_a1"			loc="BU12"	iostandard="LVSTL_11"			/>
+		<pin index="102"	name="lpddr4_0_ca_a2"			loc="BU11"	iostandard="LVSTL_11"			/>
+		<pin index="103"	name="lpddr4_0_ca_a3"			loc="BU14"	iostandard="LVSTL_11"			/>
+		<pin index="104"	name="lpddr4_0_ca_a4"			loc="BT16"	iostandard="LVSTL_11"			/>
+		<pin index="105"	name="lpddr4_0_ca_a5"			loc="BU16"	iostandard="LVSTL_11"			/>
+		<pin index="106"	name="lpddr4_0_ca_b0"			loc="BR12"	iostandard="LVSTL_11"			/>
+		<pin index="107"	name="lpddr4_0_ca_b1"			loc="BT17"	iostandard="LVSTL_11"			/>
+		<pin index="108"	name="lpddr4_0_ca_b2"			loc="BR13"	iostandard="LVSTL_11"			/>
+		<pin index="109"	name="lpddr4_0_ca_b3"			loc="BP13"	iostandard="LVSTL_11"			/>
+		<pin index="110"	name="lpddr4_0_ca_b4"			loc="BT15"	iostandard="LVSTL_11"			/>
+		<pin index="111"	name="lpddr4_0_ca_b5"			loc="BR15"	iostandard="LVSTL_11"			/>
+		<pin index="112"	name="lpddr4_0_ck_c_a0"			loc="BV15"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="113"	name="lpddr4_0_ck_c_b0"			loc="BT14"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="114"	name="lpddr4_0_ck_t_a0"			loc="BV14"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="115"	name="lpddr4_0_ck_t_b0"			loc="BR14"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="116"	name="lpddr4_0_cke_a0"			loc="BU17"	iostandard="LVSTL_11"			/>
+		<pin index="117"	name="lpddr4_0_cke_a1"			loc="BV16"	iostandard="LVSTL_11"			/>
+		<pin index="118"	name="lpddr4_0_cke_b0"			loc="BR17"	iostandard="LVSTL_11"			/>
+		<pin index="119"	name="lpddr4_0_cke_b1"			loc="BT12"	iostandard="LVSTL_11"			/>
+		<pin index="120"	name="lpddr4_0_cs_a0"			loc="BU13"	iostandard="LVSTL_11"			/>
+		<pin index="121"	name="lpddr4_0_cs_a1"			loc="BV11"	iostandard="LVSTL_11"			/>
+		<pin index="122"	name="lpddr4_0_cs_b0"			loc="BL16"	iostandard="LVSTL_11"			/>
+		<pin index="123"	name="lpddr4_0_cs_b1"			loc="BL12"	iostandard="LVSTL_11"			/>
+		<pin index="124"	name="lpddr4_0_dmi_a0"			loc="BN5"	iostandard="LVSTL_11"			/>
+		<pin index="125"	name="lpddr4_0_dmi_a1"			loc="BL11"	iostandard="LVSTL_11"			/>
+		<pin index="126"	name="lpddr4_0_dmi_b0"			loc="BT10"	iostandard="LVSTL_11"			/>
+		<pin index="127"	name="lpddr4_0_dmi_b1"			loc="BK15"	iostandard="LVSTL_11"			/>
+		<pin index="128"	name="lpddr4_0_dq_a0"			loc="BP2"	iostandard="LVSTL_11"			/>
+		<pin index="129"	name="lpddr4_0_dq_a1"			loc="BR2"	iostandard="LVSTL_11"			/>
+		<pin index="130"	name="lpddr4_0_dq_a2"			loc="BN1"	iostandard="LVSTL_11"			/>
+		<pin index="131"	name="lpddr4_0_dq_a3"			loc="BP1"	iostandard="LVSTL_11"			/>
+		<pin index="132"	name="lpddr4_0_dq_a4"			loc="BT4"	iostandard="LVSTL_11"			/>
+		<pin index="133"	name="lpddr4_0_dq_a5"			loc="BU4"	iostandard="LVSTL_11"			/>
+		<pin index="134"	name="lpddr4_0_dq_a6"			loc="BR3"	iostandard="LVSTL_11"			/>
+		<pin index="135"	name="lpddr4_0_dq_a7"			loc="BR4"	iostandard="LVSTL_11"			/>
+		<pin index="136"	name="lpddr4_0_dq_a8"			loc="BL13"	iostandard="LVSTL_11"			/>
+		<pin index="137"	name="lpddr4_0_dq_a9"			loc="BM11"	iostandard="LVSTL_11"			/>
+		<pin index="138"	name="lpddr4_0_dq_a10"			loc="BL15"	iostandard="LVSTL_11"			/>
+		<pin index="139"	name="lpddr4_0_dq_a11"			loc="BM15"	iostandard="LVSTL_11"			/>
+		<pin index="140"	name="lpddr4_0_dq_a12"			loc="BN13"	iostandard="LVSTL_11"			/>
+		<pin index="141"	name="lpddr4_0_dq_a13"			loc="BM13"	iostandard="LVSTL_11"			/>
+		<pin index="142"	name="lpddr4_0_dq_a14"			loc="BN11"	iostandard="LVSTL_11"			/>
+		<pin index="143"	name="lpddr4_0_dq_a15"			loc="BM14"	iostandard="LVSTL_11"			/>
+		<pin index="144"	name="lpddr4_0_dq_b0"			loc="BU8"	iostandard="LVSTL_11"			/>
+		<pin index="145"	name="lpddr4_0_dq_b1"			loc="BV8"	iostandard="LVSTL_11"			/>
+		<pin index="146"	name="lpddr4_0_dq_b2"			loc="BT9"	iostandard="LVSTL_11"			/>
+		<pin index="147"	name="lpddr4_0_dq_b3"			loc="BR9"	iostandard="LVSTL_11"			/>
+		<pin index="148"	name="lpddr4_0_dq_b4"			loc="BU7"	iostandard="LVSTL_11"			/>
+		<pin index="149"	name="lpddr4_0_dq_b5"			loc="BU6"	iostandard="LVSTL_11"			/>
+		<pin index="150"	name="lpddr4_0_dq_b6"			loc="BV9"	iostandard="LVSTL_11"			/>
+		<pin index="151"	name="lpddr4_0_dq_b7"			loc="BV10"	iostandard="LVSTL_11"			/>
+		<pin index="152"	name="lpddr4_0_dq_b8"			loc="BK17"	iostandard="LVSTL_11"			/>
+		<pin index="153"	name="lpddr4_0_dq_b9"			loc="BL17"	iostandard="LVSTL_11"			/>
+		<pin index="154"	name="lpddr4_0_dq_b10"			loc="BL10"	iostandard="LVSTL_11"			/>
+		<pin index="155"	name="lpddr4_0_dq_b11"			loc="BK10"	iostandard="LVSTL_11"			/>
+		<pin index="156"	name="lpddr4_0_dq_b12"			loc="BJ16"	iostandard="LVSTL_11"			/>
+		<pin index="157"	name="lpddr4_0_dq_b13"			loc="BJ15"	iostandard="LVSTL_11"			/>
+		<pin index="158"	name="lpddr4_0_dq_b14"			loc="BK13"	iostandard="LVSTL_11"			/>
+		<pin index="159"	name="lpddr4_0_dq_b15"			loc="BK14"	iostandard="LVSTL_11"			/>
+		<pin index="160"	name="lpddr4_0_dqs_c_a0"		loc="BP3"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="161"	name="lpddr4_0_dqs_c_a1"		loc="BN16"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="162"	name="lpddr4_0_dqs_c_b0"		loc="BT7"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="163"	name="lpddr4_0_dqs_c_b1"		loc="BJ13"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="164"	name="lpddr4_0_dqs_t_a0"		loc="BN3"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="165"	name="lpddr4_0_dqs_t_a1"		loc="BM17"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="166"	name="lpddr4_0_dqs_t_b0"		loc="BR8"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="167"	name="lpddr4_0_dqs_t_b1"		loc="BJ12"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="168"	name="lpddr4_0_reset_n0"		loc="BP11"	iostandard="LVSTL_11"			/>
+
+		<pin index="169"	name="lpddr4_1_ca_a0"			loc="BC16"	iostandard="LVSTL_11"			/>
+		<pin index="170"	name="lpddr4_1_ca_a1"			loc="BD17"	iostandard="LVSTL_11"			/>
+		<pin index="171"	name="lpddr4_1_ca_a2"			loc="BC15"	iostandard="LVSTL_11"			/>
+		<pin index="172"	name="lpddr4_1_ca_a3"			loc="BB15"	iostandard="LVSTL_11"			/>
+		<pin index="173"	name="lpddr4_1_ca_a4"			loc="BF15"	iostandard="LVSTL_11"			/>
+		<pin index="174"	name="lpddr4_1_ca_a5"			loc="BG15"	iostandard="LVSTL_11"			/>
+		<pin index="175"	name="lpddr4_1_ca_b0"			loc="BH6"	iostandard="LVSTL_11"			/>
+		<pin index="176"	name="lpddr4_1_ca_b1"			loc="BJ5"	iostandard="LVSTL_11"			/>
+		<pin index="177"	name="lpddr4_1_ca_b2"			loc="BJ6"	iostandard="LVSTL_11"			/>
+		<pin index="178"	name="lpddr4_1_ca_b3"			loc="BG6"	iostandard="LVSTL_11"			/>
+		<pin index="179"	name="lpddr4_1_ca_b4"			loc="BF6"	iostandard="LVSTL_11"			/>
+		<pin index="180"	name="lpddr4_1_ca_b5"			loc="BJ7"	iostandard="LVSTL_11"			/>
+		<pin index="181"	name="lpddr4_1_ck_c_a0"			loc="BE15"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="182"	name="lpddr4_1_ck_c_b0"			loc="BH7"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="183"	name="lpddr4_1_ck_t_a0"			loc="BD15"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="184"	name="lpddr4_1_ck_t_b0"			loc="BG7"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="185"	name="lpddr4_1_cke_a0"			loc="BG16"	iostandard="LVSTL_11"			/>
+		<pin index="186"	name="lpddr4_1_cke_a1"			loc="BC17"	iostandard="LVSTL_11"			/>
+		<pin index="187"	name="lpddr4_1_cke_b0"			loc="BG8"	iostandard="LVSTL_11"			/>
+		<pin index="188"	name="lpddr4_1_cke_b1"			loc="BH9"	iostandard="LVSTL_11"			/>
+		<pin index="189"	name="lpddr4_1_cs_a0"			loc="BB17"	iostandard="LVSTL_11"			/>
+		<pin index="190"	name="lpddr4_1_cs_a1"			loc="BH15"	iostandard="LVSTL_11"			/>
+		<pin index="191"	name="lpddr4_1_cs_b0"			loc="BB13"	iostandard="LVSTL_11"			/>
+		<pin index="192"	name="lpddr4_1_cs_b1"			loc="BH4"	iostandard="LVSTL_11"			/>
+		<pin index="193"	name="lpddr4_1_dmi_a0"			loc="BB14"	iostandard="LVSTL_11"			/>
+		<pin index="194"	name="lpddr4_1_dmi_a1"			loc="BM2"	iostandard="LVSTL_11"			/>
+		<pin index="195"	name="lpddr4_1_dmi_b0"			loc="BH5"	iostandard="LVSTL_11"			/>
+		<pin index="196"	name="lpddr4_1_dmi_b1"			loc="BL9"	iostandard="LVSTL_11"			/>
+		<pin index="197"	name="lpddr4_1_dq_a0"			loc="BD13"	iostandard="LVSTL_11"			/>
+		<pin index="198"	name="lpddr4_1_dq_a1"			loc="BE13"	iostandard="LVSTL_11"			/>
+		<pin index="199"	name="lpddr4_1_dq_a2"			loc="BG13"	iostandard="LVSTL_11"			/>
+		<pin index="200"	name="lpddr4_1_dq_a3"			loc="BG12"	iostandard="LVSTL_11"			/>
+		<pin index="201"	name="lpddr4_1_dq_a4"			loc="BF14"	iostandard="LVSTL_11"			/>
+		<pin index="202"	name="lpddr4_1_dq_a5"			loc="BF13"	iostandard="LVSTL_11"			/>
+		<pin index="203"	name="lpddr4_1_dq_a6"			loc="BD14"	iostandard="LVSTL_11"			/>
+		<pin index="204"	name="lpddr4_1_dq_a7"			loc="BC13"	iostandard="LVSTL_11"			/>
+		<pin index="205"	name="lpddr4_1_dq_a8"			loc="BM4"	iostandard="LVSTL_11"			/>
+		<pin index="206"	name="lpddr4_1_dq_a9"			loc="BM3"	iostandard="LVSTL_11"			/>
+		<pin index="207"	name="lpddr4_1_dq_a10"			loc="BL4"	iostandard="LVSTL_11"			/>
+		<pin index="208"	name="lpddr4_1_dq_a11"			loc="BL5"	iostandard="LVSTL_11"			/>
+		<pin index="209"	name="lpddr4_1_dq_a12"			loc="BK3"	iostandard="LVSTL_11"			/>
+		<pin index="210"	name="lpddr4_1_dq_a13"			loc="BK2"	iostandard="LVSTL_11"			/>
+		<pin index="211"	name="lpddr4_1_dq_a14"			loc="BL1"	iostandard="LVSTL_11"			/>
+		<pin index="212"	name="lpddr4_1_dq_a15"			loc="BL2"	iostandard="LVSTL_11"			/>
+		<pin index="213"	name="lpddr4_1_dq_b0"			loc="BG4"	iostandard="LVSTL_11"			/>
+		<pin index="214"	name="lpddr4_1_dq_b1"			loc="BJ1"	iostandard="LVSTL_11"			/>
+		<pin index="215"	name="lpddr4_1_dq_b2"			loc="BH3"	iostandard="LVSTL_11"			/>
+		<pin index="216"	name="lpddr4_1_dq_b3"			loc="BJ3"	iostandard="LVSTL_11"			/>
+		<pin index="217"	name="lpddr4_1_dq_b4"			loc="BG1"	iostandard="LVSTL_11"			/>
+		<pin index="218"	name="lpddr4_1_dq_b5"			loc="BH1"	iostandard="LVSTL_11"			/>
+		<pin index="219"	name="lpddr4_1_dq_b6"			loc="BJ2"	iostandard="LVSTL_11"			/>
+		<pin index="220"	name="lpddr4_1_dq_b7"			loc="BG3"	iostandard="LVSTL_11"			/>
+		<pin index="221"	name="lpddr4_1_dq_b8"			loc="BL8"	iostandard="LVSTL_11"			/>
+		<pin index="222"	name="lpddr4_1_dq_b9"			loc="BL6"	iostandard="LVSTL_11"			/>
+		<pin index="223"	name="lpddr4_1_dq_b10"			loc="BM6"	iostandard="LVSTL_11"			/>
+		<pin index="224"	name="lpddr4_1_dq_b11"			loc="BL7"	iostandard="LVSTL_11"			/>
+		<pin index="225"	name="lpddr4_1_dq_b12"			loc="BP6"	iostandard="LVSTL_11"			/>
+		<pin index="226"	name="lpddr4_1_dq_b13"			loc="BM7"	iostandard="LVSTL_11"			/>
+		<pin index="227"	name="lpddr4_1_dq_b14"			loc="BN6"	iostandard="LVSTL_11"			/>
+		<pin index="228"	name="lpddr4_1_dq_b15"			loc="BK8"	iostandard="LVSTL_11"			/>
+		<pin index="229"	name="lpddr4_1_dqs_c_a0"		loc="BH13"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="230"	name="lpddr4_1_dqs_c_a1"		loc="BK4"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="231"	name="lpddr4_1_dqs_c_b0"		loc="BF1"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="232"	name="lpddr4_1_dqs_c_b1"		loc="BR7"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="233"	name="lpddr4_1_dqs_t_a0"		loc="BH14"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="234"	name="lpddr4_1_dqs_t_a1"		loc="BK5"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="235"	name="lpddr4_1_dqs_t_b0"		loc="BG2"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="236"	name="lpddr4_1_dqs_t_b1"		loc="BP7"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="237"	name="lpddr4_1_reset_n0"		loc="BP12"	iostandard="LVSTL_11"			/>
+
+		<pin index="238"	name="lpddr4_2_ca_a0"			loc="BU29"	iostandard="LVSTL_11"			/>
+		<pin index="239"	name="lpddr4_2_ca_a1"			loc="BT29"	iostandard="LVSTL_11"			/>
+		<pin index="240"	name="lpddr4_2_ca_a2"			loc="BU28"	iostandard="LVSTL_11"			/>
+		<pin index="241"	name="lpddr4_2_ca_a3"			loc="BT32"	iostandard="LVSTL_11"			/>
+		<pin index="242"	name="lpddr4_2_ca_a4"			loc="BU31"	iostandard="LVSTL_11"			/>
+		<pin index="243"	name="lpddr4_2_ca_a5"			loc="BV31"	iostandard="LVSTL_11"			/>
+		<pin index="244"	name="lpddr4_2_ca_b0"			loc="BM30"	iostandard="LVSTL_11"			/>
+		<pin index="245"	name="lpddr4_2_ca_b1"			loc="BT30"	iostandard="LVSTL_11"			/>
+		<pin index="246"	name="lpddr4_2_ca_b2"			loc="BN32"	iostandard="LVSTL_11"			/>
+		<pin index="247"	name="lpddr4_2_ca_b3"			loc="BN31"	iostandard="LVSTL_11"			/>
+		<pin index="248"	name="lpddr4_2_ca_b4"			loc="BR29"	iostandard="LVSTL_11"			/>
+		<pin index="249"	name="lpddr4_2_ca_b5"			loc="BR28"	iostandard="LVSTL_11"			/>
+		<pin index="250"	name="lpddr4_2_ck_c_a0"			loc="BU32"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="251"	name="lpddr4_2_ck_c_b0"			loc="BP31"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="252"	name="lpddr4_2_ck_t_a0"			loc="BT31"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="253"	name="lpddr4_2_ck_t_b0"			loc="BP30"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="254"	name="lpddr4_2_cke_a0"			loc="BV29"	iostandard="LVSTL_11"			/>
+		<pin index="255"	name="lpddr4_2_cke_a1"			loc="BV30"	iostandard="LVSTL_11"			/>
+		<pin index="256"	name="lpddr4_2_cke_b0"			loc="BR30"	iostandard="LVSTL_11"			/>
+		<pin index="257"	name="lpddr4_2_cke_b1"			loc="BM31"	iostandard="LVSTL_11"			/>
+		<pin index="258"	name="lpddr4_2_cs_a0"			loc="BR32"	iostandard="LVSTL_11"			/>
+		<pin index="259"	name="lpddr4_2_cs_a1"			loc="BV28"	iostandard="LVSTL_11"			/>
+		<pin index="260"	name="lpddr4_2_cs_b0"			loc="BF31"	iostandard="LVSTL_11"			/>
+		<pin index="261"	name="lpddr4_2_cs_b1"			loc="BG32"	iostandard="LVSTL_11"			/>
+		<pin index="262"	name="lpddr4_2_dmi_a0"			loc="BM26"	iostandard="LVSTL_11"			/>
+		<pin index="263"	name="lpddr4_2_dmi_a1"			loc="BG31"	iostandard="LVSTL_11"			/>
+		<pin index="264"	name="lpddr4_2_dmi_b0"			loc="BD26"	iostandard="LVSTL_11"			/>
+		<pin index="265"	name="lpddr4_2_dmi_b1"			loc="BF30"	iostandard="LVSTL_11"			/>
+		<pin index="266"	name="lpddr4_2_dq_a0"			loc="BT27"	iostandard="LVSTL_11"			/>
+		<pin index="267"	name="lpddr4_2_dq_a1"			loc="BU27"	iostandard="LVSTL_11"			/>
+		<pin index="268"	name="lpddr4_2_dq_a2"			loc="BU26"	iostandard="LVSTL_11"			/>
+		<pin index="269"	name="lpddr4_2_dq_a3"			loc="BV26"	iostandard="LVSTL_11"			/>
+		<pin index="270"	name="lpddr4_2_dq_a4"			loc="BR25"	iostandard="LVSTL_11"			/>
+		<pin index="271"	name="lpddr4_2_dq_a5"			loc="BT25"	iostandard="LVSTL_11"			/>
+		<pin index="272"	name="lpddr4_2_dq_a6"			loc="BP26"	iostandard="LVSTL_11"			/>
+		<pin index="273"	name="lpddr4_2_dq_a7"			loc="BP25"	iostandard="LVSTL_11"			/>
+		<pin index="274"	name="lpddr4_2_dq_a8"			loc="BH30"	iostandard="LVSTL_11"			/>
+		<pin index="275"	name="lpddr4_2_dq_a9"			loc="BK33"	iostandard="LVSTL_11"			/>
+		<pin index="276"	name="lpddr4_2_dq_a10"			loc="BJ28"	iostandard="LVSTL_11"			/>
+		<pin index="277"	name="lpddr4_2_dq_a11"			loc="BJ29"	iostandard="LVSTL_11"			/>
+		<pin index="278"	name="lpddr4_2_dq_a12"			loc="BJ33"	iostandard="LVSTL_11"			/>
+		<pin index="279"	name="lpddr4_2_dq_a13"			loc="BH33"	iostandard="LVSTL_11"			/>
+		<pin index="280"	name="lpddr4_2_dq_a14"			loc="BL32"	iostandard="LVSTL_11"			/>
+		<pin index="281"	name="lpddr4_2_dq_a15"			loc="BH31"	iostandard="LVSTL_11"			/>
+		<pin index="282"	name="lpddr4_2_dq_b0"			loc="BH27"	iostandard="LVSTL_11"			/>
+		<pin index="283"	name="lpddr4_2_dq_b1"			loc="BJ27"	iostandard="LVSTL_11"			/>
+		<pin index="284"	name="lpddr4_2_dq_b2"			loc="BG25"	iostandard="LVSTL_11"			/>
+		<pin index="285"	name="lpddr4_2_dq_b3"			loc="BF25"	iostandard="LVSTL_11"			/>
+		<pin index="286"	name="lpddr4_2_dq_b4"			loc="BK26"	iostandard="LVSTL_11"			/>
+		<pin index="287"	name="lpddr4_2_dq_b5"			loc="BK27"	iostandard="LVSTL_11"			/>
+		<pin index="288"	name="lpddr4_2_dq_b6"			loc="BE26"	iostandard="LVSTL_11"			/>
+		<pin index="289"	name="lpddr4_2_dq_b7"			loc="BE25"	iostandard="LVSTL_11"			/>
+		<pin index="290"	name="lpddr4_2_dq_b8"			loc="BF33"	iostandard="LVSTL_11"			/>
+		<pin index="291"	name="lpddr4_2_dq_b9"			loc="BG33"	iostandard="LVSTL_11"			/>
+		<pin index="292"	name="lpddr4_2_dq_b10"			loc="BH29"	iostandard="LVSTL_11"			/>
+		<pin index="293"	name="lpddr4_2_dq_b11"			loc="BG29"	iostandard="LVSTL_11"			/>
+		<pin index="294"	name="lpddr4_2_dq_b12"			loc="BE32"	iostandard="LVSTL_11"			/>
+		<pin index="295"	name="lpddr4_2_dq_b13"			loc="BE31"	iostandard="LVSTL_11"			/>
+		<pin index="296"	name="lpddr4_2_dq_b14"			loc="BF28"	iostandard="LVSTL_11"			/>
+		<pin index="297"	name="lpddr4_2_dq_b15"			loc="BG28"	iostandard="LVSTL_11"			/>
+		<pin index="298"	name="lpddr4_2_dqs_c_a0"		loc="BT26"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="299"	name="lpddr4_2_dqs_c_a1"		loc="BJ32"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="300"	name="lpddr4_2_dqs_c_b0"		loc="BG27"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="301"	name="lpddr4_2_dqs_c_b1"		loc="BE29"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="302"	name="lpddr4_2_dqs_t_a0"		loc="BR27"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="303"	name="lpddr4_2_dqs_t_a1"		loc="BJ31"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="304"	name="lpddr4_2_dqs_t_b0"		loc="BF27"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="305"	name="lpddr4_2_dqs_t_b1"		loc="BE28"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="306"	name="lpddr4_2_reset_n0"		loc="BK29"	iostandard="LVSTL_11"			/>
+
+		<pin index="307"	name="lpddr4_3_ca_a0"			loc="BE20"	iostandard="LVSTL_11"			/>
+		<pin index="308"	name="lpddr4_3_ca_a1"			loc="BE19"	iostandard="LVSTL_11"			/>
+		<pin index="309"	name="lpddr4_3_ca_a2"			loc="BF22"	iostandard="LVSTL_11"			/>
+		<pin index="310"	name="lpddr4_3_ca_a3"			loc="BE22"	iostandard="LVSTL_11"			/>
+		<pin index="311"	name="lpddr4_3_ca_a4"			loc="BF19"	iostandard="LVSTL_11"			/>
+		<pin index="312"	name="lpddr4_3_ca_a5"			loc="BG19"	iostandard="LVSTL_11"			/>
+		<pin index="313"	name="lpddr4_3_ca_b0"			loc="BP18"	iostandard="LVSTL_11"			/>
+		<pin index="314"	name="lpddr4_3_ca_b1"			loc="BR18"	iostandard="LVSTL_11"			/>
+		<pin index="315"	name="lpddr4_3_ca_b2"			loc="BP21"	iostandard="LVSTL_11"			/>
+		<pin index="316"	name="lpddr4_3_ca_b3"			loc="BT19"	iostandard="LVSTL_11"			/>
+		<pin index="317"	name="lpddr4_3_ca_b4"			loc="BR19"	iostandard="LVSTL_11"			/>
+		<pin index="318"	name="lpddr4_3_ca_b5"			loc="BN21"	iostandard="LVSTL_11"			/>
+		<pin index="319"	name="lpddr4_3_ck_c_a0"			loc="BG21"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="320"	name="lpddr4_3_ck_c_b0"			loc="BR20"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="321"	name="lpddr4_3_ck_t_a0"			loc="BF21"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="322"	name="lpddr4_3_ck_t_b0"			loc="BP20"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="323"	name="lpddr4_3_cke_a0"			loc="BG17"	iostandard="LVSTL_11"			/>
+		<pin index="324"	name="lpddr4_3_cke_a1"			loc="BF18"	iostandard="LVSTL_11"			/>
+		<pin index="325"	name="lpddr4_3_cke_b0"			loc="BM19"	iostandard="LVSTL_11"			/>
+		<pin index="326"	name="lpddr4_3_cke_b1"			loc="BM18"	iostandard="LVSTL_11"			/>
+		<pin index="327"	name="lpddr4_3_cs_a0"			loc="BE17"	iostandard="LVSTL_11"			/>
+		<pin index="328"	name="lpddr4_3_cs_a1"			loc="BH17"	iostandard="LVSTL_11"			/>
+		<pin index="329"	name="lpddr4_3_cs_b0"			loc="BJ21"	iostandard="LVSTL_11"			/>
+		<pin index="330"	name="lpddr4_3_cs_b1"			loc="BT22"	iostandard="LVSTL_11"			/>
+		<pin index="331"	name="lpddr4_3_dmi_a0"			loc="BJ20"	iostandard="LVSTL_11"			/>
+		<pin index="332"	name="lpddr4_3_dmi_a1"			loc="BU23"	iostandard="LVSTL_11"			/>
+		<pin index="333"	name="lpddr4_3_dmi_b0"			loc="BR22"	iostandard="LVSTL_11"			/>
+		<pin index="334"	name="lpddr4_3_dmi_b1"			loc="BD24"	iostandard="LVSTL_11"			/>
+		<pin index="335"	name="lpddr4_3_dq_a0"			loc="BK19"	iostandard="LVSTL_11"			/>
+		<pin index="336"	name="lpddr4_3_dq_a1"			loc="BH22"	iostandard="LVSTL_11"			/>
+		<pin index="337"	name="lpddr4_3_dq_a2"			loc="BK18"	iostandard="LVSTL_11"			/>
+		<pin index="338"	name="lpddr4_3_dq_a3"			loc="BL19"	iostandard="LVSTL_11"			/>
+		<pin index="339"	name="lpddr4_3_dq_a4"			loc="BG20"	iostandard="LVSTL_11"			/>
+		<pin index="340"	name="lpddr4_3_dq_a5"			loc="BH19"	iostandard="LVSTL_11"			/>
+		<pin index="341"	name="lpddr4_3_dq_a6"			loc="BH21"	iostandard="LVSTL_11"			/>
+		<pin index="342"	name="lpddr4_3_dq_a7"			loc="BJ19"	iostandard="LVSTL_11"			/>
+		<pin index="343"	name="lpddr4_3_dq_a8"			loc="BR23"	iostandard="LVSTL_11"			/>
+		<pin index="344"	name="lpddr4_3_dq_a9"			loc="BR24"	iostandard="LVSTL_11"			/>
+		<pin index="345"	name="lpddr4_3_dq_a10"			loc="BN25"	iostandard="LVSTL_11"			/>
+		<pin index="346"	name="lpddr4_3_dq_a11"			loc="BM25"	iostandard="LVSTL_11"			/>
+		<pin index="347"	name="lpddr4_3_dq_a12"			loc="BV24"	iostandard="LVSTL_11"			/>
+		<pin index="348"	name="lpddr4_3_dq_a13"			loc="BV25"	iostandard="LVSTL_11"			/>
+		<pin index="349"	name="lpddr4_3_dq_a14"			loc="BU24"	iostandard="LVSTL_11"			/>
+		<pin index="350"	name="lpddr4_3_dq_a15"			loc="BT24"	iostandard="LVSTL_11"			/>
+		<pin index="351"	name="lpddr4_3_dq_b0"			loc="BT20"	iostandard="LVSTL_11"			/>
+		<pin index="352"	name="lpddr4_3_dq_b1"			loc="BV19"	iostandard="LVSTL_11"			/>
+		<pin index="353"	name="lpddr4_3_dq_b2"			loc="BU18"	iostandard="LVSTL_11"			/>
+		<pin index="354"	name="lpddr4_3_dq_b3"			loc="BU19"	iostandard="LVSTL_11"			/>
+		<pin index="355"	name="lpddr4_3_dq_b4"			loc="BV20"	iostandard="LVSTL_11"			/>
+		<pin index="356"	name="lpddr4_3_dq_b5"			loc="BV21"	iostandard="LVSTL_11"			/>
+		<pin index="357"	name="lpddr4_3_dq_b6"			loc="BV18"	iostandard="LVSTL_11"			/>
+		<pin index="358"	name="lpddr4_3_dq_b7"			loc="BT21"	iostandard="LVSTL_11"			/>
+		<pin index="359"	name="lpddr4_3_dq_b8"			loc="BG24"	iostandard="LVSTL_11"			/>
+		<pin index="360"	name="lpddr4_3_dq_b9"			loc="BJ23"	iostandard="LVSTL_11"			/>
+		<pin index="361"	name="lpddr4_3_dq_b10"			loc="BK23"	iostandard="LVSTL_11"			/>
+		<pin index="362"	name="lpddr4_3_dq_b11"			loc="BG23"	iostandard="LVSTL_11"			/>
+		<pin index="363"	name="lpddr4_3_dq_b12"			loc="BJ25"	iostandard="LVSTL_11"			/>
+		<pin index="364"	name="lpddr4_3_dq_b13"			loc="BH23"	iostandard="LVSTL_11"			/>
+		<pin index="365"	name="lpddr4_3_dq_b14"			loc="BJ24"	iostandard="LVSTL_11"			/>
+		<pin index="366"	name="lpddr4_3_dq_b15"			loc="BF24"	iostandard="LVSTL_11"			/>
+		<pin index="367"	name="lpddr4_3_dqs_c_a0"		loc="BJ17"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="368"	name="lpddr4_3_dqs_c_a1"		loc="BN24"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="369"	name="lpddr4_3_dqs_c_b0"		loc="BU22"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="370"	name="lpddr4_3_dqs_c_b1"		loc="BH26"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="371"	name="lpddr4_3_dqs_t_a0"		loc="BH18"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="372"	name="lpddr4_3_dqs_t_a1"		loc="BM23"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="373"	name="lpddr4_3_dqs_t_b0"		loc="BU21"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="374"	name="lpddr4_3_dqs_t_b1"		loc="BH25"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="375"	name="lpddr4_3_reset_n0"		loc="BK30"	iostandard="LVSTL_11"			/>
+
+		<pin index="376"	name="lpddr4_4_ca_a0"			loc="BT45"	iostandard="LVSTL_11"			/>
+		<pin index="377"	name="lpddr4_4_ca_a1"			loc="BT44"	iostandard="LVSTL_11"			/>
+		<pin index="378"	name="lpddr4_4_ca_a2"			loc="BR44"	iostandard="LVSTL_11"			/>
+		<pin index="379"	name="lpddr4_4_ca_a3"			loc="BT47"	iostandard="LVSTL_11"			/>
+		<pin index="380"	name="lpddr4_4_ca_a4"			loc="BU46"	iostandard="LVSTL_11"			/>
+		<pin index="381"	name="lpddr4_4_ca_a5"			loc="BU47"	iostandard="LVSTL_11"			/>
+		<pin index="382"	name="lpddr4_4_ca_b0"			loc="BN47"	iostandard="LVSTL_11"			/>
+		<pin index="383"	name="lpddr4_4_ca_b1"			loc="BR48"	iostandard="LVSTL_11"			/>
+		<pin index="384"	name="lpddr4_4_ca_b2"			loc="BN45"	iostandard="LVSTL_11"			/>
+		<pin index="385"	name="lpddr4_4_ca_b3"			loc="BM45"	iostandard="LVSTL_11"			/>
+		<pin index="386"	name="lpddr4_4_ca_b4"			loc="BP47"	iostandard="LVSTL_11"			/>
+		<pin index="387"	name="lpddr4_4_ca_b5"			loc="BP46"	iostandard="LVSTL_11"			/>
+		<pin index="388"	name="lpddr4_4_ck_c_a0"			loc="BV48"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="389"	name="lpddr4_4_ck_c_b0"			loc="BP45"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="390"	name="lpddr4_4_ck_t_a0"			loc="BU48"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="391"	name="lpddr4_4_ck_t_b0"			loc="BN44"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="392"	name="lpddr4_4_cke_a0"			loc="BV45"	iostandard="LVSTL_11"			/>
+		<pin index="393"	name="lpddr4_4_cke_a1"			loc="BV46"	iostandard="LVSTL_11"			/>
+		<pin index="394"	name="lpddr4_4_cke_b0"			loc="BR47"	iostandard="LVSTL_11"			/>
+		<pin index="395"	name="lpddr4_4_cke_b1"			loc="BN48"	iostandard="LVSTL_11"			/>
+		<pin index="396"	name="lpddr4_4_cs_a0"			loc="BT46"	iostandard="LVSTL_11"			/>
+		<pin index="397"	name="lpddr4_4_cs_a1"			loc="BR45"	iostandard="LVSTL_11"			/>
+		<pin index="398"	name="lpddr4_4_cs_b0"			loc="BH50"	iostandard="LVSTL_11"			/>
+		<pin index="399"	name="lpddr4_4_cs_b1"			loc="BJ44"	iostandard="LVSTL_11"			/>
+		<pin index="400"	name="lpddr4_4_dmi_a0"			loc="BN41"	iostandard="LVSTL_11"			/>
+		<pin index="401"	name="lpddr4_4_dmi_a1"			loc="BH45"	iostandard="LVSTL_11"			/>
+		<pin index="402"	name="lpddr4_4_dmi_b0"			loc="BF40"	iostandard="LVSTL_11"			/>
+		<pin index="403"	name="lpddr4_4_dmi_b1"			loc="BG50"	iostandard="LVSTL_11"			/>
+		<pin index="404"	name="lpddr4_4_dq_a0"			loc="BU43"	iostandard="LVSTL_11"			/>
+		<pin index="405"	name="lpddr4_4_dq_a1"			loc="BV43"	iostandard="LVSTL_11"			/>
+		<pin index="406"	name="lpddr4_4_dq_a2"			loc="BU44"	iostandard="LVSTL_11"			/>
+		<pin index="407"	name="lpddr4_4_dq_a3"			loc="BV44"	iostandard="LVSTL_11"			/>
+		<pin index="408"	name="lpddr4_4_dq_a4"			loc="BT41"	iostandard="LVSTL_11"			/>
+		<pin index="409"	name="lpddr4_4_dq_a5"			loc="BU41"	iostandard="LVSTL_11"			/>
+		<pin index="410"	name="lpddr4_4_dq_a6"			loc="BR43"	iostandard="LVSTL_11"			/>
+		<pin index="411"	name="lpddr4_4_dq_a7"			loc="BR42"	iostandard="LVSTL_11"			/>
+		<pin index="412"	name="lpddr4_4_dq_a8"			loc="BJ45"	iostandard="LVSTL_11"			/>
+		<pin index="413"	name="lpddr4_4_dq_a9"			loc="BL44"	iostandard="LVSTL_11"			/>
+		<pin index="414"	name="lpddr4_4_dq_a10"			loc="BJ47"	iostandard="LVSTL_11"			/>
+		<pin index="415"	name="lpddr4_4_dq_a11"			loc="BJ48"	iostandard="LVSTL_11"			/>
+		<pin index="416"	name="lpddr4_4_dq_a12"			loc="BK47"	iostandard="LVSTL_11"			/>
+		<pin index="417"	name="lpddr4_4_dq_a13"			loc="BK46"	iostandard="LVSTL_11"			/>
+		<pin index="418"	name="lpddr4_4_dq_a14"			loc="BL45"	iostandard="LVSTL_11"			/>
+		<pin index="419"	name="lpddr4_4_dq_a15"			loc="BK45"	iostandard="LVSTL_11"			/>
+		<pin index="420"	name="lpddr4_4_dq_b0"			loc="BJ43"	iostandard="LVSTL_11"			/>
+		<pin index="421"	name="lpddr4_4_dq_b1"			loc="BK43"	iostandard="LVSTL_11"			/>
+		<pin index="422"	name="lpddr4_4_dq_b2"			loc="BH43"	iostandard="LVSTL_11"			/>
+		<pin index="423"	name="lpddr4_4_dq_b3"			loc="BH42"	iostandard="LVSTL_11"			/>
+		<pin index="424"	name="lpddr4_4_dq_b4"			loc="BK42"	iostandard="LVSTL_11"			/>
+		<pin index="425"	name="lpddr4_4_dq_b5"			loc="BL43"	iostandard="LVSTL_11"			/>
+		<pin index="426"	name="lpddr4_4_dq_b6"			loc="BG43"	iostandard="LVSTL_11"			/>
+		<pin index="427"	name="lpddr4_4_dq_b7"			loc="BF42"	iostandard="LVSTL_11"			/>
+		<pin index="428"	name="lpddr4_4_dq_b8"			loc="BF50"	iostandard="LVSTL_11"			/>
+		<pin index="429"	name="lpddr4_4_dq_b9"			loc="BG49"	iostandard="LVSTL_11"			/>
+		<pin index="430"	name="lpddr4_4_dq_b10"			loc="BH47"	iostandard="LVSTL_11"			/>
+		<pin index="431"	name="lpddr4_4_dq_b11"			loc="BH46"	iostandard="LVSTL_11"			/>
+		<pin index="432"	name="lpddr4_4_dq_b12"			loc="BG48"	iostandard="LVSTL_11"			/>
+		<pin index="433"	name="lpddr4_4_dq_b13"			loc="BG47"	iostandard="LVSTL_11"			/>
+		<pin index="434"	name="lpddr4_4_dq_b14"			loc="BH49"	iostandard="LVSTL_11"			/>
+		<pin index="435"	name="lpddr4_4_dq_b15"			loc="BJ49"	iostandard="LVSTL_11"			/>
+		<pin index="436"	name="lpddr4_4_dqs_c_a0"		loc="BU42"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="437"	name="lpddr4_4_dqs_c_a1"		loc="BK50"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="438"	name="lpddr4_4_dqs_c_b0"		loc="BK41"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="439"	name="lpddr4_4_dqs_c_b1"		loc="BG45"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="440"	name="lpddr4_4_dqs_t_a0"		loc="BT42"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="441"	name="lpddr4_4_dqs_t_a1"		loc="BK49"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="442"	name="lpddr4_4_dqs_t_b0"		loc="BJ41"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="443"	name="lpddr4_4_dqs_t_b1"		loc="BG44"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="444"	name="lpddr4_4_reset_n0"		loc="BL47"	iostandard="LVSTL_11"			/>
+
+		<pin index="445"	name="lpddr4_5_ca_a0"			loc="BE35"	iostandard="LVSTL_11"			/>
+		<pin index="446"	name="lpddr4_5_ca_a1"			loc="BD35"	iostandard="LVSTL_11"			/>
+		<pin index="447"	name="lpddr4_5_ca_a2"			loc="BE34"	iostandard="LVSTL_11"			/>
+		<pin index="448"	name="lpddr4_5_ca_a3"			loc="BD33"	iostandard="LVSTL_11"			/>
+		<pin index="449"	name="lpddr4_5_ca_a4"			loc="BF36"	iostandard="LVSTL_11"			/>
+		<pin index="450"	name="lpddr4_5_ca_a5"			loc="BG36"	iostandard="LVSTL_11"			/>
+		<pin index="451"	name="lpddr4_5_ca_b0"			loc="BR33"	iostandard="LVSTL_11"			/>
+		<pin index="452"	name="lpddr4_5_ca_b1"			loc="BT34"	iostandard="LVSTL_11"			/>
+		<pin index="453"	name="lpddr4_5_ca_b2"			loc="BP36"	iostandard="LVSTL_11"			/>
+		<pin index="454"	name="lpddr4_5_ca_b3"			loc="BR35"	iostandard="LVSTL_11"			/>
+		<pin index="455"	name="lpddr4_5_ca_b4"			loc="BR34"	iostandard="LVSTL_11"			/>
+		<pin index="456"	name="lpddr4_5_ca_b5"			loc="BN36"	iostandard="LVSTL_11"			/>
+		<pin index="457"	name="lpddr4_5_ck_c_a0"			loc="BG35"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="458"	name="lpddr4_5_ck_c_b0"			loc="BT37"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="459"	name="lpddr4_5_ck_t_a0"			loc="BF34"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="460"	name="lpddr4_5_ck_t_b0"			loc="BR37"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="461"	name="lpddr4_5_cke_a0"			loc="BF37"	iostandard="LVSTL_11"			/>
+		<pin index="462"	name="lpddr4_5_cke_a1"			loc="BE37"	iostandard="LVSTL_11"			/>
+		<pin index="463"	name="lpddr4_5_cke_b0"			loc="BM35"	iostandard="LVSTL_11"			/>
+		<pin index="464"	name="lpddr4_5_cke_b1"			loc="BM34"	iostandard="LVSTL_11"			/>
+		<pin index="465"	name="lpddr4_5_cs_a0"			loc="BD36"	iostandard="LVSTL_11"			/>
+		<pin index="466"	name="lpddr4_5_cs_a1"			loc="BG37"	iostandard="LVSTL_11"			/>
+		<pin index="467"	name="lpddr4_5_cs_b0"			loc="BK34"	iostandard="LVSTL_11"			/>
+		<pin index="468"	name="lpddr4_5_cs_b1"			loc="BT36"	iostandard="LVSTL_11"			/>
+		<pin index="469"	name="lpddr4_5_dmi_a0"			loc="BJ35"	iostandard="LVSTL_11"			/>
+		<pin index="470"	name="lpddr4_5_dmi_a1"			loc="BT39"	iostandard="LVSTL_11"			/>
+		<pin index="471"	name="lpddr4_5_dmi_b0"			loc="BT35"	iostandard="LVSTL_11"			/>
+		<pin index="472"	name="lpddr4_5_dmi_b1"			loc="BE40"	iostandard="LVSTL_11"			/>
+		<pin index="473"	name="lpddr4_5_dq_a0"			loc="BL35"	iostandard="LVSTL_11"			/>
+		<pin index="474"	name="lpddr4_5_dq_a1"			loc="BJ37"	iostandard="LVSTL_11"			/>
+		<pin index="475"	name="lpddr4_5_dq_a2"			loc="BK37"	iostandard="LVSTL_11"			/>
+		<pin index="476"	name="lpddr4_5_dq_a3"			loc="BK38"	iostandard="LVSTL_11"			/>
+		<pin index="477"	name="lpddr4_5_dq_a4"			loc="BH37"	iostandard="LVSTL_11"			/>
+		<pin index="478"	name="lpddr4_5_dq_a5"			loc="BH38"	iostandard="LVSTL_11"			/>
+		<pin index="479"	name="lpddr4_5_dq_a6"			loc="BJ36"	iostandard="LVSTL_11"			/>
+		<pin index="480"	name="lpddr4_5_dq_a7"			loc="BK35"	iostandard="LVSTL_11"			/>
+		<pin index="481"	name="lpddr4_5_dq_a8"			loc="BR38"	iostandard="LVSTL_11"			/>
+		<pin index="482"	name="lpddr4_5_dq_a9"			loc="BR39"	iostandard="LVSTL_11"			/>
+		<pin index="483"	name="lpddr4_5_dq_a10"			loc="BR40"	iostandard="LVSTL_11"			/>
+		<pin index="484"	name="lpddr4_5_dq_a11"			loc="BP40"	iostandard="LVSTL_11"			/>
+		<pin index="485"	name="lpddr4_5_dq_a12"			loc="BV40"	iostandard="LVSTL_11"			/>
+		<pin index="486"	name="lpddr4_5_dq_a13"			loc="BV41"	iostandard="LVSTL_11"			/>
+		<pin index="487"	name="lpddr4_5_dq_a14"			loc="BV39"	iostandard="LVSTL_11"			/>
+		<pin index="488"	name="lpddr4_5_dq_a15"			loc="BU39"	iostandard="LVSTL_11"			/>
+		<pin index="489"	name="lpddr4_5_dq_b0"			loc="BU38"	iostandard="LVSTL_11"			/>
+		<pin index="490"	name="lpddr4_5_dq_b1"			loc="BV33"	iostandard="LVSTL_11"			/>
+		<pin index="491"	name="lpddr4_5_dq_b2"			loc="BU36"	iostandard="LVSTL_11"			/>
+		<pin index="492"	name="lpddr4_5_dq_b3"			loc="BU37"	iostandard="LVSTL_11"			/>
+		<pin index="493"	name="lpddr4_5_dq_b4"			loc="BU34"	iostandard="LVSTL_11"			/>
+		<pin index="494"	name="lpddr4_5_dq_b5"			loc="BV34"	iostandard="LVSTL_11"			/>
+		<pin index="495"	name="lpddr4_5_dq_b6"			loc="BU33"	iostandard="LVSTL_11"			/>
+		<pin index="496"	name="lpddr4_5_dq_b7"			loc="BV38"	iostandard="LVSTL_11"			/>
+		<pin index="497"	name="lpddr4_5_dq_b8"			loc="BF39"	iostandard="LVSTL_11"			/>
+		<pin index="498"	name="lpddr4_5_dq_b9"			loc="BK39"	iostandard="LVSTL_11"			/>
+		<pin index="499"	name="lpddr4_5_dq_b10"			loc="BL39"	iostandard="LVSTL_11"			/>
+		<pin index="500"	name="lpddr4_5_dq_b11"			loc="BG39"	iostandard="LVSTL_11"			/>
+		<pin index="501"	name="lpddr4_5_dq_b12"			loc="BJ39"	iostandard="LVSTL_11"			/>
+		<pin index="502"	name="lpddr4_5_dq_b13"			loc="BG40"	iostandard="LVSTL_11"			/>
+		<pin index="503"	name="lpddr4_5_dq_b14"			loc="BH39"	iostandard="LVSTL_11"			/>
+		<pin index="504"	name="lpddr4_5_dq_b15"			loc="BE38"	iostandard="LVSTL_11"			/>
+		<pin index="505"	name="lpddr4_5_dqs_c_a0"		loc="BH35"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="506"	name="lpddr4_5_dqs_c_a1"		loc="BN40"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="507"	name="lpddr4_5_dqs_c_b0"		loc="BV36"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="508"	name="lpddr4_5_dqs_c_b1"		loc="BJ40"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="509"	name="lpddr4_5_dqs_t_a0"		loc="BH34"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="510"	name="lpddr4_5_dqs_t_a1"		loc="BN39"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="511"	name="lpddr4_5_dqs_t_b0"		loc="BV35"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="512"	name="lpddr4_5_dqs_t_b1"		loc="BH41"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="513"	name="lpddr4_5_reset_n0"		loc="BL48"	iostandard="LVSTL_11"			/>
+		<pin index="514"	name="lpddr4_0_ref_n"			loc="BP10"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="515"	name="lpddr4_0_ref_p"			loc="BN10"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="516"	name="lpddr4_1_ref_n"			loc="BL29"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="517"	name="lpddr4_1_ref_p"			loc="BL28"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="518"	name="lpddr4_2_ref_n"			loc="BM50"	iostandard="DIFF_LVSTL_11"		/>
+		<pin index="519"	name="lpddr4_2_ref_p"			loc="BL49"	iostandard="DIFF_LVSTL_11"		/>
+
+		<pin index="520"	name="dp_rx_n0"					loc="A43"									/>
+		<pin index="521"	name="dp_rx_n1"					loc="C42"									/>
+		<pin index="522"	name="dp_rx_n2"					loc="A41"									/>
+		<pin index="523"	name="dp_rx_n3"					loc="C40"									/>
+		<pin index="524"	name="dp_rx_p0"					loc="B43"									/>
+		<pin index="525"	name="dp_rx_p1"					loc="D42"									/>
+		<pin index="526"	name="dp_rx_p2"					loc="B41"									/>
+		<pin index="527"	name="dp_rx_p3"					loc="D40"									/>
+		<pin index="528"	name="dp_tx_n0"					loc="F45"									/>
+		<pin index="529"	name="dp_tx_n1"					loc="D46"									/>
+		<pin index="530"	name="dp_tx_n2"					loc="F43"									/>
+		<pin index="531"	name="dp_tx_n3"					loc="D44"									/>
+		<pin index="532"	name="dp_tx_p0"					loc="G45"									/>
+		<pin index="533"	name="dp_tx_p1"					loc="E46"									/>
+		<pin index="534"	name="dp_tx_p2"					loc="G43"									/>
+		<pin index="535"	name="dp_tx_p3"					loc="E44"									/>
+
+		<pin index="536"	name="ep_rx_n0"					loc="AD1"									/>
+		<pin index="537"	name="ep_rx_n1"					loc="AB1"									/>
+		<pin index="538"	name="ep_rx_n2"					loc="Y1"									/>
+		<pin index="539"	name="ep_rx_n3"					loc="W3"									/>
+		<pin index="540"	name="ep_rx_p0"					loc="AD2"									/>
+		<pin index="541"	name="ep_rx_p1"					loc="AB2"									/>
+		<pin index="542"	name="ep_rx_p2"					loc="Y2"									/>
+		<pin index="543"	name="ep_rx_p3"					loc="W4"									/>
+		<pin index="544"	name="ep_tx_n0"					loc="AD6"									/>
+		<pin index="545"	name="ep_tx_n1"					loc="AC4"									/>
+		<pin index="546"	name="ep_tx_n2"					loc="AB6"									/>
+		<pin index="547"	name="ep_tx_n3"					loc="AA4"									/>
+		<pin index="548"	name="ep_tx_p0"					loc="AD7"									/>
+		<pin index="549"	name="ep_tx_p1"					loc="AC5"									/>
+		<pin index="550"	name="ep_tx_p2"					loc="AB7"									/>
+		<pin index="551"	name="ep_tx_p3"					loc="AA5"									/>
+
+		<pin index="552"	name="ff1_rx_n0"				loc="T56"									/>
+		<pin index="553"	name="ff1_rx_n1"				loc="R58"									/>
+		<pin index="554"	name="ff1_rx_n2"				loc="P56"									/>
+		<pin index="555"	name="ff1_rx_n3"				loc="N58"									/>
+		<pin index="556"	name="ff1_rx_p0"				loc="T55"									/>
+		<pin index="557"	name="ff1_rx_p1"				loc="R57"									/>
+		<pin index="558"	name="ff1_rx_p2"				loc="P55"									/>
+		<pin index="559"	name="ff1_rx_p3"				loc="N57"									/>
+		<pin index="560"	name="ff1_tx_n0"				loc="V55"									/>
+		<pin index="561"	name="ff1_tx_n1"				loc="W53"									/>
+		<pin index="562"	name="ff1_tx_n2"				loc="U53"									/>
+		<pin index="563"	name="ff1_tx_n3"				loc="R53"									/>
+		<pin index="564"	name="ff1_tx_p0"				loc="V54"									/>
+		<pin index="565"	name="ff1_tx_p1"				loc="W52"									/>
+		<pin index="566"	name="ff1_tx_p2"				loc="U52"									/>
+		<pin index="567"	name="ff1_tx_p3"				loc="R52"									/>
+
+		<pin index="568"	name="ff1_rx_n4"				loc="AK56"									/>
+		<pin index="569"	name="ff1_rx_n5"				loc="AJ58"									/>
+		<pin index="570"	name="ff1_rx_n6"				loc="AH56"									/>
+		<pin index="571"	name="ff1_rx_n7"				loc="AG58"									/>
+		<pin index="572"	name="ff1_rx_p4"				loc="AK55"									/>
+		<pin index="573"	name="ff1_rx_p5"				loc="AJ57"									/>
+		<pin index="574"	name="ff1_rx_p6"				loc="AH55"									/>
+		<pin index="575"	name="ff1_rx_p7"				loc="AG57"									/>
+		<pin index="576"	name="ff1_tx_n4"				loc="AK51"									/>
+		<pin index="577"	name="ff1_tx_n5"				loc="AJ53"									/>
+		<pin index="578"	name="ff1_tx_n6"				loc="AH51"									/>
+		<pin index="579"	name="ff1_tx_n7"				loc="AG53"									/>
+		<pin index="580"	name="ff1_tx_p4"				loc="AK50"									/>
+		<pin index="581"	name="ff1_tx_p5"				loc="AJ52"									/>
+		<pin index="582"	name="ff1_tx_p6"				loc="AH50"									/>
+		<pin index="583"	name="ff1_tx_p7"				loc="AG52"									/>
+
+		<pin index="584"	name="ff1_rx_n8"				loc="A51"									/>
+		<pin index="585"	name="ff1_rx_n9"				loc="A49"									/>
+		<pin index="586"	name="ff1_rx_n10"				loc="A47"									/>
+		<pin index="587"	name="ff1_rx_n11"				loc="A45"									/>
+		<pin index="588"	name="ff1_rx_p8"				loc="B51"									/>
+		<pin index="589"	name="ff1_rx_p9"				loc="B49"									/>
+		<pin index="590"	name="ff1_rx_p10"				loc="B47"									/>
+		<pin index="591"	name="ff1_rx_p11"				loc="B45"									/>
+		<pin index="592"	name="ff1_tx_n8"				loc="D50"									/>
+		<pin index="593"	name="ff1_tx_n9"				loc="F49"									/>
+		<pin index="594"	name="ff1_tx_n10"				loc="D48"									/>
+		<pin index="595"	name="ff1_tx_n11"				loc="F47"									/>
+		<pin index="596"	name="ff1_tx_p8"				loc="E50"									/>
+		<pin index="597"	name="ff1_tx_p9"				loc="G49"									/>
+		<pin index="598"	name="ff1_tx_p10"				loc="E48"									/>
+		<pin index="599"	name="ff1_tx_p11"				loc="G47"									/>
+	</pins>
+</part_info>
