@@ -1,0 +1,36 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "iW-G36M-2CG1-4D004G-E016G-BEB", 
+          "display": "iW-G36M-2CG1-4D004G-E016G-BEB", 
+          "revision": "2.1", 
+          "description": "Zynq UltraScale+ MPSoC 2CG-1-E SOM, 4GB PS DDR4, 16GB eMMC Flash", 
+          "company": "iwave-global.com", 
+          "company_display": "iWave Systems Technologies", 
+          "author": "iwave-global.com", 
+          "contributors": [
+            {
+              "group": "iWave Systems Technologies", 
+              "url": "http://www.iwave-global.com/"
+            }
+          ], 
+          "category": "System On Module", 
+          "website": "https://www.iwavesystems.com/zynq-zu5-zu4-zu3t-zu3-zu2-zu1-processor-and-system-on-modules/", 
+          "logo": "iW-G36-SOM.jpeg", 
+          "search-keywords": [
+            "iW-G36M-2CG1-4D004G-E016G-BEB", 
+            "iwave-global.com", 
+			"board",
+			"iW-G36-SOM",
+            "System On Module",
+			"SOM"
+          ]
+        }
+      }
+    ]
+  }, 
+  "_major": 1, 
+  "_minor": 0
+}
