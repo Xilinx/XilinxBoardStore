@@ -8721,6 +8721,44 @@
           "metadata_file": "xitem.json"
         },
         "company": "NewWaveDesign.com"
+      },
+      {
+        "name": "iG65M-9EG02-4E004G-E032G-IAA",
+        "display": "iG65M-9EG02-4E004G-E032G-IAA",
+        "latest_revision": "1.0",
+        "commit_id": "7ebb5a2201bac57cf0c668f261be51a279022513",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "7ebb5a2201bac57cf0c668f261be51a279022513",
+            "date": "05-11-2025:15:09:13",
+            "history": "Added board iG65M-9EG02-4E004G-E032G-IAA v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/iWave/ig65m-09eg02-4e004g-e032g-laa/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "iwave-global.com"
+      },
+      {
+        "name": "iG65M-15EG02-4E004G-E032G-IAA",
+        "display": "iG65M-15EG02-4E004G-E032G-IAA",
+        "latest_revision": "1.0",
+        "commit_id": "7ebb5a2201bac57cf0c668f261be51a279022513",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "7ebb5a2201bac57cf0c668f261be51a279022513",
+            "date": "05-11-2025:15:09:13",
+            "history": "Added board iG65M-15EG02-4E004G-E032G-IAA v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/iWave/ig65m-15eg02-4e004g-e032g-laa/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "iwave-global.com"
       }
     ],
     "categories": [
