@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
-<board schema_version="2.0" vendor="numato.com" name="Tityra" display_name="Tityra" url="http://www.numato.com" preset_file="preset.xml" >
+<board schema_version="2.2" vendor="numato.com" name="Tityra" display_name="Tityra" url="http://www.numato.com" preset_file="preset.xml" >
 <images>
   <image name="Tityra_board.png" display_name="TityraCore Z7 SODIMM FPGA BOARD" sub_type="board">
     <description>TityraCore Z7 SODIMM FPGA Board File Image</description>
@@ -50,5 +50,6 @@
 <connections>
   <connection name="part0_sys_clock" component1="part0" component2="sys_clock">
     <connection_map name="part0_sys_clock_1" c1_st_index="0" c1_end_index="0" c2_st_index="0" c2_end_index="0"/>
+    </connection>
 </connections>
 </board>
