@@ -8569,6 +8569,538 @@
           "metadata_file": "xitem.json"
         },
         "company": "alpha-data.com"
+      },
+      {
+        "name": "Aller_100T",
+        "display": "Aller_100T",
+        "latest_revision": "1.0",
+        "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+            "date": "11-11-2025:12:12:39",
+            "history": "Added board Aller_100T v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Numato_Lab/Aller_100T/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "numato.com"
+      },
+      {
+        "name": "Aller_200T",
+        "display": "Aller_200T",
+        "latest_revision": "1.0",
+        "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+            "date": "11-11-2025:12:12:39",
+            "history": "Added board Aller_200T v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Numato_Lab/Aller_200T/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "numato.com"
+      },
+      {
+        "name": "Aller_AU_Plus",
+        "display": "Aller_AU_Plus",
+        "latest_revision": "1.0",
+        "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+            "date": "11-11-2025:12:12:39",
+            "history": "Added board Aller_AU_Plus v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Numato_Lab/Aller_AU_Plus/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "numato.com"
+      },
+      {
+        "name": "Eaglecore_ZU",
+        "display": "EagleCore ZU-Plus development Kit",
+        "latest_revision": "1.0",
+        "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+            "date": "11-11-2025:12:12:39",
+            "history": "Added board EagleCore ZU-Plus development Kit v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Numato_Lab/EagleCore-ZU/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "numato.com"
+      },
+      {
+        "name": "Elbert_S7",
+        "display": "Elbert_S7",
+        "latest_revision": "1.0",
+        "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+            "date": "11-11-2025:12:12:39",
+            "history": "Added board Elbert_S7 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Numato_Lab/Elbert_S7/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "numato.com"
+      },
+      {
+        "name": "HSFPX002_DevBoard",
+        "display": "HSFPX002_DevBoard",
+        "latest_revision": "1.0",
+        "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+            "date": "11-11-2025:12:12:39",
+            "history": "Added board HSFPX002_DevBoard v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Numato_Lab/HSFPX002DevBoard/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "numato.com"
+      },
+      {
+        "name": "Mimas_A7_50T",
+        "display": "Mimas_A7_50T",
+        "latest_revision": "1.0",
+        "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+            "date": "11-11-2025:12:12:39",
+            "history": "Added board Mimas_A7_50T v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Numato_Lab/MimasA7/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "numato.com"
+      },
+      {
+        "name": "Mimas_A7_Mini",
+        "display": "Mimas_A7_Mini",
+        "latest_revision": "1.0",
+        "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+            "date": "11-11-2025:12:12:39",
+            "history": "Added board Mimas_A7_Mini v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Numato_Lab/Mimas_A7_Mini/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "numato.com"
+      },
+      {
+        "name": "Mimas_AU_Plus_dev_VA0.0",
+        "display": "Mimas_AU_Plus_dev_VA0.0",
+        "latest_revision": "1.0",
+        "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+            "date": "11-11-2025:12:12:39",
+            "history": "Added board Mimas_AU_Plus_dev_VA0.0 v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Numato_Lab/Mimas_AU_Plus_dev_VA0.0/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "numato.com"
+      },
+      {
+        "name": "Mimas_S7_Lite",
+        "display": "Mimas_S7_Lite",
+        "latest_revision": "1.0",
+        "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+            "date": "11-11-2025:12:12:39",
+            "history": "Added board Mimas_S7_Lite v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Numato_Lab/Mimas_S7_Lite/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "numato.com"
+      },
+      {
+        "name": "Mimasa7_V3",
+        "display": "Mimasa7_V3",
+        "latest_revision": "3.0",
+        "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+            "date": "11-11-2025:12:12:39",
+            "history": "Added board Mimasa7_V3 v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Numato_Lab/Mimasa7_V3/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "numato.com"
+      },
+      {
+        "name": "Narvi",
+        "display": "Narvi",
+        "latest_revision": "1.0",
+        "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+            "date": "11-11-2025:12:12:39",
+            "history": "Added board Narvi v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Numato_Lab/Narvi/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "numato.com"
+      },
+      {
+        "name": "NereidDevBoard7K160T",
+        "display": "NereidDevBoard7K160T",
+        "latest_revision": "2.0",
+        "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+            "date": "11-11-2025:12:12:39",
+            "history": "Added board NereidDevBoard7K160T v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Numato_Lab/NereidDevBoard7K160T/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "numato.com"
+      },
+      {
+        "name": "NereidDevBoard7K160T",
+        "display": "NereidDevBoard7K160T",
+        "latest_revision": "3.0",
+        "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+        "revisions": [
+          {
+            "revision": "3.0",
+            "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+            "date": "11-11-2025:12:12:39",
+            "history": "Added board NereidDevBoard7K160T v3.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Numato_Lab/NereidDevBoard7K160T/3.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "numato.com"
+      },
+      {
+        "name": "NereidDevBoard7K325T",
+        "display": "NereidDevBoard7K325T",
+        "latest_revision": "4.2",
+        "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+        "revisions": [
+          {
+            "revision": "4.2",
+            "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+            "date": "11-11-2025:12:12:39",
+            "history": "Added board NereidDevBoard7K325T v4.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Numato_Lab/NereidDevBoard7K325T/4.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "numato.com"
+      },
+      {
+        "name": "NereidDevBoard7K410T",
+        "display": "NereidDevBoard7K410T",
+        "latest_revision": "2.0",
+        "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+            "date": "11-11-2025:12:12:39",
+            "history": "Added board NereidDevBoard7K410T v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Numato_Lab/NereidDevBoard7K410T/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "numato.com"
+      },
+      {
+        "name": "NereidDevBoard7K410T",
+        "display": "NereidDevBoard7K410T",
+        "latest_revision": "4.2",
+        "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+        "revisions": [
+          {
+            "revision": "4.2",
+            "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+            "date": "11-11-2025:12:12:39",
+            "history": "Added board NereidDevBoard7K410T v4.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Numato_Lab/NereidDevBoard7K410T/4.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "numato.com"
+      },
+      {
+        "name": "Neso",
+        "display": "Neso",
+        "latest_revision": "1.0",
+        "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+            "date": "11-11-2025:12:12:39",
+            "history": "Added board Neso v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Numato_Lab/Neso/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "numato.com"
+      },
+      {
+        "name": "ProteusDevBoard7K160T",
+        "display": "ProteusDevBoard7K160T",
+        "latest_revision": "1.0",
+        "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+            "date": "11-11-2025:12:12:39",
+            "history": "Added board ProteusDevBoard7K160T v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Numato_Lab/ProteusDevBoard7K160T/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "numato.com"
+      },
+      {
+        "name": "Proteus_325T",
+        "display": "Proteus_325T",
+        "latest_revision": "1.0",
+        "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+            "date": "11-11-2025:12:12:39",
+            "history": "Added board Proteus_325T v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Numato_Lab/ProteusDevBoard7K325T/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "numato.com"
+      },
+      {
+        "name": "Proteus410T",
+        "display": "Proteus410T",
+        "latest_revision": "1.0",
+        "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+            "date": "11-11-2025:12:12:39",
+            "history": "Added board Proteus410T v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Numato_Lab/ProteusDevBoard7K410T/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "numato.com"
+      },
+      {
+        "name": "Skoll",
+        "display": "Skoll",
+        "latest_revision": "1.0",
+        "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+            "date": "11-11-2025:12:12:39",
+            "history": "Added board Skoll v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Numato_Lab/Skoll/2.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "numato.com"
+      },
+      {
+        "name": "styx",
+        "display": "Styx",
+        "latest_revision": "1.0",
+        "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+            "date": "11-11-2025:12:12:39",
+            "history": "Added board Styx v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Numato_Lab/Styx/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "numato.com"
+      },
+      {
+        "name": "Tagus",
+        "display": "Tagus",
+        "latest_revision": "1.0",
+        "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+            "date": "11-11-2025:12:12:39",
+            "history": "Added board Tagus v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Numato_Lab/Tagus/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "numato.com"
+      },
+      {
+        "name": "Tityra",
+        "display": "Tityra",
+        "latest_revision": "1.0",
+        "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+            "date": "11-11-2025:12:12:39",
+            "history": "Added board Tityra v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Numato_Lab/Tityra_D200/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "numato.com"
+      },
+      {
+        "name": "CallistoK7DevBoard7K160T",
+        "display": "CallistoK7DevBoard7K160T",
+        "latest_revision": "1.0",
+        "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+            "date": "11-11-2025:12:12:39",
+            "history": "Added board CallistoK7DevBoard7K160T v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Numato_Lab/callistoK7DevBoard7K160T/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "numato.com"
+      },
+      {
+        "name": "CallistoK7DevBoard7K325T",
+        "display": "CallistoK7DevBoard7K325T",
+        "latest_revision": "1.0",
+        "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+            "date": "11-11-2025:12:12:39",
+            "history": "Added board CallistoK7DevBoard7K325T v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Numato_Lab/callistoK7DevBoard7K325T/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "numato.com"
+      },
+      {
+        "name": "callistoK7DevBoard7K410T",
+        "display": "callistoK7DevBoard7K410T",
+        "latest_revision": "1.0",
+        "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "d3ff8bcf2a1f99a57dbf3db74ff601e3b5c08364",
+            "date": "11-11-2025:12:12:39",
+            "history": "Added board callistoK7DevBoard7K410T v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Numato_Lab/callistoK7DevBoard7K410T/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "numato.com"
       }
     ],
     "categories": [
