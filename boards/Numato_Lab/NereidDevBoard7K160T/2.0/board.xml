@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
-<board schema_version="2.0" vendor="numato.com" name="Nereid" display_name="Nereid" url="www.numato.com/" preset_file="preset.xml" >
+<board schema_version="2.0" vendor="numato.com" name="NereidDevBoard7K160T" display_name="NereidDevBoard7K160T" url="www.numato.com/" preset_file="preset.xml" >
 <images>
   <image name="nereid.png" display_name="Nereid Kintex 7 BOARD" sub_type="board">
     <description>Nereid Kintex7 Board File Image</description>
@@ -8,10 +8,10 @@
 <compatible_board_revisions>
   <revision id="0">2.0</revision>
 </compatible_board_revisions>
-<file_version>1.0</file_version>
-<description>Nereid</description>
+<file_version>2.0</file_version>
+<description>NereidDevBoard7K160T</description>
 <components>
-  <component name="part0" display_name="Nereid" type="fpga" part_name="xc7k160tfbg676-1" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="www.numato.com/">
+  <component name="part0" display_name="NereidDevBoard7K160T" type="fpga" part_name="xc7k160tfbg676-1" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="www.numato.com/">
     <interfaces>
       <interface mode="master" name="ddr3_sdram" type="xilinx.com:interface:ddrx_rtl:1.0" of_component="ddr3_sdram" preset_proc="ddr3_sdram_preset"> 
 		<description>DDR3 board interface.</description>

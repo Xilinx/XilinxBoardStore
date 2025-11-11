@@ -4,27 +4,26 @@
       {
         "infra": {
           "name": "Mimas_A7_Mini",
-          "display": "Mimas A7 Mini Board",
+          "display": "Mimas_A7_Mini",
           "revision": "1.0",
-          "description": "Mimas A7 Mini Board",
+          "description": "Mimas_A7_Mini",
           "company": "numato.com",
-          "company_display": "Numato lab",
+          "company_display": "Numato_Lab",
           "author": "Akash",
           "contributors": [
             {
-              "group": "Numato Lab",
-              "url": "www.numato.com/"
+              "group": "Numato_Lab",
+              "url": "https://numato.com/"
             }
           ],
           "category": "Single Part",
-          "website": "https://numato.com/product/mimas-a7-mini-fpga-development-board/", 
-          "logo": "",
+          "website": "www.numato.com/",
+          "logo": "Mimas_A7_Mini.png",
           "search-keywords": [
-            "Mimas A7 Mini Board",
+            "Mimas_A7_Mini",
             "numato.com",
-            "xc7a35tftg256-1",
-            "Numato lab"
-            
+            "board",
+            "Single Part"
           ]
         }
       }

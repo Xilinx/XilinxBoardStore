@@ -6,9 +6,9 @@
   </image>
 </images>
 <compatible_board_revisions>
-  <revision id="0">4.2</revision>
+  <revision id="0">1.0</revision>
 </compatible_board_revisions>
-<file_version>4.2</file_version>
+<file_version>2.0</file_version>
 <description>NereidDevBoard7K410T</description>
 <components>
   <component name="part0" display_name="NereidDevBoard7K410T" type="fpga" part_name="xc7k410tfbg676-1" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="www.numato.com/">

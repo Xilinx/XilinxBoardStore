@@ -6,24 +6,24 @@
           "name": "NereidDevBoard7K160T",
           "display": "NereidDevBoard7K160T",
           "revision": "3.0",
-          "description": "NereidDevBoard7K160T ",
+          "description": "NereidDevBoard7K160T",
           "company": "numato.com",
-          "company_display": "Numato lab",
+          "company_display": "Numato_Lab",
           "author": "Akash",
           "contributors": [
             {
-              "group": "Numato Lab",
-              "url": "www.numato.com/"
+              "group": "Numato_Lab",
+              "url": "https://numato.com/"
             }
           ],
           "category": "Single Part",
-          "website": "https://numato.com/product/nereid-kintex-7-pci-express-fpga-development-board/", 
-          "logo": "",
+          "website": "www.numato.com/",
+          "logo": "nereid.png",
           "search-keywords": [
             "NereidDevBoard7K160T",
             "numato.com",
-            "Numato lab"
-            
+            "board",
+            "Single Part"
           ]
         }
       }

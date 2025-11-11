@@ -4,27 +4,26 @@
       {
         "infra": {
           "name": "Aller_AU_Plus",
-          "display": "Aller AU Plus FPGA",
+          "display": "Aller_AU_Plus",
           "revision": "1.0",
           "description": "Aller AU Plus FPGA Board",
           "company": "numato.com",
-          "company_display": "Numato lab",
-          "author": "Megha",
+          "company_display": "Numato_Lab",
+          "author": "Akash",
           "contributors": [
             {
-              "group": "Numato Lab",
-              "url": "www.numato.com/"
+              "group": "Numato_Lab",
+              "url": "https://numato.com/"
             }
           ],
           "category": "Single Part",
-          "website": "https://numato.com/product/eaglecore-artix-ultrascale-fpga-som/", 
-          "logo": "",
+          "website": "www.numato.com/",
+          "logo": "Aller.png",
           "search-keywords": [
-            "AU Plus",
+            "Aller_AU_Plus",
             "numato.com",
-            "AU7P",
-            "Numato lab"
-            
+            "board",
+            "Single Part"
           ]
         }
       }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
-<board schema_version="2.0" vendor="numato.com" name="Proteus" display_name="Proteus" url="www.numato.com/" preset_file="preset.xml" >
+<board schema_version="2.0" vendor="numato.com" name="ProteusDevBoard7K160T" display_name="ProteusDevBoard7K160T" url="www.numato.com/" preset_file="preset.xml" >
 <images>
   <image name="Proteus.png" display_name="Proteus Kintex 7 BOARD" sub_type="board">
     <description>Proteus Kintex7 Board File Image</description>
@@ -9,9 +9,9 @@
   <revision id="0">1.0</revision>
 </compatible_board_revisions>
 <file_version>1.0</file_version>
-<description>Proteus</description>
+<description>ProteusDevBoard7K160T</description>
 <components>
-  <component name="part0" display_name="Proteus" type="fpga" part_name="xc7k160tfbg676-1" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="www.numato.com/">
+  <component name="part0" display_name="ProteusDevBoard7K160T" type="fpga" part_name="xc7k160tfbg676-1" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="www.numato.com/">
     <interfaces>
       <interface mode="master" name="ddr3_sdram" type="xilinx.com:interface:ddrx_rtl:1.0" of_component="ddr3_sdram" preset_proc="ddr3_sdram_preset"> 
 		<description>DDR3 board interface.</description>
