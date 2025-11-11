@@ -3,28 +3,27 @@
     "items": [
       {
         "infra": {
-          "name": "CallistoK7",
-          "display": "CallistoK7",
+          "name": "callistoK7DevBoard7K410T",
+          "display": "callistoK7DevBoard7K410T",
           "revision": "1.0",
-          "description": "Callisto Kintex7 Board",
+          "description": "callistoK7DevBoard7K410T",
           "company": "numato.com",
-          "company_display": "Numato lab",
+          "company_display": "Numato_Lab",
           "author": "Akash",
           "contributors": [
             {
-              "group": "Numato Lab",
-              "url": "www.numato.com/"
+              "group": "Numato_Lab",
+              "url": "https://numato.com/"
             }
           ],
           "category": "Single Part",
-          "website": "https://numato.com/product/callisto-kintex-7-usb-3-1-fpga-module/", 
-          "logo": "",
+          "website": "www.numato.com/",
+          "logo": "Callisto.png",
           "search-keywords": [
-            "Callisto Kintex7 Board",
+            "callistoK7DevBoard7K410T",
             "numato.com",
-            "xc7k410tfbg676-1",
-            "Numato lab"
-            
+            "board",
+            "Single Part"
           ]
         }
       }

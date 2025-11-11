@@ -3,30 +3,27 @@
     "items": [
       {
         "infra": {
-          "name": "Mimas_AU_Plus",
-          "display": "Mimas AU Plus Development Board",
-          "revision": "2.0",
+          "name": "Mimas_AU_Plus_dev_VA0.0",
+          "display": "Mimas_AU_Plus_dev_VA0.0",
+          "revision": "1.0",
           "description": "Mimas AU Plus FPGA Development Board",
           "company": "numato.com",
-          "company_display": "Numato lab",
-          "author": "Megha",
+          "company_display": "Numato_Lab",
+          "author": "Akash",
           "contributors": [
             {
-              "group": "Numato Lab",
-              "url": "www.numato.com/"
+              "group": "Numato_Lab",
+              "url": "https://numato.com/"
             }
           ],
           "category": "Single Part",
-          "website": "https://numato.com/product/eaglecore-artix-ultrascale-fpga-som/", 
+          "website": "www.numato.com/",
           "logo": "Mimas_AU_Plus.jpg",
           "search-keywords": [
-            "Mimas_AU_Plus",
+            "Mimas_AU_Plus_dev_VA0.0",
             "numato.com",
-            "AU Plus",
-            "AU7P",
-            "Numato lab",
-            "Mimas"
-            
+            "board",
+            "Single Part"
           ]
         }
       }

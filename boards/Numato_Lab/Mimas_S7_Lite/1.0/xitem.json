@@ -8,22 +8,22 @@
           "revision": "1.0",
           "description": "Mimas_S7_Lite",
           "company": "numato.com",
-          "company_display": "Numato lab",
+          "company_display": "Numato_Lab",
           "author": "Akash",
           "contributors": [
             {
-              "group": "Numato Lab",
-              "url": "www.numato.com/"
+              "group": "Numato_Lab",
+              "url": "https://numato.com/"
             }
           ],
           "category": "Single Part",
-          "website": "https://numato.com/product/mimas-s7-lite/", 
-          "logo": "",
+          "website": "www.numato.com/",
+          "logo": "MimasS7Lite.png",
           "search-keywords": [
             "Mimas_S7_Lite",
             "numato.com",
-            "Numato lab"
-            
+            "board",
+            "Single Part"
           ]
         }
       }

@@ -6,25 +6,24 @@
           "name": "CallistoK7DevBoard7K160T",
           "display": "CallistoK7DevBoard7K160T",
           "revision": "1.0",
-          "description": "Callisto Kintex7 Board",
+          "description": "CallistoK7DevBoard7K160T",
           "company": "numato.com",
-          "company_display": "Numato lab",
+          "company_display": "Numato_Lab",
           "author": "Akash",
           "contributors": [
             {
-              "group": "Numato Lab",
-              "url": "www.numato.com/"
+              "group": "Numato_Lab",
+              "url": "https://numato.com/"
             }
           ],
           "category": "Single Part",
-          "website": "https://numato.com/product/callisto-kintex-7-usb-3-1-fpga-module/", 
-          "logo": "",
+          "website": "www.numato.com/",
+          "logo": "Callisto.png",
           "search-keywords": [
-            "Callisto Kintex7 Board",
+            "CallistoK7DevBoard7K160T",
             "numato.com",
-            "xc7k160tfbg676-1",
-            "Numato lab"
-            
+            "board",
+            "Single Part"
           ]
         }
       }

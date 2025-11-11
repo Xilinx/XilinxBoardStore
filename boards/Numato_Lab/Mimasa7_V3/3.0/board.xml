@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
 <board schema_version="2.0" vendor="numato.com" name="Mimasa7_V3" display_name="Mimasa7_V3" url="www.numato.com/" preset_file="preset.xml" >
 <images>
-  <image name="" display_name="Mimas A7 Artix7 BOARD" sub_type="board">
+  <image name="mimas-a7.png" display_name="Mimas A7 Artix7 BOARD" sub_type="board">
     <description>Mimas a7 Artix7 Board File Image</description>
   </image>
 </images>
@@ -271,5 +271,3 @@
 	</connection>
 </connections>
 </board>
-
-<!DOCTYPE board SYSTEM "board.dtd"> <!-- for board.xml -->

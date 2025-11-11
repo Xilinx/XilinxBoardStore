@@ -7,5 +7,3 @@
   <pin index="6" name ="leds_rgb_tri_o_2" iostandard="LVCMOS33" loc="AD14"/>
 </pins>
 </part_info>
-
-<!DOCTYPE part_info SYSTEM "part0_pins.dtd" <!-- for part0_pins.xml -->

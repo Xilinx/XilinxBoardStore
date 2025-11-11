@@ -8,23 +8,22 @@
           "revision": "1.0",
           "description": "HSFPX002_DevBoard",
           "company": "numato.com",
-          "company_display": "Numato lab",
+          "company_display": "Numato_Lab",
           "author": "Akash",
           "contributors": [
             {
-              "group": "Numato Lab",
-              "url": "www.numato.com/"
+              "group": "Numato_Lab",
+              "url": "https://numato.com/"
             }
           ],
           "category": "Single Part",
-          "website": "https://numato.com/product/hsfpx002-fpga-development-board/", 
-          "logo": "",
+          "website": "www.numato.com/",
+          "logo": "HSFPX002.png",
           "search-keywords": [
             "HSFPX002_DevBoard",
             "numato.com",
-            "xc7a200tfbg676-2",
-            "Numato lab"
-            
+            "board",
+            "Single Part"
           ]
         }
       }

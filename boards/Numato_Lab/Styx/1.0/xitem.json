@@ -4,26 +4,26 @@
       {
         "infra": {
           "name": "styx",
-          "display": "styx",
+          "display": "Styx",
           "revision": "1.0",
-          "description": "Styx Zynq 7020 Module ",
+          "description": "Styx Zynq 7020 Module",
           "company": "numato.com",
-          "company_display": "Numato lab",
+          "company_display": "Numato_Lab",
           "author": "Akash",
           "contributors": [
             {
-              "group": "Numato Lab",
-              "url": "www.numato.com/"
+              "group": "Numato_Lab",
+              "url": "https://numato.com/"
             }
           ],
           "category": "Single Part",
-          "website": "https://numato.com/product/styx-zynq-7020-fpga-module/", 
-          "logo": "",
+          "website": "http://www.numato.com",
+          "logo": "styx_board.jpg",
           "search-keywords": [
-            "Styx Zynq 7020 Module",
+            "styx",
             "numato.com",
-            "Numato lab"
-            
+            "board",
+            "Single Part"
           ]
         }
       }

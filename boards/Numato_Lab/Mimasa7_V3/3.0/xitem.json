@@ -5,25 +5,25 @@
         "infra": {
           "name": "Mimasa7_V3",
           "display": "Mimasa7_V3",
-          "revision": "1.0",
+          "revision": "3.0",
           "description": "Mimasa7_V3",
           "company": "numato.com",
-          "company_display": "Numato lab",
+          "company_display": "Numato_Lab",
           "author": "Akash",
           "contributors": [
             {
-              "group": "Numato Lab",
-              "url": "www.numato.com/"
+              "group": "Numato_Lab",
+              "url": "https://numato.com/"
             }
           ],
           "category": "Single Part",
-          "website": "https://numato.com/product/mimas-a7-artix-7-fpga-development-board/", 
-          "logo": "",
+          "website": "www.numato.com/",
+          "logo": "mimas-a7.png",
           "search-keywords": [
             "Mimasa7_V3",
             "numato.com",
-            "Numato lab"
-            
+            "board",
+            "Single Part"
           ]
         }
       }
