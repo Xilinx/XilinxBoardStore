@@ -7,25 +7,25 @@
           "display": "iG65M-9EG02-4E004G-E032G-IAA", 
           "revision": "1.0", 
           "description": "Zynq UltraScale+ MPSoC 9EG-2-I SOM, 4GB PS DDR4, 2 GB FPGA DDR4, 32GB eMMC Flash", 
-          "company": "iwavesystems.com", 
-          "company_display": "iWave Systems Technologies", 
-          "author": "iwavesystems.com", 
+          "company": "iwave-global.com", 
+          "company_display": "iWave Global Embedded solutions", 
+          "author": "iwave-global.com", 
           "contributors": [
             {
               "group": "iWave Systems Technologies", 
-              "url": "https://www.iwavesystems.com/"
+              "url": "https://iwave-global.com/"
             }
           ], 
           "category": "System on Module", 
-          "website": "https://www.iwavesystems.com/product/zu15-zu9-zu6-zynq-ultrascale-mpsoc-system-on-module/", 
+          "website": "https://iwave-global.com/product/zynq-ultrascale-zu15-zu9-zu6-system-on-module/", 
           "logo": "iW-G65M-SOM.png", 
           "search-keywords": [
             "iG65M-9EG02-4E004G-E032G-IAA", 
-            "iwavesystems.com", 
-			"board",
-			"iW-G65-SOM",
+            "iwave-global.com", 
+            "board",
+            "iW-G65-SOM",
             "System on Module",
-			"SOM"
+            "SOM"
           ]
         }
       }
@@ -33,3 +33,4 @@
   }, 
   "_major": 1, 
   "_minor": 0
+}
