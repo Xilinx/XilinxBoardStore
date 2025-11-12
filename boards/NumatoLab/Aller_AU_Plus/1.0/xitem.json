@@ -1,0 +1,34 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "Aller_AU_Plus",
+          "display": "Aller_AU_Plus",
+          "revision": "1.0",
+          "description": "Aller AU Plus FPGA Board",
+          "company": "numato.com",
+          "company_display": "Numato_Lab",
+          "author": "Akash",
+          "contributors": [
+            {
+              "group": "Numato_Lab",
+              "url": "https://numato.com/"
+            }
+          ],
+          "category": "Single Part",
+          "website": "www.numato.com/",
+          "logo": "Aller.png",
+          "search-keywords": [
+            "Aller_AU_Plus",
+            "numato.com",
+            "board",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

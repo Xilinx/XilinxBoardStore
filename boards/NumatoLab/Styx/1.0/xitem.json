@@ -1,0 +1,34 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "styx",
+          "display": "Styx",
+          "revision": "1.0",
+          "description": "Styx Zynq 7020 Module",
+          "company": "numato.com",
+          "company_display": "Numato_Lab",
+          "author": "Akash",
+          "contributors": [
+            {
+              "group": "Numato_Lab",
+              "url": "https://numato.com/"
+            }
+          ],
+          "category": "Single Part",
+          "website": "http://www.numato.com",
+          "logo": "styx_board.jpg",
+          "search-keywords": [
+            "styx",
+            "numato.com",
+            "board",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

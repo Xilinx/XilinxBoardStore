@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
+<ip_presets schema="1.0">
+  
+  <ip_preset preset_proc_name="ddr4_preset">
+    <ip vendor="xilinx.com" library="ip" name="ddr4">
+      <user_parameters>
+        <user_parameter name="CONFIG.C0.DDR4_InputClockPeriod" value="10000" />
+        <user_parameter name="CONFIG.C0.DDR4_TimePeriod" value="1250" />
+        <user_parameter name="CONFIG.C0.DDR4_CasLatency" value="12" />
+        <user_parameter name="CONFIG.C0.DDR4_CasWriteLatency" value="11" />
+        <user_parameter name="CONFIG.C0.DDR4_MemoryPart" value="MT40A512M16LY-075" />
+        <user_parameter name="CONFIG.C0.DDR4_DataWidth" value="16" />
+        <user_parameter name="CONFIG.C0.BANK_GROUP_WIDTH" value="1" />
+      </user_parameters>
+    </ip>
+  </ip_preset>
+
+     <ip_preset preset_proc_name="rgb_led_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_GPIO_WIDTH" value="3"/> 
+          <user_parameter name="CONFIG.C_ALL_INPUTS" value="0"/> 
+	  <user_parameter name="CONFIG.C_ALL_OUTPUTS" value="1"/>
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_IS_DUAL" value="1"/> 
+          <user_parameter name="CONFIG.C_GPIO2_WIDTH" value="3"/> 
+          <user_parameter name="CONFIG.C_ALL_INPUTS_2" value="0"/> 
+	  <user_parameter name="CONFIG.C_ALL_OUTPUTS_2" value="1"/>
+        </user_parameters>
+    </ip>
+	<ip vendor="xilinx.com" library="ip" name="iomodule" ip_interface="GPIO1">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_USE_GPI1" value="1"/> 
+          <user_parameter name="CONFIG.C_GPI1_SIZE" value="3"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="microblaze_mcs" ip_interface="GPIO1">
+        <user_parameters>
+          <user_parameter name="CONFIG.USE_GPI1" value="1"/> 
+          <user_parameter name="CONFIG.GPI1_SIZE" value="3"/> 
+        </user_parameters>
+    </ip>  
+  </ip_preset>
+  
+<ip_preset preset_proc_name="tpm_preset">
+	<ip vendor="xilinx.com" library="ip" name="axi_quad_spi">
+		<user_parameters>
+			<user_parameter name="CONFIG.C_SPI_MODE" value="0"/>
+			<user_parameter name="CONFIG.C_C_SCK_RATIO" value="16"/>
+            <user_parameter name="CONFIG.FIFO_INCLUDED" value="0"/>
+			<user_parameter name="CONFIG.C_USE_STARTUP" value="0"/>
+			<user_parameter name="CONFIG.C_USE_STARTUP_INT" value="0"/>
+		</user_parameters>
+	</ip>
+  </ip_preset>
+   <ip_preset preset_proc_name="tpm_rst_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_GPIO_WIDTH" value="1"/> 
+          <user_parameter name="CONFIG.C_ALL_INPUTS" value="0"/> 
+	  <user_parameter name="CONFIG.C_ALL_OUTPUTS" value="1"/>
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_IS_DUAL" value="1"/> 
+          <user_parameter name="CONFIG.C_GPIO2_WIDTH" value="1"/> 
+          <user_parameter name="CONFIG.C_ALL_INPUTS_2" value="0"/> 
+	  <user_parameter name="CONFIG.C_ALL_OUTPUTS_2" value="1"/>
+        </user_parameters>
+    </ip>
+  </ip_preset>
+    
+</ip_presets>
+
+    
+

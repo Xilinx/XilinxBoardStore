@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<part_info part_name="xc7k325tfbg676-1">
+<pins>
+  <pin index="0" name ="clk" iostandard="LVCMOS33" loc="F22"/>
+  <pin index="1" name ="reset" iostandard="LVCMOS33" loc="K21"/>
+  <pin index="2" name ="tpm_mosi" iostandard="LVCMOS33" loc="M22"/>
+  <pin index="3" name ="tpm_miso" iostandard="LVCMOS33" loc="M21"/>
+  <pin index="4" name ="tpm_sclk" iostandard="LVCMOS33" loc="P23"/>
+  <pin index="5" name ="tpm_ss" iostandard="LVCMOS33" loc="N23"/> 
+  <pin index="6" name ="tpm_reset" iostandard="LVCMOS33" loc="P20"/> 
+</pins>
+</part_info>

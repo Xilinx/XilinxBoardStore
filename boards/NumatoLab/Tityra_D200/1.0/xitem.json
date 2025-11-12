@@ -1,0 +1,34 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "Tityra",
+          "display": "Tityra",
+          "revision": "1.0",
+          "description": "TityraCore Z7 SODIMM FPGA Module",
+          "company": "numato.com",
+          "company_display": "Numato_Lab",
+          "author": "Akash",
+          "contributors": [
+            {
+              "group": "Numato_Lab",
+              "url": "https://numato.com/"
+            }
+          ],
+          "category": "Single Part",
+          "website": "http://www.numato.com",
+          "logo": "Tityra_board.png",
+          "search-keywords": [
+            "Tityra",
+            "numato.com",
+            "board",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

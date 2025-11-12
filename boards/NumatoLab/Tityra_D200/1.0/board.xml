@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<board schema_version="2.2" vendor="numato.com" name="Tityra" display_name="Tityra" url="http://www.numato.com" preset_file="preset.xml" >
+<images>
+  <image name="Tityra_board.png" display_name="TityraCore Z7 SODIMM FPGA BOARD" sub_type="board">
+    <description>TityraCore Z7 SODIMM FPGA Board File Image</description>
+  </image>
+</images>
+<compatible_board_revisions>
+  <revision id="0">1.0</revision>
+</compatible_board_revisions>
+<file_version>1.0</file_version>
+<description>TityraCore Z7 SODIMM FPGA Module</description>
+<components>
+  <component name="part0" display_name="Tityra" type="fpga" part_name="xc7z020clg484-1" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="http://www.numato.com">
+    <interfaces>
+      <interface mode="master" name="ps7_fixedio" type="xilinx.com:display_processing_system7:fixedio_rtl:1.0" of_component="ps7_fixedio" preset_proc="ps7_preset">    
+     </interface> 
+      <interface mode="slave" name="sys_clock" type="xilinx.com:signal:clock_rtl:1.0" of_component="sys_clock" preset_proc="sys_clock_preset">
+        <parameters>
+          <parameter name="frequency" value="50000000"/>
+        </parameters>
+        <preferred_ips>
+          <preferred_ip vendor="xilinx.com" library="ip" name="clk_wiz" order="0"/>
+        </preferred_ips>
+		<port_maps>
+          <port_map logical_port="clk" physical_port="clk" dir="in">
+            <pin_maps>
+              <pin_map port_index="0" component_pin="clk"/> 
+            </pin_maps>
+          </port_map>
+        </port_maps>
+        <parameters>
+          <parameter name="frequency" value="50000000" />
+       </parameters>
+      </interface>
+    </interfaces>
+
+  </component> 
+  <component name="ps7_fixedio" display_name="ps7_fixedio" type="chip" sub_type="fixed_io" major_group=""/>
+
+  <component name="sys_clock" display_name="System Clock" type="chip" sub_type="system_clock" major_group="Clocks">
+  	<description>3.3V Single-Ended 50MHz oscillator used as system clock on the board</description>
+  </component>
+</components>
+<jtag_chains>
+  <jtag_chain name="chain1">
+    <position name="0" component="part0"/>
+  </jtag_chain>
+</jtag_chains>
+<connections>
+  <connection name="part0_sys_clock" component1="part0" component2="sys_clock">
+    <connection_map name="part0_sys_clock_1" c1_st_index="0" c1_end_index="0" c2_st_index="0" c2_end_index="0"/>
+    </connection>
+</connections>
+</board>

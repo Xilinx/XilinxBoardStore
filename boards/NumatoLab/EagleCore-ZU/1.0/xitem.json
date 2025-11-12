@@ -1,0 +1,34 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "Eaglecore_ZU",
+          "display": "EagleCore ZU-Plus development Kit",
+          "revision": "1.0",
+          "description": "EagleCore_ZU_Plus",
+          "company": "numato.com",
+          "company_display": "Numato_Lab",
+          "author": "Akash",
+          "contributors": [
+            {
+              "group": "Numato_Lab",
+              "url": "https://numato.com/"
+            }
+          ],
+          "category": "Single Part",
+          "website": "http://www.numato.com",
+          "logo": "Eaglecore_ZU.png",
+          "search-keywords": [
+            "Eaglecore_ZU",
+            "numato.com",
+            "board",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

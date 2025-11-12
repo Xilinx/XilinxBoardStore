@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<board schema_version="2.2" vendor="numato.com" name="Aller_AU_Plus" display_name="Aller_AU_Plus" url="www.numato.com/" preset_file="preset.xml" supports_ced="false">
+<images>
+  <image name="Aller.png" display_name="Aller AU Plus" sub_type="board">
+    <description>Aller AU Plus FPGA File Image</description>
+  </image>
+</images>
+<compatible_board_revisions>
+  <revision id="0">1.0</revision>
+</compatible_board_revisions> 
+<file_version>1.0</file_version>
+<description>Aller AU Plus FPGA Board</description>
+<components>
+  <component name="part0" display_name="Aller AU Plus" type="fpga" part_name="xcau7p-sbvc484-1-i" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="www.numato.com/">
+    <description>FPGA part on the board</description>
+    <interfaces>
+
+     <interface mode="master" name="rgb_led" type="xilinx.com:interface:gpio_rtl:1.0" of_component="rgb_led" preset_proc="rgb_led_preset">
+        <description>Onboard RGB LED</description>
+		<preferred_ips>
+			<preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+		</preferred_ips>
+		<port_maps>
+          <port_map logical_port="TRI_O" physical_port="rgb_led" dir="out" left="2" right="0"> 
+            <pin_maps>
+              <pin_map port_index="0" component_pin="rgb_led_0"/> 
+              <pin_map port_index="1" component_pin="rgb_led_1"/> 
+              <pin_map port_index="2" component_pin="rgb_led_2"/>      
+            </pin_maps>
+          </port_map>
+        </port_maps>
+      </interface>
+
+    
+    <interface mode="slave" name="fixed_fabric_100mhz" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="fixed_fabric_100mhz">
+          <parameters>
+            <parameter name="frequency" value="100000000" />
+          </parameters>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="clk_wiz" order="0" />
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="fixed_fabric_100mhz_clk_p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="fixed_fabric_100mhz_clk_p" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CLK_N" physical_port="fixed_fabric_100mhz_clk_n" dir="in"> 
+              <pin_maps>
+                <pin_map port_index="0" component_pin="fixed_fabric_100mhz_clk_n" />
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+     <interface mode="slave" name="fixed_ddr4_100mhz" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="fixed_ddr4_100mhz">
+          <parameters>
+            <parameter name="frequency" value="100000000" />
+          </parameters>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="ddr4" order="0" />
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="CLK_P" physical_port="fixed_ddr4_100mhz_clk_p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="fixed_ddr4_100mhz_clk_p" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="CLK_N" physical_port="fixed_ddr4_100mhz_clk_n" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="fixed_ddr4_100mhz_clk_n" />
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+
+        <interface mode="master" name="ddr4" type="xilinx.com:interface:ddr4_rtl:1.0" of_component="ddr4" preset_proc="ddr4_preset">
+          <description>DDR4 board interface, explicitly mapped pins.</description>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="ddr4" order="0"/>
+          </preferred_ips>
+
+          <port_maps>
+            <port_map logical_port="ACT_N" physical_port="ddr4_rtl_0_act_n" dir="out">
+              <pin_maps><pin_map port_index="0" component_pin="ddr4_rtl_0_act_n"/></pin_maps>
+            </port_map>
+
+            <port_map logical_port="ADR" physical_port="ddr4_rtl_0_adr" dir="out" left="16" right="0">
+              <pin_maps>
+                <pin_map port_index="0"  component_pin="ddr4_rtl_0_adr_0"/>
+                <pin_map port_index="1"  component_pin="ddr4_rtl_0_adr_1"/>
+                <pin_map port_index="2"  component_pin="ddr4_rtl_0_adr_2"/>
+                <pin_map port_index="3"  component_pin="ddr4_rtl_0_adr_3"/>
+                <pin_map port_index="4"  component_pin="ddr4_rtl_0_adr_4"/>
+                <pin_map port_index="5"  component_pin="ddr4_rtl_0_adr_5"/>
+                <pin_map port_index="6"  component_pin="ddr4_rtl_0_adr_6"/>
+                <pin_map port_index="7"  component_pin="ddr4_rtl_0_adr_7"/>
+                <pin_map port_index="8"  component_pin="ddr4_rtl_0_adr_8"/>
+                <pin_map port_index="9"  component_pin="ddr4_rtl_0_adr_9"/>
+                <pin_map port_index="10" component_pin="ddr4_rtl_0_adr_10"/>
+                <pin_map port_index="11" component_pin="ddr4_rtl_0_adr_11"/>
+                <pin_map port_index="12" component_pin="ddr4_rtl_0_adr_12"/>
+                <pin_map port_index="13" component_pin="ddr4_rtl_0_adr_13"/>
+                <pin_map port_index="14" component_pin="ddr4_rtl_0_adr_14"/>
+                <pin_map port_index="15" component_pin="ddr4_rtl_0_adr_15"/>
+                <pin_map port_index="16" component_pin="ddr4_rtl_0_adr_16"/>
+              </pin_maps>
+            </port_map>
+
+            <port_map logical_port="BA" physical_port="ddr4_rtl_0_ba" dir="out" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="ddr4_rtl_0_ba_0"/>
+                <pin_map port_index="1" component_pin="ddr4_rtl_0_ba_1"/>
+              </pin_maps>
+            </port_map>
+
+            <port_map logical_port="BG" physical_port="ddr4_rtl_0_bg" dir="out">
+              <pin_maps>
+                 <pin_map port_index="0" component_pin="ddr4_rtl_0_bg"/>
+              </pin_maps>
+            </port_map>
+
+
+            <port_map logical_port="CK_T" physical_port="ddr4_rtl_0_ck_t" dir="out">
+             <pin_maps>
+                <pin_map port_index="0" component_pin="ddr4_rtl_0_ck_t"/>
+             </pin_maps>
+            </port_map>
+
+            <port_map logical_port="CK_C" physical_port="ddr4_rtl_0_ck_c" dir="out">
+              <pin_maps>
+                   <pin_map port_index="0" component_pin="ddr4_rtl_0_ck_c"/>
+              </pin_maps>
+            </port_map>
+
+            <port_map logical_port="CKE" physical_port="ddr4_rtl_0_cke" dir="out">
+               <pin_maps><pin_map port_index="0" component_pin="ddr4_rtl_0_cke_0"/></pin_maps>
+            </port_map>
+
+            <port_map logical_port="CS_N" physical_port="ddr4_rtl_0_cs_n" dir="out">
+              <pin_maps><pin_map port_index="0" component_pin="ddr4_rtl_0_cs_n_0"/></pin_maps>
+            </port_map>
+
+            <port_map logical_port="DM_N" physical_port="ddr4_rtl_0_dm_n" dir="inout" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="ddr4_rtl_0_dm_n_0"/>
+                <pin_map port_index="1" component_pin="ddr4_rtl_0_dm_n_1"/>
+              </pin_maps>
+            </port_map>
+
+            <port_map logical_port="DQ" physical_port="ddr4_rtl_0_dq" dir="inout" left="15" right="0">
+              <pin_maps>
+                <pin_map port_index="0"  component_pin="ddr4_rtl_0_dq_0"/>
+                <pin_map port_index="1"  component_pin="ddr4_rtl_0_dq_1"/>
+                <pin_map port_index="2"  component_pin="ddr4_rtl_0_dq_2"/>
+                <pin_map port_index="3"  component_pin="ddr4_rtl_0_dq_3"/>
+                <pin_map port_index="4"  component_pin="ddr4_rtl_0_dq_4"/>
+                <pin_map port_index="5"  component_pin="ddr4_rtl_0_dq_5"/>
+                <pin_map port_index="6"  component_pin="ddr4_rtl_0_dq_6"/>
+                <pin_map port_index="7"  component_pin="ddr4_rtl_0_dq_7"/>
+                <pin_map port_index="8"  component_pin="ddr4_rtl_0_dq_8"/>
+                <pin_map port_index="9"  component_pin="ddr4_rtl_0_dq_9"/>
+                <pin_map port_index="10" component_pin="ddr4_rtl_0_dq_10"/>
+                <pin_map port_index="11" component_pin="ddr4_rtl_0_dq_11"/>
+                <pin_map port_index="12" component_pin="ddr4_rtl_0_dq_12"/>
+                <pin_map port_index="13" component_pin="ddr4_rtl_0_dq_13"/>
+                <pin_map port_index="14" component_pin="ddr4_rtl_0_dq_14"/>
+                <pin_map port_index="15" component_pin="ddr4_rtl_0_dq_15"/>
+              </pin_maps>
+            </port_map>
+
+            <port_map logical_port="DQS_T" physical_port="ddr4_rtl_0_dqs_t" dir="inout" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="ddr4_rtl_0_dqs_t_0"/>
+                <pin_map port_index="1" component_pin="ddr4_rtl_0_dqs_t_1"/>
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="DQS_C" physical_port="ddr4_rtl_0_dqs_c" dir="inout" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="ddr4_rtl_0_dqs_c_0"/>
+                <pin_map port_index="1" component_pin="ddr4_rtl_0_dqs_c_1"/>
+              </pin_maps>
+            </port_map>
+
+            <port_map logical_port="ODT" physical_port="ddr4_rtl_0_odt" dir="out">
+              <pin_maps><pin_map port_index="0" component_pin="ddr4_rtl_0_odt_0"/></pin_maps>
+            </port_map>
+
+            <port_map logical_port="RESET_N" physical_port="ddr4_rtl_0_reset_n" dir="out">
+              <pin_maps><pin_map port_index="0" component_pin="ddr4_rtl_0_reset_n"/></pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+<interface mode="master" name="tpm" type="xilinx.com:interface:spi_rtl:1.0" of_component="tpm" preset_proc="tpm_preset">
+        <preferred_ips>
+			<preferred_ip vendor="xilinx.com" library="ip" name="axi_quad_spi" order="0"/>
+		</preferred_ips>
+		<port_maps>
+          <port_map logical_port="IO0_I" physical_port="tpm_mosi_i" dir="in">
+            <pin_maps>
+              <pin_map port_index="0" component_pin="tpm_mosi"/> 
+            </pin_maps>
+          </port_map>
+          <port_map logical_port="IO0_O" physical_port="tpm_mosi_o" dir="out">
+            <pin_maps>
+              <pin_map port_index="0" component_pin="tpm_mosi"/> 
+            </pin_maps>
+          </port_map>
+          <port_map logical_port="IO0_T" physical_port="tpm_mosi_t" dir="out">
+            <pin_maps>
+              <pin_map port_index="0" component_pin="tpm_mosi"/> 
+            </pin_maps>
+          </port_map>
+          <port_map logical_port="IO1_I" physical_port="tpm_miso_i" dir="in">
+            <pin_maps>
+              <pin_map port_index="0" component_pin="tpm_miso"/> 
+            </pin_maps>
+          </port_map>
+          <port_map logical_port="IO1_O" physical_port="tpm_miso_o" dir="out">
+            <pin_maps>
+              <pin_map port_index="0" component_pin="tpm_miso"/> 
+            </pin_maps>
+          </port_map>
+          <port_map logical_port="IO1_T" physical_port="tpm_miso_t" dir="out">
+            <pin_maps>
+              <pin_map port_index="0" component_pin="tpm_miso"/> 
+            </pin_maps>
+          </port_map>
+          <port_map logical_port="SCK_I" physical_port="tpm_sclk_i" dir="in">
+            <pin_maps>
+              <pin_map port_index="0" component_pin="tpm_sclk"/> 
+            </pin_maps>
+          </port_map>
+          <port_map logical_port="SCK_O" physical_port="tpm_sclk_o" dir="out">
+            <pin_maps>
+              <pin_map port_index="0" component_pin="tpm_sclk"/> 
+            </pin_maps>
+          </port_map>
+          <port_map logical_port="SCK_T" physical_port="tpm_sclk_t" dir="out">
+            <pin_maps>
+              <pin_map port_index="0" component_pin="tpm_sclk"/> 
+            </pin_maps>
+          </port_map>
+          <port_map logical_port="SS_I" physical_port="tpm_ss_i" dir="in">
+            <pin_maps>
+              <pin_map port_index="0" component_pin="tpm_ss"/> 
+            </pin_maps>
+          </port_map>
+          <port_map logical_port="SS_O" physical_port="tpm_ss_o" dir="out">
+            <pin_maps>
+              <pin_map port_index="0" component_pin="tpm_ss"/> 
+            </pin_maps>
+          </port_map>
+          <port_map logical_port="SS_T" physical_port="tpm_ss_t" dir="out">
+            <pin_maps>
+              <pin_map port_index="0" component_pin="tpm_ss"/> 
+            </pin_maps>
+          </port_map>
+        </port_maps>
+      </interface>   
+      <interface mode="master" name="tpm_rst" type="xilinx.com:interface:gpio_rtl:1.0" of_component="tpm_rst" preset_proc="tpm_rst_preset">
+        <description>TPM Reset</description>
+		<preferred_ips>
+			<preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+		</preferred_ips>
+		<port_maps>
+          <port_map logical_port="TRI_O" physical_port="tpm_reset_o" dir="out" > 
+            <pin_maps>
+              <pin_map port_index="0" component_pin="tpm_reset"/> 
+            </pin_maps>
+          </port_map>
+        </port_maps>
+      </interface>   	  
+
+    </interfaces>
+
+</component>
+
+
+<component name="fixed_fabric_100mhz" display_name="Fabric Fixed-Frequency Clock Oscillator (100MHz)"
+    type="chip" sub_type="system_clock" major_group="Clock Sources"
+    part_name="ASDMPLV-100.000MHZ-LR-T3" vendor="Microchip">
+
+    <description>This clock is attached to HP bank 65.</description>
+
+    <parameters>
+        <parameter name="frequency" value="100000000"/>
+    </parameters>
+
+</component>
+
+  <component name="rgb_led" display_name="Onboard RGB LED" type="chip" sub_type="led" major_group="GPIO">
+  	<description>RGB leds 2 to 0 (3 per LED)</description>
+  </component>
+
+<component name="fixed_ddr4_100mhz" display_name="DDR4 Fixed-Frequency Clock Oscillator (100MHz)"
+    type="chip" sub_type="system_clock" major_group="Clock Sources"
+    part_name="DSC1123DI2-100.0000" vendor="Microchip">
+
+    <description>DDR4 refclk for MIG.</description>
+      <component_modes>
+        <component_mode name="refclk_ddr4" display_name="DDR4">
+          <interfaces>
+            <interface name="fixed_ddr4_100mhz" />
+            <interface name="ddr4" />
+          </interfaces>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="ddr4" order="0" />
+          </preferred_ips>
+        </component_mode>
+      </component_modes>
+    <parameters>
+        <parameter name="frequency" value="100000000"/>
+    </parameters>
+    
+    </component>
+
+<component name="ddr4" display_name="ddr4" type="chip" sub_type="ddr" major_group="External Memory" part_name="MT40A512M16LY-075" vendor="Micron" spec_url="https://www.micron.com/parts/dram/ddr4-sdram/mt40a256m16ge-075e">
+      <description>1 GiB DDR4 Memory</description>
+      <parameters>
+        <parameter name="ddr_type" value="ddr4" />
+        <parameter name="size" value="1GiB " />
+      </parameters>
+      <component_modes>
+        <component_mode name="ddr4_refclk" display_name="ddr4">
+          <interfaces>
+            <interface name="fixed_ddr4_100mhz" />
+            <interface name="ddr4" />
+          </interfaces>
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="ddr4" order="0" />
+          </preferred_ips>
+        </component_mode>
+      </component_modes>
+    </component>
+
+<component name="tpm" display_name="TPM Interface" type="chip" sub_type="mux" major_group="SPI">
+  	<description>TPM Interface</description>
+  </component> 
+<component name="tpm_rst" display_name="TPM Reset" type="chip" sub_type="led" major_group="GPIO">
+  <description>TPM Reset</description>
+  </component>
+
+</components>
+
+
+<jtag_chains>
+  <jtag_chain name="chain1">
+    <position name="0" component="part0"/>
+  </jtag_chain>
+</jtag_chains>
+<connections>
+  <connection name="part0_fixed_fabric_100mhz" component1="part0" component2="fixed_fabric_100mhz">
+      <connection_map name="part0_fixed_fabric_100mhz_map" typical_delay="5" c1_st_index="53" c1_end_index="54" c2_st_index="0" c2_end_index="1" />
+    </connection>
+  <connection name="part0_fixed_ddr4_100mhz" component1="part0" component2="fixed_ddr4_100mhz">
+      <connection_map name="part0_fixed_ddr4_100mhz_map" typical_delay="5" c1_st_index="55" c1_end_index="56" c2_st_index="0" c2_end_index="1" />
+    </connection>
+  <connection name="part0_rgb_led" component1="part0" component2="rgb_led">
+    <connection_map name="part0_rgb_led_1" c1_st_index="1" c1_end_index="3" c2_st_index="0" c2_end_index="2"/>
+  </connection> 
+  <connection name="part0_ddr4" component1="part0" component2="ddr4">
+    <connection_map name="part0_ddr4_map" typical_delay="5" c1_st_index="4" c1_end_index="52" c2_st_index="0" c2_end_index="48"/>
+  </connection>  
+<connection name="part0_tpm" component1="part0" component2="tpm">
+    <connection_map name="part0_tpm_1" c1_st_index="4" c1_end_index="7" c2_st_index="0" c2_end_index="3"/>
+  </connection>  
+  <connection name="part0_tpm_rst" component1="part0" component2="tpm_rst">
+    <connection_map name="part0_tpm_rst_1" c1_st_index="8" c1_end_index="8" c2_st_index="0" c2_end_index="0"/>
+  </connection>
+</connections>
+</board>

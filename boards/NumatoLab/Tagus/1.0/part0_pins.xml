@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<part_info part_name="xc7a200tfbg484-2">
+<pins>
+  <pin index="0" name ="clk" iostandard="LVCMOS33" loc="W19"/>
+  <pin index="1" name ="reset" iostandard="LVCMOS33" loc="P17"/>
+  <pin index="2" name ="usb_uart_rxd" iostandard="LVCMOS33" loc="P14"/>
+  <pin index="3" name ="usb_uart_txd" iostandard="LVCMOS33" loc="R14"/>
+  <pin index="4" name ="rgb_led_0" iostandard="LVCMOS33" loc="W21"/>
+  <pin index="5" name ="rgb_led_1" iostandard="LVCMOS33" loc="W22"/>
+  <pin index="6" name ="rgb_led_2" iostandard="LVCMOS33" loc="AA20"/>
+
+  <pin index="7" name="gpio_u1_port0_0" iostandard="LVCMOS33" loc="D17"/>
+  <pin index="8" name="gpio_u1_port0_1" iostandard="LVCMOS33" loc="C17"/>
+  <pin index="9" name="gpio_u1_port0_2" iostandard="LVCMOS33" loc="J19"/>
+  <pin index="10" name="gpio_u1_port0_3" iostandard="LVCMOS33" loc="H19"/>
+  <pin index="11" name="gpio_u1_port0_4" iostandard="LVCMOS33" loc="E19"/>
+  <pin index="12" name="gpio_u1_port0_5" iostandard="LVCMOS33" loc="D19"/>
+  <pin index="13" name="gpio_u1_port0_6" iostandard="LVCMOS33" loc="F13"/>
+  <pin index="14" name="gpio_u1_port0_7" iostandard="LVCMOS33" loc="F14"/>
+  <pin index="15" name="gpio_u1_port0_8" iostandard="LVCMOS33" loc="F18"/>
+  <pin index="16" name="gpio_u1_port0_9" iostandard="LVCMOS33" loc="E18"/>
+  <pin index="17" name="gpio_u1_port0_10" iostandard="LVCMOS33" loc="L19"/>
+  <pin index="18" name="gpio_u1_port0_11" iostandard="LVCMOS33" loc="L20"/>
+  <pin index="19" name="gpio_u1_port0_12" iostandard="LVCMOS33" loc="J22"/>
+  <pin index="20" name="gpio_u1_port0_13" iostandard="LVCMOS33" loc="H22"/>
+  <pin index="21" name="gpio_u1_port0_14" iostandard="LVCMOS33" loc="B20"/>
+  <pin index="22" name="gpio_u1_port0_15" iostandard="LVCMOS33" loc="A20"/>
+  <pin index="23" name="gpio_u1_port0_16" iostandard="LVCMOS33" loc="F16"/>
+  <pin index="24" name="gpio_u1_port0_17" iostandard="LVCMOS33" loc="E17"/>
+  <pin index="25" name="gpio_u1_port0_18" iostandard="LVCMOS33" loc="N22"/>
+  <pin index="26" name="gpio_u1_port0_19" iostandard="LVCMOS33" loc="M22"/>
+  <pin index="27" name="gpio_u1_port0_20" iostandard="LVCMOS33" loc="H20"/>
+  <pin index="28" name="gpio_u1_port0_21" iostandard="LVCMOS33" loc="G20"/>
+  <pin index="29" name="gpio_u1_port0_22" iostandard="LVCMOS33" loc="A18"/>
+  <pin index="30" name="gpio_u1_port0_23" iostandard="LVCMOS33" loc="A19"/>
+  <pin index="31" name="gpio_u1_port0_24" iostandard="LVCMOS33" loc="C14"/>
+  <pin index="32" name="gpio_u1_port0_25" iostandard="LVCMOS33" loc="C15"/>
+  <pin index="33" name="gpio_u1_port0_26" iostandard="LVCMOS33" loc="M18"/>
+  <pin index="34" name="gpio_u1_port0_27" iostandard="LVCMOS33" loc="L18"/>
+  <pin index="35" name="gpio_u1_port0_28" iostandard="LVCMOS33" loc="K21"/>
+  <pin index="36" name="gpio_u1_port0_29" iostandard="LVCMOS33" loc="K22"/>
+  <pin index="37" name="gpio_u1_port0_30" iostandard="LVCMOS33" loc="F19"/>
+  <pin index="38" name="gpio_u1_port0_31" iostandard="LVCMOS33" loc="F20"/>
+   
+  <pin index="39" name="gpio_u1_port1_0" iostandard="LVCMOS33" loc="E13"/>
+  <pin index="40" name="gpio_u1_port1_1" iostandard="LVCMOS33" loc="E14"/>
+  <pin index="41" name="gpio_u1_port1_2" iostandard="LVCMOS33" loc="B17"/>
+  <pin index="42" name="gpio_u1_port1_3" iostandard="LVCMOS33" loc="B18"/>
+  <pin index="43" name="gpio_u1_port1_4" iostandard="LVCMOS33" loc="J20"/>
+  <pin index="44" name="gpio_u1_port1_5" iostandard="LVCMOS33" loc="J21"/>
+  <pin index="45" name="gpio_u1_port1_6" iostandard="LVCMOS33" loc="D20"/>
+  <pin index="46" name="gpio_u1_port1_7" iostandard="LVCMOS33" loc="C20"/>
+  <pin index="47" name="gpio_u1_port1_8" iostandard="LVCMOS33" loc="E16"/>
+  <pin index="48" name="gpio_u1_port1_9" iostandard="LVCMOS33" loc="D16"/>
+  <pin index="49" name="gpio_u1_port1_10" iostandard="LVCMOS33" loc="C22"/>
+  <pin index="50" name="gpio_u1_port1_11" iostandard="LVCMOS33" loc="B22"/>
+  <pin index="51" name="gpio_u1_port1_12" iostandard="LVCMOS33" loc="D14"/>
+  <pin index="52" name="gpio_u1_port1_13" iostandard="LVCMOS33" loc="D15"/>
+  <pin index="53" name="gpio_u1_port1_14" iostandard="LVCMOS33" loc="N18"/>
+  <pin index="54" name="gpio_u1_port1_15" iostandard="LVCMOS33" loc="N19"/>
+  <pin index="55" name="gpio_u1_port1_16" iostandard="LVCMOS33" loc="B21"/>
+  <pin index="56" name="gpio_u1_port1_17" iostandard="LVCMOS33" loc="A21"/>
+  <pin index="57" name="gpio_u1_port1_18" iostandard="LVCMOS33" loc="B15"/>
+  <pin index="58" name="gpio_u1_port1_19" iostandard="LVCMOS33" loc="B16"/>
+  <pin index="59" name="gpio_u1_port1_20" iostandard="LVCMOS33" loc="N20"/>
+  <pin index="60" name="gpio_u1_port1_21" iostandard="LVCMOS33" loc="M20"/>
+  <pin index="61" name="gpio_u1_port1_22" iostandard="LVCMOS33" loc="M21"/>
+  <pin index="62" name="gpio_u1_port1_23" iostandard="LVCMOS33" loc="L21"/>
+  <pin index="63" name="gpio_u1_port1_24" iostandard="LVCMOS33" loc="E22"/>
+  <pin index="64" name="gpio_u1_port1_25" iostandard="LVCMOS33" loc="D22"/>
+  <pin index="65" name="gpio_u1_port1_26" iostandard="LVCMOS33" loc="C13"/>
+  <pin index="66" name="gpio_u1_port1_27" iostandard="LVCMOS33" loc="B13"/>
+  <pin index="67" name="gpio_u1_port1_28" iostandard="LVCMOS33" loc="E21"/>
+  <pin index="68" name="gpio_u1_port1_29" iostandard="LVCMOS33" loc="D21"/>
+  <pin index="69" name="gpio_u1_port1_30" iostandard="LVCMOS33" loc="A15"/>
+  <pin index="70" name="gpio_u1_port1_31" iostandard="LVCMOS33" loc="A16"/>
+  
+  <pin index="71" name="gpio_u1_port2_0" iostandard="LVCMOS33" loc="G21"/>
+  <pin index="72" name="gpio_u1_port2_1" iostandard="LVCMOS33" loc="G22"/>
+  <pin index="73" name="gpio_u1_port2_2" iostandard="LVCMOS33" loc="A13"/>
+  <pin index="74" name="gpio_u1_port2_3" iostandard="LVCMOS33" loc="A14"/>
+  
+  <pin index="75" name="gpio_u1_port3_0" iostandard="LVCMOS33" loc="K18"/>
+  <pin index="76" name="gpio_u1_port3_1" iostandard="LVCMOS33" loc="K19"/>
+  <pin index="77" name="gpio_u1_port3_2" iostandard="LVCMOS33" loc="C18"/>
+  <pin index="78" name="gpio_u1_port3_3" iostandard="LVCMOS33" loc="C19"/>
+  <pin index="79" name="gpio_u1_port3_4" iostandard="LVCMOS33" loc="V20"/>
+  <pin index="80" name="gpio_u1_port3_5" iostandard="LVCMOS33" loc="N13"/>
+  <pin index="81" name="gpio_u1_port3_6" iostandard="LVCMOS33" loc="N14"/>
+  <pin index="82" name="gpio_u1_port3_7" iostandard="LVCMOS33" loc="W17"/>
+  
+  	<pin index="83" name ="pcie_mgt_clkn" loc="E6"/>
+	<pin index="84" name ="pcie_mgt_clkp" loc="F6"/>
+	<pin index="85" name ="pcie_perstn_rst" iostandard="LVCMOS33" loc="W20"/>
+	<pin index="86" name ="pcie_rx0_n" loc="A8"/>
+	
+	<pin index="87" name ="pcie_rx0_p" loc="B8"/>
+	
+	<pin index="88" name ="pcie_tx0_n" loc="A4"/>
+	
+	<pin index="89" name ="pcie_tx0_p" loc="B4"/>
+  
+</pins>
+</part_info>

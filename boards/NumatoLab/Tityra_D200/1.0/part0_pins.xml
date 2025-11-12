@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<part_info part_name="xc7z020clg484-1">
+  <pins>
+    <pin index="0" name="clk" iostandard="LVCMOS33" loc="W17"/>
+    <pin index="1" name="led0" iostandard="LVCMOS33" loc="U18"/>
+    <pin index="2" name="led1" iostandard="LVCMOS33" loc="V17"/>
+    <pin index="3" name="led2" iostandard="LVCMOS33" loc="V16"/>
+    <pin index="4" name="led3" iostandard="LVCMOS33" loc="U16"/>
+  </pins>
+</part_info>

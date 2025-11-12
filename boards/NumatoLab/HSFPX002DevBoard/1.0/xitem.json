@@ -1,0 +1,34 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "HSFPX002_DevBoard",
+          "display": "HSFPX002_DevBoard",
+          "revision": "1.0",
+          "description": "HSFPX002_DevBoard",
+          "company": "numato.com",
+          "company_display": "Numato_Lab",
+          "author": "Akash",
+          "contributors": [
+            {
+              "group": "Numato_Lab",
+              "url": "https://numato.com/"
+            }
+          ],
+          "category": "Single Part",
+          "website": "www.numato.com/",
+          "logo": "HSFPX002.png",
+          "search-keywords": [
+            "HSFPX002_DevBoard",
+            "numato.com",
+            "board",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

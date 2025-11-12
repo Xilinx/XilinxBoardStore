@@ -1,0 +1,34 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "CallistoK7DevBoard7K160T",
+          "display": "CallistoK7DevBoard7K160T",
+          "revision": "1.0",
+          "description": "CallistoK7DevBoard7K160T",
+          "company": "numato.com",
+          "company_display": "Numato_Lab",
+          "author": "Akash",
+          "contributors": [
+            {
+              "group": "Numato_Lab",
+              "url": "https://numato.com/"
+            }
+          ],
+          "category": "Single Part",
+          "website": "www.numato.com/",
+          "logo": "Callisto.png",
+          "search-keywords": [
+            "CallistoK7DevBoard7K160T",
+            "numato.com",
+            "board",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}
