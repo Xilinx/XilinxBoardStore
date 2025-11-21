@@ -8759,6 +8759,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "iwave-global.com"
+      },
+      {
+        "name": "iW-G28M-SM20-3D512M-E008G-BIF",
+        "display": "iW-G28M-SM20-3D512M-E008G-BIF",
+        "latest_revision": "4.0",
+        "commit_id": "6893159923a165b13e169bec7bafca05299e146c",
+        "revisions": [
+          {
+            "revision": "4.0",
+            "commit_id": "6893159923a165b13e169bec7bafca05299e146c",
+            "date": "21-11-2025:06:26:29",
+            "history": "Added board iW-G28M-SM20-3D512M-E008G-BIF v4.0"
+          }
+        ],
+        "config": {
+          "root": "boards/iWave/iW-G28M-SM20-3D512M-E008G-BIF/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "iwavesystems.com"
       }
     ],
     "categories": [
