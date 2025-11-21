@@ -8778,6 +8778,63 @@
           "metadata_file": "xitem.json"
         },
         "company": "iwavesystems.com"
+      },
+      {
+        "name": "iW-G36M-2CG1-4D004G-E016G-BEB",
+        "display": "iW-G36M-2CG1-4D004G-E016G-BEB",
+        "latest_revision": "2.1",
+        "commit_id": "1f88c36952f48473247b85b14c5ddd1875d1e569",
+        "revisions": [
+          {
+            "revision": "2.1",
+            "commit_id": "1f88c36952f48473247b85b14c5ddd1875d1e569",
+            "date": "21-11-2025:06:31:23",
+            "history": "Added board iW-G36M-2CG1-4D004G-E016G-BEB v2.1"
+          }
+        ],
+        "config": {
+          "root": "boards/iWave/iW-G36M-2CG1-4D004G-E016G-BEB",
+          "metadata_file": "xitem.json"
+        },
+        "company": "iwave-global.com"
+      },
+      {
+        "name": "iW-G36M-3EG1-4D004G-E016G-BIB",
+        "display": "iW-G36M-3EG1-4D004G-E016G-BIB",
+        "latest_revision": "2.2",
+        "commit_id": "1f88c36952f48473247b85b14c5ddd1875d1e569",
+        "revisions": [
+          {
+            "revision": "2.2",
+            "commit_id": "1f88c36952f48473247b85b14c5ddd1875d1e569",
+            "date": "21-11-2025:06:31:23",
+            "history": "Added board iW-G36M-3EG1-4D004G-E016G-BIB v2.2"
+          }
+        ],
+        "config": {
+          "root": "boards/iWave/iW-G36M-3EG1-4D004G-E016G-BIB",
+          "metadata_file": "xitem.json"
+        },
+        "company": "iwave-global.com"
+      },
+      {
+        "name": "iW-G36M-5EV1-4D004G-E016G-BEB",
+        "display": "iW-G36M-5EV1-4D004G-E016G-BEB",
+        "latest_revision": "2.0",
+        "commit_id": "1f88c36952f48473247b85b14c5ddd1875d1e569",
+        "revisions": [
+          {
+            "revision": "2.0",
+            "commit_id": "1f88c36952f48473247b85b14c5ddd1875d1e569",
+            "date": "21-11-2025:06:31:23",
+            "history": "Added board iW-G36M-5EV1-4D004G-E016G-BEB v2.0"
+          }
+        ],
+        "config": {
+          "root": "boards/iWave/iW-G36M-5EV1-4D004G-E016G-BEB",
+          "metadata_file": "xitem.json"
+        },
+        "company": "iwave-global.com"
       }
     ],
     "categories": [
