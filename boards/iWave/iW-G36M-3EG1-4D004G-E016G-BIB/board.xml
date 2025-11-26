@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<!-- ********************************************************************** -->
+<!-- 				    iWave Systems Technologies 				            -->
+<!-- ********************************************************************** -->
+<!-- SOM Supported	: iW-PRHTZ-R2.2											-->
+<!-- Date Created	: 23Oct2025												-->
+<!-- ********************************************************************** -->
+
+<board schema_version="2.1" vendor="iwave-global.com" name="iW-G36M-3EG1-4D004G-E016G-BIB" display_name="iW-G36M-3EG1-4D004G-E016G-BIB" url="https://www.iwavesystems.com/zynq-zu5-zu4-zu3t-zu3-zu2-zu1-processor-and-system-on-modules/" preset_file="preset.xml">
+	
+	<images>
+		<image display_name="iW-G36-SOM" name="iW-G36-SOM.jpeg" sub_type="board">
+			<description>iW-G36-SOM Image</description>
+		</image>
+	</images>
+
+	<compatible_board_revisions>
+		<revision id="0">2.2</revision>
+	</compatible_board_revisions>
+
+	<file_version>1.0</file_version>
+
+	<description>Zynq UltraScale+ MPSoC 3EG-1-I SOM, 4GB PS DDR4, 16GB eMMC Flash</description>
+
+	<components>
+	
+		<component display_name="Zynq chip on board" name="part0" vendor="xilinx" type="fpga" spec_url="https://www.iwavesystems.com/zynq-zu5-zu4-zu3t-zu3-zu2-zu1-processor-and-system-on-modules/" pin_map_file="" part_name="xczu3eg-sfvc784-1-i">
+			<description>FPGA part on the board</description>
+			<interfaces>
+			
+				<interface name="ps8_fixedio" type="xilinx.com:zynq_ultra_ps_e:fixedio_rtl:1.0" preset_proc="zynq_ultra_ps_e_preset" of_component="ps8_fixedio" mode="master">
+					<preferred_ips>
+						<preferred_ip name="zynq_ultra_ps_e" vendor="xilinx.com" order="0" library="ip"/>
+					</preferred_ips>
+				</interface>
+			</interfaces>
+		</component>
+
+		<component display_name="PS8 fixed IO" name="ps8_fixedio" sub_type="fixed_io" type="chip" major_group=""/>	
+	</components>
+
+	<jtag_chains>
+		<jtag_chain name="chain1">
+			<position name="0" component="part0"/>
+		</jtag_chain>
+	</jtag_chains>
+
+	<connections>
+
+	</connections>
+
+	<ip_associated_rules>
+		<ip_associated_rule name="default">
+		</ip_associated_rule>
+	</ip_associated_rules>
+
+</board>
