@@ -1,0 +1,36 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "iW-G47M-K19P-4E008G-Q128M-LIF", 
+          "display": "iW-G47M-K19P-4E008G-Q128M-LIF", 
+          "revision": "3.1", 
+          "description": "Kintex UltraScale+ KU19P-2-I SOM, Dual 4GB DDR4 with ECC, 128MB QSPI Flash", 
+          "company": "iwavesystems.com", 
+          "company_display": "iWave Systems Technologies", 
+          "author": "iwavesystems.com", 
+          "contributors": [
+            {
+              "group": "iWave Systems Technologies", 
+              "url": "https://www.iwavesystems.com/"
+            }
+          ], 
+          "category": "System on Module", 
+          "website": "https://www.iwavesystems.com/product/ku19p-fpga-system-on-module", 
+          "logo": "iW-G47-SOM.jpg", 
+          "search-keywords": [
+            "iW-G47M-K19P-4E008G-Q128M-LIF", 
+            "iwavesystems.com", 
+			"board",
+			"iW-G47-SOM",
+            "System on Module",
+			"SOM"
+          ]
+        }
+      }
+    ]
+  }, 
+  "_major": 1, 
+  "_minor": 0
+}

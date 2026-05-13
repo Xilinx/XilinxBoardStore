@@ -1,0 +1,34 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "admpb125_vp2502_2ms",
+          "display": "ADM-PB125/VP2502",
+          "revision": "1.0",
+          "description": "ADM-PB125 PCI Express Reconfigurable Computing Card (XCVP2502-2MS, Board Rev. 1+)",
+          "company": "alpha-data.com",
+          "company_display": "Alpha Data",
+          "author": "adps",
+          "contributors": [
+            {
+              "group": "Alpha Data",
+              "url": "www.alpha-data.com"
+            }
+          ],
+          "category": "Single Part",
+          "website": "https://alpha-data.com/product/adm-pb125/",
+          "logo": "admpb125.jpg",
+          "search-keywords": [
+            "admpb125_vp2502_2ms",
+            "alpha-data.com",
+            "board",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

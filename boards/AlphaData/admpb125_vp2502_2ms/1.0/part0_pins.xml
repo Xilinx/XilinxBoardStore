@@ -1,0 +1,1100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<!--
+Notes
+1. LPDDR4-related pins don't require iostandard attribute because AXI NoC IP contains them.
+2. GT bank pins don't require iostandard attribute. 
+!-->
+
+<part_info part_name="xcvp2502-vsvb3340-2MHP-e-S">
+  <pins>
+ 
+    <!-- I/O Bank 102 (GTYP) !-->
+    <!-- <pin index="101"   name="NC"                      loc="AR12"/> !-->
+    <!-- <pin index="102"   name="NC"                      loc="AR13"/> !-->
+    <pin index="103"   name="pcie_refclk_0_n"         loc="AU12"/>
+    <pin index="104"   name="pcie_refclk_0_p"         loc="AU13"/>
+    <pin index="105"   name="pcie_rx15_n"             loc="AL1" />
+    <pin index="106"   name="pcie_rx15_p"             loc="AL2" />
+    <pin index="107"   name="pcie_rx14_n"             loc="AJ1" />
+    <pin index="108"   name="pcie_rx14_p"             loc="AJ2" />
+    <pin index="109"   name="pcie_rx13_n"             loc="AH3" />
+    <pin index="110"   name="pcie_rx13_p"             loc="AH4" />
+    <pin index="111"   name="pcie_rx12_n"             loc="AG1" />
+    <pin index="112"   name="pcie_rx12_p"             loc="AG2" />
+    <pin index="113"   name="pcie_tx15_n"             loc="AN6" />
+    <pin index="114"   name="pcie_tx15_p"             loc="AN7" />
+    <pin index="115"   name="pcie_tx14_n"             loc="AM4" />
+    <pin index="116"   name="pcie_tx14_p"             loc="AM5" />
+    <pin index="117"   name="pcie_tx13_n"             loc="AM8" />
+    <pin index="118"   name="pcie_tx13_p"             loc="AM9" />
+    <pin index="119"   name="pcie_tx12_n"             loc="AL6" />
+    <pin index="120"   name="pcie_tx12_p"             loc="AL7" />
+
+    <!-- I/O Bank 103 (GTYP) !-->
+    <!-- <pin index="201"   name="NC"                      loc="AL10"/> !-->
+    <!-- <pin index="202"   name="NC"                      loc="AL11"/> !-->
+    <pin index="203"   name="pcie_lcl_refclk_n"       loc="AN10"/>
+    <pin index="204"   name="pcie_lcl_refclk_p"       loc="AN11"/>
+    <pin index="205"   name="pcie_rx11_n"             loc="AF3" />
+    <pin index="206"   name="pcie_rx11_p"             loc="AF4" />
+    <pin index="207"   name="pcie_rx10_n"             loc="AE1" />
+    <pin index="208"   name="pcie_rx10_p"             loc="AE2" />
+    <pin index="209"   name="pcie_rx9_n"              loc="AD3" />
+    <pin index="210"   name="pcie_rx9_p"              loc="AD4" />
+    <pin index="211"   name="pcie_rx8_n"              loc="AC1" />
+    <pin index="212"   name="pcie_rx8_p"              loc="AC2" />
+    <pin index="213"   name="pcie_tx11_n"             loc="AK4" />
+    <pin index="214"   name="pcie_tx11_p"             loc="AK5" />
+    <pin index="215"   name="pcie_tx10_n"             loc="AJ6" />
+    <pin index="216"   name="pcie_tx10_p"             loc="AJ7" />
+    <pin index="217"   name="pcie_tx9_n"              loc="AH8" />
+    <pin index="218"   name="pcie_tx9_p"              loc="AH9" />
+    <pin index="219"   name="pcie_tx8_n"              loc="AG6" />
+    <pin index="220"   name="pcie_tx8_p"              loc="AG7" />
+
+    <!-- I/O Bank 104 (GTYP) !-->
+    <!-- <pin index="301"   name="NC"                      loc="AJ10"/> !-->
+    <!-- <pin index="302"   name="NC"                      loc="AJ11"/> !-->
+    <pin index="303"   name="pcie_refclk_1_n"         loc="AK8" />
+    <pin index="304"   name="pcie_refclk_1_p"         loc="AK9" />
+    <pin index="305"   name="pcie_rx5_n"              loc="Y3"  />
+    <pin index="306"   name="pcie_rx5_p"              loc="Y4"  />
+    <pin index="307"   name="pcie_rx4_n"              loc="W1"  />
+    <pin index="308"   name="pcie_rx4_p"              loc="W2"  />
+    <pin index="309"   name="pcie_rx7_n"              loc="AB3" />
+    <pin index="310"   name="pcie_rx7_p"              loc="AB4" />
+    <pin index="311"   name="pcie_rx6_n"              loc="AA1" />
+    <pin index="312"   name="pcie_rx6_p"              loc="AA2" />
+    <pin index="313"   name="pcie_tx5_n"              loc="AC6" />
+    <pin index="314"   name="pcie_tx5_p"              loc="AC7" />
+    <pin index="315"   name="pcie_tx4_n"              loc="AA6" />
+    <pin index="316"   name="pcie_tx4_p"              loc="AA7" />
+    <pin index="317"   name="pcie_tx7_n"              loc="AF8" />
+    <pin index="318"   name="pcie_tx7_p"              loc="AF9" />
+    <pin index="319"   name="pcie_tx6_n"              loc="AE6" />
+    <pin index="320"   name="pcie_tx6_p"              loc="AE7" />
+
+    <!-- I/O Bank 105 (GTYP) !-->
+    <!-- <pin index="401"   name="NC"                      loc="AE10"/> !-->
+    <!-- <pin index="402"   name="NC"                      loc="AD8" /> !-->
+    <!-- <pin index="403"   name="NC"                      loc="AE11"/> !-->
+    <!-- <pin index="404"   name="NC"                      loc="AD9" /> !-->
+    <pin index="405"   name="pcie_rx3_n"              loc="U1"  />
+    <pin index="406"   name="pcie_rx3_p"              loc="U2"  />
+    <pin index="407"   name="pcie_rx2_n"              loc="R1"  />
+    <pin index="408"   name="pcie_rx2_p"              loc="R2"  />
+    <pin index="409"   name="pcie_rx1_n"              loc="N1"  />
+    <pin index="410"   name="pcie_rx1_p"              loc="N2"  />
+    <pin index="411"   name="pcie_rx0_n"              loc="L1"  />
+    <pin index="412"   name="pcie_rx0_p"              loc="L2"  />
+    <pin index="413"   name="pcie_tx3_n"              loc="W6"  />
+    <pin index="414"   name="pcie_tx3_p"              loc="W7"  />
+    <pin index="415"   name="pcie_tx2_n"              loc="V4"  />
+    <pin index="416"   name="pcie_tx2_p"              loc="V5"  />
+    <pin index="417"   name="pcie_tx1_n"              loc="U6"  />
+    <pin index="418"   name="pcie_tx1_p"              loc="U7"  />
+    <pin index="419"   name="pcie_tx0_n"              loc="T4"  />
+    <pin index="420"   name="pcie_tx0_p"              loc="T5"  />
+
+    <!-- I/O Bank 106 (GTYP) !-->
+    <!-- I/O Bank 106 is not connected !-->
+
+    <!-- I/O Bank 109 (GTM) !-->
+    <pin index="601"   name="mgt_progclk_0_p"         loc="Y9"  />
+    <pin index="602"   name="mgt_progclk_0_n"         loc="Y8"  />
+    <pin index="603"   name="si5402_out6_p"           loc="W11" />
+    <pin index="604"   name="si5402_out6_n"           loc="W10" />
+    <pin index="605"   name="qsfp2_tx0_n"             loc="G5"  />
+    <pin index="606"   name="qsfp2_tx1_n"             loc="J6"  />
+    <pin index="607"   name="qsfp2_tx2_n"             loc="G7"  />
+    <pin index="608"   name="qsfp2_tx3_n"             loc="J8"  />
+    <pin index="609"   name="qsfp2_tx0_p"             loc="H5"  />
+    <pin index="610"   name="qsfp2_tx1_p"             loc="K6"  />
+    <pin index="611"   name="qsfp2_tx2_p"             loc="H7"  />
+    <pin index="612"   name="qsfp2_tx3_p"             loc="K8"  />
+    <pin index="613"   name="qsfp2_rx0_n"             loc="D4"  />
+    <pin index="614"   name="qsfp2_rx1_n"             loc="B5"  />
+    <pin index="615"   name="qsfp2_rx2_n"             loc="D6"  />
+    <pin index="616"   name="qsfp2_rx3_n"             loc="B7"  />
+    <pin index="617"   name="qsfp2_rx0_p"             loc="E4"  />
+    <pin index="618"   name="qsfp2_rx1_p"             loc="C5"  />
+    <pin index="619"   name="qsfp2_rx2_p"             loc="E6"  />
+    <pin index="620"   name="qsfp2_rx3_p"             loc="C7"  />
+
+    <!-- I/O Bank 110 (GTM) !-->
+    <pin index="701"   name="si5344_out0_p"           loc="U11" />
+    <pin index="702"   name="si5344_out0_n"           loc="U10" />
+    <pin index="703"   name="si5402_out7_p"           loc="T9"  />
+    <pin index="704"   name="si5402_out7_n"           loc="T8"  />
+    <pin index="705"   name="qsfp2_tx4_n"             loc="G9"  />
+    <pin index="706"   name="qsfp2_tx5_n"             loc="J10" />
+    <pin index="707"   name="qsfp2_tx6_n"             loc="G11" />
+    <pin index="708"   name="qsfp2_tx7_n"             loc="J12" />
+    <pin index="709"   name="qsfp2_tx4_p"             loc="H9"  />
+    <pin index="710"   name="qsfp2_tx5_p"             loc="K10" />
+    <pin index="711"   name="qsfp2_tx6_p"             loc="H11" />
+    <pin index="712"   name="qsfp2_tx7_p"             loc="K12" />
+    <pin index="713"   name="qsfp2_rx4_n"             loc="D8"  />
+    <pin index="714"   name="qsfp2_rx5_n"             loc="B9"  />
+    <pin index="715"   name="qsfp2_rx6_n"             loc="D10" />
+    <pin index="716"   name="qsfp2_rx7_n"             loc="B11" />
+    <pin index="717"   name="qsfp2_rx4_p"             loc="E8"  />
+    <pin index="718"   name="qsfp2_rx5_p"             loc="C9"  />
+    <pin index="719"   name="qsfp2_rx6_p"             loc="E10" />
+    <pin index="720"   name="qsfp2_rx7_p"             loc="C11" />
+
+    <!-- I/O Bank 111 (GTM) !-->
+    <!-- I/O Bank 111 is not connected !-->
+
+    <!-- I/O Bank 112 (GTM) !-->
+    <!-- I/O Bank 112 is not connected !-->
+
+    <!-- I/O Bank 200 (GTYP) !-->
+    <pin index="1001"  name="mgt_progclk_2_n"         loc="BA45"/>
+    <pin index="1002"  name="mgt_progclk_2_p"         loc="BA44"/>
+    <pin index="1003"  name="qsfp0_rx0_n"             loc="BC56"/>
+    <pin index="1004"  name="qsfp0_rx0_p"             loc="BC55"/>
+    <pin index="1005"  name="qsfp0_rx1_n"             loc="BB58"/>
+    <pin index="1006"  name="qsfp0_rx1_p"             loc="BB57"/>
+    <pin index="1007"  name="qsfp0_rx2_n"             loc="BA56"/>
+    <pin index="1008"  name="qsfp0_rx2_p"             loc="BA55"/>
+    <pin index="1009"  name="qsfp0_rx3_n"             loc="AY58"/>
+    <pin index="1010"  name="qsfp0_rx3_p"             loc="AY57"/>
+    <pin index="1011"  name="qsfp0_tx0_n"             loc="BC53"/>
+    <pin index="1012"  name="qsfp0_tx0_p"             loc="BC52"/>
+    <pin index="1013"  name="qsfp0_tx1_n"             loc="BC49"/>
+    <pin index="1014"  name="qsfp0_tx1_p"             loc="BC48"/>
+    <pin index="1015"  name="qsfp0_tx2_n"             loc="BB51"/>
+    <pin index="1016"  name="qsfp0_tx2_p"             loc="BB50"/>
+    <pin index="1017"  name="qsfp0_tx3_n"             loc="BA53"/>
+    <pin index="1018"  name="qsfp0_tx3_p"             loc="BA52"/>
+    <pin index="1019"  name="si5402_out1_n"           loc="AY47"/>
+    <pin index="1020"  name="si5402_out1_p"           loc="AY46"/>
+
+    <!-- I/O Bank 201 (GTYP) !-->
+    <pin index="1101"  name="qsfp0_rx4_n"             loc="AW56"/>
+    <pin index="1102"  name="qsfp0_rx4_p"             loc="AW55"/>
+    <pin index="1103"  name="qsfp0_rx5_n"             loc="AV58"/>
+    <pin index="1104"  name="qsfp0_rx5_p"             loc="AV57"/>
+    <pin index="1105"  name="qsfp0_rx6_n"             loc="AU56"/>
+    <pin index="1106"  name="qsfp0_rx6_p"             loc="AU55"/>
+    <pin index="1107"  name="qsfp0_rx7_n"             loc="AT58"/>
+    <pin index="1108"  name="qsfp0_rx7_p"             loc="AT57"/>
+    <pin index="1109"  name="qsfp0_tx4_n"             loc="BA49"/>
+    <pin index="1110"  name="qsfp0_tx4_p"             loc="BA48"/>
+    <pin index="1111"  name="qsfp0_tx5_n"             loc="AY51"/>
+    <pin index="1112"  name="qsfp0_tx5_p"             loc="AY50"/>
+    <pin index="1113"  name="qsfp0_tx6_n"             loc="AW53"/>
+    <pin index="1114"  name="qsfp0_tx6_p"             loc="AW52"/>
+    <pin index="1115"  name="qsfp0_tx7_n"             loc="AW49"/>
+    <pin index="1116"  name="qsfp0_tx7_p"             loc="AW48"/>
+    <pin index="1117"  name="si5344_out2_p"           loc="AV46"/>
+    <pin index="1118"  name="si5344_out2_n"           loc="AV47"/>
+    <pin index="1119"  name="si5402_out2_p"           loc="AT46"/>
+    <pin index="1120"  name="si5402_out2_n"           loc="AT47"/>
+
+    <!-- I/O Bank 202 (GTM) !-->
+    <!-- I/O Bank 202 is not connected !-->
+
+    <!-- I/O Bank 203 (GTM) !-->
+    <!-- I/O Bank 203 is not connected !-->
+
+    <!-- I/O Bank 204 (GTM) !-->
+    <!-- I/O Bank 204 is not connected !-->
+
+    <!-- I/O Bank 205 (GTM) !-->
+    <!-- I/O Bank 205 is not connected !-->
+
+    <!-- I/O Bank 206 (GTM) !-->
+    <!-- I/O Bank 206 is not connected !-->
+
+    <!-- I/O Bank 207 (GTM) !-->
+    <!-- I/O Bank 207 is not connected !-->
+
+    <!-- I/O Bank 208 (GTM) !-->
+    <!-- I/O Bank 208 is not connected !-->
+
+    <!-- I/O Bank 209 (GTM) !-->
+    <pin index="1901"  name="si5344_out1_p"           loc="W48" />
+    <pin index="1902"  name="si5344_out1_n"           loc="W49" />
+    <pin index="1903"  name="si5402_out3_p"           loc="V50" />
+    <pin index="1904"  name="si5402_out3_n"           loc="V51" />
+    <pin index="1905"  name="qsfp1_tx0_n"             loc="J45" />
+    <pin index="1906"  name="qsfp1_tx1_n"             loc="G44" />
+    <pin index="1907"  name="qsfp1_tx2_n"             loc="J43" />
+    <pin index="1908"  name="qsfp1_tx3_n"             loc="G42" />
+    <pin index="1909"  name="qsfp1_tx0_p"             loc="K45" />
+    <pin index="1910"  name="qsfp1_tx1_p"             loc="H44" />
+    <pin index="1911"  name="qsfp1_tx2_p"             loc="K43" />
+    <pin index="1912"  name="qsfp1_tx3_p"             loc="H42" />
+    <pin index="1913"  name="qsfp1_rx0_n"             loc="B46" />
+    <pin index="1914"  name="qsfp1_rx1_n"             loc="D45" />
+    <pin index="1915"  name="qsfp1_rx2_n"             loc="B44" />
+    <pin index="1916"  name="qsfp1_rx3_n"             loc="D43" />
+    <pin index="1917"  name="qsfp1_rx0_p"             loc="C46" />
+    <pin index="1918"  name="qsfp1_rx1_p"             loc="E45" />
+    <pin index="1919"  name="qsfp1_rx2_p"             loc="C44" />
+    <pin index="1920"  name="qsfp1_rx3_p"             loc="E43" />
+
+    <!-- I/O Bank 210 (GTM) !-->
+    <pin index="2001"  name="mgt_progclk_1_p"         loc="U48" />
+    <pin index="2002"  name="mgt_progclk_1_n"         loc="U49" />
+    <pin index="2003"  name="si5402_out4_p"           loc="T50" />
+    <pin index="2004"  name="si5402_out4_n"           loc="T51" />
+    <pin index="2005"  name="qsfp1_tx4_n"             loc="J41" />
+    <pin index="2006"  name="qsfp1_tx5_n"             loc="G40" />
+    <pin index="2007"  name="qsfp1_tx6_n"             loc="J39" />
+    <pin index="2008"  name="qsfp1_tx7_n"             loc="G38" />
+    <pin index="2009"  name="qsfp1_tx4_p"             loc="K41" />
+    <pin index="2010"  name="qsfp1_tx5_p"             loc="H40" />
+    <pin index="2011"  name="qsfp1_tx6_p"             loc="K39" />
+    <pin index="2012"  name="qsfp1_tx7_p"             loc="H38" />
+    <pin index="2013"  name="qsfp1_rx4_n"             loc="B42" />
+    <pin index="2014"  name="qsfp1_rx5_n"             loc="D41" />
+    <pin index="2015"  name="qsfp1_rx6_n"             loc="B40" />
+    <pin index="2016"  name="qsfp1_rx7_n"             loc="D39" />
+    <pin index="2017"  name="qsfp1_rx4_p"             loc="C42" />
+    <pin index="2018"  name="qsfp1_rx5_p"             loc="E41" />
+    <pin index="2019"  name="qsfp1_rx6_p"             loc="C40" />
+    <pin index="2020"  name="qsfp1_rx7_p"             loc="E39" />
+
+    <!-- I/O Bank 211 (GTM) !-->
+    <!-- I/O Bank 211 is not connected !-->
+
+    <!-- I/O Bank 212 (GTM) !-->
+    <!-- I/O Bank 212 is not connected !-->
+
+    <!-- I/O Bank 500 (PMCMIO) 1.8V !-->
+    <!-- <pin index="2301"  name="NC"                 loc="M24" /> !-->
+    <pin index="2302"  name="qspi0_clk"               loc="H25" />
+    <pin index="2303"  name="qspi0_cs_b"              loc="N24" />
+    <pin index="2304"  name="qspi0_io[0]"             loc="N25" />
+    <pin index="2305"  name="qspi0_io[1]"             loc="J25" />
+    <pin index="2306"  name="qspi0_io[2]"             loc="K25" />
+    <pin index="2307"  name="qspi0_io[3]"             loc="L25" />
+    <pin index="2308"  name="qspi1_clk"               loc="H23" />
+    <pin index="2309"  name="qspi1_cs_b"              loc="L24" />
+    <pin index="2310"  name="qspi1_io[0]"             loc="K24" />
+    <pin index="2311"  name="qspi1_io[1]"             loc="H24" />
+    <pin index="2312"  name="qspi1_io[2]"             loc="G24" />
+    <pin index="2313"  name="qspi1_io[3]"             loc="G23" />
+    <pin index="2314"  name="usb_ulpi_clk"            loc="L22" />
+    <pin index="2315"  name="usb_ulpi_data[0]"        loc="K23" />
+    <pin index="2316"  name="usb_ulpi_data[1]"        loc="M23" />
+    <pin index="2317"  name="usb_ulpi_data[2]"        loc="N23" />
+    <pin index="2318"  name="usb_ulpi_data[3]"        loc="M22" />
+    <pin index="2319"  name="usb_ulpi_data[4]"        loc="K22" />
+    <pin index="2320"  name="usb_ulpi_data[5]"        loc="J22" />
+    <pin index="2321"  name="usb_ulpi_data[6]"        loc="G22" />
+    <pin index="2322"  name="usb_ulpi_data[7]"        loc="G21" />
+    <pin index="2323"  name="usb_ulpi_dir"            loc="M21" />
+    <pin index="2324"  name="usb_ulpi_nxt"            loc="N20" />
+    <pin index="2325"  name="usb_ulpi_rst"            loc="J23" />
+    <pin index="2326"  name="usb_ulpi_stp"            loc="N21" />
+
+    <!-- I/O Bank 501 (PMCMIO) 1.8V !-->
+    <pin index="2401"  name="gem0_rst_mio_l"          loc="E28" />
+    <!-- <pin index="2402"  name="NC"                      loc="K29" /> !-->
+    <!-- <pin index="2403"  name="NC"                      loc="H28" /> !-->
+    <!-- <pin index="2404"  name="NC"                      loc="G28" /> !-->
+    <!-- <pin index="2405"  name="NC"                      loc="G27" /> !-->
+    <!-- <pin index="2406"  name="NC"                      loc="J27" /> !-->
+    <!-- <pin index="2407"  name="NC"                      loc="M27" /> !-->
+    <!-- <pin index="2408"  name="NC"                      loc="N26" /> !-->
+    <!-- <pin index="2409"  name="NC"                      loc="J26" /> !-->
+    <!-- <pin index="2410"  name="NC"                      loc="F26" /> !-->
+    <pin index="2411"  name="pcie_rst_0"              loc="F27" />
+    <pin index="2412"  name="pcie_rst_1"              loc="E27" />
+    <pin index="2413"  name="pmc_smon_scl"            loc="H26" />
+    <pin index="2414"  name="pmc_smon_sda"            loc="G26" />
+    <pin index="2415"  name="sdio_1v8_clk"            loc="E29" />
+    <pin index="2416"  name="sdio_1v8_cmd"            loc="M29" />
+    <pin index="2417"  name="sdio_1v8_dat0"           loc="N29" />
+    <pin index="2418"  name="sdio_1v8_dat1"           loc="N28" />
+    <pin index="2419"  name="sdio_1v8_dat2"           loc="M28" />
+    <pin index="2420"  name="sdio_1v8_dat3"           loc="K28" />
+    <pin index="2421"  name="sdio_1v8_detect"         loc="L29" />
+    <pin index="2422"  name="sdio_1v8_sel"            loc="J28" />
+    <pin index="2423"  name="uart0_rxd"               loc="K27" />
+    <pin index="2424"  name="uart0_txd"               loc="L27" />
+    <pin index="2425"  name="uart1_rxd"               loc="L26" />
+    <pin index="2426"  name="uart1_txd"               loc="M26" />
+
+    <!-- I/O Bank 502 (LPDMIO) !-->
+    <pin index="2501"  name="fan_fail_l"              loc="B22" />
+    <pin index="2502"  name="gem0_mdc"                loc="F21" />
+    <pin index="2503"  name="gem0_mdio"               loc="E20" />
+    <pin index="2504"  name="gem0_rx_clk"             loc="F24" />
+    <pin index="2505"  name="gem0_rx_ctrl"            loc="B23" />
+    <pin index="2506"  name="gem0_rxd_0"              loc="E24" />
+    <pin index="2507"  name="gem0_rxd_1"              loc="C24" />
+    <pin index="2508"  name="gem0_rxd_2"              loc="B24" />
+    <pin index="2509"  name="gem0_rxd_3"              loc="A24" />
+    <pin index="2510"  name="gem0_tx_clk"             loc="D26" />
+    <pin index="2511"  name="gem0_tx_ctrl"            loc="F25" />
+    <pin index="2512"  name="gem0_txd_0"              loc="A25" />
+    <pin index="2513"  name="gem0_txd_1"              loc="C25" />
+    <pin index="2514"  name="gem0_txd_2"              loc="D25" />
+    <pin index="2515"  name="gem0_txd_3"              loc="E25" />
+    <!-- <pin index="2516"  name="NC"                      loc="A21" /> !-->
+    <!-- <pin index="2517"  name="NC"                      loc="B21" /> !-->
+    <!-- <pin index="2518"  name="NC"                      loc="C21" /> !-->
+    <!-- <pin index="2519"  name="NC"                      loc="D21" /> !-->
+    <pin index="2520"  name="qsfp0_int_l"             loc="C23" />
+    <pin index="2521"  name="qsfp0_modprs_l"          loc="D23" />
+    <pin index="2522"  name="qsfp1_int_l"             loc="E23" />
+    <pin index="2523"  name="qsfp1_modprs_l"          loc="F22" />
+    <pin index="2524"  name="qsfp2_int_l"             loc="E22" />
+    <pin index="2525"  name="qsfp2_modprs_l"          loc="D22" />
+    <pin index="2526"  name="user_sw_1"               loc="A22" />
+
+    <!-- I/O Bank 503 (PMCDIO) !-->
+    <!-- No user configurable pins
+    <pin index="2601"  name="done"                    loc="A27" />
+    <pin index="2602"  name="error_out"               loc="C26" />
+    <pin index="2603"  name="mode0"                   loc="B27" />
+    <pin index="2604"  name="mode1"                   loc="B28" />
+    <pin index="2605"  name="mode2"                   loc="B29" />
+    <pin index="2606"  name="mode3"                   loc="C28" />
+    <pin index="2607"  name="por_b"                   loc="AW19"/>
+    <pin index="2608"  name="ps_ref_clk_33"           loc="AN16"/>
+    <pin index="2609"  name="pudc_b"                  loc="C29" />
+    <pin index="2610"  name="rtc_padi"                loc="A29" />
+    <pin index="2611"  name="rtc_pado"                loc="A30" />
+    <pin index="2612"  name="tck"                     loc="A26" />
+    <pin index="2613"  name="tdi"                     loc="D28" />
+    <pin index="2614"  name="tdo"                     loc="D27" />
+    <pin index="2615"  name="tms"                     loc="B26" />
+    !-->
+
+    <!-- I/O Bank 700 (XPIO) 1.1V !-->
+    <pin index="2701"  name="lpddr4_0_ch0_ca_a0"      loc="AY9" />
+    <pin index="2702"  name="lpddr4_0_ch0_ca_a1"      loc="AY10"/>
+    <pin index="2703"  name="lpddr4_0_ch0_ca_a2"      loc="AV10"/>
+    <pin index="2704"  name="lpddr4_0_ch0_ca_a3"      loc="AT9" />
+    <pin index="2705"  name="lpddr4_0_ch0_ca_a4"      loc="AW11"/>
+    <pin index="2706"  name="lpddr4_0_ch0_ca_a5"      loc="AW10"/>
+    <pin index="2707"  name="lpddr4_0_ch0_ca_b0"      loc="AT7" />
+    <pin index="2708"  name="lpddr4_0_ch0_ca_b1"      loc="AW8" />
+    <pin index="2709"  name="lpddr4_0_ch0_ca_b2"      loc="AW6" />
+    <pin index="2710"  name="lpddr4_0_ch0_ca_b3"      loc="AW7" />
+    <pin index="2711"  name="lpddr4_0_ch0_ca_b4"      loc="AY7" />
+    <pin index="2712"  name="lpddr4_0_ch0_ca_b5"      loc="AY8" />
+    <pin index="2713"  name="lpddr4_0_ch0_ck_c_a0"    loc="AY12"/>
+    <pin index="2714"  name="lpddr4_0_ch0_ck_c_b0"    loc="AU8" />
+    <pin index="2715"  name="lpddr4_0_ch0_ck_t_a0"    loc="AW12"/>
+    <pin index="2716"  name="lpddr4_0_ch0_ck_t_b0"    loc="AU9" />
+    <pin index="2717"  name="lpddr4_0_ch0_cke_a0"     loc="AR10"/>
+    <pin index="2718"  name="lpddr4_0_ch0_cke_a1"     loc="AT10"/>
+    <pin index="2719"  name="lpddr4_0_ch0_cke_b0"     loc="AV8" />
+    <pin index="2720"  name="lpddr4_0_ch0_cke_b1"     loc="AU7" />
+    <pin index="2721"  name="lpddr4_0_ch0_cs_a0"      loc="AR9" />
+    <pin index="2722"  name="lpddr4_0_ch0_cs_a1"      loc="AV9" />
+    <pin index="2723"  name="lpddr4_0_ch0_cs_b0"      loc="AW2" />
+    <pin index="2724"  name="lpddr4_0_ch0_cs_b1"      loc="AR4" />
+    <pin index="2725"  name="lpddr4_0_ch0_dmi_a0"     loc="AP4" />
+    <pin index="2726"  name="lpddr4_0_ch0_dmi_b0"     loc="AW3" />
+    <pin index="2727"  name="lpddr4_0_ch0_dq_a0"      loc="AV4" />
+    <pin index="2728"  name="lpddr4_0_ch0_dq_a7"      loc="AW5" />
+    <pin index="2729"  name="lpddr4_0_ch0_dq_a2"      loc="AU4" />
+    <pin index="2730"  name="lpddr4_0_ch0_dq_a3"      loc="AT4" />
+    <pin index="2731"  name="lpddr4_0_ch0_dq_a4"      loc="AR3" />
+    <pin index="2732"  name="lpddr4_0_ch0_dq_a1"      loc="AV3" />
+    <pin index="2733"  name="lpddr4_0_ch0_dq_a5"      loc="AP3" />
+    <pin index="2734"  name="lpddr4_0_ch0_dq_a6"      loc="AU3" />
+    <pin index="2735"  name="lpddr4_0_ch0_dq_b0"      loc="AP2" />
+    <pin index="2736"  name="lpddr4_0_ch0_dq_b1"      loc="AR2" />
+    <pin index="2737"  name="lpddr4_0_ch0_dq_b2"      loc="AT1" />
+    <pin index="2738"  name="lpddr4_0_ch0_dq_b3"      loc="AU2" />
+    <pin index="2739"  name="lpddr4_0_ch0_dq_b4"      loc="AU1" />
+    <pin index="2740"  name="lpddr4_0_ch0_dq_b5"      loc="AV1" />
+    <pin index="2741"  name="lpddr4_0_ch0_dq_b6"      loc="AW1" />
+    <pin index="2742"  name="lpddr4_0_ch0_dq_b7"      loc="AT2" />
+    <pin index="2743"  name="lpddr4_0_ch0_dqs_c_a0"   loc="AT5" />
+    <pin index="2744"  name="lpddr4_0_ch0_dqs_c_b0"   loc="AP1" />
+    <pin index="2745"  name="lpddr4_0_ch0_dqs_t_a0"   loc="AR5" />
+    <pin index="2746"  name="lpddr4_0_ch0_dqs_t_b0"   loc="AN1" />
+    <pin index="2747"  name="lpddr4_0_ch0_reset_n0"   loc="AV6" />
+    <pin index="2748"  name="lpddr4_0_ch1_reset_n0"   loc="AV5" />
+    <pin index="2749"  name="mem_clk_0_n"             loc="AU6" />
+    <pin index="2750"  name="mem_clk_0_p"             loc="AT6" />
+    <!-- <pin index="2751"  name="NC"                      loc="AR7" /> !-->
+    <!-- <pin index="2752"  name="NC"                      loc="AR8" /> !-->
+    <!-- <pin index="2753"  name="NC"                      loc="AY5" /> !-->
+    <!-- <pin index="2754"  name="NC"                      loc="AY6" /> !-->
+
+    <!-- I/O Bank 701 (XPIO) 1.1V !-->
+    <pin index="2801"  name="lpddr4_0_ch0_dmi_a1"     loc="BA10"/>
+    <pin index="2802"  name="lpddr4_0_ch0_dmi_b1"     loc="BB3" />
+    <pin index="2803"  name="lpddr4_0_ch0_dq_a15"     loc="BC8" />
+    <pin index="2804"  name="lpddr4_0_ch0_dq_a13"     loc="BC10"/>
+    <pin index="2805"  name="lpddr4_0_ch0_dq_a9"      loc="BA12"/>
+    <pin index="2806"  name="lpddr4_0_ch0_dq_a10"     loc="BB11"/>
+    <pin index="2807"  name="lpddr4_0_ch0_dq_a8"      loc="BB9" />
+    <pin index="2808"  name="lpddr4_0_ch0_dq_a11"     loc="BA11"/>
+    <pin index="2809"  name="lpddr4_0_ch0_dq_a12"     loc="BB8" />
+    <pin index="2810"  name="lpddr4_0_ch0_dq_a14"     loc="BC9" />
+    <pin index="2811"  name="lpddr4_0_ch0_dq_b14"     loc="AY3" />
+    <pin index="2812"  name="lpddr4_0_ch0_dq_b8"      loc="BA2" />
+    <pin index="2813"  name="lpddr4_0_ch0_dq_b12"     loc="BA1" />
+    <pin index="2814"  name="lpddr4_0_ch0_dq_b13"     loc="AY2" />
+    <pin index="2815"  name="lpddr4_0_ch0_dq_b9"      loc="BC4" />
+    <pin index="2816"  name="lpddr4_0_ch0_dq_b11"     loc="BB4" />
+    <pin index="2817"  name="lpddr4_0_ch0_dq_b10"     loc="BB1" />
+    <pin index="2818"  name="lpddr4_0_ch0_dq_b15"     loc="AY4" />
+    <pin index="2819"  name="lpddr4_0_ch0_dqs_c_a1"   loc="BB13"/>
+    <pin index="2820"  name="lpddr4_0_ch0_dqs_c_b1"   loc="BA4" />
+    <pin index="2821"  name="lpddr4_0_ch0_dqs_t_a1"   loc="BB14"/>
+    <pin index="2822"  name="lpddr4_0_ch0_dqs_t_b1"   loc="BA5" />
+    <pin index="2823"  name="lpddr4_0_ch1_dmi_a1"     loc="BC13"/>
+    <pin index="2824"  name="lpddr4_0_ch1_dmi_b1"     loc="BD3" />
+    <pin index="2825"  name="lpddr4_0_ch1_dq_a8"      loc="BE13"/>
+    <pin index="2826"  name="lpddr4_0_ch1_dq_a15"     loc="BE11"/>
+    <pin index="2827"  name="lpddr4_0_ch1_dq_a11"     loc="BD7" />
+    <pin index="2828"  name="lpddr4_0_ch1_dq_a13"     loc="BE8" />
+    <pin index="2829"  name="lpddr4_0_ch1_dq_a14"     loc="BD12"/>
+    <pin index="2830"  name="lpddr4_0_ch1_dq_a12"     loc="BE9" />
+    <pin index="2831"  name="lpddr4_0_ch1_dq_a10"     loc="BD11"/>
+    <pin index="2832"  name="lpddr4_0_ch1_dq_a9"      loc="BD8" />
+    <pin index="2833"  name="lpddr4_0_ch1_dq_b10"     loc="BB2" />
+    <pin index="2834"  name="lpddr4_0_ch1_dq_b8"      loc="BC1" />
+    <pin index="2835"  name="lpddr4_0_ch1_dq_b9"      loc="BD1" />
+    <pin index="2836"  name="lpddr4_0_ch1_dq_b13"     loc="BE2" />
+    <pin index="2837"  name="lpddr4_0_ch1_dq_b14"     loc="BE5" />
+    <pin index="2838"  name="lpddr4_0_ch1_dq_b15"     loc="BD5" />
+    <pin index="2839"  name="lpddr4_0_ch1_dq_b11"     loc="BE3" />
+    <pin index="2840"  name="lpddr4_0_ch1_dq_b12"     loc="BE4" />
+    <pin index="2841"  name="lpddr4_0_ch1_dqs_c_a1"   loc="BE10"/>
+    <pin index="2842"  name="lpddr4_0_ch1_dqs_c_b1"   loc="BC5" />
+    <pin index="2843"  name="lpddr4_0_ch1_dqs_t_a1"   loc="BD10"/>
+    <pin index="2844"  name="lpddr4_0_ch1_dqs_t_b1"   loc="BC6" />
+    <!-- <pin index="2845"  name="NC"                      loc="BA9" /> !-->
+    <!-- <pin index="2846"  name="NC"                      loc="BC12"/> !-->
+    <!-- <pin index="2847"  name="NC"                      loc="BB7" /> !-->
+    <!-- <pin index="2848"  name="NC"                      loc="BA7" /> !-->
+    <!-- <pin index="2849"  name="NC"                      loc="BD6" /> !-->
+    <!-- <pin index="2850"  name="NC"                      loc="BE7" /> !-->
+    <!-- <pin index="2851"  name="NC"                      loc="BB6" /> !-->
+    <!-- <pin index="2852"  name="NC"                      loc="BA6" /> !-->
+    <!-- <pin index="2853"  name="NC"                      loc="BC3" /> !-->
+    <!-- <pin index="2854"  name="NC"                      loc="BD2" /> !-->
+
+    <!-- I/O Bank 702 (XPIO) 1.1V !-->
+    <pin index="2901"  name="lpddr4_0_ch1_ca_a0"      loc="BG1" />
+    <pin index="2902"  name="lpddr4_0_ch1_ca_a1"      loc="BF1" />
+    <pin index="2903"  name="lpddr4_0_ch1_ca_a2"      loc="BJ1" />
+    <pin index="2904"  name="lpddr4_0_ch1_ca_a3"      loc="BH1" />
+    <pin index="2905"  name="lpddr4_0_ch1_ca_a4"      loc="BL2" />
+    <pin index="2906"  name="lpddr4_0_ch1_ca_a5"      loc="BL1" />
+    <pin index="2907"  name="lpddr4_0_ch1_ca_b0"      loc="BG9" />
+    <pin index="2908"  name="lpddr4_0_ch1_ca_b1"      loc="BH9" />
+    <pin index="2909"  name="lpddr4_0_ch1_ca_b2"      loc="BG7" />
+    <pin index="2910"  name="lpddr4_0_ch1_ca_b3"      loc="BK8" />
+    <pin index="2911"  name="lpddr4_0_ch1_ca_b4"      loc="BK9" />
+    <pin index="2912"  name="lpddr4_0_ch1_ca_b5"      loc="BF7" />
+    <pin index="2913"  name="lpddr4_0_ch1_ck_c_a0"    loc="BK3" />
+    <pin index="2914"  name="lpddr4_0_ch1_ck_c_b0"    loc="BK10"/>
+    <pin index="2915"  name="lpddr4_0_ch1_ck_t_a0"    loc="BJ3" />
+    <pin index="2916"  name="lpddr4_0_ch1_ck_t_b0"    loc="BJ10"/>
+    <pin index="2917"  name="lpddr4_0_ch1_cke_a0"     loc="BJ2" />
+    <pin index="2918"  name="lpddr4_0_ch1_cke_a1"     loc="BG2" />
+    <pin index="2919"  name="lpddr4_0_ch1_cke_b0"     loc="BH8" />
+    <pin index="2920"  name="lpddr4_0_ch1_cke_b1"     loc="BG8" />
+    <pin index="2921"  name="lpddr4_0_ch1_cs_a0"      loc="BF2" />
+    <pin index="2922"  name="lpddr4_0_ch1_cs_a1"      loc="BK2" />
+    <pin index="2923"  name="lpddr4_0_ch1_cs_b0"      loc="BF4" />
+    <pin index="2924"  name="lpddr4_0_ch1_cs_b1"      loc="BG11"/>
+    <pin index="2925"  name="lpddr4_0_ch1_dmi_a0"     loc="BF5" />
+    <pin index="2926"  name="lpddr4_0_ch1_dmi_b0"     loc="BG12"/>
+    <pin index="2927"  name="lpddr4_0_ch1_dq_a3"      loc="BG3" />
+    <pin index="2928"  name="lpddr4_0_ch1_dq_a2"      loc="BH3" />
+    <pin index="2929"  name="lpddr4_0_ch1_dq_a0"      loc="BJ5" />
+    <pin index="2930"  name="lpddr4_0_ch1_dq_a7"      loc="BK5" />
+    <pin index="2931"  name="lpddr4_0_ch1_dq_a4"      loc="BH4" />
+    <pin index="2932"  name="lpddr4_0_ch1_dq_a5"      loc="BG4" />
+    <pin index="2933"  name="lpddr4_0_ch1_dq_a6"      loc="BL5" />
+    <pin index="2934"  name="lpddr4_0_ch1_dq_a1"      loc="BH5" />
+    <pin index="2935"  name="lpddr4_0_ch1_dq_b7"      loc="BK12"/>
+    <pin index="2936"  name="lpddr4_0_ch1_dq_b4"      loc="BJ11"/>
+    <pin index="2937"  name="lpddr4_0_ch1_dq_b2"      loc="BH11"/>
+    <pin index="2938"  name="lpddr4_0_ch1_dq_b6"      loc="BJ13"/>
+    <pin index="2939"  name="lpddr4_0_ch1_dq_b3"      loc="BH10"/>
+    <pin index="2940"  name="lpddr4_0_ch1_dq_b0"      loc="BF9" />
+    <pin index="2941"  name="lpddr4_0_ch1_dq_b5"      loc="BJ12"/>
+    <pin index="2942"  name="lpddr4_0_ch1_dq_b1"      loc="BF10"/>
+    <pin index="2943"  name="lpddr4_0_ch1_dqs_c_a0"   loc="BL4" />
+    <pin index="2944"  name="lpddr4_0_ch1_dqs_c_b0"   loc="BF12"/>
+    <pin index="2945"  name="lpddr4_0_ch1_dqs_t_a0"   loc="BK4" />
+    <pin index="2946"  name="lpddr4_0_ch1_dqs_t_b0"   loc="BF13"/>
+    <!-- <pin index="2947"  name="NC"                      loc="BJ7" /> !-->
+    <!-- <pin index="2948"  name="NC"                      loc="BJ8" /> !-->
+    <!-- <pin index="2949"  name="NC"                      loc="BL6" /> !-->
+    <!-- <pin index="2950"  name="NC"                      loc="BK7" /> !-->
+    <!-- <pin index="2951"  name="NC"                      loc="BJ6" /> !-->
+    <!-- <pin index="2952"  name="NC"                      loc="BH6" /> !-->
+    <!-- <pin index="2953"  name="NC"                      loc="BG6" /> !-->
+    <!-- <pin index="2954"  name="NC"                      loc="BF6" /> !-->
+
+    <!-- I/O Bank 703 (XPIO) 1.1V !-->
+    <pin index="3001"  name="lpddr4_1_ch0_ca_a0"      loc="BT9" />
+    <pin index="3002"  name="lpddr4_1_ch0_ca_a1"      loc="BT10"/>
+    <pin index="3003"  name="lpddr4_1_ch0_ca_a2"      loc="BP10"/>
+    <pin index="3004"  name="lpddr4_1_ch0_ca_a3"      loc="BV9" />
+    <pin index="3005"  name="lpddr4_1_ch0_ca_a4"      loc="BM11"/>
+    <pin index="3006"  name="lpddr4_1_ch0_ca_a5"      loc="BN10"/>
+    <pin index="3007"  name="lpddr4_1_ch0_ca_b0"      loc="BP8" />
+    <pin index="3008"  name="lpddr4_1_ch0_ca_b1"      loc="BU8" />
+    <pin index="3009"  name="lpddr4_1_ch0_ca_b2"      loc="BN8" />
+    <pin index="3010"  name="lpddr4_1_ch0_ca_b3"      loc="BM8" />
+    <pin index="3011"  name="lpddr4_1_ch0_ca_b4"      loc="BR8" />
+    <pin index="3012"  name="lpddr4_1_ch0_ca_b5"      loc="BR9" />
+    <pin index="3013"  name="lpddr4_1_ch0_ck_c_a0"    loc="BL11"/>
+    <pin index="3014"  name="lpddr4_1_ch0_ck_c_b0"    loc="BN9" />
+    <pin index="3015"  name="lpddr4_1_ch0_ck_t_a0"    loc="BL12"/>
+    <pin index="3016"  name="lpddr4_1_ch0_ck_t_b0"    loc="BM9" />
+    <pin index="3017"  name="lpddr4_1_ch0_cke_a0"     loc="BL10"/>
+    <pin index="3018"  name="lpddr4_1_ch0_cke_a1"     loc="BL9" />
+    <pin index="3019"  name="lpddr4_1_ch0_cke_b0"     loc="BU9" />
+    <pin index="3020"  name="lpddr4_1_ch0_cke_b1"     loc="BP7" />
+    <pin index="3021"  name="lpddr4_1_ch0_cs_a0"      loc="BV10"/>
+    <pin index="3022"  name="lpddr4_1_ch0_cs_a1"      loc="BR10"/>
+    <pin index="3023"  name="lpddr4_1_ch0_cs_b0"      loc="BR3" />
+    <pin index="3024"  name="lpddr4_1_ch0_cs_b1"      loc="BT5" />
+    <pin index="3025"  name="lpddr4_1_ch0_dmi_a1"     loc="BR5" />
+    <pin index="3026"  name="lpddr4_1_ch0_dmi_b1"     loc="BR4" />
+    <pin index="3027"  name="lpddr4_1_ch0_dq_a15"     loc="BV6" />
+    <pin index="3028"  name="lpddr4_1_ch0_dq_a13"     loc="BV5" />
+    <pin index="3029"  name="lpddr4_1_ch0_dq_a9"      loc="BM4" />
+    <pin index="3030"  name="lpddr4_1_ch0_dq_a8"      loc="BM3" />
+    <pin index="3031"  name="lpddr4_1_ch0_dq_a11"     loc="BN5" />
+    <pin index="3032"  name="lpddr4_1_ch0_dq_a10"     loc="BN4" />
+    <pin index="3033"  name="lpddr4_1_ch0_dq_a12"     loc="BT6" />
+    <pin index="3034"  name="lpddr4_1_ch0_dq_a14"     loc="BU6" />
+    <pin index="3035"  name="lpddr4_1_ch0_dq_b10"     loc="BP1" />
+    <pin index="3036"  name="lpddr4_1_ch0_dq_b11"     loc="BN1" />
+    <pin index="3037"  name="lpddr4_1_ch0_dq_b12"     loc="BP3" />
+    <pin index="3038"  name="lpddr4_1_ch0_dq_b13"     loc="BT4" />
+    <pin index="3039"  name="lpddr4_1_ch0_dq_b14"     loc="BU4" />
+    <pin index="3040"  name="lpddr4_1_ch0_dq_b15"     loc="BN3" />
+    <pin index="3041"  name="lpddr4_1_ch0_dq_b8"      loc="BR2" />
+    <pin index="3042"  name="lpddr4_1_ch0_dq_b9"      loc="BP2" />
+    <pin index="3043"  name="lpddr4_1_ch0_dqs_c_a1"   loc="BP5" />
+    <pin index="3044"  name="lpddr4_1_ch0_dqs_c_b1"   loc="BM1" />
+    <pin index="3045"  name="lpddr4_1_ch0_dqs_t_a1"   loc="BP6" />
+    <pin index="3046"  name="lpddr4_1_ch0_dqs_t_b1"   loc="BM2" />
+    <pin index="3047"  name="lpddr4_1_ch0_reset_n0"   loc="BR7" />
+    <pin index="3048"  name="lpddr4_1_ch1_reset_n0"   loc="BT7" />
+    <pin index="3049"  name="mem_clk_1_n"             loc="BM7" />
+    <pin index="3050"  name="mem_clk_1_p"             loc="BL7" />
+    <!-- <pin index="3051"  name="NC"                      loc="BU7" /> !-->
+    <!-- <pin index="3052"  name="NC"                      loc="BV8" /> !-->
+    <!-- <pin index="3053"  name="NC"                      loc="BN6" /> !-->
+    <!-- <pin index="3054"  name="NC"                      loc="BM6" /> !-->
+
+    <!-- I/O Bank 704 (XPIO) 1.1V !-->
+    <pin index="3101"  name="lpddr4_1_ch0_dmi_a0"     loc="BK13"/>
+    <pin index="3102"  name="lpddr4_1_ch0_dmi_b0"     loc="BU12"/>
+    <pin index="3103"  name="lpddr4_1_ch0_dq_a0"      loc="BG15"/>
+    <pin index="3104"  name="lpddr4_1_ch0_dq_a1"      loc="BH15"/>
+    <pin index="3105"  name="lpddr4_1_ch0_dq_a2"      loc="BF15"/>
+    <pin index="3106"  name="lpddr4_1_ch0_dq_a3"      loc="BE14"/>
+    <pin index="3107"  name="lpddr4_1_ch0_dq_a4"      loc="BM12"/>
+    <pin index="3108"  name="lpddr4_1_ch0_dq_a5"      loc="BM13"/>
+    <pin index="3109"  name="lpddr4_1_ch0_dq_a6"      loc="BM14"/>
+    <pin index="3110"  name="lpddr4_1_ch0_dq_a7"      loc="BL14"/>
+    <pin index="3111"  name="lpddr4_1_ch0_dq_b0"      loc="BU11"/>
+    <pin index="3112"  name="lpddr4_1_ch0_dq_b1"      loc="BV13"/>
+    <pin index="3113"  name="lpddr4_1_ch0_dq_b2"      loc="BV11"/>
+    <pin index="3114"  name="lpddr4_1_ch0_dq_b3"      loc="BV14"/>
+    <pin index="3115"  name="lpddr4_1_ch0_dq_b4"      loc="BR12"/>
+    <pin index="3116"  name="lpddr4_1_ch0_dq_b5"      loc="BT11"/>
+    <pin index="3117"  name="lpddr4_1_ch0_dq_b6"      loc="BT12"/>
+    <pin index="3118"  name="lpddr4_1_ch0_dq_b7"      loc="BR13"/>
+    <pin index="3119"  name="lpddr4_1_ch0_dqs_c_a0"   loc="BD15"/>
+    <pin index="3120"  name="lpddr4_1_ch0_dqs_c_b0"   loc="BP13"/>
+    <pin index="3121"  name="lpddr4_1_ch0_dqs_t_a0"   loc="BD14"/>
+    <pin index="3122"  name="lpddr4_1_ch0_dqs_t_b0"   loc="BP12"/>
+    <pin index="3123"  name="lpddr4_1_ch1_dmi_a1"     loc="BD17"/>
+    <pin index="3124"  name="lpddr4_1_ch1_dmi_b1"     loc="BT15"/>
+    <pin index="3125"  name="lpddr4_1_ch1_dq_a10"     loc="BM17"/>
+    <pin index="3126"  name="lpddr4_1_ch1_dq_a11"     loc="BL17"/>
+    <pin index="3127"  name="lpddr4_1_ch1_dq_a12"     loc="BG17"/>
+    <pin index="3128"  name="lpddr4_1_ch1_dq_a13"     loc="BH16"/>
+    <pin index="3129"  name="lpddr4_1_ch1_dq_a14"     loc="BF16"/>
+    <pin index="3130"  name="lpddr4_1_ch1_dq_a15"     loc="BE16"/>
+    <pin index="3131"  name="lpddr4_1_ch1_dq_a8"      loc="BJ15"/>
+    <pin index="3132"  name="lpddr4_1_ch1_dq_a9"      loc="BJ16"/>
+    <pin index="3133"  name="lpddr4_1_ch1_dq_b10"     loc="BV15"/>
+    <pin index="3134"  name="lpddr4_1_ch1_dq_b11"     loc="BR14"/>
+    <pin index="3135"  name="lpddr4_1_ch1_dq_b12"     loc="BR15"/>
+    <pin index="3136"  name="lpddr4_1_ch1_dq_b13"     loc="BP16"/>
+    <pin index="3137"  name="lpddr4_1_ch1_dq_b14"     loc="BV16"/>
+    <pin index="3138"  name="lpddr4_1_ch1_dq_b15"     loc="BU16"/>
+    <pin index="3139"  name="lpddr4_1_ch1_dq_b8"      loc="BT14"/>
+    <pin index="3140"  name="lpddr4_1_ch1_dq_b9"      loc="BU14"/>
+    <pin index="3141"  name="lpddr4_1_ch1_dqs_c_a1"   loc="BK17"/>
+    <pin index="3142"  name="lpddr4_1_ch1_dqs_c_b1"   loc="BP15"/>
+    <pin index="3143"  name="lpddr4_1_ch1_dqs_t_a1"   loc="BJ17"/>
+    <pin index="3144"  name="lpddr4_1_ch1_dqs_t_b1"   loc="BN15"/>
+    <!-- <pin index="3145"  name="NC"                      loc="BK14"/> !-->
+    <!-- <pin index="3146"  name="NC"                      loc="BE17"/> !-->
+    <!-- <pin index="3147"  name="NC"                      loc="BN16"/> !-->
+    <!-- <pin index="3148"  name="NC"                      loc="BM16"/> !-->
+    <!-- <pin index="3149"  name="NC"                      loc="BN14"/> !-->
+    <!-- <pin index="3150"  name="NC"                      loc="BN13"/> !-->
+    <!-- <pin index="3151"  name="NC"                      loc="BP11"/> !-->
+    <!-- <pin index="3152"  name="NC"                      loc="BN11"/> !-->
+    <!-- <pin index="3153"  name="NC"                      loc="BU13"/> !-->
+    <!-- <pin index="3154"  name="NC"                      loc="BT16"/> !-->
+
+    <!-- I/O Bank 705 (XPIO) 1.1V !-->
+    <pin index="3201"  name="lpddr4_1_ch1_ca_a0"      loc="BV19"/>
+    <pin index="3202"  name="lpddr4_1_ch1_ca_a1"      loc="BV18"/>
+    <pin index="3203"  name="lpddr4_1_ch1_ca_a2"      loc="BV21"/>
+    <pin index="3204"  name="lpddr4_1_ch1_ca_a3"      loc="BV20"/>
+    <pin index="3205"  name="lpddr4_1_ch1_ca_a4"      loc="BT19"/>
+    <pin index="3206"  name="lpddr4_1_ch1_ca_a5"      loc="BT20"/>
+    <pin index="3207"  name="lpddr4_1_ch1_ca_b0"      loc="BJ20"/>
+    <pin index="3208"  name="lpddr4_1_ch1_ca_b1"      loc="BJ21"/>
+    <pin index="3209"  name="lpddr4_1_ch1_ca_b2"      loc="BM22"/>
+    <pin index="3210"  name="lpddr4_1_ch1_ca_b3"      loc="BK22"/>
+    <pin index="3211"  name="lpddr4_1_ch1_ca_b4"      loc="BJ22"/>
+    <pin index="3212"  name="lpddr4_1_ch1_ca_b5"      loc="BL22"/>
+    <pin index="3213"  name="lpddr4_1_ch1_ck_c_a0"    loc="BU17"/>
+    <pin index="3214"  name="lpddr4_1_ch1_ck_c_b0"    loc="BH21"/>
+    <pin index="3215"  name="lpddr4_1_ch1_ck_t_a0"    loc="BT17"/>
+    <pin index="3216"  name="lpddr4_1_ch1_ck_t_b0"    loc="BH20"/>
+    <pin index="3217"  name="lpddr4_1_ch1_cke_a0"     loc="BT21"/>
+    <pin index="3218"  name="lpddr4_1_ch1_cke_a1"     loc="BU19"/>
+    <pin index="3219"  name="lpddr4_1_ch1_cke_b0"     loc="BK18"/>
+    <pin index="3220"  name="lpddr4_1_ch1_cke_b1"     loc="BJ18"/>
+    <pin index="3221"  name="lpddr4_1_ch1_cs_a0"      loc="BU18"/>
+    <pin index="3222"  name="lpddr4_1_ch1_cs_a1"      loc="BU21"/>
+    <pin index="3223"  name="lpddr4_1_ch1_cs_b0"      loc="BP20"/>
+    <pin index="3224"  name="lpddr4_1_ch1_cs_b1"      loc="BF21"/>
+    <pin index="3225"  name="lpddr4_1_ch1_dmi_a0"     loc="BN20"/>
+    <pin index="3226"  name="lpddr4_1_ch1_dmi_b0"     loc="BE20"/>
+    <pin index="3227"  name="lpddr4_1_ch1_dq_a0"      loc="BR22"/>
+    <pin index="3228"  name="lpddr4_1_ch1_dq_a1"      loc="BT22"/>
+    <pin index="3229"  name="lpddr4_1_ch1_dq_a5"      loc="BR19"/>
+    <pin index="3230"  name="lpddr4_1_ch1_dq_a6"      loc="BP18"/>
+    <pin index="3231"  name="lpddr4_1_ch1_dq_a4"      loc="BP17"/>
+    <pin index="3232"  name="lpddr4_1_ch1_dq_a2"      loc="BR20"/>
+    <pin index="3233"  name="lpddr4_1_ch1_dq_a7"      loc="BP22"/>
+    <pin index="3234"  name="lpddr4_1_ch1_dq_a3"      loc="BP21"/>
+    <pin index="3235"  name="lpddr4_1_ch1_dq_b0"      loc="BD20"/>
+    <pin index="3236"  name="lpddr4_1_ch1_dq_b1"      loc="BD21"/>
+    <pin index="3237"  name="lpddr4_1_ch1_dq_b2"      loc="BF22"/>
+    <pin index="3238"  name="lpddr4_1_ch1_dq_b3"      loc="BE22"/>
+    <pin index="3239"  name="lpddr4_1_ch1_dq_b4"      loc="BF19"/>
+    <pin index="3240"  name="lpddr4_1_ch1_dq_b5"      loc="BF18"/>
+    <pin index="3241"  name="lpddr4_1_ch1_dq_b6"      loc="BG20"/>
+    <pin index="3242"  name="lpddr4_1_ch1_dq_b7"      loc="BG21"/>
+    <pin index="3243"  name="lpddr4_1_ch1_dqs_c_a0"   loc="BR18"/>
+    <pin index="3244"  name="lpddr4_1_ch1_dqs_c_b0"   loc="BE19"/>
+    <pin index="3245"  name="lpddr4_1_ch1_dqs_t_a0"   loc="BR17"/>
+    <pin index="3246"  name="lpddr4_1_ch1_dqs_t_b0"   loc="BD18"/>
+    <!-- <pin index="3247"  name="NC"                      loc="BL19"/> !-->
+    <!-- <pin index="3248"  name="NC"                      loc="BK19"/> !-->
+    <pin index="3249"  name="user_led_g_l0"           loc="BM18" iostandard="LVSTL_11"/>
+    <pin index="3250"  name="user_led_g_l1"           loc="BM19" iostandard="LVSTL_11"/>
+    <pin index="3251"  name="user_led_g_l2"           loc="BN19" iostandard="LVSTL_11"/>
+    <pin index="3252"  name="user_led_g_l3"           loc="BN21" iostandard="LVSTL_11"/>
+    <pin index="3253"  name="user_led_g_l4"           loc="BN18" iostandard="LVSTL_11"/>
+    <pin index="3254"  name="user_led_g_l5"           loc="BM21" iostandard="LVSTL_11"/>
+
+    <!-- I/O Bank 706 (XPIO) 1.1V !-->
+    <pin index="3301"  name="lpddr4_2_ch0_ca_a0"      loc="BG26"/>
+    <pin index="3302"  name="lpddr4_2_ch0_ca_a1"      loc="BF25"/>
+    <pin index="3303"  name="lpddr4_2_ch0_ca_a2"      loc="BE23"/>
+    <pin index="3304"  name="lpddr4_2_ch0_ca_a3"      loc="BG27"/>
+    <pin index="3305"  name="lpddr4_2_ch0_ca_a4"      loc="BD26"/>
+    <pin index="3306"  name="lpddr4_2_ch0_ca_a5"      loc="BD27"/>
+    <pin index="3307"  name="lpddr4_2_ch0_ca_b0"      loc="BJ27"/>
+    <pin index="3308"  name="lpddr4_2_ch0_ca_b1"      loc="BK23"/>
+    <pin index="3309"  name="lpddr4_2_ch0_ca_b2"      loc="BM24"/>
+    <pin index="3310"  name="lpddr4_2_ch0_ca_b3"      loc="BL24"/>
+    <pin index="3311"  name="lpddr4_2_ch0_ca_b4"      loc="BJ26"/>
+    <pin index="3312"  name="lpddr4_2_ch0_ca_b5"      loc="BH26"/>
+    <pin index="3313"  name="lpddr4_2_ch0_ck_c_a0"    loc="BD24"/>
+    <pin index="3314"  name="lpddr4_2_ch0_ck_c_b0"    loc="BH25"/>
+    <pin index="3315"  name="lpddr4_2_ch0_ck_t_a0"    loc="BD23"/>
+    <pin index="3316"  name="lpddr4_2_ch0_ck_t_b0"    loc="BG24"/>
+    <pin index="3317"  name="lpddr4_2_ch0_cke_a0"     loc="BE25"/>
+    <pin index="3318"  name="lpddr4_2_ch0_cke_a1"     loc="BE26"/>
+    <pin index="3319"  name="lpddr4_2_ch0_cke_b0"     loc="BJ23"/>
+    <pin index="3320"  name="lpddr4_2_ch0_cke_b1"     loc="BK27"/>
+    <pin index="3321"  name="lpddr4_2_ch0_cs_a0"      loc="BF27"/>
+    <pin index="3322"  name="lpddr4_2_ch0_cs_a1"      loc="BF24"/>
+    <pin index="3323"  name="lpddr4_2_ch0_cs_b0"      loc="BT27"/>
+    <pin index="3324"  name="lpddr4_2_ch0_cs_b1"      loc="BR23"/>
+    <pin index="3325"  name="lpddr4_2_ch0_dmi_a1"     loc="BP23"/>
+    <pin index="3326"  name="lpddr4_2_ch0_dmi_b1"     loc="BT26"/>
+    <pin index="3327"  name="lpddr4_2_ch0_dq_a9"      loc="BT24"/>
+    <pin index="3328"  name="lpddr4_2_ch0_dq_a11"     loc="BT25"/>
+    <pin index="3329"  name="lpddr4_2_ch0_dq_a12"     loc="BR27"/>
+    <pin index="3330"  name="lpddr4_2_ch0_dq_a13"     loc="BP27"/>
+    <pin index="3331"  name="lpddr4_2_ch0_dq_a14"     loc="BP26"/>
+    <pin index="3332"  name="lpddr4_2_ch0_dq_a15"     loc="BR24"/>
+    <pin index="3333"  name="lpddr4_2_ch0_dq_a8"      loc="BP25"/>
+    <pin index="3334"  name="lpddr4_2_ch0_dq_a10"     loc="BR25"/>
+    <pin index="3335"  name="lpddr4_2_ch0_dq_b10"     loc="BU22"/>
+    <pin index="3336"  name="lpddr4_2_ch0_dq_b11"     loc="BU23"/>
+    <pin index="3337"  name="lpddr4_2_ch0_dq_b9"      loc="BV23"/>
+    <pin index="3338"  name="lpddr4_2_ch0_dq_b8"      loc="BV24"/>
+    <pin index="3339"  name="lpddr4_2_ch0_dq_b14"     loc="BV28"/>
+    <pin index="3340"  name="lpddr4_2_ch0_dq_b15"     loc="BU26"/>
+    <pin index="3341"  name="lpddr4_2_ch0_dq_b12"     loc="BV26"/>
+    <pin index="3342"  name="lpddr4_2_ch0_dq_b13"     loc="BU27"/>
+    <pin index="3343"  name="lpddr4_2_ch0_dqs_c_a1"   loc="BN25"/>
+    <pin index="3344"  name="lpddr4_2_ch0_dqs_c_b1"   loc="BV25"/>
+    <pin index="3345"  name="lpddr4_2_ch0_dqs_t_a1"   loc="BN24"/>
+    <pin index="3346"  name="lpddr4_2_ch0_dqs_t_b1"   loc="BU24"/>
+    <pin index="3347"  name="lpddr4_2_ch0_reset_n0"   loc="BM26"/>
+    <pin index="3348"  name="lpddr4_2_ch1_reset_n0"   loc="BN26"/>
+    <pin index="3349"  name="mem_clk_2_n"             loc="BM27"/>
+    <pin index="3350"  name="mem_clk_2_p"             loc="BL27"/>
+    <!-- <pin index="3351"  name="NC"                      loc="BK24"/> !-->
+    <!-- <pin index="3352"  name="NC"                      loc="BJ25"/> !-->
+    <!-- <pin index="3353"  name="NC"                      loc="BN23"/> !-->
+    <!-- <pin index="3354"  name="NC"                      loc="BM23"/> !-->
+	
+    <!-- I/O Bank 707 (XPIO) 1.1V !-->
+    <pin index="3401"  name="lpddr4_2_ch0_dmi_a0"     loc="BH30"/>
+    <pin index="3402"  name="lpddr4_2_ch0_dmi_b0"     loc="BT29"/>
+    <pin index="3403"  name="lpddr4_2_ch0_dq_a6"      loc="BF28"/>
+    <pin index="3404"  name="lpddr4_2_ch0_dq_a4"      loc="BK28"/>
+    <pin index="3405"  name="lpddr4_2_ch0_dq_a5"      loc="BJ28"/>
+    <pin index="3406"  name="lpddr4_2_ch0_dq_a2"      loc="BL29"/>
+    <pin index="3407"  name="lpddr4_2_ch0_dq_a3"      loc="BK29"/>
+    <pin index="3408"  name="lpddr4_2_ch0_dq_a1"      loc="BF30"/>
+    <pin index="3409"  name="lpddr4_2_ch0_dq_a0"      loc="BE29"/>
+    <pin index="3410"  name="lpddr4_2_ch0_dq_a7"      loc="BE28"/>
+    <pin index="3411"  name="lpddr4_2_ch0_dq_b4"      loc="BV29"/>
+    <pin index="3412"  name="lpddr4_2_ch0_dq_b7"      loc="BU29"/>
+    <pin index="3413"  name="lpddr4_2_ch0_dq_b6"      loc="BV30"/>
+    <pin index="3414"  name="lpddr4_2_ch0_dq_b3"      loc="BR30"/>
+    <pin index="3415"  name="lpddr4_2_ch0_dq_b0"      loc="BR29"/>
+    <pin index="3416"  name="lpddr4_2_ch0_dq_b1"      loc="BR28"/>
+    <pin index="3417"  name="lpddr4_2_ch0_dq_b2"      loc="BP28"/>
+    <pin index="3418"  name="lpddr4_2_ch0_dq_b5"      loc="BU28"/>
+    <pin index="3419"  name="lpddr4_2_ch0_dqs_c_a0"   loc="BD30"/>
+    <pin index="3420"  name="lpddr4_2_ch0_dqs_c_b0"   loc="BN29"/>
+    <pin index="3421"  name="lpddr4_2_ch0_dqs_t_a0"   loc="BD29"/>
+    <pin index="3422"  name="lpddr4_2_ch0_dqs_t_b0"   loc="BN28"/>
+    <pin index="3423"  name="lpddr4_2_ch1_dmi_a1"     loc="BD32"/>
+    <pin index="3424"  name="lpddr4_2_ch1_dmi_b1"     loc="BR32"/>
+    <pin index="3425"  name="lpddr4_2_ch1_dq_a12"     loc="BF31"/>
+    <pin index="3426"  name="lpddr4_2_ch1_dq_a10"     loc="BG30"/>
+    <pin index="3427"  name="lpddr4_2_ch1_dq_a8"      loc="BJ30"/>
+    <pin index="3428"  name="lpddr4_2_ch1_dq_a13"     loc="BE31"/>
+    <pin index="3429"  name="lpddr4_2_ch1_dq_a14"     loc="BJ31"/>
+    <pin index="3430"  name="lpddr4_2_ch1_dq_a15"     loc="BE32"/>
+    <pin index="3431"  name="lpddr4_2_ch1_dq_a11"     loc="BJ33"/>
+    <pin index="3432"  name="lpddr4_2_ch1_dq_a9"      loc="BJ32"/>
+    <pin index="3433"  name="lpddr4_2_ch1_dq_b10"     loc="BP30"/>
+    <pin index="3434"  name="lpddr4_2_ch1_dq_b9"      loc="BV31"/>
+    <pin index="3435"  name="lpddr4_2_ch1_dq_b8"      loc="BU32"/>
+    <pin index="3436"  name="lpddr4_2_ch1_dq_b12"     loc="BU31"/>
+    <pin index="3437"  name="lpddr4_2_ch1_dq_b14"     loc="BT31"/>
+    <pin index="3438"  name="lpddr4_2_ch1_dq_b15"     loc="BP31"/>
+    <pin index="3439"  name="lpddr4_2_ch1_dq_b11"     loc="BN30"/>
+    <pin index="3440"  name="lpddr4_2_ch1_dq_b13"     loc="BP32"/>
+    <pin index="3441"  name="lpddr4_2_ch1_dqs_c_a1"   loc="BG32"/>
+    <pin index="3442"  name="lpddr4_2_ch1_dqs_c_b1"   loc="BN31"/>
+    <pin index="3443"  name="lpddr4_2_ch1_dqs_t_a1"   loc="BF33"/>
+    <pin index="3444"  name="lpddr4_2_ch1_dqs_t_b1"   loc="BM31"/>
+    <!-- <pin index="3445"  name="NC"                      loc="BH31"/> !-->
+    <!-- <pin index="3446"  name="NC"                      loc="BD33"/> !-->
+    <!-- <pin index="3447"  name="NC"                      loc="BK33"/> !-->
+    <!-- <pin index="3448"  name="NC"                      loc="BK32"/> !-->
+    <!-- <pin index="3449"  name="NC"                      loc="BM32"/> !-->
+    <!-- <pin index="3450"  name="NC"                      loc="BL32"/> !-->
+    <!-- <pin index="3451"  name="NC"                      loc="BM28"/> !-->
+    <!-- <pin index="3452"  name="NC"                      loc="BT30"/> !-->
+    <!-- <pin index="3453"  name="NC"                      loc="BT32"/> !-->
+    <pin index="3454"  name="spare_wp"                loc="BM29" iostandard="LVSTL_11"/>
+
+    <!-- I/O Bank 708 (XPIO) 1.1V !-->
+    <pin index="3501"  name="lpddr4_2_ch1_ca_a0"      loc="BV34"/>
+    <pin index="3502"  name="lpddr4_2_ch1_ca_a1"      loc="BV33"/>
+    <pin index="3503"  name="lpddr4_2_ch1_ca_a2"      loc="BV36"/>
+    <pin index="3504"  name="lpddr4_2_ch1_ca_a3"      loc="BV35"/>
+    <pin index="3505"  name="lpddr4_2_ch1_ca_a4"      loc="BT36"/>
+    <pin index="3506"  name="lpddr4_2_ch1_ca_a5"      loc="BT37"/>
+    <pin index="3507"  name="lpddr4_2_ch1_ca_b0"      loc="BJ35"/>
+    <pin index="3508"  name="lpddr4_2_ch1_ca_b1"      loc="BJ36"/>
+    <pin index="3509"  name="lpddr4_2_ch1_ca_b2"      loc="BM37"/>
+    <pin index="3510"  name="lpddr4_2_ch1_ca_b3"      loc="BJ38"/>
+    <pin index="3511"  name="lpddr4_2_ch1_ca_b4"      loc="BJ37"/>
+    <pin index="3512"  name="lpddr4_2_ch1_ca_b5"      loc="BL37"/>
+    <pin index="3513"  name="lpddr4_2_ch1_ck_c_a0"    loc="BT35"/>
+    <pin index="3514"  name="lpddr4_2_ch1_ck_c_b0"    loc="BH36"/>
+    <pin index="3515"  name="lpddr4_2_ch1_ck_t_a0"    loc="BT34"/>
+    <pin index="3516"  name="lpddr4_2_ch1_ck_t_b0"    loc="BH35"/>
+    <pin index="3517"  name="lpddr4_2_ch1_cke_a0"     loc="BU36"/>
+    <pin index="3518"  name="lpddr4_2_ch1_cke_a1"     loc="BU34"/>
+    <pin index="3519"  name="lpddr4_2_ch1_cke_b0"     loc="BL34"/>
+    <pin index="3520"  name="lpddr4_2_ch1_cke_b1"     loc="BK34"/>
+    <pin index="3521"  name="lpddr4_2_ch1_cs_a0"      loc="BU33"/>
+    <pin index="3522"  name="lpddr4_2_ch1_cs_a1"      loc="BU37"/>
+    <pin index="3523"  name="lpddr4_2_ch1_cs_b0"      loc="BN34"/>
+    <pin index="3524"  name="lpddr4_2_ch1_cs_b1"      loc="BE35"/>
+    <pin index="3525"  name="lpddr4_2_ch1_dmi_a0"     loc="BN33"/>
+    <pin index="3526"  name="lpddr4_2_ch1_dmi_b0"     loc="BE34"/>
+    <pin index="3527"  name="lpddr4_2_ch1_dq_a5"      loc="BR35"/>
+    <pin index="3528"  name="lpddr4_2_ch1_dq_a6"      loc="BR34"/>
+    <pin index="3529"  name="lpddr4_2_ch1_dq_a2"      loc="BP35"/>
+    <pin index="3530"  name="lpddr4_2_ch1_dq_a1"      loc="BN35"/>
+    <pin index="3531"  name="lpddr4_2_ch1_dq_a4"      loc="BR37"/>
+    <pin index="3532"  name="lpddr4_2_ch1_dq_a3"      loc="BP38"/>
+    <pin index="3533"  name="lpddr4_2_ch1_dq_a0"      loc="BP33"/>
+    <pin index="3534"  name="lpddr4_2_ch1_dq_a7"      loc="BR33"/>
+    <pin index="3535"  name="lpddr4_2_ch1_dq_b0"      loc="BD38"/>
+    <pin index="3536"  name="lpddr4_2_ch1_dq_b3"      loc="BF34"/>
+    <pin index="3537"  name="lpddr4_2_ch1_dq_b2"      loc="BE38"/>
+    <pin index="3538"  name="lpddr4_2_ch1_dq_b6"      loc="BF36"/>
+    <pin index="3539"  name="lpddr4_2_ch1_dq_b4"      loc="BG36"/>
+    <pin index="3540"  name="lpddr4_2_ch1_dq_b5"      loc="BG35"/>
+    <pin index="3541"  name="lpddr4_2_ch1_dq_b7"      loc="BF37"/>
+    <pin index="3542"  name="lpddr4_2_ch1_dq_b1"      loc="BE37"/>
+    <pin index="3543"  name="lpddr4_2_ch1_dqs_c_a0"   loc="BP37"/>
+    <pin index="3544"  name="lpddr4_2_ch1_dqs_c_b0"   loc="BD36"/>
+    <pin index="3545"  name="lpddr4_2_ch1_dqs_t_a0"   loc="BP36"/>
+    <pin index="3546"  name="lpddr4_2_ch1_dqs_t_b0"   loc="BD35"/>
+    <!-- <pin index="3547"  name="NC"                      loc="BK38"/> !-->
+    <!-- <pin index="3548"  name="NC"                      loc="BK37"/> !-->
+    <!-- <pin index="3549"  name="NC"                      loc="BM34"/> !-->
+    <!-- <pin index="3550"  name="NC"                      loc="BM33"/> !-->
+    <!-- <pin index="3551"  name="NC"                      loc="BM36"/> !-->
+    <!-- <pin index="3552"  name="NC"                      loc="BN38"/> !-->
+    <pin index="3553"  name="qsfp2_lpmode"            loc="BM38" iostandard="LVSTL_11"/>
+    <pin index="3554"  name="qsfp2_reset_l"           loc="BN36" iostandard="LVSTL_11"/>
+
+    <!-- I/O Bank 709 (XPIO) !-->
+    <pin index="3601"  name="lpddr4_3_ch1_ca_a0"      loc="BE41"/>
+    <pin index="3602"  name="lpddr4_3_ch1_ca_a1"      loc="BD41"/>
+    <pin index="3603"  name="lpddr4_3_ch1_ca_a2"      loc="BE40"/>
+    <pin index="3604"  name="lpddr4_3_ch1_ca_a3"      loc="BD39"/>
+    <pin index="3605"  name="lpddr4_3_ch1_ca_a4"      loc="BF42"/>
+    <pin index="3606"  name="lpddr4_3_ch1_ca_a5"      loc="BG42"/>
+    <pin index="3607"  name="lpddr4_3_ch1_ca_b0"      loc="BR38"/>
+    <pin index="3608"  name="lpddr4_3_ch1_ca_b1"      loc="BR39"/>
+    <pin index="3609"  name="lpddr4_3_ch1_ca_b2"      loc="BP42"/>
+    <pin index="3610"  name="lpddr4_3_ch1_ca_b3"      loc="BT40"/>
+    <pin index="3611"  name="lpddr4_3_ch1_ca_b4"      loc="BR40"/>
+    <pin index="3612"  name="lpddr4_3_ch1_ca_b5"      loc="BP41"/>
+    <pin index="3613"  name="lpddr4_3_ch1_ck_c_a0"    loc="BF43"/>
+    <pin index="3614"  name="lpddr4_3_ch1_ck_c_b0"    loc="BR43"/>
+    <pin index="3615"  name="lpddr4_3_ch1_ck_t_a0"    loc="BE43"/>
+    <pin index="3616"  name="lpddr4_3_ch1_ck_t_b0"    loc="BP43"/>
+    <pin index="3617"  name="lpddr4_3_ch1_cke_a0"     loc="BF39"/>
+    <pin index="3618"  name="lpddr4_3_ch1_cke_a1"     loc="BD42"/>
+    <pin index="3619"  name="lpddr4_3_ch1_cke_b0"     loc="BN43"/>
+    <pin index="3620"  name="lpddr4_3_ch1_cke_b1"     loc="BM43"/>
+    <pin index="3621"  name="lpddr4_3_ch1_cs_a0"      loc="BC43"/>
+    <pin index="3622"  name="lpddr4_3_ch1_cs_a1"      loc="BF40"/>
+    <pin index="3623"  name="lpddr4_3_ch1_cs_b0"      loc="BJ41"/>
+    <pin index="3624"  name="lpddr4_3_ch1_cs_b1"      loc="BT42"/>
+    <pin index="3625"  name="lpddr4_3_ch1_dmi_a0"     loc="BJ40"/>
+    <pin index="3626"  name="lpddr4_3_ch1_dmi_b0"     loc="BR42"/>
+    <pin index="3627"  name="lpddr4_3_ch1_dq_a1"      loc="BG41"/>
+    <pin index="3628"  name="lpddr4_3_ch1_dq_a6"      loc="BK42"/>
+    <pin index="3629"  name="lpddr4_3_ch1_dq_a7"      loc="BK43"/>
+    <pin index="3630"  name="lpddr4_3_ch1_dq_a4"      loc="BJ42"/>
+    <pin index="3631"  name="lpddr4_3_ch1_dq_a5"      loc="BJ43"/>
+    <pin index="3632"  name="lpddr4_3_ch1_dq_a2"      loc="BL39"/>
+    <pin index="3633"  name="lpddr4_3_ch1_dq_a3"      loc="BK39"/>
+    <pin index="3634"  name="lpddr4_3_ch1_dq_a0"      loc="BH41"/>
+    <pin index="3635"  name="lpddr4_3_ch1_dq_b3"      loc="BV41"/>
+    <pin index="3636"  name="lpddr4_3_ch1_dq_b4"      loc="BT41"/>
+    <pin index="3637"  name="lpddr4_3_ch1_dq_b1"      loc="BU39"/>
+    <pin index="3638"  name="lpddr4_3_ch1_dq_b6"      loc="BT39"/>
+    <pin index="3639"  name="lpddr4_3_ch1_dq_b2"      loc="BV40"/>
+    <pin index="3640"  name="lpddr4_3_ch1_dq_b5"      loc="BU41"/>
+    <pin index="3641"  name="lpddr4_3_ch1_dq_b7"      loc="BU42"/>
+    <pin index="3642"  name="lpddr4_3_ch1_dq_b0"      loc="BV39"/>
+    <pin index="3643"  name="lpddr4_3_ch1_dqs_c_a0"   loc="BH40"/>
+    <pin index="3644"  name="lpddr4_3_ch1_dqs_c_b0"   loc="BV38"/>
+    <pin index="3645"  name="lpddr4_3_ch1_dqs_t_a0"   loc="BG39"/>
+    <pin index="3646"  name="lpddr4_3_ch1_dqs_t_b0"   loc="BU38"/>
+    <!-- <pin index="3647"  name="NC"                      loc="BM42"/> !-->
+    <!-- <pin index="3648"  name="NC"                      loc="BL42"/> !-->
+    <!-- <pin index="3649"  name="NC"                      loc="BM41"/> !-->
+    <!-- <pin index="3650"  name="NC"                      loc="BN39"/> !-->
+    <!-- <pin index="3651"  name="NC"                      loc="BP40"/> !-->
+    <!-- <pin index="3652"  name="NC"                      loc="BN40"/> !-->
+    <pin index="3653"  name="qsfp0_lpmode"            loc="BM39" iostandard="LVSTL_11"/>
+    <pin index="3654"  name="qsfp0_reset_l"           loc="BN41" iostandard="LVSTL_11"/>
+
+    <!-- I/O Bank 710 (XPIO) 1.1V !-->
+    <pin index="3701"  name="lpddr4_3_ch0_dmi_a0"     loc="BM47"/>
+    <pin index="3702"  name="lpddr4_3_ch0_dmi_b0"     loc="BE46"/>
+    <pin index="3703"  name="lpddr4_3_ch0_dq_a0"      loc="BV46"/>
+    <pin index="3704"  name="lpddr4_3_ch0_dq_a7"      loc="BR47"/>
+    <pin index="3705"  name="lpddr4_3_ch0_dq_a6"      loc="BU47"/>
+    <pin index="3706"  name="lpddr4_3_ch0_dq_a3"      loc="BV45"/>
+    <pin index="3707"  name="lpddr4_3_ch0_dq_a4"      loc="BN48"/>
+    <pin index="3708"  name="lpddr4_3_ch0_dq_a5"      loc="BP48"/>
+    <pin index="3709"  name="lpddr4_3_ch0_dq_a2"      loc="BP47"/>
+    <pin index="3710"  name="lpddr4_3_ch0_dq_a1"      loc="BU46"/>
+    <pin index="3711"  name="lpddr4_3_ch0_dq_b4"      loc="BJ48"/>
+    <pin index="3712"  name="lpddr4_3_ch0_dq_b1"      loc="BK47"/>
+    <pin index="3713"  name="lpddr4_3_ch0_dq_b2"      loc="BK48"/>
+    <pin index="3714"  name="lpddr4_3_ch0_dq_b3"      loc="BL47"/>
+    <pin index="3715"  name="lpddr4_3_ch0_dq_b7"      loc="BG47"/>
+    <pin index="3716"  name="lpddr4_3_ch0_dq_b6"      loc="BF48"/>
+    <pin index="3717"  name="lpddr4_3_ch0_dq_b5"      loc="BG48"/>
+    <pin index="3718"  name="lpddr4_3_ch0_dq_b0"      loc="BF46"/>
+    <pin index="3719"  name="lpddr4_3_ch0_dqs_c_a0"   loc="BT47"/>
+    <pin index="3720"  name="lpddr4_3_ch0_dqs_c_b0"   loc="BJ47"/>
+    <pin index="3721"  name="lpddr4_3_ch0_dqs_t_a0"   loc="BT46"/>
+    <pin index="3722"  name="lpddr4_3_ch0_dqs_t_b0"   loc="BH47"/>
+    <pin index="3723"  name="lpddr4_3_ch1_dmi_a1"     loc="BT44"/>
+    <pin index="3724"  name="lpddr4_3_ch1_dmi_b1"     loc="BC45"/>
+    <pin index="3725"  name="lpddr4_3_ch1_dq_a10"     loc="BV43"/>
+    <pin index="3726"  name="lpddr4_3_ch1_dq_a11"     loc="BV44"/>
+    <pin index="3727"  name="lpddr4_3_ch1_dq_a9"      loc="BU43"/>
+    <pin index="3728"  name="lpddr4_3_ch1_dq_a8"      loc="BU44"/>
+    <pin index="3729"  name="lpddr4_3_ch1_dq_a14"     loc="BR45"/>
+    <pin index="3730"  name="lpddr4_3_ch1_dq_a12"     loc="BR44"/>
+    <pin index="3731"  name="lpddr4_3_ch1_dq_a13"     loc="BP45"/>
+    <pin index="3732"  name="lpddr4_3_ch1_dq_a15"     loc="BP46"/>
+    <pin index="3733"  name="lpddr4_3_ch1_dq_b10"     loc="BF45"/>
+    <pin index="3734"  name="lpddr4_3_ch1_dq_b11"     loc="BD44"/>
+    <pin index="3735"  name="lpddr4_3_ch1_dq_b8"      loc="BD45"/>
+    <pin index="3736"  name="lpddr4_3_ch1_dq_b9"      loc="BE44"/>
+    <pin index="3737"  name="lpddr4_3_ch1_dq_b15"     loc="BK44"/>
+    <pin index="3738"  name="lpddr4_3_ch1_dq_b14"     loc="BK45"/>
+    <pin index="3739"  name="lpddr4_3_ch1_dq_b12"     loc="BJ46"/>
+    <pin index="3740"  name="lpddr4_3_ch1_dq_b13"     loc="BJ45"/>
+    <pin index="3741"  name="lpddr4_3_ch1_dqs_c_a1"   loc="BN46"/>
+    <pin index="3742"  name="lpddr4_3_ch1_dqs_c_b1"   loc="BH46"/>
+    <pin index="3743"  name="lpddr4_3_ch1_dqs_t_a1"   loc="BN45"/>
+    <pin index="3744"  name="lpddr4_3_ch1_dqs_t_b1"   loc="BG45"/>
+    <!-- <pin index="3745"  name="NC"                      loc="BC46"/> !-->
+    <!-- <pin index="3746"  name="NC"                      loc="BE47"/> !-->
+    <!-- <pin index="3747"  name="NC"                      loc="BL45"/> !-->
+    <!-- <pin index="3748"  name="NC"                      loc="BL44"/> !-->
+    <!-- <pin index="3749"  name="NC"                      loc="BL46"/> !-->
+    <!-- <pin index="3750"  name="NC"                      loc="BN44"/> !-->
+    <!-- <pin index="3751"  name="NC"                      loc="BT45"/> !-->
+    <!-- <pin index="3752"  name="NC"                      loc="BM48"/> !-->
+    <pin index="3753"  name="qsfp1_lpmode"            loc="BM44" iostandard="LVSTL_11"/>
+    <pin index="3754"  name="qsfp1_reset_l"           loc="BM46" iostandard="LVSTL_11"/>
+
+    <!-- I/O Bank 711 (XPIO) 1.1V !-->
+    <pin index="3801"  name="lpddr4_3_ch0_ca_a0"      loc="BU51"/>
+    <pin index="3802"  name="lpddr4_3_ch0_ca_a1"      loc="BT51"/>
+    <pin index="3803"  name="lpddr4_3_ch0_ca_a2"      loc="BR52"/>
+    <pin index="3804"  name="lpddr4_3_ch0_ca_a3"      loc="BU49"/>
+    <pin index="3805"  name="lpddr4_3_ch0_ca_a4"      loc="BU52"/>
+    <pin index="3806"  name="lpddr4_3_ch0_ca_a5"      loc="BV51"/>
+    <pin index="3807"  name="lpddr4_3_ch0_ca_b0"      loc="BM52"/>
+    <pin index="3808"  name="lpddr4_3_ch0_ca_b1"      loc="BR49"/>
+    <pin index="3809"  name="lpddr4_3_ch0_ca_b2"      loc="BP50"/>
+    <pin index="3810"  name="lpddr4_3_ch0_ca_b3"      loc="BN50"/>
+    <pin index="3811"  name="lpddr4_3_ch0_ca_b4"      loc="BT50"/>
+    <pin index="3812"  name="lpddr4_3_ch0_ca_b5"      loc="BR50"/>
+    <pin index="3813"  name="lpddr4_3_ch0_ck_c_a0"    loc="BV48"/>
+    <pin index="3814"  name="lpddr4_3_ch0_ck_c_b0"    loc="BP52"/>
+    <pin index="3815"  name="lpddr4_3_ch0_ck_t_a0"    loc="BU48"/>
+    <pin index="3816"  name="lpddr4_3_ch0_ck_t_b0"    loc="BP51"/>
+    <pin index="3817"  name="lpddr4_3_ch0_cke_a0"     loc="BV49"/>
+    <pin index="3818"  name="lpddr4_3_ch0_cke_a1"     loc="BV50"/>
+    <pin index="3819"  name="lpddr4_3_ch0_cke_b0"     loc="BR48"/>
+    <pin index="3820"  name="lpddr4_3_ch0_cke_b1"     loc="BM53"/>
+    <pin index="3821"  name="lpddr4_3_ch0_cs_a0"      loc="BT49"/>
+    <pin index="3822"  name="lpddr4_3_ch0_cs_a1"      loc="BT52"/>
+    <pin index="3823"  name="lpddr4_3_ch0_cs_b0"      loc="BF50"/>
+    <pin index="3824"  name="lpddr4_3_ch0_cs_b1"      loc="BH53"/>
+    <pin index="3825"  name="lpddr4_3_ch0_dmi_a1"     loc="BG53"/>
+    <pin index="3826"  name="lpddr4_3_ch0_dmi_b1"     loc="BF49"/>
+    <pin index="3827"  name="lpddr4_3_ch0_dq_a13"     loc="BH51"/>
+    <pin index="3828"  name="lpddr4_3_ch0_dq_a12"     loc="BH50"/>
+    <pin index="3829"  name="lpddr4_3_ch0_dq_a9"      loc="BJ50"/>
+    <pin index="3830"  name="lpddr4_3_ch0_dq_a14"     loc="BJ51"/>
+    <pin index="3831"  name="lpddr4_3_ch0_dq_a8"      loc="BK49"/>
+    <pin index="3832"  name="lpddr4_3_ch0_dq_a15"     loc="BK50"/>
+    <pin index="3833"  name="lpddr4_3_ch0_dq_a11"     loc="BK53"/>
+    <pin index="3834"  name="lpddr4_3_ch0_dq_a10"     loc="BK52"/>
+    <pin index="3835"  name="lpddr4_3_ch0_dq_b14"     loc="BG51"/>
+    <pin index="3836"  name="lpddr4_3_ch0_dq_b8"      loc="BG49"/>
+    <pin index="3837"  name="lpddr4_3_ch0_dq_b11"     loc="BF52"/>
+    <pin index="3838"  name="lpddr4_3_ch0_dq_b9"      loc="BE53"/>
+    <pin index="3839"  name="lpddr4_3_ch0_dq_b10"     loc="BF51"/>
+    <pin index="3840"  name="lpddr4_3_ch0_dq_b13"     loc="BE52"/>
+    <pin index="3841"  name="lpddr4_3_ch0_dq_b15"     loc="BH49"/>
+    <pin index="3842"  name="lpddr4_3_ch0_dq_b12"     loc="BG52"/>
+    <pin index="3843"  name="lpddr4_3_ch0_dqs_c_a1"   loc="BJ53"/>
+    <pin index="3844"  name="lpddr4_3_ch0_dqs_c_b1"   loc="BE50"/>
+    <pin index="3845"  name="lpddr4_3_ch0_dqs_t_a1"   loc="BJ52"/>
+    <pin index="3846"  name="lpddr4_3_ch0_dqs_t_b1"   loc="BE49"/>
+    <pin index="3847"  name="lpddr4_3_ch0_reset_n0"   loc="BL51"/>
+    <pin index="3848"  name="lpddr4_3_ch1_reset_n0"   loc="BL52"/>
+    <pin index="3849"  name="mem_clk_3_n"             loc="BL50"/>
+    <pin index="3850"  name="mem_clk_3_p"             loc="BL49"/>
+    <!-- <pin index="3851"  name="NC"                      loc="BN49"/> !-->
+    <!-- <pin index="3852"  name="NC"                      loc="BM49"/> !-->
+    <!-- <pin index="3853"  name="NC"                      loc="BN51"/> !-->
+    <!-- <pin index="3854"  name="NC"                      loc="BM51"/> !-->
+
+    <!-- I/O Bank 712 (XPIO) 1.5V !-->
+    <pin index="3901"  name="itu_10mhz_n"             loc="BG58" iostandard="LVDS15"/>
+    <pin index="3902"  name="itu_10mhz_p"             loc="BG57" iostandard="LVDS15"/>
+    <pin index="3903"  name="1pps_fpga"               loc="BL56" iostandard="LVCMOS15"/>
+    <pin index="3904"  name="rs485_0_data"            loc="BL54" iostandard="LVCMOS15"/>
+    <pin index="3905"  name="rs485_0_de/re_l"         loc="BN53" iostandard="LVCMOS15"/>
+    <pin index="3906"  name="rs485_1_data"            loc="BL55" iostandard="LVCMOS15"/>
+    <pin index="3907"  name="rs485_1_de/re_l"         loc="BP55" iostandard="LVCMOS15"/>
+    <pin index="3908"  name="avr_b2u"                 loc="BP57" iostandard="LVCMOS15"/>
+    <pin index="3909"  name="avr_mon_clk"             loc="BR55" iostandard="LVCMOS15"/>
+    <pin index="3910"  name="avr_u2b"                 loc="BR57" iostandard="LVCMOS15"/>
+    <pin index="3911"  name="fabric_clk"              loc="BN55" iostandard="LVCMOS15"/>
+    <pin index="3912"  name="perst_pl_l"              loc="BP58" iostandard="LVCMOS15"/>
+    <pin index="3913"  name="pmod_io1"                loc="BE54" iostandard="LVCMOS15"/> <!-- IOSTANDARD may need to be overridden by user !-->
+    <pin index="3914"  name="pmod_io2"                loc="BE55" iostandard="LVCMOS15"/> <!-- IOSTANDARD may need to be overridden by user !-->
+    <pin index="3915"  name="pmod_io3"                loc="BF54" iostandard="LVCMOS15"/> <!-- IOSTANDARD may need to be overridden by user !-->
+    <pin index="3916"  name="pmod_io4"                loc="BF55" iostandard="LVCMOS15"/> <!-- IOSTANDARD may need to be overridden by user !-->
+    <pin index="3917"  name="pmod_io5"                loc="BF56" iostandard="LVCMOS15"/> <!-- IOSTANDARD may need to be overridden by user !-->
+    <pin index="3918"  name="pmod_io6"                loc="BG56" iostandard="LVCMOS15"/> <!-- IOSTANDARD may need to be overridden by user !-->
+    <pin index="3919"  name="pmod_io7"                loc="BG54" iostandard="LVCMOS15"/> <!-- IOSTANDARD may need to be overridden by user !-->
+    <pin index="3920"  name="pmod_io8"                loc="BH54" iostandard="LVCMOS15"/> <!-- IOSTANDARD may need to be overridden by user !-->
+    <pin index="3921"  name="qsfp0_scl"               loc="BH56" iostandard="LVCMOS15" pullup="true"/>
+    <pin index="3922"  name="qsfp0_sda"               loc="BH55" iostandard="LVCMOS15" pullup="true"/>
+    <pin index="3923"  name="qsfp1_scl"               loc="BJ55" iostandard="LVCMOS15" pullup="true"/>
+    <pin index="3924"  name="qsfp1_sda"               loc="BJ56" iostandard="LVCMOS15" pullup="true"/>
+    <pin index="3925"  name="qsfp2_scl"               loc="BJ57" iostandard="LVCMOS15" pullup="true"/>
+    <pin index="3926"  name="qsfp2_sda"               loc="BK57" iostandard="LVCMOS15" pullup="true"/>
+    <pin index="3927"  name="si5344_in0_n"            loc="BJ58" iostandard="LVDS15"/>
+    <pin index="3928"  name="si5344_in0_p"            loc="BH58" iostandard="LVDS15"/>
+    <pin index="3929"  name="si5344_intr_n"           loc="BD58" iostandard="LVCMOS15" pullup="true"/>
+    <pin index="3930"  name="si5344_lol_n"            loc="BE57" iostandard="LVCMOS15"/>
+    <pin index="3931"  name="si5344_lol_xaxb_n"       loc="BF57" iostandard="LVCMOS15"/>
+    <pin index="3932"  name="si5344_rst_n"            loc="BE58" iostandard="LVCMOS15"/>
+    <pin index="3933"  name="si5344_scl"              loc="BK55" iostandard="LVCMOS15" pullup="true"/>
+    <pin index="3934"  name="si5344_sda"              loc="BK54" iostandard="LVCMOS15" pullup="true"/>
+    <pin index="3935"  name="si5402_scl"              loc="BN58" iostandard="LVCMOS15" pullup="true"/>
+    <pin index="3936"  name="si5402_sda"              loc="BM58" iostandard="LVCMOS15" pullup="true"/>
+    <pin index="3937"  name="si5402_gpio0"            loc="BV53" iostandard="LVCMOS15"/>
+    <pin index="3938"  name="si5402_gpio1"            loc="BV54" iostandard="LVCMOS15"/>
+    <pin index="3939"  name="si5402_gpio2"            loc="BM57" iostandard="LVCMOS15"/>
+    <pin index="3940"  name="si5402_in0_n"            loc="BU54" iostandard="LVDS15"/>
+    <pin index="3941"  name="si5402_in0_p"            loc="BU53" iostandard="LVDS15"/>
+    <pin index="3942"  name="si5402_in1_n"            loc="BT55" iostandard="LVDS15"/>
+    <pin index="3943"  name="si5402_in1_p"            loc="BT54" iostandard="LVDS15"/>
+    <pin index="3944"  name="si5402_in2_n"            loc="BR54" iostandard="LVDS15"/>
+    <pin index="3945"  name="si5402_in2_p"            loc="BR53" iostandard="LVDS15"/>
+    <pin index="3946"  name="si5402_out5_n"           loc="BN54" iostandard="LVDS15"/>
+    <pin index="3947"  name="si5402_out5_p"           loc="BM54" iostandard="LVDS15"/>
+    <pin index="3948"  name="si5402_rst_n"            loc="BT56" iostandard="LVCMOS15"/>
+    <pin index="3949"  name="srvc_md_l"               loc="BN56" iostandard="LVCMOS15"/>
+    <pin index="3950"  name="trig_in_fpga"            loc="BP53" iostandard="LVCMOS15"/>
+    <pin index="3951"  name="trig_out_en_fpga"        loc="BP56" iostandard="LVCMOS15"/>
+    <pin index="3952"  name="trig_out_fpga"           loc="BM56" iostandard="LVCMOS15"/>
+    <pin index="3953"  name="trig_te_en_fpga"         loc="BL57" iostandard="LVCMOS15"/>
+    <pin index="3954"  name="user_sw_0"               loc="BK58" iostandard="LVCMOS15"/>	
+  </pins>
+
+</part_info>

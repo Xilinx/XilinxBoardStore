@@ -1,0 +1,36 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "iW_G42M_ZU29_4E008G_E032G_LIE", 
+          "display": "iW_G42M_ZU29_4E008G_E032G_LIE", 
+          "revision": "3.1", 
+          "description": "Zynq UltraScale+ RFSoC 29DR SOM, 8GB PS DDR4, 8GB FPGA DDR4, 32GB eMMC Flash", 
+          "company": "iwave-global.com", 
+          "company_display": "iWave Global", 
+          "author": "iwave-global.com", 
+          "contributors": [
+            {
+              "group": "iWave Global", 
+              "url": "https://www.iwave-global.com/"
+            }
+          ], 
+          "category": "System on Module", 
+          "website": "https://www.iwavesystems.com/rfsoc-zu49-zu39-zu29dr-processor-and-system-on-modules/", 
+          "logo": "iW-G42M-ZU29-SOM.jpeg", 
+          "search-keywords": [
+            "iW_G42M_ZU29_4E008G_E032G_LIE", 
+            "iwave-global.com", 
+			"board",
+			"iW-G42M-ZU29-SOM",
+            "System on Module",
+			"SOM"
+          ]
+        }
+      }
+    ]
+  }, 
+  "_major": 1, 
+  "_minor": 0
+}

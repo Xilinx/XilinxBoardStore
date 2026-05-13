@@ -1,0 +1,36 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "iG60M_ZU4302_4E008G_E032G_IAA", 
+          "display": "iG60M_ZU4302_4E008G_E032G_IAA", 
+          "revision": "1.2", 
+          "description": "Zynq UltraScale+ RFSoC 43DR SOM, 8GB PS DDR4, 8GB FPGA DDR4, 32GB eMMC Flash", 
+          "company": "iwave-global.com", 
+          "company_display": "iWave Global", 
+          "author": "iwave-global.com", 
+          "contributors": [
+            {
+              "group": "iWave Global", 
+              "url": "https://www.iwave-global.com/"
+            }
+          ], 
+          "category": "System on Module", 
+          "website": "https://iwave-global.com/product/zu48-47-43-28-27-25dr-rfsoc-system-on-module/", 
+          "logo": "iG-G60M-ZU43-SOM.jpeg", 
+          "search-keywords": [
+            "iG60M_ZU4302_4E008G_E032G_IAA", 
+            "iwave-global.com", 
+			"board",
+			"iG-G60M-ZU43-SOM",
+            "System on Module",
+			"SOM"
+          ]
+        }
+      }
+    ]
+  }, 
+  "_major": 1, 
+  "_minor": 0
+}
