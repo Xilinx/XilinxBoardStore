@@ -1,0 +1,201 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# board_pr_validation.yml
+# AMD/Xilinx Board Store — Automated Board File Pre-Validation
+#
+# Triggers on every pull request that touches files under boards/.
+# Runs board_validator_basic.py on the changed board directories and posts a
+# detailed report as a PR comment.  The job fails if any board has errors,
+# blocking the merge until they are fixed.
+#
+# MODERATOR BYPASS
+# ────────────────
+# An AMD maintainer (member of @Xilinx/board-store-maintainers) can bypass
+# the validation for a specific PR by applying the GitHub label:
+#
+#     bypass-board-validation
+#
+# The validation script still runs and its report is still posted as a PR
+# comment, but the job exits 0 (green) so it never blocks the merge.
+# The bypass is clearly flagged in the PR comment and the step summary so
+# there is a full audit trail.
+#
+# HOW TO APPLY THE LABEL
+# ──────────────────────
+# On the PR page → right panel → Labels → click "bypass-board-validation".
+# Re-push any commit (or close/reopen the PR) to re-trigger this workflow.
+# To re-enable validation, simply remove the label.
+#
+# To modify this workflow:  edit this file in a feature branch and open a PR.
+# Only users listed in .github/CODEOWNERS under the .github/** rule can approve
+# changes to CI scripts (see CODEOWNERS).
+# ─────────────────────────────────────────────────────────────────────────────
+
+name: Board File Pre-Validation
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, labeled, unlabeled]
+    # Only run when board files (or the CI scripts themselves) are changed
+    paths:
+      - "boards/**"
+      - ".github/scripts/board_validator_basic.py"
+      - ".github/workflows/board_pr_validation.yml"
+
+# Minimal permissions — read code, write PR comments
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  validate-board-files:
+    name: Validate Board Files
+    runs-on: ubuntu-latest
+
+    steps:
+      # ── 1. Checkout full history so we can diff against the base branch ──────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # ── 2. Detect moderator bypass label ─────────────────────────────────────
+      # If the label "bypass-board-validation" is present on the PR, the job
+      # will still run and report, but will exit 0 (green) at the end.
+      - name: Check for bypass label
+        id: bypass
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { data: pr } = await github.rest.pulls.get({
+              owner:       context.repo.owner,
+              repo:        context.repo.repo,
+              pull_number: context.issue.number,
+            });
+            const bypassed = pr.labels.some(
+              l => l.name === 'bypass-board-validation'
+            );
+            core.setOutput('enabled', String(bypassed));
+            if (bypassed) {
+              core.warning(
+                'bypass-board-validation label detected — ' +
+                'validation result will NOT block this PR.'
+              );
+            }
+
+      # ── 3. Python (stdlib only — no pip install needed) ───────────────────────
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # ── 4. Produce a list of files changed relative to the PR base ────────────
+      - name: Identify changed files
+        id: changed
+        run: |
+          # Fetch the base branch so git diff has a reference point
+          git fetch --no-tags origin "${{ github.base_ref }}"
+          git diff --name-only "origin/${{ github.base_ref }}...HEAD" \
+            > /tmp/changed_files.txt
+          echo "──────────────── Changed files ────────────────"
+          cat /tmp/changed_files.txt
+          echo "────────────────────────────────────────────────"
+
+      # ── 5. Run the validator ──────────────────────────────────────────────────
+      - name: Run board_validator_basic.py
+        id: validator
+        # continue-on-error so the comment/summary steps always run
+        continue-on-error: true
+        run: |
+          python .github/scripts/board_validator_basic.py \
+            --changed-files /tmp/changed_files.txt \
+            --repo-root     "$GITHUB_WORKSPACE"    \
+            --markdown-output /tmp/validation_report.md
+
+      # ── 6. Append bypass notice to report (when bypassed) ─────────────────────
+      - name: Append bypass notice to report
+        if: steps.bypass.outputs.enabled == 'true'
+        run: |
+          NOTICE=$'\n---\n> [!WARNING]\n'
+          NOTICE+='> **Moderator bypass active** — the `bypass-board-validation` label '
+          NOTICE+='is set on this PR. Validation errors above will NOT block the merge. '
+          NOTICE+='Remove the label to re-enable enforcement.'
+          echo "$NOTICE" >> /tmp/validation_report.md
+
+      # ── 7. Append report to the GitHub Actions Step Summary ──────────────────
+      - name: Write step summary
+        if: always()
+        run: |
+          if [ -f /tmp/validation_report.md ]; then
+            cat /tmp/validation_report.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "## Board Pre-Validation Report" >> "$GITHUB_STEP_SUMMARY"
+            echo "" >> "$GITHUB_STEP_SUMMARY"
+            echo "> No validation report was generated." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      # ── 8. Post / update the PR comment ──────────────────────────────────────
+      - name: Post validation report as PR comment
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const reportPath = '/tmp/validation_report.md';
+
+            // Build comment body
+            let body = '';
+            if (fs.existsSync(reportPath)) {
+              body = fs.readFileSync(reportPath, 'utf8');
+            } else {
+              body = [
+                '## 🔍 Board Pre-Validation Report',
+                '',
+                '> No board files under `boards/` were detected in the '
+                + 'changed files. Nothing was validated.',
+              ].join('\n');
+            }
+
+            // Find an existing bot comment from a previous push to this PR
+            // and delete it to keep the thread clean (one comment per PR)
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo:  context.repo.repo,
+              issue_number: context.issue.number,
+            });
+
+            const MARKER = '<!-- board-validator-report -->';
+            const previous = comments.find(c =>
+              c.user.type === 'Bot' && c.body.includes(MARKER)
+            );
+            if (previous) {
+              await github.rest.issues.deleteComment({
+                owner:      context.repo.owner,
+                repo:       context.repo.repo,
+                comment_id: previous.id,
+              });
+            }
+
+            // Post updated report (prepend hidden marker so we can find it next time)
+            await github.rest.issues.createComment({
+              owner:        context.repo.owner,
+              repo:         context.repo.repo,
+              issue_number: context.issue.number,
+              body:         MARKER + '\n' + body,
+            });
+
+      # ── 9. Fail the job if validation failed AND bypass is NOT active ─────────
+      - name: Fail if validation errors were found (and not bypassed)
+        if: >
+          steps.validator.outcome == 'failure' &&
+          steps.bypass.outputs.enabled != 'true'
+        run: |
+          echo ""
+          echo "❌  Board pre-validation failed."
+          echo "    The PR comment and the step summary above list every error."
+          echo "    Fix all errors and push again to re-run this check."
+          echo ""
+          echo "    If you are a maintainer and need to merge urgently, apply the"
+          echo "    'bypass-board-validation' label to this PR and re-trigger the workflow."
+          exit 1

@@ -1,0 +1,46 @@
+# CODEOWNERS — AMD/Xilinx Board Store
+#
+# This file controls who is automatically requested as a reviewer when
+# a pull request modifies files matching the listed patterns.
+# It also enforces that specific paths can ONLY be merged with approval
+# from the designated owner teams (requires "Require review from code owners"
+# to be enabled in branch-protection settings for the default branch).
+#
+# Syntax:  <path-pattern>   <@user or @org/team> ...
+#
+# ─────────────────────────────────────────────────────────────────────────────
+# HOW AMD INTERNAL EMPLOYEES MANAGE THIS FILE
+# ─────────────────────────────────────────────────────────────────────────────
+# Add an AMD engineer   → append their GitHub handle (or a team) to the
+#                         relevant line, e.g.:  @Xilinx/board-store-ci-team
+#                                                @amd-gh-username
+#
+# Remove an AMD engineer → delete their handle from the relevant line.
+#
+# Move responsibility   → move the handle to the appropriate path pattern.
+#
+# All changes to this file require a PR approved by at least one current
+# member of @Xilinx/board-store-ci-team (enforced by the last rule below).
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Default: AMD board-store maintainers own everything ───────────────────────
+*                                       @Xilinx/board-store-maintainers  @ADubeyAMD
+
+# ── Board files submitted by external contributors ────────────────────────────
+# Reviews ensure correctness of XML / JSON before merge.
+boards/**                               @Xilinx/board-store-maintainers  @ADubeyAMD
+
+# ── Catalog & utility files ───────────────────────────────────────────────────
+catalog/**                              @Xilinx/board-store-maintainers
+utility/**                              @Xilinx/board-store-maintainers
+
+# ── CI scripts & workflows — AMD CI team approval required ───────────────────
+# Only members of board-store-ci-team can approve changes to the automation
+# scripts, preventing external contributors from altering CI behaviour.
+.github/**                              @Xilinx/board-store-ci-team  @ADubeyAMD
+.github/scripts/board_validator_basic.py  @Xilinx/board-store-ci-team  @ADubeyAMD
+.github/workflows/board_pr_validation.yml @Xilinx/board-store-ci-team  @ADubeyAMD
+
+# ── Repo-level docs ───────────────────────────────────────────────────────────
+*.md                                    @Xilinx/board-store-maintainers  @ADubeyAMD
+Board-File-Structure-Reference.md      @Xilinx/board-store-maintainers  @ADubeyAMD
