@@ -137,6 +137,7 @@ jobs:
       # ── 8. Post / update the PR comment ──────────────────────────────────────
       - name: Post validation report as PR comment
         if: always()
+        continue-on-error: true
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
