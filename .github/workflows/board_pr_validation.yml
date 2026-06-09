@@ -67,12 +67,9 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const { data: pr } = await github.rest.pulls.get({
-              owner:       context.repo.owner,
-              repo:        context.repo.repo,
-              pull_number: context.issue.number,
-            });
-            const bypassed = pr.labels.some(
+            // Read labels from the event payload to avoid extra API permissions.
+            const labels = context.payload.pull_request?.labels || [];
+            const bypassed = labels.some(
               l => l.name === 'bypass-board-validation'
             );
             core.setOutput('enabled', String(bypassed));
@@ -136,8 +133,9 @@ jobs:
 
       # ── 8. Post / update the PR comment ──────────────────────────────────────
       - name: Post validation report as PR comment
-        if: always()
+        if: always() && github.event.pull_request.head.repo.fork == false
         uses: actions/github-script@v7
+        continue-on-error: true
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
@@ -157,33 +155,48 @@ jobs:
               ].join('\n');
             }
 
-            // Find an existing bot comment from a previous push to this PR
-            // and delete it to keep the thread clean (one comment per PR)
-            const { data: comments } = await github.rest.issues.listComments({
-              owner: context.repo.owner,
-              repo:  context.repo.repo,
-              issue_number: context.issue.number,
-            });
-
             const MARKER = '<!-- board-validator-report -->';
-            const previous = comments.find(c =>
-              c.user.type === 'Bot' && c.body.includes(MARKER)
-            );
-            if (previous) {
-              await github.rest.issues.deleteComment({
-                owner:      context.repo.owner,
-                repo:       context.repo.repo,
-                comment_id: previous.id,
+            try {
+              // Find an existing bot comment from a previous push to this PR
+              // and delete it to keep the thread clean (one comment per PR)
+              const { data: comments } = await github.rest.issues.listComments({
+                owner: context.repo.owner,
+                repo:  context.repo.repo,
+                issue_number: context.issue.number,
               });
+
+              const previous = comments.find(c =>
+                c.user.type === 'Bot' && c.body.includes(MARKER)
+              );
+
+              if (previous) {
+                await github.rest.issues.deleteComment({
+                  owner:      context.repo.owner,
+                  repo:       context.repo.repo,
+                  comment_id: previous.id,
+                });
+              }
+
+              // Post updated report (prepend hidden marker so we can find it next time)
+              await github.rest.issues.createComment({
+                owner:        context.repo.owner,
+                repo:         context.repo.repo,
+                issue_number: context.issue.number,
+                body:         MARKER + '\n' + body,
+              });
+            } catch (error) {
+              // Validation details still appear in step summary and logs.
+              core.warning(
+                `Could not post PR comment (${error.status || 'unknown'}): ${error.message}`
+              );
             }
 
-            // Post updated report (prepend hidden marker so we can find it next time)
-            await github.rest.issues.createComment({
-              owner:        context.repo.owner,
-              repo:         context.repo.repo,
-              issue_number: context.issue.number,
-              body:         MARKER + '\n' + body,
-            });
+      # ── 8b. Explain why no PR comment was posted for fork PRs ────────────────
+      - name: Note comment skipped for fork PR
+        if: always() && github.event.pull_request.head.repo.fork == true
+        run: |
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "> PR comment posting was skipped because this run comes from a fork and the token does not have comment-write permission." >> "$GITHUB_STEP_SUMMARY"
 
       # ── 9. Fail the job if validation failed AND bypass is NOT active ─────────
       - name: Fail if validation errors were found (and not bypassed)
