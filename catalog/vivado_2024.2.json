@@ -8911,6 +8911,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "alpha-data.com"
+      },
+      {
+        "name": "SZG-HUB1450-AU10P-10G",
+        "display": "SZG-HUB1450-AU10P-10G",
+        "latest_revision": "1.0",
+        "commit_id": "49506f3ff22e742df7bc672394ef42226d1f8a1c",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "49506f3ff22e742df7bc672394ef42226d1f8a1c",
+            "date": "06-08-2026:11:58:35",
+            "history": "Added board SZG-HUB1450-AU10P-10G v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/SZG-HUB1450-AU10P-10G/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
       }
     ],
     "categories": [
