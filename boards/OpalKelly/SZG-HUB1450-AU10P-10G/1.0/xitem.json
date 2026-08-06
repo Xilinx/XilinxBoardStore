@@ -1,0 +1,37 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "SZG-HUB1450-AU10P-10G",
+          "display": "SZG-HUB1450-AU10P-10G",
+          "revision": "1.0",
+          "description": "SZG-HUB1450-AU10P-10G",
+          "company": "opalkelly.com",
+          "company_display": "Opal Kelly",
+          "author": "Opal Kelly",
+          "contributors": [
+            {
+              "group": "Opal Kelly",
+              "url": "https://opalkelly.com/"
+            }
+          ],
+          "category": "Single Part",
+          "website": "https://opalkelly.com/products/fpga-integration/szg-hub1450",
+          "logo": "SZG-HUB1450-AU10P-10G-Top.jpg",
+          "search-keywords": [
+            "SZG-HUB1450-AU10P-10G",
+            "opalkelly.com",
+            "board",
+            "AU10P",
+            "Opal Kelly",
+            "FrontPanel",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}
