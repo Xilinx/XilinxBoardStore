@@ -1,4 +1,7 @@
 ######### VEK385 change log ##############
+1.0 (2026.1.1)
+Updated lpddr5_clk2 preferred IP (Minor change and board file version not changed)
+
 1.0 (2026.1)
 Updated PL uart display name
 

@@ -1422,12 +1422,13 @@
 					</port_maps>
 				</interface>
 				
-				<interface mode="slave" name="lpddr5_clk2" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="lpddr5_clk2" preset_proc="sysclk0_preset">
+				<interface mode="slave" name="lpddr5_clk2" type="xilinx.com:interface:diff_clock_rtl:1.0" of_component="lpddr5_clk2">
 					<parameters>
 						<parameter name="frequency" value="320000000" />
 					</parameters>
 					<preferred_ips>
-						<preferred_ip vendor="xilinx.com" library="ip" name="axi_noc2" order="0" />
+						<preferred_ip vendor="xilinx.com" library="ip" name="clkx5_wiz" order="0" />
+						<!-- <preferred_ip vendor="xilinx.com" library="ip" name="axi_noc2" order="0" /> -->
 						<!-- <preferred_ip vendor="xilinx.com" library="ip" name="util_ds_buf" order="0" /> -->
 						<!-- <preferred_ip vendor="xilinx.com" library="ip" name="clkx5_wiz" order="1" /> -->
 					</preferred_ips>

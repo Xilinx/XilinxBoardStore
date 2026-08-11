@@ -1,0 +1,35 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "scu200_p", 
+          "display": "Spartan Ultrascale+ SCU200(Rev B) Evaluation Platform", 
+          "revision": "1.0", 
+          "description": "Spartan Ultrascale+ SCU200(Rev B) Evaluation Platform", 
+          "company": "xilinx.com", 
+          "company_display": "Xilinx", 
+          "author": "Vanitha", 
+          "contributors": [
+            {
+              "group": "Xilinx", 
+              "url": "www.xilinx.com"
+            }
+          ], 
+          "category": "Evaluation Boards",
+          "logo": "scu200_board.jpg",
+          "website": "http://www.xilinx.com/scu200", 
+          "search-keywords": [
+            "SCU200", 
+            "SCU200_p", 
+            "xilinx.com", 
+            "board", 
+            "Evaluation Boards"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}

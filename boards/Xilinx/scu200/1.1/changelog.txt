@@ -1,0 +1,8 @@
+######### SCU200 Change log ##############
+1.1
+Updated GMII interface to work 1G speed (2026.1.1)
+
+1.0
+SCU200 Initial Vivado Board Support(2025.2.1)
+
+ 
