@@ -8618,11 +8618,11 @@
         "name": "vek385",
         "display": "Versal VEK385 Evaluation Platform",
         "latest_revision": "1.1",
-        "commit_id": "602e93cb978d461af61fac09776aaa1b193cf3d8",
+        "commit_id": "6d47e5082846e1294461e96c58c22682b03afa02",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "602e93cb978d461af61fac09776aaa1b193cf3d8",
+            "commit_id": "6d47e5082846e1294461e96c58c22682b03afa02",
             "date": "29-04-2026:17:46:42",
             "history": "Added board Versal VEK385 Evaluation Platform v1.1"
           }
@@ -8637,11 +8637,11 @@
         "name": "vek385_1",
         "display": "Versal VEK385 Evaluation Platform (Rev B)",
         "latest_revision": "1.0",
-        "commit_id": "602e93cb978d461af61fac09776aaa1b193cf3d8",
+        "commit_id": "6d47e5082846e1294461e96c58c22682b03afa02",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "602e93cb978d461af61fac09776aaa1b193cf3d8",
+            "commit_id": "6d47e5082846e1294461e96c58c22682b03afa02",
             "date": "29-04-2026:17:46:42",
             "history": "Added board Versal VEK385 Evaluation Platform (Rev B) v1.0"
           }
@@ -9104,63 +9104,6 @@
         ],
         "config": {
           "root": "boards/Xilinx/vpk360/1.0",
-          "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
-      },
-      {
-        "name": "vrk160",
-        "display": "Versal VRK160 ES1 Evaluation Platform",
-        "latest_revision": "1.0",
-        "commit_id": "602e93cb978d461af61fac09776aaa1b193cf3d8",
-        "revisions": [
-          {
-            "revision": "1.0",
-            "commit_id": "602e93cb978d461af61fac09776aaa1b193cf3d8",
-            "date": "29-04-2026:17:46:42",
-            "history": "Added board Versal VRK160 ES1 Evaluation Platform v1.0"
-          }
-        ],
-        "config": {
-          "root": "boards/Xilinx/vrk160/1.0",
-          "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
-      },
-      {
-        "name": "vrk160",
-        "display": "Versal VRK160 ES1 Evaluation Platform",
-        "latest_revision": "1.1",
-        "commit_id": "602e93cb978d461af61fac09776aaa1b193cf3d8",
-        "revisions": [
-          {
-            "revision": "1.1",
-            "commit_id": "602e93cb978d461af61fac09776aaa1b193cf3d8",
-            "date": "29-04-2026:17:46:42",
-            "history": "Added board Versal VRK160 ES1 Evaluation Platform v1.1"
-          }
-        ],
-        "config": {
-          "root": "boards/Xilinx/vrk160/1.1",
-          "metadata_file": "xitem.json"
-        },
-        "company": "xilinx.com"
-      },
-      {
-        "name": "vrk160",
-        "display": "Versal VRK160 ES1 Evaluation Platform",
-        "latest_revision": "1.2",
-        "commit_id": "602e93cb978d461af61fac09776aaa1b193cf3d8",
-        "revisions": [
-          {
-            "revision": "1.2",
-            "commit_id": "602e93cb978d461af61fac09776aaa1b193cf3d8",
-            "date": "29-04-2026:17:46:42",
-            "history": "Added board Versal VRK160 ES1 Evaluation Platform v1.2"
-          }
-        ],
-        "config": {
-          "root": "boards/Xilinx/vrk160/1.2",
           "metadata_file": "xitem.json"
         },
         "company": "xilinx.com"
@@ -9810,6 +9753,215 @@
           "metadata_file": "xitem.json"
         },
         "company": "opalkelly.com"
+      },
+      {
+        "name": "scu200",
+        "display": "Spartan Ultrascale+ SCU200 Evaluation Platform",
+        "latest_revision": "1.1",
+        "commit_id": "6d47e5082846e1294461e96c58c22682b03afa02",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "6d47e5082846e1294461e96c58c22682b03afa02",
+            "date": "11-08-2026:05:54:37",
+            "history": "Added board Spartan Ultrascale+ SCU200 Evaluation Platform v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/scu200/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "scu200_p",
+        "display": "Spartan Ultrascale+ SCU200(Rev B) Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "6d47e5082846e1294461e96c58c22682b03afa02",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6d47e5082846e1294461e96c58c22682b03afa02",
+            "date": "11-08-2026:05:54:37",
+            "history": "Added board Spartan Ultrascale+ SCU200(Rev B) Evaluation Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/scu200_p/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vek386",
+        "display": "Versal VEK386 Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "6d47e5082846e1294461e96c58c22682b03afa02",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6d47e5082846e1294461e96c58c22682b03afa02",
+            "date": "11-08-2026:05:54:37",
+            "history": "Added board Versal VEK386 Evaluation Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vek386/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vpk360",
+        "display": "Versal VPK360 Evaluation Platform",
+        "latest_revision": "1.1",
+        "commit_id": "6d47e5082846e1294461e96c58c22682b03afa02",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "6d47e5082846e1294461e96c58c22682b03afa02",
+            "date": "11-08-2026:05:54:37",
+            "history": "Added board Versal VPK360 Evaluation Platform v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vpk360/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vrk160",
+        "display": "Versal VRK160 ES1 Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "6d47e5082846e1294461e96c58c22682b03afa02",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6d47e5082846e1294461e96c58c22682b03afa02",
+            "date": "11-08-2026:05:54:37",
+            "history": "Added board Versal VRK160 ES1 Evaluation Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vrk160/es/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vrk160",
+        "display": "Versal VRK160 ES1 Evaluation Platform",
+        "latest_revision": "1.1",
+        "commit_id": "6d47e5082846e1294461e96c58c22682b03afa02",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "6d47e5082846e1294461e96c58c22682b03afa02",
+            "date": "11-08-2026:05:54:37",
+            "history": "Added board Versal VRK160 ES1 Evaluation Platform v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vrk160/es/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vrk160",
+        "display": "Versal VRK160 ES1 Evaluation Platform",
+        "latest_revision": "1.2",
+        "commit_id": "6d47e5082846e1294461e96c58c22682b03afa02",
+        "revisions": [
+          {
+            "revision": "1.2",
+            "commit_id": "6d47e5082846e1294461e96c58c22682b03afa02",
+            "date": "11-08-2026:05:54:37",
+            "history": "Added board Versal VRK160 ES1 Evaluation Platform v1.2"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vrk160/es/1.2",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vrk160",
+        "display": "Versal VRK160 ES1 Evaluation Platform",
+        "latest_revision": "1.3",
+        "commit_id": "6d47e5082846e1294461e96c58c22682b03afa02",
+        "revisions": [
+          {
+            "revision": "1.3",
+            "commit_id": "6d47e5082846e1294461e96c58c22682b03afa02",
+            "date": "11-08-2026:05:54:37",
+            "history": "Added board Versal VRK160 ES1 Evaluation Platform v1.3"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vrk160/es/1.3",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vrk160",
+        "display": "Versal VRK160 Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "6d47e5082846e1294461e96c58c22682b03afa02",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6d47e5082846e1294461e96c58c22682b03afa02",
+            "date": "11-08-2026:05:54:37",
+            "history": "Added board Versal VRK160 Evaluation Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vrk160/prod/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vrk165",
+        "display": "Versal VRK165 ES1 Evaluation Platform",
+        "latest_revision": "1.1",
+        "commit_id": "6d47e5082846e1294461e96c58c22682b03afa02",
+        "revisions": [
+          {
+            "revision": "1.1",
+            "commit_id": "6d47e5082846e1294461e96c58c22682b03afa02",
+            "date": "11-08-2026:05:54:37",
+            "history": "Added board Versal VRK165 ES1 Evaluation Platform v1.1"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vrk165/es/1.1",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
+      },
+      {
+        "name": "vrk165",
+        "display": "Versal VRK165 Evaluation Platform",
+        "latest_revision": "1.0",
+        "commit_id": "6d47e5082846e1294461e96c58c22682b03afa02",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "6d47e5082846e1294461e96c58c22682b03afa02",
+            "date": "11-08-2026:05:54:37",
+            "history": "Added board Versal VRK165 Evaluation Platform v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/Xilinx/vrk165/prod/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "xilinx.com"
       }
     ],
     "categories": [
