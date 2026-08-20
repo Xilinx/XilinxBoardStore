@@ -9796,11 +9796,11 @@
         "name": "vek386",
         "display": "Versal VEK386 Evaluation Platform",
         "latest_revision": "1.0",
-        "commit_id": "6d47e5082846e1294461e96c58c22682b03afa02",
+        "commit_id": "58ac4af3bc9e650bbc9abf3d89510672765ca131",
         "revisions": [
           {
             "revision": "1.0",
-            "commit_id": "6d47e5082846e1294461e96c58c22682b03afa02",
+            "commit_id": "58ac4af3bc9e650bbc9abf3d89510672765ca131",
             "date": "11-08-2026:05:54:37",
             "history": "Added board Versal VEK386 Evaluation Platform v1.0"
           }
