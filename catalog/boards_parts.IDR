@@ -171,13 +171,28 @@ for instance xc7z010 or xc7a100t
 	<device_rule device="xcsu35p" part="xcsu35p-sbvb625-2-e">
 	<dir src="data/xhub/boards/XilinxBoardStore/boards/Xilinx/scu35"></dir>
 	</device_rule>
+	<device_rule device="xcsu200p" part="xcsu200p-sbva1024-2-e">
+	<dir src="data/xhub/boards/XilinxBoardStore/boards/Xilinx/scu200"></dir>
+	</device_rule>
+	<device_rule device="xcsu200p" part="xcsu200p-sbva1024-2-e">
+	<dir src="data/xhub/boards/XilinxBoardStore/boards/Xilinx/scu200_p"></dir>
+	</device_rule>
 	<device_rule device="xc2ve3858" part="xc2ve3858-ssva2112-2MP-e-S">
 	<dir src="data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek385"></dir>
+	</device_rule>
+	<device_rule device="xc2ve3858" part="xc2ve3858-ssva2112-2MP-e-S">
+	<dir src="data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek385_2"></dir>
 	</device_rule>
 	<device_rule device="xcvr1602" part="xcvr1602-vsva2488-2">
 	<dir src="data/xhub/boards/XilinxBoardStore/boards/Xilinx/vrk160"></dir>
 	</device_rule>
 	<device_rule device="xcvr1652" part="xcvr1652-vsvg1596-2">
-	<dir src="data/xhub/boards/XilinxBoardStore/boards/Xilinx/vrkk165"></dir>
+	<dir src="data/xhub/boards/XilinxBoardStore/boards/Xilinx/vrk165"></dir>
+	</device_rule>
+	<device_rule device="xc2vp3602" part="xc2vp3602-vsvc3340-2MP-e-S">
+	<dir src="data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk360"></dir>
+	</device_rule>
+	<device_rule device="xc2ve3858" part="xc2ve3858-ssva2397-2MP-e-S">
+	<dir src="data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek386"></dir>
 	</device_rule>
 </idr>
