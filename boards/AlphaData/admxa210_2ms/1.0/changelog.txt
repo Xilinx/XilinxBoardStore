@@ -1,0 +1,5 @@
+######### ADM-XA210/2MS change log ##############
+
+1.0 - Vivado 2024.x
+ADM-XA210 initial board support
+
