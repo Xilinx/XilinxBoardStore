@@ -9196,6 +9196,25 @@
           "metadata_file": "xitem.json"
         },
         "company": "opalkelly.com"
+      },
+      {
+        "name": "admxa210_2ms",
+        "display": "ADMXA210/2MS",
+        "latest_revision": "1.0",
+        "commit_id": "ddc49f89d580f83a4ad126e7976a80d9576d0a3a",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "ddc49f89d580f83a4ad126e7976a80d9576d0a3a",
+            "date": "21-08-2026:16:49:11",
+            "history": "Added board ADMXA210/2MS v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/AlphaData/admxa210_2ms/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "alpha-data.com"
       }
     ],
     "categories": [
