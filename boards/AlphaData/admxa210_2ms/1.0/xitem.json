@@ -1,0 +1,34 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "admxa210_2ms",
+          "display": "ADMXA210/2MS",
+          "revision": "1.0",
+          "description": "Versal ADM-XA210 XMC/XMC+ Reconfigurable Computing Card",
+          "company": "alpha-data.com",
+          "company_display": "Alpha Data",
+          "author": "adps",
+          "contributors": [
+            {
+              "group": "Alpha Data",
+              "url": "www.alpha-data.com"
+            }
+          ],
+          "category": "Single Part",
+          "website": "https://www.alpha-data.com/product/adm-xa210/",
+          "logo": "admxa210_image.jpg",
+          "search-keywords": [
+            "admxa210_2ms",
+            "alpha-data.com",
+            "board",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}
