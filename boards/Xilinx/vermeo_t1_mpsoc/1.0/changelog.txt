@@ -1,0 +1,4 @@
+######### Varium change log ##############
+1.0
+Vermeo T1 MPSoC initial board support (Vivado 2020.1)
+

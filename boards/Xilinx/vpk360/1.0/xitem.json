@@ -1,0 +1,33 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "vpk360", 
+          "display": "Versal VPK360 Evaluation Platform", 
+          "revision": "1.0", 
+          "description": "Versal VPK360 Evaluation Platform", 
+          "company": "xilinx.com", 
+          "company_display": "Xilinx", 
+          "author": "skemidi", 
+          "contributors": [
+            {
+              "group": "Xilinx", 
+              "url": "www.xilinx.com"
+            }
+          ], 
+          "category": "Evaluation Boards", 
+          "website": "www.xilinx.com/vpk360", 
+          "search-keywords": [
+            "vpk360", 
+            "xilinx.com", 
+            "board", 
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  }, 
+  "_major": 1, 
+  "_minor": 0
+}

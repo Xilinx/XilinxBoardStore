@@ -1,0 +1,8 @@
+######### ZC706 Change log ##############
+
+1.5
+Added New DDR3 Memory Part MT4KTF25664HZ-1G9P1 support
+
+1.4
+Added FMC support
+

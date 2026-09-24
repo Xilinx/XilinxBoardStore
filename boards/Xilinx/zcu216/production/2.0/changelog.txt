@@ -1,0 +1,5 @@
+#########---- ZCU216 Production change log ----############
+
+2.0
+ZCU216 initial board support for Production Board with dual memory support (Vivado 2020.2) 
+

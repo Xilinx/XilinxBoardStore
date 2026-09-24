@@ -1,0 +1,6 @@
+######### KD240 SOM changelog ############
+1.1
+Updated the preset (PSU__DDRC__ENABLE_LP4_HAS_ECC_COMP config added)
+
+1.0 (2023.1_kria_update1)
+Initial release

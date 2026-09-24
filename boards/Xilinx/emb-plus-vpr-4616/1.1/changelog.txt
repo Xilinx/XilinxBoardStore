@@ -1,0 +1,8 @@
+######### emb-plus-vpr-4616 change log ##############
+1.1 - 2025.1
+Updated OSPI clock speed to 166MHz,PS GPIO Default output value value to high, pcie preset and disabled es part support as it is deprecated in 2025.1.
+
+1.0 - 2024.1
+Initial support for Embedded+ Sapphire VPR-4616 board
+
+

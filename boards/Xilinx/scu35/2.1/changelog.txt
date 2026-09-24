@@ -1,0 +1,15 @@
+######### Spartan UltraScale+ SCU35 Board Change log ##############
+Rev 2.1
+Fixed Clocking Wizard (clk_wiz) resetn support for active-low reset connectivity (2026.2)
+
+Rev 2.0
+Fixed Ethernet mdio_mdc, and phy_reset_out Board automation fixes (2026.1)
+
+Rev 1.0
+Spartan UltraScale+ SCU35 Vivado Board Support(2025.2)
+
+Rev B 1.0
+Spartan UltraScale+ SCU35 Vivado Board Support(2025.2)
+
+Rev A 1.0
+Spartan UltraScale+ SCU35 Initial Vivado Board Support(2025.1)

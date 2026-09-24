@@ -1,0 +1,3 @@
+######### K24I SOM changelog ############
+1.0 (2023.1_kria_update1)
+Initial release

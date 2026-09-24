@@ -1,0 +1,18 @@
+######### VCK190 SD Level Shifter change log ##############
+1.3 -2025.1
+Updated pcie* preset
+
+1.2 - 2024.2
+Corrected the SD1_DATA_TRANSFER_MODE format
+
+1.2 - 2024.1
+Updated CAN_FD configuration
+Added board flow support for PCIe interface (X1,X2,X4 and X8 mode)
+
+1.1 - 2023.1
+Corrected the format of PCIe reset pins for CIPS preset
+
+1.0 - 2022.1 
+VCK190 Board Files having support for new SD level shifter
+Added MIO12 for OSPI preset - 2023.1
+

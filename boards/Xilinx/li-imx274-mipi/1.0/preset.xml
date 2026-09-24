@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
+<ip_presets schema="1.0">
+  <ip_preset preset_proc_name="rxcsi_presetl4">
+    <ip vendor="xilinx.com" library="ip" name="mipi_csi2_rx_subsystem" ip_interface="mipi_phy_if">
+      <user_parameters>
+        <user_parameter name="CONFIG.CMN_NUM_LANES" value="4"/> 
+        <user_parameter name="CONFIG.DPY_LINE_RATE" value="1440"/> 
+        <user_parameter name="CONFIG.CMN_NUM_PIXELS" value="2"/> 
+        <user_parameter name="CONFIG.CMN_INC_IIC" value="false"/> 
+        <user_parameter name="CONFIG.HP_IO_BANK_SELECTION" value="66"/> 
+        <user_parameter name="CONFIG.CLK_LANE_IO_LOC" value="Y4"/> 
+        <user_parameter name="CONFIG.DATA_LANE0_IO_LOC" value="W5"/> 
+        <user_parameter name="CONFIG.DATA_LANE1_IO_LOC" value="AB4"/> 
+        <user_parameter name="CONFIG.DATA_LANE2_IO_LOC" value="V4"/> 
+        <user_parameter name="CONFIG.DATA_LANE3_IO_LOC" value="U5"/> 
+        <user_parameter name="CONFIG.CMN_INC_VFB" value="true"/> 
+        <user_parameter name="CONFIG.CMN_PXL_FORMAT" value="RAW10"/> 
+        <user_parameter name="CONFIG.SupportLevel" value="1"/> 
+        <user_parameter name="CONFIG.C_CSI_FILTER_USERDATATYPE" value="true"/> 
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="mipi_dphy" ip_interface="rx_mipi_phy_if">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_DPHY_MODE"  value="SLAVE"/>
+        <user_parameter name="CONFIG.C_DPHY_LANES"  value="4"/>
+        <user_parameter name="CONFIG.C_HS_LINE_RATE" value="1440"/> 
+        <user_parameter name="CONFIG.HP_IO_BANK_SELECTION" value="66"/> 
+        <user_parameter name="CONFIG.CLK_LANE_IO_LOC" value="Y4"/> 
+        <user_parameter name="CONFIG.DATA_LANE0_IO_LOC" value="W5"/> 
+        <user_parameter name="CONFIG.DATA_LANE1_IO_LOC" value="AB4"/> 
+        <user_parameter name="CONFIG.DATA_LANE2_IO_LOC" value="V4"/> 
+        <user_parameter name="CONFIG.DATA_LANE3_IO_LOC" value="U5"/> 
+        <user_parameter name="CONFIG.SupportLevel" value="1"/> 
+      </user_parameters>
+    </ip>
+  </ip_preset>
+  <ip_preset preset_proc_name="rxcsi_presetl2">
+    <ip vendor="xilinx.com" library="ip" name="mipi_csi2_rx_subsystem" ip_interface="mipi_phy_if">
+      <user_parameters>
+        <user_parameter name="CONFIG.CMN_NUM_LANES" value="2"/> 
+        <user_parameter name="CONFIG.DPY_LINE_RATE" value="1440"/> 
+        <user_parameter name="CONFIG.CMN_NUM_PIXELS" value="2"/> 
+        <user_parameter name="CONFIG.CMN_INC_IIC" value="false"/> 
+        <user_parameter name="CONFIG.HP_IO_BANK_SELECTION" value="66"/> 
+        <user_parameter name="CONFIG.CLK_LANE_IO_LOC" value="Y4"/> 
+        <user_parameter name="CONFIG.DATA_LANE0_IO_LOC" value="W5"/> 
+        <user_parameter name="CONFIG.DATA_LANE1_IO_LOC" value="AB4"/> 
+        <user_parameter name="CONFIG.CMN_INC_VFB" value="true"/> 
+        <user_parameter name="CONFIG.CMN_PXL_FORMAT" value="RAW10"/> 
+        <user_parameter name="CONFIG.SupportLevel" value="1"/> 
+        <user_parameter name="CONFIG.C_CSI_FILTER_USERDATATYPE" value="true"/> 
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="mipi_dphy" ip_interface="rx_mipi_phy_if">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_DPHY_MODE" value="SLAVE"/> 
+        <user_parameter name="CONFIG.C_DPHY_LANES" value="2"/> 
+        <user_parameter name="CONFIG.C_HS_LINE_RATE" value="1440"/> 
+        <user_parameter name="CONFIG.HP_IO_BANK_SELECTION" value="66"/> 
+        <user_parameter name="CONFIG.CLK_LANE_IO_LOC" value="Y4"/> 
+        <user_parameter name="CONFIG.DATA_LANE0_IO_LOC" value="W5"/> 
+        <user_parameter name="CONFIG.DATA_LANE1_IO_LOC" value="AB4"/> 
+        <user_parameter name="CONFIG.SupportLevel" value="1"/> 
+      </user_parameters>
+    </ip>
+  </ip_preset>
+  <ip_preset preset_proc_name="txdsi_preset">
+    <ip vendor="xilinx.com" library="ip" name="mipi_dsi_tx_subsystem" ip_interface="mipi_phy_if">
+      <user_parameters>
+        <user_parameter name="CONFIG.DSI_LANES" value="4"/> 
+        <user_parameter name="CONFIG.DSI_DATATYPE" value="RGB888"/> 
+        <user_parameter name="CONFIG.DSI_PIXELS" value="2"/> 
+        <user_parameter name="CONFIG.DPHY_LINERATE" value="1000"/> 
+        <user_parameter name="CONFIG.HP_IO_BANK_SELECTION" value="67"/> 
+        <user_parameter name="CONFIG.CLK_LANE_IO_LOC" value="P11"/> 
+        <user_parameter name="CONFIG.DATA_LANE0_IO_LOC" value="N9"/> 
+        <user_parameter name="CONFIG.DATA_LANE1_IO_LOC" value="L13"/> 
+        <user_parameter name="CONFIG.DATA_LANE2_IO_LOC" value="N13"/> 
+        <user_parameter name="CONFIG.DATA_LANE3_IO_LOC" value="P12"/> 
+        <user_parameter name="CONFIG.SupportLevel" value="1"/> 
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="mipi_dphy" ip_interface="tx_mipi_phy_if">
+      <user_parameters>
+        <user_parameter name="CONFIG.C_DPHY_MODE"  value="MASTER"/> 
+        <user_parameter name="CONFIG.C_DPHY_LANES"  value="4"/> 
+        <user_parameter name="CONFIG.C_HS_LINE_RATE" value="1000"/> 
+        <user_parameter name="CONFIG.HP_IO_BANK_SELECTION" value="67"/> 
+        <user_parameter name="CONFIG.CLK_LANE_IO_LOC" value="P11"/> 
+        <user_parameter name="CONFIG.DATA_LANE0_IO_LOC" value="N9"/> 
+        <user_parameter name="CONFIG.DATA_LANE1_IO_LOC" value="L13"/> 
+        <user_parameter name="CONFIG.DATA_LANE2_IO_LOC" value="N13"/> 
+        <user_parameter name="CONFIG.DATA_LANE3_IO_LOC" value="P12"/> 
+        <user_parameter name="CONFIG.SupportLevel" value="1"/> 
+      </user_parameters>
+    </ip>
+  </ip_preset>
+  <ip_preset preset_proc_name="dsi_gpio_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+      <user_parameters>
+          <user_parameter name="CONFIG.C_GPIO_WIDTH" value="2"/> 
+          <user_parameter name="CONFIG.C_ALL_OUTPUTS" value="1"/> 
+	  <user_parameter name="CONFIG.C_ALL_INPUTS" value="0"/>
+	  <user_parameter name="CONFIG.C_DOUT_DEFAULT" value="0x00000003"/>
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+      <user_parameters>
+          <user_parameter name="CONFIG.C_GPIO_WIDTH" value="2"/> 
+          <user_parameter name="CONFIG.C_ALL_OUTPUTS" value="1"/> 
+	  <user_parameter name="CONFIG.C_ALL_INPUTS" value="0"/>
+	  <user_parameter name="CONFIG.C_DOUT_DEFAULT" value="0x00000003"/>
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="iomodule" ip_interface="GPIO1">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_USE_GPI1" value="1"/> 
+          <user_parameter name="CONFIG.C_GPI1_SIZE" value="2"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="iomodule" ip_interface="GPIO2">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_USE_GPI2" value="1"/> 
+          <user_parameter name="CONFIG.C_GPI2_SIZE" value="2"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="iomodule" ip_interface="GPIO3">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_USE_GPI3" value="1"/> 
+          <user_parameter name="CONFIG.C_GPI3_SIZE" value="2"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="iomodule" ip_interface="GPIO4">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_USE_GPI4" value="1"/> 
+          <user_parameter name="CONFIG.C_GPI4_SIZE" value="2"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="microblaze_mcs" ip_interface="GPIO1">
+        <user_parameters>
+          <user_parameter name="CONFIG.USE_GPI1" value="1"/> 
+          <user_parameter name="CONFIG.GPI1_SIZE" value="2"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="microblaze_mcs" ip_interface="GPIO2">
+        <user_parameters>
+          <user_parameter name="CONFIG.USE_GPI2" value="1"/> 
+          <user_parameter name="CONFIG.GPI2_SIZE" value="2"/> 
+        </user_parameters>
+    </ip>
+     <ip vendor="xilinx.com" library="ip" name="microblaze_mcs" ip_interface="GPIO3">
+        <user_parameters>
+          <user_parameter name="CONFIG.USE_GPI3" value="1"/> 
+          <user_parameter name="CONFIG.GPI1_SIZE" value="2"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="microblaze_mcs" ip_interface="GPIO4">
+        <user_parameters>
+          <user_parameter name="CONFIG.USE_GPI4" value="1"/> 
+          <user_parameter name="CONFIG.GPI2_SIZE" value="2"/> 
+        </user_parameters>
+    </ip>
+  </ip_preset>
+  <ip_preset preset_proc_name="csi2_gpio_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+      <user_parameters>
+          <user_parameter name="CONFIG.C_GPIO_WIDTH" value="3"/> 
+          <user_parameter name="CONFIG.C_ALL_OUTPUTS" value="1"/> 
+	  <user_parameter name="CONFIG.C_ALL_INPUTS" value="0"/>
+	  <user_parameter name="CONFIG.C_DOUT_DEFAULT" value="0x00000006"/>
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO2">
+      <user_parameters>
+          <user_parameter name="CONFIG.C_GPIO_WIDTH" value="3"/> 
+          <user_parameter name="CONFIG.C_ALL_OUTPUTS" value="1"/> 
+	  <user_parameter name="CONFIG.C_ALL_INPUTS" value="0"/>
+	  <user_parameter name="CONFIG.C_DOUT_DEFAULT" value="0x00000006"/>
+      </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="iomodule" ip_interface="GPIO1">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_USE_GPI1" value="1"/> 
+          <user_parameter name="CONFIG.C_GPI1_SIZE" value="3"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="iomodule" ip_interface="GPIO2">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_USE_GPI2" value="1"/> 
+          <user_parameter name="CONFIG.C_GPI2_SIZE" value="3"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="iomodule" ip_interface="GPIO3">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_USE_GPI3" value="1"/> 
+          <user_parameter name="CONFIG.C_GPI3_SIZE" value="3"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="iomodule" ip_interface="GPIO4">
+        <user_parameters>
+          <user_parameter name="CONFIG.C_USE_GPI4" value="1"/> 
+          <user_parameter name="CONFIG.C_GPI4_SIZE" value="3"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="microblaze_mcs" ip_interface="GPIO1">
+        <user_parameters>
+          <user_parameter name="CONFIG.USE_GPI1" value="1"/> 
+          <user_parameter name="CONFIG.GPI1_SIZE" value="3"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="microblaze_mcs" ip_interface="GPIO2">
+        <user_parameters>
+          <user_parameter name="CONFIG.USE_GPI2" value="1"/> 
+          <user_parameter name="CONFIG.GPI2_SIZE" value="3"/> 
+        </user_parameters>
+    </ip>
+     <ip vendor="xilinx.com" library="ip" name="microblaze_mcs" ip_interface="GPIO3">
+        <user_parameters>
+          <user_parameter name="CONFIG.USE_GPI3" value="1"/> 
+          <user_parameter name="CONFIG.GPI1_SIZE" value="3"/> 
+        </user_parameters>
+    </ip>
+    <ip vendor="xilinx.com" library="ip" name="microblaze_mcs" ip_interface="GPIO4">
+        <user_parameters>
+          <user_parameter name="CONFIG.USE_GPI4" value="1"/> 
+          <user_parameter name="CONFIG.GPI2_SIZE" value="3"/> 
+        </user_parameters>
+    </ip>
+  </ip_preset>
+  <ip_preset preset_proc_name="csi2_iic_preset">
+    <ip vendor="xilinx.com" library="ip" name="axi_iic" ip_interface="IIC">
+      <user_parameters>
+          <user_parameter name="CONFIG.TEN_BIT_ADR" value="7_bit"/> 
+	  <user_parameter name="CONFIG.IIC_FREQ_KHZ" value="100"/>
+      </user_parameters>
+    </ip>
+  </ip_preset>
+</ip_presets>

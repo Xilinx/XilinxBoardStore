@@ -1,0 +1,8 @@
+######### VRK165 change log ##############
+1.1 (2026.1.1)
+Updated PS wizard preset with PS_MIO22 as TTC clk and enabled PMC_MIO36
+1.0 (2025.2.1)
+Initial support for VRK165 ES1 Evaluation Platform 
+
+
+

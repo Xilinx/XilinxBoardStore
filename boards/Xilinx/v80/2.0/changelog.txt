@@ -1,0 +1,6 @@
+######### v80 change log ##############
+1.0 (2025.2)
+Input tap delay for eMMC High Speed mode is updated to 0x16
+
+1.0(2024.2)
+Initial version (only CIPS and NOC enabled)

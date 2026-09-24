@@ -1,0 +1,18 @@
+######### VEK385 change log ##############
+1.2 (2026.2)
+Enabled  PMC I2C.
+
+1.1 (2026.1.1)
+Updated lpddr5_clk2 preferred IP (Minor change and board file version not changed)
+
+1.1 (2026.1)
+Updated PL uart display name
+
+1.1 (2025.2.1)
+CAN0 MIO directions updated(CANFD0_INH, CAN0_nSTB)
+
+1.1 (2025.2)
+Added Noc2 modes to use internal clk.
+
+1.0 (2025.1)
+Initial support for VEK385 production Evaluation Platform

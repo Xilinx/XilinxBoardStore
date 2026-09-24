@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Copyright (C) 2023, Advanced Micro Devices, Inc - All rights reserved
+ Licensed under the Apache License, Version 2.0 (the "License"). You may
+ not use this file except in compliance with the License. A copy of the
+ License is located at
+     http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ License for the specific language governing permissions and limitations
+ under the License. -->
+
+<part_info part_name="xck24-ubva530-2LV-c">
+	<pins>
+		<pin index="1"  name ="som240_1_a3"    loc="V4"  		pcb_min_delay="0.174663" pcb_max_delay="0.213477"/>
+		<pin index="2"  name ="som240_1_a4"    loc="V3"  		pcb_min_delay="0.174861" pcb_max_delay="0.213719"/>
+		<pin index="3"  name ="som240_1_a6"    loc="P2"   		pcb_min_delay="0.133353" pcb_max_delay="0.162987"/>
+		<pin index="4"  name ="som240_1_a7"    loc="P1"   		pcb_min_delay="0.132993" pcb_max_delay="0.162547"/>
+  		<pin index="5"  name ="som240_1_a9"    loc="H8"  		pcb_min_delay="0.131103" pcb_max_delay="0.160237"/>
+		<pin index="6"  name ="som240_1_a10"   loc="J7"   		pcb_min_delay="0.130932" pcb_max_delay="0.160028"/>
+  		<pin index="7"  name ="som240_1_a12"   loc="J1"   		pcb_min_delay="0.109719" pcb_max_delay="0.134101"/>
+		<pin index="8"  name ="som240_1_a13"   loc="K1"  		pcb_min_delay="0.109962" pcb_max_delay="0.134398"/>
+ 		<pin index="9"  name ="som240_1_a15"   loc="F12"  	pcb_min_delay="0.138933" pcb_max_delay="0.169807"/>
+		<pin index="10" name ="som240_1_a16"   loc="E10"  	pcb_min_delay="0.124335" pcb_max_delay="0.151965"/>
+		<pin index="11" name ="som240_1_a17"   loc="E9"  		pcb_min_delay="0.118278" pcb_max_delay="0.144562"/>
+		
+		<pin index="12" name ="som240_1_b1"    loc="T2"   		pcb_min_delay="0.174996" pcb_max_delay="0.213884"/>
+		<pin index="13" name ="som240_1_b2"    loc="U2"   	pcb_min_delay="0.174798" pcb_max_delay="0.213642"/>
+		<pin index="14" name ="som240_1_b4"    loc="T4"   		pcb_min_delay="0.231885" pcb_max_delay="0.283415"/>
+		<pin index="15" name ="som240_1_b5"    loc="U4"   	pcb_min_delay="0.231813"  pcb_max_delay="0.283327"/>
+ 		<pin index="16" name ="som240_1_b7"    loc="K7"   		pcb_min_delay="0.166437" pcb_max_delay="0.203423"/>
+		<pin index="17" name ="som240_1_b8"    loc="K6"   		pcb_min_delay="0.166608" pcb_max_delay="0.203632"/>
+		<pin index="18" name ="som240_1_b10"   loc="L2"   	pcb_min_delay="0.117999" pcb_max_delay="0.144221"/>
+		<pin index="19" name ="som240_1_b11"   loc="M1"   	pcb_min_delay="0.1179"   pcb_max_delay="0.1441"/>
+		<pin index="20" name ="som240_1_b16"   loc="H9"  	pcb_min_delay="0.121581" pcb_max_delay="0.148599"/>
+		<pin index="21" name ="som240_1_b17"   loc="G10"  	pcb_min_delay="0.117792" pcb_max_delay="0.143968"/>
+		<pin index="22" name ="som240_1_b18"   loc="G9"  	pcb_min_delay="0.121959" pcb_max_delay="0.149061"/>
+		<pin index="23" name ="som240_1_b20"   loc="D9"  	pcb_min_delay="0.115722" pcb_max_delay="0.141438"/>
+		<pin index="24" name ="som240_1_b21"   loc="D13"  	pcb_min_delay="0.11583" pcb_max_delay="0.14157"/>
+		<pin index="25" name ="som240_1_b22"   loc="C13"  	pcb_min_delay="0.117351" pcb_max_delay="0.143429"/>
+		
+		<pin index="26" name ="som240_1_c3"    loc="N6"   	pcb_min_delay="0.215055" pcb_max_delay="0.262845"/>
+		<pin index="27" name ="som240_1_c4"    loc="P6"   		pcb_min_delay="0.215046" pcb_max_delay="0.262834"/>													  
+		<pin index="28" name ="som240_1_c6"    loc="T6"   		pcb_min_delay="0.259182" pcb_max_delay="0.316778"/>
+		<pin index="29" name ="som240_1_c7"    loc="U5"   	pcb_min_delay="0.259119" pcb_max_delay="0.316701"/>												  
+		<pin index="30" name ="som240_1_c9"    loc="R1"   		pcb_min_delay="0.177012" pcb_max_delay="0.216348"/>
+		<pin index="31" name ="som240_1_c10"   loc="T1"   	pcb_min_delay="0.177039" pcb_max_delay="0.216381"/>												  
+		<pin index="32" name ="som240_1_c12"   loc="K2"   	pcb_min_delay="0.131697" pcb_max_delay="0.160963"/>
+		<pin index="33" name ="som240_1_c13"   loc="L1"   	pcb_min_delay="0.13158" pcb_max_delay="0.16082"/>												  
+		<pin index="34" name ="som240_1_c18"   loc="F10"  	pcb_min_delay="0.119925" pcb_max_delay="0.146575"/>
+		<pin index="35" name ="som240_1_c19"   loc="F9"  		pcb_min_delay="0.114705" pcb_max_delay="0.140195"/>
+		<pin index="36" name ="som240_1_c20"   loc="G12"  	pcb_min_delay="0.118674"  pcb_max_delay="0.145046"/>												  
+		<pin index="37" name ="som240_1_c22"   loc="C10"  	pcb_min_delay="0.114759"  pcb_max_delay="0.140261"/>
+		<pin index="38" name ="som240_1_c23"   loc="B10"  	pcb_min_delay="0.113184" pcb_max_delay="0.138336"/>
+		<pin index="39" name ="som240_1_c24"   loc="B9"  	pcb_min_delay="0.110016" pcb_max_delay="0.134464"/>
+		
+		<pin index="40"  name="som240_1_d4"    loc="M7"   	pcb_min_delay="0.210348" pcb_max_delay="0.257092"/>
+		<pin index="41"  name="som240_1_d5"    loc="N7"   	pcb_min_delay="0.210465" pcb_max_delay="0.257235"/>											  
+		<pin index="42"  name="som240_1_d7"    loc="N4"   	pcb_min_delay="0.246618" pcb_max_delay="0.301422"/>
+		<pin index="43"  name="som240_1_d8"    loc="P4"   		pcb_min_delay="0.246618" pcb_max_delay="0.301422"/>														  
+		<pin index="44"  name="som240_1_d10"   loc="N2"   	pcb_min_delay="0.190773" pcb_max_delay="0.233167"/>
+		<pin index="45"  name="som240_1_d11"   loc="N1"   	pcb_min_delay="0.190692" pcb_max_delay="0.233068"/>														  
+		<pin index="46"  name="som240_1_d13"   loc="G7"   	pcb_min_delay="0.123453" pcb_max_delay="0.150887"/>
+		<pin index="47"  name="som240_1_d14"   loc="H7"   	pcb_min_delay="0.123543" pcb_max_delay="0.150997"/>
+		<pin index="48"  name="som240_1_d16"   loc="H13"  	pcb_min_delay="0.141345" pcb_max_delay="0.172755"/>
+		<pin index="49"  name="som240_1_d17"   loc="G13"  	pcb_min_delay="0.142947" pcb_max_delay="0.174713"/>
+		<pin index="50"  name="som240_1_d18"   loc="H10"  	pcb_min_delay="0.133938" pcb_max_delay="0.163702"/>														  
+		<pin index="51"  name="som240_1_d20"   loc="F13"  	pcb_min_delay="0.116379"   pcb_max_delay="0.142241"/>
+		<pin index="52"  name="som240_1_d21"   loc="E12"  	pcb_min_delay="0.114813" pcb_max_delay="0.140327"/>
+		<pin index="53"  name="som240_1_d22"   loc="D10"  	pcb_min_delay="0.116055"   pcb_max_delay="0.141841"/>		
+
+		<pin index="100" name ="som40_2_a1"    loc="F7"   		pcb_min_delay="0.276318" pcb_max_delay="0.337722"/>
+		<pin index="101" name ="som40_2_a2"    loc="G6"   	pcb_min_delay="0.276741" pcb_max_delay="0.338239"/>
+		<pin index="102" name ="som40_2_a4"    loc="A4"  		pcb_min_delay="0.38178" pcb_max_delay="0.46662" />
+		<pin index="103" name ="som40_2_a5"    loc="A3"  		pcb_min_delay="0.381762" pcb_max_delay="0.466598" />
+		<pin index="104" name ="som40_2_a7"    loc="G2"   	pcb_min_delay="0.35721" pcb_max_delay="0.43659"/>
+		<pin index="105" name ="som40_2_a8"    loc="G1"   	pcb_min_delay="0.35694" pcb_max_delay="0.43626"/>		
+		<pin index="106" name ="som40_2_a10"   loc="A11"   	pcb_min_delay="0.572391" pcb_max_delay="0.699589"/>				
+		
+		<pin index="107" name ="som40_2_b2"    loc="C1"   		pcb_min_delay="0.314271" pcb_max_delay="0.384109"/>
+		<pin index="108" name ="som40_2_b3"    loc="D1"   	pcb_min_delay="0.314055" pcb_max_delay="0.383845"/>
+		<pin index="109" name ="som40_2_b5"    loc="V6"  		pcb_min_delay="0.357138" pcb_max_delay="0.436502" />
+		<pin index="110" name ="som40_2_b6"    loc="V5"   	pcb_min_delay="0.357075" pcb_max_delay="0.436425"/>
+		<pin index="111" name ="som40_2_b8"    loc="B2"   	pcb_min_delay="0.353322" pcb_max_delay="0.431838"/>
+		<pin index="112" name ="som40_2_b9"   loc="D4"   		pcb_min_delay="0.395622" pcb_max_delay="0.483538"/>	
+
+		<pin index="113" name ="som40_2_c1"    loc="H2"   		pcb_min_delay="0.277038" pcb_max_delay="0.338602"/>
+		<pin index="114" name ="som40_2_c2"    loc="H1"   		pcb_min_delay="0.277119" pcb_max_delay="0.338701"/>
+		<pin index="115" name ="som40_2_c4"    loc="D2"  		pcb_min_delay="0.292293" pcb_max_delay="0.357247" />
+		<pin index="116" name ="som40_2_c5"    loc="E2"  		pcb_min_delay="0.291501" pcb_max_delay="0.356279" />
+		<pin index="117" name ="som40_2_c7"    loc="J4"   		pcb_min_delay="0.354078" pcb_max_delay="0.432762"/>
+		<pin index="118" name ="som40_2_c8"    loc="K4"   		pcb_min_delay="0.354087" pcb_max_delay="0.432773"/>		
+		<pin index="119" name ="som40_2_c10"   loc="A9"   	pcb_min_delay="0.595557" pcb_max_delay="0.727903"/>	
+		
+		<pin index="120" name ="som40_2_d2"    loc="E1"   		pcb_min_delay="0.290637" pcb_max_delay="0.355223"/>
+		<pin index="121" name ="som40_2_d3"    loc="F1"   		pcb_min_delay="0.290394" pcb_max_delay="0.354926"/>
+		<pin index="122" name ="som40_2_d5"    loc="C4"   		pcb_min_delay="0.360648" pcb_max_delay="0.440792"/>
+		<pin index="123" name ="som40_2_d6"    loc="B4"   	pcb_min_delay="0.360648" pcb_max_delay="0.440792"/>
+		<pin index="124" name ="som40_2_d8"    loc="L6"   		pcb_min_delay="0.253143" pcb_max_delay="0.309397"/>
+		<pin index="125" name ="som40_2_d9"    loc="F4"   		pcb_min_delay="0.32112" pcb_max_delay="0.39248"/>			
+
+</pins>
+</part_info>

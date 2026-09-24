@@ -1,0 +1,17 @@
+######### VRK160 change log ##############
+1.3 (2026.1.1)
+Updated PS wizard preset with PS_MIO22 as TTC clk and enabled PMC_MIO36
+
+1.2 (2025.2.1)
+Updated PL uart display name and OSPI driver strength
+
+1.1 (2025.2)
+Updated lpddr presets and disabled pull-ups on PS MIO pins 7, 9, and 11.
+
+1.0 (2025.1.1)
+Initial support for VRK160 ES1 Evaluation Platform 
+
+
+
+ 
+ 

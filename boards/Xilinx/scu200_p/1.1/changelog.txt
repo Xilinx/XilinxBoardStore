@@ -1,0 +1,7 @@
+######### SCU200 Change log ##############
+1.1 (Rev B)
+  - Fixed Clocking Wizard (clk_wiz) resetn support for active-low reset connectivity (2026.2).
+
+1.0 (Rev B)
+SCU200(Rev B) Initial Vivado Board Support(2026.1.1)
+  - SCU200(Rev B) Board file supports New Memory part with 4GB (MT62F1G32D2DS-020 WT:D).

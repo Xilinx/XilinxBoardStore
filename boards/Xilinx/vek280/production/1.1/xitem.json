@@ -1,0 +1,33 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "vek280", 
+          "display": "Versal VEK280 Evaluation Platform with FMC Connector", 
+          "revision": "1.1", 
+          "description": "Versal VEK280 Evaluation Platform with FMC Connector", 
+          "company": "xilinx.com", 
+          "company_display": "Xilinx", 
+          "author": "skemidi", 
+          "contributors": [
+            {
+              "group": "Xilinx", 
+              "url": "www.xilinx.com"
+            }
+          ], 
+          "category": "Evaluation Boards", 
+          "website": "www.xilinx.com/vek280", 
+          "search-keywords": [
+            "vek280", 
+            "xilinx.com", 
+            "board", 
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  }, 
+  "_major": 1, 
+  "_minor": 0
+}

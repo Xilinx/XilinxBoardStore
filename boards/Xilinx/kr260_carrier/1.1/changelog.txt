@@ -1,0 +1,8 @@
+######### Robotics Carrier card changelog ############
+1.1(2024.1)
+Updated PMOD GPIO interfaces and added pmod_gpio_preset.
+
+1.0 (2022.1)
+Initial release 
+
+
