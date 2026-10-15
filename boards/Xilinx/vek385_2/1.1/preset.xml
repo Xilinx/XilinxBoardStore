@@ -46,7 +46,6 @@
 				<user_parameter name="PMC_MIO26" value="{DRIVE_STRENGTH 8mA SLEW slow PULL pullup SCHMITT 0 AUX_IO 0 USAGE GPIO OUTPUT_DATA default DIRECTION in}"/>
 				<user_parameter name="PMC_UFS" value="{CD_ENABLE 0 CD_IO PMC_MIO_26 RSTN_IO PMC_MIO_25 CFGCLK_IO PMC_MIO_24}"/>
 				<user_parameter name="PMC_UFS_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_24:26 IO_TYPE MIO}"/>
-				<user_parameter name="PS_ASU_ENABLE" value="1"/>
 				<user_parameter name="PS_CAN0_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_16:17 IO_TYPE MIO}"/>
 				<user_parameter name="PS_CAN1_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_18:19 IO_TYPE MIO}"/>
 				<user_parameter name="PS_CAN2_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_20:21 IO_TYPE MIO}"/>
