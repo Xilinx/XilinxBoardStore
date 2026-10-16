@@ -42,7 +42,6 @@
 				<user_parameter name="PMC_CRP_OSPI_REF_CTRL_FREQMHZ" value="200"/>
 				<user_parameter name="PMC_UFS" value="{CD_ENABLE 0 CD_IO PMC_MIO_26 RSTN_IO PMC_MIO_25 CFGCLK_IO PMC_MIO_24}"/>
 				<user_parameter name="PMC_UFS_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_24:26 IO_TYPE MIO}"/>
-				<user_parameter name="PS_ASU_ENABLE" value="1"/>
 				<user_parameter name="PS_CAN0_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_16:17 IO_TYPE MIO}"/>
 				<user_parameter name="PS_CAN1_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_18:19 IO_TYPE MIO}"/>
 				<user_parameter name="PS_CAN2_PERIPHERAL" value="{ENABLE 1 IO PMC_MIO_20:21 IO_TYPE MIO}"/>
