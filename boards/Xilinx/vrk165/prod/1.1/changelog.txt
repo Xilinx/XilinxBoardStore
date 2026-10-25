@@ -1,0 +1,9 @@
+######### VRK165 change log ##############
+1.1 (2026.2)
+Removed the I/O attributes for all OSPI signals from the board presets and rely on the IP-provided defaults.
+
+1.0 (2026.1.1)
+Initial support for VRK165 (rev B) Evaluation Platform 
+
+
+
