@@ -1,6 +1,7 @@
 ######### SCU200 Change log ##############
 1.2
 Fixed Clocking Wizard (clk_wiz) resetn support for active-low reset connectivity (2026.2)
+Fixed GEM Signals IOSTANDARD to SSTL18_I
 
 1.1
 Updated GMII interface to work 1G speed (2026.1.1)
