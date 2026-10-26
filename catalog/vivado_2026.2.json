@@ -8067,11 +8067,11 @@
         "name": "scu200",
         "display": "Spartan Ultrascale+ SCU200 Evaluation Platform",
         "latest_revision": "1.2",
-        "commit_id": "319d55153cfd12a41ddc60049825db38fddc99a5",
+        "commit_id": "efa3fd966841916cc635c6e26d4e2f1023c4972a",
         "revisions": [
           {
             "revision": "1.2",
-            "commit_id": "319d55153cfd12a41ddc60049825db38fddc99a5",
+            "commit_id": "efa3fd966841916cc635c6e26d4e2f1023c4972a",
             "date": "25-09-2026:05:50:57",
             "history": "Added board Spartan Ultrascale+ SCU200 Evaluation Platform v1.2"
           }
@@ -8105,11 +8105,11 @@
         "name": "scu200_p",
         "display": "Spartan Ultrascale+ SCU200(Rev B) Evaluation Platform",
         "latest_revision": "1.1",
-        "commit_id": "319d55153cfd12a41ddc60049825db38fddc99a5",
+        "commit_id": "efa3fd966841916cc635c6e26d4e2f1023c4972a",
         "revisions": [
           {
             "revision": "1.1",
-            "commit_id": "319d55153cfd12a41ddc60049825db38fddc99a5",
+            "commit_id": "efa3fd966841916cc635c6e26d4e2f1023c4972a",
             "date": "25-09-2026:05:50:57",
             "history": "Added board Spartan Ultrascale+ SCU200(Rev B) Evaluation Platform v1.1"
           }
