@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<board schema_version="2.2" vendor="opalkelly.com" name="SZG_ADC_LTC226X" display_name="SZG-ADC-LTC226X Peripheral" url="https://opalkelly.com/products/szg-adc-ltc226x/" preset_file="preset.xml" supports_ced="false">
+  <file_version>1.0</file_version>
+  <description>SZG-ADC-LTC226X SYZYGY Peripheral</description>
+  <compatible_board_revisions>
+    <revision id="0">RevE</revision>
+  </compatible_board_revisions>
+  <components>
+    <component name="szg_port_std" type="connector" sub_type="som" display_name="SZG-ADC-LTC226X (STD) (HP ports only)">
+      <pins>
+        <pin index="0" name="OUT1A_P" iostandard="LVDS" />
+        <pin index="1" name="FR_P" iostandard="LVDS" />
+        <pin index="2" name="OUT1A_N" iostandard="LVDS" />
+        <pin index="3" name="FR_N" iostandard="LVDS" />
+        <pin index="4" name="OUT1B_P" iostandard="LVDS" />
+        <pin index="5" name="OUT2A_P" iostandard="LVDS" />
+        <pin index="6" name="OUT1B_N" iostandard="LVDS" />
+        <pin index="7" name="OUT2A_N" iostandard="LVDS" />
+        <pin index="8" name="SDO" iostandard="LVCMOS18" />
+        <pin index="9" name="OUT2B_P" iostandard="LVDS" />
+        <pin index="10" name="CS_B" iostandard="LVCMOS18" />
+        <pin index="11" name="OUT2B_N" iostandard="LVDS" />
+        <pin index="12" name="SCLK" iostandard="LVCMOS18" />
+        <pin index="13" name="unconnected" />
+        <pin index="14" name="SDI" iostandard="LVCMOS18" />
+        <pin index="15" name="unconnected" />
+        <pin index="16" name="unconnected" />
+        <pin index="17" name="unconnected" />
+        <pin index="18" name="unconnected" />
+        <pin index="19" name="unconnected" />
+        <pin index="20" name="unconnected" />
+        <pin index="21" name="unconnected" />
+        <pin index="22" name="unconnected" />
+        <pin index="23" name="unconnected" />
+        <pin index="24" name="unconnected" />
+        <pin index="25" name="unconnected" />
+        <pin index="26" name="unconnected" />
+        <pin index="27" name="unconnected" />
+        <pin index="28" name="DCO_P" iostandard="LVDS" />
+        <pin index="29" name="ENC_P" iostandard="LVDS" />
+        <pin index="30" name="DCO_N" iostandard="LVDS" />
+        <pin index="31" name="ENC_N" iostandard="LVDS" />
+      </pins>
+      <interfaces>
+        <interface mode="master" name="szg_adc" type="opalkelly.com:interface:szg_adc_ltc226x_rtl:1.0" of_component="adc_ltc226x">
+          <description>SYZYGY ADC (LTC226x) PHY interface. Connects to the syzygy_adc IP core (opalkelly.com:ip:syzygy_adc:1.0).</description>
+          <preferred_ips>
+            <preferred_ip vendor="opalkelly.com" library="ip" name="syzygy_adc" order="0" />
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="out1_p" physical_port="adc_data_1p" dir="in" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="OUT1A_P" />
+                <pin_map port_index="1" component_pin="OUT1B_P" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="out1_n" physical_port="adc_data_1n" dir="in" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="OUT1A_N" />
+                <pin_map port_index="1" component_pin="OUT1B_N" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="out2_p" physical_port="adc_data_2p" dir="in" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="OUT2A_P" />
+                <pin_map port_index="1" component_pin="OUT2B_P" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="out2_n" physical_port="adc_data_2n" dir="in" left="1" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="OUT2A_N" />
+                <pin_map port_index="1" component_pin="OUT2B_N" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="fr_p" physical_port="adc_fr_p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="FR_P" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="fr_n" physical_port="adc_fr_n" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="FR_N" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="dco_p" physical_port="adc_dco_p" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="DCO_P" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="dco_n" physical_port="adc_dco_n" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="DCO_N" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="enc_p" physical_port="adc_encode_p" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="ENC_P" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="enc_n" physical_port="adc_encode_n" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="ENC_N" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="sclk" physical_port="adc_sclk" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="SCLK" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="sdi" physical_port="adc_sdi" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="SDI" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="sdo" physical_port="adc_sdo" dir="in">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="SDO" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="cs_b" physical_port="adc_cs_n" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CS_B" />
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+      </interfaces>
+    </component>
+    <component name="adc_ltc226x" display_name="SYZYGY ADC (LTC226x)" type="chip" sub_type="chip" major_group="Analog Converters">
+      <description>Opal Kelly SYZYGY ADC pod (LTC226x). Dropping this component instantiates the syzygy_adc AXI4-Stream PHY IP core and routes its SYZYGY interface through the SYZYGY port to the carrier's FPGA pins.</description>
+      <component_modes>
+        <component_mode name="adc_capture" display_name="SYZYGY ADC capture (AXI4-Stream)">
+          <interfaces>
+            <interface name="szg_adc" />
+          </interfaces>
+          <preferred_ips>
+            <preferred_ip vendor="opalkelly.com" library="ip" name="syzygy_adc" order="0" />
+          </preferred_ips>
+        </component_mode>
+      </component_modes>
+    </component>
+  </components>
+  <connections>
+    <connection name="szg_port_std_adc_ltc226x" component1="szg_port_std" component2="adc_ltc226x">
+      <connection_map name="adc_out1a_p" typical_delay="5" c1_st_index="0" c1_end_index="0" c2_st_index="0" c2_end_index="0" />
+      <connection_map name="adc_out1b_p" typical_delay="5" c1_st_index="4" c1_end_index="4" c2_st_index="1" c2_end_index="1" />
+      <connection_map name="adc_out1a_n" typical_delay="5" c1_st_index="2" c1_end_index="2" c2_st_index="2" c2_end_index="2" />
+      <connection_map name="adc_out1b_n" typical_delay="5" c1_st_index="6" c1_end_index="6" c2_st_index="3" c2_end_index="3" />
+      <connection_map name="adc_out2a_p" typical_delay="5" c1_st_index="5" c1_end_index="5" c2_st_index="4" c2_end_index="4" />
+      <connection_map name="adc_out2b_p" typical_delay="5" c1_st_index="9" c1_end_index="9" c2_st_index="5" c2_end_index="5" />
+      <connection_map name="adc_out2a_n" typical_delay="5" c1_st_index="7" c1_end_index="7" c2_st_index="6" c2_end_index="6" />
+      <connection_map name="adc_out2b_n" typical_delay="5" c1_st_index="11" c1_end_index="11" c2_st_index="7" c2_end_index="7" />
+      <connection_map name="adc_fr_p" typical_delay="5" c1_st_index="1" c1_end_index="1" c2_st_index="8" c2_end_index="8" />
+      <connection_map name="adc_fr_n" typical_delay="5" c1_st_index="3" c1_end_index="3" c2_st_index="9" c2_end_index="9" />
+      <connection_map name="adc_dco_p" typical_delay="5" c1_st_index="28" c1_end_index="28" c2_st_index="10" c2_end_index="10" />
+      <connection_map name="adc_dco_n" typical_delay="5" c1_st_index="30" c1_end_index="30" c2_st_index="11" c2_end_index="11" />
+      <connection_map name="adc_enc_p" typical_delay="5" c1_st_index="29" c1_end_index="29" c2_st_index="12" c2_end_index="12" />
+      <connection_map name="adc_enc_n" typical_delay="5" c1_st_index="31" c1_end_index="31" c2_st_index="13" c2_end_index="13" />
+      <connection_map name="adc_sclk" typical_delay="5" c1_st_index="12" c1_end_index="12" c2_st_index="14" c2_end_index="14" />
+      <connection_map name="adc_sdi" typical_delay="5" c1_st_index="14" c1_end_index="14" c2_st_index="15" c2_end_index="15" />
+      <connection_map name="adc_sdo" typical_delay="5" c1_st_index="8" c1_end_index="8" c2_st_index="16" c2_end_index="16" />
+      <connection_map name="adc_cs_b" typical_delay="5" c1_st_index="10" c1_end_index="10" c2_st_index="17" c2_end_index="17" />
+    </connection>
+  </connections>
+</board>
