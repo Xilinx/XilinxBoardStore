@@ -1,0 +1,43 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "SZG_ADC_LTC226X",
+          "display": "SZG-ADC-LTC226X Peripheral",
+          "revision": "1.0",
+          "description": "SZG-ADC-LTC226X SYZYGY Peripheral",
+          "company": "opalkelly.com",
+          "company_display": "Opal Kelly",
+          "author": "Opal Kelly",
+          "contributors": [
+            {
+              "group": "Opal Kelly",
+              "url": "https://opalkelly.com/"
+            }
+          ],
+          "category": "FMCs & Accessories",
+          "website": "https://opalkelly.com/products/szg-adc-ltc226x/",
+          "logo": "",
+          "search-keywords": [
+            "XEM8320-AU25P",
+            "SZG-HUB1450",
+            "SZG_ADC_LTC226X",
+            "ADC",
+            "LTC2264",
+            "LTC2268",
+            "SYZYGY",
+            "opalkelly.com",
+            "board",
+            "AU25P",
+            "Opal Kelly",
+            "FrontPanel",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}
