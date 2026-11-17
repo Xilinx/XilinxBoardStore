@@ -1,0 +1,43 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "SZG_DAC_AD911X",
+          "display": "SZG-DAC-AD911X Peripheral",
+          "revision": "1.0",
+          "description": "SZG-DAC-AD911X SYZYGY Peripheral",
+          "company": "opalkelly.com",
+          "company_display": "Opal Kelly",
+          "author": "Opal Kelly",
+          "contributors": [
+            {
+              "group": "Opal Kelly",
+              "url": "https://opalkelly.com/"
+            }
+          ],
+          "category": "FMCs & Accessories",
+          "website": "https://opalkelly.com/products/szg-dac-ad911x/",
+          "logo": "",
+          "search-keywords": [
+            "XEM8320-AU25P",
+            "SZG-HUB1450",
+            "SZG_DAC_AD911X",
+            "DAC",
+            "AD9116",
+            "AD911x",
+            "SYZYGY",
+            "opalkelly.com",
+            "board",
+            "AU25P",
+            "Opal Kelly",
+            "FrontPanel",
+            "Single Part"
+          ]
+        }
+      }
+    ]
+  },
+  "_major": 1,
+  "_minor": 0
+}
