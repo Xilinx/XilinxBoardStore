@@ -1,0 +1,4 @@
+######### SZG-ADC-LTC226X ############
+
+1.0
+Initial release
