@@ -9379,6 +9379,44 @@
           "metadata_file": "xitem.json"
         },
         "company": "opalkelly.com"
+      },
+      {
+        "name": "SZG_ADC_LTC226X",
+        "display": "SZG-ADC-LTC226X Peripheral",
+        "latest_revision": "1.0",
+        "commit_id": "1f8821c551b681e7e1b354c052b958d36a49d873",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "1f8821c551b681e7e1b354c052b958d36a49d873",
+            "date": "17-11-2026:11:25:14",
+            "history": "Added board SZG-ADC-LTC226X Peripheral v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/SZG-ADC-LTC226X/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
+      },
+      {
+        "name": "SZG_DAC_AD911X",
+        "display": "SZG-DAC-AD911X Peripheral",
+        "latest_revision": "1.0",
+        "commit_id": "1f8821c551b681e7e1b354c052b958d36a49d873",
+        "revisions": [
+          {
+            "revision": "1.0",
+            "commit_id": "1f8821c551b681e7e1b354c052b958d36a49d873",
+            "date": "17-11-2026:11:25:14",
+            "history": "Added board SZG-DAC-AD911X Peripheral v1.0"
+          }
+        ],
+        "config": {
+          "root": "boards/OpalKelly/SZG-DAC-AD911X/1.0",
+          "metadata_file": "xitem.json"
+        },
+        "company": "opalkelly.com"
       }
     ],
     "categories": [
