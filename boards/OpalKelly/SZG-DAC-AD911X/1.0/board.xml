@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<board schema_version="2.2" vendor="opalkelly.com" name="SZG_DAC_AD911X" display_name="SZG-DAC-AD911X Peripheral" url="https://opalkelly.com/products/szg-dac-ad911x/" preset_file="preset.xml" supports_ced="false">
+  <file_version>1.0</file_version>
+  <description>SZG-DAC-AD911X SYZYGY Peripheral</description>
+  <compatible_board_revisions>
+    <revision id="0">RevB</revision>
+  </compatible_board_revisions>
+  <components>
+    <component name="szg_port_std" type="connector" sub_type="som" display_name="SZG-DAC-AD911X (STD)">
+      <pins>
+        <pin index="0" name="DB0" iostandard="LVCMOS18" />
+        <pin index="1" name="DB1" iostandard="LVCMOS18" />
+        <pin index="2" name="DB2" iostandard="LVCMOS18" />
+        <pin index="3" name="DB3" iostandard="LVCMOS18" />
+        <pin index="4" name="DB4" iostandard="LVCMOS18" />
+        <pin index="5" name="DB5" iostandard="LVCMOS18" />
+        <pin index="6" name="DB6" iostandard="LVCMOS18" />
+        <pin index="7" name="DB7" iostandard="LVCMOS18" />
+        <pin index="8" name="DB8" iostandard="LVCMOS18" />
+        <pin index="9" name="DB9" iostandard="LVCMOS18" />
+        <pin index="10" name="DB10" iostandard="LVCMOS18" />
+        <pin index="11" name="DB11" iostandard="LVCMOS18" />
+        <pin index="12" name="CS_B" iostandard="LVCMOS18" />
+        <pin index="13" name="SCLK" iostandard="LVCMOS18" />
+        <pin index="14" name="SDIO" iostandard="LVCMOS18" />
+        <pin index="15" name="OPAMP_ENABLE" iostandard="LVCMOS18" />
+        <pin index="16" name="RESET_PINMD" iostandard="LVCMOS18" />
+        <pin index="17" name="unconnected" />
+        <pin index="18" name="unconnected" />
+        <pin index="19" name="unconnected" />
+        <pin index="20" name="unconnected" />
+        <pin index="21" name="unconnected" />
+        <pin index="22" name="unconnected" />
+        <pin index="23" name="unconnected" />
+        <pin index="24" name="unconnected" />
+        <pin index="25" name="unconnected" />
+        <pin index="26" name="unconnected" />
+        <pin index="27" name="unconnected" />
+        <pin index="28" name="DCLKIO" iostandard="LVCMOS18" />
+        <pin index="29" name="CLKIN" iostandard="LVCMOS18" />
+        <pin index="30" name="unconnected" />
+        <pin index="31" name="unconnected" />
+      </pins>
+      <interfaces>
+        <interface mode="master" name="szg_dac" type="opalkelly.com:interface:szg_dac_ad911x_rtl:1.0" of_component="dac_ad911x">
+          <description>SYZYGY DAC (AD911x) PHY interface. Connects to the syzygy_dac IP core (opalkelly.com:ip:syzygy_dac:1.0).</description>
+          <preferred_ips>
+            <preferred_ip vendor="opalkelly.com" library="ip" name="syzygy_dac" order="0" />
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="db" physical_port="dac_data" dir="out" left="11" right="0">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="DB0" />
+                <pin_map port_index="1" component_pin="DB1" />
+                <pin_map port_index="2" component_pin="DB2" />
+                <pin_map port_index="3" component_pin="DB3" />
+                <pin_map port_index="4" component_pin="DB4" />
+                <pin_map port_index="5" component_pin="DB5" />
+                <pin_map port_index="6" component_pin="DB6" />
+                <pin_map port_index="7" component_pin="DB7" />
+                <pin_map port_index="8" component_pin="DB8" />
+                <pin_map port_index="9" component_pin="DB9" />
+                <pin_map port_index="10" component_pin="DB10" />
+                <pin_map port_index="11" component_pin="DB11" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="clkin" physical_port="dac_clk" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CLKIN" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="reset_pinmd" physical_port="dac_reset_pinmd" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="RESET_PINMD" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="sclk" physical_port="dac_sclk" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="SCLK" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="cs_b" physical_port="dac_cs_n" dir="out">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="CS_B" />
+              </pin_maps>
+            </port_map>
+            <port_map logical_port="sdio" physical_port="dac_sdio" dir="inout">
+              <pin_maps>
+                <pin_map port_index="0" component_pin="SDIO" />
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+      </interfaces>
+    </component>
+    <component name="dac_ad911x" display_name="SYZYGY DAC (AD911x)" type="chip" sub_type="chip" major_group="Analog Converters">
+      <description>Opal Kelly SYZYGY DAC pod (AD911x). Dropping this component instantiates the syzygy_dac AXI4-Stream PHY IP core and routes its SYZYGY interface through the SYZYGY port to the carrier's FPGA pins.</description>
+      <component_modes>
+        <component_mode name="dac_playback" display_name="SYZYGY DAC playback (AXI4-Stream)">
+          <interfaces>
+            <interface name="szg_dac" />
+          </interfaces>
+          <preferred_ips>
+            <preferred_ip vendor="opalkelly.com" library="ip" name="syzygy_dac" order="0" />
+          </preferred_ips>
+        </component_mode>
+      </component_modes>
+    </component>
+  </components>
+  <connections>
+    <connection name="szg_port_std_dac_ad911x" component1="szg_port_std" component2="dac_ad911x">
+      <connection_map name="dac_db0" typical_delay="5" c1_st_index="0" c1_end_index="0" c2_st_index="0" c2_end_index="0" />
+      <connection_map name="dac_db1" typical_delay="5" c1_st_index="1" c1_end_index="1" c2_st_index="1" c2_end_index="1" />
+      <connection_map name="dac_db2" typical_delay="5" c1_st_index="2" c1_end_index="2" c2_st_index="2" c2_end_index="2" />
+      <connection_map name="dac_db3" typical_delay="5" c1_st_index="3" c1_end_index="3" c2_st_index="3" c2_end_index="3" />
+      <connection_map name="dac_db4" typical_delay="5" c1_st_index="4" c1_end_index="4" c2_st_index="4" c2_end_index="4" />
+      <connection_map name="dac_db5" typical_delay="5" c1_st_index="5" c1_end_index="5" c2_st_index="5" c2_end_index="5" />
+      <connection_map name="dac_db6" typical_delay="5" c1_st_index="6" c1_end_index="6" c2_st_index="6" c2_end_index="6" />
+      <connection_map name="dac_db7" typical_delay="5" c1_st_index="7" c1_end_index="7" c2_st_index="7" c2_end_index="7" />
+      <connection_map name="dac_db8" typical_delay="5" c1_st_index="8" c1_end_index="8" c2_st_index="8" c2_end_index="8" />
+      <connection_map name="dac_db9" typical_delay="5" c1_st_index="9" c1_end_index="9" c2_st_index="9" c2_end_index="9" />
+      <connection_map name="dac_db10" typical_delay="5" c1_st_index="10" c1_end_index="10" c2_st_index="10" c2_end_index="10" />
+      <connection_map name="dac_db11" typical_delay="5" c1_st_index="11" c1_end_index="11" c2_st_index="11" c2_end_index="11" />
+      <connection_map name="dac_clkin" typical_delay="5" c1_st_index="29" c1_end_index="29" c2_st_index="12" c2_end_index="12" />
+      <connection_map name="dac_reset_pinmd" typical_delay="5" c1_st_index="16" c1_end_index="16" c2_st_index="13" c2_end_index="13" />
+      <connection_map name="dac_sclk" typical_delay="5" c1_st_index="13" c1_end_index="13" c2_st_index="14" c2_end_index="14" />
+      <connection_map name="dac_cs_b" typical_delay="5" c1_st_index="12" c1_end_index="12" c2_st_index="15" c2_end_index="15" />
+      <connection_map name="dac_sdio" typical_delay="5" c1_st_index="14" c1_end_index="14" c2_st_index="16" c2_end_index="16" />
+    </connection>
+  </connections>
+</board>
